@@ -1,0 +1,14 @@
+-- Dia 023 — Agregações — 02/09/2026
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- ### Passo a passo completo
+-- 1. [ ] Escreva consultas com `COUNT`, `SUM`, `AVG`, `MIN` e `MAX` para a tabela de incidentes.
+-- 2. [ ] Agrupe por cidade, causa e severidade; calcule quantidade, duração média, clientes totais e percentual resolvido.
+-- 3. [ ] Use `HAVING` para manter apenas cidades com pelo menos cinco incidentes e duração média acima de 60.
+-- 4. [ ] Calcule taxa de resolução com proteção contra divisão por zero e compare resultado com pandas.
+-- 5. [ ] Crie uma tabela de validação manual para duas cidades e confirme os agregados linha por linha.
+--
+-- Escreva sua solução abaixo desta linha.

@@ -1,0 +1,15 @@
+Python: Python 3.14.0
+Git: git version 2.53.0.windows.2
+JuyterLab: IPython          : 9.16.1
+ipykernel        : 7.3.0
+ipywidgets       : not installed
+jupyter_client   : 8.9.1
+jupyter_core     : 5.9.1
+jupyter_server   : 2.20.0
+jupyterlab       : 4.6.2
+nbclient         : 0.11.0
+nbconvert        : 7.17.1
+nbformat         : 5.10.4
+notebook         : not installed
+qtconsole        : not installed
+traitlets        : 5.16.1

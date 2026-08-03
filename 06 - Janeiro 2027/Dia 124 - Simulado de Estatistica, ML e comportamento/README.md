@@ -1,0 +1,71 @@
+<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+
+## Dia 124 — Simulado de Estatística, ML e comportamento — 21/01/2027
+> [!abstract] Resultado concreto do dia
+> Concluir **Simulado de Estatística, ML e comportamento** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Preparação
+- **Assunto central:** Simulado de Estatística, ML e comportamento.
+- **Pasta/arquivo principal:** `semana-25/dia-124-simulado-de-estatistica-ml-e-comportamento.md`.
+- **Dados:** Projetos e dados acumulados durante o roadmap.
+- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
+
+### Passo a passo completo
+1. [ ] Responda 15 perguntas de estatística: média/mediana, probabilidade, IC, teste, A/B, correlação e viés.
+2. [ ] Responda 15 perguntas de ML: split, leakage, pipeline, métricas, modelos, tuning, calibração e explicabilidade.
+3. [ ] Prepare seis histórias comportamentais em STAR sobre liderança, erro, conflito, aprendizado, prioridade e impacto.
+4. [ ] Grave simulado de entrevista de 45 minutos.
+5. [ ] Revise respostas vagas e substitua por evidências concretas.
+
+### Verificação prática sem consulta
+- [ ] Apresente o resultado central de **Simulado de Estatística, ML e comportamento** sem abrir o README.
+- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
+- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+
+### Perguntas de checagem
+1. Como explicar um conceito técnico com precisão para alguém não técnico?
+
+**Resposta:**
+
+2. Em qual exercício de **Simulado de Estatística, ML e comportamento** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+
+**Resposta:**
+
+3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+
+**Resposta:**
+
+4. Como o conhecimento de **Simulado de Estatística, ML e comportamento** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+### Critério objetivo para marcar como concluído
+- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
+- [ ] O artefato executa do início ao fim sem edição manual oculta.
+- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
+- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
+- [ ] Commit realizado com mensagem no formato `dia-124: simulado-de-estatistica-ml-e-comportamento`.
+
+**Autoavaliação do dia:** `__/5`  
+**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
+
+---
+
+## Anotações pessoais
+
+### Resultado esperado antes de executar
+
+
+### Conceitos estudados
+
+
+### Dúvidas
+
+
+### Erros encontrados e correções
+
+
+### Aprendizado principal
+
+
+### Próxima ação

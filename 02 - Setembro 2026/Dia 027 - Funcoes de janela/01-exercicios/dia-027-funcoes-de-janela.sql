@@ -1,0 +1,14 @@
+-- Dia 027 — Funções de janela — 08/09/2026
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- ### Passo a passo completo
+-- 1. [ ] Use `ROW_NUMBER`, `RANK` e `DENSE_RANK` para ranquear incidentes por impacto dentro de cada cidade; explique diferenças em empates.
+-- 2. [ ] Calcule média móvel de sete dias, soma acumulada e diferença para o evento anterior com `LAG`.
+-- 3. [ ] Use `LEAD` para calcular tempo até o próximo incidente da mesma cidade.
+-- 4. [ ] Selecione o top 3 por cidade sem perder empates relevantes.
+-- 5. [ ] Compare uma solução com função de janela a outra com `GROUP BY` e explique por que elas respondem perguntas diferentes.
+--
+-- Escreva sua solução abaixo desta linha.

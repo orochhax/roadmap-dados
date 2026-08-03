@@ -1,0 +1,14 @@
+-- Dia 024 — JOINs — 03/09/2026
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- ### Passo a passo completo
+-- 1. [ ] Crie tabelas `clientes`, `planos`, `chamados` e `pagamentos` com chaves primárias e estrangeiras; importe dados do kit.
+-- 2. [ ] Escreva um `INNER JOIN` para clientes com plano, um `LEFT JOIN` para encontrar clientes sem pagamentos e um anti-join para planos sem clientes.
+-- 3. [ ] Crie um caso muitos-para-muitos acidental duplicando chaves; meça como isso infla soma de mensalidade.
+-- 4. [ ] Corrija o problema agregando antes do join ou validando cardinalidade.
+-- 5. [ ] Desenhe em Mermaid ou texto o relacionamento entre as quatro tabelas e anote a granularidade de cada uma.
+--
+-- Escreva sua solução abaixo desta linha.

@@ -1,0 +1,14 @@
+-- Dia 030 — Simulado SQL — 11/09/2026
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- ### Passo a passo completo
+-- 1. [ ] Resolva um simulado cronometrado com 20 questões: cinco filtros, quatro agregações, quatro joins, três CTEs, duas janelas e duas datas.
+-- 2. [ ] Use os arquivos `simulado_sql_perguntas.md` e `simulado_sql_respostas.sql`; não abra respostas durante os primeiros 90 minutos.
+-- 3. [ ] Para cada questão, marque tempo, confiança de 1–5 e se precisou consultar documentação.
+-- 4. [ ] Escolha as cinco piores respostas e reescreva do zero no fim do dia.
+-- 5. [ ] Crie uma folha de erros com categoria, causa, correção e regra que evitará repetição.
+--
+-- Escreva sua solução abaixo desta linha.

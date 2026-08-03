@@ -1,0 +1,92 @@
+<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+
+## Dia 95 — CI e versão estável — 11/12/2026
+> [!abstract] Resultado concreto do dia
+> Concluir **CI e versão estável** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Preparação
+- **Assunto central:** CI e versão estável.
+- **Pasta/arquivo principal:** `semana-19/dia-095-ci-e-versao-estavel/` (pasta do projeto).
+- **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
+- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
+
+### Passo a passo completo
+1. [ ] Crie workflow de CI que instale dependências e rode testes em cada push/PR.
+2. [ ] Adicione badge de testes ao README.
+3. [ ] Quebre um teste propositalmente para verificar bloqueio.
+4. [ ] Corrija e gere release `v1.0.0` com changelog.
+5. [ ] Faça revisão final usando checklist de PR.
+
+### Verificação prática sem consulta
+- [ ] Execute o artefato de **CI e versão estável** a partir de um terminal ou ambiente limpo.
+- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
+- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+
+### Perguntas de checagem
+1. Que verificações mínimas uma integração contínua deve executar antes de aceitar mudanças?
+
+**Resposta:**
+
+2. Em qual exercício de **CI e versão estável** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+
+**Resposta:**
+
+3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+
+**Resposta:**
+
+4. Como o conhecimento de **CI e versão estável** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+### Critério objetivo para marcar como concluído
+- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
+- [ ] O artefato executa do início ao fim sem edição manual oculta.
+- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
+- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
+- [ ] Commit realizado com mensagem no formato `dia-095: ci-e-versao-estavel`.
+
+**Autoavaliação do dia:** `__/5`  
+**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
+
+> [!project] Projeto semanal — Do notebook ao pacote testável
+> **Desafio:** Transformar um notebook de modelagem em código modular, configurável e coberto por testes.
+>
+> **Deve reutilizar:** Git, engenharia de software e projeto anterior.
+>
+> **Entregáveis obrigatórios:**
+> - [ ] pacote Python;
+> - [ ] configuração externa;
+> - [ ] testes automatizados;
+> - [ ] CI simples;
+> - [ ] release versionada;
+>
+> **Defesa:** demonstração de cinco minutos e resposta a três perguntas técnicas.
+>
+> **Nota mínima recomendada:** `6/10`.
+
+> [!check] Critério para avançar
+> Outro desenvolvedor consegue clonar, instalar, testar e executar seu projeto sem falar com você?
+
+---
+
+---
+
+## Anotações pessoais
+
+### Resultado esperado antes de executar
+
+
+### Conceitos estudados
+
+
+### Dúvidas
+
+
+### Erros encontrados e correções
+
+
+### Aprendizado principal
+
+
+### Próxima ação

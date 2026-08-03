@@ -1,0 +1,15 @@
+-- Dia 129 — TCC: dashboard, API, testes e relatório — 28/01/2027
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- ### Passo a passo completo
+-- 1. [ ] Defina o universo mínimo por classe, critérios de inclusão, período histórico e frequência de rebalanceamento.
+-- 2. [ ] Crie tabela de ativos com `ticker`, classe, segmento, data inicial, data final e regra de elegibilidade.
+-- 3. [ ] Importe preços ajustados, volume/liquidez, proventos e indicadores disponíveis; preserve a camada bruta.
+-- 4. [ ] Crie dicionário de dados e coluna `disponivel_em` para indicadores que não surgem no mesmo dia do período de referência.
+-- 5. [ ] Gere relatório automático de ausentes, duplicados, gaps, ativos sem histórico suficiente e datas inconsistentes.
+-- 6. [ ] Defina baselines, protocolo walk-forward, custos, métricas e critérios de sucesso antes de testar modelos.
+--
+-- Escreva sua solução abaixo desta linha.

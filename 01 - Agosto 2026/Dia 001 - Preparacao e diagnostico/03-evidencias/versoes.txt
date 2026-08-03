@@ -1,0 +1,4 @@
+Dia 001 — Preparação e diagnóstico
+Arquivo preparado; preencha durante a atividade.
+
+1. [x] Confirme no terminal as versões com `python --version`, `git --version` e `jupyter --version`; salve a saída em `01-python/dia01/versoes.txt`.

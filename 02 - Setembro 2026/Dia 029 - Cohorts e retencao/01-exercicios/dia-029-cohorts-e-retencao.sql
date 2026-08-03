@@ -1,0 +1,14 @@
+-- Dia 029 — Cohorts e retenção — 10/09/2026
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- ### Passo a passo completo
+-- 1. [ ] Defina coorte como mês da primeira compra ou ativação; calcule o mês inicial de cada cliente.
+-- 2. [ ] Crie tabela com `cohort_month`, `period_number`, clientes ativos e taxa de retenção.
+-- 3. [ ] Monte matriz de retenção do mês 0 ao mês 5 e valide manualmente uma coorte pequena com cinco clientes.
+-- 4. [ ] Compare retenção por canal de aquisição ou plano.
+-- 5. [ ] Escreva três conclusões e uma cautela sobre coortes pequenas.
+--
+-- Escreva sua solução abaixo desta linha.

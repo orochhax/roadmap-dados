@@ -1,0 +1,9 @@
+# Dia 060 — Benchmark publicado — 23/10/2026
+#
+# Arquivo preparado a partir do roadmap.
+# Nenhuma atividade foi resolvida neste arquivo.
+#
+# ENUNCIADOS
+# Adicione somente as dependências realmente utilizadas pelo projeto.
+#
+# Escreva sua solução abaixo desta linha.

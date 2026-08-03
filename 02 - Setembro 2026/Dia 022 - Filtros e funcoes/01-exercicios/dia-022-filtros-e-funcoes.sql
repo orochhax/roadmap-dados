@@ -1,0 +1,14 @@
+-- Dia 022 — Filtros e funções — 01/09/2026
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- ### Passo a passo completo
+-- 1. [ ] Escreva 15 consultas usando `WHERE`: igualdade, diferença, maior/menor, `BETWEEN`, `IN`, `LIKE`, `IS NULL`, `AND`, `OR` e `NOT`.
+-- 2. [ ] Crie filtros de negócio: P1 não resolvido; incidentes acima de 120 minutos; cidades com mais de 100 clientes afetados; causas contendo `fibra`.
+-- 3. [ ] Use funções de texto para padronizar cidade, funções numéricas para arredondar impacto e funções nulas para substituir valores ausentes.
+-- 4. [ ] Construa três consultas logicamente equivalentes com parênteses diferentes e explique por que uma delas retorna linhas erradas.
+-- 5. [ ] Teste limites exatos 50/51, 120/121 e datas de início/fim; registre os casos inclusivos e exclusivos.
+--
+-- Escreva sua solução abaixo desta linha.

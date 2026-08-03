@@ -1,0 +1,14 @@
+-- Dia 028 — Datas e análise temporal — 09/09/2026
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- ### Passo a passo completo
+-- 1. [ ] Converta colunas de texto em data/hora e extraia ano, mês, semana, dia da semana e hora.
+-- 2. [ ] Calcule incidentes e duração média por dia, semana e mês.
+-- 3. [ ] Meça tempo entre abertura e fechamento e classifique SLA em `no prazo` ou `atrasado`.
+-- 4. [ ] Crie calendário completo e faça `LEFT JOIN` para exibir dias sem eventos com zero.
+-- 5. [ ] Teste virada de mês, ano bissexto, horário nulo e eventos abertos; documente decisões.
+--
+-- Escreva sua solução abaixo desta linha.

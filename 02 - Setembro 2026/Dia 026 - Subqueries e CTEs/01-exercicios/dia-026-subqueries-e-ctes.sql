@@ -1,0 +1,14 @@
+-- Dia 026 — Subqueries e CTEs — 07/09/2026
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- ### Passo a passo completo
+-- 1. [ ] Escreva uma subquery escalar para comparar cada incidente à duração média geral.
+-- 2. [ ] Escreva uma subquery correlacionada para identificar incidentes acima da média de sua própria cidade.
+-- 3. [ ] Reescreva ambas usando CTEs e compare legibilidade.
+-- 4. [ ] Crie uma sequência de três CTEs: dados válidos → métricas por cidade → ranking final.
+-- 5. [ ] Introduza um filtro em posição errada e demonstre como ele altera o denominador de uma taxa.
+--
+-- Escreva sua solução abaixo desta linha.
