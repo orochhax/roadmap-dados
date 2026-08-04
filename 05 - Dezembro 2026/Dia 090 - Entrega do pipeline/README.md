@@ -8,7 +8,6 @@
 - **Assunto central:** Entrega do pipeline.
 - **Pasta/arquivo principal:** `semana-18/dia-090-entrega-do-pipeline/` (pasta do projeto).
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Empacote pipeline da semana com script de execução única.
@@ -24,35 +23,66 @@
 - [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
-1. Como demonstrar rastreabilidade desde a fonte até a tabela usada pelo modelo?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Entrega do pipeline** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual característica torna um pipeline de **Entrega do pipeline** seguro para ser executado novamente?
 
-**Resposta:**
+- [ ] A) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
+- [ ] B) Gerar um arquivo diferente a cada tentativa.
+- [ ] C) Apagar toda a origem antes de iniciar.
+- [ ] D) Depender de correções manuais após cada execução.
+- [ ] E) Ignorar registros já processados sem usar uma chave.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual controle de qualidade é mais útil em **Entrega do pipeline**?
 
-**Resposta:**
+- [ ] A) Aceitar qualquer alteração de esquema automaticamente.
+- [ ] B) Verificar somente o tamanho do arquivo final.
+- [ ] C) Remover registros problemáticos sem contabilizá-los.
+- [ ] D) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
+- [ ] E) Conferir apenas se o processo terminou sem erro.
 
-4. Como o conhecimento de **Entrega do pipeline** seria usado para apoiar uma decisão real em dados ou IA?
+3. O que melhora a observabilidade de uma solução de **Entrega do pipeline**?
 
-**Resposta:**
+- [ ] A) Depender da observação manual da pasta de saída.
+- [ ] B) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
+- [ ] C) Mensagens genéricas como 'deu erro'.
+- [ ] D) Ocultar falhas e repetir o processo indefinidamente.
+- [ ] E) Registrar somente o horário de início.
 
-5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+4. Como relacionar **Entrega do pipeline** a uma necessidade de negócio?
 
-**Resposta:**
+- [ ] A) Escolher a ferramenta mais complexa disponível.
+- [ ] B) Processar tudo em tempo real, mesmo sem necessidade.
+- [ ] C) Manter dados sem informar origem ou atualização.
+- [ ] D) Priorizar volume acima de confiabilidade e custo.
+- [ ] E) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
 
-6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
+5. Ordene um fluxo de dados para **Entrega do pipeline**.
 
-**Resposta:**
+- A) Definir fontes, destino, frequência e contrato dos dados.
+- B) Validar e transformar preservando rastreabilidade.
+- C) Extrair os dados com identificação da execução.
+- D) Carregar de forma idempotente no destino.
+- E) Monitorar qualidade, volume, duração e falhas.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a uma falha em **Entrega do pipeline**.
+
+- A) Detectar a falha por alerta ou verificação automática.
+- B) Corrigir a causa mantendo os dados íntegros.
+- C) Identificar execução, etapa e dados afetados.
+- D) Reprocessar somente o escopo necessário.
+- E) Confirmar a recuperação e registrar prevenção.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-090: entrega-do-pipeline`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -79,9 +109,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Entrega do pipeline.
+- **Competência sugerida:** Engenharia de Dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Engenharia de Dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

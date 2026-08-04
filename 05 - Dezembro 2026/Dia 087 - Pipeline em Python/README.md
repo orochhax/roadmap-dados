@@ -8,7 +8,6 @@
 - **Assunto central:** Pipeline em Python.
 - **Pasta/arquivo principal:** `semana-18/dia-087-pipeline-em-python.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Implemente `extract.py` para ler CSV/JSON, `transform.py` para limpar e criar features, e `load.py` para gravar Parquet ou DuckDB.
@@ -24,44 +23,86 @@
 - [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
-1. O que torna um pipeline idempotente, observável e seguro para reexecução?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Pipeline em Python** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual característica torna um pipeline de **Pipeline em Python** seguro para ser executado novamente?
 
-**Resposta:**
+- [ ] A) Apagar toda a origem antes de iniciar.
+- [ ] B) Depender de correções manuais após cada execução.
+- [ ] C) Ignorar registros já processados sem usar uma chave.
+- [ ] D) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
+- [ ] E) Gerar um arquivo diferente a cada tentativa.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual controle de qualidade é mais útil em **Pipeline em Python**?
 
-**Resposta:**
+- [ ] A) Remover registros problemáticos sem contabilizá-los.
+- [ ] B) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
+- [ ] C) Conferir apenas se o processo terminou sem erro.
+- [ ] D) Aceitar qualquer alteração de esquema automaticamente.
+- [ ] E) Verificar somente o tamanho do arquivo final.
 
-4. Como o conhecimento de **Pipeline em Python** seria usado para apoiar uma decisão real em dados ou IA?
+3. O que melhora a observabilidade de uma solução de **Pipeline em Python**?
 
-**Resposta:**
+- [ ] A) Mensagens genéricas como 'deu erro'.
+- [ ] B) Ocultar falhas e repetir o processo indefinidamente.
+- [ ] C) Registrar somente o horário de início.
+- [ ] D) Depender da observação manual da pasta de saída.
+- [ ] E) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
 
-5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+4. Como relacionar **Pipeline em Python** a uma necessidade de negócio?
 
-**Resposta:**
+- [ ] A) Manter dados sem informar origem ou atualização.
+- [ ] B) Priorizar volume acima de confiabilidade e custo.
+- [ ] C) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
+- [ ] D) Escolher a ferramenta mais complexa disponível.
+- [ ] E) Processar tudo em tempo real, mesmo sem necessidade.
 
-6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
+5. Ordene um fluxo de dados para **Pipeline em Python**.
 
-**Resposta:**
+- A) Monitorar qualidade, volume, duração e falhas.
+- B) Validar e transformar preservando rastreabilidade.
+- C) Extrair os dados com identificação da execução.
+- D) Carregar de forma idempotente no destino.
+- E) Definir fontes, destino, frequência e contrato dos dados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a uma falha em **Pipeline em Python**.
+
+- A) Detectar a falha por alerta ou verificação automática.
+- B) Confirmar a recuperação e registrar prevenção.
+- C) Identificar execução, etapa e dados afetados.
+- D) Reprocessar somente o escopo necessário.
+- E) Corrigir a causa mantendo os dados íntegros.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-087: pipeline-em-python`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Pipeline em Python.
+- **Competência sugerida:** Pipelines de dados com Python.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Pipelines de dados com Python** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

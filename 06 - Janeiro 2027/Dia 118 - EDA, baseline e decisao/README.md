@@ -8,7 +8,6 @@
 - **Assunto central:** EDA, baseline e decisão.
 - **Pasta/arquivo principal:** `semana-24/dia-118-eda-baseline-e-decisao.ipynb`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Faça EDA focada nas hipóteses do produto.
@@ -24,44 +23,86 @@
 - [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
-1. Como provar que o baseline e a análise respondem à decisão definida no escopo?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **EDA, baseline e decisão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual decisão deve orientar um produto de **EDA, baseline e decisão**?
 
-**Resposta:**
+- [ ] A) Treinar um modelo antes de conhecer os dados.
+- [ ] B) Trocar o objetivo sempre que surgir uma ferramenta nova.
+- [ ] C) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
+- [ ] D) Incluir o maior número possível de tecnologias.
+- [ ] E) Começar pela interface sem definir o problema.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. O que reduz falhas entre componentes em **EDA, baseline e decisão**?
 
-**Resposta:**
+- [ ] A) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
+- [ ] B) Cada componente interpretar os campos de uma forma.
+- [ ] C) Alterar formatos sem avisar os consumidores.
+- [ ] D) Depender de passos manuais não documentados.
+- [ ] E) Compartilhar estado interno sem uma interface definida.
 
-4. Como o conhecimento de **EDA, baseline e decisão** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual teste oferece mais confiança em uma entrega de **EDA, baseline e decisão**?
 
-**Resposta:**
+- [ ] A) Conferir somente se os arquivos existem.
+- [ ] B) Executar apenas com o conjunto usado no desenvolvimento.
+- [ ] C) Ignorar erros externos quando o código local funciona.
+- [ ] D) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
+- [ ] E) Testar apenas cada tela isoladamente.
 
-5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+4. Como avaliar o valor de uma solução de **EDA, baseline e decisão** após a entrega?
 
-**Resposta:**
+- [ ] A) Avaliar apenas comentários da equipe que desenvolveu.
+- [ ] B) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
+- [ ] C) Medir apenas a quantidade de linhas de código.
+- [ ] D) Usar somente o número de tecnologias integradas.
+- [ ] E) Considerar publicação equivalente a sucesso.
 
-6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
+5. Ordene a construção de um produto de **EDA, baseline e decisão**.
 
-**Resposta:**
+- A) Construir primeiro um fluxo mínimo de ponta a ponta.
+- B) Desenhar dados, componentes e contratos entre eles.
+- C) Publicar, observar o uso e iterar com evidências.
+- D) Testar qualidade, integração, segurança e falhas.
+- E) Definir usuário, problema, decisão e medida de sucesso.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação da entrega de **EDA, baseline e decisão**.
+
+- A) Coletar feedback e priorizar correções ou melhorias.
+- B) Revisar documentação, configuração e instruções de execução.
+- C) Executar testes automatizados e manuais do fluxo completo.
+- D) Apresentar a solução com limitações e decisões técnicas.
+- E) Congelar o escopo e registrar critérios de conclusão.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-118: eda-baseline-e-decisao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** EDA, baseline e decisão.
+- **Competência sugerida:** EDA e baselines.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **EDA e baselines** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

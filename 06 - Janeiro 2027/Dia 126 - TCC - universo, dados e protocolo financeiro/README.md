@@ -53,16 +53,27 @@
 - [ ] Universo e regras de elegibilidade documentados.
 - [ ] Protocolo definido antes da modelagem.
 - [ ] Pelo menos três testes automáticos de qualidade aprovados.
-- [ ] Commit: `dia-126: universo-dados-e-protocolo-financeiro`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** relatório de qualidade, dicionário, protocolo e commit.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** TCC: universo, dados e protocolo financeiro.
+- **Competência sugerida:** Análise de dados financeiros.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise de dados financeiros** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

@@ -8,7 +8,6 @@
 - **Assunto central:** Mini-projeto de consolidação.
 - **Pasta/arquivo principal:** `semana-02/dia-010-mini-projeto-de-consolidacao/` (pasta do projeto).
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie uma pasta `projeto_semana02` e copie somente os módulos realmente necessários, sem levar arquivos temporários.
@@ -21,38 +20,69 @@
 > Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
 
 - [ ] Amplie um dos programas de **Mini-projeto de consolidação** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
 
 ### Perguntas de checagem
-1. Como garantir que registros vindos de fontes diferentes representam a mesma estrutura e não sejam duplicados?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Mini-projeto de consolidação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Ao praticar **Mini-projeto de consolidação**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
 
-**Resposta:**
+- [ ] A) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+- [ ] B) Copiar um código pronto e alterar valores até ele executar.
+- [ ] C) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+- [ ] D) Ignorar os tipos das variáveis quando a saída parece plausível.
+- [ ] E) Evitar testes para não modificar o código que já executou uma vez.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Mini-projeto de consolidação**?
 
-**Resposta:**
+- [ ] A) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+- [ ] B) Remover mensagens de erro para deixar o terminal mais limpo.
+- [ ] C) Repetir o mesmo cálculo em vários lugares do arquivo.
+- [ ] D) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+- [ ] E) Transformar todas as entradas em texto e calcular diretamente.
 
-4. Como o conhecimento de **Mini-projeto de consolidação** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual teste fornece a verificação mais completa para um exercício de **Mini-projeto de consolidação**?
 
-**Resposta:**
+- [ ] A) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+- [ ] B) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+- [ ] C) Executar apenas o exemplo numérico apresentado no enunciado.
+- [ ] D) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+- [ ] E) Ler o código sem executá-lo porque a sintaxe parece correta.
 
-5. Que parte da sua solução de **Mini-projeto de consolidação** ficaria mais difícil de manter se novas regras fossem adicionadas?
+4. Ao usar um cálculo de **Mini-projeto de consolidação** para apoiar uma decisão, qual atitude é mais adequada?
 
-**Resposta:**
+- [ ] A) Apresentar apenas o número final sem informar de onde ele veio.
+- [ ] B) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+- [ ] C) Considerar qualquer saída do Python como prova suficiente.
+- [ ] D) Excluir valores que contradizem a primeira interpretação.
+- [ ] E) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
 
-6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
+5. Ordene um fluxo seguro para resolver uma atividade de **Mini-projeto de consolidação**.
 
-**Resposta:**
+- A) Ler o enunciado e identificar o objetivo.
+- B) Implementar a solução em pequenas etapas.
+- C) Definir as entradas, as regras e a saída necessária.
+- D) Executar testes com valores diferentes.
+- E) Revisar o código e registrar o aprendizado.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Mini-projeto de consolidação**.
+
+- A) Anotar o que provocou o erro e como ele foi corrigido.
+- B) Isolar a parte do código que causa o problema.
+- C) Corrigir a causa identificada.
+- D) Executar novamente os testes afetados.
+- E) Reproduzir o erro e observar a mensagem ou a saída.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-010: mini-projeto-de-consolidacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -81,9 +111,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Mini-projeto de consolidação.
+- **Competência sugerida:** Python e construção de pipelines.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **Python e construção de pipelines** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

@@ -8,7 +8,6 @@
 - **Assunto central:** Arquitetura e entrevista.
 - **Pasta/arquivo principal:** `semana-21/dia-105-arquitetura-e-entrevista/` (pasta do projeto).
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Desenhe a arquitetura final do sistema de churn/risco com dados, pipeline, modelo, API e monitoramento.
@@ -52,7 +51,7 @@
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-105: arquitetura-e-entrevista`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -81,9 +80,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Arquitetura e entrevista.
+- **Competência sugerida:** Arquitetura de dados e Machine Learning.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Arquitetura de dados e Machine Learning** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

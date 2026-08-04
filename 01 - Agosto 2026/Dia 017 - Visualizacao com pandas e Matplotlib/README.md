@@ -8,7 +8,6 @@
 - **Assunto central:** Visualização com pandas e Matplotlib.
 - **Pasta/arquivo principal:** `semana-04/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Com `pedidos.csv`, crie séries temporais de receita diária e mensal, barras de receita por canal e boxplot de valor por categoria.
@@ -24,44 +23,86 @@
 - [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
-1. Quais elementos tornam um gráfico tecnicamente correto, mas ainda assim enganoso?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Visualização com pandas e Matplotlib** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de tirar conclusões em **Visualização com pandas e Matplotlib**, qual é a prática mais confiável?
 
-**Resposta:**
+- [ ] A) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] B) Calcular médias antes de entender o que cada linha representa.
+- [ ] C) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] D) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] E) Começar pelo gráfico mais bonito e escolher os dados depois.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Visualização com pandas e Matplotlib**?
 
-**Resposta:**
+- [ ] A) Substituir valores ausentes pelo maior valor disponível.
+- [ ] B) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] C) Somar todas as colunas numéricas independentemente do significado.
+- [ ] D) Arredondar os valores antes de analisar diferenças.
+- [ ] E) Usar apenas as primeiras linhas como representação de toda a base.
 
-4. Como o conhecimento de **Visualização com pandas e Matplotlib** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Visualização com pandas e Matplotlib**?
 
-**Resposta:**
+- [ ] A) Ordenar as colunas pelo tamanho do nome.
+- [ ] B) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] C) Excluir categorias pequenas antes de examiná-las.
+- [ ] D) Duplicar a base e repetir o mesmo cálculo.
+- [ ] E) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
 
-5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
+4. Como uma análise de **Visualização com pandas e Matplotlib** deve ser apresentada para apoiar uma decisão?
 
-**Resposta:**
+- [ ] A) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] B) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] C) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] D) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] E) Omitindo incertezas para transmitir mais confiança.
 
-6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
+5. Ordene um fluxo de análise para uma atividade de **Visualização com pandas e Matplotlib**.
 
-**Resposta:**
+- A) Comunicar a conclusão, as limitações e a ação sugerida.
+- B) Preparar os dados sem perder a granularidade necessária.
+- C) Inspecionar a estrutura e a qualidade dos dados.
+- D) Calcular e visualizar as evidências relevantes.
+- E) Definir a pergunta que precisa ser respondida.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Visualização com pandas e Matplotlib**.
+
+- A) Identificar o público e a decisão que será apoiada.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Apresentar a mensagem principal e o próximo passo.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Escolher o tipo de visual compatível com a comparação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-017: visualizacao-com-pandas-e-matplotlib`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Visualização com pandas e Matplotlib.
+- **Competência sugerida:** Matplotlib.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Matplotlib** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

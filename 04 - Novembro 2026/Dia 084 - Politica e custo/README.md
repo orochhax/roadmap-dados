@@ -8,7 +8,6 @@
 - **Assunto central:** Política e custo.
 - **Pasta/arquivo principal:** `semana-17/dia-084-politica-e-custo.ipynb`.
 - **Dados:** `dados/credito.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Converta probabilidade em faixas de risco A–E.
@@ -24,44 +23,86 @@
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Como transformar score em aprovação, limite ou preço sem ignorar custo e capacidade de perda?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Política e custo** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual definição é essencial antes de modelar **Política e custo**?
 
-**Resposta:**
+- [ ] A) Definir risco apenas como uma pontuação alta do modelo.
+- [ ] B) Estabelecer o evento de risco, o horizonte, a população e a data-limite das informações permitidas.
+- [ ] C) Escolher o algoritmo antes de definir o evento.
+- [ ] D) Usar dados posteriores ao evento para completar o cadastro.
+- [ ] E) Remover todos os casos sem histórico longo.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Por que a calibração importa em uma aplicação de **Política e custo**?
 
-**Resposta:**
+- [ ] A) Porque transforma qualquer modelo no mais preciso.
+- [ ] B) Porque elimina diferenças entre grupos.
+- [ ] C) Porque permite ignorar a taxa-base do evento.
+- [ ] D) Porque substitui a validação temporal.
+- [ ] E) Porque a probabilidade estimada precisa representar uma frequência útil para políticas baseadas em custo e risco.
 
-4. Como o conhecimento de **Política e custo** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual cuidado de governança é necessário em **Política e custo**?
 
-**Resposta:**
+- [ ] A) Usar atributos sensíveis sem analisar consequências.
+- [ ] B) Manter a política fixa mesmo quando os dados mudarem.
+- [ ] C) Documentar dados, critérios, limitações e desempenho por segmento, com revisão de possíveis impactos injustos.
+- [ ] D) Ocultar as variáveis para impedir questionamentos.
+- [ ] E) Avaliar somente o grupo mais numeroso.
 
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+4. Como transformar uma pontuação de **Política e custo** em política?
 
-**Resposta:**
+- [ ] A) Definir faixas e ações segundo perdas, capacidade, restrições e acompanhamento posterior.
+- [ ] B) Aplicar automaticamente a mesma decisão a toda pontuação positiva.
+- [ ] C) Usar 50% como corte obrigatório.
+- [ ] D) Escolher o corte que aprova o menor número de pessoas.
+- [ ] E) Ignorar o custo de erros porque a probabilidade já resume tudo.
 
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+5. Ordene o desenvolvimento de um modelo para **Política e custo**.
 
-**Resposta:**
+- A) Documentar limites e propor uma política de uso.
+- B) Separar períodos e treinar um baseline.
+- C) Construir dados disponíveis até a data de decisão.
+- D) Avaliar discriminação, calibração e desempenho por segmento.
+- E) Definir evento, horizonte, população e restrições.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política baseada em **Política e custo**.
+
+- A) Definir custos, benefícios, capacidade e restrições.
+- B) Escolher regras compatíveis com risco e operação.
+- C) Simular faixas de pontuação e decisões possíveis.
+- D) Monitorar impacto, estabilidade e diferenças entre grupos.
+- E) Aplicar a política com controles e rastreabilidade.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-084: politica-e-custo`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Política e custo.
+- **Competência sugerida:** Políticas de decisão e análise de custo.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Políticas de decisão e análise de custo** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

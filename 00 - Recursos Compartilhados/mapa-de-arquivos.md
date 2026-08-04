@@ -5,7 +5,6 @@
 ## Dia 001 — Preparação e diagnóstico
 
 - [02-pratica-sem-consulta/diagnostico.py](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/02-pratica-sem-consulta/diagnostico.py>)
-- [03-evidencias/versoes.md](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/03-evidencias/versoes.md>)
 - [03-evidencias/versoes.txt](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/03-evidencias/versoes.txt>)
 - [README.md](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/README.md>)
 

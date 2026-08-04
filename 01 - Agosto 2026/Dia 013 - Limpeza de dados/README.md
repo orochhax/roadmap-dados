@@ -8,7 +8,6 @@
 - **Assunto central:** Limpeza de dados.
 - **Pasta/arquivo principal:** `semana-03/dia-013-limpeza-de-dados.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Use uma base com ausentes, duplicados, categorias inconsistentes (`Eunapolis`, `Eunápolis`, `EUNÁPOLIS`) e valores extremos.
@@ -24,44 +23,86 @@
 - [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
-1. Quando remover, imputar ou manter um valor ausente, e como documentar essa decisão?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Limpeza de dados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de tirar conclusões em **Limpeza de dados**, qual é a prática mais confiável?
 
-**Resposta:**
+- [ ] A) Calcular médias antes de entender o que cada linha representa.
+- [ ] B) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] C) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] D) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] E) Remover todas as linhas incompletas sem medir o impacto.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Limpeza de dados**?
 
-**Resposta:**
+- [ ] A) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] B) Somar todas as colunas numéricas independentemente do significado.
+- [ ] C) Arredondar os valores antes de analisar diferenças.
+- [ ] D) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] E) Substituir valores ausentes pelo maior valor disponível.
 
-4. Como o conhecimento de **Limpeza de dados** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Limpeza de dados**?
 
-**Resposta:**
+- [ ] A) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] B) Excluir categorias pequenas antes de examiná-las.
+- [ ] C) Duplicar a base e repetir o mesmo cálculo.
+- [ ] D) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] E) Ordenar as colunas pelo tamanho do nome.
 
-5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+4. Como uma análise de **Limpeza de dados** deve ser apresentada para apoiar uma decisão?
 
-**Resposta:**
+- [ ] A) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] B) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] C) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] D) Omitindo incertezas para transmitir mais confiança.
+- [ ] E) Usando apenas termos técnicos, sem explicar o impacto.
 
-6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
+5. Ordene um fluxo de análise para uma atividade de **Limpeza de dados**.
 
-**Resposta:**
+- A) Preparar os dados sem perder a granularidade necessária.
+- B) Inspecionar a estrutura e a qualidade dos dados.
+- C) Definir a pergunta que precisa ser respondida.
+- D) Comunicar a conclusão, as limitações e a ação sugerida.
+- E) Calcular e visualizar as evidências relevantes.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Limpeza de dados**.
+
+- A) Apresentar a mensagem principal e o próximo passo.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Escolher o tipo de visual compatível com a comparação.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Identificar o público e a decisão que será apoiada.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-013: limpeza-de-dados`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Limpeza de dados.
+- **Competência sugerida:** Limpeza de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Limpeza de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

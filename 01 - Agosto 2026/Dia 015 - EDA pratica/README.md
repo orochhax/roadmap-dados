@@ -8,7 +8,6 @@
 - **Assunto central:** EDA prática.
 - **Pasta/arquivo principal:** `semana-03/dia-015-eda-pratica/` (pasta do projeto).
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha `clientes_telecom.csv` e escreva antes da análise cinco perguntas de negócio sobre churn, chamados, plano, mensalidade e NPS.
@@ -24,35 +23,66 @@
 - [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
-1. Como distinguir uma descoberta útil de uma coincidência visual durante uma análise exploratória?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **EDA prática** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de tirar conclusões em **EDA prática**, qual é a prática mais confiável?
 
-**Resposta:**
+- [ ] A) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] B) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] C) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] D) Calcular médias antes de entender o que cada linha representa.
+- [ ] E) Considerar os nomes das colunas suficientes para validar os dados.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **EDA prática**?
 
-**Resposta:**
+- [ ] A) Arredondar os valores antes de analisar diferenças.
+- [ ] B) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] C) Substituir valores ausentes pelo maior valor disponível.
+- [ ] D) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] E) Somar todas as colunas numéricas independentemente do significado.
 
-4. Como o conhecimento de **EDA prática** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **EDA prática**?
 
-**Resposta:**
+- [ ] A) Duplicar a base e repetir o mesmo cálculo.
+- [ ] B) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] C) Ordenar as colunas pelo tamanho do nome.
+- [ ] D) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] E) Excluir categorias pequenas antes de examiná-las.
 
-5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+4. Como uma análise de **EDA prática** deve ser apresentada para apoiar uma decisão?
 
-**Resposta:**
+- [ ] A) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] B) Omitindo incertezas para transmitir mais confiança.
+- [ ] C) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] D) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] E) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
 
-6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
+5. Ordene um fluxo de análise para uma atividade de **EDA prática**.
 
-**Resposta:**
+- A) Definir a pergunta que precisa ser respondida.
+- B) Preparar os dados sem perder a granularidade necessária.
+- C) Comunicar a conclusão, as limitações e a ação sugerida.
+- D) Calcular e visualizar as evidências relevantes.
+- E) Inspecionar a estrutura e a qualidade dos dados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **EDA prática**.
+
+- A) Identificar o público e a decisão que será apoiada.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Apresentar a mensagem principal e o próximo passo.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Escolher o tipo de visual compatível com a comparação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-015: eda-pratica`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -81,9 +111,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** EDA prática.
+- **Competência sugerida:** Análise Exploratória de Dados (EDA).
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise Exploratória de Dados (EDA)** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

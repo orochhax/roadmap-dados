@@ -87,7 +87,7 @@
 - [ ] Defesa gravada e perguntas respondidas sem ler o README.
 - [ ] Limitações e períodos ruins apresentados com honestidade.
 - [ ] Primeiras candidaturas registradas.
-- [ ] Commit: `dia-130: publicar-defender-e-iniciar-candidaturas`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** release, post, vídeo, candidaturas e retrospectiva.
@@ -114,9 +114,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** TCC: publicação, banca e candidaturas.
+- **Competência sugerida:** Portfólio de Ciência de Dados e comunicação técnica.
+- **Ação recomendada:** Mantenha o título final e atualize as seções Sobre, Competências, Projetos e Destaques com o TCC, incluindo links e evidências.
+- **Título final recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Após o roadmap — revisar o perfil sempre que concluir um projeto relevante ou mudar o objetivo profissional.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

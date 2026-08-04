@@ -8,7 +8,6 @@
 - **Assunto central:** Orquestração conceitual.
 - **Pasta/arquivo principal:** `semana-18/dia-088-orquestracao-conceitual.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Modele o pipeline como tarefas com dependências: extrair → validar → transformar → carregar → testar.
@@ -24,44 +23,86 @@
 - [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
-1. Qual a diferença entre dependência, agendamento, retry, backfill e monitoramento?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Orquestração conceitual** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual característica torna um pipeline de **Orquestração conceitual** seguro para ser executado novamente?
 
-**Resposta:**
+- [ ] A) Depender de correções manuais após cada execução.
+- [ ] B) Ignorar registros já processados sem usar uma chave.
+- [ ] C) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
+- [ ] D) Gerar um arquivo diferente a cada tentativa.
+- [ ] E) Apagar toda a origem antes de iniciar.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual controle de qualidade é mais útil em **Orquestração conceitual**?
 
-**Resposta:**
+- [ ] A) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
+- [ ] B) Conferir apenas se o processo terminou sem erro.
+- [ ] C) Aceitar qualquer alteração de esquema automaticamente.
+- [ ] D) Verificar somente o tamanho do arquivo final.
+- [ ] E) Remover registros problemáticos sem contabilizá-los.
 
-4. Como o conhecimento de **Orquestração conceitual** seria usado para apoiar uma decisão real em dados ou IA?
+3. O que melhora a observabilidade de uma solução de **Orquestração conceitual**?
 
-**Resposta:**
+- [ ] A) Ocultar falhas e repetir o processo indefinidamente.
+- [ ] B) Registrar somente o horário de início.
+- [ ] C) Depender da observação manual da pasta de saída.
+- [ ] D) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
+- [ ] E) Mensagens genéricas como 'deu erro'.
 
-5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+4. Como relacionar **Orquestração conceitual** a uma necessidade de negócio?
 
-**Resposta:**
+- [ ] A) Priorizar volume acima de confiabilidade e custo.
+- [ ] B) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
+- [ ] C) Escolher a ferramenta mais complexa disponível.
+- [ ] D) Processar tudo em tempo real, mesmo sem necessidade.
+- [ ] E) Manter dados sem informar origem ou atualização.
 
-6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
+5. Ordene um fluxo de dados para **Orquestração conceitual**.
 
-**Resposta:**
+- A) Validar e transformar preservando rastreabilidade.
+- B) Extrair os dados com identificação da execução.
+- C) Definir fontes, destino, frequência e contrato dos dados.
+- D) Carregar de forma idempotente no destino.
+- E) Monitorar qualidade, volume, duração e falhas.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a uma falha em **Orquestração conceitual**.
+
+- A) Corrigir a causa mantendo os dados íntegros.
+- B) Identificar execução, etapa e dados afetados.
+- C) Detectar a falha por alerta ou verificação automática.
+- D) Reprocessar somente o escopo necessário.
+- E) Confirmar a recuperação e registrar prevenção.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-088: orquestracao-conceitual`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Orquestração conceitual.
+- **Competência sugerida:** Orquestração de pipelines.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Orquestração de pipelines** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

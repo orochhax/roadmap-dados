@@ -8,7 +8,6 @@
 - **Assunto central:** Simulado SQL.
 - **Pasta/arquivo principal:** `semana-06/dia-030-simulado-sql/` (pasta do projeto).
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Resolva um simulado cronometrado com 20 questões: cinco filtros, quatro agregações, quatro joins, três CTEs, duas janelas e duas datas.
@@ -24,35 +23,66 @@
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Como você investigaria uma consulta correta sintaticamente, mas com resultado numericamente suspeito?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Simulado SQL** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de escrever uma consulta de **Simulado SQL**, o que deve ser definido primeiro?
 
-**Resposta:**
+- [ ] A) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] B) A quantidade máxima de linhas que caberá na tela.
+- [ ] C) A ordem alfabética dos nomes das tabelas.
+- [ ] D) O uso obrigatório de todas as colunas disponíveis.
+- [ ] E) A formatação visual da tabela final antes dos cálculos.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Simulado SQL**?
 
-**Resposta:**
+- [ ] A) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] B) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] C) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] D) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] E) Usar sempre `INNER JOIN`, independentemente da pergunta.
 
-4. Como o conhecimento de **Simulado SQL** seria usado para apoiar uma decisão real em dados ou IA?
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Simulado SQL**?
 
-**Resposta:**
+- [ ] A) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] B) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] C) Sempre como zero, porque simplifica as agregações.
+- [ ] D) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] E) Excluindo automaticamente todas as linhas que contenham `NULL`.
 
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+4. Qual verificação aumenta mais a confiança em uma consulta de **Simulado SQL**?
 
-**Resposta:**
+- [ ] A) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] B) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] C) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] D) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] E) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
 
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+5. Ordene a construção de uma consulta para **Simulado SQL**.
 
-**Resposta:**
+- A) Definir a pergunta, a métrica e a granularidade.
+- B) Montar filtros e junções da base da consulta.
+- C) Identificar tabelas, campos e chaves necessárias.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Validar contagens, totais e algumas linhas manualmente.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Simulado SQL**.
+
+- A) Reproduzir o problema com um recorte pequeno.
+- B) Executar separadamente cada etapa ou CTE.
+- C) Executar a consulta completa e registrar a causa do erro.
+- D) Corrigir a etapa que altera os dados indevidamente.
+- E) Conferir chaves, duplicidades, filtros e contagens.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-030: simulado-sql`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -84,9 +114,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Simulado SQL.
+- **Competência sugerida:** SQL analítico.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **SQL analítico** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

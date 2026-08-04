@@ -49,16 +49,27 @@
 - [ ] Custos aparecem em todos os resultados líquidos.
 - [ ] Há comparação dentro e fora da amostra.
 - [ ] Pelo menos três estratégias e um benchmark foram comparados.
-- [ ] Commit: `dia-128: carteiras-e-backtest-walk-forward`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** curvas, tabela de métricas, testes de sensibilidade e commit.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** TCC: carteiras e backtest walk-forward.
+- **Competência sugerida:** Backtesting e construção de carteiras.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Backtesting e construção de carteiras** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

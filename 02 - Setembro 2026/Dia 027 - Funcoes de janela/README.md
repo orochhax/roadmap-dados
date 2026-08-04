@@ -8,7 +8,6 @@
 - **Assunto central:** Funções de janela.
 - **Pasta/arquivo principal:** `semana-06/dia-027-funcoes-de-janela.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Use `ROW_NUMBER`, `RANK` e `DENSE_RANK` para ranquear incidentes por impacto dentro de cada cidade; explique diferenças em empates.
@@ -24,44 +23,86 @@
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Qual a diferença entre agregar linhas e usar uma função de janela sem perder granularidade?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Funções de janela** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de escrever uma consulta de **Funções de janela**, o que deve ser definido primeiro?
 
-**Resposta:**
+- [ ] A) A ordem alfabética dos nomes das tabelas.
+- [ ] B) O uso obrigatório de todas as colunas disponíveis.
+- [ ] C) A formatação visual da tabela final antes dos cálculos.
+- [ ] D) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] E) A quantidade máxima de linhas que caberá na tela.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Funções de janela**?
 
-**Resposta:**
+- [ ] A) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] B) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] C) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] D) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] E) Remover duplicidades depois da junção sem investigar a origem.
 
-4. Como o conhecimento de **Funções de janela** seria usado para apoiar uma decisão real em dados ou IA?
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Funções de janela**?
 
-**Resposta:**
+- [ ] A) Sempre como zero, porque simplifica as agregações.
+- [ ] B) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] C) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] D) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] E) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
 
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+4. Qual verificação aumenta mais a confiança em uma consulta de **Funções de janela**?
 
-**Resposta:**
+- [ ] A) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] B) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] C) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] D) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] E) Adicionar `ORDER BY` para que os números pareçam organizados.
 
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+5. Ordene a construção de uma consulta para **Funções de janela**.
 
-**Resposta:**
+- A) Definir a pergunta, a métrica e a granularidade.
+- B) Montar filtros e junções da base da consulta.
+- C) Identificar tabelas, campos e chaves necessárias.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Validar contagens, totais e algumas linhas manualmente.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Funções de janela**.
+
+- A) Conferir chaves, duplicidades, filtros e contagens.
+- B) Executar separadamente cada etapa ou CTE.
+- C) Reproduzir o problema com um recorte pequeno.
+- D) Executar a consulta completa e registrar a causa do erro.
+- E) Corrigir a etapa que altera os dados indevidamente.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-027: funcoes-de-janela`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Funções de janela.
+- **Competência sugerida:** Funções de janela em SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Funções de janela em SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

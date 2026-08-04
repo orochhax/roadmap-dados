@@ -8,7 +8,6 @@
 - **Assunto central:** Dados, SQL e arquitetura.
 - **Pasta/arquivo principal:** `semana-24/dia-117-dados-sql-e-arquitetura.ipynb`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie ou revise esquema SQL e pipeline de formação da base.
@@ -24,44 +23,86 @@
 - [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
-1. Como garantir que o fluxo dos dados até a interface seja rastreável e reproduzível?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Dados, SQL e arquitetura** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual decisão deve orientar um produto de **Dados, SQL e arquitetura**?
 
-**Resposta:**
+- [ ] A) Começar pela interface sem definir o problema.
+- [ ] B) Treinar um modelo antes de conhecer os dados.
+- [ ] C) Trocar o objetivo sempre que surgir uma ferramenta nova.
+- [ ] D) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
+- [ ] E) Incluir o maior número possível de tecnologias.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. O que reduz falhas entre componentes em **Dados, SQL e arquitetura**?
 
-**Resposta:**
+- [ ] A) Compartilhar estado interno sem uma interface definida.
+- [ ] B) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
+- [ ] C) Cada componente interpretar os campos de uma forma.
+- [ ] D) Alterar formatos sem avisar os consumidores.
+- [ ] E) Depender de passos manuais não documentados.
 
-4. Como o conhecimento de **Dados, SQL e arquitetura** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual teste oferece mais confiança em uma entrega de **Dados, SQL e arquitetura**?
 
-**Resposta:**
+- [ ] A) Testar apenas cada tela isoladamente.
+- [ ] B) Conferir somente se os arquivos existem.
+- [ ] C) Executar apenas com o conjunto usado no desenvolvimento.
+- [ ] D) Ignorar erros externos quando o código local funciona.
+- [ ] E) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
 
-5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+4. Como avaliar o valor de uma solução de **Dados, SQL e arquitetura** após a entrega?
 
-**Resposta:**
+- [ ] A) Considerar publicação equivalente a sucesso.
+- [ ] B) Avaliar apenas comentários da equipe que desenvolveu.
+- [ ] C) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
+- [ ] D) Medir apenas a quantidade de linhas de código.
+- [ ] E) Usar somente o número de tecnologias integradas.
 
-6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
+5. Ordene a construção de um produto de **Dados, SQL e arquitetura**.
 
-**Resposta:**
+- A) Definir usuário, problema, decisão e medida de sucesso.
+- B) Construir primeiro um fluxo mínimo de ponta a ponta.
+- C) Publicar, observar o uso e iterar com evidências.
+- D) Testar qualidade, integração, segurança e falhas.
+- E) Desenhar dados, componentes e contratos entre eles.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação da entrega de **Dados, SQL e arquitetura**.
+
+- A) Coletar feedback e priorizar correções ou melhorias.
+- B) Executar testes automatizados e manuais do fluxo completo.
+- C) Revisar documentação, configuração e instruções de execução.
+- D) Apresentar a solução com limitações e decisões técnicas.
+- E) Congelar o escopo e registrar critérios de conclusão.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-117: dados-sql-e-arquitetura`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Dados, SQL e arquitetura.
+- **Competência sugerida:** SQL e arquitetura de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **SQL e arquitetura de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

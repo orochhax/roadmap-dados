@@ -8,7 +8,6 @@
 - **Assunto central:** Avaliação e publicação.
 - **Pasta/arquivo principal:** `semana-23/dia-115-avaliacao-e-publicacao/` (pasta do projeto).
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Execute avaliação completa das 30 perguntas e registre métricas de recuperação e geração.
@@ -24,35 +23,66 @@
 - [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
-1. Como medir qualidade do RAG com conjunto fixo de perguntas e análise de falhas?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Avaliação e publicação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. O que reduz respostas sem apoio em uma solução de **Avaliação e publicação**?
 
-**Resposta:**
+- [ ] A) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
+- [ ] B) Pedir ao modelo para inventar detalhes quando faltar contexto.
+- [ ] C) Enviar documentos aleatórios para aumentar o volume.
+- [ ] D) Remover referências para deixar a resposta menor.
+- [ ] E) Usar somente o conhecimento geral do modelo.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual escolha afeta diretamente a recuperação em **Avaliação e publicação**?
 
-**Resposta:**
+- [ ] A) A ordem alfabética dos nomes dos arquivos apenas.
+- [ ] B) A quantidade de parágrafos da resposta final.
+- [ ] C) O nome da variável que armazena o índice.
+- [ ] D) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
+- [ ] E) A cor da interface usada para enviar a pergunta.
 
-4. Como o conhecimento de **Avaliação e publicação** seria usado para apoiar uma decisão real em dados ou IA?
+3. Como o sistema deve agir quando **Avaliação e publicação** não encontra evidência suficiente?
 
-**Resposta:**
+- [ ] A) Repetir a mesma afirmação com mais confiança.
+- [ ] B) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
+- [ ] C) Completar a resposta com uma suposição plausível.
+- [ ] D) Citar qualquer trecho recuperado, mesmo sem relação.
+- [ ] E) Ocultar que a busca não encontrou conteúdo.
 
-5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+4. Qual avaliação ajuda a diagnosticar uma falha em **Avaliação e publicação**?
 
-**Resposta:**
+- [ ] A) Avaliar apenas o tamanho da resposta.
+- [ ] B) Medir somente a velocidade de criação do índice.
+- [ ] C) Considerar toda citação como necessariamente relevante.
+- [ ] D) Trocar o modelo sem examinar os documentos recuperados.
+- [ ] E) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
 
-6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
+5. Ordene o fluxo principal de uma solução de **Avaliação e publicação**.
 
-**Resposta:**
+- A) Gerar representações e construir o índice.
+- B) Gerar uma resposta fundamentada e apresentar as fontes.
+- C) Coletar e validar documentos e metadados.
+- D) Recuperar trechos relevantes para a pergunta.
+- E) Dividir o conteúdo em trechos adequados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene o diagnóstico de uma resposta ruim em **Avaliação e publicação**.
+
+- A) Registrar a pergunta, a resposta e as fontes recuperadas.
+- B) Avaliar chunking, metadados, consulta e ranking da busca.
+- C) Corrigir a etapa responsável e repetir os mesmos testes.
+- D) Avaliar se a geração respeitou o contexto recuperado.
+- E) Verificar se a informação necessária existe nos documentos.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-115: avaliacao-e-publicacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -85,9 +115,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Avaliação e publicação.
+- **Competência sugerida:** IA Generativa e RAG.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **IA Generativa e RAG** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

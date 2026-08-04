@@ -8,7 +8,6 @@
 - **Assunto central:** Baselines e modelos.
 - **Pasta/arquivo principal:** `semana-15/dia-071-baselines-e-modelos.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine regressão logística, árvore, Random Forest e boosting usando a mesma pipeline.
@@ -24,44 +23,86 @@
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Como comparar baseline e modelos usando o mesmo protocolo e intervalo de incerteza?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Baselines e modelos** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Ao desenvolver **Baselines e modelos**, qual definição evita um alvo ambíguo ou vazamento de dados?
 
-**Resposta:**
+- [ ] A) Chamar de churn qualquer cliente com poucos registros.
+- [ ] B) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+- [ ] C) Alterar a definição do alvo para melhorar a métrica do modelo.
+- [ ] D) Remover clientes ativos sem registrar o critério usado.
+- [ ] E) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Como avaliar um modelo ligado a **Baselines e modelos** para uma estratégia de retenção?
 
-**Resposta:**
+- [ ] A) Contatando todos os clientes classificados pelo modelo.
+- [ ] B) Ignorando a capacidade operacional da equipe de retenção.
+- [ ] C) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+- [ ] D) Escolhendo sempre o limiar de 50%.
+- [ ] E) Priorizando somente a acurácia geral.
 
-4. Como o conhecimento de **Baselines e modelos** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual análise ajuda a encontrar riscos escondidos em **Baselines e modelos**?
 
-**Resposta:**
+- [ ] A) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+- [ ] B) Avaliar apenas os clientes com maior probabilidade.
+- [ ] C) Excluir segmentos pequenos antes de medir os erros.
+- [ ] D) Usar a mesma explicação para todos os perfis.
+- [ ] E) Conferir somente o desempenho no conjunto de treino.
 
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+4. Qual é a melhor ligação entre um modelo de **Baselines e modelos** e uma ação de negócio?
 
-**Resposta:**
+- [ ] A) Considerar todo cliente de alto risco automaticamente perdido.
+- [ ] B) Escolher a ação apenas pela variável mais importante do modelo.
+- [ ] C) Medir sucesso somente pelo número de contatos realizados.
+- [ ] D) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+- [ ] E) Enviar a probabilidade bruta sem orientar seu uso.
 
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+5. Ordene a construção de um projeto relacionado a **Baselines e modelos**.
 
-**Resposta:**
+- A) Realizar EDA e preparar uma separação sem vazamento.
+- B) Transformar previsões em estratégia e comunicar limitações.
+- C) Definir população, churn, datas e objetivo de negócio.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Construir e auditar dados disponíveis até a data de referência.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **Baselines e modelos**.
+
+- A) Medir retenção incremental e ajustar a política.
+- B) Escolher limiares com base em custo e benefício.
+- C) Definir segmentos e ações possíveis para cada perfil.
+- D) Executar a ação em um grupo controlado.
+- E) Estimar valor, risco, custo de contato e capacidade operacional.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-071: baselines-e-modelos`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Baselines e modelos.
+- **Competência sugerida:** Baselines e modelos de Machine Learning.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Baselines e modelos de Machine Learning** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

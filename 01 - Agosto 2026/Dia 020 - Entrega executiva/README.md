@@ -8,7 +8,6 @@
 - **Assunto central:** Entrega executiva.
 - **Pasta/arquivo principal:** `semana-04/dia-020-entrega-executiva/` (pasta do projeto).
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Organize a entrega mensal em `projeto_mensal_01` com pastas `data`, `notebooks`, `dashboard`, `reports` e `src`.
@@ -52,7 +51,7 @@
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-020: entrega-executiva`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -80,9 +79,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Entrega executiva.
+- **Competência sugerida:** Análise de Dados para Tomada de Decisão.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **Análise de Dados para Tomada de Decisão** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

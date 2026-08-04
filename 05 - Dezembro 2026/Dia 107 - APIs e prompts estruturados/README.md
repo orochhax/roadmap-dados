@@ -8,7 +8,6 @@
 - **Assunto central:** APIs e prompts estruturados.
 - **Pasta/arquivo principal:** `semana-22/dia-107-apis-e-prompts-estruturados.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie script que chama uma API de LLM ou um mock local e recebe pergunta estruturada.
@@ -24,44 +23,86 @@
 - [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
-1. Como estruturar entrada, saída e validação para reduzir respostas imprevisíveis de um LLM?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **APIs e prompts estruturados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual estrutura torna uma solicitação de **APIs e prompts estruturados** mais controlável?
 
-**Resposta:**
+- [ ] A) O maior texto possível, mesmo com informações irrelevantes.
+- [ ] B) Vários objetivos conflitantes na mesma instrução.
+- [ ] C) A ausência de critérios para aceitar a resposta.
+- [ ] D) Instrução clara, contexto necessário, restrições e formato de saída definido.
+- [ ] E) Uma frase vaga sem explicar a tarefa.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Como avaliar uma aplicação relacionada a **APIs e prompts estruturados**?
 
-**Resposta:**
+- [ ] A) Usar somente exemplos escritos pelo próprio modelo.
+- [ ] B) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
+- [ ] C) Ler uma única resposta que parece convincente.
+- [ ] D) Avaliar apenas a fluidez do texto.
+- [ ] E) Trocar os critérios para favorecer a versão mais recente.
 
-4. Como o conhecimento de **APIs e prompts estruturados** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual cuidado de segurança é importante em **APIs e prompts estruturados**?
 
-**Resposta:**
+- [ ] A) Permitir que qualquer texto altere as regras do sistema.
+- [ ] B) Enviar dados pessoais sem necessidade.
+- [ ] C) Executar automaticamente toda ação sugerida pelo modelo.
+- [ ] D) Ocultar fontes e limitações do usuário.
+- [ ] E) Tratar entradas como não confiáveis, limitar acesso a dados e ferramentas e revisar saídas sensíveis.
 
-5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
+4. Quando uma resposta de **APIs e prompts estruturados** apoia uma decisão importante, qual prática é mais adequada?
 
-**Resposta:**
+- [ ] A) Remover avisos para deixar a saída mais direta.
+- [ ] B) Usar o modelo como única fonte para qualquer decisão.
+- [ ] C) Exigir evidência verificável e revisão humana proporcional ao risco.
+- [ ] D) Aceitar a resposta quando ela estiver bem escrita.
+- [ ] E) Considerar confiança verbal equivalente a precisão.
 
-6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
+5. Ordene o desenvolvimento de uma funcionalidade de **APIs e prompts estruturados**.
 
-**Resposta:**
+- A) Estruturar instruções, contexto e formato de saída.
+- B) Criar casos de avaliação antes de ajustar a solução.
+- C) Definir usuário, tarefa, risco e critérios de qualidade.
+- D) Adicionar controles, documentar limites e monitorar o uso.
+- E) Executar avaliações e analisar tipos de falha.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a melhoria de uma aplicação de **APIs e prompts estruturados**.
+
+- A) Alterar uma parte controlada da solução.
+- B) Classificar os erros por causa e impacto.
+- C) Publicar apenas após revisar qualidade, segurança e custo.
+- D) Comparar a nova versão com a anterior nos mesmos casos.
+- E) Reunir exemplos reais de sucesso e falha.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-107: apis-e-prompts-estruturados`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** APIs e prompts estruturados.
+- **Competência sugerida:** Prompt Engineering e APIs.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Prompt Engineering e APIs** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

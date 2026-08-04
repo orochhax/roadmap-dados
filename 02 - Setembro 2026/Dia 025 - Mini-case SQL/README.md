@@ -8,7 +8,6 @@
 - **Assunto central:** Mini-case SQL.
 - **Pasta/arquivo principal:** `semana-05/dia-025-mini-case-sql/` (pasta do projeto).
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Responda em SQL: quais cidades concentram churn; quais planos têm maior ticket; quais clientes abriram mais chamados; qual canal arrecadou mais; quais clientes estão inadimplentes.
@@ -24,35 +23,66 @@
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Como validar uma consulta de negócio antes de confiar no número final?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Mini-case SQL** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de escrever uma consulta de **Mini-case SQL**, o que deve ser definido primeiro?
 
-**Resposta:**
+- [ ] A) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] B) A quantidade máxima de linhas que caberá na tela.
+- [ ] C) A ordem alfabética dos nomes das tabelas.
+- [ ] D) O uso obrigatório de todas as colunas disponíveis.
+- [ ] E) A formatação visual da tabela final antes dos cálculos.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Mini-case SQL**?
 
-**Resposta:**
+- [ ] A) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] B) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] C) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] D) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] E) Usar sempre `INNER JOIN`, independentemente da pergunta.
 
-4. Como o conhecimento de **Mini-case SQL** seria usado para apoiar uma decisão real em dados ou IA?
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Mini-case SQL**?
 
-**Resposta:**
+- [ ] A) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] B) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] C) Sempre como zero, porque simplifica as agregações.
+- [ ] D) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] E) Excluindo automaticamente todas as linhas que contenham `NULL`.
 
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+4. Qual verificação aumenta mais a confiança em uma consulta de **Mini-case SQL**?
 
-**Resposta:**
+- [ ] A) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] B) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] C) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] D) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] E) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
 
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+5. Ordene a construção de uma consulta para **Mini-case SQL**.
 
-**Resposta:**
+- A) Montar filtros e junções da base da consulta.
+- B) Identificar tabelas, campos e chaves necessárias.
+- C) Validar contagens, totais e algumas linhas manualmente.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Definir a pergunta, a métrica e a granularidade.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Mini-case SQL**.
+
+- A) Reproduzir o problema com um recorte pequeno.
+- B) Conferir chaves, duplicidades, filtros e contagens.
+- C) Executar a consulta completa e registrar a causa do erro.
+- D) Corrigir a etapa que altera os dados indevidamente.
+- E) Executar separadamente cada etapa ou CTE.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-025: mini-case-sql`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -79,9 +109,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Mini-case SQL.
+- **Competência sugerida:** SQL aplicado a negócios.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **SQL aplicado a negócios** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

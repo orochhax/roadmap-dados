@@ -8,7 +8,6 @@
 - **Assunto central:** Pré-projeto e banca zero do TCC.
 - **Pasta/arquivo principal:** `semana-25/dia-125-pre-projeto-e-banca-zero-do-tcc/` (pasta do projeto).
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Congele o escopo do **Portfolio Intelligence Lab**, definindo universo de ativos, período histórico, frequência de rebalanceamento e fontes de dados.
@@ -52,7 +51,7 @@
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-125: pre-projeto-e-banca-zero-do-tcc`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -82,9 +81,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Pré-projeto e banca zero do TCC.
+- **Competência sugerida:** Planejamento de projetos de Ciência de Dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Planejamento de projetos de Ciência de Dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

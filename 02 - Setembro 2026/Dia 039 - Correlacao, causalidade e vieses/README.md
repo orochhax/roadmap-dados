@@ -8,7 +8,6 @@
 - **Assunto central:** Correlação, causalidade e vieses.
 - **Pasta/arquivo principal:** `semana-08/dia-039-correlacao-causalidade-e-vieses.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Calcule correlação Pearson e Spearman entre mensalidade, chamados, NPS e churn codificado.
@@ -24,44 +23,86 @@
 - [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
-1. Quais mecanismos podem produzir correlação sem causalidade e como um experimento ajuda?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Correlação, causalidade e vieses** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Ao estudar **Correlação, causalidade e vieses**, por que uma única medida-resumo pode ser insuficiente?
 
-**Resposta:**
+- [ ] A) Porque gráficos tornam cálculos estatísticos desnecessários.
+- [ ] B) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
+- [ ] C) Porque médias só podem ser usadas com dados de texto.
+- [ ] D) Porque toda análise exige exatamente cinco métricas.
+- [ ] E) Porque a mediana sempre substitui qualquer outra medida.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual interpretação estatística é mais responsável em uma análise de **Correlação, causalidade e vieses**?
 
-**Resposta:**
+- [ ] A) Tratar qualquer valor-p pequeno como prova de grande impacto.
+- [ ] B) Considerar correlação suficiente para afirmar causalidade.
+- [ ] C) Escolher a hipótese depois de observar os dados.
+- [ ] D) Ignorar o tamanho da amostra quando a média parece convincente.
+- [ ] E) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
 
-4. Como o conhecimento de **Correlação, causalidade e vieses** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual situação ameaça mais a validade de uma conclusão sobre **Correlação, causalidade e vieses**?
 
-**Resposta:**
+- [ ] A) Uma média apresentada com duas casas decimais.
+- [ ] B) Um arquivo salvo em uma pasta específica do projeto.
+- [ ] C) Uma amostra enviesada que não representa adequadamente a população de interesse.
+- [ ] D) Uma tabela com colunas em ordem diferente.
+- [ ] E) Um gráfico com título curto.
 
-5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+4. Como usar evidência de **Correlação, causalidade e vieses** em uma decisão real?
 
-**Resposta:**
+- [ ] A) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
+- [ ] B) Escolher automaticamente a opção com a maior média observada.
+- [ ] C) Eliminar a incerteza arredondando os números.
+- [ ] D) Tomar a decisão apenas pelo sinal positivo ou negativo.
+- [ ] E) Repetir testes até surgir uma conclusão favorável.
 
-6. Como distinguir significância estatística de importância prática neste contexto?
+5. Ordene um estudo estatístico relacionado a **Correlação, causalidade e vieses**.
 
-**Resposta:**
+- A) Formular a pergunta e a hipótese antes da análise.
+- B) Definir população, amostra, métrica e método.
+- C) Coletar e verificar a qualidade dos dados.
+- D) Interpretar a evidência com pressupostos e limitações.
+- E) Estimar efeitos e quantificar a incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as etapas de um experimento controlado ligado a **Correlação, causalidade e vieses**.
+
+- A) Decidir com base no efeito, no risco e na relevância prática.
+- B) Distribuir aleatoriamente as unidades entre os grupos.
+- C) Definir hipótese, métrica principal e regra de decisão.
+- D) Estimar a diferença entre grupos e sua incerteza.
+- E) Verificar equilíbrio e integridade da coleta.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-039: correlacao-causalidade-e-vieses`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Correlação, causalidade e vieses.
+- **Competência sugerida:** Correlação, causalidade e vieses.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Correlação, causalidade e vieses** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

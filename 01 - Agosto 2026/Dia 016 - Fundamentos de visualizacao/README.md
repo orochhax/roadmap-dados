@@ -8,7 +8,6 @@
 - **Assunto central:** Fundamentos de visualização.
 - **Pasta/arquivo principal:** `semana-04/dia-016-fundamentos-de-visualizacao.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie `visualizacao_fundamentos.ipynb` com um gráfico de barras, linha, histograma e dispersão usando o mesmo conjunto de dados.
@@ -24,44 +23,86 @@
 - [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
-1. Como escolher o gráfico adequado para comparação, distribuição, relação e evolução temporal?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Fundamentos de visualização** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de tirar conclusões em **Fundamentos de visualização**, qual é a prática mais confiável?
 
-**Resposta:**
+- [ ] A) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] B) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] C) Calcular médias antes de entender o que cada linha representa.
+- [ ] D) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] E) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Fundamentos de visualização**?
 
-**Resposta:**
+- [ ] A) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] B) Substituir valores ausentes pelo maior valor disponível.
+- [ ] C) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] D) Somar todas as colunas numéricas independentemente do significado.
+- [ ] E) Arredondar os valores antes de analisar diferenças.
 
-4. Como o conhecimento de **Fundamentos de visualização** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Fundamentos de visualização**?
 
-**Resposta:**
+- [ ] A) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] B) Ordenar as colunas pelo tamanho do nome.
+- [ ] C) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] D) Excluir categorias pequenas antes de examiná-las.
+- [ ] E) Duplicar a base e repetir o mesmo cálculo.
 
-5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
+4. Como uma análise de **Fundamentos de visualização** deve ser apresentada para apoiar uma decisão?
 
-**Resposta:**
+- [ ] A) Omitindo incertezas para transmitir mais confiança.
+- [ ] B) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] C) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] D) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] E) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
 
-6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
+5. Ordene um fluxo de análise para uma atividade de **Fundamentos de visualização**.
 
-**Resposta:**
+- A) Preparar os dados sem perder a granularidade necessária.
+- B) Comunicar a conclusão, as limitações e a ação sugerida.
+- C) Definir a pergunta que precisa ser respondida.
+- D) Calcular e visualizar as evidências relevantes.
+- E) Inspecionar a estrutura e a qualidade dos dados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Fundamentos de visualização**.
+
+- A) Identificar o público e a decisão que será apoiada.
+- B) Apresentar a mensagem principal e o próximo passo.
+- C) Selecionar a métrica e o recorte adequados.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Escolher o tipo de visual compatível com a comparação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-016: fundamentos-de-visualizacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Fundamentos de visualização.
+- **Competência sugerida:** Visualização de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Visualização de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

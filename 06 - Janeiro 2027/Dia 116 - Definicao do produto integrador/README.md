@@ -8,7 +8,6 @@
 - **Assunto central:** Definição do produto integrador.
 - **Pasta/arquivo principal:** `semana-24/dia-116-definicao-do-produto-integrador.ipynb`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha um produto integrador entre churn, crédito, forecasting ou RAG e defina usuário, decisão e valor.
@@ -24,44 +23,86 @@
 - [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
-1. Qual usuário tomará qual decisão, e por que o MVP precisa de uma métrica técnica e outra de negócio?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Definição do produto integrador** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual decisão deve orientar um produto de **Definição do produto integrador**?
 
-**Resposta:**
+- [ ] A) Incluir o maior número possível de tecnologias.
+- [ ] B) Começar pela interface sem definir o problema.
+- [ ] C) Treinar um modelo antes de conhecer os dados.
+- [ ] D) Trocar o objetivo sempre que surgir uma ferramenta nova.
+- [ ] E) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. O que reduz falhas entre componentes em **Definição do produto integrador**?
 
-**Resposta:**
+- [ ] A) Depender de passos manuais não documentados.
+- [ ] B) Compartilhar estado interno sem uma interface definida.
+- [ ] C) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
+- [ ] D) Cada componente interpretar os campos de uma forma.
+- [ ] E) Alterar formatos sem avisar os consumidores.
 
-4. Como o conhecimento de **Definição do produto integrador** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual teste oferece mais confiança em uma entrega de **Definição do produto integrador**?
 
-**Resposta:**
+- [ ] A) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
+- [ ] B) Testar apenas cada tela isoladamente.
+- [ ] C) Conferir somente se os arquivos existem.
+- [ ] D) Executar apenas com o conjunto usado no desenvolvimento.
+- [ ] E) Ignorar erros externos quando o código local funciona.
 
-5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+4. Como avaliar o valor de uma solução de **Definição do produto integrador** após a entrega?
 
-**Resposta:**
+- [ ] A) Usar somente o número de tecnologias integradas.
+- [ ] B) Considerar publicação equivalente a sucesso.
+- [ ] C) Avaliar apenas comentários da equipe que desenvolveu.
+- [ ] D) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
+- [ ] E) Medir apenas a quantidade de linhas de código.
 
-6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
+5. Ordene a construção de um produto de **Definição do produto integrador**.
 
-**Resposta:**
+- A) Definir usuário, problema, decisão e medida de sucesso.
+- B) Publicar, observar o uso e iterar com evidências.
+- C) Construir primeiro um fluxo mínimo de ponta a ponta.
+- D) Testar qualidade, integração, segurança e falhas.
+- E) Desenhar dados, componentes e contratos entre eles.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação da entrega de **Definição do produto integrador**.
+
+- A) Revisar documentação, configuração e instruções de execução.
+- B) Coletar feedback e priorizar correções ou melhorias.
+- C) Congelar o escopo e registrar critérios de conclusão.
+- D) Apresentar a solução com limitações e decisões técnicas.
+- E) Executar testes automatizados e manuais do fluxo completo.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-116: definicao-do-produto-integrador`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Definição do produto integrador.
+- **Competência sugerida:** Desenvolvimento de produtos de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Desenvolvimento de produtos de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

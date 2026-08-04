@@ -8,7 +8,6 @@
 - **Assunto central:** Dashboard introdutório.
 - **Pasta/arquivo principal:** `semana-04/dia-019-dashboard-introdutorio.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Defina um público-alvo para o dashboard: gerente de operações de telecom; escreva cinco decisões que ele precisa tomar.
@@ -24,44 +23,86 @@
 - [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
-1. Qual métrica deve aparecer primeiro em um dashboard e como evitar indicadores sem ação associada?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Dashboard introdutório** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de tirar conclusões em **Dashboard introdutório**, qual é a prática mais confiável?
 
-**Resposta:**
+- [ ] A) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] B) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] C) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] D) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] E) Calcular médias antes de entender o que cada linha representa.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Dashboard introdutório**?
 
-**Resposta:**
+- [ ] A) Somar todas as colunas numéricas independentemente do significado.
+- [ ] B) Arredondar os valores antes de analisar diferenças.
+- [ ] C) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] D) Substituir valores ausentes pelo maior valor disponível.
+- [ ] E) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
 
-4. Como o conhecimento de **Dashboard introdutório** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Dashboard introdutório**?
 
-**Resposta:**
+- [ ] A) Excluir categorias pequenas antes de examiná-las.
+- [ ] B) Duplicar a base e repetir o mesmo cálculo.
+- [ ] C) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] D) Ordenar as colunas pelo tamanho do nome.
+- [ ] E) Trocar as cores do gráfico até a tendência ficar mais visível.
 
-5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
+4. Como uma análise de **Dashboard introdutório** deve ser apresentada para apoiar uma decisão?
 
-**Resposta:**
+- [ ] A) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] B) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] C) Omitindo incertezas para transmitir mais confiança.
+- [ ] D) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] E) Escolhendo a recomendação mais popular, mesmo sem evidência.
 
-6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
+5. Ordene um fluxo de análise para uma atividade de **Dashboard introdutório**.
 
-**Resposta:**
+- A) Comunicar a conclusão, as limitações e a ação sugerida.
+- B) Inspecionar a estrutura e a qualidade dos dados.
+- C) Preparar os dados sem perder a granularidade necessária.
+- D) Calcular e visualizar as evidências relevantes.
+- E) Definir a pergunta que precisa ser respondida.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Dashboard introdutório**.
+
+- A) Escolher o tipo de visual compatível com a comparação.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Apresentar a mensagem principal e o próximo passo.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Identificar o público e a decisão que será apoiada.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-019: dashboard-introdutorio`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Dashboard introdutório.
+- **Competência sugerida:** Power BI e dashboards.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Power BI e dashboards** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

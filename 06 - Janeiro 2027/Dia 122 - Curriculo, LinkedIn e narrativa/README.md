@@ -8,7 +8,6 @@
 - **Assunto central:** Currículo, LinkedIn e narrativa.
 - **Pasta/arquivo principal:** `semana-25/dia-122-curriculo-linkedin-e-narrativa.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie currículo de uma página orientado a vagas júnior.
@@ -24,44 +23,86 @@
 - [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
-1. Como transformar um projeto em resultado profissional sem inventar impacto?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Currículo, LinkedIn e narrativa** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual conteúdo fortalece mais uma apresentação de **Currículo, LinkedIn e narrativa**?
 
-**Resposta:**
+- [ ] A) Afirmações genéricas de domínio avançado.
+- [ ] B) Cópias de descrições encontradas em vagas.
+- [ ] C) Somente imagens, sem explicar o raciocínio.
+- [ ] D) Problema, decisões tomadas, evidências produzidas, limitações e impacto do trabalho.
+- [ ] E) Uma lista extensa de ferramentas sem contexto.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Como adaptar **Currículo, LinkedIn e narrativa** a uma oportunidade profissional?
 
-**Resposta:**
+- [ ] A) Repetir todas as palavras da vaga sem contexto.
+- [ ] B) Relacionar experiências verdadeiras e projetos relevantes aos requisitos prioritários da função.
+- [ ] C) Adicionar habilidades que ainda não foram praticadas.
+- [ ] D) Usar exatamente o mesmo texto para qualquer vaga.
+- [ ] E) Ocultar responsabilidades e resultados concretos.
 
-4. Como o conhecimento de **Currículo, LinkedIn e narrativa** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual é a melhor forma de falar sobre uma lacuna durante **Currículo, LinkedIn e narrativa**?
 
-**Resposta:**
+- [ ] A) Inventar uma experiência parecida.
+- [ ] B) Mudar de assunto sem responder.
+- [ ] C) Afirmar domínio total sem conseguir demonstrar.
+- [ ] D) Culpar a descrição da vaga pela pergunta.
+- [ ] E) Reconhecer o limite com honestidade e explicar como aprenderia ou validaria aquela parte.
 
-5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
+4. Qual resposta demonstra melhor experiência em uma entrevista ligada a **Currículo, LinkedIn e narrativa**?
 
-**Resposta:**
+- [ ] A) Uma descrição longa apenas sobre a equipe.
+- [ ] B) Uma lista de tecnologias sem decisão ou efeito.
+- [ ] C) Uma história objetiva com contexto, ação própria, evidência e aprendizado.
+- [ ] D) Uma opinião ampla sem exemplo concreto.
+- [ ] E) Uma resposta decorada que não explica sua participação.
 
-6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
+5. Ordene a preparação de um material de **Currículo, LinkedIn e narrativa**.
 
-**Resposta:**
+- A) Pedir feedback e ajustar os pontos menos convincentes.
+- B) Selecionar projetos e experiências com evidências relevantes.
+- C) Escrever uma narrativa clara sobre problema, ação e impacto.
+- D) Revisar precisão, links, legibilidade e consistência.
+- E) Definir função-alvo e competências que precisam ser demonstradas.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação para uma conversa profissional sobre **Currículo, LinkedIn e narrativa**.
+
+- A) Selecionar exemplos reais para competências técnicas e comportamentais.
+- B) Praticar respostas curtas com contexto, ação e evidência.
+- C) Simular perguntas e identificar lacunas de explicação.
+- D) Revisar os aprendizados e ajustar a próxima simulação.
+- E) Pesquisar a função, a empresa e os problemas prováveis.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-122: curriculo-linkedin-e-narrativa`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Currículo, LinkedIn e narrativa.
+- **Competência sugerida:** LinkedIn, currículo e marca profissional.
+- **Ação recomendada:** Mantenha o título atual, adicione ou reforce **LinkedIn, currículo e marca profissional** em Competências e atualize a seção Sobre com uma narrativa curta e comprovável.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

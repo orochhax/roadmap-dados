@@ -48,16 +48,27 @@
 - [ ] Ranking reproduzível para cada data e classe.
 - [ ] Features possuem ficha de disponibilidade temporal.
 - [ ] Resultados incluem falhas, não apenas o melhor período.
-- [ ] Commit: `dia-127: fatores-e-motor-quantitativo-de-ranking`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** tabela de fatores, ranking, métricas e commit.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** TCC: fatores e motor de ranking.
+- **Competência sugerida:** Factor Investing e ranking quantitativo.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Factor Investing e ranking quantitativo** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

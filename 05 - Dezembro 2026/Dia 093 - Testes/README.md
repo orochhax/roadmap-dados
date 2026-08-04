@@ -8,7 +8,6 @@
 - **Assunto central:** Testes.
 - **Pasta/arquivo principal:** `semana-19/dia-093-testes.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Instale `pytest` e escreva testes para validação de dados, feature engineering e métrica de custo.
@@ -24,44 +23,86 @@
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. Qual a diferença entre teste unitário, integração e ponta a ponta em um projeto de dados?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Testes** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual prática melhora a manutenção de uma solução de **Testes**?
 
-**Resposta:**
+- [ ] A) Alterar vários comportamentos sem registrar o motivo.
+- [ ] B) Duplicar trechos para evitar criar funções.
+- [ ] C) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+- [ ] D) Colocar dados, regras e execução em uma única função.
+- [ ] E) Salvar segredos diretamente no código.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual estratégia de testes é mais adequada em **Testes**?
 
-**Resposta:**
+- [ ] A) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+- [ ] B) Testar apenas manualmente depois da publicação.
+- [ ] C) Criar testes que nunca falham para manter a integração verde.
+- [ ] D) Validar somente o caminho de sucesso.
+- [ ] E) Depender da mesma implementação para calcular e conferir a saída.
 
-4. Como o conhecimento de **Testes** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual cuidado é essencial ao publicar uma aplicação de **Testes**?
 
-**Resposta:**
+- [ ] A) Imprimir credenciais nos logs para facilitar suporte.
+- [ ] B) Modificar o ambiente de produção manualmente sem registro.
+- [ ] C) Remover validações para reduzir o tempo de resposta.
+- [ ] D) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+- [ ] E) Usar diretamente a última alteração sem versão.
 
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+4. Como saber se uma solução de **Testes** continua saudável após a publicação?
 
-**Resposta:**
+- [ ] A) Avaliar somente a métrica obtida durante o treinamento.
+- [ ] B) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+- [ ] C) Conferir somente se o computador do desenvolvedor está ligado.
+- [ ] D) Considerar ausência de reclamações como prova suficiente.
+- [ ] E) Observar apenas o uso de memória uma vez por mês.
 
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+5. Ordene uma mudança segura em **Testes**.
 
-**Resposta:**
+- A) Implementar uma alteração pequena e revisável.
+- B) Criar ou ajustar testes que representem esse comportamento.
+- C) Definir o comportamento que precisa mudar.
+- D) Versionar, publicar e observar a mudança.
+- E) Executar verificações locais e de integração.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **Testes**.
+
+- A) Detectar o sintoma por métricas, logs ou alerta.
+- B) Conter o impacto ou reverter para uma versão estável.
+- C) Delimitar usuários, versões e componentes afetados.
+- D) Republicar com controle e documentar o incidente.
+- E) Corrigir a causa e validar com testes.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-093: testes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Testes.
+- **Competência sugerida:** Testes de software.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes de software** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

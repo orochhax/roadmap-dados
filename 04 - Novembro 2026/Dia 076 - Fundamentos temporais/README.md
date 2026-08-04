@@ -8,7 +8,6 @@
 - **Assunto central:** Fundamentos temporais.
 - **Pasta/arquivo principal:** `semana-16/dia-076-fundamentos-temporais.ipynb`.
 - **Dados:** `dados/energia.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Carregue `energia.csv`, converta índice temporal e verifique frequência, lacunas e duplicidades.
@@ -24,44 +23,86 @@
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Por que ordem temporal, tendência e sazonalidade impedem o embaralhamento aleatório dos dados?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Fundamentos temporais** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual separação de dados é adequada em **Fundamentos temporais**?
 
-**Resposta:**
+- [ ] A) Embaralhar todas as datas antes da divisão.
+- [ ] B) Usar os períodos futuros no cálculo das variáveis de treino.
+- [ ] C) Escolher aleatoriamente linhas do mesmo período para teste.
+- [ ] D) Treinar e avaliar com toda a série ao mesmo tempo.
+- [ ] E) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Por que um baseline simples é importante em **Fundamentos temporais**?
 
-**Resposta:**
+- [ ] A) Porque garante que não existam valores ausentes.
+- [ ] B) Porque substitui a definição do horizonte de previsão.
+- [ ] C) Porque mostra se o modelo supera regras como repetir o último valor ou a sazonalidade anterior.
+- [ ] D) Porque elimina a necessidade de avaliar modelos mais complexos.
+- [ ] E) Porque sempre será o modelo usado em produção.
 
-4. Como o conhecimento de **Fundamentos temporais** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual cuidado evita informação do futuro em variáveis de **Fundamentos temporais**?
 
-**Resposta:**
+- [ ] A) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
+- [ ] B) Centralizar médias móveis com dados anteriores e posteriores.
+- [ ] C) Preencher períodos passados com valores observados no futuro.
+- [ ] D) Usar a série completa para ajustar cada transformação.
+- [ ] E) Ordenar por valor em vez de ordenar por data.
 
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+4. Como escolher uma solução de **Fundamentos temporais** para apoiar uma decisão?
 
-**Resposta:**
+- [ ] A) Ignorar mudanças de regime quando a métrica global é boa.
+- [ ] B) Usar o mesmo horizonte para qualquer decisão.
+- [ ] C) Comparar modelos em períodos de teste diferentes.
+- [ ] D) Avaliar por horizonte e período, traduzindo os erros em impacto operacional ou financeiro.
+- [ ] E) Escolher apenas pela menor falha média de treinamento.
 
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+5. Ordene um fluxo de previsão para **Fundamentos temporais**.
 
-**Resposta:**
+- A) Comparar erros, comunicar incerteza e definir o uso da previsão.
+- B) Criar baselines e variáveis usando apenas o passado.
+- C) Ordenar a série e verificar falhas, datas e mudanças de regime.
+- D) Validar com divisões temporais sucessivas.
+- E) Definir frequência, horizonte e decisão atendida.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a atualização de uma previsão ligada a **Fundamentos temporais**.
+
+- A) Receber e validar os dados do período mais recente.
+- B) Gerar previsões para o horizonte definido.
+- C) Executar o pipeline com a versão aprovada.
+- D) Monitorar erros quando os valores reais se tornarem disponíveis.
+- E) Reavaliar o modelo diante de degradação ou mudança de regime.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-076: fundamentos-temporais`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Fundamentos temporais.
+- **Competência sugerida:** Séries temporais.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Séries temporais** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

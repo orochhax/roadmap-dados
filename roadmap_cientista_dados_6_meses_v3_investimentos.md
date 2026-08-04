@@ -21,7 +21,7 @@ tags:
 > [!goal] Objetivo
 > Em 26 semanas, construir base técnica, portfólio e preparo suficiente para começar a disputar vagas de **Cientista de Dados Júnior**, **Data Scientist I**, **Data/AI Analyst**, **Analista de Dados com Machine Learning** e funções correlatas.
 
-## Resultado esperado ao final
+## Competências ao final
 
 - Dominar Python para análise de dados e automação básica.
 - Escrever SQL intermediário/avançado sem depender de tutorial.
@@ -224,6 +224,17 @@ roadmap-data-science/
 **Entrega da semana:** Repositório organizado com 25 exercícios, um programa de análise de chamados e README inicial.
 
 ## Dia 1 — Preparação e diagnóstico — 03/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Preparação e diagnóstico.
+- **Competência sugerida:** Git, GitHub e configuração do ambiente.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Git, GitHub e configuração do ambiente** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Preparação e diagnóstico** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -231,33 +242,90 @@ roadmap-data-science/
 - **Assunto central:** Preparação e diagnóstico.
 - **Pasta/arquivo principal:** `semana-01/dia-001-preparacao-e-diagnostico.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
-1. [x] Confirme no terminal as versões com `python --version`, `git --version` e `jupyter --version`; salve a saída em `01-python/dia01/versoes.txt`.
+1. [x] Confirme no terminal as versões com `python --version`, `git --version` e `jupyter --version`; salve a saída em `03-evidencias/versoes.txt`.
 2. [ ] Crie `diagnostico.py` e resolva estes 10 exercícios sem consultar respostas: (1) imprimir nome e objetivo profissional; (2) somar 125 e 378; (3) calcular média de 7.5, 8.0 e 6.5; (4) converter 135 minutos em horas e minutos; (5) calcular 12% de 850; (6) verificar se 37 é par; (7) comparar 18 e 24 e exibir o maior; (8) contar caracteres de `Data Science`; (9) inverter `Vertex`; (10) calcular quantos clientes representam 7,5% de uma base de 2.400.
-3. [ ] Depois de cada exercício, escreva uma linha `# resultado esperado:` antes de executar; compare previsão e saída real.
-4. [ ] Crie o repositório, as pastas `01-python/dia01` e `dados`, faça o primeiro commit e confirme no GitHub que os arquivos chegaram.
-5. [ ] Crie `diario-de-estudos.md` com: data, horas, exercícios acertados de primeira, dúvidas, erro mais importante e próxima ação.
+3. [ ] Crie o repositório, as pastas `01-python/dia01` e `dados`, faça o primeiro commit e confirme no GitHub que os arquivos chegaram.
 
 
 ### Perguntas de checagem
-1. Qual é a diferença entre instalar uma ferramenta, configurá-la e comprovar que o ambiente está reproduzível?
-2. Em qual exercício de **Preparação e diagnóstico** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Preparação e diagnóstico** seria usado para apoiar uma decisão real em dados ou IA?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao praticar **Preparação e diagnóstico**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+
+- [ ] A) Copiar um código pronto e alterar valores até ele executar.
+- [ ] B) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+- [ ] C) Ignorar os tipos das variáveis quando a saída parece plausível.
+- [ ] D) Evitar testes para não modificar o código que já executou uma vez.
+- [ ] E) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Preparação e diagnóstico**?
+
+- [ ] A) Remover mensagens de erro para deixar o terminal mais limpo.
+- [ ] B) Repetir o mesmo cálculo em vários lugares do arquivo.
+- [ ] C) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+- [ ] D) Transformar todas as entradas em texto e calcular diretamente.
+- [ ] E) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+
+3. Qual teste fornece a verificação mais completa para um exercício de **Preparação e diagnóstico**?
+
+- [ ] A) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+- [ ] B) Executar apenas o exemplo numérico apresentado no enunciado.
+- [ ] C) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+- [ ] D) Ler o código sem executá-lo porque a sintaxe parece correta.
+- [ ] E) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+
+4. Ao usar um cálculo de **Preparação e diagnóstico** para apoiar uma decisão, qual atitude é mais adequada?
+
+- [ ] A) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+- [ ] B) Considerar qualquer saída do Python como prova suficiente.
+- [ ] C) Excluir valores que contradizem a primeira interpretação.
+- [ ] D) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
+- [ ] E) Apresentar apenas o número final sem informar de onde ele veio.
+
+5. Ordene um fluxo seguro para resolver uma atividade de **Preparação e diagnóstico**.
+
+- A) Revisar o código e registrar o aprendizado.
+- B) Definir as entradas, as regras e a saída necessária.
+- C) Implementar a solução em pequenas etapas.
+- D) Executar testes com valores diferentes.
+- E) Ler o enunciado e identificar o objetivo.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Preparação e diagnóstico**.
+
+- A) Anotar o que provocou o erro e como ele foi corrigido.
+- B) Isolar a parte do código que causa o problema.
+- C) Reproduzir o erro e observar a mensagem ou a saída.
+- D) Executar novamente os testes afetados.
+- E) Corrigir a causa identificada.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-001: preparacao-e-diagnostico`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 2 — Variáveis, tipos e operadores — 04/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Variáveis, tipos e operadores.
+- **Competência sugerida:** Python.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Variáveis, tipos e operadores** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -265,7 +333,6 @@ roadmap-data-science/
 - **Assunto central:** Variáveis, tipos e operadores.
 - **Pasta/arquivo principal:** `semana-01/dia-002-variaveis-tipos-e-operadores.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie `tipos_operadores.py` e declare exemplos de `int`, `float`, `str` e `bool`; use `type()` para registrar o tipo de cada variável.
@@ -278,27 +345,85 @@ roadmap-data-science/
 > Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
 
 - [ ] Amplie um dos programas de **Variáveis, tipos e operadores** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
 
 ### Perguntas de checagem
-1. Quando usar `int`, `float`, `str` e `bool`, e em quais conversões de tipo pode ocorrer perda ou distorção de informação?
-2. Em qual exercício de **Variáveis, tipos e operadores** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Variáveis, tipos e operadores** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte da sua solução de **Variáveis, tipos e operadores** ficaria mais difícil de manter se novas regras fossem adicionadas?
-6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao praticar **Variáveis, tipos e operadores**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+
+- [ ] A) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+- [ ] B) Ignorar os tipos das variáveis quando a saída parece plausível.
+- [ ] C) Evitar testes para não modificar o código que já executou uma vez.
+- [ ] D) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+- [ ] E) Copiar um código pronto e alterar valores até ele executar.
+
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Variáveis, tipos e operadores**?
+
+- [ ] A) Repetir o mesmo cálculo em vários lugares do arquivo.
+- [ ] B) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+- [ ] C) Transformar todas as entradas em texto e calcular diretamente.
+- [ ] D) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+- [ ] E) Remover mensagens de erro para deixar o terminal mais limpo.
+
+3. Qual teste fornece a verificação mais completa para um exercício de **Variáveis, tipos e operadores**?
+
+- [ ] A) Executar apenas o exemplo numérico apresentado no enunciado.
+- [ ] B) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+- [ ] C) Ler o código sem executá-lo porque a sintaxe parece correta.
+- [ ] D) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+- [ ] E) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+
+4. Ao usar um cálculo de **Variáveis, tipos e operadores** para apoiar uma decisão, qual atitude é mais adequada?
+
+- [ ] A) Considerar qualquer saída do Python como prova suficiente.
+- [ ] B) Excluir valores que contradizem a primeira interpretação.
+- [ ] C) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
+- [ ] D) Apresentar apenas o número final sem informar de onde ele veio.
+- [ ] E) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+
+5. Ordene um fluxo seguro para resolver uma atividade de **Variáveis, tipos e operadores**.
+
+- A) Revisar o código e registrar o aprendizado.
+- B) Implementar a solução em pequenas etapas.
+- C) Definir as entradas, as regras e a saída necessária.
+- D) Executar testes com valores diferentes.
+- E) Ler o enunciado e identificar o objetivo.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Variáveis, tipos e operadores**.
+
+- A) Corrigir a causa identificada.
+- B) Anotar o que provocou o erro e como ele foi corrigido.
+- C) Reproduzir o erro e observar a mensagem ou a saída.
+- D) Executar novamente os testes afetados.
+- E) Isolar a parte do código que causa o problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-002: variaveis-tipos-e-operadores`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 3 — Condicionais e regras de negócio — 05/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Condicionais e regras de negócio.
+- **Competência sugerida:** Python e regras de negócio.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python e regras de negócio** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Condicionais e regras de negócio** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -306,7 +431,6 @@ roadmap-data-science/
 - **Assunto central:** Condicionais e regras de negócio.
 - **Pasta/arquivo principal:** `semana-01/dia-003-condicionais-e-regras-de-negocio.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie `prioridade_chamados.py` com entradas `clientes_afetados`, `duracao_min`, `servico_critico`, `cidade_inteira` e `risco_seguranca`.
@@ -319,27 +443,85 @@ roadmap-data-science/
 > Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
 
 - [ ] Amplie um dos programas de **Condicionais e regras de negócio** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
 
 ### Perguntas de checagem
-1. Como a ordem de `if` e `elif` pode mudar uma regra de negócio, mesmo quando todas as condições parecem corretas?
-2. Em qual exercício de **Condicionais e regras de negócio** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Condicionais e regras de negócio** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte da sua solução de **Condicionais e regras de negócio** ficaria mais difícil de manter se novas regras fossem adicionadas?
-6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao praticar **Condicionais e regras de negócio**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+
+- [ ] A) Ignorar os tipos das variáveis quando a saída parece plausível.
+- [ ] B) Evitar testes para não modificar o código que já executou uma vez.
+- [ ] C) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+- [ ] D) Copiar um código pronto e alterar valores até ele executar.
+- [ ] E) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Condicionais e regras de negócio**?
+
+- [ ] A) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+- [ ] B) Transformar todas as entradas em texto e calcular diretamente.
+- [ ] C) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+- [ ] D) Remover mensagens de erro para deixar o terminal mais limpo.
+- [ ] E) Repetir o mesmo cálculo em vários lugares do arquivo.
+
+3. Qual teste fornece a verificação mais completa para um exercício de **Condicionais e regras de negócio**?
+
+- [ ] A) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+- [ ] B) Ler o código sem executá-lo porque a sintaxe parece correta.
+- [ ] C) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+- [ ] D) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+- [ ] E) Executar apenas o exemplo numérico apresentado no enunciado.
+
+4. Ao usar um cálculo de **Condicionais e regras de negócio** para apoiar uma decisão, qual atitude é mais adequada?
+
+- [ ] A) Excluir valores que contradizem a primeira interpretação.
+- [ ] B) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
+- [ ] C) Apresentar apenas o número final sem informar de onde ele veio.
+- [ ] D) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+- [ ] E) Considerar qualquer saída do Python como prova suficiente.
+
+5. Ordene um fluxo seguro para resolver uma atividade de **Condicionais e regras de negócio**.
+
+- A) Ler o enunciado e identificar o objetivo.
+- B) Implementar a solução em pequenas etapas.
+- C) Definir as entradas, as regras e a saída necessária.
+- D) Executar testes com valores diferentes.
+- E) Revisar o código e registrar o aprendizado.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Condicionais e regras de negócio**.
+
+- A) Reproduzir o erro e observar a mensagem ou a saída.
+- B) Anotar o que provocou o erro e como ele foi corrigido.
+- C) Corrigir a causa identificada.
+- D) Executar novamente os testes afetados.
+- E) Isolar a parte do código que causa o problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-003: condicionais-e-regras-de-negocio`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 4 — Laços e coleções — 06/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Laços e coleções.
+- **Competência sugerida:** Python, laços e coleções.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python, laços e coleções** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Laços e coleções** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -347,7 +529,6 @@ roadmap-data-science/
 - **Assunto central:** Laços e coleções.
 - **Pasta/arquivo principal:** `semana-01/dia-004-lacos-e-colecoes.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie uma lista com 15 incidentes em formato de dicionário contendo `cidade`, `causa`, `severidade` e `duracao_min`.
@@ -360,27 +541,85 @@ roadmap-data-science/
 > Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
 
 - [ ] Amplie um dos programas de **Laços e coleções** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
 
 ### Perguntas de checagem
-1. Quando escolher lista, tupla, conjunto ou dicionário, e qual estrutura evita duplicidades por natureza?
-2. Em qual exercício de **Laços e coleções** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Laços e coleções** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte da sua solução de **Laços e coleções** ficaria mais difícil de manter se novas regras fossem adicionadas?
-6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao praticar **Laços e coleções**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+
+- [ ] A) Evitar testes para não modificar o código que já executou uma vez.
+- [ ] B) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+- [ ] C) Copiar um código pronto e alterar valores até ele executar.
+- [ ] D) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+- [ ] E) Ignorar os tipos das variáveis quando a saída parece plausível.
+
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Laços e coleções**?
+
+- [ ] A) Transformar todas as entradas em texto e calcular diretamente.
+- [ ] B) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+- [ ] C) Remover mensagens de erro para deixar o terminal mais limpo.
+- [ ] D) Repetir o mesmo cálculo em vários lugares do arquivo.
+- [ ] E) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+
+3. Qual teste fornece a verificação mais completa para um exercício de **Laços e coleções**?
+
+- [ ] A) Ler o código sem executá-lo porque a sintaxe parece correta.
+- [ ] B) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+- [ ] C) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+- [ ] D) Executar apenas o exemplo numérico apresentado no enunciado.
+- [ ] E) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+
+4. Ao usar um cálculo de **Laços e coleções** para apoiar uma decisão, qual atitude é mais adequada?
+
+- [ ] A) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
+- [ ] B) Apresentar apenas o número final sem informar de onde ele veio.
+- [ ] C) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+- [ ] D) Considerar qualquer saída do Python como prova suficiente.
+- [ ] E) Excluir valores que contradizem a primeira interpretação.
+
+5. Ordene um fluxo seguro para resolver uma atividade de **Laços e coleções**.
+
+- A) Implementar a solução em pequenas etapas.
+- B) Definir as entradas, as regras e a saída necessária.
+- C) Ler o enunciado e identificar o objetivo.
+- D) Executar testes com valores diferentes.
+- E) Revisar o código e registrar o aprendizado.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Laços e coleções**.
+
+- A) Reproduzir o erro e observar a mensagem ou a saída.
+- B) Corrigir a causa identificada.
+- C) Anotar o que provocou o erro e como ele foi corrigido.
+- D) Executar novamente os testes afetados.
+- E) Isolar a parte do código que causa o problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-004: lacos-e-colecoes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 5 — Funções e primeiro mini-projeto — 07/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Funções e primeiro mini-projeto.
+- **Competência sugerida:** Python e desenvolvimento de mini-projetos.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python e desenvolvimento de mini-projetos** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Funções e primeiro mini-projeto** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -388,35 +627,81 @@ roadmap-data-science/
 - **Assunto central:** Funções e primeiro mini-projeto.
 - **Pasta/arquivo principal:** `semana-01/dia-005-funcoes-e-primeiro-mini-projeto/` (pasta do projeto).
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Refatore os códigos dos dias 2 a 4 em funções com nomes claros, parâmetros tipados e docstrings curtas.
 2. [ ] Crie `noc_insights.py` com menu: adicionar incidente, listar incidentes, calcular resumo e sair.
 3. [ ] Implemente funções separadas para validar entrada, classificar prioridade, calcular métricas e formatar relatório.
 4. [ ] Cadastre manualmente 10 incidentes e confirme: contagem por cidade, média de duração, prioridade mais frequente e total de clientes afetados.
-5. [ ] Crie `testes_manuais.md` com 10 cenários, resultado esperado, resultado obtido e status aprovado/reprovado.
+5. [ ] Crie `testes_manuais.md` com 10 cenários, entrada usada, resultado obtido e status aprovado/reprovado.
 
 ### Exercícios extras
 > Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
 
 - [ ] Amplie um dos programas de **Funções e primeiro mini-projeto** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
 
 ### Perguntas de checagem
-1. Qual a diferença entre parâmetro, argumento, retorno e efeito colateral de uma função?
-2. Em qual exercício de **Funções e primeiro mini-projeto** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Funções e primeiro mini-projeto** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte da sua solução de **Funções e primeiro mini-projeto** ficaria mais difícil de manter se novas regras fossem adicionadas?
-6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao praticar **Funções e primeiro mini-projeto**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+
+- [ ] A) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+- [ ] B) Copiar um código pronto e alterar valores até ele executar.
+- [ ] C) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+- [ ] D) Ignorar os tipos das variáveis quando a saída parece plausível.
+- [ ] E) Evitar testes para não modificar o código que já executou uma vez.
+
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Funções e primeiro mini-projeto**?
+
+- [ ] A) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+- [ ] B) Remover mensagens de erro para deixar o terminal mais limpo.
+- [ ] C) Repetir o mesmo cálculo em vários lugares do arquivo.
+- [ ] D) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+- [ ] E) Transformar todas as entradas em texto e calcular diretamente.
+
+3. Qual teste fornece a verificação mais completa para um exercício de **Funções e primeiro mini-projeto**?
+
+- [ ] A) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+- [ ] B) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+- [ ] C) Executar apenas o exemplo numérico apresentado no enunciado.
+- [ ] D) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+- [ ] E) Ler o código sem executá-lo porque a sintaxe parece correta.
+
+4. Ao usar um cálculo de **Funções e primeiro mini-projeto** para apoiar uma decisão, qual atitude é mais adequada?
+
+- [ ] A) Apresentar apenas o número final sem informar de onde ele veio.
+- [ ] B) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+- [ ] C) Considerar qualquer saída do Python como prova suficiente.
+- [ ] D) Excluir valores que contradizem a primeira interpretação.
+- [ ] E) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
+
+5. Ordene um fluxo seguro para resolver uma atividade de **Funções e primeiro mini-projeto**.
+
+- A) Definir as entradas, as regras e a saída necessária.
+- B) Implementar a solução em pequenas etapas.
+- C) Executar testes com valores diferentes.
+- D) Revisar o código e registrar o aprendizado.
+- E) Ler o enunciado e identificar o objetivo.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Funções e primeiro mini-projeto**.
+
+- A) Reproduzir o erro e observar a mensagem ou a saída.
+- B) Corrigir a causa identificada.
+- C) Isolar a parte do código que causa o problema.
+- D) Executar novamente os testes afetados.
+- E) Anotar o que provocou o erro e como ele foi corrigido.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-005: funcoes-e-primeiro-mini-projeto`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -451,6 +736,17 @@ roadmap-data-science/
 **Entrega da semana:** Aplicação que lê arquivos CSV/JSON, valida dados e produz um relatório consolidado.
 
 ## Dia 6 — Compreensões e funções úteis — 10/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Compreensões e funções úteis.
+- **Competência sugerida:** Python e list comprehensions.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python e list comprehensions** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Compreensões e funções úteis** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -458,7 +754,6 @@ roadmap-data-science/
 - **Assunto central:** Compreensões e funções úteis.
 - **Pasta/arquivo principal:** `semana-02/dia-006-compreensoes-e-funcoes-uteis.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie `comprehensions.py` com uma lista de 20 incidentes; gere com list comprehension apenas os P1/P2 com duração superior a 60 minutos.
@@ -471,27 +766,85 @@ roadmap-data-science/
 > Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
 
 - [ ] Amplie um dos programas de **Compreensões e funções úteis** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
 
 ### Perguntas de checagem
-1. Em que situação uma comprehension melhora o código e em que situação ela prejudica a legibilidade?
-2. Em qual exercício de **Compreensões e funções úteis** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Compreensões e funções úteis** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte da sua solução de **Compreensões e funções úteis** ficaria mais difícil de manter se novas regras fossem adicionadas?
-6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao praticar **Compreensões e funções úteis**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+
+- [ ] A) Copiar um código pronto e alterar valores até ele executar.
+- [ ] B) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+- [ ] C) Ignorar os tipos das variáveis quando a saída parece plausível.
+- [ ] D) Evitar testes para não modificar o código que já executou uma vez.
+- [ ] E) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Compreensões e funções úteis**?
+
+- [ ] A) Remover mensagens de erro para deixar o terminal mais limpo.
+- [ ] B) Repetir o mesmo cálculo em vários lugares do arquivo.
+- [ ] C) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+- [ ] D) Transformar todas as entradas em texto e calcular diretamente.
+- [ ] E) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+
+3. Qual teste fornece a verificação mais completa para um exercício de **Compreensões e funções úteis**?
+
+- [ ] A) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+- [ ] B) Executar apenas o exemplo numérico apresentado no enunciado.
+- [ ] C) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+- [ ] D) Ler o código sem executá-lo porque a sintaxe parece correta.
+- [ ] E) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+
+4. Ao usar um cálculo de **Compreensões e funções úteis** para apoiar uma decisão, qual atitude é mais adequada?
+
+- [ ] A) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+- [ ] B) Considerar qualquer saída do Python como prova suficiente.
+- [ ] C) Excluir valores que contradizem a primeira interpretação.
+- [ ] D) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
+- [ ] E) Apresentar apenas o número final sem informar de onde ele veio.
+
+5. Ordene um fluxo seguro para resolver uma atividade de **Compreensões e funções úteis**.
+
+- A) Ler o enunciado e identificar o objetivo.
+- B) Definir as entradas, as regras e a saída necessária.
+- C) Implementar a solução em pequenas etapas.
+- D) Revisar o código e registrar o aprendizado.
+- E) Executar testes com valores diferentes.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Compreensões e funções úteis**.
+
+- A) Corrigir a causa identificada.
+- B) Isolar a parte do código que causa o problema.
+- C) Reproduzir o erro e observar a mensagem ou a saída.
+- D) Executar novamente os testes afetados.
+- E) Anotar o que provocou o erro e como ele foi corrigido.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-006: compreensoes-e-funcoes-uteis`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 7 — Arquivos CSV, JSON e caminhos — 11/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Arquivos CSV, JSON e caminhos.
+- **Competência sugerida:** Manipulação de CSV e JSON com Python.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Manipulação de CSV e JSON com Python** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Arquivos CSV, JSON e caminhos** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -499,7 +852,6 @@ roadmap-data-science/
 - **Assunto central:** Arquivos CSV, JSON e caminhos.
 - **Pasta/arquivo principal:** `semana-02/dia-007-arquivos-csv-json-e-caminhos.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie `incidentes.csv` com 12 linhas e colunas `id,cidade,causa,severidade,duracao_min,clientes_afetados,resolvido`; crie também `metas.json` com meta de duração por cidade.
@@ -512,27 +864,85 @@ roadmap-data-science/
 > Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
 
 - [ ] Amplie um dos programas de **Arquivos CSV, JSON e caminhos** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
 
 ### Perguntas de checagem
-1. Como detectar e tratar encoding, delimitador, esquema e linhas inválidas ao ler arquivos externos?
-2. Em qual exercício de **Arquivos CSV, JSON e caminhos** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Arquivos CSV, JSON e caminhos** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte da sua solução de **Arquivos CSV, JSON e caminhos** ficaria mais difícil de manter se novas regras fossem adicionadas?
-6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao praticar **Arquivos CSV, JSON e caminhos**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+
+- [ ] A) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+- [ ] B) Ignorar os tipos das variáveis quando a saída parece plausível.
+- [ ] C) Evitar testes para não modificar o código que já executou uma vez.
+- [ ] D) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+- [ ] E) Copiar um código pronto e alterar valores até ele executar.
+
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Arquivos CSV, JSON e caminhos**?
+
+- [ ] A) Repetir o mesmo cálculo em vários lugares do arquivo.
+- [ ] B) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+- [ ] C) Transformar todas as entradas em texto e calcular diretamente.
+- [ ] D) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+- [ ] E) Remover mensagens de erro para deixar o terminal mais limpo.
+
+3. Qual teste fornece a verificação mais completa para um exercício de **Arquivos CSV, JSON e caminhos**?
+
+- [ ] A) Executar apenas o exemplo numérico apresentado no enunciado.
+- [ ] B) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+- [ ] C) Ler o código sem executá-lo porque a sintaxe parece correta.
+- [ ] D) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+- [ ] E) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+
+4. Ao usar um cálculo de **Arquivos CSV, JSON e caminhos** para apoiar uma decisão, qual atitude é mais adequada?
+
+- [ ] A) Considerar qualquer saída do Python como prova suficiente.
+- [ ] B) Excluir valores que contradizem a primeira interpretação.
+- [ ] C) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
+- [ ] D) Apresentar apenas o número final sem informar de onde ele veio.
+- [ ] E) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+
+5. Ordene um fluxo seguro para resolver uma atividade de **Arquivos CSV, JSON e caminhos**.
+
+- A) Ler o enunciado e identificar o objetivo.
+- B) Revisar o código e registrar o aprendizado.
+- C) Definir as entradas, as regras e a saída necessária.
+- D) Executar testes com valores diferentes.
+- E) Implementar a solução em pequenas etapas.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Arquivos CSV, JSON e caminhos**.
+
+- A) Isolar a parte do código que causa o problema.
+- B) Corrigir a causa identificada.
+- C) Executar novamente os testes afetados.
+- D) Anotar o que provocou o erro e como ele foi corrigido.
+- E) Reproduzir o erro e observar a mensagem ou a saída.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-007: arquivos-csv-json-e-caminhos`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 8 — Exceções e validação — 12/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Exceções e validação.
+- **Competência sugerida:** Tratamento de exceções e validação.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Tratamento de exceções e validação** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Exceções e validação** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -540,7 +950,6 @@ roadmap-data-science/
 - **Assunto central:** Exceções e validação.
 - **Pasta/arquivo principal:** `semana-02/dia-008-excecoes-e-validacao.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie uma cópia do CSV do dia anterior com cinco erros: duração vazia, texto em clientes, severidade inválida, cidade ausente e booleano escrito errado.
@@ -553,27 +962,85 @@ roadmap-data-science/
 > Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
 
 - [ ] Amplie um dos programas de **Exceções e validação** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
 
 ### Perguntas de checagem
-1. Por que capturar `Exception` genericamente pode esconder defeitos, e quando usar `raise`?
-2. Em qual exercício de **Exceções e validação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Exceções e validação** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte da sua solução de **Exceções e validação** ficaria mais difícil de manter se novas regras fossem adicionadas?
-6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao praticar **Exceções e validação**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+
+- [ ] A) Ignorar os tipos das variáveis quando a saída parece plausível.
+- [ ] B) Evitar testes para não modificar o código que já executou uma vez.
+- [ ] C) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+- [ ] D) Copiar um código pronto e alterar valores até ele executar.
+- [ ] E) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Exceções e validação**?
+
+- [ ] A) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+- [ ] B) Transformar todas as entradas em texto e calcular diretamente.
+- [ ] C) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+- [ ] D) Remover mensagens de erro para deixar o terminal mais limpo.
+- [ ] E) Repetir o mesmo cálculo em vários lugares do arquivo.
+
+3. Qual teste fornece a verificação mais completa para um exercício de **Exceções e validação**?
+
+- [ ] A) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+- [ ] B) Ler o código sem executá-lo porque a sintaxe parece correta.
+- [ ] C) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+- [ ] D) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+- [ ] E) Executar apenas o exemplo numérico apresentado no enunciado.
+
+4. Ao usar um cálculo de **Exceções e validação** para apoiar uma decisão, qual atitude é mais adequada?
+
+- [ ] A) Excluir valores que contradizem a primeira interpretação.
+- [ ] B) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
+- [ ] C) Apresentar apenas o número final sem informar de onde ele veio.
+- [ ] D) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+- [ ] E) Considerar qualquer saída do Python como prova suficiente.
+
+5. Ordene um fluxo seguro para resolver uma atividade de **Exceções e validação**.
+
+- A) Ler o enunciado e identificar o objetivo.
+- B) Definir as entradas, as regras e a saída necessária.
+- C) Revisar o código e registrar o aprendizado.
+- D) Executar testes com valores diferentes.
+- E) Implementar a solução em pequenas etapas.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Exceções e validação**.
+
+- A) Reproduzir o erro e observar a mensagem ou a saída.
+- B) Isolar a parte do código que causa o problema.
+- C) Corrigir a causa identificada.
+- D) Anotar o que provocou o erro e como ele foi corrigido.
+- E) Executar novamente os testes afetados.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-008: excecoes-e-validacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 9 — Módulos, pacotes e ambientes — 13/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Módulos, pacotes e ambientes.
+- **Competência sugerida:** Módulos, pacotes e ambientes Python.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Módulos, pacotes e ambientes Python** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Módulos, pacotes e ambientes** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -581,7 +1048,6 @@ roadmap-data-science/
 - **Assunto central:** Módulos, pacotes e ambientes.
 - **Pasta/arquivo principal:** `semana-02/dia-009-modulos-pacotes-e-ambientes.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Transforme as funções dos dias anteriores em um pacote `noc_utils` com arquivos `__init__.py`, `validacao.py`, `metricas.py` e `io.py`.
@@ -594,27 +1060,85 @@ roadmap-data-science/
 > Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
 
 - [ ] Amplie um dos programas de **Módulos, pacotes e ambientes** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
 
 ### Perguntas de checagem
-1. Qual problema módulos, pacotes e ambientes virtuais resolvem em um projeto reproduzível?
-2. Em qual exercício de **Módulos, pacotes e ambientes** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Módulos, pacotes e ambientes** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte da sua solução de **Módulos, pacotes e ambientes** ficaria mais difícil de manter se novas regras fossem adicionadas?
-6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao praticar **Módulos, pacotes e ambientes**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+
+- [ ] A) Evitar testes para não modificar o código que já executou uma vez.
+- [ ] B) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+- [ ] C) Copiar um código pronto e alterar valores até ele executar.
+- [ ] D) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+- [ ] E) Ignorar os tipos das variáveis quando a saída parece plausível.
+
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Módulos, pacotes e ambientes**?
+
+- [ ] A) Transformar todas as entradas em texto e calcular diretamente.
+- [ ] B) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+- [ ] C) Remover mensagens de erro para deixar o terminal mais limpo.
+- [ ] D) Repetir o mesmo cálculo em vários lugares do arquivo.
+- [ ] E) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+
+3. Qual teste fornece a verificação mais completa para um exercício de **Módulos, pacotes e ambientes**?
+
+- [ ] A) Ler o código sem executá-lo porque a sintaxe parece correta.
+- [ ] B) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+- [ ] C) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+- [ ] D) Executar apenas o exemplo numérico apresentado no enunciado.
+- [ ] E) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+
+4. Ao usar um cálculo de **Módulos, pacotes e ambientes** para apoiar uma decisão, qual atitude é mais adequada?
+
+- [ ] A) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
+- [ ] B) Apresentar apenas o número final sem informar de onde ele veio.
+- [ ] C) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+- [ ] D) Considerar qualquer saída do Python como prova suficiente.
+- [ ] E) Excluir valores que contradizem a primeira interpretação.
+
+5. Ordene um fluxo seguro para resolver uma atividade de **Módulos, pacotes e ambientes**.
+
+- A) Implementar a solução em pequenas etapas.
+- B) Revisar o código e registrar o aprendizado.
+- C) Ler o enunciado e identificar o objetivo.
+- D) Executar testes com valores diferentes.
+- E) Definir as entradas, as regras e a saída necessária.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Módulos, pacotes e ambientes**.
+
+- A) Corrigir a causa identificada.
+- B) Anotar o que provocou o erro e como ele foi corrigido.
+- C) Reproduzir o erro e observar a mensagem ou a saída.
+- D) Executar novamente os testes afetados.
+- E) Isolar a parte do código que causa o problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-009: modulos-pacotes-e-ambientes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 10 — Mini-projeto de consolidação — 14/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Mini-projeto de consolidação.
+- **Competência sugerida:** Python e construção de pipelines.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **Python e construção de pipelines** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Mini-projeto de consolidação** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -622,7 +1146,6 @@ roadmap-data-science/
 - **Assunto central:** Mini-projeto de consolidação.
 - **Pasta/arquivo principal:** `semana-02/dia-010-mini-projeto-de-consolidacao/` (pasta do projeto).
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie uma pasta `projeto_semana02` e copie somente os módulos realmente necessários, sem levar arquivos temporários.
@@ -635,22 +1158,69 @@ roadmap-data-science/
 > Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
 
 - [ ] Amplie um dos programas de **Mini-projeto de consolidação** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
 
 ### Perguntas de checagem
-1. Como garantir que registros vindos de fontes diferentes representam a mesma estrutura e não sejam duplicados?
-2. Em qual exercício de **Mini-projeto de consolidação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Mini-projeto de consolidação** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte da sua solução de **Mini-projeto de consolidação** ficaria mais difícil de manter se novas regras fossem adicionadas?
-6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao praticar **Mini-projeto de consolidação**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+
+- [ ] A) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
+- [ ] B) Copiar um código pronto e alterar valores até ele executar.
+- [ ] C) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
+- [ ] D) Ignorar os tipos das variáveis quando a saída parece plausível.
+- [ ] E) Evitar testes para não modificar o código que já executou uma vez.
+
+2. Qual prática reduz mais o risco de erro em um programa relacionado a **Mini-projeto de consolidação**?
+
+- [ ] A) Aceitar qualquer entrada e corrigir somente se o programa fechar.
+- [ ] B) Remover mensagens de erro para deixar o terminal mais limpo.
+- [ ] C) Repetir o mesmo cálculo em vários lugares do arquivo.
+- [ ] D) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
+- [ ] E) Transformar todas as entradas em texto e calcular diretamente.
+
+3. Qual teste fornece a verificação mais completa para um exercício de **Mini-projeto de consolidação**?
+
+- [ ] A) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
+- [ ] B) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
+- [ ] C) Executar apenas o exemplo numérico apresentado no enunciado.
+- [ ] D) Conferir somente se o arquivo foi salvo com a extensão `.py`.
+- [ ] E) Ler o código sem executá-lo porque a sintaxe parece correta.
+
+4. Ao usar um cálculo de **Mini-projeto de consolidação** para apoiar uma decisão, qual atitude é mais adequada?
+
+- [ ] A) Apresentar apenas o número final sem informar de onde ele veio.
+- [ ] B) Escolher a conclusão antes do cálculo e adaptar o código a ela.
+- [ ] C) Considerar qualquer saída do Python como prova suficiente.
+- [ ] D) Excluir valores que contradizem a primeira interpretação.
+- [ ] E) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
+
+5. Ordene um fluxo seguro para resolver uma atividade de **Mini-projeto de consolidação**.
+
+- A) Ler o enunciado e identificar o objetivo.
+- B) Implementar a solução em pequenas etapas.
+- C) Definir as entradas, as regras e a saída necessária.
+- D) Executar testes com valores diferentes.
+- E) Revisar o código e registrar o aprendizado.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as ações para investigar um erro durante a prática de **Mini-projeto de consolidação**.
+
+- A) Anotar o que provocou o erro e como ele foi corrigido.
+- B) Isolar a parte do código que causa o problema.
+- C) Corrigir a causa identificada.
+- D) Executar novamente os testes afetados.
+- E) Reproduzir o erro e observar a mensagem ou a saída.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-010: mini-projeto-de-consolidacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -684,6 +1254,17 @@ roadmap-data-science/
 **Entrega da semana:** Notebook de análise exploratória de um dataset real, com limpeza e conclusões iniciais.
 
 ## Dia 11 — NumPy essencial — 17/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** NumPy essencial.
+- **Competência sugerida:** NumPy.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **NumPy** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **NumPy essencial** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -691,7 +1272,6 @@ roadmap-data-science/
 - **Assunto central:** NumPy essencial.
 - **Pasta/arquivo principal:** `semana-03/dia-011-numpy-essencial.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie `numpy_essencial.ipynb` e um array com durações `[15,30,45,60,90,120,180,240]`; calcule média, mediana, desvio, mínimo, máximo e percentis 25/75.
@@ -707,24 +1287,82 @@ roadmap-data-science/
 - [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
-1. Por que operações vetorizadas costumam ser preferíveis a laços Python em dados numéricos?
-2. Em qual exercício de **NumPy essencial** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **NumPy essencial** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
-6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de tirar conclusões em **NumPy essencial**, qual é a prática mais confiável?
+
+- [ ] A) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] B) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] C) Calcular médias antes de entender o que cada linha representa.
+- [ ] D) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] E) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **NumPy essencial**?
+
+- [ ] A) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] B) Substituir valores ausentes pelo maior valor disponível.
+- [ ] C) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] D) Somar todas as colunas numéricas independentemente do significado.
+- [ ] E) Arredondar os valores antes de analisar diferenças.
+
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **NumPy essencial**?
+
+- [ ] A) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] B) Ordenar as colunas pelo tamanho do nome.
+- [ ] C) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] D) Excluir categorias pequenas antes de examiná-las.
+- [ ] E) Duplicar a base e repetir o mesmo cálculo.
+
+4. Como uma análise de **NumPy essencial** deve ser apresentada para apoiar uma decisão?
+
+- [ ] A) Omitindo incertezas para transmitir mais confiança.
+- [ ] B) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] C) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] D) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] E) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+
+5. Ordene um fluxo de análise para uma atividade de **NumPy essencial**.
+
+- A) Preparar os dados sem perder a granularidade necessária.
+- B) Inspecionar a estrutura e a qualidade dos dados.
+- C) Definir a pergunta que precisa ser respondida.
+- D) Calcular e visualizar as evidências relevantes.
+- E) Comunicar a conclusão, as limitações e a ação sugerida.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **NumPy essencial**.
+
+- A) Apresentar a mensagem principal e o próximo passo.
+- B) Escolher o tipo de visual compatível com a comparação.
+- C) Selecionar a métrica e o recorte adequados.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Identificar o público e a decisão que será apoiada.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-011: numpy-essencial`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 12 — pandas: Series e DataFrame — 18/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** pandas: Series e DataFrame.
+- **Competência sugerida:** pandas.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **pandas** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **pandas: Series e DataFrame** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -732,7 +1370,6 @@ roadmap-data-science/
 - **Assunto central:** pandas: Series e DataFrame.
 - **Pasta/arquivo principal:** `semana-03/dia-012-pandas-series-e-dataframe.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie `pandas_basico.ipynb` e monte um DataFrame de 12 incidentes a partir de um dicionário.
@@ -748,24 +1385,82 @@ roadmap-data-science/
 - [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
-1. Qual a diferença prática entre `Series` e `DataFrame`, e como índice e tipos afetam uma análise?
-2. Em qual exercício de **pandas: Series e DataFrame** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **pandas: Series e DataFrame** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
-6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de tirar conclusões em **pandas: Series e DataFrame**, qual é a prática mais confiável?
+
+- [ ] A) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] B) Calcular médias antes de entender o que cada linha representa.
+- [ ] C) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] D) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] E) Começar pelo gráfico mais bonito e escolher os dados depois.
+
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **pandas: Series e DataFrame**?
+
+- [ ] A) Substituir valores ausentes pelo maior valor disponível.
+- [ ] B) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] C) Somar todas as colunas numéricas independentemente do significado.
+- [ ] D) Arredondar os valores antes de analisar diferenças.
+- [ ] E) Usar apenas as primeiras linhas como representação de toda a base.
+
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **pandas: Series e DataFrame**?
+
+- [ ] A) Ordenar as colunas pelo tamanho do nome.
+- [ ] B) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] C) Excluir categorias pequenas antes de examiná-las.
+- [ ] D) Duplicar a base e repetir o mesmo cálculo.
+- [ ] E) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+
+4. Como uma análise de **pandas: Series e DataFrame** deve ser apresentada para apoiar uma decisão?
+
+- [ ] A) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] B) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] C) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] D) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] E) Omitindo incertezas para transmitir mais confiança.
+
+5. Ordene um fluxo de análise para uma atividade de **pandas: Series e DataFrame**.
+
+- A) Definir a pergunta que precisa ser respondida.
+- B) Inspecionar a estrutura e a qualidade dos dados.
+- C) Preparar os dados sem perder a granularidade necessária.
+- D) Comunicar a conclusão, as limitações e a ação sugerida.
+- E) Calcular e visualizar as evidências relevantes.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **pandas: Series e DataFrame**.
+
+- A) Escolher o tipo de visual compatível com a comparação.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Apresentar a mensagem principal e o próximo passo.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Identificar o público e a decisão que será apoiada.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-012: pandas-series-e-dataframe`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 13 — Limpeza de dados — 19/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Limpeza de dados.
+- **Competência sugerida:** Limpeza de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Limpeza de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Limpeza de dados** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -773,7 +1468,6 @@ roadmap-data-science/
 - **Assunto central:** Limpeza de dados.
 - **Pasta/arquivo principal:** `semana-03/dia-013-limpeza-de-dados.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Use uma base com ausentes, duplicados, categorias inconsistentes (`Eunapolis`, `Eunápolis`, `EUNÁPOLIS`) e valores extremos.
@@ -789,24 +1483,82 @@ roadmap-data-science/
 - [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
-1. Quando remover, imputar ou manter um valor ausente, e como documentar essa decisão?
-2. Em qual exercício de **Limpeza de dados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Limpeza de dados** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
-6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de tirar conclusões em **Limpeza de dados**, qual é a prática mais confiável?
+
+- [ ] A) Calcular médias antes de entender o que cada linha representa.
+- [ ] B) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] C) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] D) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] E) Remover todas as linhas incompletas sem medir o impacto.
+
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Limpeza de dados**?
+
+- [ ] A) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] B) Somar todas as colunas numéricas independentemente do significado.
+- [ ] C) Arredondar os valores antes de analisar diferenças.
+- [ ] D) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] E) Substituir valores ausentes pelo maior valor disponível.
+
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Limpeza de dados**?
+
+- [ ] A) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] B) Excluir categorias pequenas antes de examiná-las.
+- [ ] C) Duplicar a base e repetir o mesmo cálculo.
+- [ ] D) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] E) Ordenar as colunas pelo tamanho do nome.
+
+4. Como uma análise de **Limpeza de dados** deve ser apresentada para apoiar uma decisão?
+
+- [ ] A) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] B) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] C) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] D) Omitindo incertezas para transmitir mais confiança.
+- [ ] E) Usando apenas termos técnicos, sem explicar o impacto.
+
+5. Ordene um fluxo de análise para uma atividade de **Limpeza de dados**.
+
+- A) Preparar os dados sem perder a granularidade necessária.
+- B) Inspecionar a estrutura e a qualidade dos dados.
+- C) Definir a pergunta que precisa ser respondida.
+- D) Comunicar a conclusão, as limitações e a ação sugerida.
+- E) Calcular e visualizar as evidências relevantes.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Limpeza de dados**.
+
+- A) Apresentar a mensagem principal e o próximo passo.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Escolher o tipo de visual compatível com a comparação.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Identificar o público e a decisão que será apoiada.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-013: limpeza-de-dados`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 14 — Agrupamento, merge e reshape — 20/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Agrupamento, merge e reshape.
+- **Competência sugerida:** Manipulação e integração de dados com pandas.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Manipulação e integração de dados com pandas** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Agrupamento, merge e reshape** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -814,7 +1566,6 @@ roadmap-data-science/
 - **Assunto central:** Agrupamento, merge e reshape.
 - **Pasta/arquivo principal:** `semana-03/dia-014-agrupamento-merge-e-reshape.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Com `incidentes.csv` e `metas_cidades.csv`, calcule por `groupby` quantidade, média, mediana, soma de clientes e percentual resolvido por cidade.
@@ -830,24 +1581,82 @@ roadmap-data-science/
 - [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
-1. Como escolher entre `merge`, `concat`, `groupby` e `pivot`, e qual risco existe em chaves não únicas?
-2. Em qual exercício de **Agrupamento, merge e reshape** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Agrupamento, merge e reshape** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
-6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de tirar conclusões em **Agrupamento, merge e reshape**, qual é a prática mais confiável?
+
+- [ ] A) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] B) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] C) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] D) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] E) Calcular médias antes de entender o que cada linha representa.
+
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Agrupamento, merge e reshape**?
+
+- [ ] A) Somar todas as colunas numéricas independentemente do significado.
+- [ ] B) Arredondar os valores antes de analisar diferenças.
+- [ ] C) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] D) Substituir valores ausentes pelo maior valor disponível.
+- [ ] E) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Agrupamento, merge e reshape**?
+
+- [ ] A) Excluir categorias pequenas antes de examiná-las.
+- [ ] B) Duplicar a base e repetir o mesmo cálculo.
+- [ ] C) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] D) Ordenar as colunas pelo tamanho do nome.
+- [ ] E) Trocar as cores do gráfico até a tendência ficar mais visível.
+
+4. Como uma análise de **Agrupamento, merge e reshape** deve ser apresentada para apoiar uma decisão?
+
+- [ ] A) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] B) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] C) Omitindo incertezas para transmitir mais confiança.
+- [ ] D) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] E) Escolhendo a recomendação mais popular, mesmo sem evidência.
+
+5. Ordene um fluxo de análise para uma atividade de **Agrupamento, merge e reshape**.
+
+- A) Definir a pergunta que precisa ser respondida.
+- B) Inspecionar a estrutura e a qualidade dos dados.
+- C) Preparar os dados sem perder a granularidade necessária.
+- D) Comunicar a conclusão, as limitações e a ação sugerida.
+- E) Calcular e visualizar as evidências relevantes.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Agrupamento, merge e reshape**.
+
+- A) Escolher o tipo de visual compatível com a comparação.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Identificar o público e a decisão que será apoiada.
+- D) Apresentar a mensagem principal e o próximo passo.
+- E) Revisar rótulos, escalas e possíveis interpretações enganosas.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-014: agrupamento-merge-e-reshape`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 15 — EDA prática — 21/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** EDA prática.
+- **Competência sugerida:** Análise Exploratória de Dados (EDA).
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise Exploratória de Dados (EDA)** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **EDA prática** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -855,7 +1664,6 @@ roadmap-data-science/
 - **Assunto central:** EDA prática.
 - **Pasta/arquivo principal:** `semana-03/dia-015-eda-pratica/` (pasta do projeto).
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha `clientes_telecom.csv` e escreva antes da análise cinco perguntas de negócio sobre churn, chamados, plano, mensalidade e NPS.
@@ -871,19 +1679,66 @@ roadmap-data-science/
 - [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
-1. Como distinguir uma descoberta útil de uma coincidência visual durante uma análise exploratória?
-2. Em qual exercício de **EDA prática** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **EDA prática** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
-6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de tirar conclusões em **EDA prática**, qual é a prática mais confiável?
+
+- [ ] A) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] B) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] C) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] D) Calcular médias antes de entender o que cada linha representa.
+- [ ] E) Considerar os nomes das colunas suficientes para validar os dados.
+
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **EDA prática**?
+
+- [ ] A) Arredondar os valores antes de analisar diferenças.
+- [ ] B) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] C) Substituir valores ausentes pelo maior valor disponível.
+- [ ] D) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] E) Somar todas as colunas numéricas independentemente do significado.
+
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **EDA prática**?
+
+- [ ] A) Duplicar a base e repetir o mesmo cálculo.
+- [ ] B) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] C) Ordenar as colunas pelo tamanho do nome.
+- [ ] D) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] E) Excluir categorias pequenas antes de examiná-las.
+
+4. Como uma análise de **EDA prática** deve ser apresentada para apoiar uma decisão?
+
+- [ ] A) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] B) Omitindo incertezas para transmitir mais confiança.
+- [ ] C) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] D) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] E) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+
+5. Ordene um fluxo de análise para uma atividade de **EDA prática**.
+
+- A) Definir a pergunta que precisa ser respondida.
+- B) Preparar os dados sem perder a granularidade necessária.
+- C) Comunicar a conclusão, as limitações e a ação sugerida.
+- D) Calcular e visualizar as evidências relevantes.
+- E) Inspecionar a estrutura e a qualidade dos dados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **EDA prática**.
+
+- A) Identificar o público e a decisão que será apoiada.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Apresentar a mensagem principal e o próximo passo.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Escolher o tipo de visual compatível com a comparação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-015: eda-pratica`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -917,6 +1772,17 @@ roadmap-data-science/
 **Entrega da semana:** Relatório executivo de cinco páginas ou notebook narrativo com gráficos e recomendações.
 
 ## Dia 16 — Fundamentos de visualização — 24/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Fundamentos de visualização.
+- **Competência sugerida:** Visualização de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Visualização de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Fundamentos de visualização** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -924,7 +1790,6 @@ roadmap-data-science/
 - **Assunto central:** Fundamentos de visualização.
 - **Pasta/arquivo principal:** `semana-04/dia-016-fundamentos-de-visualizacao.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie `visualizacao_fundamentos.ipynb` com um gráfico de barras, linha, histograma e dispersão usando o mesmo conjunto de dados.
@@ -940,24 +1805,82 @@ roadmap-data-science/
 - [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
-1. Como escolher o gráfico adequado para comparação, distribuição, relação e evolução temporal?
-2. Em qual exercício de **Fundamentos de visualização** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Fundamentos de visualização** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
-6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de tirar conclusões em **Fundamentos de visualização**, qual é a prática mais confiável?
+
+- [ ] A) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] B) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] C) Calcular médias antes de entender o que cada linha representa.
+- [ ] D) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] E) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Fundamentos de visualização**?
+
+- [ ] A) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] B) Substituir valores ausentes pelo maior valor disponível.
+- [ ] C) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] D) Somar todas as colunas numéricas independentemente do significado.
+- [ ] E) Arredondar os valores antes de analisar diferenças.
+
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Fundamentos de visualização**?
+
+- [ ] A) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] B) Ordenar as colunas pelo tamanho do nome.
+- [ ] C) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] D) Excluir categorias pequenas antes de examiná-las.
+- [ ] E) Duplicar a base e repetir o mesmo cálculo.
+
+4. Como uma análise de **Fundamentos de visualização** deve ser apresentada para apoiar uma decisão?
+
+- [ ] A) Omitindo incertezas para transmitir mais confiança.
+- [ ] B) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] C) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] D) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] E) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+
+5. Ordene um fluxo de análise para uma atividade de **Fundamentos de visualização**.
+
+- A) Preparar os dados sem perder a granularidade necessária.
+- B) Comunicar a conclusão, as limitações e a ação sugerida.
+- C) Definir a pergunta que precisa ser respondida.
+- D) Calcular e visualizar as evidências relevantes.
+- E) Inspecionar a estrutura e a qualidade dos dados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Fundamentos de visualização**.
+
+- A) Identificar o público e a decisão que será apoiada.
+- B) Apresentar a mensagem principal e o próximo passo.
+- C) Selecionar a métrica e o recorte adequados.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Escolher o tipo de visual compatível com a comparação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-016: fundamentos-de-visualizacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 17 — Visualização com pandas e Matplotlib — 25/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Visualização com pandas e Matplotlib.
+- **Competência sugerida:** Matplotlib.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Matplotlib** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Visualização com pandas e Matplotlib** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -965,7 +1888,6 @@ roadmap-data-science/
 - **Assunto central:** Visualização com pandas e Matplotlib.
 - **Pasta/arquivo principal:** `semana-04/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Com `pedidos.csv`, crie séries temporais de receita diária e mensal, barras de receita por canal e boxplot de valor por categoria.
@@ -981,24 +1903,82 @@ roadmap-data-science/
 - [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
-1. Quais elementos tornam um gráfico tecnicamente correto, mas ainda assim enganoso?
-2. Em qual exercício de **Visualização com pandas e Matplotlib** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Visualização com pandas e Matplotlib** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
-6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de tirar conclusões em **Visualização com pandas e Matplotlib**, qual é a prática mais confiável?
+
+- [ ] A) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] B) Calcular médias antes de entender o que cada linha representa.
+- [ ] C) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] D) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] E) Começar pelo gráfico mais bonito e escolher os dados depois.
+
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Visualização com pandas e Matplotlib**?
+
+- [ ] A) Substituir valores ausentes pelo maior valor disponível.
+- [ ] B) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] C) Somar todas as colunas numéricas independentemente do significado.
+- [ ] D) Arredondar os valores antes de analisar diferenças.
+- [ ] E) Usar apenas as primeiras linhas como representação de toda a base.
+
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Visualização com pandas e Matplotlib**?
+
+- [ ] A) Ordenar as colunas pelo tamanho do nome.
+- [ ] B) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] C) Excluir categorias pequenas antes de examiná-las.
+- [ ] D) Duplicar a base e repetir o mesmo cálculo.
+- [ ] E) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+
+4. Como uma análise de **Visualização com pandas e Matplotlib** deve ser apresentada para apoiar uma decisão?
+
+- [ ] A) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] B) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] C) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] D) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] E) Omitindo incertezas para transmitir mais confiança.
+
+5. Ordene um fluxo de análise para uma atividade de **Visualização com pandas e Matplotlib**.
+
+- A) Comunicar a conclusão, as limitações e a ação sugerida.
+- B) Preparar os dados sem perder a granularidade necessária.
+- C) Inspecionar a estrutura e a qualidade dos dados.
+- D) Calcular e visualizar as evidências relevantes.
+- E) Definir a pergunta que precisa ser respondida.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Visualização com pandas e Matplotlib**.
+
+- A) Identificar o público e a decisão que será apoiada.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Apresentar a mensagem principal e o próximo passo.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Escolher o tipo de visual compatível com a comparação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-017: visualizacao-com-pandas-e-matplotlib`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 18 — Storytelling e recomendação — 26/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Storytelling e recomendação.
+- **Competência sugerida:** Data Storytelling e recomendação.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Data Storytelling e recomendação** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Storytelling e recomendação** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1006,7 +1986,6 @@ roadmap-data-science/
 - **Assunto central:** Storytelling e recomendação.
 - **Pasta/arquivo principal:** `semana-04/dia-018-storytelling-e-recomendacao.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha três achados da EDA e transforme cada um em uma estrutura: contexto → evidência → impacto → recomendação.
@@ -1022,24 +2001,82 @@ roadmap-data-science/
 - [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
-1. Como transformar uma sequência de gráficos em argumento com contexto, evidência e recomendação?
-2. Em qual exercício de **Storytelling e recomendação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Storytelling e recomendação** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
-6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de tirar conclusões em **Storytelling e recomendação**, qual é a prática mais confiável?
+
+- [ ] A) Calcular médias antes de entender o que cada linha representa.
+- [ ] B) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] C) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] D) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] E) Remover todas as linhas incompletas sem medir o impacto.
+
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Storytelling e recomendação**?
+
+- [ ] A) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+- [ ] B) Somar todas as colunas numéricas independentemente do significado.
+- [ ] C) Arredondar os valores antes de analisar diferenças.
+- [ ] D) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] E) Substituir valores ausentes pelo maior valor disponível.
+
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Storytelling e recomendação**?
+
+- [ ] A) Trocar as cores do gráfico até a tendência ficar mais visível.
+- [ ] B) Excluir categorias pequenas antes de examiná-las.
+- [ ] C) Duplicar a base e repetir o mesmo cálculo.
+- [ ] D) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] E) Ordenar as colunas pelo tamanho do nome.
+
+4. Como uma análise de **Storytelling e recomendação** deve ser apresentada para apoiar uma decisão?
+
+- [ ] A) Escolhendo a recomendação mais popular, mesmo sem evidência.
+- [ ] B) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] C) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] D) Omitindo incertezas para transmitir mais confiança.
+- [ ] E) Usando apenas termos técnicos, sem explicar o impacto.
+
+5. Ordene um fluxo de análise para uma atividade de **Storytelling e recomendação**.
+
+- A) Preparar os dados sem perder a granularidade necessária.
+- B) Inspecionar a estrutura e a qualidade dos dados.
+- C) Comunicar a conclusão, as limitações e a ação sugerida.
+- D) Calcular e visualizar as evidências relevantes.
+- E) Definir a pergunta que precisa ser respondida.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Storytelling e recomendação**.
+
+- A) Identificar o público e a decisão que será apoiada.
+- B) Apresentar a mensagem principal e o próximo passo.
+- C) Selecionar a métrica e o recorte adequados.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Escolher o tipo de visual compatível com a comparação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-018: storytelling-e-recomendacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 19 — Dashboard introdutório — 27/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Dashboard introdutório.
+- **Competência sugerida:** Power BI e dashboards.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Power BI e dashboards** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Dashboard introdutório** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1047,7 +2084,6 @@ roadmap-data-science/
 - **Assunto central:** Dashboard introdutório.
 - **Pasta/arquivo principal:** `semana-04/dia-019-dashboard-introdutorio.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Defina um público-alvo para o dashboard: gerente de operações de telecom; escreva cinco decisões que ele precisa tomar.
@@ -1063,24 +2099,82 @@ roadmap-data-science/
 - [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
-1. Qual métrica deve aparecer primeiro em um dashboard e como evitar indicadores sem ação associada?
-2. Em qual exercício de **Dashboard introdutório** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Dashboard introdutório** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
-6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de tirar conclusões em **Dashboard introdutório**, qual é a prática mais confiável?
+
+- [ ] A) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] B) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] C) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] D) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] E) Calcular médias antes de entender o que cada linha representa.
+
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Dashboard introdutório**?
+
+- [ ] A) Somar todas as colunas numéricas independentemente do significado.
+- [ ] B) Arredondar os valores antes de analisar diferenças.
+- [ ] C) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] D) Substituir valores ausentes pelo maior valor disponível.
+- [ ] E) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
+
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Dashboard introdutório**?
+
+- [ ] A) Excluir categorias pequenas antes de examiná-las.
+- [ ] B) Duplicar a base e repetir o mesmo cálculo.
+- [ ] C) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] D) Ordenar as colunas pelo tamanho do nome.
+- [ ] E) Trocar as cores do gráfico até a tendência ficar mais visível.
+
+4. Como uma análise de **Dashboard introdutório** deve ser apresentada para apoiar uma decisão?
+
+- [ ] A) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] B) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] C) Omitindo incertezas para transmitir mais confiança.
+- [ ] D) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] E) Escolhendo a recomendação mais popular, mesmo sem evidência.
+
+5. Ordene um fluxo de análise para uma atividade de **Dashboard introdutório**.
+
+- A) Comunicar a conclusão, as limitações e a ação sugerida.
+- B) Inspecionar a estrutura e a qualidade dos dados.
+- C) Preparar os dados sem perder a granularidade necessária.
+- D) Calcular e visualizar as evidências relevantes.
+- E) Definir a pergunta que precisa ser respondida.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Dashboard introdutório**.
+
+- A) Escolher o tipo de visual compatível com a comparação.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Apresentar a mensagem principal e o próximo passo.
+- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
+- E) Identificar o público e a decisão que será apoiada.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-019: dashboard-introdutorio`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 20 — Entrega executiva — 28/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Entrega executiva.
+- **Competência sugerida:** Análise de Dados para Tomada de Decisão.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **Análise de Dados para Tomada de Decisão** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Entrega executiva** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1088,7 +2182,6 @@ roadmap-data-science/
 - **Assunto central:** Entrega executiva.
 - **Pasta/arquivo principal:** `semana-04/dia-020-entrega-executiva/` (pasta do projeto).
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Organize a entrega mensal em `projeto_mensal_01` com pastas `data`, `notebooks`, `dashboard`, `reports` e `src`.
@@ -1115,8 +2208,7 @@ roadmap-data-science/
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-020: entrega-executiva`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -1149,6 +2241,17 @@ roadmap-data-science/
 **Entrega da semana:** Banco PostgreSQL/DuckDB com scripts SQL respondendo a 30 perguntas de negócio.
 
 ## Dia 21 — Banco relacional e SELECT — 31/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Banco relacional e SELECT.
+- **Competência sugerida:** Bancos de dados relacionais e SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Bancos de dados relacionais e SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Banco relacional e SELECT** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1156,7 +2259,6 @@ roadmap-data-science/
 - **Assunto central:** Banco relacional e SELECT.
 - **Pasta/arquivo principal:** `semana-05/dia-021-banco-relacional-e-select.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Instale PostgreSQL ou use DuckDB; crie banco `roadmap_ds` e tabela `incidentes` com chave primária e tipos apropriados.
@@ -1172,24 +2274,82 @@ roadmap-data-science/
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Qual a função de chave primária e chave estrangeira, e por que normalização importa?
-2. Em qual exercício de **Banco relacional e SELECT** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Banco relacional e SELECT** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de escrever uma consulta de **Banco relacional e SELECT**, o que deve ser definido primeiro?
+
+- [ ] A) A quantidade máxima de linhas que caberá na tela.
+- [ ] B) A ordem alfabética dos nomes das tabelas.
+- [ ] C) O uso obrigatório de todas as colunas disponíveis.
+- [ ] D) A formatação visual da tabela final antes dos cálculos.
+- [ ] E) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Banco relacional e SELECT**?
+
+- [ ] A) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] B) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] C) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] D) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] E) Juntar tabelas por qualquer coluna com o mesmo tipo.
+
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Banco relacional e SELECT**?
+
+- [ ] A) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] B) Sempre como zero, porque simplifica as agregações.
+- [ ] C) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] D) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] E) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+
+4. Qual verificação aumenta mais a confiança em uma consulta de **Banco relacional e SELECT**?
+
+- [ ] A) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] B) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] C) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] D) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] E) Executar a consulta apenas uma vez sem mensagem de erro.
+
+5. Ordene a construção de uma consulta para **Banco relacional e SELECT**.
+
+- A) Definir a pergunta, a métrica e a granularidade.
+- B) Identificar tabelas, campos e chaves necessárias.
+- C) Montar filtros e junções da base da consulta.
+- D) Validar contagens, totais e algumas linhas manualmente.
+- E) Aplicar agregações, janelas ou transformações necessárias.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Banco relacional e SELECT**.
+
+- A) Conferir chaves, duplicidades, filtros e contagens.
+- B) Executar separadamente cada etapa ou CTE.
+- C) Reproduzir o problema com um recorte pequeno.
+- D) Corrigir a etapa que altera os dados indevidamente.
+- E) Executar a consulta completa e registrar a causa do erro.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-021: banco-relacional-e-select`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 22 — Filtros e funções — 01/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Filtros e funções.
+- **Competência sugerida:** SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Filtros e funções** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1197,7 +2357,6 @@ roadmap-data-science/
 - **Assunto central:** Filtros e funções.
 - **Pasta/arquivo principal:** `semana-05/dia-022-filtros-e-funcoes.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escreva 15 consultas usando `WHERE`: igualdade, diferença, maior/menor, `BETWEEN`, `IN`, `LIKE`, `IS NULL`, `AND`, `OR` e `NOT`.
@@ -1213,24 +2372,82 @@ roadmap-data-science/
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Como `NULL` se comporta em filtros SQL e por que `= NULL` não funciona como esperado?
-2. Em qual exercício de **Filtros e funções** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Filtros e funções** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de escrever uma consulta de **Filtros e funções**, o que deve ser definido primeiro?
+
+- [ ] A) A ordem alfabética dos nomes das tabelas.
+- [ ] B) O uso obrigatório de todas as colunas disponíveis.
+- [ ] C) A formatação visual da tabela final antes dos cálculos.
+- [ ] D) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] E) A quantidade máxima de linhas que caberá na tela.
+
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Filtros e funções**?
+
+- [ ] A) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] B) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] C) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] D) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] E) Remover duplicidades depois da junção sem investigar a origem.
+
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Filtros e funções**?
+
+- [ ] A) Sempre como zero, porque simplifica as agregações.
+- [ ] B) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] C) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] D) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] E) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+
+4. Qual verificação aumenta mais a confiança em uma consulta de **Filtros e funções**?
+
+- [ ] A) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] B) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] C) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] D) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] E) Adicionar `ORDER BY` para que os números pareçam organizados.
+
+5. Ordene a construção de uma consulta para **Filtros e funções**.
+
+- A) Definir a pergunta, a métrica e a granularidade.
+- B) Validar contagens, totais e algumas linhas manualmente.
+- C) Identificar tabelas, campos e chaves necessárias.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Montar filtros e junções da base da consulta.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Filtros e funções**.
+
+- A) Executar separadamente cada etapa ou CTE.
+- B) Conferir chaves, duplicidades, filtros e contagens.
+- C) Corrigir a etapa que altera os dados indevidamente.
+- D) Executar a consulta completa e registrar a causa do erro.
+- E) Reproduzir o problema com um recorte pequeno.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-022: filtros-e-funcoes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 23 — Agregações — 02/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Agregações.
+- **Competência sugerida:** Agregações em SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Agregações em SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Agregações** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1238,7 +2455,6 @@ roadmap-data-science/
 - **Assunto central:** Agregações.
 - **Pasta/arquivo principal:** `semana-05/dia-023-agregacoes.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escreva consultas com `COUNT`, `SUM`, `AVG`, `MIN` e `MAX` para a tabela de incidentes.
@@ -1254,24 +2470,82 @@ roadmap-data-science/
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Qual a diferença entre `WHERE` e `HAVING`, e como uma agregação pode contar registros duplicados?
-2. Em qual exercício de **Agregações** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Agregações** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de escrever uma consulta de **Agregações**, o que deve ser definido primeiro?
+
+- [ ] A) O uso obrigatório de todas as colunas disponíveis.
+- [ ] B) A formatação visual da tabela final antes dos cálculos.
+- [ ] C) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] D) A quantidade máxima de linhas que caberá na tela.
+- [ ] E) A ordem alfabética dos nomes das tabelas.
+
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Agregações**?
+
+- [ ] A) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] B) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] C) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] D) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] E) Selecionar todas as colunas para garantir que nada seja perdido.
+
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Agregações**?
+
+- [ ] A) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] B) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] C) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] D) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] E) Sempre como zero, porque simplifica as agregações.
+
+4. Qual verificação aumenta mais a confiança em uma consulta de **Agregações**?
+
+- [ ] A) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] B) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] C) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] D) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] E) Limitar a saída a dez linhas e assumir que o restante está correto.
+
+5. Ordene a construção de uma consulta para **Agregações**.
+
+- A) Validar contagens, totais e algumas linhas manualmente.
+- B) Identificar tabelas, campos e chaves necessárias.
+- C) Definir a pergunta, a métrica e a granularidade.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Montar filtros e junções da base da consulta.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Agregações**.
+
+- A) Reproduzir o problema com um recorte pequeno.
+- B) Conferir chaves, duplicidades, filtros e contagens.
+- C) Executar separadamente cada etapa ou CTE.
+- D) Corrigir a etapa que altera os dados indevidamente.
+- E) Executar a consulta completa e registrar a causa do erro.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-023: agregacoes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 24 — JOINs — 03/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** JOINs.
+- **Competência sugerida:** JOINs em SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **JOINs em SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **JOINs** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1279,7 +2553,6 @@ roadmap-data-science/
 - **Assunto central:** JOINs.
 - **Pasta/arquivo principal:** `semana-05/dia-024-joins.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie tabelas `clientes`, `planos`, `chamados` e `pagamentos` com chaves primárias e estrangeiras; importe dados do kit.
@@ -1295,24 +2568,82 @@ roadmap-data-science/
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Qual a diferença entre `INNER`, `LEFT`, `RIGHT` e `FULL JOIN`, e como detectar multiplicação de linhas?
-2. Em qual exercício de **JOINs** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **JOINs** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de escrever uma consulta de **JOINs**, o que deve ser definido primeiro?
+
+- [ ] A) A formatação visual da tabela final antes dos cálculos.
+- [ ] B) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] C) A quantidade máxima de linhas que caberá na tela.
+- [ ] D) A ordem alfabética dos nomes das tabelas.
+- [ ] E) O uso obrigatório de todas as colunas disponíveis.
+
+2. Qual cuidado é essencial ao usar junções em uma atividade de **JOINs**?
+
+- [ ] A) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] B) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] C) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] D) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] E) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+
+3. Como valores NULL devem ser tratados em consultas relacionadas a **JOINs**?
+
+- [ ] A) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] B) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] C) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] D) Sempre como zero, porque simplifica as agregações.
+- [ ] E) Sempre como texto vazio, mesmo em colunas numéricas.
+
+4. Qual verificação aumenta mais a confiança em uma consulta de **JOINs**?
+
+- [ ] A) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] B) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] C) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] D) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] E) Trocar nomes de aliases sem conferir os valores calculados.
+
+5. Ordene a construção de uma consulta para **JOINs**.
+
+- A) Definir a pergunta, a métrica e a granularidade.
+- B) Identificar tabelas, campos e chaves necessárias.
+- C) Validar contagens, totais e algumas linhas manualmente.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Montar filtros e junções da base da consulta.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **JOINs**.
+
+- A) Reproduzir o problema com um recorte pequeno.
+- B) Executar separadamente cada etapa ou CTE.
+- C) Executar a consulta completa e registrar a causa do erro.
+- D) Corrigir a etapa que altera os dados indevidamente.
+- E) Conferir chaves, duplicidades, filtros e contagens.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-024: joins`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 25 — Mini-case SQL — 04/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Mini-case SQL.
+- **Competência sugerida:** SQL aplicado a negócios.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **SQL aplicado a negócios** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Mini-case SQL** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1320,7 +2651,6 @@ roadmap-data-science/
 - **Assunto central:** Mini-case SQL.
 - **Pasta/arquivo principal:** `semana-05/dia-025-mini-case-sql/` (pasta do projeto).
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Responda em SQL: quais cidades concentram churn; quais planos têm maior ticket; quais clientes abriram mais chamados; qual canal arrecadou mais; quais clientes estão inadimplentes.
@@ -1336,19 +2666,66 @@ roadmap-data-science/
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Como validar uma consulta de negócio antes de confiar no número final?
-2. Em qual exercício de **Mini-case SQL** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Mini-case SQL** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de escrever uma consulta de **Mini-case SQL**, o que deve ser definido primeiro?
+
+- [ ] A) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] B) A quantidade máxima de linhas que caberá na tela.
+- [ ] C) A ordem alfabética dos nomes das tabelas.
+- [ ] D) O uso obrigatório de todas as colunas disponíveis.
+- [ ] E) A formatação visual da tabela final antes dos cálculos.
+
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Mini-case SQL**?
+
+- [ ] A) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] B) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] C) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] D) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] E) Usar sempre `INNER JOIN`, independentemente da pergunta.
+
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Mini-case SQL**?
+
+- [ ] A) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] B) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] C) Sempre como zero, porque simplifica as agregações.
+- [ ] D) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] E) Excluindo automaticamente todas as linhas que contenham `NULL`.
+
+4. Qual verificação aumenta mais a confiança em uma consulta de **Mini-case SQL**?
+
+- [ ] A) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] B) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] C) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] D) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] E) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+
+5. Ordene a construção de uma consulta para **Mini-case SQL**.
+
+- A) Montar filtros e junções da base da consulta.
+- B) Identificar tabelas, campos e chaves necessárias.
+- C) Validar contagens, totais e algumas linhas manualmente.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Definir a pergunta, a métrica e a granularidade.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Mini-case SQL**.
+
+- A) Reproduzir o problema com um recorte pequeno.
+- B) Conferir chaves, duplicidades, filtros e contagens.
+- C) Executar a consulta completa e registrar a causa do erro.
+- D) Corrigir a etapa que altera os dados indevidamente.
+- E) Executar separadamente cada etapa ou CTE.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-025: mini-case-sql`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -1380,6 +2757,17 @@ roadmap-data-science/
 **Entrega da semana:** Case de cohorts, retenção e comportamento usando CTEs e funções de janela.
 
 ## Dia 26 — Subqueries e CTEs — 07/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Subqueries e CTEs.
+- **Competência sugerida:** CTEs e subqueries em SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **CTEs e subqueries em SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Subqueries e CTEs** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1387,7 +2775,6 @@ roadmap-data-science/
 - **Assunto central:** Subqueries e CTEs.
 - **Pasta/arquivo principal:** `semana-06/dia-026-subqueries-e-ctes.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escreva uma subquery escalar para comparar cada incidente à duração média geral.
@@ -1403,24 +2790,82 @@ roadmap-data-science/
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Quando uma CTE melhora legibilidade e quando uma subconsulta correlacionada pode prejudicar desempenho?
-2. Em qual exercício de **Subqueries e CTEs** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Subqueries e CTEs** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de escrever uma consulta de **Subqueries e CTEs**, o que deve ser definido primeiro?
+
+- [ ] A) A quantidade máxima de linhas que caberá na tela.
+- [ ] B) A ordem alfabética dos nomes das tabelas.
+- [ ] C) O uso obrigatório de todas as colunas disponíveis.
+- [ ] D) A formatação visual da tabela final antes dos cálculos.
+- [ ] E) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Subqueries e CTEs**?
+
+- [ ] A) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] B) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] C) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] D) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] E) Juntar tabelas por qualquer coluna com o mesmo tipo.
+
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Subqueries e CTEs**?
+
+- [ ] A) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] B) Sempre como zero, porque simplifica as agregações.
+- [ ] C) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] D) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] E) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+
+4. Qual verificação aumenta mais a confiança em uma consulta de **Subqueries e CTEs**?
+
+- [ ] A) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] B) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] C) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] D) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] E) Executar a consulta apenas uma vez sem mensagem de erro.
+
+5. Ordene a construção de uma consulta para **Subqueries e CTEs**.
+
+- A) Validar contagens, totais e algumas linhas manualmente.
+- B) Identificar tabelas, campos e chaves necessárias.
+- C) Montar filtros e junções da base da consulta.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Definir a pergunta, a métrica e a granularidade.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Subqueries e CTEs**.
+
+- A) Reproduzir o problema com um recorte pequeno.
+- B) Conferir chaves, duplicidades, filtros e contagens.
+- C) Executar separadamente cada etapa ou CTE.
+- D) Executar a consulta completa e registrar a causa do erro.
+- E) Corrigir a etapa que altera os dados indevidamente.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-026: subqueries-e-ctes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 27 — Funções de janela — 08/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Funções de janela.
+- **Competência sugerida:** Funções de janela em SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Funções de janela em SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Funções de janela** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1428,7 +2873,6 @@ roadmap-data-science/
 - **Assunto central:** Funções de janela.
 - **Pasta/arquivo principal:** `semana-06/dia-027-funcoes-de-janela.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Use `ROW_NUMBER`, `RANK` e `DENSE_RANK` para ranquear incidentes por impacto dentro de cada cidade; explique diferenças em empates.
@@ -1444,24 +2888,82 @@ roadmap-data-science/
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Qual a diferença entre agregar linhas e usar uma função de janela sem perder granularidade?
-2. Em qual exercício de **Funções de janela** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Funções de janela** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de escrever uma consulta de **Funções de janela**, o que deve ser definido primeiro?
+
+- [ ] A) A ordem alfabética dos nomes das tabelas.
+- [ ] B) O uso obrigatório de todas as colunas disponíveis.
+- [ ] C) A formatação visual da tabela final antes dos cálculos.
+- [ ] D) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] E) A quantidade máxima de linhas que caberá na tela.
+
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Funções de janela**?
+
+- [ ] A) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] B) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] C) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] D) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] E) Remover duplicidades depois da junção sem investigar a origem.
+
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Funções de janela**?
+
+- [ ] A) Sempre como zero, porque simplifica as agregações.
+- [ ] B) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] C) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] D) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] E) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+
+4. Qual verificação aumenta mais a confiança em uma consulta de **Funções de janela**?
+
+- [ ] A) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] B) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] C) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] D) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] E) Adicionar `ORDER BY` para que os números pareçam organizados.
+
+5. Ordene a construção de uma consulta para **Funções de janela**.
+
+- A) Definir a pergunta, a métrica e a granularidade.
+- B) Montar filtros e junções da base da consulta.
+- C) Identificar tabelas, campos e chaves necessárias.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Validar contagens, totais e algumas linhas manualmente.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Funções de janela**.
+
+- A) Conferir chaves, duplicidades, filtros e contagens.
+- B) Executar separadamente cada etapa ou CTE.
+- C) Reproduzir o problema com um recorte pequeno.
+- D) Executar a consulta completa e registrar a causa do erro.
+- E) Corrigir a etapa que altera os dados indevidamente.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-027: funcoes-de-janela`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 28 — Datas e análise temporal — 09/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Datas e análise temporal.
+- **Competência sugerida:** Análise temporal com SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise temporal com SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Datas e análise temporal** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1469,7 +2971,6 @@ roadmap-data-science/
 - **Assunto central:** Datas e análise temporal.
 - **Pasta/arquivo principal:** `semana-06/dia-028-datas-e-analise-temporal.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Converta colunas de texto em data/hora e extraia ano, mês, semana, dia da semana e hora.
@@ -1485,24 +2986,82 @@ roadmap-data-science/
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Como fuso horário, datas incompletas e janelas móveis podem distorcer uma análise?
-2. Em qual exercício de **Datas e análise temporal** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Datas e análise temporal** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de escrever uma consulta de **Datas e análise temporal**, o que deve ser definido primeiro?
+
+- [ ] A) O uso obrigatório de todas as colunas disponíveis.
+- [ ] B) A formatação visual da tabela final antes dos cálculos.
+- [ ] C) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] D) A quantidade máxima de linhas que caberá na tela.
+- [ ] E) A ordem alfabética dos nomes das tabelas.
+
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Datas e análise temporal**?
+
+- [ ] A) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] B) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] C) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] D) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] E) Selecionar todas as colunas para garantir que nada seja perdido.
+
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Datas e análise temporal**?
+
+- [ ] A) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] B) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] C) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] D) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] E) Sempre como zero, porque simplifica as agregações.
+
+4. Qual verificação aumenta mais a confiança em uma consulta de **Datas e análise temporal**?
+
+- [ ] A) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] B) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] C) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] D) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] E) Limitar a saída a dez linhas e assumir que o restante está correto.
+
+5. Ordene a construção de uma consulta para **Datas e análise temporal**.
+
+- A) Montar filtros e junções da base da consulta.
+- B) Identificar tabelas, campos e chaves necessárias.
+- C) Definir a pergunta, a métrica e a granularidade.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Validar contagens, totais e algumas linhas manualmente.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Datas e análise temporal**.
+
+- A) Reproduzir o problema com um recorte pequeno.
+- B) Executar separadamente cada etapa ou CTE.
+- C) Conferir chaves, duplicidades, filtros e contagens.
+- D) Executar a consulta completa e registrar a causa do erro.
+- E) Corrigir a etapa que altera os dados indevidamente.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-028: datas-e-analise-temporal`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 29 — Cohorts e retenção — 10/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Cohorts e retenção.
+- **Competência sugerida:** Análise de cohorts e retenção.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise de cohorts e retenção** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Cohorts e retenção** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1510,7 +3069,6 @@ roadmap-data-science/
 - **Assunto central:** Cohorts e retenção.
 - **Pasta/arquivo principal:** `semana-06/dia-029-cohorts-e-retencao.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Defina coorte como mês da primeira compra ou ativação; calcule o mês inicial de cada cliente.
@@ -1526,24 +3084,82 @@ roadmap-data-science/
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Como definir corretamente cohort, período zero e retenção para evitar comparações injustas?
-2. Em qual exercício de **Cohorts e retenção** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Cohorts e retenção** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de escrever uma consulta de **Cohorts e retenção**, o que deve ser definido primeiro?
+
+- [ ] A) A formatação visual da tabela final antes dos cálculos.
+- [ ] B) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] C) A quantidade máxima de linhas que caberá na tela.
+- [ ] D) A ordem alfabética dos nomes das tabelas.
+- [ ] E) O uso obrigatório de todas as colunas disponíveis.
+
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Cohorts e retenção**?
+
+- [ ] A) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] B) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] C) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] D) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] E) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Cohorts e retenção**?
+
+- [ ] A) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] B) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] C) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] D) Sempre como zero, porque simplifica as agregações.
+- [ ] E) Sempre como texto vazio, mesmo em colunas numéricas.
+
+4. Qual verificação aumenta mais a confiança em uma consulta de **Cohorts e retenção**?
+
+- [ ] A) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] B) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] C) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] D) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] E) Trocar nomes de aliases sem conferir os valores calculados.
+
+5. Ordene a construção de uma consulta para **Cohorts e retenção**.
+
+- A) Identificar tabelas, campos e chaves necessárias.
+- B) Montar filtros e junções da base da consulta.
+- C) Aplicar agregações, janelas ou transformações necessárias.
+- D) Validar contagens, totais e algumas linhas manualmente.
+- E) Definir a pergunta, a métrica e a granularidade.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Cohorts e retenção**.
+
+- A) Reproduzir o problema com um recorte pequeno.
+- B) Conferir chaves, duplicidades, filtros e contagens.
+- C) Executar separadamente cada etapa ou CTE.
+- D) Executar a consulta completa e registrar a causa do erro.
+- E) Corrigir a etapa que altera os dados indevidamente.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-029: cohorts-e-retencao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 30 — Simulado SQL — 11/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Simulado SQL.
+- **Competência sugerida:** SQL analítico.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **SQL analítico** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Simulado SQL** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1551,7 +3167,6 @@ roadmap-data-science/
 - **Assunto central:** Simulado SQL.
 - **Pasta/arquivo principal:** `semana-06/dia-030-simulado-sql/` (pasta do projeto).
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Resolva um simulado cronometrado com 20 questões: cinco filtros, quatro agregações, quatro joins, três CTEs, duas janelas e duas datas.
@@ -1567,19 +3182,66 @@ roadmap-data-science/
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Como você investigaria uma consulta correta sintaticamente, mas com resultado numericamente suspeito?
-2. Em qual exercício de **Simulado SQL** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Simulado SQL** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de escrever uma consulta de **Simulado SQL**, o que deve ser definido primeiro?
+
+- [ ] A) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] B) A quantidade máxima de linhas que caberá na tela.
+- [ ] C) A ordem alfabética dos nomes das tabelas.
+- [ ] D) O uso obrigatório de todas as colunas disponíveis.
+- [ ] E) A formatação visual da tabela final antes dos cálculos.
+
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Simulado SQL**?
+
+- [ ] A) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] B) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] C) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] D) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] E) Usar sempre `INNER JOIN`, independentemente da pergunta.
+
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Simulado SQL**?
+
+- [ ] A) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] B) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] C) Sempre como zero, porque simplifica as agregações.
+- [ ] D) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] E) Excluindo automaticamente todas as linhas que contenham `NULL`.
+
+4. Qual verificação aumenta mais a confiança em uma consulta de **Simulado SQL**?
+
+- [ ] A) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] B) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] C) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] D) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] E) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+
+5. Ordene a construção de uma consulta para **Simulado SQL**.
+
+- A) Definir a pergunta, a métrica e a granularidade.
+- B) Montar filtros e junções da base da consulta.
+- C) Identificar tabelas, campos e chaves necessárias.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Validar contagens, totais e algumas linhas manualmente.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Simulado SQL**.
+
+- A) Reproduzir o problema com um recorte pequeno.
+- B) Executar separadamente cada etapa ou CTE.
+- C) Executar a consulta completa e registrar a causa do erro.
+- D) Corrigir a etapa que altera os dados indevidamente.
+- E) Conferir chaves, duplicidades, filtros e contagens.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-030: simulado-sql`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -1616,6 +3278,17 @@ roadmap-data-science/
 **Entrega da semana:** Notebook de estatística aplicada a operações, com simulações e interpretações.
 
 ## Dia 31 — Medidas e distribuições — 14/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Medidas e distribuições.
+- **Competência sugerida:** Estatística descritiva.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Estatística descritiva** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Medidas e distribuições** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1623,7 +3296,6 @@ roadmap-data-science/
 - **Assunto central:** Medidas e distribuições.
 - **Pasta/arquivo principal:** `semana-07/dia-031-medidas-e-distribuicoes.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Com `clientes_telecom.csv`, calcule média, mediana, moda, variância, desvio, quartis, IQR e amplitude para mensalidade, NPS e chamados.
@@ -1639,24 +3311,82 @@ roadmap-data-science/
 - [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
-1. Quando a mediana representa melhor os dados do que a média, e como outliers afetam cada medida?
-2. Em qual exercício de **Medidas e distribuições** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Medidas e distribuições** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
-6. Como distinguir significância estatística de importância prática neste contexto?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao estudar **Medidas e distribuições**, por que uma única medida-resumo pode ser insuficiente?
+
+- [ ] A) Porque médias só podem ser usadas com dados de texto.
+- [ ] B) Porque toda análise exige exatamente cinco métricas.
+- [ ] C) Porque a mediana sempre substitui qualquer outra medida.
+- [ ] D) Porque gráficos tornam cálculos estatísticos desnecessários.
+- [ ] E) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
+
+2. Qual interpretação estatística é mais responsável em uma análise de **Medidas e distribuições**?
+
+- [ ] A) Escolher a hipótese depois de observar os dados.
+- [ ] B) Ignorar o tamanho da amostra quando a média parece convincente.
+- [ ] C) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
+- [ ] D) Tratar qualquer valor-p pequeno como prova de grande impacto.
+- [ ] E) Considerar correlação suficiente para afirmar causalidade.
+
+3. Qual situação ameaça mais a validade de uma conclusão sobre **Medidas e distribuições**?
+
+- [ ] A) Uma amostra enviesada que não representa adequadamente a população de interesse.
+- [ ] B) Uma tabela com colunas em ordem diferente.
+- [ ] C) Um gráfico com título curto.
+- [ ] D) Uma média apresentada com duas casas decimais.
+- [ ] E) Um arquivo salvo em uma pasta específica do projeto.
+
+4. Como usar evidência de **Medidas e distribuições** em uma decisão real?
+
+- [ ] A) Eliminar a incerteza arredondando os números.
+- [ ] B) Tomar a decisão apenas pelo sinal positivo ou negativo.
+- [ ] C) Repetir testes até surgir uma conclusão favorável.
+- [ ] D) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
+- [ ] E) Escolher automaticamente a opção com a maior média observada.
+
+5. Ordene um estudo estatístico relacionado a **Medidas e distribuições**.
+
+- A) Coletar e verificar a qualidade dos dados.
+- B) Definir população, amostra, métrica e método.
+- C) Formular a pergunta e a hipótese antes da análise.
+- D) Estimar efeitos e quantificar a incerteza.
+- E) Interpretar a evidência com pressupostos e limitações.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as etapas de um experimento controlado ligado a **Medidas e distribuições**.
+
+- A) Definir hipótese, métrica principal e regra de decisão.
+- B) Decidir com base no efeito, no risco e na relevância prática.
+- C) Distribuir aleatoriamente as unidades entre os grupos.
+- D) Estimar a diferença entre grupos e sua incerteza.
+- E) Verificar equilíbrio e integridade da coleta.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-031: medidas-e-distribuicoes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 32 — Probabilidade básica — 15/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Probabilidade básica.
+- **Competência sugerida:** Probabilidade.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Probabilidade** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Probabilidade básica** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1664,7 +3394,6 @@ roadmap-data-science/
 - **Assunto central:** Probabilidade básica.
 - **Pasta/arquivo principal:** `semana-07/dia-032-probabilidade-basica.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Resolva 12 problemas de probabilidade: complemento, união, interseção, condicional, independência e Bayes em contexto de churn/fraude.
@@ -1680,24 +3409,82 @@ roadmap-data-science/
 - [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
-1. Qual a diferença entre probabilidade condicional, independência e eventos mutuamente exclusivos?
-2. Em qual exercício de **Probabilidade básica** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Probabilidade básica** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
-6. Como distinguir significância estatística de importância prática neste contexto?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao estudar **Probabilidade básica**, por que uma única medida-resumo pode ser insuficiente?
+
+- [ ] A) Porque toda análise exige exatamente cinco métricas.
+- [ ] B) Porque a mediana sempre substitui qualquer outra medida.
+- [ ] C) Porque gráficos tornam cálculos estatísticos desnecessários.
+- [ ] D) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
+- [ ] E) Porque médias só podem ser usadas com dados de texto.
+
+2. Qual interpretação estatística é mais responsável em uma análise de **Probabilidade básica**?
+
+- [ ] A) Ignorar o tamanho da amostra quando a média parece convincente.
+- [ ] B) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
+- [ ] C) Tratar qualquer valor-p pequeno como prova de grande impacto.
+- [ ] D) Considerar correlação suficiente para afirmar causalidade.
+- [ ] E) Escolher a hipótese depois de observar os dados.
+
+3. Qual situação ameaça mais a validade de uma conclusão sobre **Probabilidade básica**?
+
+- [ ] A) Uma tabela com colunas em ordem diferente.
+- [ ] B) Um gráfico com título curto.
+- [ ] C) Uma média apresentada com duas casas decimais.
+- [ ] D) Um arquivo salvo em uma pasta específica do projeto.
+- [ ] E) Uma amostra enviesada que não representa adequadamente a população de interesse.
+
+4. Como usar evidência de **Probabilidade básica** em uma decisão real?
+
+- [ ] A) Tomar a decisão apenas pelo sinal positivo ou negativo.
+- [ ] B) Repetir testes até surgir uma conclusão favorável.
+- [ ] C) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
+- [ ] D) Escolher automaticamente a opção com a maior média observada.
+- [ ] E) Eliminar a incerteza arredondando os números.
+
+5. Ordene um estudo estatístico relacionado a **Probabilidade básica**.
+
+- A) Formular a pergunta e a hipótese antes da análise.
+- B) Definir população, amostra, métrica e método.
+- C) Coletar e verificar a qualidade dos dados.
+- D) Interpretar a evidência com pressupostos e limitações.
+- E) Estimar efeitos e quantificar a incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as etapas de um experimento controlado ligado a **Probabilidade básica**.
+
+- A) Definir hipótese, métrica principal e regra de decisão.
+- B) Distribuir aleatoriamente as unidades entre os grupos.
+- C) Verificar equilíbrio e integridade da coleta.
+- D) Decidir com base no efeito, no risco e na relevância prática.
+- E) Estimar a diferença entre grupos e sua incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-032: probabilidade-basica`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 33 — Distribuições importantes — 16/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Distribuições importantes.
+- **Competência sugerida:** Distribuições estatísticas.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Distribuições estatísticas** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Distribuições importantes** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1705,7 +3492,6 @@ roadmap-data-science/
 - **Assunto central:** Distribuições importantes.
 - **Pasta/arquivo principal:** `semana-07/dia-033-distribuicoes-importantes.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Simule distribuições Bernoulli, Binomial, Normal, Poisson e Exponencial com parâmetros definidos.
@@ -1721,24 +3507,82 @@ roadmap-data-science/
 - [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
-1. Como reconhecer quando uma distribuição normal, binomial ou Poisson é uma aproximação razoável?
-2. Em qual exercício de **Distribuições importantes** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Distribuições importantes** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
-6. Como distinguir significância estatística de importância prática neste contexto?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao estudar **Distribuições importantes**, por que uma única medida-resumo pode ser insuficiente?
+
+- [ ] A) Porque a mediana sempre substitui qualquer outra medida.
+- [ ] B) Porque gráficos tornam cálculos estatísticos desnecessários.
+- [ ] C) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
+- [ ] D) Porque médias só podem ser usadas com dados de texto.
+- [ ] E) Porque toda análise exige exatamente cinco métricas.
+
+2. Qual interpretação estatística é mais responsável em uma análise de **Distribuições importantes**?
+
+- [ ] A) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
+- [ ] B) Tratar qualquer valor-p pequeno como prova de grande impacto.
+- [ ] C) Considerar correlação suficiente para afirmar causalidade.
+- [ ] D) Escolher a hipótese depois de observar os dados.
+- [ ] E) Ignorar o tamanho da amostra quando a média parece convincente.
+
+3. Qual situação ameaça mais a validade de uma conclusão sobre **Distribuições importantes**?
+
+- [ ] A) Um gráfico com título curto.
+- [ ] B) Uma média apresentada com duas casas decimais.
+- [ ] C) Um arquivo salvo em uma pasta específica do projeto.
+- [ ] D) Uma amostra enviesada que não representa adequadamente a população de interesse.
+- [ ] E) Uma tabela com colunas em ordem diferente.
+
+4. Como usar evidência de **Distribuições importantes** em uma decisão real?
+
+- [ ] A) Repetir testes até surgir uma conclusão favorável.
+- [ ] B) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
+- [ ] C) Escolher automaticamente a opção com a maior média observada.
+- [ ] D) Eliminar a incerteza arredondando os números.
+- [ ] E) Tomar a decisão apenas pelo sinal positivo ou negativo.
+
+5. Ordene um estudo estatístico relacionado a **Distribuições importantes**.
+
+- A) Coletar e verificar a qualidade dos dados.
+- B) Definir população, amostra, métrica e método.
+- C) Formular a pergunta e a hipótese antes da análise.
+- D) Interpretar a evidência com pressupostos e limitações.
+- E) Estimar efeitos e quantificar a incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as etapas de um experimento controlado ligado a **Distribuições importantes**.
+
+- A) Definir hipótese, métrica principal e regra de decisão.
+- B) Verificar equilíbrio e integridade da coleta.
+- C) Distribuir aleatoriamente as unidades entre os grupos.
+- D) Decidir com base no efeito, no risco e na relevância prática.
+- E) Estimar a diferença entre grupos e sua incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-033: distribuicoes-importantes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 34 — Amostragem e Lei dos Grandes Números — 17/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Amostragem e Lei dos Grandes Números.
+- **Competência sugerida:** Amostragem.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Amostragem** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Amostragem e Lei dos Grandes Números** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1746,7 +3590,6 @@ roadmap-data-science/
 - **Assunto central:** Amostragem e Lei dos Grandes Números.
 - **Pasta/arquivo principal:** `semana-07/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Retire 100 amostras de tamanhos 10, 30, 100 e 500 de uma população assimétrica; armazene as médias.
@@ -1762,24 +3605,82 @@ roadmap-data-science/
 - [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
-1. Como viés de seleção e tamanho da amostra afetam a possibilidade de generalizar um resultado?
-2. Em qual exercício de **Amostragem e Lei dos Grandes Números** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Amostragem e Lei dos Grandes Números** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
-6. Como distinguir significância estatística de importância prática neste contexto?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao estudar **Amostragem e Lei dos Grandes Números**, por que uma única medida-resumo pode ser insuficiente?
+
+- [ ] A) Porque gráficos tornam cálculos estatísticos desnecessários.
+- [ ] B) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
+- [ ] C) Porque médias só podem ser usadas com dados de texto.
+- [ ] D) Porque toda análise exige exatamente cinco métricas.
+- [ ] E) Porque a mediana sempre substitui qualquer outra medida.
+
+2. Qual interpretação estatística é mais responsável em uma análise de **Amostragem e Lei dos Grandes Números**?
+
+- [ ] A) Tratar qualquer valor-p pequeno como prova de grande impacto.
+- [ ] B) Considerar correlação suficiente para afirmar causalidade.
+- [ ] C) Escolher a hipótese depois de observar os dados.
+- [ ] D) Ignorar o tamanho da amostra quando a média parece convincente.
+- [ ] E) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
+
+3. Qual situação ameaça mais a validade de uma conclusão sobre **Amostragem e Lei dos Grandes Números**?
+
+- [ ] A) Uma média apresentada com duas casas decimais.
+- [ ] B) Um arquivo salvo em uma pasta específica do projeto.
+- [ ] C) Uma amostra enviesada que não representa adequadamente a população de interesse.
+- [ ] D) Uma tabela com colunas em ordem diferente.
+- [ ] E) Um gráfico com título curto.
+
+4. Como usar evidência de **Amostragem e Lei dos Grandes Números** em uma decisão real?
+
+- [ ] A) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
+- [ ] B) Escolher automaticamente a opção com a maior média observada.
+- [ ] C) Eliminar a incerteza arredondando os números.
+- [ ] D) Tomar a decisão apenas pelo sinal positivo ou negativo.
+- [ ] E) Repetir testes até surgir uma conclusão favorável.
+
+5. Ordene um estudo estatístico relacionado a **Amostragem e Lei dos Grandes Números**.
+
+- A) Formular a pergunta e a hipótese antes da análise.
+- B) Definir população, amostra, métrica e método.
+- C) Coletar e verificar a qualidade dos dados.
+- D) Interpretar a evidência com pressupostos e limitações.
+- E) Estimar efeitos e quantificar a incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as etapas de um experimento controlado ligado a **Amostragem e Lei dos Grandes Números**.
+
+- A) Verificar equilíbrio e integridade da coleta.
+- B) Distribuir aleatoriamente as unidades entre os grupos.
+- C) Definir hipótese, métrica principal e regra de decisão.
+- D) Decidir com base no efeito, no risco e na relevância prática.
+- E) Estimar a diferença entre grupos e sua incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-034: amostragem-e-lei-dos-grandes-numeros`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 35 — Case estatístico — 18/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Case estatístico.
+- **Competência sugerida:** Análise estatística.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise estatística** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Case estatístico** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1787,7 +3688,6 @@ roadmap-data-science/
 - **Assunto central:** Case estatístico.
 - **Pasta/arquivo principal:** `semana-07/dia-035-case-estatistico/` (pasta do projeto).
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Receba um case: a empresa afirma que duração média caiu após mudança de processo; defina população, amostra, variável e hipótese.
@@ -1803,19 +3703,66 @@ roadmap-data-science/
 - [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
-1. Qual conclusão estatística pode ser tomada e qual conclusão exigiria evidência adicional?
-2. Em qual exercício de **Case estatístico** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Case estatístico** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
-6. Como distinguir significância estatística de importância prática neste contexto?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao estudar **Case estatístico**, por que uma única medida-resumo pode ser insuficiente?
+
+- [ ] A) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
+- [ ] B) Porque médias só podem ser usadas com dados de texto.
+- [ ] C) Porque toda análise exige exatamente cinco métricas.
+- [ ] D) Porque a mediana sempre substitui qualquer outra medida.
+- [ ] E) Porque gráficos tornam cálculos estatísticos desnecessários.
+
+2. Qual interpretação estatística é mais responsável em uma análise de **Case estatístico**?
+
+- [ ] A) Considerar correlação suficiente para afirmar causalidade.
+- [ ] B) Escolher a hipótese depois de observar os dados.
+- [ ] C) Ignorar o tamanho da amostra quando a média parece convincente.
+- [ ] D) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
+- [ ] E) Tratar qualquer valor-p pequeno como prova de grande impacto.
+
+3. Qual situação ameaça mais a validade de uma conclusão sobre **Case estatístico**?
+
+- [ ] A) Um arquivo salvo em uma pasta específica do projeto.
+- [ ] B) Uma amostra enviesada que não representa adequadamente a população de interesse.
+- [ ] C) Uma tabela com colunas em ordem diferente.
+- [ ] D) Um gráfico com título curto.
+- [ ] E) Uma média apresentada com duas casas decimais.
+
+4. Como usar evidência de **Case estatístico** em uma decisão real?
+
+- [ ] A) Escolher automaticamente a opção com a maior média observada.
+- [ ] B) Eliminar a incerteza arredondando os números.
+- [ ] C) Tomar a decisão apenas pelo sinal positivo ou negativo.
+- [ ] D) Repetir testes até surgir uma conclusão favorável.
+- [ ] E) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
+
+5. Ordene um estudo estatístico relacionado a **Case estatístico**.
+
+- A) Formular a pergunta e a hipótese antes da análise.
+- B) Coletar e verificar a qualidade dos dados.
+- C) Definir população, amostra, métrica e método.
+- D) Interpretar a evidência com pressupostos e limitações.
+- E) Estimar efeitos e quantificar a incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as etapas de um experimento controlado ligado a **Case estatístico**.
+
+- A) Definir hipótese, métrica principal e regra de decisão.
+- B) Distribuir aleatoriamente as unidades entre os grupos.
+- C) Decidir com base no efeito, no risco e na relevância prática.
+- D) Estimar a diferença entre grupos e sua incerteza.
+- E) Verificar equilíbrio e integridade da coleta.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-035: case-estatistico`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -1852,6 +3799,17 @@ roadmap-data-science/
 **Entrega da semana:** Projeto de teste A/B com hipótese, cálculo, interpretação e recomendação.
 
 ## Dia 36 — Intervalos de confiança — 21/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Intervalos de confiança.
+- **Competência sugerida:** Intervalos de confiança.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Intervalos de confiança** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Intervalos de confiança** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1859,7 +3817,6 @@ roadmap-data-science/
 - **Assunto central:** Intervalos de confiança.
 - **Pasta/arquivo principal:** `semana-08/dia-036-intervalos-de-confianca.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Implemente intervalo de confiança da média manualmente e com biblioteca para uma amostra de duração.
@@ -1875,24 +3832,82 @@ roadmap-data-science/
 - [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
-1. O que um intervalo de confiança representa e qual interpretação comum está errada?
-2. Em qual exercício de **Intervalos de confiança** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Intervalos de confiança** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
-6. Como distinguir significância estatística de importância prática neste contexto?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao estudar **Intervalos de confiança**, por que uma única medida-resumo pode ser insuficiente?
+
+- [ ] A) Porque médias só podem ser usadas com dados de texto.
+- [ ] B) Porque toda análise exige exatamente cinco métricas.
+- [ ] C) Porque a mediana sempre substitui qualquer outra medida.
+- [ ] D) Porque gráficos tornam cálculos estatísticos desnecessários.
+- [ ] E) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
+
+2. Qual interpretação estatística é mais responsável em uma análise de **Intervalos de confiança**?
+
+- [ ] A) Escolher a hipótese depois de observar os dados.
+- [ ] B) Ignorar o tamanho da amostra quando a média parece convincente.
+- [ ] C) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
+- [ ] D) Tratar qualquer valor-p pequeno como prova de grande impacto.
+- [ ] E) Considerar correlação suficiente para afirmar causalidade.
+
+3. Qual situação ameaça mais a validade de uma conclusão sobre **Intervalos de confiança**?
+
+- [ ] A) Uma amostra enviesada que não representa adequadamente a população de interesse.
+- [ ] B) Uma tabela com colunas em ordem diferente.
+- [ ] C) Um gráfico com título curto.
+- [ ] D) Uma média apresentada com duas casas decimais.
+- [ ] E) Um arquivo salvo em uma pasta específica do projeto.
+
+4. Como usar evidência de **Intervalos de confiança** em uma decisão real?
+
+- [ ] A) Eliminar a incerteza arredondando os números.
+- [ ] B) Tomar a decisão apenas pelo sinal positivo ou negativo.
+- [ ] C) Repetir testes até surgir uma conclusão favorável.
+- [ ] D) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
+- [ ] E) Escolher automaticamente a opção com a maior média observada.
+
+5. Ordene um estudo estatístico relacionado a **Intervalos de confiança**.
+
+- A) Coletar e verificar a qualidade dos dados.
+- B) Definir população, amostra, métrica e método.
+- C) Formular a pergunta e a hipótese antes da análise.
+- D) Interpretar a evidência com pressupostos e limitações.
+- E) Estimar efeitos e quantificar a incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as etapas de um experimento controlado ligado a **Intervalos de confiança**.
+
+- A) Definir hipótese, métrica principal e regra de decisão.
+- B) Decidir com base no efeito, no risco e na relevância prática.
+- C) Distribuir aleatoriamente as unidades entre os grupos.
+- D) Estimar a diferença entre grupos e sua incerteza.
+- E) Verificar equilíbrio e integridade da coleta.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-036: intervalos-de-confianca`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 37 — Testes de hipótese — 22/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Testes de hipótese.
+- **Competência sugerida:** Testes de hipótese.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes de hipótese** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Testes de hipótese** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1900,7 +3915,6 @@ roadmap-data-science/
 - **Assunto central:** Testes de hipótese.
 - **Pasta/arquivo principal:** `semana-08/dia-037-testes-de-hipotese.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Formule H0 e H1 para diferença de média de duração entre duas cidades.
@@ -1916,24 +3930,82 @@ roadmap-data-science/
 - [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
-1. Qual a relação entre hipótese nula, valor-p, nível de significância e tamanho de efeito?
-2. Em qual exercício de **Testes de hipótese** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Testes de hipótese** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
-6. Como distinguir significância estatística de importância prática neste contexto?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao estudar **Testes de hipótese**, por que uma única medida-resumo pode ser insuficiente?
+
+- [ ] A) Porque toda análise exige exatamente cinco métricas.
+- [ ] B) Porque a mediana sempre substitui qualquer outra medida.
+- [ ] C) Porque gráficos tornam cálculos estatísticos desnecessários.
+- [ ] D) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
+- [ ] E) Porque médias só podem ser usadas com dados de texto.
+
+2. Qual interpretação estatística é mais responsável em uma análise de **Testes de hipótese**?
+
+- [ ] A) Ignorar o tamanho da amostra quando a média parece convincente.
+- [ ] B) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
+- [ ] C) Tratar qualquer valor-p pequeno como prova de grande impacto.
+- [ ] D) Considerar correlação suficiente para afirmar causalidade.
+- [ ] E) Escolher a hipótese depois de observar os dados.
+
+3. Qual situação ameaça mais a validade de uma conclusão sobre **Testes de hipótese**?
+
+- [ ] A) Uma tabela com colunas em ordem diferente.
+- [ ] B) Um gráfico com título curto.
+- [ ] C) Uma média apresentada com duas casas decimais.
+- [ ] D) Um arquivo salvo em uma pasta específica do projeto.
+- [ ] E) Uma amostra enviesada que não representa adequadamente a população de interesse.
+
+4. Como usar evidência de **Testes de hipótese** em uma decisão real?
+
+- [ ] A) Tomar a decisão apenas pelo sinal positivo ou negativo.
+- [ ] B) Repetir testes até surgir uma conclusão favorável.
+- [ ] C) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
+- [ ] D) Escolher automaticamente a opção com a maior média observada.
+- [ ] E) Eliminar a incerteza arredondando os números.
+
+5. Ordene um estudo estatístico relacionado a **Testes de hipótese**.
+
+- A) Formular a pergunta e a hipótese antes da análise.
+- B) Definir população, amostra, métrica e método.
+- C) Interpretar a evidência com pressupostos e limitações.
+- D) Estimar efeitos e quantificar a incerteza.
+- E) Coletar e verificar a qualidade dos dados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as etapas de um experimento controlado ligado a **Testes de hipótese**.
+
+- A) Definir hipótese, métrica principal e regra de decisão.
+- B) Distribuir aleatoriamente as unidades entre os grupos.
+- C) Decidir com base no efeito, no risco e na relevância prática.
+- D) Estimar a diferença entre grupos e sua incerteza.
+- E) Verificar equilíbrio e integridade da coleta.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-037: testes-de-hipotese`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 38 — Teste A/B — 23/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Teste A/B.
+- **Competência sugerida:** Testes A/B.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes A/B** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Teste A/B** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1941,7 +4013,6 @@ roadmap-data-science/
 - **Assunto central:** Teste A/B.
 - **Pasta/arquivo principal:** `semana-08/dia-038-teste-a-b.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Defina experimento A/B de uma oferta de retenção: unidade, população, métrica primária, guardrails, duração e critério de parada.
@@ -1957,24 +4028,82 @@ roadmap-data-science/
 - [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
-1. Como definir unidade de randomização, métrica primária e duração antes de observar os resultados?
-2. Em qual exercício de **Teste A/B** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Teste A/B** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
-6. Como distinguir significância estatística de importância prática neste contexto?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao estudar **Teste A/B**, por que uma única medida-resumo pode ser insuficiente?
+
+- [ ] A) Porque a mediana sempre substitui qualquer outra medida.
+- [ ] B) Porque gráficos tornam cálculos estatísticos desnecessários.
+- [ ] C) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
+- [ ] D) Porque médias só podem ser usadas com dados de texto.
+- [ ] E) Porque toda análise exige exatamente cinco métricas.
+
+2. Qual interpretação estatística é mais responsável em uma análise de **Teste A/B**?
+
+- [ ] A) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
+- [ ] B) Tratar qualquer valor-p pequeno como prova de grande impacto.
+- [ ] C) Considerar correlação suficiente para afirmar causalidade.
+- [ ] D) Escolher a hipótese depois de observar os dados.
+- [ ] E) Ignorar o tamanho da amostra quando a média parece convincente.
+
+3. Qual situação ameaça mais a validade de uma conclusão sobre **Teste A/B**?
+
+- [ ] A) Um gráfico com título curto.
+- [ ] B) Uma média apresentada com duas casas decimais.
+- [ ] C) Um arquivo salvo em uma pasta específica do projeto.
+- [ ] D) Uma amostra enviesada que não representa adequadamente a população de interesse.
+- [ ] E) Uma tabela com colunas em ordem diferente.
+
+4. Como usar evidência de **Teste A/B** em uma decisão real?
+
+- [ ] A) Repetir testes até surgir uma conclusão favorável.
+- [ ] B) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
+- [ ] C) Escolher automaticamente a opção com a maior média observada.
+- [ ] D) Eliminar a incerteza arredondando os números.
+- [ ] E) Tomar a decisão apenas pelo sinal positivo ou negativo.
+
+5. Ordene um estudo estatístico relacionado a **Teste A/B**.
+
+- A) Coletar e verificar a qualidade dos dados.
+- B) Definir população, amostra, métrica e método.
+- C) Formular a pergunta e a hipótese antes da análise.
+- D) Interpretar a evidência com pressupostos e limitações.
+- E) Estimar efeitos e quantificar a incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as etapas de um experimento controlado ligado a **Teste A/B**.
+
+- A) Definir hipótese, métrica principal e regra de decisão.
+- B) Decidir com base no efeito, no risco e na relevância prática.
+- C) Distribuir aleatoriamente as unidades entre os grupos.
+- D) Estimar a diferença entre grupos e sua incerteza.
+- E) Verificar equilíbrio e integridade da coleta.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-038: teste-a-b`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 39 — Correlação, causalidade e vieses — 24/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Correlação, causalidade e vieses.
+- **Competência sugerida:** Correlação, causalidade e vieses.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Correlação, causalidade e vieses** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Correlação, causalidade e vieses** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -1982,7 +4111,6 @@ roadmap-data-science/
 - **Assunto central:** Correlação, causalidade e vieses.
 - **Pasta/arquivo principal:** `semana-08/dia-039-correlacao-causalidade-e-vieses.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Calcule correlação Pearson e Spearman entre mensalidade, chamados, NPS e churn codificado.
@@ -1998,24 +4126,82 @@ roadmap-data-science/
 - [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
-1. Quais mecanismos podem produzir correlação sem causalidade e como um experimento ajuda?
-2. Em qual exercício de **Correlação, causalidade e vieses** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Correlação, causalidade e vieses** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
-6. Como distinguir significância estatística de importância prática neste contexto?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao estudar **Correlação, causalidade e vieses**, por que uma única medida-resumo pode ser insuficiente?
+
+- [ ] A) Porque gráficos tornam cálculos estatísticos desnecessários.
+- [ ] B) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
+- [ ] C) Porque médias só podem ser usadas com dados de texto.
+- [ ] D) Porque toda análise exige exatamente cinco métricas.
+- [ ] E) Porque a mediana sempre substitui qualquer outra medida.
+
+2. Qual interpretação estatística é mais responsável em uma análise de **Correlação, causalidade e vieses**?
+
+- [ ] A) Tratar qualquer valor-p pequeno como prova de grande impacto.
+- [ ] B) Considerar correlação suficiente para afirmar causalidade.
+- [ ] C) Escolher a hipótese depois de observar os dados.
+- [ ] D) Ignorar o tamanho da amostra quando a média parece convincente.
+- [ ] E) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
+
+3. Qual situação ameaça mais a validade de uma conclusão sobre **Correlação, causalidade e vieses**?
+
+- [ ] A) Uma média apresentada com duas casas decimais.
+- [ ] B) Um arquivo salvo em uma pasta específica do projeto.
+- [ ] C) Uma amostra enviesada que não representa adequadamente a população de interesse.
+- [ ] D) Uma tabela com colunas em ordem diferente.
+- [ ] E) Um gráfico com título curto.
+
+4. Como usar evidência de **Correlação, causalidade e vieses** em uma decisão real?
+
+- [ ] A) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
+- [ ] B) Escolher automaticamente a opção com a maior média observada.
+- [ ] C) Eliminar a incerteza arredondando os números.
+- [ ] D) Tomar a decisão apenas pelo sinal positivo ou negativo.
+- [ ] E) Repetir testes até surgir uma conclusão favorável.
+
+5. Ordene um estudo estatístico relacionado a **Correlação, causalidade e vieses**.
+
+- A) Formular a pergunta e a hipótese antes da análise.
+- B) Definir população, amostra, métrica e método.
+- C) Coletar e verificar a qualidade dos dados.
+- D) Interpretar a evidência com pressupostos e limitações.
+- E) Estimar efeitos e quantificar a incerteza.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene as etapas de um experimento controlado ligado a **Correlação, causalidade e vieses**.
+
+- A) Decidir com base no efeito, no risco e na relevância prática.
+- B) Distribuir aleatoriamente as unidades entre os grupos.
+- C) Definir hipótese, métrica principal e regra de decisão.
+- D) Estimar a diferença entre grupos e sua incerteza.
+- E) Verificar equilíbrio e integridade da coleta.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-039: correlacao-causalidade-e-vieses`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 40 — Entrega de experimento — 25/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Entrega de experimento.
+- **Competência sugerida:** Experimentação e tomada de decisão.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Experimentação e tomada de decisão** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Entrega de experimento** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2023,7 +4209,6 @@ roadmap-data-science/
 - **Assunto central:** Entrega de experimento.
 - **Pasta/arquivo principal:** `semana-08/dia-040-entrega-de-experimento/` (pasta do projeto).
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Monte o projeto mensal com base SQL de clientes, experimento de retenção e análise estatística reproduzível.
@@ -2050,8 +4235,7 @@ roadmap-data-science/
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-040: entrega-de-experimento`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -2084,6 +4268,17 @@ roadmap-data-science/
 **Entrega da semana:** Pipeline baseline completo para um problema de classificação.
 
 ## Dia 41 — Definição do problema — 28/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Definição do problema.
+- **Competência sugerida:** Definição de problemas de Machine Learning.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Definição de problemas de Machine Learning** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Definição do problema** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2091,7 +4286,6 @@ roadmap-data-science/
 - **Assunto central:** Definição do problema.
 - **Pasta/arquivo principal:** `semana-09/dia-041-definicao-do-problema.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha um problema binário usando `clientes_telecom.csv`: prever churn nos próximos 30 dias; escreva alvo, unidade de previsão e horizonte temporal.
@@ -2107,24 +4301,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como transformar um pedido vago em alvo, unidade de análise, horizonte e ação mensurável?
-2. Em qual exercício de **Definição do problema** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Definição do problema** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Definição do problema**?
+
+- [ ] A) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] B) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] C) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] D) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] E) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+
+2. Como escolher uma métrica adequada para avaliar **Definição do problema**?
+
+- [ ] A) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] B) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] C) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] D) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] E) Escolhendo a métrica que produz o maior número.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Definição do problema**?
+
+- [ ] A) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] B) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] C) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] D) Consultar repetidamente o teste durante cada ajuste.
+- [ ] E) Comparar somente a quantidade de parâmetros dos algoritmos.
+
+4. Antes de usar um modelo de **Definição do problema** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] B) A complexidade do nome do algoritmo escolhido.
+- [ ] C) A quantidade de linhas de código usada para criar o modelo.
+- [ ] D) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] E) Somente a métrica média do melhor experimento.
+
+5. Ordene um fluxo de modelagem para **Definição do problema**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Separar os dados conforme o contexto do problema.
+- C) Ajustar o pré-processamento apenas com os dados de treino.
+- D) Avaliar, analisar erros e relacionar o modelo à decisão.
+- E) Treinar um baseline e modelos candidatos.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Definição do problema**.
+
+- A) Estabelecer um baseline simples e reproduzível.
+- B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- C) Documentar limitações, segmentos frágeis e regras de uso.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Comparar candidatos com o mesmo protocolo de validação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-041: definicao-do-problema`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 42 — Separação e vazamento — 29/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Separação e vazamento.
+- **Competência sugerida:** Separação de dados e prevenção de vazamento.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Separação de dados e prevenção de vazamento** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Separação e vazamento** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2132,7 +4384,6 @@ roadmap-data-science/
 - **Assunto central:** Separação e vazamento.
 - **Pasta/arquivo principal:** `semana-09/dia-042-separacao-e-vazamento.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Separe treino, validação e teste com proporção 60/20/20 e `random_state` fixo.
@@ -2148,24 +4399,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Quais informações configuram data leakage e por que a separação deve respeitar tempo ou grupos?
-2. Em qual exercício de **Separação e vazamento** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Separação e vazamento** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Separação e vazamento**?
+
+- [ ] A) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] B) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] C) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] D) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] E) Normalizar toda a base antes da separação para usar mais informação.
+
+2. Como escolher uma métrica adequada para avaliar **Separação e vazamento**?
+
+- [ ] A) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] B) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] C) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] D) Escolhendo a métrica que produz o maior número.
+- [ ] E) Trocando de métrica depois de ver qual favorece o modelo.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Separação e vazamento**?
+
+- [ ] A) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] B) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] C) Consultar repetidamente o teste durante cada ajuste.
+- [ ] D) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] E) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+
+4. Antes de usar um modelo de **Separação e vazamento** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A complexidade do nome do algoritmo escolhido.
+- [ ] B) A quantidade de linhas de código usada para criar o modelo.
+- [ ] C) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] D) Somente a métrica média do melhor experimento.
+- [ ] E) A aparência dos gráficos de treinamento, sem examinar dados.
+
+5. Ordene um fluxo de modelagem para **Separação e vazamento**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Avaliar, analisar erros e relacionar o modelo à decisão.
+- C) Separar os dados conforme o contexto do problema.
+- D) Treinar um baseline e modelos candidatos.
+- E) Ajustar o pré-processamento apenas com os dados de treino.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Separação e vazamento**.
+
+- A) Estabelecer um baseline simples e reproduzível.
+- B) Comparar candidatos com o mesmo protocolo de validação.
+- C) Documentar limitações, segmentos frágeis e regras de uso.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-042: separacao-e-vazamento`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 43 — Pré-processamento com Pipeline — 30/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Pré-processamento com Pipeline.
+- **Competência sugerida:** Pipelines e pré-processamento com scikit-learn.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Pipelines e pré-processamento com scikit-learn** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Pré-processamento com Pipeline** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2173,7 +4482,6 @@ roadmap-data-science/
 - **Assunto central:** Pré-processamento com Pipeline.
 - **Pasta/arquivo principal:** `semana-09/dia-043-pre-processamento-com-pipeline.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Identifique colunas numéricas, categóricas e ordinais do conjunto de churn.
@@ -2189,24 +4497,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Por que transformações devem ser ajustadas apenas no treino e encapsuladas em pipeline?
-2. Em qual exercício de **Pré-processamento com Pipeline** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Pré-processamento com Pipeline** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Pré-processamento com Pipeline**?
+
+- [ ] A) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] B) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] C) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] D) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] E) Escolher variáveis depois de observar o desempenho no teste.
+
+2. Como escolher uma métrica adequada para avaliar **Pré-processamento com Pipeline**?
+
+- [ ] A) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] B) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] C) Escolhendo a métrica que produz o maior número.
+- [ ] D) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] E) Avaliando apenas o tempo de treinamento do algoritmo.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Pré-processamento com Pipeline**?
+
+- [ ] A) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] B) Consultar repetidamente o teste durante cada ajuste.
+- [ ] C) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] D) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] E) Testar cada modelo em uma divisão diferente dos dados.
+
+4. Antes de usar um modelo de **Pré-processamento com Pipeline** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A quantidade de linhas de código usada para criar o modelo.
+- [ ] B) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] C) Somente a métrica média do melhor experimento.
+- [ ] D) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] E) A complexidade do nome do algoritmo escolhido.
+
+5. Ordene um fluxo de modelagem para **Pré-processamento com Pipeline**.
+
+- A) Avaliar, analisar erros e relacionar o modelo à decisão.
+- B) Separar os dados conforme o contexto do problema.
+- C) Definir o problema, a população, o alvo e a métrica.
+- D) Treinar um baseline e modelos candidatos.
+- E) Ajustar o pré-processamento apenas com os dados de treino.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Pré-processamento com Pipeline**.
+
+- A) Estabelecer um baseline simples e reproduzível.
+- B) Documentar limitações, segmentos frágeis e regras de uso.
+- C) Comparar candidatos com o mesmo protocolo de validação.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-043: pre-processamento-com-pipeline`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 44 — Métricas de classificação — 01/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Métricas de classificação.
+- **Competência sugerida:** Métricas de classificação.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Métricas de classificação** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Métricas de classificação** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2214,7 +4580,6 @@ roadmap-data-science/
 - **Assunto central:** Métricas de classificação.
 - **Pasta/arquivo principal:** `semana-09/dia-044-metricas-de-classificacao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Calcule matriz de confusão, accuracy, precision, recall, F1, ROC-AUC e PR-AUC para dois modelos ou regras.
@@ -2230,24 +4595,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Quando priorizar precision, recall, F1, ROC-AUC ou PR-AUC?
-2. Em qual exercício de **Métricas de classificação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Métricas de classificação** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Métricas de classificação**?
+
+- [ ] A) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] B) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] C) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] D) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] E) Duplicar exemplos raros antes de separar os conjuntos.
+
+2. Como escolher uma métrica adequada para avaliar **Métricas de classificação**?
+
+- [ ] A) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] B) Escolhendo a métrica que produz o maior número.
+- [ ] C) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] D) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] E) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Métricas de classificação**?
+
+- [ ] A) Consultar repetidamente o teste durante cada ajuste.
+- [ ] B) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] C) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] D) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] E) Escolher pelo desempenho no conjunto usado para treinar.
+
+4. Antes de usar um modelo de **Métricas de classificação** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] B) Somente a métrica média do melhor experimento.
+- [ ] C) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] D) A complexidade do nome do algoritmo escolhido.
+- [ ] E) A quantidade de linhas de código usada para criar o modelo.
+
+5. Ordene um fluxo de modelagem para **Métricas de classificação**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Separar os dados conforme o contexto do problema.
+- C) Avaliar, analisar erros e relacionar o modelo à decisão.
+- D) Treinar um baseline e modelos candidatos.
+- E) Ajustar o pré-processamento apenas com os dados de treino.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Métricas de classificação**.
+
+- A) Estabelecer um baseline simples e reproduzível.
+- B) Comparar candidatos com o mesmo protocolo de validação.
+- C) Documentar limitações, segmentos frágeis e regras de uso.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-044: metricas-de-classificacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 45 — Baseline completo — 02/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Baseline completo.
+- **Competência sugerida:** Baselines de Machine Learning.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Baselines de Machine Learning** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Baseline completo** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2255,7 +4678,6 @@ roadmap-data-science/
 - **Assunto central:** Baseline completo.
 - **Pasta/arquivo principal:** `semana-09/dia-045-baseline-completo/` (pasta do projeto).
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine baseline `DummyClassifier`, regressão logística simples e regra de negócio.
@@ -2271,19 +4693,66 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. O que torna um baseline válido e por que um modelo complexo precisa superá-lo de forma relevante?
-2. Em qual exercício de **Baseline completo** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Baseline completo** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Baseline completo**?
+
+- [ ] A) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] B) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] C) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] D) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] E) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+
+2. Como escolher uma métrica adequada para avaliar **Baseline completo**?
+
+- [ ] A) Escolhendo a métrica que produz o maior número.
+- [ ] B) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] C) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] D) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] E) Usando sempre acurácia, pois ela serve para qualquer problema.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Baseline completo**?
+
+- [ ] A) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] B) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] C) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] D) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] E) Consultar repetidamente o teste durante cada ajuste.
+
+4. Antes de usar um modelo de **Baseline completo** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) Somente a métrica média do melhor experimento.
+- [ ] B) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] C) A complexidade do nome do algoritmo escolhido.
+- [ ] D) A quantidade de linhas de código usada para criar o modelo.
+- [ ] E) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+
+5. Ordene um fluxo de modelagem para **Baseline completo**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Avaliar, analisar erros e relacionar o modelo à decisão.
+- C) Separar os dados conforme o contexto do problema.
+- D) Treinar um baseline e modelos candidatos.
+- E) Ajustar o pré-processamento apenas com os dados de treino.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Baseline completo**.
+
+- A) Estabelecer um baseline simples e reproduzível.
+- B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- C) Documentar limitações, segmentos frágeis e regras de uso.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Comparar candidatos com o mesmo protocolo de validação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-045: baseline-completo`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -2321,6 +4790,17 @@ roadmap-data-science/
 **Entrega da semana:** Mini-projeto de previsão numérica com baseline, diagnóstico e comunicação.
 
 ## Dia 46 — Regressão linear — 05/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Regressão linear.
+- **Competência sugerida:** Regressão linear.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Regressão linear** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Regressão linear** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2328,7 +4808,6 @@ roadmap-data-science/
 - **Assunto central:** Regressão linear.
 - **Pasta/arquivo principal:** `semana-10/dia-046-regressao-linear.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie dados sintéticos lineares `y = 3x + 5 + ruído` e ajuste regressão linear.
@@ -2344,24 +4823,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Quais pressupostos da regressão linear afetam interpretação e previsão?
-2. Em qual exercício de **Regressão linear** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Regressão linear** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Regressão linear**?
+
+- [ ] A) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] B) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] C) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] D) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] E) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+
+2. Como escolher uma métrica adequada para avaliar **Regressão linear**?
+
+- [ ] A) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] B) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] C) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] D) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] E) Escolhendo a métrica que produz o maior número.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Regressão linear**?
+
+- [ ] A) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] B) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] C) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] D) Consultar repetidamente o teste durante cada ajuste.
+- [ ] E) Comparar somente a quantidade de parâmetros dos algoritmos.
+
+4. Antes de usar um modelo de **Regressão linear** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] B) A complexidade do nome do algoritmo escolhido.
+- [ ] C) A quantidade de linhas de código usada para criar o modelo.
+- [ ] D) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] E) Somente a métrica média do melhor experimento.
+
+5. Ordene um fluxo de modelagem para **Regressão linear**.
+
+- A) Avaliar, analisar erros e relacionar o modelo à decisão.
+- B) Separar os dados conforme o contexto do problema.
+- C) Definir o problema, a população, o alvo e a métrica.
+- D) Treinar um baseline e modelos candidatos.
+- E) Ajustar o pré-processamento apenas com os dados de treino.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Regressão linear**.
+
+- A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- B) Documentar limitações, segmentos frágeis e regras de uso.
+- C) Estabelecer um baseline simples e reproduzível.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Comparar candidatos com o mesmo protocolo de validação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-046: regressao-linear`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 47 — Métricas de regressão — 06/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Métricas de regressão.
+- **Competência sugerida:** Métricas de regressão.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Métricas de regressão** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Métricas de regressão** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2369,7 +4906,6 @@ roadmap-data-science/
 - **Assunto central:** Métricas de regressão.
 - **Pasta/arquivo principal:** `semana-10/dia-047-metricas-de-regressao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Calcule MAE, MSE, RMSE, R² e MAPE manualmente para cinco previsões pequenas.
@@ -2385,24 +4921,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como MAE, RMSE e R² reagem a erros grandes e qual delas conversa melhor com o custo do negócio?
-2. Em qual exercício de **Métricas de regressão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Métricas de regressão** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Métricas de regressão**?
+
+- [ ] A) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] B) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] C) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] D) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] E) Normalizar toda a base antes da separação para usar mais informação.
+
+2. Como escolher uma métrica adequada para avaliar **Métricas de regressão**?
+
+- [ ] A) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] B) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] C) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] D) Escolhendo a métrica que produz o maior número.
+- [ ] E) Trocando de métrica depois de ver qual favorece o modelo.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Métricas de regressão**?
+
+- [ ] A) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] B) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] C) Consultar repetidamente o teste durante cada ajuste.
+- [ ] D) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] E) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+
+4. Antes de usar um modelo de **Métricas de regressão** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A complexidade do nome do algoritmo escolhido.
+- [ ] B) A quantidade de linhas de código usada para criar o modelo.
+- [ ] C) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] D) Somente a métrica média do melhor experimento.
+- [ ] E) A aparência dos gráficos de treinamento, sem examinar dados.
+
+5. Ordene um fluxo de modelagem para **Métricas de regressão**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Avaliar, analisar erros e relacionar o modelo à decisão.
+- C) Ajustar o pré-processamento apenas com os dados de treino.
+- D) Treinar um baseline e modelos candidatos.
+- E) Separar os dados conforme o contexto do problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Métricas de regressão**.
+
+- A) Estabelecer um baseline simples e reproduzível.
+- B) Documentar limitações, segmentos frágeis e regras de uso.
+- C) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Comparar candidatos com o mesmo protocolo de validação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-047: metricas-de-regressao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 48 — Regularização — 07/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Regularização.
+- **Competência sugerida:** Regularização.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Regularização** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Regularização** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2410,7 +5004,6 @@ roadmap-data-science/
 - **Assunto central:** Regularização.
 - **Pasta/arquivo principal:** `semana-10/dia-048-regularizacao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine regressão linear, Ridge e Lasso no mesmo conjunto padronizado.
@@ -2426,24 +5019,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como L1 e L2 controlam complexidade e por que regularização não corrige dados ruins?
-2. Em qual exercício de **Regularização** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Regularização** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Regularização**?
+
+- [ ] A) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] B) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] C) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] D) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] E) Escolher variáveis depois de observar o desempenho no teste.
+
+2. Como escolher uma métrica adequada para avaliar **Regularização**?
+
+- [ ] A) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] B) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] C) Escolhendo a métrica que produz o maior número.
+- [ ] D) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] E) Avaliando apenas o tempo de treinamento do algoritmo.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Regularização**?
+
+- [ ] A) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] B) Consultar repetidamente o teste durante cada ajuste.
+- [ ] C) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] D) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] E) Testar cada modelo em uma divisão diferente dos dados.
+
+4. Antes de usar um modelo de **Regularização** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A quantidade de linhas de código usada para criar o modelo.
+- [ ] B) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] C) Somente a métrica média do melhor experimento.
+- [ ] D) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] E) A complexidade do nome do algoritmo escolhido.
+
+5. Ordene um fluxo de modelagem para **Regularização**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Separar os dados conforme o contexto do problema.
+- C) Avaliar, analisar erros e relacionar o modelo à decisão.
+- D) Treinar um baseline e modelos candidatos.
+- E) Ajustar o pré-processamento apenas com os dados de treino.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Regularização**.
+
+- A) Estabelecer um baseline simples e reproduzível.
+- B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- C) Documentar limitações, segmentos frágeis e regras de uso.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Comparar candidatos com o mesmo protocolo de validação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-048: regularizacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 49 — Feature engineering para regressão — 08/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Feature engineering para regressão.
+- **Competência sugerida:** Feature Engineering.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Feature Engineering** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Feature engineering para regressão** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2451,7 +5102,6 @@ roadmap-data-science/
 - **Assunto central:** Feature engineering para regressão.
 - **Pasta/arquivo principal:** `semana-10/dia-049-feature-engineering-para-regressao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie features de data: mês, dia da semana, fim de semana e dias desde primeira compra.
@@ -2467,24 +5117,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como criar atributos úteis sem inserir informação futura ou relação artificial?
-2. Em qual exercício de **Feature engineering para regressão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Feature engineering para regressão** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Feature engineering para regressão**?
+
+- [ ] A) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] B) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] C) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] D) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] E) Duplicar exemplos raros antes de separar os conjuntos.
+
+2. Como escolher uma métrica adequada para avaliar **Feature engineering para regressão**?
+
+- [ ] A) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] B) Escolhendo a métrica que produz o maior número.
+- [ ] C) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] D) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] E) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Feature engineering para regressão**?
+
+- [ ] A) Consultar repetidamente o teste durante cada ajuste.
+- [ ] B) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] C) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] D) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] E) Escolher pelo desempenho no conjunto usado para treinar.
+
+4. Antes de usar um modelo de **Feature engineering para regressão** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] B) Somente a métrica média do melhor experimento.
+- [ ] C) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] D) A complexidade do nome do algoritmo escolhido.
+- [ ] E) A quantidade de linhas de código usada para criar o modelo.
+
+5. Ordene um fluxo de modelagem para **Feature engineering para regressão**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Avaliar, analisar erros e relacionar o modelo à decisão.
+- C) Separar os dados conforme o contexto do problema.
+- D) Treinar um baseline e modelos candidatos.
+- E) Ajustar o pré-processamento apenas com os dados de treino.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Feature engineering para regressão**.
+
+- A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- B) Documentar limitações, segmentos frágeis e regras de uso.
+- C) Estabelecer um baseline simples e reproduzível.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Comparar candidatos com o mesmo protocolo de validação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-049: feature-engineering-para-regressao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 50 — Mini-projeto de regressão — 09/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Mini-projeto de regressão.
+- **Competência sugerida:** Modelagem de regressão.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Modelagem de regressão** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Mini-projeto de regressão** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2492,7 +5200,6 @@ roadmap-data-science/
 - **Assunto central:** Mini-projeto de regressão.
 - **Pasta/arquivo principal:** `semana-10/dia-050-mini-projeto-de-regressao/` (pasta do projeto).
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha um problema de regressão: prever receita diária ou duração de incidente.
@@ -2508,19 +5215,66 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como demonstrar que a melhora do modelo é útil e não apenas uma diferença pequena de métrica?
-2. Em qual exercício de **Mini-projeto de regressão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Mini-projeto de regressão** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Mini-projeto de regressão**?
+
+- [ ] A) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] B) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] C) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] D) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] E) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+
+2. Como escolher uma métrica adequada para avaliar **Mini-projeto de regressão**?
+
+- [ ] A) Escolhendo a métrica que produz o maior número.
+- [ ] B) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] C) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] D) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] E) Usando sempre acurácia, pois ela serve para qualquer problema.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Mini-projeto de regressão**?
+
+- [ ] A) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] B) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] C) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] D) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] E) Consultar repetidamente o teste durante cada ajuste.
+
+4. Antes de usar um modelo de **Mini-projeto de regressão** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) Somente a métrica média do melhor experimento.
+- [ ] B) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] C) A complexidade do nome do algoritmo escolhido.
+- [ ] D) A quantidade de linhas de código usada para criar o modelo.
+- [ ] E) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+
+5. Ordene um fluxo de modelagem para **Mini-projeto de regressão**.
+
+- A) Avaliar, analisar erros e relacionar o modelo à decisão.
+- B) Separar os dados conforme o contexto do problema.
+- C) Definir o problema, a população, o alvo e a métrica.
+- D) Treinar um baseline e modelos candidatos.
+- E) Ajustar o pré-processamento apenas com os dados de treino.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Mini-projeto de regressão**.
+
+- A) Documentar limitações, segmentos frágeis e regras de uso.
+- B) Comparar candidatos com o mesmo protocolo de validação.
+- C) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-050: mini-projeto-de-regressao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -2553,6 +5307,17 @@ roadmap-data-science/
 **Entrega da semana:** Case de classificação com limiar orientado a custo e explicação de probabilidades.
 
 ## Dia 51 — Regressão logística — 12/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Regressão logística.
+- **Competência sugerida:** Regressão logística.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Regressão logística** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Regressão logística** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2560,7 +5325,6 @@ roadmap-data-science/
 - **Assunto central:** Regressão logística.
 - **Pasta/arquivo principal:** `semana-11/dia-051-regressao-logistica.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Implemente regressão logística em dados sintéticos e interprete probabilidade e log-odds em nível conceitual.
@@ -2576,24 +5340,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como interpretar probabilidade e coeficientes de uma regressão logística sem confundir com causalidade?
-2. Em qual exercício de **Regressão logística** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Regressão logística** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Regressão logística**?
+
+- [ ] A) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] B) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] C) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] D) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] E) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+
+2. Como escolher uma métrica adequada para avaliar **Regressão logística**?
+
+- [ ] A) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] B) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] C) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] D) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] E) Escolhendo a métrica que produz o maior número.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Regressão logística**?
+
+- [ ] A) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] B) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] C) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] D) Consultar repetidamente o teste durante cada ajuste.
+- [ ] E) Comparar somente a quantidade de parâmetros dos algoritmos.
+
+4. Antes de usar um modelo de **Regressão logística** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] B) A complexidade do nome do algoritmo escolhido.
+- [ ] C) A quantidade de linhas de código usada para criar o modelo.
+- [ ] D) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] E) Somente a métrica média do melhor experimento.
+
+5. Ordene um fluxo de modelagem para **Regressão logística**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Separar os dados conforme o contexto do problema.
+- C) Avaliar, analisar erros e relacionar o modelo à decisão.
+- D) Treinar um baseline e modelos candidatos.
+- E) Ajustar o pré-processamento apenas com os dados de treino.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Regressão logística**.
+
+- A) Documentar limitações, segmentos frágeis e regras de uso.
+- B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- C) Comparar candidatos com o mesmo protocolo de validação.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-051: regressao-logistica`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 52 — Limiar e custo — 13/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Limiar e custo.
+- **Competência sugerida:** Limiar de decisão e análise de custo.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Limiar de decisão e análise de custo** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Limiar e custo** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2601,7 +5423,6 @@ roadmap-data-science/
 - **Assunto central:** Limiar e custo.
 - **Pasta/arquivo principal:** `semana-11/dia-052-limiar-e-custo.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Calcule previsões para limiares 0.2, 0.3, 0.5, 0.7 e 0.8.
@@ -2617,24 +5438,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Por que o limiar 0,5 não é universal e como escolher um limiar com custo de falsos positivos e negativos?
-2. Em qual exercício de **Limiar e custo** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Limiar e custo** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Limiar e custo**?
+
+- [ ] A) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] B) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] C) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] D) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] E) Normalizar toda a base antes da separação para usar mais informação.
+
+2. Como escolher uma métrica adequada para avaliar **Limiar e custo**?
+
+- [ ] A) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] B) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] C) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] D) Escolhendo a métrica que produz o maior número.
+- [ ] E) Trocando de métrica depois de ver qual favorece o modelo.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Limiar e custo**?
+
+- [ ] A) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] B) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] C) Consultar repetidamente o teste durante cada ajuste.
+- [ ] D) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] E) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+
+4. Antes de usar um modelo de **Limiar e custo** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A complexidade do nome do algoritmo escolhido.
+- [ ] B) A quantidade de linhas de código usada para criar o modelo.
+- [ ] C) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] D) Somente a métrica média do melhor experimento.
+- [ ] E) A aparência dos gráficos de treinamento, sem examinar dados.
+
+5. Ordene um fluxo de modelagem para **Limiar e custo**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Ajustar o pré-processamento apenas com os dados de treino.
+- C) Avaliar, analisar erros e relacionar o modelo à decisão.
+- D) Treinar um baseline e modelos candidatos.
+- E) Separar os dados conforme o contexto do problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Limiar e custo**.
+
+- A) Estabelecer um baseline simples e reproduzível.
+- B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- C) Documentar limitações, segmentos frágeis e regras de uso.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Comparar candidatos com o mesmo protocolo de validação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-052: limiar-e-custo`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 53 — Calibração e probabilidades — 14/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Calibração e probabilidades.
+- **Competência sugerida:** Calibração de modelos.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Calibração de modelos** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Calibração e probabilidades** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2642,7 +5521,6 @@ roadmap-data-science/
 - **Assunto central:** Calibração e probabilidades.
 - **Pasta/arquivo principal:** `semana-11/dia-053-calibracao-e-probabilidades.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie gráfico de calibração e calcule Brier Score para regressão logística e modelo de árvore.
@@ -2658,24 +5536,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Qual a diferença entre discriminação e calibração de probabilidades?
-2. Em qual exercício de **Calibração e probabilidades** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Calibração e probabilidades** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Calibração e probabilidades**?
+
+- [ ] A) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] B) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] C) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] D) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] E) Escolher variáveis depois de observar o desempenho no teste.
+
+2. Como escolher uma métrica adequada para avaliar **Calibração e probabilidades**?
+
+- [ ] A) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] B) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] C) Escolhendo a métrica que produz o maior número.
+- [ ] D) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] E) Avaliando apenas o tempo de treinamento do algoritmo.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Calibração e probabilidades**?
+
+- [ ] A) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] B) Consultar repetidamente o teste durante cada ajuste.
+- [ ] C) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] D) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] E) Testar cada modelo em uma divisão diferente dos dados.
+
+4. Antes de usar um modelo de **Calibração e probabilidades** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A quantidade de linhas de código usada para criar o modelo.
+- [ ] B) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] C) Somente a métrica média do melhor experimento.
+- [ ] D) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] E) A complexidade do nome do algoritmo escolhido.
+
+5. Ordene um fluxo de modelagem para **Calibração e probabilidades**.
+
+- A) Ajustar o pré-processamento apenas com os dados de treino.
+- B) Avaliar, analisar erros e relacionar o modelo à decisão.
+- C) Definir o problema, a população, o alvo e a métrica.
+- D) Treinar um baseline e modelos candidatos.
+- E) Separar os dados conforme o contexto do problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Calibração e probabilidades**.
+
+- A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- B) Documentar limitações, segmentos frágeis e regras de uso.
+- C) Estabelecer um baseline simples e reproduzível.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Comparar candidatos com o mesmo protocolo de validação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-053: calibracao-e-probabilidades`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 54 — Classes desbalanceadas — 15/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Classes desbalanceadas.
+- **Competência sugerida:** Classes desbalanceadas.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Classes desbalanceadas** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Classes desbalanceadas** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2683,7 +5619,6 @@ roadmap-data-science/
 - **Assunto central:** Classes desbalanceadas.
 - **Pasta/arquivo principal:** `semana-11/dia-054-classes-desbalanceadas.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Meça a proporção de classes e crie baseline que sempre prevê a maioria.
@@ -2699,24 +5634,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Por que acurácia pode enganar em classes raras e quais alternativas devem ser avaliadas?
-2. Em qual exercício de **Classes desbalanceadas** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Classes desbalanceadas** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Classes desbalanceadas**?
+
+- [ ] A) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] B) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] C) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] D) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] E) Duplicar exemplos raros antes de separar os conjuntos.
+
+2. Como escolher uma métrica adequada para avaliar **Classes desbalanceadas**?
+
+- [ ] A) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] B) Escolhendo a métrica que produz o maior número.
+- [ ] C) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] D) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] E) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Classes desbalanceadas**?
+
+- [ ] A) Consultar repetidamente o teste durante cada ajuste.
+- [ ] B) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] C) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] D) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] E) Escolher pelo desempenho no conjunto usado para treinar.
+
+4. Antes de usar um modelo de **Classes desbalanceadas** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] B) Somente a métrica média do melhor experimento.
+- [ ] C) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] D) A complexidade do nome do algoritmo escolhido.
+- [ ] E) A quantidade de linhas de código usada para criar o modelo.
+
+5. Ordene um fluxo de modelagem para **Classes desbalanceadas**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Avaliar, analisar erros e relacionar o modelo à decisão.
+- C) Ajustar o pré-processamento apenas com os dados de treino.
+- D) Treinar um baseline e modelos candidatos.
+- E) Separar os dados conforme o contexto do problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Classes desbalanceadas**.
+
+- A) Estabelecer um baseline simples e reproduzível.
+- B) Documentar limitações, segmentos frágeis e regras de uso.
+- C) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Comparar candidatos com o mesmo protocolo de validação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-054: classes-desbalanceadas`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 55 — Case de decisão — 16/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Case de decisão.
+- **Competência sugerida:** Machine Learning para tomada de decisão.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Machine Learning para tomada de decisão** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Case de decisão** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2724,7 +5717,6 @@ roadmap-data-science/
 - **Assunto central:** Case de decisão.
 - **Pasta/arquivo principal:** `semana-11/dia-055-case-de-decisao/` (pasta do projeto).
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Monte tabela com cliente, probabilidade, limiar, decisão e custo esperado.
@@ -2740,19 +5732,66 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como converter uma probabilidade prevista em política operacional auditável?
-2. Em qual exercício de **Case de decisão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Case de decisão** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Case de decisão**?
+
+- [ ] A) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] B) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] C) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] D) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] E) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+
+2. Como escolher uma métrica adequada para avaliar **Case de decisão**?
+
+- [ ] A) Escolhendo a métrica que produz o maior número.
+- [ ] B) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] C) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] D) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] E) Usando sempre acurácia, pois ela serve para qualquer problema.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Case de decisão**?
+
+- [ ] A) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] B) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] C) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] D) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] E) Consultar repetidamente o teste durante cada ajuste.
+
+4. Antes de usar um modelo de **Case de decisão** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) Somente a métrica média do melhor experimento.
+- [ ] B) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] C) A complexidade do nome do algoritmo escolhido.
+- [ ] D) A quantidade de linhas de código usada para criar o modelo.
+- [ ] E) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+
+5. Ordene um fluxo de modelagem para **Case de decisão**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Ajustar o pré-processamento apenas com os dados de treino.
+- C) Avaliar, analisar erros e relacionar o modelo à decisão.
+- D) Treinar um baseline e modelos candidatos.
+- E) Separar os dados conforme o contexto do problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Case de decisão**.
+
+- A) Estabelecer um baseline simples e reproduzível.
+- B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- C) Documentar limitações, segmentos frágeis e regras de uso.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Comparar candidatos com o mesmo protocolo de validação.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-055: case-de-decisao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -2790,6 +5829,17 @@ roadmap-data-science/
 **Entrega da semana:** Benchmark de regressão logística, árvore, Random Forest e Gradient Boosting.
 
 ## Dia 56 — Árvore de decisão — 19/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Árvore de decisão.
+- **Competência sugerida:** Árvore de decisão.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Árvore de decisão** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Árvore de decisão** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2797,7 +5847,6 @@ roadmap-data-science/
 - **Assunto central:** Árvore de decisão.
 - **Pasta/arquivo principal:** `semana-12/dia-056-arvore-de-decisao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine árvore de decisão com profundidades 1, 3, 5, 10 e sem limite.
@@ -2813,24 +5862,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como profundidade, folhas mínimas e impureza afetam overfitting e interpretabilidade?
-2. Em qual exercício de **Árvore de decisão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Árvore de decisão** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Árvore de decisão**?
+
+- [ ] A) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] B) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] C) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] D) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] E) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+
+2. Como escolher uma métrica adequada para avaliar **Árvore de decisão**?
+
+- [ ] A) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] B) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] C) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] D) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] E) Escolhendo a métrica que produz o maior número.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Árvore de decisão**?
+
+- [ ] A) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] B) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] C) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] D) Consultar repetidamente o teste durante cada ajuste.
+- [ ] E) Comparar somente a quantidade de parâmetros dos algoritmos.
+
+4. Antes de usar um modelo de **Árvore de decisão** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] B) A complexidade do nome do algoritmo escolhido.
+- [ ] C) A quantidade de linhas de código usada para criar o modelo.
+- [ ] D) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] E) Somente a métrica média do melhor experimento.
+
+5. Ordene um fluxo de modelagem para **Árvore de decisão**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Avaliar, analisar erros e relacionar o modelo à decisão.
+- C) Ajustar o pré-processamento apenas com os dados de treino.
+- D) Treinar um baseline e modelos candidatos.
+- E) Separar os dados conforme o contexto do problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Árvore de decisão**.
+
+- A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- B) Comparar candidatos com o mesmo protocolo de validação.
+- C) Documentar limitações, segmentos frágeis e regras de uso.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-056: arvore-de-decisao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 57 — Random Forest — 20/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Random Forest.
+- **Competência sugerida:** Random Forest.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Random Forest** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Random Forest** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2838,7 +5945,6 @@ roadmap-data-science/
 - **Assunto central:** Random Forest.
 - **Pasta/arquivo principal:** `semana-12/dia-057-random-forest.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine Random Forest variando número de árvores, profundidade e número de features.
@@ -2854,24 +5960,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como bagging e aleatoriedade de atributos reduzem variância em comparação com uma árvore única?
-2. Em qual exercício de **Random Forest** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Random Forest** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Random Forest**?
+
+- [ ] A) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] B) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] C) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] D) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] E) Normalizar toda a base antes da separação para usar mais informação.
+
+2. Como escolher uma métrica adequada para avaliar **Random Forest**?
+
+- [ ] A) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] B) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] C) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] D) Escolhendo a métrica que produz o maior número.
+- [ ] E) Trocando de métrica depois de ver qual favorece o modelo.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Random Forest**?
+
+- [ ] A) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] B) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] C) Consultar repetidamente o teste durante cada ajuste.
+- [ ] D) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] E) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+
+4. Antes de usar um modelo de **Random Forest** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A complexidade do nome do algoritmo escolhido.
+- [ ] B) A quantidade de linhas de código usada para criar o modelo.
+- [ ] C) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] D) Somente a métrica média do melhor experimento.
+- [ ] E) A aparência dos gráficos de treinamento, sem examinar dados.
+
+5. Ordene um fluxo de modelagem para **Random Forest**.
+
+- A) Avaliar, analisar erros e relacionar o modelo à decisão.
+- B) Ajustar o pré-processamento apenas com os dados de treino.
+- C) Separar os dados conforme o contexto do problema.
+- D) Treinar um baseline e modelos candidatos.
+- E) Definir o problema, a população, o alvo e a métrica.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Random Forest**.
+
+- A) Documentar limitações, segmentos frágeis e regras de uso.
+- B) Comparar candidatos com o mesmo protocolo de validação.
+- C) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-057: random-forest`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 58 — Gradient Boosting — 21/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Gradient Boosting.
+- **Competência sugerida:** Gradient Boosting.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Gradient Boosting** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Gradient Boosting** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2879,7 +6043,6 @@ roadmap-data-science/
 - **Assunto central:** Gradient Boosting.
 - **Pasta/arquivo principal:** `semana-12/dia-058-gradient-boosting.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine Gradient Boosting e, se possível, XGBoost ou LightGBM no mesmo split.
@@ -2895,24 +6058,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como boosting corrige erros sequencialmente e qual risco existe ao aumentar complexidade?
-2. Em qual exercício de **Gradient Boosting** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Gradient Boosting** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Gradient Boosting**?
+
+- [ ] A) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] B) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] C) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] D) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] E) Escolher variáveis depois de observar o desempenho no teste.
+
+2. Como escolher uma métrica adequada para avaliar **Gradient Boosting**?
+
+- [ ] A) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] B) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] C) Escolhendo a métrica que produz o maior número.
+- [ ] D) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] E) Avaliando apenas o tempo de treinamento do algoritmo.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Gradient Boosting**?
+
+- [ ] A) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] B) Consultar repetidamente o teste durante cada ajuste.
+- [ ] C) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] D) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] E) Testar cada modelo em uma divisão diferente dos dados.
+
+4. Antes de usar um modelo de **Gradient Boosting** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A quantidade de linhas de código usada para criar o modelo.
+- [ ] B) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] C) Somente a métrica média do melhor experimento.
+- [ ] D) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] E) A complexidade do nome do algoritmo escolhido.
+
+5. Ordene um fluxo de modelagem para **Gradient Boosting**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Avaliar, analisar erros e relacionar o modelo à decisão.
+- C) Ajustar o pré-processamento apenas com os dados de treino.
+- D) Treinar um baseline e modelos candidatos.
+- E) Separar os dados conforme o contexto do problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Gradient Boosting**.
+
+- A) Documentar limitações, segmentos frágeis e regras de uso.
+- B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- C) Comparar candidatos com o mesmo protocolo de validação.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-058: gradient-boosting`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 59 — Seleção de modelo — 22/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Seleção de modelo.
+- **Competência sugerida:** Seleção de modelos.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Seleção de modelos** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Seleção de modelo** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2920,7 +6141,6 @@ roadmap-data-science/
 - **Assunto central:** Seleção de modelo.
 - **Pasta/arquivo principal:** `semana-12/dia-059-selecao-de-modelo.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie tabela única com todos os modelos já treinados, mesma validação e métricas.
@@ -2936,24 +6156,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Quais critérios além da métrica devem decidir entre dois modelos?
-2. Em qual exercício de **Seleção de modelo** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Seleção de modelo** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Seleção de modelo**?
+
+- [ ] A) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] B) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] C) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] D) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] E) Duplicar exemplos raros antes de separar os conjuntos.
+
+2. Como escolher uma métrica adequada para avaliar **Seleção de modelo**?
+
+- [ ] A) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] B) Escolhendo a métrica que produz o maior número.
+- [ ] C) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] D) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] E) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Seleção de modelo**?
+
+- [ ] A) Consultar repetidamente o teste durante cada ajuste.
+- [ ] B) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] C) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] D) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] E) Escolher pelo desempenho no conjunto usado para treinar.
+
+4. Antes de usar um modelo de **Seleção de modelo** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] B) Somente a métrica média do melhor experimento.
+- [ ] C) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] D) A complexidade do nome do algoritmo escolhido.
+- [ ] E) A quantidade de linhas de código usada para criar o modelo.
+
+5. Ordene um fluxo de modelagem para **Seleção de modelo**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Ajustar o pré-processamento apenas com os dados de treino.
+- C) Avaliar, analisar erros e relacionar o modelo à decisão.
+- D) Treinar um baseline e modelos candidatos.
+- E) Separar os dados conforme o contexto do problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Seleção de modelo**.
+
+- A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- B) Comparar candidatos com o mesmo protocolo de validação.
+- C) Documentar limitações, segmentos frágeis e regras de uso.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-059: selecao-de-modelo`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 60 — Benchmark publicado — 23/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Benchmark publicado.
+- **Competência sugerida:** Benchmark de modelos.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Benchmark de modelos** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Benchmark publicado** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -2961,7 +6239,6 @@ roadmap-data-science/
 - **Assunto central:** Benchmark publicado.
 - **Pasta/arquivo principal:** `semana-12/dia-060-benchmark-publicado/` (pasta do projeto).
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Organize benchmark em script ou notebook reproduzível com configuração central.
@@ -2977,19 +6254,66 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como garantir que uma comparação de modelos foi justa, reproduzível e sem ajuste no teste?
-2. Em qual exercício de **Benchmark publicado** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Benchmark publicado** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Benchmark publicado**?
+
+- [ ] A) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] B) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] C) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] D) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] E) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+
+2. Como escolher uma métrica adequada para avaliar **Benchmark publicado**?
+
+- [ ] A) Escolhendo a métrica que produz o maior número.
+- [ ] B) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] C) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] D) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] E) Usando sempre acurácia, pois ela serve para qualquer problema.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Benchmark publicado**?
+
+- [ ] A) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] B) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] C) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] D) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] E) Consultar repetidamente o teste durante cada ajuste.
+
+4. Antes de usar um modelo de **Benchmark publicado** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) Somente a métrica média do melhor experimento.
+- [ ] B) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] C) A complexidade do nome do algoritmo escolhido.
+- [ ] D) A quantidade de linhas de código usada para criar o modelo.
+- [ ] E) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+
+5. Ordene um fluxo de modelagem para **Benchmark publicado**.
+
+- A) Ajustar o pré-processamento apenas com os dados de treino.
+- B) Avaliar, analisar erros e relacionar o modelo à decisão.
+- C) Definir o problema, a população, o alvo e a métrica.
+- D) Treinar um baseline e modelos candidatos.
+- E) Separar os dados conforme o contexto do problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Benchmark publicado**.
+
+- A) Documentar limitações, segmentos frágeis e regras de uso.
+- B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- C) Comparar candidatos com o mesmo protocolo de validação.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-060: benchmark-publicado`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -3023,6 +6347,17 @@ roadmap-data-science/
 **Entrega da semana:** Pipeline robusto com seleção de variáveis, tuning e explicabilidade.
 
 ## Dia 61 — Feature engineering — 26/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Feature engineering.
+- **Competência sugerida:** Feature Engineering.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Feature Engineering** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Feature engineering** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3030,7 +6365,6 @@ roadmap-data-science/
 - **Assunto central:** Feature engineering.
 - **Pasta/arquivo principal:** `semana-13/dia-061-feature-engineering.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie pelo menos oito features de churn agrupadas em comportamento, financeiro, suporte e relacionamento.
@@ -3046,24 +6380,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como avaliar se uma nova feature adiciona sinal real, estabilidade e explicabilidade?
-2. Em qual exercício de **Feature engineering** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Feature engineering** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Feature engineering**?
+
+- [ ] A) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] B) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] C) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] D) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] E) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+
+2. Como escolher uma métrica adequada para avaliar **Feature engineering**?
+
+- [ ] A) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] B) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] C) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] D) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] E) Escolhendo a métrica que produz o maior número.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Feature engineering**?
+
+- [ ] A) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] B) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] C) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] D) Consultar repetidamente o teste durante cada ajuste.
+- [ ] E) Comparar somente a quantidade de parâmetros dos algoritmos.
+
+4. Antes de usar um modelo de **Feature engineering** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] B) A complexidade do nome do algoritmo escolhido.
+- [ ] C) A quantidade de linhas de código usada para criar o modelo.
+- [ ] D) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] E) Somente a métrica média do melhor experimento.
+
+5. Ordene um fluxo de modelagem para **Feature engineering**.
+
+- A) Definir o problema, a população, o alvo e a métrica.
+- B) Avaliar, analisar erros e relacionar o modelo à decisão.
+- C) Ajustar o pré-processamento apenas com os dados de treino.
+- D) Treinar um baseline e modelos candidatos.
+- E) Separar os dados conforme o contexto do problema.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Feature engineering**.
+
+- A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- B) Comparar candidatos com o mesmo protocolo de validação.
+- C) Estabelecer um baseline simples e reproduzível.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Documentar limitações, segmentos frágeis e regras de uso.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-061: feature-engineering`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 62 — Validação cruzada e tuning — 27/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Validação cruzada e tuning.
+- **Competência sugerida:** Validação cruzada e tuning de hiperparâmetros.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Validação cruzada e tuning de hiperparâmetros** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Validação cruzada e tuning** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3071,7 +6463,6 @@ roadmap-data-science/
 - **Assunto central:** Validação cruzada e tuning.
 - **Pasta/arquivo principal:** `semana-13/dia-062-validacao-cruzada-e-tuning.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Compare KFold, StratifiedKFold e validação temporal em um exemplo apropriado.
@@ -3087,24 +6478,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Quando usar validação cruzada comum, estratificada, por grupo ou temporal?
-2. Em qual exercício de **Validação cruzada e tuning** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Validação cruzada e tuning** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Validação cruzada e tuning**?
+
+- [ ] A) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] B) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] C) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] D) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] E) Normalizar toda a base antes da separação para usar mais informação.
+
+2. Como escolher uma métrica adequada para avaliar **Validação cruzada e tuning**?
+
+- [ ] A) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] B) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] C) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] D) Escolhendo a métrica que produz o maior número.
+- [ ] E) Trocando de métrica depois de ver qual favorece o modelo.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Validação cruzada e tuning**?
+
+- [ ] A) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] B) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] C) Consultar repetidamente o teste durante cada ajuste.
+- [ ] D) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] E) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+
+4. Antes de usar um modelo de **Validação cruzada e tuning** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A complexidade do nome do algoritmo escolhido.
+- [ ] B) A quantidade de linhas de código usada para criar o modelo.
+- [ ] C) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] D) Somente a métrica média do melhor experimento.
+- [ ] E) A aparência dos gráficos de treinamento, sem examinar dados.
+
+5. Ordene um fluxo de modelagem para **Validação cruzada e tuning**.
+
+- A) Avaliar, analisar erros e relacionar o modelo à decisão.
+- B) Ajustar o pré-processamento apenas com os dados de treino.
+- C) Separar os dados conforme o contexto do problema.
+- D) Treinar um baseline e modelos candidatos.
+- E) Definir o problema, a população, o alvo e a métrica.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Validação cruzada e tuning**.
+
+- A) Comparar candidatos com o mesmo protocolo de validação.
+- B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- C) Avaliar uma vez no teste após fechar as escolhas.
+- D) Documentar limitações, segmentos frágeis e regras de uso.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-062: validacao-cruzada-e-tuning`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 63 — Seleção de variáveis — 28/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Seleção de variáveis.
+- **Competência sugerida:** Seleção de variáveis.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Seleção de variáveis** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Seleção de variáveis** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3112,7 +6561,6 @@ roadmap-data-science/
 - **Assunto central:** Seleção de variáveis.
 - **Pasta/arquivo principal:** `semana-13/dia-063-selecao-de-variaveis.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Remova colunas constantes, quase constantes e duplicadas.
@@ -3128,24 +6576,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Qual o risco de selecionar variáveis usando o conjunto de teste ou apenas importância do modelo?
-2. Em qual exercício de **Seleção de variáveis** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Seleção de variáveis** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Seleção de variáveis**?
+
+- [ ] A) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] B) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] C) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] D) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] E) Escolher variáveis depois de observar o desempenho no teste.
+
+2. Como escolher uma métrica adequada para avaliar **Seleção de variáveis**?
+
+- [ ] A) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] B) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] C) Escolhendo a métrica que produz o maior número.
+- [ ] D) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] E) Avaliando apenas o tempo de treinamento do algoritmo.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Seleção de variáveis**?
+
+- [ ] A) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] B) Consultar repetidamente o teste durante cada ajuste.
+- [ ] C) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] D) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] E) Testar cada modelo em uma divisão diferente dos dados.
+
+4. Antes de usar um modelo de **Seleção de variáveis** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) A quantidade de linhas de código usada para criar o modelo.
+- [ ] B) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] C) Somente a métrica média do melhor experimento.
+- [ ] D) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] E) A complexidade do nome do algoritmo escolhido.
+
+5. Ordene um fluxo de modelagem para **Seleção de variáveis**.
+
+- A) Avaliar, analisar erros e relacionar o modelo à decisão.
+- B) Separar os dados conforme o contexto do problema.
+- C) Ajustar o pré-processamento apenas com os dados de treino.
+- D) Treinar um baseline e modelos candidatos.
+- E) Definir o problema, a população, o alvo e a métrica.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Seleção de variáveis**.
+
+- A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- B) Comparar candidatos com o mesmo protocolo de validação.
+- C) Documentar limitações, segmentos frágeis e regras de uso.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-063: selecao-de-variaveis`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 64 — Explicabilidade — 29/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Explicabilidade.
+- **Competência sugerida:** Explicabilidade de modelos.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Explicabilidade de modelos** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Explicabilidade** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3153,7 +6659,6 @@ roadmap-data-science/
 - **Assunto central:** Explicabilidade.
 - **Pasta/arquivo principal:** `semana-13/dia-064-explicabilidade.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha 10 previsões individuais, incluindo acertos e erros, e explique fatores principais.
@@ -3169,24 +6674,82 @@ roadmap-data-science/
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Qual a diferença entre explicação global e local, e por que importância não implica causalidade?
-2. Em qual exercício de **Explicabilidade** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Explicabilidade** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática evita vazamento de dados em uma atividade de **Explicabilidade**?
+
+- [ ] A) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] B) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] C) Normalizar toda a base antes da separação para usar mais informação.
+- [ ] D) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] E) Duplicar exemplos raros antes de separar os conjuntos.
+
+2. Como escolher uma métrica adequada para avaliar **Explicabilidade**?
+
+- [ ] A) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] B) Escolhendo a métrica que produz o maior número.
+- [ ] C) Trocando de métrica depois de ver qual favorece o modelo.
+- [ ] D) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] E) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Explicabilidade**?
+
+- [ ] A) Consultar repetidamente o teste durante cada ajuste.
+- [ ] B) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] C) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
+- [ ] D) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] E) Escolher pelo desempenho no conjunto usado para treinar.
+
+4. Antes de usar um modelo de **Explicabilidade** em uma decisão real, o que deve ser analisado?
+
+- [ ] A) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] B) Somente a métrica média do melhor experimento.
+- [ ] C) A aparência dos gráficos de treinamento, sem examinar dados.
+- [ ] D) A complexidade do nome do algoritmo escolhido.
+- [ ] E) A quantidade de linhas de código usada para criar o modelo.
+
+5. Ordene um fluxo de modelagem para **Explicabilidade**.
+
+- A) Avaliar, analisar erros e relacionar o modelo à decisão.
+- B) Ajustar o pré-processamento apenas com os dados de treino.
+- C) Separar os dados conforme o contexto do problema.
+- D) Treinar um baseline e modelos candidatos.
+- E) Definir o problema, a população, o alvo e a métrica.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Explicabilidade**.
+
+- A) Documentar limitações, segmentos frágeis e regras de uso.
+- B) Comparar candidatos com o mesmo protocolo de validação.
+- C) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-064: explicabilidade`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 65 — Auditoria do pipeline — 30/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Auditoria do pipeline.
+- **Competência sugerida:** Auditoria e pipelines de Machine Learning.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **Auditoria e pipelines de Machine Learning** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Auditoria do pipeline** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3194,7 +6757,6 @@ roadmap-data-science/
 - **Assunto central:** Auditoria do pipeline.
 - **Pasta/arquivo principal:** `semana-13/dia-065-auditoria-do-pipeline/` (pasta do projeto).
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Execute checklist de auditoria: definição do alvo, split, leakage, pipeline, métricas, tuning, calibração, segmentos e reprodutibilidade.
@@ -3221,8 +6783,7 @@ roadmap-data-science/
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-065: auditoria-do-pipeline`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -3256,6 +6817,17 @@ roadmap-data-science/
 **Entrega da semana:** Repositório do projeto com dados preparados, EDA e definição formal do problema.
 
 ## Dia 66 — Definição do case — 02/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Definição do case.
+- **Competência sugerida:** Modelagem de churn.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Modelagem de churn** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Definição do case** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3263,7 +6835,6 @@ roadmap-data-science/
 - **Assunto central:** Definição do case.
 - **Pasta/arquivo principal:** `semana-14/dia-066-definicao-do-case.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Defina o case de churn em telecom com pergunta: quais clientes têm risco de cancelar em 30 dias e quais ações de retenção são economicamente viáveis.
@@ -3279,24 +6850,82 @@ roadmap-data-science/
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Qual decisão de retenção será tomada com a previsão e qual seria o custo de uma intervenção errada?
-2. Em qual exercício de **Definição do case** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Definição do case** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao desenvolver **Definição do case**, qual definição evita um alvo ambíguo ou vazamento de dados?
+
+- [ ] A) Chamar de churn qualquer cliente com poucos registros.
+- [ ] B) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+- [ ] C) Alterar a definição do alvo para melhorar a métrica do modelo.
+- [ ] D) Remover clientes ativos sem registrar o critério usado.
+- [ ] E) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
+
+2. Como avaliar um modelo ligado a **Definição do case** para uma estratégia de retenção?
+
+- [ ] A) Contatando todos os clientes classificados pelo modelo.
+- [ ] B) Ignorando a capacidade operacional da equipe de retenção.
+- [ ] C) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+- [ ] D) Escolhendo sempre o limiar de 50%.
+- [ ] E) Priorizando somente a acurácia geral.
+
+3. Qual análise ajuda a encontrar riscos escondidos em **Definição do case**?
+
+- [ ] A) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+- [ ] B) Avaliar apenas os clientes com maior probabilidade.
+- [ ] C) Excluir segmentos pequenos antes de medir os erros.
+- [ ] D) Usar a mesma explicação para todos os perfis.
+- [ ] E) Conferir somente o desempenho no conjunto de treino.
+
+4. Qual é a melhor ligação entre um modelo de **Definição do case** e uma ação de negócio?
+
+- [ ] A) Considerar todo cliente de alto risco automaticamente perdido.
+- [ ] B) Escolher a ação apenas pela variável mais importante do modelo.
+- [ ] C) Medir sucesso somente pelo número de contatos realizados.
+- [ ] D) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+- [ ] E) Enviar a probabilidade bruta sem orientar seu uso.
+
+5. Ordene a construção de um projeto relacionado a **Definição do case**.
+
+- A) Transformar previsões em estratégia e comunicar limitações.
+- B) Construir e auditar dados disponíveis até a data de referência.
+- C) Definir população, churn, datas e objetivo de negócio.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Realizar EDA e preparar uma separação sem vazamento.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **Definição do case**.
+
+- A) Escolher limiares com base em custo e benefício.
+- B) Definir segmentos e ações possíveis para cada perfil.
+- C) Estimar valor, risco, custo de contato e capacidade operacional.
+- D) Executar a ação em um grupo controlado.
+- E) Medir retenção incremental e ajustar a política.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-066: definicao-do-case`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 67 — Engenharia e qualidade dos dados — 03/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Engenharia e qualidade dos dados.
+- **Competência sugerida:** Qualidade e engenharia de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Qualidade e engenharia de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Engenharia e qualidade dos dados** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3304,7 +6933,6 @@ roadmap-data-science/
 - **Assunto central:** Engenharia e qualidade dos dados.
 - **Pasta/arquivo principal:** `semana-14/dia-067-engenharia-e-qualidade-dos-dados.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Carregue `clientes_telecom.csv`, valide esquema e gere relatório de qualidade por coluna.
@@ -3320,24 +6948,82 @@ roadmap-data-science/
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Quais testes garantem que a base de churn representa clientes, períodos e cancelamentos corretamente?
-2. Em qual exercício de **Engenharia e qualidade dos dados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Engenharia e qualidade dos dados** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao desenvolver **Engenharia e qualidade dos dados**, qual definição evita um alvo ambíguo ou vazamento de dados?
+
+- [ ] A) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+- [ ] B) Alterar a definição do alvo para melhorar a métrica do modelo.
+- [ ] C) Remover clientes ativos sem registrar o critério usado.
+- [ ] D) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
+- [ ] E) Chamar de churn qualquer cliente com poucos registros.
+
+2. Como avaliar um modelo ligado a **Engenharia e qualidade dos dados** para uma estratégia de retenção?
+
+- [ ] A) Ignorando a capacidade operacional da equipe de retenção.
+- [ ] B) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+- [ ] C) Escolhendo sempre o limiar de 50%.
+- [ ] D) Priorizando somente a acurácia geral.
+- [ ] E) Contatando todos os clientes classificados pelo modelo.
+
+3. Qual análise ajuda a encontrar riscos escondidos em **Engenharia e qualidade dos dados**?
+
+- [ ] A) Avaliar apenas os clientes com maior probabilidade.
+- [ ] B) Excluir segmentos pequenos antes de medir os erros.
+- [ ] C) Usar a mesma explicação para todos os perfis.
+- [ ] D) Conferir somente o desempenho no conjunto de treino.
+- [ ] E) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+
+4. Qual é a melhor ligação entre um modelo de **Engenharia e qualidade dos dados** e uma ação de negócio?
+
+- [ ] A) Escolher a ação apenas pela variável mais importante do modelo.
+- [ ] B) Medir sucesso somente pelo número de contatos realizados.
+- [ ] C) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+- [ ] D) Enviar a probabilidade bruta sem orientar seu uso.
+- [ ] E) Considerar todo cliente de alto risco automaticamente perdido.
+
+5. Ordene a construção de um projeto relacionado a **Engenharia e qualidade dos dados**.
+
+- A) Definir população, churn, datas e objetivo de negócio.
+- B) Construir e auditar dados disponíveis até a data de referência.
+- C) Transformar previsões em estratégia e comunicar limitações.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Realizar EDA e preparar uma separação sem vazamento.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **Engenharia e qualidade dos dados**.
+
+- A) Estimar valor, risco, custo de contato e capacidade operacional.
+- B) Escolher limiares com base em custo e benefício.
+- C) Definir segmentos e ações possíveis para cada perfil.
+- D) Executar a ação em um grupo controlado.
+- E) Medir retenção incremental e ajustar a política.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-067: engenharia-e-qualidade-dos-dados`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 68 — EDA orientada a churn — 04/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** EDA orientada a churn.
+- **Competência sugerida:** EDA aplicada a churn.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **EDA aplicada a churn** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **EDA orientada a churn** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3345,7 +7031,6 @@ roadmap-data-science/
 - **Assunto central:** EDA orientada a churn.
 - **Pasta/arquivo principal:** `semana-14/dia-068-eda-orientada-a-churn.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escreva dez hipóteses de churn antes de gerar gráficos.
@@ -3361,24 +7046,82 @@ roadmap-data-science/
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Quais padrões devem ser investigados sem usar informação posterior ao cancelamento?
-2. Em qual exercício de **EDA orientada a churn** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **EDA orientada a churn** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao desenvolver **EDA orientada a churn**, qual definição evita um alvo ambíguo ou vazamento de dados?
+
+- [ ] A) Alterar a definição do alvo para melhorar a métrica do modelo.
+- [ ] B) Remover clientes ativos sem registrar o critério usado.
+- [ ] C) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
+- [ ] D) Chamar de churn qualquer cliente com poucos registros.
+- [ ] E) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+
+2. Como avaliar um modelo ligado a **EDA orientada a churn** para uma estratégia de retenção?
+
+- [ ] A) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+- [ ] B) Escolhendo sempre o limiar de 50%.
+- [ ] C) Priorizando somente a acurácia geral.
+- [ ] D) Contatando todos os clientes classificados pelo modelo.
+- [ ] E) Ignorando a capacidade operacional da equipe de retenção.
+
+3. Qual análise ajuda a encontrar riscos escondidos em **EDA orientada a churn**?
+
+- [ ] A) Excluir segmentos pequenos antes de medir os erros.
+- [ ] B) Usar a mesma explicação para todos os perfis.
+- [ ] C) Conferir somente o desempenho no conjunto de treino.
+- [ ] D) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+- [ ] E) Avaliar apenas os clientes com maior probabilidade.
+
+4. Qual é a melhor ligação entre um modelo de **EDA orientada a churn** e uma ação de negócio?
+
+- [ ] A) Medir sucesso somente pelo número de contatos realizados.
+- [ ] B) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+- [ ] C) Enviar a probabilidade bruta sem orientar seu uso.
+- [ ] D) Considerar todo cliente de alto risco automaticamente perdido.
+- [ ] E) Escolher a ação apenas pela variável mais importante do modelo.
+
+5. Ordene a construção de um projeto relacionado a **EDA orientada a churn**.
+
+- A) Definir população, churn, datas e objetivo de negócio.
+- B) Realizar EDA e preparar uma separação sem vazamento.
+- C) Transformar previsões em estratégia e comunicar limitações.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Construir e auditar dados disponíveis até a data de referência.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **EDA orientada a churn**.
+
+- A) Estimar valor, risco, custo de contato e capacidade operacional.
+- B) Escolher limiares com base em custo e benefício.
+- C) Medir retenção incremental e ajustar a política.
+- D) Executar a ação em um grupo controlado.
+- E) Definir segmentos e ações possíveis para cada perfil.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-068: eda-orientada-a-churn`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 69 — SQL do projeto — 05/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** SQL do projeto.
+- **Competência sugerida:** SQL aplicado a projetos.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **SQL aplicado a projetos** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **SQL do projeto** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3386,7 +7129,6 @@ roadmap-data-science/
 - **Assunto central:** SQL do projeto.
 - **Pasta/arquivo principal:** `semana-14/dia-069-sql-do-projeto.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie esquema SQL com tabelas de clientes, planos, chamados e pagamentos.
@@ -3402,24 +7144,82 @@ roadmap-data-science/
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Como produzir uma linha por unidade de análise sem duplicar clientes ao juntar eventos?
-2. Em qual exercício de **SQL do projeto** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **SQL do projeto** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao desenvolver **SQL do projeto**, qual definição evita um alvo ambíguo ou vazamento de dados?
+
+- [ ] A) Remover clientes ativos sem registrar o critério usado.
+- [ ] B) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
+- [ ] C) Chamar de churn qualquer cliente com poucos registros.
+- [ ] D) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+- [ ] E) Alterar a definição do alvo para melhorar a métrica do modelo.
+
+2. Como avaliar um modelo ligado a **SQL do projeto** para uma estratégia de retenção?
+
+- [ ] A) Escolhendo sempre o limiar de 50%.
+- [ ] B) Priorizando somente a acurácia geral.
+- [ ] C) Contatando todos os clientes classificados pelo modelo.
+- [ ] D) Ignorando a capacidade operacional da equipe de retenção.
+- [ ] E) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+
+3. Qual análise ajuda a encontrar riscos escondidos em **SQL do projeto**?
+
+- [ ] A) Usar a mesma explicação para todos os perfis.
+- [ ] B) Conferir somente o desempenho no conjunto de treino.
+- [ ] C) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+- [ ] D) Avaliar apenas os clientes com maior probabilidade.
+- [ ] E) Excluir segmentos pequenos antes de medir os erros.
+
+4. Qual é a melhor ligação entre um modelo de **SQL do projeto** e uma ação de negócio?
+
+- [ ] A) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+- [ ] B) Enviar a probabilidade bruta sem orientar seu uso.
+- [ ] C) Considerar todo cliente de alto risco automaticamente perdido.
+- [ ] D) Escolher a ação apenas pela variável mais importante do modelo.
+- [ ] E) Medir sucesso somente pelo número de contatos realizados.
+
+5. Ordene a construção de um projeto relacionado a **SQL do projeto**.
+
+- A) Definir população, churn, datas e objetivo de negócio.
+- B) Transformar previsões em estratégia e comunicar limitações.
+- C) Realizar EDA e preparar uma separação sem vazamento.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Construir e auditar dados disponíveis até a data de referência.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **SQL do projeto**.
+
+- A) Escolher limiares com base em custo e benefício.
+- B) Medir retenção incremental e ajustar a política.
+- C) Estimar valor, risco, custo de contato e capacidade operacional.
+- D) Executar a ação em um grupo controlado.
+- E) Definir segmentos e ações possíveis para cada perfil.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-069: sql-do-projeto`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 70 — Preparação para modelagem — 06/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Preparação para modelagem.
+- **Competência sugerida:** Preparação de dados para Machine Learning.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Preparação de dados para Machine Learning** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Preparação para modelagem** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3427,7 +7227,6 @@ roadmap-data-science/
 - **Assunto central:** Preparação para modelagem.
 - **Pasta/arquivo principal:** `semana-14/dia-070-preparacao-para-modelagem/` (pasta do projeto).
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Defina corte temporal e conjuntos de treino, validação e teste.
@@ -3443,19 +7242,66 @@ roadmap-data-science/
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Como congelar a definição de treino, validação, teste e features antes de comparar modelos?
-2. Em qual exercício de **Preparação para modelagem** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Preparação para modelagem** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao desenvolver **Preparação para modelagem**, qual definição evita um alvo ambíguo ou vazamento de dados?
+
+- [ ] A) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
+- [ ] B) Chamar de churn qualquer cliente com poucos registros.
+- [ ] C) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+- [ ] D) Alterar a definição do alvo para melhorar a métrica do modelo.
+- [ ] E) Remover clientes ativos sem registrar o critério usado.
+
+2. Como avaliar um modelo ligado a **Preparação para modelagem** para uma estratégia de retenção?
+
+- [ ] A) Priorizando somente a acurácia geral.
+- [ ] B) Contatando todos os clientes classificados pelo modelo.
+- [ ] C) Ignorando a capacidade operacional da equipe de retenção.
+- [ ] D) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+- [ ] E) Escolhendo sempre o limiar de 50%.
+
+3. Qual análise ajuda a encontrar riscos escondidos em **Preparação para modelagem**?
+
+- [ ] A) Conferir somente o desempenho no conjunto de treino.
+- [ ] B) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+- [ ] C) Avaliar apenas os clientes com maior probabilidade.
+- [ ] D) Excluir segmentos pequenos antes de medir os erros.
+- [ ] E) Usar a mesma explicação para todos os perfis.
+
+4. Qual é a melhor ligação entre um modelo de **Preparação para modelagem** e uma ação de negócio?
+
+- [ ] A) Enviar a probabilidade bruta sem orientar seu uso.
+- [ ] B) Considerar todo cliente de alto risco automaticamente perdido.
+- [ ] C) Escolher a ação apenas pela variável mais importante do modelo.
+- [ ] D) Medir sucesso somente pelo número de contatos realizados.
+- [ ] E) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+
+5. Ordene a construção de um projeto relacionado a **Preparação para modelagem**.
+
+- A) Definir população, churn, datas e objetivo de negócio.
+- B) Realizar EDA e preparar uma separação sem vazamento.
+- C) Transformar previsões em estratégia e comunicar limitações.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Construir e auditar dados disponíveis até a data de referência.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **Preparação para modelagem**.
+
+- A) Estimar valor, risco, custo de contato e capacidade operacional.
+- B) Medir retenção incremental e ajustar a política.
+- C) Escolher limiares com base em custo e benefício.
+- D) Executar a ação em um grupo controlado.
+- E) Definir segmentos e ações possíveis para cada perfil.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-070: preparacao-para-modelagem`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -3488,6 +7334,17 @@ roadmap-data-science/
 **Entrega da semana:** Projeto de churn completo com modelo, política de retenção, relatório executivo e apresentação.
 
 ## Dia 71 — Baselines e modelos — 09/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Baselines e modelos.
+- **Competência sugerida:** Baselines e modelos de Machine Learning.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Baselines e modelos de Machine Learning** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Baselines e modelos** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3495,7 +7352,6 @@ roadmap-data-science/
 - **Assunto central:** Baselines e modelos.
 - **Pasta/arquivo principal:** `semana-15/dia-071-baselines-e-modelos.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine regressão logística, árvore, Random Forest e boosting usando a mesma pipeline.
@@ -3511,24 +7367,82 @@ roadmap-data-science/
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Como comparar baseline e modelos usando o mesmo protocolo e intervalo de incerteza?
-2. Em qual exercício de **Baselines e modelos** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Baselines e modelos** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao desenvolver **Baselines e modelos**, qual definição evita um alvo ambíguo ou vazamento de dados?
+
+- [ ] A) Chamar de churn qualquer cliente com poucos registros.
+- [ ] B) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+- [ ] C) Alterar a definição do alvo para melhorar a métrica do modelo.
+- [ ] D) Remover clientes ativos sem registrar o critério usado.
+- [ ] E) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
+
+2. Como avaliar um modelo ligado a **Baselines e modelos** para uma estratégia de retenção?
+
+- [ ] A) Contatando todos os clientes classificados pelo modelo.
+- [ ] B) Ignorando a capacidade operacional da equipe de retenção.
+- [ ] C) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+- [ ] D) Escolhendo sempre o limiar de 50%.
+- [ ] E) Priorizando somente a acurácia geral.
+
+3. Qual análise ajuda a encontrar riscos escondidos em **Baselines e modelos**?
+
+- [ ] A) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+- [ ] B) Avaliar apenas os clientes com maior probabilidade.
+- [ ] C) Excluir segmentos pequenos antes de medir os erros.
+- [ ] D) Usar a mesma explicação para todos os perfis.
+- [ ] E) Conferir somente o desempenho no conjunto de treino.
+
+4. Qual é a melhor ligação entre um modelo de **Baselines e modelos** e uma ação de negócio?
+
+- [ ] A) Considerar todo cliente de alto risco automaticamente perdido.
+- [ ] B) Escolher a ação apenas pela variável mais importante do modelo.
+- [ ] C) Medir sucesso somente pelo número de contatos realizados.
+- [ ] D) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+- [ ] E) Enviar a probabilidade bruta sem orientar seu uso.
+
+5. Ordene a construção de um projeto relacionado a **Baselines e modelos**.
+
+- A) Realizar EDA e preparar uma separação sem vazamento.
+- B) Transformar previsões em estratégia e comunicar limitações.
+- C) Definir população, churn, datas e objetivo de negócio.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Construir e auditar dados disponíveis até a data de referência.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **Baselines e modelos**.
+
+- A) Medir retenção incremental e ajustar a política.
+- B) Escolher limiares com base em custo e benefício.
+- C) Definir segmentos e ações possíveis para cada perfil.
+- D) Executar a ação em um grupo controlado.
+- E) Estimar valor, risco, custo de contato e capacidade operacional.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-071: baselines-e-modelos`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 72 — Limiar e estratégia de retenção — 10/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Limiar e estratégia de retenção.
+- **Competência sugerida:** Estratégias de retenção orientadas por dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Estratégias de retenção orientadas por dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Limiar e estratégia de retenção** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3536,7 +7450,6 @@ roadmap-data-science/
 - **Assunto central:** Limiar e estratégia de retenção.
 - **Pasta/arquivo principal:** `semana-15/dia-072-limiar-e-estrategia-de-retencao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Calcule custo e volume de campanhas para 20 limiares entre 0.05 e 0.95.
@@ -3552,24 +7465,82 @@ roadmap-data-science/
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Como orçamento, capacidade de contato e custo de desconto alteram o limiar de ação?
-2. Em qual exercício de **Limiar e estratégia de retenção** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Limiar e estratégia de retenção** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao desenvolver **Limiar e estratégia de retenção**, qual definição evita um alvo ambíguo ou vazamento de dados?
+
+- [ ] A) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+- [ ] B) Alterar a definição do alvo para melhorar a métrica do modelo.
+- [ ] C) Remover clientes ativos sem registrar o critério usado.
+- [ ] D) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
+- [ ] E) Chamar de churn qualquer cliente com poucos registros.
+
+2. Como avaliar um modelo ligado a **Limiar e estratégia de retenção** para uma estratégia de retenção?
+
+- [ ] A) Ignorando a capacidade operacional da equipe de retenção.
+- [ ] B) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+- [ ] C) Escolhendo sempre o limiar de 50%.
+- [ ] D) Priorizando somente a acurácia geral.
+- [ ] E) Contatando todos os clientes classificados pelo modelo.
+
+3. Qual análise ajuda a encontrar riscos escondidos em **Limiar e estratégia de retenção**?
+
+- [ ] A) Avaliar apenas os clientes com maior probabilidade.
+- [ ] B) Excluir segmentos pequenos antes de medir os erros.
+- [ ] C) Usar a mesma explicação para todos os perfis.
+- [ ] D) Conferir somente o desempenho no conjunto de treino.
+- [ ] E) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+
+4. Qual é a melhor ligação entre um modelo de **Limiar e estratégia de retenção** e uma ação de negócio?
+
+- [ ] A) Escolher a ação apenas pela variável mais importante do modelo.
+- [ ] B) Medir sucesso somente pelo número de contatos realizados.
+- [ ] C) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+- [ ] D) Enviar a probabilidade bruta sem orientar seu uso.
+- [ ] E) Considerar todo cliente de alto risco automaticamente perdido.
+
+5. Ordene a construção de um projeto relacionado a **Limiar e estratégia de retenção**.
+
+- A) Definir população, churn, datas e objetivo de negócio.
+- B) Transformar previsões em estratégia e comunicar limitações.
+- C) Realizar EDA e preparar uma separação sem vazamento.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Construir e auditar dados disponíveis até a data de referência.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **Limiar e estratégia de retenção**.
+
+- A) Escolher limiares com base em custo e benefício.
+- B) Definir segmentos e ações possíveis para cada perfil.
+- C) Medir retenção incremental e ajustar a política.
+- D) Executar a ação em um grupo controlado.
+- E) Estimar valor, risco, custo de contato e capacidade operacional.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-072: limiar-e-estrategia-de-retencao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 73 — Explicabilidade e segmentos — 11/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Explicabilidade e segmentos.
+- **Competência sugerida:** Explicabilidade e segmentação.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Explicabilidade e segmentação** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Explicabilidade e segmentos** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3577,7 +7548,6 @@ roadmap-data-science/
 - **Assunto central:** Explicabilidade e segmentos.
 - **Pasta/arquivo principal:** `semana-15/dia-073-explicabilidade-e-segmentos.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Produza importância global e explicações individuais para 12 clientes.
@@ -3593,24 +7563,82 @@ roadmap-data-science/
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Como verificar se o modelo funciona de forma consistente entre regiões, planos ou perfis?
-2. Em qual exercício de **Explicabilidade e segmentos** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Explicabilidade e segmentos** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao desenvolver **Explicabilidade e segmentos**, qual definição evita um alvo ambíguo ou vazamento de dados?
+
+- [ ] A) Alterar a definição do alvo para melhorar a métrica do modelo.
+- [ ] B) Remover clientes ativos sem registrar o critério usado.
+- [ ] C) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
+- [ ] D) Chamar de churn qualquer cliente com poucos registros.
+- [ ] E) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+
+2. Como avaliar um modelo ligado a **Explicabilidade e segmentos** para uma estratégia de retenção?
+
+- [ ] A) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+- [ ] B) Escolhendo sempre o limiar de 50%.
+- [ ] C) Priorizando somente a acurácia geral.
+- [ ] D) Contatando todos os clientes classificados pelo modelo.
+- [ ] E) Ignorando a capacidade operacional da equipe de retenção.
+
+3. Qual análise ajuda a encontrar riscos escondidos em **Explicabilidade e segmentos**?
+
+- [ ] A) Excluir segmentos pequenos antes de medir os erros.
+- [ ] B) Usar a mesma explicação para todos os perfis.
+- [ ] C) Conferir somente o desempenho no conjunto de treino.
+- [ ] D) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+- [ ] E) Avaliar apenas os clientes com maior probabilidade.
+
+4. Qual é a melhor ligação entre um modelo de **Explicabilidade e segmentos** e uma ação de negócio?
+
+- [ ] A) Medir sucesso somente pelo número de contatos realizados.
+- [ ] B) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+- [ ] C) Enviar a probabilidade bruta sem orientar seu uso.
+- [ ] D) Considerar todo cliente de alto risco automaticamente perdido.
+- [ ] E) Escolher a ação apenas pela variável mais importante do modelo.
+
+5. Ordene a construção de um projeto relacionado a **Explicabilidade e segmentos**.
+
+- A) Transformar previsões em estratégia e comunicar limitações.
+- B) Realizar EDA e preparar uma separação sem vazamento.
+- C) Construir e auditar dados disponíveis até a data de referência.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Definir população, churn, datas e objetivo de negócio.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **Explicabilidade e segmentos**.
+
+- A) Medir retenção incremental e ajustar a política.
+- B) Escolher limiares com base em custo e benefício.
+- C) Definir segmentos e ações possíveis para cada perfil.
+- D) Executar a ação em um grupo controlado.
+- E) Estimar valor, risco, custo de contato e capacidade operacional.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-073: explicabilidade-e-segmentos`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 74 — Relatório e dashboard — 12/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Relatório e dashboard.
+- **Competência sugerida:** Dashboards e comunicação de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Dashboards e comunicação de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Relatório e dashboard** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3618,7 +7646,6 @@ roadmap-data-science/
 - **Assunto central:** Relatório e dashboard.
 - **Pasta/arquivo principal:** `semana-15/dia-074-relatorio-e-dashboard.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie dashboard com visão geral, segmentos de risco, drivers e simulação de política.
@@ -3634,24 +7661,82 @@ roadmap-data-science/
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Quais informações um gestor precisa para agir e quais detalhes técnicos devem ir para o anexo?
-2. Em qual exercício de **Relatório e dashboard** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Relatório e dashboard** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao desenvolver **Relatório e dashboard**, qual definição evita um alvo ambíguo ou vazamento de dados?
+
+- [ ] A) Remover clientes ativos sem registrar o critério usado.
+- [ ] B) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
+- [ ] C) Chamar de churn qualquer cliente com poucos registros.
+- [ ] D) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+- [ ] E) Alterar a definição do alvo para melhorar a métrica do modelo.
+
+2. Como avaliar um modelo ligado a **Relatório e dashboard** para uma estratégia de retenção?
+
+- [ ] A) Escolhendo sempre o limiar de 50%.
+- [ ] B) Priorizando somente a acurácia geral.
+- [ ] C) Contatando todos os clientes classificados pelo modelo.
+- [ ] D) Ignorando a capacidade operacional da equipe de retenção.
+- [ ] E) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+
+3. Qual análise ajuda a encontrar riscos escondidos em **Relatório e dashboard**?
+
+- [ ] A) Usar a mesma explicação para todos os perfis.
+- [ ] B) Conferir somente o desempenho no conjunto de treino.
+- [ ] C) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+- [ ] D) Avaliar apenas os clientes com maior probabilidade.
+- [ ] E) Excluir segmentos pequenos antes de medir os erros.
+
+4. Qual é a melhor ligação entre um modelo de **Relatório e dashboard** e uma ação de negócio?
+
+- [ ] A) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+- [ ] B) Enviar a probabilidade bruta sem orientar seu uso.
+- [ ] C) Considerar todo cliente de alto risco automaticamente perdido.
+- [ ] D) Escolher a ação apenas pela variável mais importante do modelo.
+- [ ] E) Medir sucesso somente pelo número de contatos realizados.
+
+5. Ordene a construção de um projeto relacionado a **Relatório e dashboard**.
+
+- A) Realizar EDA e preparar uma separação sem vazamento.
+- B) Construir e auditar dados disponíveis até a data de referência.
+- C) Transformar previsões em estratégia e comunicar limitações.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Definir população, churn, datas e objetivo de negócio.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **Relatório e dashboard**.
+
+- A) Escolher limiares com base em custo e benefício.
+- B) Definir segmentos e ações possíveis para cada perfil.
+- C) Medir retenção incremental e ajustar a política.
+- D) Executar a ação em um grupo controlado.
+- E) Estimar valor, risco, custo de contato e capacidade operacional.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-074: relatorio-e-dashboard`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 75 — Publicação e apresentação — 13/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Publicação e apresentação.
+- **Competência sugerida:** Apresentação de projetos de Ciência de Dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Apresentação de projetos de Ciência de Dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Publicação e apresentação** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3659,7 +7744,6 @@ roadmap-data-science/
 - **Assunto central:** Publicação e apresentação.
 - **Pasta/arquivo principal:** `semana-15/dia-075-publicacao-e-apresentacao/` (pasta do projeto).
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Limpe o repositório, fixe dependências e rode tudo em ambiente novo.
@@ -3675,19 +7759,66 @@ roadmap-data-science/
 - [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
-1. Como apresentar limitações sem enfraquecer a credibilidade do projeto?
-2. Em qual exercício de **Publicação e apresentação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Publicação e apresentação** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
-6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Ao desenvolver **Publicação e apresentação**, qual definição evita um alvo ambíguo ou vazamento de dados?
+
+- [ ] A) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
+- [ ] B) Chamar de churn qualquer cliente com poucos registros.
+- [ ] C) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
+- [ ] D) Alterar a definição do alvo para melhorar a métrica do modelo.
+- [ ] E) Remover clientes ativos sem registrar o critério usado.
+
+2. Como avaliar um modelo ligado a **Publicação e apresentação** para uma estratégia de retenção?
+
+- [ ] A) Priorizando somente a acurácia geral.
+- [ ] B) Contatando todos os clientes classificados pelo modelo.
+- [ ] C) Ignorando a capacidade operacional da equipe de retenção.
+- [ ] D) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
+- [ ] E) Escolhendo sempre o limiar de 50%.
+
+3. Qual análise ajuda a encontrar riscos escondidos em **Publicação e apresentação**?
+
+- [ ] A) Conferir somente o desempenho no conjunto de treino.
+- [ ] B) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
+- [ ] C) Avaliar apenas os clientes com maior probabilidade.
+- [ ] D) Excluir segmentos pequenos antes de medir os erros.
+- [ ] E) Usar a mesma explicação para todos os perfis.
+
+4. Qual é a melhor ligação entre um modelo de **Publicação e apresentação** e uma ação de negócio?
+
+- [ ] A) Enviar a probabilidade bruta sem orientar seu uso.
+- [ ] B) Considerar todo cliente de alto risco automaticamente perdido.
+- [ ] C) Escolher a ação apenas pela variável mais importante do modelo.
+- [ ] D) Medir sucesso somente pelo número de contatos realizados.
+- [ ] E) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
+
+5. Ordene a construção de um projeto relacionado a **Publicação e apresentação**.
+
+- A) Transformar previsões em estratégia e comunicar limitações.
+- B) Construir e auditar dados disponíveis até a data de referência.
+- C) Realizar EDA e preparar uma separação sem vazamento.
+- D) Treinar baselines e modelos com métricas adequadas.
+- E) Definir população, churn, datas e objetivo de negócio.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política de retenção baseada em **Publicação e apresentação**.
+
+- A) Medir retenção incremental e ajustar a política.
+- B) Definir segmentos e ações possíveis para cada perfil.
+- C) Escolher limiares com base em custo e benefício.
+- D) Executar a ação em um grupo controlado.
+- E) Estimar valor, risco, custo de contato e capacidade operacional.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-075: publicacao-e-apresentacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -3725,6 +7856,17 @@ roadmap-data-science/
 **Entrega da semana:** Projeto de previsão operacional com backtesting e recomendação.
 
 ## Dia 76 — Fundamentos temporais — 16/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Fundamentos temporais.
+- **Competência sugerida:** Séries temporais.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Séries temporais** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Fundamentos temporais** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3732,7 +7874,6 @@ roadmap-data-science/
 - **Assunto central:** Fundamentos temporais.
 - **Pasta/arquivo principal:** `semana-16/dia-076-fundamentos-temporais.ipynb`.
 - **Dados:** `dados/energia.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Carregue `energia.csv`, converta índice temporal e verifique frequência, lacunas e duplicidades.
@@ -3748,24 +7889,82 @@ roadmap-data-science/
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Por que ordem temporal, tendência e sazonalidade impedem o embaralhamento aleatório dos dados?
-2. Em qual exercício de **Fundamentos temporais** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Fundamentos temporais** seria usado para apoiar uma decisão real em dados ou IA?
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual separação de dados é adequada em **Fundamentos temporais**?
+
+- [ ] A) Embaralhar todas as datas antes da divisão.
+- [ ] B) Usar os períodos futuros no cálculo das variáveis de treino.
+- [ ] C) Escolher aleatoriamente linhas do mesmo período para teste.
+- [ ] D) Treinar e avaliar com toda a série ao mesmo tempo.
+- [ ] E) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
+
+2. Por que um baseline simples é importante em **Fundamentos temporais**?
+
+- [ ] A) Porque garante que não existam valores ausentes.
+- [ ] B) Porque substitui a definição do horizonte de previsão.
+- [ ] C) Porque mostra se o modelo supera regras como repetir o último valor ou a sazonalidade anterior.
+- [ ] D) Porque elimina a necessidade de avaliar modelos mais complexos.
+- [ ] E) Porque sempre será o modelo usado em produção.
+
+3. Qual cuidado evita informação do futuro em variáveis de **Fundamentos temporais**?
+
+- [ ] A) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
+- [ ] B) Centralizar médias móveis com dados anteriores e posteriores.
+- [ ] C) Preencher períodos passados com valores observados no futuro.
+- [ ] D) Usar a série completa para ajustar cada transformação.
+- [ ] E) Ordenar por valor em vez de ordenar por data.
+
+4. Como escolher uma solução de **Fundamentos temporais** para apoiar uma decisão?
+
+- [ ] A) Ignorar mudanças de regime quando a métrica global é boa.
+- [ ] B) Usar o mesmo horizonte para qualquer decisão.
+- [ ] C) Comparar modelos em períodos de teste diferentes.
+- [ ] D) Avaliar por horizonte e período, traduzindo os erros em impacto operacional ou financeiro.
+- [ ] E) Escolher apenas pela menor falha média de treinamento.
+
+5. Ordene um fluxo de previsão para **Fundamentos temporais**.
+
+- A) Comparar erros, comunicar incerteza e definir o uso da previsão.
+- B) Criar baselines e variáveis usando apenas o passado.
+- C) Ordenar a série e verificar falhas, datas e mudanças de regime.
+- D) Validar com divisões temporais sucessivas.
+- E) Definir frequência, horizonte e decisão atendida.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a atualização de uma previsão ligada a **Fundamentos temporais**.
+
+- A) Receber e validar os dados do período mais recente.
+- B) Gerar previsões para o horizonte definido.
+- C) Executar o pipeline com a versão aprovada.
+- D) Monitorar erros quando os valores reais se tornarem disponíveis.
+- E) Reavaliar o modelo diante de degradação ou mudança de regime.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-076: fundamentos-temporais`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 77 — Baselines temporais — 17/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Baselines temporais.
+- **Competência sugerida:** Baselines de forecasting.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Baselines de forecasting** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Baselines temporais** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3773,7 +7972,6 @@ roadmap-data-science/
 - **Assunto central:** Baselines temporais.
 - **Pasta/arquivo principal:** `semana-16/dia-077-baselines-temporais.ipynb`.
 - **Dados:** `dados/energia.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Implemente baselines: último valor, média móvel de 7 dias, média do mesmo dia da semana e média sazonal.
@@ -3789,24 +7987,82 @@ roadmap-data-science/
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Quais baselines ingênuos devem ser vencidos antes de adotar um modelo de forecasting?
-2. Em qual exercício de **Baselines temporais** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Baselines temporais** seria usado para apoiar uma decisão real em dados ou IA?
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual separação de dados é adequada em **Baselines temporais**?
+
+- [ ] A) Usar os períodos futuros no cálculo das variáveis de treino.
+- [ ] B) Escolher aleatoriamente linhas do mesmo período para teste.
+- [ ] C) Treinar e avaliar com toda a série ao mesmo tempo.
+- [ ] D) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
+- [ ] E) Embaralhar todas as datas antes da divisão.
+
+2. Por que um baseline simples é importante em **Baselines temporais**?
+
+- [ ] A) Porque substitui a definição do horizonte de previsão.
+- [ ] B) Porque mostra se o modelo supera regras como repetir o último valor ou a sazonalidade anterior.
+- [ ] C) Porque elimina a necessidade de avaliar modelos mais complexos.
+- [ ] D) Porque sempre será o modelo usado em produção.
+- [ ] E) Porque garante que não existam valores ausentes.
+
+3. Qual cuidado evita informação do futuro em variáveis de **Baselines temporais**?
+
+- [ ] A) Centralizar médias móveis com dados anteriores e posteriores.
+- [ ] B) Preencher períodos passados com valores observados no futuro.
+- [ ] C) Usar a série completa para ajustar cada transformação.
+- [ ] D) Ordenar por valor em vez de ordenar por data.
+- [ ] E) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
+
+4. Como escolher uma solução de **Baselines temporais** para apoiar uma decisão?
+
+- [ ] A) Usar o mesmo horizonte para qualquer decisão.
+- [ ] B) Comparar modelos em períodos de teste diferentes.
+- [ ] C) Avaliar por horizonte e período, traduzindo os erros em impacto operacional ou financeiro.
+- [ ] D) Escolher apenas pela menor falha média de treinamento.
+- [ ] E) Ignorar mudanças de regime quando a métrica global é boa.
+
+5. Ordene um fluxo de previsão para **Baselines temporais**.
+
+- A) Criar baselines e variáveis usando apenas o passado.
+- B) Ordenar a série e verificar falhas, datas e mudanças de regime.
+- C) Comparar erros, comunicar incerteza e definir o uso da previsão.
+- D) Validar com divisões temporais sucessivas.
+- E) Definir frequência, horizonte e decisão atendida.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a atualização de uma previsão ligada a **Baselines temporais**.
+
+- A) Gerar previsões para o horizonte definido.
+- B) Executar o pipeline com a versão aprovada.
+- C) Receber e validar os dados do período mais recente.
+- D) Monitorar erros quando os valores reais se tornarem disponíveis.
+- E) Reavaliar o modelo diante de degradação ou mudança de regime.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-077: baselines-temporais`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 78 — Modelos tradicionais — 18/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Modelos tradicionais.
+- **Competência sugerida:** Modelos de séries temporais.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Modelos de séries temporais** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Modelos tradicionais** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3814,7 +8070,6 @@ roadmap-data-science/
 - **Assunto central:** Modelos tradicionais.
 - **Pasta/arquivo principal:** `semana-16/dia-078-modelos-tradicionais.ipynb`.
 - **Dados:** `dados/energia.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine regressão linear com lags, árvore/Random Forest e modelo estatístico simples como Holt-Winters ou ARIMA, se disponível.
@@ -3830,24 +8085,82 @@ roadmap-data-science/
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Como escolher entre média móvel, suavização, ARIMA ou outro método conforme o padrão temporal?
-2. Em qual exercício de **Modelos tradicionais** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Modelos tradicionais** seria usado para apoiar uma decisão real em dados ou IA?
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual separação de dados é adequada em **Modelos tradicionais**?
+
+- [ ] A) Escolher aleatoriamente linhas do mesmo período para teste.
+- [ ] B) Treinar e avaliar com toda a série ao mesmo tempo.
+- [ ] C) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
+- [ ] D) Embaralhar todas as datas antes da divisão.
+- [ ] E) Usar os períodos futuros no cálculo das variáveis de treino.
+
+2. Por que um baseline simples é importante em **Modelos tradicionais**?
+
+- [ ] A) Porque mostra se o modelo supera regras como repetir o último valor ou a sazonalidade anterior.
+- [ ] B) Porque elimina a necessidade de avaliar modelos mais complexos.
+- [ ] C) Porque sempre será o modelo usado em produção.
+- [ ] D) Porque garante que não existam valores ausentes.
+- [ ] E) Porque substitui a definição do horizonte de previsão.
+
+3. Qual cuidado evita informação do futuro em variáveis de **Modelos tradicionais**?
+
+- [ ] A) Preencher períodos passados com valores observados no futuro.
+- [ ] B) Usar a série completa para ajustar cada transformação.
+- [ ] C) Ordenar por valor em vez de ordenar por data.
+- [ ] D) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
+- [ ] E) Centralizar médias móveis com dados anteriores e posteriores.
+
+4. Como escolher uma solução de **Modelos tradicionais** para apoiar uma decisão?
+
+- [ ] A) Comparar modelos em períodos de teste diferentes.
+- [ ] B) Avaliar por horizonte e período, traduzindo os erros em impacto operacional ou financeiro.
+- [ ] C) Escolher apenas pela menor falha média de treinamento.
+- [ ] D) Ignorar mudanças de regime quando a métrica global é boa.
+- [ ] E) Usar o mesmo horizonte para qualquer decisão.
+
+5. Ordene um fluxo de previsão para **Modelos tradicionais**.
+
+- A) Definir frequência, horizonte e decisão atendida.
+- B) Criar baselines e variáveis usando apenas o passado.
+- C) Ordenar a série e verificar falhas, datas e mudanças de regime.
+- D) Validar com divisões temporais sucessivas.
+- E) Comparar erros, comunicar incerteza e definir o uso da previsão.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a atualização de uma previsão ligada a **Modelos tradicionais**.
+
+- A) Executar o pipeline com a versão aprovada.
+- B) Gerar previsões para o horizonte definido.
+- C) Monitorar erros quando os valores reais se tornarem disponíveis.
+- D) Reavaliar o modelo diante de degradação ou mudança de regime.
+- E) Receber e validar os dados do período mais recente.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-078: modelos-tradicionais`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 79 — Previsão e decisão — 19/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Previsão e decisão.
+- **Competência sugerida:** Forecasting para tomada de decisão.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Forecasting para tomada de decisão** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Previsão e decisão** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3855,7 +8168,6 @@ roadmap-data-science/
 - **Assunto central:** Previsão e decisão.
 - **Pasta/arquivo principal:** `semana-16/dia-079-previsao-e-decisao.ipynb`.
 - **Dados:** `dados/energia.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Converta previsões em decisão: dimensionamento de equipe, compra de energia ou capacidade.
@@ -3871,24 +8183,82 @@ roadmap-data-science/
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Como intervalos de previsão e cenários devem influenciar planejamento de capacidade?
-2. Em qual exercício de **Previsão e decisão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Previsão e decisão** seria usado para apoiar uma decisão real em dados ou IA?
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual separação de dados é adequada em **Previsão e decisão**?
+
+- [ ] A) Treinar e avaliar com toda a série ao mesmo tempo.
+- [ ] B) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
+- [ ] C) Embaralhar todas as datas antes da divisão.
+- [ ] D) Usar os períodos futuros no cálculo das variáveis de treino.
+- [ ] E) Escolher aleatoriamente linhas do mesmo período para teste.
+
+2. Por que um baseline simples é importante em **Previsão e decisão**?
+
+- [ ] A) Porque elimina a necessidade de avaliar modelos mais complexos.
+- [ ] B) Porque sempre será o modelo usado em produção.
+- [ ] C) Porque garante que não existam valores ausentes.
+- [ ] D) Porque substitui a definição do horizonte de previsão.
+- [ ] E) Porque mostra se o modelo supera regras como repetir o último valor ou a sazonalidade anterior.
+
+3. Qual cuidado evita informação do futuro em variáveis de **Previsão e decisão**?
+
+- [ ] A) Usar a série completa para ajustar cada transformação.
+- [ ] B) Ordenar por valor em vez de ordenar por data.
+- [ ] C) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
+- [ ] D) Centralizar médias móveis com dados anteriores e posteriores.
+- [ ] E) Preencher períodos passados com valores observados no futuro.
+
+4. Como escolher uma solução de **Previsão e decisão** para apoiar uma decisão?
+
+- [ ] A) Avaliar por horizonte e período, traduzindo os erros em impacto operacional ou financeiro.
+- [ ] B) Escolher apenas pela menor falha média de treinamento.
+- [ ] C) Ignorar mudanças de regime quando a métrica global é boa.
+- [ ] D) Usar o mesmo horizonte para qualquer decisão.
+- [ ] E) Comparar modelos em períodos de teste diferentes.
+
+5. Ordene um fluxo de previsão para **Previsão e decisão**.
+
+- A) Criar baselines e variáveis usando apenas o passado.
+- B) Ordenar a série e verificar falhas, datas e mudanças de regime.
+- C) Definir frequência, horizonte e decisão atendida.
+- D) Validar com divisões temporais sucessivas.
+- E) Comparar erros, comunicar incerteza e definir o uso da previsão.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a atualização de uma previsão ligada a **Previsão e decisão**.
+
+- A) Receber e validar os dados do período mais recente.
+- B) Gerar previsões para o horizonte definido.
+- C) Executar o pipeline com a versão aprovada.
+- D) Monitorar erros quando os valores reais se tornarem disponíveis.
+- E) Reavaliar o modelo diante de degradação ou mudança de regime.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-079: previsao-e-decisao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 80 — Projeto de forecasting — 20/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Projeto de forecasting.
+- **Competência sugerida:** Forecasting.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Forecasting** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Projeto de forecasting** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3896,7 +8266,6 @@ roadmap-data-science/
 - **Assunto central:** Projeto de forecasting.
 - **Pasta/arquivo principal:** `semana-16/dia-080-projeto-de-forecasting/` (pasta do projeto).
 - **Dados:** `dados/energia.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Organize projeto de forecasting com dados, notebook, scripts, resultados e relatório.
@@ -3912,19 +8281,66 @@ roadmap-data-science/
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Como comprovar que a previsão continua útil em diferentes horizontes e períodos?
-2. Em qual exercício de **Projeto de forecasting** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Projeto de forecasting** seria usado para apoiar uma decisão real em dados ou IA?
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual separação de dados é adequada em **Projeto de forecasting**?
+
+- [ ] A) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
+- [ ] B) Embaralhar todas as datas antes da divisão.
+- [ ] C) Usar os períodos futuros no cálculo das variáveis de treino.
+- [ ] D) Escolher aleatoriamente linhas do mesmo período para teste.
+- [ ] E) Treinar e avaliar com toda a série ao mesmo tempo.
+
+2. Por que um baseline simples é importante em **Projeto de forecasting**?
+
+- [ ] A) Porque sempre será o modelo usado em produção.
+- [ ] B) Porque garante que não existam valores ausentes.
+- [ ] C) Porque substitui a definição do horizonte de previsão.
+- [ ] D) Porque mostra se o modelo supera regras como repetir o último valor ou a sazonalidade anterior.
+- [ ] E) Porque elimina a necessidade de avaliar modelos mais complexos.
+
+3. Qual cuidado evita informação do futuro em variáveis de **Projeto de forecasting**?
+
+- [ ] A) Ordenar por valor em vez de ordenar por data.
+- [ ] B) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
+- [ ] C) Centralizar médias móveis com dados anteriores e posteriores.
+- [ ] D) Preencher períodos passados com valores observados no futuro.
+- [ ] E) Usar a série completa para ajustar cada transformação.
+
+4. Como escolher uma solução de **Projeto de forecasting** para apoiar uma decisão?
+
+- [ ] A) Escolher apenas pela menor falha média de treinamento.
+- [ ] B) Ignorar mudanças de regime quando a métrica global é boa.
+- [ ] C) Usar o mesmo horizonte para qualquer decisão.
+- [ ] D) Comparar modelos em períodos de teste diferentes.
+- [ ] E) Avaliar por horizonte e período, traduzindo os erros em impacto operacional ou financeiro.
+
+5. Ordene um fluxo de previsão para **Projeto de forecasting**.
+
+- A) Ordenar a série e verificar falhas, datas e mudanças de regime.
+- B) Criar baselines e variáveis usando apenas o passado.
+- C) Validar com divisões temporais sucessivas.
+- D) Comparar erros, comunicar incerteza e definir o uso da previsão.
+- E) Definir frequência, horizonte e decisão atendida.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a atualização de uma previsão ligada a **Projeto de forecasting**.
+
+- A) Gerar previsões para o horizonte definido.
+- B) Executar o pipeline com a versão aprovada.
+- C) Receber e validar os dados do período mais recente.
+- D) Monitorar erros quando os valores reais se tornarem disponíveis.
+- E) Reavaliar o modelo diante de degradação ou mudança de regime.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-080: projeto-de-forecasting`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -3962,6 +8378,17 @@ roadmap-data-science/
 **Entrega da semana:** Projeto de risco com política de decisão, custo, fairness básico e monitoramento proposto.
 
 ## Dia 81 — Problema e governança — 23/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Problema e governança.
+- **Competência sugerida:** Governança de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Governança de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Problema e governança** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -3969,7 +8396,6 @@ roadmap-data-science/
 - **Assunto central:** Problema e governança.
 - **Pasta/arquivo principal:** `semana-17/dia-081-problema-e-governanca.ipynb`.
 - **Dados:** `dados/credito.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Defina case de risco: prever default em 90 dias e apoiar aprovação, revisão ou rejeição.
@@ -3985,24 +8411,82 @@ roadmap-data-science/
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Quais decisões de crédito exigem rastreabilidade, privacidade, explicabilidade e análise de viés?
-2. Em qual exercício de **Problema e governança** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Problema e governança** seria usado para apoiar uma decisão real em dados ou IA?
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual definição é essencial antes de modelar **Problema e governança**?
+
+- [ ] A) Escolher o algoritmo antes de definir o evento.
+- [ ] B) Usar dados posteriores ao evento para completar o cadastro.
+- [ ] C) Remover todos os casos sem histórico longo.
+- [ ] D) Definir risco apenas como uma pontuação alta do modelo.
+- [ ] E) Estabelecer o evento de risco, o horizonte, a população e a data-limite das informações permitidas.
+
+2. Por que a calibração importa em uma aplicação de **Problema e governança**?
+
+- [ ] A) Porque permite ignorar a taxa-base do evento.
+- [ ] B) Porque substitui a validação temporal.
+- [ ] C) Porque a probabilidade estimada precisa representar uma frequência útil para políticas baseadas em custo e risco.
+- [ ] D) Porque transforma qualquer modelo no mais preciso.
+- [ ] E) Porque elimina diferenças entre grupos.
+
+3. Qual cuidado de governança é necessário em **Problema e governança**?
+
+- [ ] A) Documentar dados, critérios, limitações e desempenho por segmento, com revisão de possíveis impactos injustos.
+- [ ] B) Ocultar as variáveis para impedir questionamentos.
+- [ ] C) Avaliar somente o grupo mais numeroso.
+- [ ] D) Usar atributos sensíveis sem analisar consequências.
+- [ ] E) Manter a política fixa mesmo quando os dados mudarem.
+
+4. Como transformar uma pontuação de **Problema e governança** em política?
+
+- [ ] A) Usar 50% como corte obrigatório.
+- [ ] B) Escolher o corte que aprova o menor número de pessoas.
+- [ ] C) Ignorar o custo de erros porque a probabilidade já resume tudo.
+- [ ] D) Definir faixas e ações segundo perdas, capacidade, restrições e acompanhamento posterior.
+- [ ] E) Aplicar automaticamente a mesma decisão a toda pontuação positiva.
+
+5. Ordene o desenvolvimento de um modelo para **Problema e governança**.
+
+- A) Definir evento, horizonte, população e restrições.
+- B) Separar períodos e treinar um baseline.
+- C) Construir dados disponíveis até a data de decisão.
+- D) Avaliar discriminação, calibração e desempenho por segmento.
+- E) Documentar limites e propor uma política de uso.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política baseada em **Problema e governança**.
+
+- A) Definir custos, benefícios, capacidade e restrições.
+- B) Simular faixas de pontuação e decisões possíveis.
+- C) Escolher regras compatíveis com risco e operação.
+- D) Monitorar impacto, estabilidade e diferenças entre grupos.
+- E) Aplicar a política com controles e rastreabilidade.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-081: problema-e-governanca`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 82 — Dados e cohorts — 24/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Dados e cohorts.
+- **Competência sugerida:** Cohorts e análise de risco.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Cohorts e análise de risco** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Dados e cohorts** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4010,7 +8494,6 @@ roadmap-data-science/
 - **Assunto central:** Dados e cohorts.
 - **Pasta/arquivo principal:** `semana-17/dia-082-dados-e-cohorts.ipynb`.
 - **Dados:** `dados/credito.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Carregue `credito.csv`, faça qualidade e EDA da taxa de default.
@@ -4026,24 +8509,82 @@ roadmap-data-science/
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Como cohorts de originação e maturação ajudam a comparar risco de crédito?
-2. Em qual exercício de **Dados e cohorts** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Dados e cohorts** seria usado para apoiar uma decisão real em dados ou IA?
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual definição é essencial antes de modelar **Dados e cohorts**?
+
+- [ ] A) Usar dados posteriores ao evento para completar o cadastro.
+- [ ] B) Remover todos os casos sem histórico longo.
+- [ ] C) Definir risco apenas como uma pontuação alta do modelo.
+- [ ] D) Estabelecer o evento de risco, o horizonte, a população e a data-limite das informações permitidas.
+- [ ] E) Escolher o algoritmo antes de definir o evento.
+
+2. Por que a calibração importa em uma aplicação de **Dados e cohorts**?
+
+- [ ] A) Porque substitui a validação temporal.
+- [ ] B) Porque a probabilidade estimada precisa representar uma frequência útil para políticas baseadas em custo e risco.
+- [ ] C) Porque transforma qualquer modelo no mais preciso.
+- [ ] D) Porque elimina diferenças entre grupos.
+- [ ] E) Porque permite ignorar a taxa-base do evento.
+
+3. Qual cuidado de governança é necessário em **Dados e cohorts**?
+
+- [ ] A) Ocultar as variáveis para impedir questionamentos.
+- [ ] B) Avaliar somente o grupo mais numeroso.
+- [ ] C) Usar atributos sensíveis sem analisar consequências.
+- [ ] D) Manter a política fixa mesmo quando os dados mudarem.
+- [ ] E) Documentar dados, critérios, limitações e desempenho por segmento, com revisão de possíveis impactos injustos.
+
+4. Como transformar uma pontuação de **Dados e cohorts** em política?
+
+- [ ] A) Escolher o corte que aprova o menor número de pessoas.
+- [ ] B) Ignorar o custo de erros porque a probabilidade já resume tudo.
+- [ ] C) Definir faixas e ações segundo perdas, capacidade, restrições e acompanhamento posterior.
+- [ ] D) Aplicar automaticamente a mesma decisão a toda pontuação positiva.
+- [ ] E) Usar 50% como corte obrigatório.
+
+5. Ordene o desenvolvimento de um modelo para **Dados e cohorts**.
+
+- A) Separar períodos e treinar um baseline.
+- B) Construir dados disponíveis até a data de decisão.
+- C) Definir evento, horizonte, população e restrições.
+- D) Avaliar discriminação, calibração e desempenho por segmento.
+- E) Documentar limites e propor uma política de uso.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política baseada em **Dados e cohorts**.
+
+- A) Escolher regras compatíveis com risco e operação.
+- B) Simular faixas de pontuação e decisões possíveis.
+- C) Definir custos, benefícios, capacidade e restrições.
+- D) Monitorar impacto, estabilidade e diferenças entre grupos.
+- E) Aplicar a política com controles e rastreabilidade.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-082: dados-e-cohorts`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 83 — Modelagem de risco — 25/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Modelagem de risco.
+- **Competência sugerida:** Modelagem de risco.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Modelagem de risco** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Modelagem de risco** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4051,7 +8592,6 @@ roadmap-data-science/
 - **Assunto central:** Modelagem de risco.
 - **Pasta/arquivo principal:** `semana-17/dia-083-modelagem-de-risco.ipynb`.
 - **Dados:** `dados/credito.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine regressão logística como scorecard básico e modelos de árvore.
@@ -4067,24 +8607,82 @@ roadmap-data-science/
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Como avaliar ranking, probabilidade, calibração e estabilidade de um score?
-2. Em qual exercício de **Modelagem de risco** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Modelagem de risco** seria usado para apoiar uma decisão real em dados ou IA?
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual definição é essencial antes de modelar **Modelagem de risco**?
+
+- [ ] A) Remover todos os casos sem histórico longo.
+- [ ] B) Definir risco apenas como uma pontuação alta do modelo.
+- [ ] C) Estabelecer o evento de risco, o horizonte, a população e a data-limite das informações permitidas.
+- [ ] D) Escolher o algoritmo antes de definir o evento.
+- [ ] E) Usar dados posteriores ao evento para completar o cadastro.
+
+2. Por que a calibração importa em uma aplicação de **Modelagem de risco**?
+
+- [ ] A) Porque a probabilidade estimada precisa representar uma frequência útil para políticas baseadas em custo e risco.
+- [ ] B) Porque transforma qualquer modelo no mais preciso.
+- [ ] C) Porque elimina diferenças entre grupos.
+- [ ] D) Porque permite ignorar a taxa-base do evento.
+- [ ] E) Porque substitui a validação temporal.
+
+3. Qual cuidado de governança é necessário em **Modelagem de risco**?
+
+- [ ] A) Avaliar somente o grupo mais numeroso.
+- [ ] B) Usar atributos sensíveis sem analisar consequências.
+- [ ] C) Manter a política fixa mesmo quando os dados mudarem.
+- [ ] D) Documentar dados, critérios, limitações e desempenho por segmento, com revisão de possíveis impactos injustos.
+- [ ] E) Ocultar as variáveis para impedir questionamentos.
+
+4. Como transformar uma pontuação de **Modelagem de risco** em política?
+
+- [ ] A) Ignorar o custo de erros porque a probabilidade já resume tudo.
+- [ ] B) Definir faixas e ações segundo perdas, capacidade, restrições e acompanhamento posterior.
+- [ ] C) Aplicar automaticamente a mesma decisão a toda pontuação positiva.
+- [ ] D) Usar 50% como corte obrigatório.
+- [ ] E) Escolher o corte que aprova o menor número de pessoas.
+
+5. Ordene o desenvolvimento de um modelo para **Modelagem de risco**.
+
+- A) Definir evento, horizonte, população e restrições.
+- B) Construir dados disponíveis até a data de decisão.
+- C) Separar períodos e treinar um baseline.
+- D) Documentar limites e propor uma política de uso.
+- E) Avaliar discriminação, calibração e desempenho por segmento.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política baseada em **Modelagem de risco**.
+
+- A) Definir custos, benefícios, capacidade e restrições.
+- B) Simular faixas de pontuação e decisões possíveis.
+- C) Escolher regras compatíveis com risco e operação.
+- D) Monitorar impacto, estabilidade e diferenças entre grupos.
+- E) Aplicar a política com controles e rastreabilidade.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-083: modelagem-de-risco`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 84 — Política e custo — 26/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Política e custo.
+- **Competência sugerida:** Políticas de decisão e análise de custo.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Políticas de decisão e análise de custo** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Política e custo** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4092,7 +8690,6 @@ roadmap-data-science/
 - **Assunto central:** Política e custo.
 - **Pasta/arquivo principal:** `semana-17/dia-084-politica-e-custo.ipynb`.
 - **Dados:** `dados/credito.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Converta probabilidade em faixas de risco A–E.
@@ -4108,24 +8705,82 @@ roadmap-data-science/
 - [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
-1. Como transformar score em aprovação, limite ou preço sem ignorar custo e capacidade de perda?
-2. Em qual exercício de **Política e custo** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Política e custo** seria usado para apoiar uma decisão real em dados ou IA?
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual definição é essencial antes de modelar **Política e custo**?
+
+- [ ] A) Definir risco apenas como uma pontuação alta do modelo.
+- [ ] B) Estabelecer o evento de risco, o horizonte, a população e a data-limite das informações permitidas.
+- [ ] C) Escolher o algoritmo antes de definir o evento.
+- [ ] D) Usar dados posteriores ao evento para completar o cadastro.
+- [ ] E) Remover todos os casos sem histórico longo.
+
+2. Por que a calibração importa em uma aplicação de **Política e custo**?
+
+- [ ] A) Porque transforma qualquer modelo no mais preciso.
+- [ ] B) Porque elimina diferenças entre grupos.
+- [ ] C) Porque permite ignorar a taxa-base do evento.
+- [ ] D) Porque substitui a validação temporal.
+- [ ] E) Porque a probabilidade estimada precisa representar uma frequência útil para políticas baseadas em custo e risco.
+
+3. Qual cuidado de governança é necessário em **Política e custo**?
+
+- [ ] A) Usar atributos sensíveis sem analisar consequências.
+- [ ] B) Manter a política fixa mesmo quando os dados mudarem.
+- [ ] C) Documentar dados, critérios, limitações e desempenho por segmento, com revisão de possíveis impactos injustos.
+- [ ] D) Ocultar as variáveis para impedir questionamentos.
+- [ ] E) Avaliar somente o grupo mais numeroso.
+
+4. Como transformar uma pontuação de **Política e custo** em política?
+
+- [ ] A) Definir faixas e ações segundo perdas, capacidade, restrições e acompanhamento posterior.
+- [ ] B) Aplicar automaticamente a mesma decisão a toda pontuação positiva.
+- [ ] C) Usar 50% como corte obrigatório.
+- [ ] D) Escolher o corte que aprova o menor número de pessoas.
+- [ ] E) Ignorar o custo de erros porque a probabilidade já resume tudo.
+
+5. Ordene o desenvolvimento de um modelo para **Política e custo**.
+
+- A) Documentar limites e propor uma política de uso.
+- B) Separar períodos e treinar um baseline.
+- C) Construir dados disponíveis até a data de decisão.
+- D) Avaliar discriminação, calibração e desempenho por segmento.
+- E) Definir evento, horizonte, população e restrições.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a criação de uma política baseada em **Política e custo**.
+
+- A) Definir custos, benefícios, capacidade e restrições.
+- B) Escolher regras compatíveis com risco e operação.
+- C) Simular faixas de pontuação e decisões possíveis.
+- D) Monitorar impacto, estabilidade e diferenças entre grupos.
+- E) Aplicar a política com controles e rastreabilidade.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-084: politica-e-custo`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 85 — Entrega do projeto — 27/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Entrega do projeto.
+- **Competência sugerida:** Análise de risco orientada a negócios.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise de risco orientada a negócios** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Entrega do projeto** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4133,7 +8788,6 @@ roadmap-data-science/
 - **Assunto central:** Entrega do projeto.
 - **Pasta/arquivo principal:** `semana-17/dia-085-entrega-do-projeto/` (pasta do projeto).
 - **Dados:** `dados/credito.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Entregue relatório técnico, política de decisão, dashboard e model card.
@@ -4160,8 +8814,7 @@ roadmap-data-science/
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-085: entrega-do-projeto`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -4195,6 +8848,17 @@ roadmap-data-science/
 **Entrega da semana:** Pipeline ETL reproduzível que alimenta uma tabela analítica.
 
 ## Dia 86 — ETL/ELT e arquitetura básica — 30/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** ETL/ELT e arquitetura básica.
+- **Competência sugerida:** ETL, ELT e arquitetura de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **ETL, ELT e arquitetura de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **ETL/ELT e arquitetura básica** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4202,7 +8866,6 @@ roadmap-data-science/
 - **Assunto central:** ETL/ELT e arquitetura básica.
 - **Pasta/arquivo principal:** `semana-18/dia-086-etl-elt-e-arquitetura-basica.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Desenhe arquitetura simples: fontes CSV/API → camada raw → transformação → camada curated → consumo por BI/modelo.
@@ -4218,24 +8881,82 @@ roadmap-data-science/
 - [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
-1. Qual a diferença entre ETL e ELT e como escolher camadas raw, clean e analytics?
-2. Em qual exercício de **ETL/ELT e arquitetura básica** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **ETL/ELT e arquitetura básica** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
-6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual característica torna um pipeline de **ETL/ELT e arquitetura básica** seguro para ser executado novamente?
+
+- [ ] A) Gerar um arquivo diferente a cada tentativa.
+- [ ] B) Apagar toda a origem antes de iniciar.
+- [ ] C) Depender de correções manuais após cada execução.
+- [ ] D) Ignorar registros já processados sem usar uma chave.
+- [ ] E) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
+
+2. Qual controle de qualidade é mais útil em **ETL/ELT e arquitetura básica**?
+
+- [ ] A) Verificar somente o tamanho do arquivo final.
+- [ ] B) Remover registros problemáticos sem contabilizá-los.
+- [ ] C) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
+- [ ] D) Conferir apenas se o processo terminou sem erro.
+- [ ] E) Aceitar qualquer alteração de esquema automaticamente.
+
+3. O que melhora a observabilidade de uma solução de **ETL/ELT e arquitetura básica**?
+
+- [ ] A) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
+- [ ] B) Mensagens genéricas como 'deu erro'.
+- [ ] C) Ocultar falhas e repetir o processo indefinidamente.
+- [ ] D) Registrar somente o horário de início.
+- [ ] E) Depender da observação manual da pasta de saída.
+
+4. Como relacionar **ETL/ELT e arquitetura básica** a uma necessidade de negócio?
+
+- [ ] A) Processar tudo em tempo real, mesmo sem necessidade.
+- [ ] B) Manter dados sem informar origem ou atualização.
+- [ ] C) Priorizar volume acima de confiabilidade e custo.
+- [ ] D) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
+- [ ] E) Escolher a ferramenta mais complexa disponível.
+
+5. Ordene um fluxo de dados para **ETL/ELT e arquitetura básica**.
+
+- A) Monitorar qualidade, volume, duração e falhas.
+- B) Extrair os dados com identificação da execução.
+- C) Validar e transformar preservando rastreabilidade.
+- D) Carregar de forma idempotente no destino.
+- E) Definir fontes, destino, frequência e contrato dos dados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a uma falha em **ETL/ELT e arquitetura básica**.
+
+- A) Detectar a falha por alerta ou verificação automática.
+- B) Identificar execução, etapa e dados afetados.
+- C) Confirmar a recuperação e registrar prevenção.
+- D) Reprocessar somente o escopo necessário.
+- E) Corrigir a causa mantendo os dados íntegros.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-086: etl-elt-e-arquitetura-basica`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 87 — Pipeline em Python — 01/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Pipeline em Python.
+- **Competência sugerida:** Pipelines de dados com Python.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Pipelines de dados com Python** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Pipeline em Python** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4243,7 +8964,6 @@ roadmap-data-science/
 - **Assunto central:** Pipeline em Python.
 - **Pasta/arquivo principal:** `semana-18/dia-087-pipeline-em-python.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Implemente `extract.py` para ler CSV/JSON, `transform.py` para limpar e criar features, e `load.py` para gravar Parquet ou DuckDB.
@@ -4259,24 +8979,82 @@ roadmap-data-science/
 - [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
-1. O que torna um pipeline idempotente, observável e seguro para reexecução?
-2. Em qual exercício de **Pipeline em Python** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Pipeline em Python** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
-6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual característica torna um pipeline de **Pipeline em Python** seguro para ser executado novamente?
+
+- [ ] A) Apagar toda a origem antes de iniciar.
+- [ ] B) Depender de correções manuais após cada execução.
+- [ ] C) Ignorar registros já processados sem usar uma chave.
+- [ ] D) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
+- [ ] E) Gerar um arquivo diferente a cada tentativa.
+
+2. Qual controle de qualidade é mais útil em **Pipeline em Python**?
+
+- [ ] A) Remover registros problemáticos sem contabilizá-los.
+- [ ] B) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
+- [ ] C) Conferir apenas se o processo terminou sem erro.
+- [ ] D) Aceitar qualquer alteração de esquema automaticamente.
+- [ ] E) Verificar somente o tamanho do arquivo final.
+
+3. O que melhora a observabilidade de uma solução de **Pipeline em Python**?
+
+- [ ] A) Mensagens genéricas como 'deu erro'.
+- [ ] B) Ocultar falhas e repetir o processo indefinidamente.
+- [ ] C) Registrar somente o horário de início.
+- [ ] D) Depender da observação manual da pasta de saída.
+- [ ] E) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
+
+4. Como relacionar **Pipeline em Python** a uma necessidade de negócio?
+
+- [ ] A) Manter dados sem informar origem ou atualização.
+- [ ] B) Priorizar volume acima de confiabilidade e custo.
+- [ ] C) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
+- [ ] D) Escolher a ferramenta mais complexa disponível.
+- [ ] E) Processar tudo em tempo real, mesmo sem necessidade.
+
+5. Ordene um fluxo de dados para **Pipeline em Python**.
+
+- A) Monitorar qualidade, volume, duração e falhas.
+- B) Validar e transformar preservando rastreabilidade.
+- C) Extrair os dados com identificação da execução.
+- D) Carregar de forma idempotente no destino.
+- E) Definir fontes, destino, frequência e contrato dos dados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a uma falha em **Pipeline em Python**.
+
+- A) Detectar a falha por alerta ou verificação automática.
+- B) Confirmar a recuperação e registrar prevenção.
+- C) Identificar execução, etapa e dados afetados.
+- D) Reprocessar somente o escopo necessário.
+- E) Corrigir a causa mantendo os dados íntegros.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-087: pipeline-em-python`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 88 — Orquestração conceitual — 02/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Orquestração conceitual.
+- **Competência sugerida:** Orquestração de pipelines.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Orquestração de pipelines** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Orquestração conceitual** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4284,7 +9062,6 @@ roadmap-data-science/
 - **Assunto central:** Orquestração conceitual.
 - **Pasta/arquivo principal:** `semana-18/dia-088-orquestracao-conceitual.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Modele o pipeline como tarefas com dependências: extrair → validar → transformar → carregar → testar.
@@ -4300,24 +9077,82 @@ roadmap-data-science/
 - [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
-1. Qual a diferença entre dependência, agendamento, retry, backfill e monitoramento?
-2. Em qual exercício de **Orquestração conceitual** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Orquestração conceitual** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
-6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual característica torna um pipeline de **Orquestração conceitual** seguro para ser executado novamente?
+
+- [ ] A) Depender de correções manuais após cada execução.
+- [ ] B) Ignorar registros já processados sem usar uma chave.
+- [ ] C) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
+- [ ] D) Gerar um arquivo diferente a cada tentativa.
+- [ ] E) Apagar toda a origem antes de iniciar.
+
+2. Qual controle de qualidade é mais útil em **Orquestração conceitual**?
+
+- [ ] A) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
+- [ ] B) Conferir apenas se o processo terminou sem erro.
+- [ ] C) Aceitar qualquer alteração de esquema automaticamente.
+- [ ] D) Verificar somente o tamanho do arquivo final.
+- [ ] E) Remover registros problemáticos sem contabilizá-los.
+
+3. O que melhora a observabilidade de uma solução de **Orquestração conceitual**?
+
+- [ ] A) Ocultar falhas e repetir o processo indefinidamente.
+- [ ] B) Registrar somente o horário de início.
+- [ ] C) Depender da observação manual da pasta de saída.
+- [ ] D) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
+- [ ] E) Mensagens genéricas como 'deu erro'.
+
+4. Como relacionar **Orquestração conceitual** a uma necessidade de negócio?
+
+- [ ] A) Priorizar volume acima de confiabilidade e custo.
+- [ ] B) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
+- [ ] C) Escolher a ferramenta mais complexa disponível.
+- [ ] D) Processar tudo em tempo real, mesmo sem necessidade.
+- [ ] E) Manter dados sem informar origem ou atualização.
+
+5. Ordene um fluxo de dados para **Orquestração conceitual**.
+
+- A) Validar e transformar preservando rastreabilidade.
+- B) Extrair os dados com identificação da execução.
+- C) Definir fontes, destino, frequência e contrato dos dados.
+- D) Carregar de forma idempotente no destino.
+- E) Monitorar qualidade, volume, duração e falhas.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a uma falha em **Orquestração conceitual**.
+
+- A) Corrigir a causa mantendo os dados íntegros.
+- B) Identificar execução, etapa e dados afetados.
+- C) Detectar a falha por alerta ou verificação automática.
+- D) Reprocessar somente o escopo necessário.
+- E) Confirmar a recuperação e registrar prevenção.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-088: orquestracao-conceitual`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 89 — Databricks e Spark introdutório — 03/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Databricks e Spark introdutório.
+- **Competência sugerida:** Databricks e Apache Spark.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Databricks e Apache Spark** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Databricks e Spark introdutório** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4325,7 +9160,6 @@ roadmap-data-science/
 - **Assunto central:** Databricks e Spark introdutório.
 - **Pasta/arquivo principal:** `semana-18/dia-089-databricks-e-spark-introdutorio.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie conta/ambiente Databricks Free ou use PySpark local.
@@ -4341,24 +9175,82 @@ roadmap-data-science/
 - [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
-1. Quando processamento distribuído é necessário e quando pandas ou SQL local é suficiente?
-2. Em qual exercício de **Databricks e Spark introdutório** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Databricks e Spark introdutório** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
-6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual característica torna um pipeline de **Databricks e Spark introdutório** seguro para ser executado novamente?
+
+- [ ] A) Ignorar registros já processados sem usar uma chave.
+- [ ] B) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
+- [ ] C) Gerar um arquivo diferente a cada tentativa.
+- [ ] D) Apagar toda a origem antes de iniciar.
+- [ ] E) Depender de correções manuais após cada execução.
+
+2. Qual controle de qualidade é mais útil em **Databricks e Spark introdutório**?
+
+- [ ] A) Conferir apenas se o processo terminou sem erro.
+- [ ] B) Aceitar qualquer alteração de esquema automaticamente.
+- [ ] C) Verificar somente o tamanho do arquivo final.
+- [ ] D) Remover registros problemáticos sem contabilizá-los.
+- [ ] E) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
+
+3. O que melhora a observabilidade de uma solução de **Databricks e Spark introdutório**?
+
+- [ ] A) Registrar somente o horário de início.
+- [ ] B) Depender da observação manual da pasta de saída.
+- [ ] C) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
+- [ ] D) Mensagens genéricas como 'deu erro'.
+- [ ] E) Ocultar falhas e repetir o processo indefinidamente.
+
+4. Como relacionar **Databricks e Spark introdutório** a uma necessidade de negócio?
+
+- [ ] A) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
+- [ ] B) Escolher a ferramenta mais complexa disponível.
+- [ ] C) Processar tudo em tempo real, mesmo sem necessidade.
+- [ ] D) Manter dados sem informar origem ou atualização.
+- [ ] E) Priorizar volume acima de confiabilidade e custo.
+
+5. Ordene um fluxo de dados para **Databricks e Spark introdutório**.
+
+- A) Extrair os dados com identificação da execução.
+- B) Validar e transformar preservando rastreabilidade.
+- C) Carregar de forma idempotente no destino.
+- D) Monitorar qualidade, volume, duração e falhas.
+- E) Definir fontes, destino, frequência e contrato dos dados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a uma falha em **Databricks e Spark introdutório**.
+
+- A) Identificar execução, etapa e dados afetados.
+- B) Corrigir a causa mantendo os dados íntegros.
+- C) Reprocessar somente o escopo necessário.
+- D) Confirmar a recuperação e registrar prevenção.
+- E) Detectar a falha por alerta ou verificação automática.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-089: databricks-e-spark-introdutorio`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 90 — Entrega do pipeline — 04/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Entrega do pipeline.
+- **Competência sugerida:** Engenharia de Dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Engenharia de Dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Entrega do pipeline** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4366,7 +9258,6 @@ roadmap-data-science/
 - **Assunto central:** Entrega do pipeline.
 - **Pasta/arquivo principal:** `semana-18/dia-090-entrega-do-pipeline/` (pasta do projeto).
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Empacote pipeline da semana com script de execução única.
@@ -4382,19 +9273,66 @@ roadmap-data-science/
 - [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
-1. Como demonstrar rastreabilidade desde a fonte até a tabela usada pelo modelo?
-2. Em qual exercício de **Entrega do pipeline** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Entrega do pipeline** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
-6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual característica torna um pipeline de **Entrega do pipeline** seguro para ser executado novamente?
+
+- [ ] A) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
+- [ ] B) Gerar um arquivo diferente a cada tentativa.
+- [ ] C) Apagar toda a origem antes de iniciar.
+- [ ] D) Depender de correções manuais após cada execução.
+- [ ] E) Ignorar registros já processados sem usar uma chave.
+
+2. Qual controle de qualidade é mais útil em **Entrega do pipeline**?
+
+- [ ] A) Aceitar qualquer alteração de esquema automaticamente.
+- [ ] B) Verificar somente o tamanho do arquivo final.
+- [ ] C) Remover registros problemáticos sem contabilizá-los.
+- [ ] D) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
+- [ ] E) Conferir apenas se o processo terminou sem erro.
+
+3. O que melhora a observabilidade de uma solução de **Entrega do pipeline**?
+
+- [ ] A) Depender da observação manual da pasta de saída.
+- [ ] B) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
+- [ ] C) Mensagens genéricas como 'deu erro'.
+- [ ] D) Ocultar falhas e repetir o processo indefinidamente.
+- [ ] E) Registrar somente o horário de início.
+
+4. Como relacionar **Entrega do pipeline** a uma necessidade de negócio?
+
+- [ ] A) Escolher a ferramenta mais complexa disponível.
+- [ ] B) Processar tudo em tempo real, mesmo sem necessidade.
+- [ ] C) Manter dados sem informar origem ou atualização.
+- [ ] D) Priorizar volume acima de confiabilidade e custo.
+- [ ] E) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
+
+5. Ordene um fluxo de dados para **Entrega do pipeline**.
+
+- A) Definir fontes, destino, frequência e contrato dos dados.
+- B) Validar e transformar preservando rastreabilidade.
+- C) Extrair os dados com identificação da execução.
+- D) Carregar de forma idempotente no destino.
+- E) Monitorar qualidade, volume, duração e falhas.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a uma falha em **Entrega do pipeline**.
+
+- A) Detectar a falha por alerta ou verificação automática.
+- B) Corrigir a causa mantendo os dados íntegros.
+- C) Identificar execução, etapa e dados afetados.
+- D) Reprocessar somente o escopo necessário.
+- E) Confirmar a recuperação e registrar prevenção.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-090: entrega-do-pipeline`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -4426,6 +9364,17 @@ roadmap-data-science/
 **Entrega da semana:** Projeto refatorado em pacote Python com testes automatizados e CI simples.
 
 ## Dia 91 — Git profissional básico — 07/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Git profissional básico.
+- **Competência sugerida:** Git e GitHub.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Git e GitHub** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Git profissional básico** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4433,7 +9382,6 @@ roadmap-data-science/
 - **Assunto central:** Git profissional básico.
 - **Pasta/arquivo principal:** `semana-19/dia-091-git-profissional-basico.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie branch `feature/refatoracao`, faça três commits pequenos e abra Pull Request para si mesmo.
@@ -4449,24 +9397,82 @@ roadmap-data-science/
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. Qual a função de branch, pull request, merge, tag e release em uma equipe?
-2. Em qual exercício de **Git profissional básico** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Git profissional básico** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática melhora a manutenção de uma solução de **Git profissional básico**?
+
+- [ ] A) Colocar dados, regras e execução em uma única função.
+- [ ] B) Salvar segredos diretamente no código.
+- [ ] C) Alterar vários comportamentos sem registrar o motivo.
+- [ ] D) Duplicar trechos para evitar criar funções.
+- [ ] E) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+
+2. Qual estratégia de testes é mais adequada em **Git profissional básico**?
+
+- [ ] A) Validar somente o caminho de sucesso.
+- [ ] B) Depender da mesma implementação para calcular e conferir a saída.
+- [ ] C) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+- [ ] D) Testar apenas manualmente depois da publicação.
+- [ ] E) Criar testes que nunca falham para manter a integração verde.
+
+3. Qual cuidado é essencial ao publicar uma aplicação de **Git profissional básico**?
+
+- [ ] A) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+- [ ] B) Usar diretamente a última alteração sem versão.
+- [ ] C) Imprimir credenciais nos logs para facilitar suporte.
+- [ ] D) Modificar o ambiente de produção manualmente sem registro.
+- [ ] E) Remover validações para reduzir o tempo de resposta.
+
+4. Como saber se uma solução de **Git profissional básico** continua saudável após a publicação?
+
+- [ ] A) Considerar ausência de reclamações como prova suficiente.
+- [ ] B) Observar apenas o uso de memória uma vez por mês.
+- [ ] C) Avaliar somente a métrica obtida durante o treinamento.
+- [ ] D) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+- [ ] E) Conferir somente se o computador do desenvolvedor está ligado.
+
+5. Ordene uma mudança segura em **Git profissional básico**.
+
+- A) Implementar uma alteração pequena e revisável.
+- B) Criar ou ajustar testes que representem esse comportamento.
+- C) Definir o comportamento que precisa mudar.
+- D) Executar verificações locais e de integração.
+- E) Versionar, publicar e observar a mudança.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **Git profissional básico**.
+
+- A) Conter o impacto ou reverter para uma versão estável.
+- B) Delimitar usuários, versões e componentes afetados.
+- C) Detectar o sintoma por métricas, logs ou alerta.
+- D) Republicar com controle e documentar o incidente.
+- E) Corrigir a causa e validar com testes.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-091: git-profissional-basico`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 92 — Refatoração de notebook — 08/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Refatoração de notebook.
+- **Competência sugerida:** Refatoração e engenharia de software para dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Refatoração e engenharia de software para dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Refatoração de notebook** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4474,7 +9480,6 @@ roadmap-data-science/
 - **Assunto central:** Refatoração de notebook.
 - **Pasta/arquivo principal:** `semana-19/dia-092-refatoracao-de-notebook.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha notebook de ML e liste células de configuração, ingestão, funções, treino e apresentação.
@@ -4490,24 +9495,82 @@ roadmap-data-science/
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. O que deve sair de um notebook e virar função, módulo, configuração ou teste?
-2. Em qual exercício de **Refatoração de notebook** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Refatoração de notebook** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática melhora a manutenção de uma solução de **Refatoração de notebook**?
+
+- [ ] A) Salvar segredos diretamente no código.
+- [ ] B) Alterar vários comportamentos sem registrar o motivo.
+- [ ] C) Duplicar trechos para evitar criar funções.
+- [ ] D) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+- [ ] E) Colocar dados, regras e execução em uma única função.
+
+2. Qual estratégia de testes é mais adequada em **Refatoração de notebook**?
+
+- [ ] A) Depender da mesma implementação para calcular e conferir a saída.
+- [ ] B) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+- [ ] C) Testar apenas manualmente depois da publicação.
+- [ ] D) Criar testes que nunca falham para manter a integração verde.
+- [ ] E) Validar somente o caminho de sucesso.
+
+3. Qual cuidado é essencial ao publicar uma aplicação de **Refatoração de notebook**?
+
+- [ ] A) Usar diretamente a última alteração sem versão.
+- [ ] B) Imprimir credenciais nos logs para facilitar suporte.
+- [ ] C) Modificar o ambiente de produção manualmente sem registro.
+- [ ] D) Remover validações para reduzir o tempo de resposta.
+- [ ] E) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+
+4. Como saber se uma solução de **Refatoração de notebook** continua saudável após a publicação?
+
+- [ ] A) Observar apenas o uso de memória uma vez por mês.
+- [ ] B) Avaliar somente a métrica obtida durante o treinamento.
+- [ ] C) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+- [ ] D) Conferir somente se o computador do desenvolvedor está ligado.
+- [ ] E) Considerar ausência de reclamações como prova suficiente.
+
+5. Ordene uma mudança segura em **Refatoração de notebook**.
+
+- A) Definir o comportamento que precisa mudar.
+- B) Implementar uma alteração pequena e revisável.
+- C) Criar ou ajustar testes que representem esse comportamento.
+- D) Executar verificações locais e de integração.
+- E) Versionar, publicar e observar a mudança.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **Refatoração de notebook**.
+
+- A) Detectar o sintoma por métricas, logs ou alerta.
+- B) Delimitar usuários, versões e componentes afetados.
+- C) Conter o impacto ou reverter para uma versão estável.
+- D) Republicar com controle e documentar o incidente.
+- E) Corrigir a causa e validar com testes.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-092: refatoracao-de-notebook`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 93 — Testes — 09/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Testes.
+- **Competência sugerida:** Testes de software.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes de software** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Testes** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4515,7 +9578,6 @@ roadmap-data-science/
 - **Assunto central:** Testes.
 - **Pasta/arquivo principal:** `semana-19/dia-093-testes.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Instale `pytest` e escreva testes para validação de dados, feature engineering e métrica de custo.
@@ -4531,24 +9593,82 @@ roadmap-data-science/
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. Qual a diferença entre teste unitário, integração e ponta a ponta em um projeto de dados?
-2. Em qual exercício de **Testes** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Testes** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática melhora a manutenção de uma solução de **Testes**?
+
+- [ ] A) Alterar vários comportamentos sem registrar o motivo.
+- [ ] B) Duplicar trechos para evitar criar funções.
+- [ ] C) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+- [ ] D) Colocar dados, regras e execução em uma única função.
+- [ ] E) Salvar segredos diretamente no código.
+
+2. Qual estratégia de testes é mais adequada em **Testes**?
+
+- [ ] A) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+- [ ] B) Testar apenas manualmente depois da publicação.
+- [ ] C) Criar testes que nunca falham para manter a integração verde.
+- [ ] D) Validar somente o caminho de sucesso.
+- [ ] E) Depender da mesma implementação para calcular e conferir a saída.
+
+3. Qual cuidado é essencial ao publicar uma aplicação de **Testes**?
+
+- [ ] A) Imprimir credenciais nos logs para facilitar suporte.
+- [ ] B) Modificar o ambiente de produção manualmente sem registro.
+- [ ] C) Remover validações para reduzir o tempo de resposta.
+- [ ] D) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+- [ ] E) Usar diretamente a última alteração sem versão.
+
+4. Como saber se uma solução de **Testes** continua saudável após a publicação?
+
+- [ ] A) Avaliar somente a métrica obtida durante o treinamento.
+- [ ] B) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+- [ ] C) Conferir somente se o computador do desenvolvedor está ligado.
+- [ ] D) Considerar ausência de reclamações como prova suficiente.
+- [ ] E) Observar apenas o uso de memória uma vez por mês.
+
+5. Ordene uma mudança segura em **Testes**.
+
+- A) Implementar uma alteração pequena e revisável.
+- B) Criar ou ajustar testes que representem esse comportamento.
+- C) Definir o comportamento que precisa mudar.
+- D) Versionar, publicar e observar a mudança.
+- E) Executar verificações locais e de integração.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **Testes**.
+
+- A) Detectar o sintoma por métricas, logs ou alerta.
+- B) Conter o impacto ou reverter para uma versão estável.
+- C) Delimitar usuários, versões e componentes afetados.
+- D) Republicar com controle e documentar o incidente.
+- E) Corrigir a causa e validar com testes.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-093: testes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 94 — Qualidade e configuração — 10/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Qualidade e configuração.
+- **Competência sugerida:** Qualidade de código e configuração.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Qualidade de código e configuração** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Qualidade e configuração** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4556,7 +9676,6 @@ roadmap-data-science/
 - **Assunto central:** Qualidade e configuração.
 - **Pasta/arquivo principal:** `semana-19/dia-094-qualidade-e-configuracao.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Adicione formatação/lint com ferramentas como Black/Ruff e aplique ao projeto.
@@ -4572,24 +9691,82 @@ roadmap-data-science/
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. Por que credenciais, caminhos e parâmetros não devem ficar fixos no código?
-2. Em qual exercício de **Qualidade e configuração** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Qualidade e configuração** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática melhora a manutenção de uma solução de **Qualidade e configuração**?
+
+- [ ] A) Duplicar trechos para evitar criar funções.
+- [ ] B) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+- [ ] C) Colocar dados, regras e execução em uma única função.
+- [ ] D) Salvar segredos diretamente no código.
+- [ ] E) Alterar vários comportamentos sem registrar o motivo.
+
+2. Qual estratégia de testes é mais adequada em **Qualidade e configuração**?
+
+- [ ] A) Testar apenas manualmente depois da publicação.
+- [ ] B) Criar testes que nunca falham para manter a integração verde.
+- [ ] C) Validar somente o caminho de sucesso.
+- [ ] D) Depender da mesma implementação para calcular e conferir a saída.
+- [ ] E) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+
+3. Qual cuidado é essencial ao publicar uma aplicação de **Qualidade e configuração**?
+
+- [ ] A) Modificar o ambiente de produção manualmente sem registro.
+- [ ] B) Remover validações para reduzir o tempo de resposta.
+- [ ] C) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+- [ ] D) Usar diretamente a última alteração sem versão.
+- [ ] E) Imprimir credenciais nos logs para facilitar suporte.
+
+4. Como saber se uma solução de **Qualidade e configuração** continua saudável após a publicação?
+
+- [ ] A) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+- [ ] B) Conferir somente se o computador do desenvolvedor está ligado.
+- [ ] C) Considerar ausência de reclamações como prova suficiente.
+- [ ] D) Observar apenas o uso de memória uma vez por mês.
+- [ ] E) Avaliar somente a métrica obtida durante o treinamento.
+
+5. Ordene uma mudança segura em **Qualidade e configuração**.
+
+- A) Definir o comportamento que precisa mudar.
+- B) Criar ou ajustar testes que representem esse comportamento.
+- C) Implementar uma alteração pequena e revisável.
+- D) Versionar, publicar e observar a mudança.
+- E) Executar verificações locais e de integração.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **Qualidade e configuração**.
+
+- A) Conter o impacto ou reverter para uma versão estável.
+- B) Delimitar usuários, versões e componentes afetados.
+- C) Detectar o sintoma por métricas, logs ou alerta.
+- D) Republicar com controle e documentar o incidente.
+- E) Corrigir a causa e validar com testes.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-094: qualidade-e-configuracao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 95 — CI e versão estável — 11/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** CI e versão estável.
+- **Competência sugerida:** Integração Contínua (CI).
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Integração Contínua (CI)** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **CI e versão estável** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4597,7 +9774,6 @@ roadmap-data-science/
 - **Assunto central:** CI e versão estável.
 - **Pasta/arquivo principal:** `semana-19/dia-095-ci-e-versao-estavel/` (pasta do projeto).
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie workflow de CI que instale dependências e rode testes em cada push/PR.
@@ -4613,19 +9789,66 @@ roadmap-data-science/
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. Que verificações mínimas uma integração contínua deve executar antes de aceitar mudanças?
-2. Em qual exercício de **CI e versão estável** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **CI e versão estável** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática melhora a manutenção de uma solução de **CI e versão estável**?
+
+- [ ] A) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+- [ ] B) Colocar dados, regras e execução em uma única função.
+- [ ] C) Salvar segredos diretamente no código.
+- [ ] D) Alterar vários comportamentos sem registrar o motivo.
+- [ ] E) Duplicar trechos para evitar criar funções.
+
+2. Qual estratégia de testes é mais adequada em **CI e versão estável**?
+
+- [ ] A) Criar testes que nunca falham para manter a integração verde.
+- [ ] B) Validar somente o caminho de sucesso.
+- [ ] C) Depender da mesma implementação para calcular e conferir a saída.
+- [ ] D) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+- [ ] E) Testar apenas manualmente depois da publicação.
+
+3. Qual cuidado é essencial ao publicar uma aplicação de **CI e versão estável**?
+
+- [ ] A) Remover validações para reduzir o tempo de resposta.
+- [ ] B) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+- [ ] C) Usar diretamente a última alteração sem versão.
+- [ ] D) Imprimir credenciais nos logs para facilitar suporte.
+- [ ] E) Modificar o ambiente de produção manualmente sem registro.
+
+4. Como saber se uma solução de **CI e versão estável** continua saudável após a publicação?
+
+- [ ] A) Conferir somente se o computador do desenvolvedor está ligado.
+- [ ] B) Considerar ausência de reclamações como prova suficiente.
+- [ ] C) Observar apenas o uso de memória uma vez por mês.
+- [ ] D) Avaliar somente a métrica obtida durante o treinamento.
+- [ ] E) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+
+5. Ordene uma mudança segura em **CI e versão estável**.
+
+- A) Definir o comportamento que precisa mudar.
+- B) Implementar uma alteração pequena e revisável.
+- C) Criar ou ajustar testes que representem esse comportamento.
+- D) Versionar, publicar e observar a mudança.
+- E) Executar verificações locais e de integração.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **CI e versão estável**.
+
+- A) Detectar o sintoma por métricas, logs ou alerta.
+- B) Delimitar usuários, versões e componentes afetados.
+- C) Conter o impacto ou reverter para uma versão estável.
+- D) Republicar com controle e documentar o incidente.
+- E) Corrigir a causa e validar com testes.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-095: ci-e-versao-estavel`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -4658,6 +9881,17 @@ roadmap-data-science/
 **Entrega da semana:** API FastAPI containerizada para previsão, com validação, testes e documentação.
 
 ## Dia 96 — FastAPI e contrato — 14/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** FastAPI e contrato.
+- **Competência sugerida:** FastAPI e APIs REST.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **FastAPI e APIs REST** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **FastAPI e contrato** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4665,7 +9899,6 @@ roadmap-data-science/
 - **Assunto central:** FastAPI e contrato.
 - **Pasta/arquivo principal:** `semana-20/dia-096-fastapi-e-contrato.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie API FastAPI com endpoints `/health`, `/predict` e `/model-info`.
@@ -4681,24 +9914,82 @@ roadmap-data-science/
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. Como schemas, códigos HTTP e validação formam o contrato de uma API de modelo?
-2. Em qual exercício de **FastAPI e contrato** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **FastAPI e contrato** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática melhora a manutenção de uma solução de **FastAPI e contrato**?
+
+- [ ] A) Colocar dados, regras e execução em uma única função.
+- [ ] B) Salvar segredos diretamente no código.
+- [ ] C) Alterar vários comportamentos sem registrar o motivo.
+- [ ] D) Duplicar trechos para evitar criar funções.
+- [ ] E) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+
+2. Qual estratégia de testes é mais adequada em **FastAPI e contrato**?
+
+- [ ] A) Validar somente o caminho de sucesso.
+- [ ] B) Depender da mesma implementação para calcular e conferir a saída.
+- [ ] C) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+- [ ] D) Testar apenas manualmente depois da publicação.
+- [ ] E) Criar testes que nunca falham para manter a integração verde.
+
+3. Qual cuidado é essencial ao publicar uma aplicação de **FastAPI e contrato**?
+
+- [ ] A) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+- [ ] B) Usar diretamente a última alteração sem versão.
+- [ ] C) Imprimir credenciais nos logs para facilitar suporte.
+- [ ] D) Modificar o ambiente de produção manualmente sem registro.
+- [ ] E) Remover validações para reduzir o tempo de resposta.
+
+4. Como saber se uma solução de **FastAPI e contrato** continua saudável após a publicação?
+
+- [ ] A) Considerar ausência de reclamações como prova suficiente.
+- [ ] B) Observar apenas o uso de memória uma vez por mês.
+- [ ] C) Avaliar somente a métrica obtida durante o treinamento.
+- [ ] D) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+- [ ] E) Conferir somente se o computador do desenvolvedor está ligado.
+
+5. Ordene uma mudança segura em **FastAPI e contrato**.
+
+- A) Implementar uma alteração pequena e revisável.
+- B) Criar ou ajustar testes que representem esse comportamento.
+- C) Definir o comportamento que precisa mudar.
+- D) Versionar, publicar e observar a mudança.
+- E) Executar verificações locais e de integração.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **FastAPI e contrato**.
+
+- A) Republicar com controle e documentar o incidente.
+- B) Delimitar usuários, versões e componentes afetados.
+- C) Detectar o sintoma por métricas, logs ou alerta.
+- D) Corrigir a causa e validar com testes.
+- E) Conter o impacto ou reverter para uma versão estável.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-096: fastapi-e-contrato`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 97 — Serialização e pipeline de inferência — 15/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Serialização e pipeline de inferência.
+- **Competência sugerida:** Serialização de modelos e inferência.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Serialização de modelos e inferência** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Serialização e pipeline de inferência** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4706,7 +9997,6 @@ roadmap-data-science/
 - **Assunto central:** Serialização e pipeline de inferência.
 - **Pasta/arquivo principal:** `semana-20/dia-097-serializacao-e-pipeline-de-inferencia.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Serializa pipeline completa com `joblib` e registre versão, data e features esperadas.
@@ -4722,24 +10012,82 @@ roadmap-data-science/
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. Quais riscos existem ao salvar e carregar modelos, preprocessadores e versões de bibliotecas separadamente?
-2. Em qual exercício de **Serialização e pipeline de inferência** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Serialização e pipeline de inferência** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática melhora a manutenção de uma solução de **Serialização e pipeline de inferência**?
+
+- [ ] A) Salvar segredos diretamente no código.
+- [ ] B) Alterar vários comportamentos sem registrar o motivo.
+- [ ] C) Duplicar trechos para evitar criar funções.
+- [ ] D) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+- [ ] E) Colocar dados, regras e execução em uma única função.
+
+2. Qual estratégia de testes é mais adequada em **Serialização e pipeline de inferência**?
+
+- [ ] A) Depender da mesma implementação para calcular e conferir a saída.
+- [ ] B) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+- [ ] C) Testar apenas manualmente depois da publicação.
+- [ ] D) Criar testes que nunca falham para manter a integração verde.
+- [ ] E) Validar somente o caminho de sucesso.
+
+3. Qual cuidado é essencial ao publicar uma aplicação de **Serialização e pipeline de inferência**?
+
+- [ ] A) Usar diretamente a última alteração sem versão.
+- [ ] B) Imprimir credenciais nos logs para facilitar suporte.
+- [ ] C) Modificar o ambiente de produção manualmente sem registro.
+- [ ] D) Remover validações para reduzir o tempo de resposta.
+- [ ] E) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+
+4. Como saber se uma solução de **Serialização e pipeline de inferência** continua saudável após a publicação?
+
+- [ ] A) Observar apenas o uso de memória uma vez por mês.
+- [ ] B) Avaliar somente a métrica obtida durante o treinamento.
+- [ ] C) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+- [ ] D) Conferir somente se o computador do desenvolvedor está ligado.
+- [ ] E) Considerar ausência de reclamações como prova suficiente.
+
+5. Ordene uma mudança segura em **Serialização e pipeline de inferência**.
+
+- A) Definir o comportamento que precisa mudar.
+- B) Criar ou ajustar testes que representem esse comportamento.
+- C) Implementar uma alteração pequena e revisável.
+- D) Versionar, publicar e observar a mudança.
+- E) Executar verificações locais e de integração.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **Serialização e pipeline de inferência**.
+
+- A) Detectar o sintoma por métricas, logs ou alerta.
+- B) Delimitar usuários, versões e componentes afetados.
+- C) Republicar com controle e documentar o incidente.
+- D) Corrigir a causa e validar com testes.
+- E) Conter o impacto ou reverter para uma versão estável.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-097: serializacao-e-pipeline-de-inferencia`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 98 — Docker — 16/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Docker.
+- **Competência sugerida:** Docker.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Docker** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Docker** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4747,7 +10095,6 @@ roadmap-data-science/
 - **Assunto central:** Docker.
 - **Pasta/arquivo principal:** `semana-20/dia-098-docker.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie `Dockerfile` para a API com imagem enxuta, usuário não root quando possível e dependências fixadas.
@@ -4763,24 +10110,82 @@ roadmap-data-science/
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. Qual problema imagem, container, volume e porta resolvem na reprodução do ambiente?
-2. Em qual exercício de **Docker** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Docker** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática melhora a manutenção de uma solução de **Docker**?
+
+- [ ] A) Alterar vários comportamentos sem registrar o motivo.
+- [ ] B) Duplicar trechos para evitar criar funções.
+- [ ] C) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+- [ ] D) Colocar dados, regras e execução em uma única função.
+- [ ] E) Salvar segredos diretamente no código.
+
+2. Qual estratégia de testes é mais adequada em **Docker**?
+
+- [ ] A) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+- [ ] B) Testar apenas manualmente depois da publicação.
+- [ ] C) Criar testes que nunca falham para manter a integração verde.
+- [ ] D) Validar somente o caminho de sucesso.
+- [ ] E) Depender da mesma implementação para calcular e conferir a saída.
+
+3. Qual cuidado é essencial ao publicar uma aplicação de **Docker**?
+
+- [ ] A) Imprimir credenciais nos logs para facilitar suporte.
+- [ ] B) Modificar o ambiente de produção manualmente sem registro.
+- [ ] C) Remover validações para reduzir o tempo de resposta.
+- [ ] D) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+- [ ] E) Usar diretamente a última alteração sem versão.
+
+4. Como saber se uma solução de **Docker** continua saudável após a publicação?
+
+- [ ] A) Avaliar somente a métrica obtida durante o treinamento.
+- [ ] B) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+- [ ] C) Conferir somente se o computador do desenvolvedor está ligado.
+- [ ] D) Considerar ausência de reclamações como prova suficiente.
+- [ ] E) Observar apenas o uso de memória uma vez por mês.
+
+5. Ordene uma mudança segura em **Docker**.
+
+- A) Definir o comportamento que precisa mudar.
+- B) Versionar, publicar e observar a mudança.
+- C) Criar ou ajustar testes que representem esse comportamento.
+- D) Executar verificações locais e de integração.
+- E) Implementar uma alteração pequena e revisável.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **Docker**.
+
+- A) Detectar o sintoma por métricas, logs ou alerta.
+- B) Republicar com controle e documentar o incidente.
+- C) Delimitar usuários, versões e componentes afetados.
+- D) Corrigir a causa e validar com testes.
+- E) Conter o impacto ou reverter para uma versão estável.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-098: docker`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 99 — Logs e monitoramento básico — 17/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Logs e monitoramento básico.
+- **Competência sugerida:** Logs e monitoramento.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Logs e monitoramento** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Logs e monitoramento básico** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4788,7 +10193,6 @@ roadmap-data-science/
 - **Assunto central:** Logs e monitoramento básico.
 - **Pasta/arquivo principal:** `semana-20/dia-099-logs-e-monitoramento-basico.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Adicione logs de requisição com tempo, status, versão e identificador, sem registrar dados sensíveis.
@@ -4804,24 +10208,82 @@ roadmap-data-science/
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. Quais sinais indicam erro técnico, mudança de dados, drift ou queda de desempenho?
-2. Em qual exercício de **Logs e monitoramento básico** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Logs e monitoramento básico** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática melhora a manutenção de uma solução de **Logs e monitoramento básico**?
+
+- [ ] A) Duplicar trechos para evitar criar funções.
+- [ ] B) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+- [ ] C) Colocar dados, regras e execução em uma única função.
+- [ ] D) Salvar segredos diretamente no código.
+- [ ] E) Alterar vários comportamentos sem registrar o motivo.
+
+2. Qual estratégia de testes é mais adequada em **Logs e monitoramento básico**?
+
+- [ ] A) Testar apenas manualmente depois da publicação.
+- [ ] B) Criar testes que nunca falham para manter a integração verde.
+- [ ] C) Validar somente o caminho de sucesso.
+- [ ] D) Depender da mesma implementação para calcular e conferir a saída.
+- [ ] E) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+
+3. Qual cuidado é essencial ao publicar uma aplicação de **Logs e monitoramento básico**?
+
+- [ ] A) Modificar o ambiente de produção manualmente sem registro.
+- [ ] B) Remover validações para reduzir o tempo de resposta.
+- [ ] C) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+- [ ] D) Usar diretamente a última alteração sem versão.
+- [ ] E) Imprimir credenciais nos logs para facilitar suporte.
+
+4. Como saber se uma solução de **Logs e monitoramento básico** continua saudável após a publicação?
+
+- [ ] A) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+- [ ] B) Conferir somente se o computador do desenvolvedor está ligado.
+- [ ] C) Considerar ausência de reclamações como prova suficiente.
+- [ ] D) Observar apenas o uso de memória uma vez por mês.
+- [ ] E) Avaliar somente a métrica obtida durante o treinamento.
+
+5. Ordene uma mudança segura em **Logs e monitoramento básico**.
+
+- A) Versionar, publicar e observar a mudança.
+- B) Criar ou ajustar testes que representem esse comportamento.
+- C) Definir o comportamento que precisa mudar.
+- D) Executar verificações locais e de integração.
+- E) Implementar uma alteração pequena e revisável.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **Logs e monitoramento básico**.
+
+- A) Republicar com controle e documentar o incidente.
+- B) Delimitar usuários, versões e componentes afetados.
+- C) Detectar o sintoma por métricas, logs ou alerta.
+- D) Corrigir a causa e validar com testes.
+- E) Conter o impacto ou reverter para uma versão estável.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-099: logs-e-monitoramento-basico`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 100 — Publicação do serviço — 18/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Publicação do serviço.
+- **Competência sugerida:** Implantação de modelos.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Implantação de modelos** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Publicação do serviço** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4829,7 +10291,6 @@ roadmap-data-science/
 - **Assunto central:** Publicação do serviço.
 - **Pasta/arquivo principal:** `semana-20/dia-100-publicacao-do-servico/` (pasta do projeto).
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Publique localmente via Docker Compose ou em serviço gratuito compatível, quando disponível.
@@ -4845,19 +10306,66 @@ roadmap-data-science/
 - [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
-1. Como testar disponibilidade, latência, entradas inválidas e rollback antes de chamar um serviço de pronto?
-2. Em qual exercício de **Publicação do serviço** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Publicação do serviço** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
-6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual prática melhora a manutenção de uma solução de **Publicação do serviço**?
+
+- [ ] A) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
+- [ ] B) Colocar dados, regras e execução em uma única função.
+- [ ] C) Salvar segredos diretamente no código.
+- [ ] D) Alterar vários comportamentos sem registrar o motivo.
+- [ ] E) Duplicar trechos para evitar criar funções.
+
+2. Qual estratégia de testes é mais adequada em **Publicação do serviço**?
+
+- [ ] A) Criar testes que nunca falham para manter a integração verde.
+- [ ] B) Validar somente o caminho de sucesso.
+- [ ] C) Depender da mesma implementação para calcular e conferir a saída.
+- [ ] D) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
+- [ ] E) Testar apenas manualmente depois da publicação.
+
+3. Qual cuidado é essencial ao publicar uma aplicação de **Publicação do serviço**?
+
+- [ ] A) Remover validações para reduzir o tempo de resposta.
+- [ ] B) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
+- [ ] C) Usar diretamente a última alteração sem versão.
+- [ ] D) Imprimir credenciais nos logs para facilitar suporte.
+- [ ] E) Modificar o ambiente de produção manualmente sem registro.
+
+4. Como saber se uma solução de **Publicação do serviço** continua saudável após a publicação?
+
+- [ ] A) Conferir somente se o computador do desenvolvedor está ligado.
+- [ ] B) Considerar ausência de reclamações como prova suficiente.
+- [ ] C) Observar apenas o uso de memória uma vez por mês.
+- [ ] D) Avaliar somente a métrica obtida durante o treinamento.
+- [ ] E) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
+
+5. Ordene uma mudança segura em **Publicação do serviço**.
+
+- A) Definir o comportamento que precisa mudar.
+- B) Criar ou ajustar testes que representem esse comportamento.
+- C) Versionar, publicar e observar a mudança.
+- D) Executar verificações locais e de integração.
+- E) Implementar uma alteração pequena e revisável.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a resposta a um problema após publicar **Publicação do serviço**.
+
+- A) Detectar o sintoma por métricas, logs ou alerta.
+- B) Delimitar usuários, versões e componentes afetados.
+- C) Republicar com controle e documentar o incidente.
+- D) Corrigir a causa e validar com testes.
+- E) Conter o impacto ou reverter para uma versão estável.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-100: publicacao-do-servico`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -4895,6 +10403,17 @@ roadmap-data-science/
 **Entrega da semana:** Demonstração em cloud/Databricks e desenho de arquitetura de produção.
 
 ## Dia 101 — Conceitos de cloud para dados — 21/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Conceitos de cloud para dados.
+- **Competência sugerida:** Cloud Computing para dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Cloud Computing para dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Conceitos de cloud para dados** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4902,7 +10421,6 @@ roadmap-data-science/
 - **Assunto central:** Conceitos de cloud para dados.
 - **Pasta/arquivo principal:** `semana-21/dia-101-conceitos-de-cloud-para-dados.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Desenhe arquitetura cloud para ingestão, armazenamento, treino, registro e serving usando um provedor à escolha.
@@ -4918,24 +10436,82 @@ roadmap-data-science/
 - [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
-1. Qual a diferença entre computação, armazenamento, rede, identidade e serviço gerenciado em cloud?
-2. Em qual exercício de **Conceitos de cloud para dados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Conceitos de cloud para dados** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
-6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de desenhar uma arquitetura para **Conceitos de cloud para dados**, o que deve ser levantado?
+
+- [ ] A) Somente a linguagem preferida pelo desenvolvedor.
+- [ ] B) A ferramenta mais popular nas redes sociais.
+- [ ] C) A quantidade máxima de serviços que podem ser usados.
+- [ ] D) O nome comercial da arquitetura antes dos requisitos.
+- [ ] E) Volume, frequência, latência, segurança, disponibilidade, custo e necessidades dos consumidores.
+
+2. Como escolher armazenamento e processamento em **Conceitos de cloud para dados**?
+
+- [ ] A) Duplicando os dados em todos os serviços disponíveis.
+- [ ] B) Escolhendo processamento em tempo real para qualquer tarefa.
+- [ ] C) Comparando padrões de acesso, escala, formato dos dados, desempenho necessário e custo total.
+- [ ] D) Usando sempre o serviço mais caro.
+- [ ] E) Armazenando todos os dados no mesmo formato sem avaliar o uso.
+
+3. Qual princípio de segurança deve orientar **Conceitos de cloud para dados**?
+
+- [ ] A) Conceder o menor privilégio necessário, proteger segredos e manter auditoria dos acessos.
+- [ ] B) Compartilhar uma credencial administrativa entre toda a equipe.
+- [ ] C) Liberar acesso público para simplificar integrações.
+- [ ] D) Salvar chaves em arquivos enviados ao repositório.
+- [ ] E) Desativar registros de acesso para reduzir armazenamento.
+
+4. Qual decisão torna uma arquitetura de **Conceitos de cloud para dados** mais sustentável?
+
+- [ ] A) Buscar disponibilidade máxima sem considerar impacto financeiro.
+- [ ] B) Ignorar custos pequenos porque nunca se acumulam.
+- [ ] C) Criar dependências manuais para cada execução.
+- [ ] D) Equilibrar confiabilidade e escala com simplicidade operacional e controle de custos.
+- [ ] E) Adicionar serviços mesmo quando não há necessidade.
+
+5. Ordene o desenho de uma solução para **Conceitos de cloud para dados**.
+
+- A) Validar a arquitetura com custo e cenários de falha.
+- B) Mapear fontes, fluxos, consumidores e dados sensíveis.
+- C) Definir requisitos funcionais e restrições.
+- D) Projetar segurança, observabilidade e recuperação.
+- E) Comparar componentes e seus principais trade-offs.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a evolução controlada de uma arquitetura de **Conceitos de cloud para dados**.
+
+- A) Medir o comportamento e o custo da solução atual.
+- B) Propor a menor mudança capaz de tratá-lo.
+- C) Implantar gradualmente e acompanhar os indicadores.
+- D) Testar desempenho, segurança e recuperação.
+- E) Identificar o gargalo ou risco prioritário.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-101: conceitos-de-cloud-para-dados`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 102 — Armazenamento e processamento — 22/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Armazenamento e processamento.
+- **Competência sugerida:** Armazenamento e processamento em cloud.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Armazenamento e processamento em cloud** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Armazenamento e processamento** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4943,7 +10519,6 @@ roadmap-data-science/
 - **Assunto central:** Armazenamento e processamento.
 - **Pasta/arquivo principal:** `semana-21/dia-102-armazenamento-e-processamento.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Compare objeto, arquivo, banco relacional, warehouse e lakehouse para quatro tipos de dados.
@@ -4959,24 +10534,82 @@ roadmap-data-science/
 - [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
-1. Como custo, latência, volume e segurança influenciam a arquitetura de dados?
-2. Em qual exercício de **Armazenamento e processamento** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Armazenamento e processamento** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
-6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de desenhar uma arquitetura para **Armazenamento e processamento**, o que deve ser levantado?
+
+- [ ] A) A ferramenta mais popular nas redes sociais.
+- [ ] B) A quantidade máxima de serviços que podem ser usados.
+- [ ] C) O nome comercial da arquitetura antes dos requisitos.
+- [ ] D) Volume, frequência, latência, segurança, disponibilidade, custo e necessidades dos consumidores.
+- [ ] E) Somente a linguagem preferida pelo desenvolvedor.
+
+2. Como escolher armazenamento e processamento em **Armazenamento e processamento**?
+
+- [ ] A) Escolhendo processamento em tempo real para qualquer tarefa.
+- [ ] B) Comparando padrões de acesso, escala, formato dos dados, desempenho necessário e custo total.
+- [ ] C) Usando sempre o serviço mais caro.
+- [ ] D) Armazenando todos os dados no mesmo formato sem avaliar o uso.
+- [ ] E) Duplicando os dados em todos os serviços disponíveis.
+
+3. Qual princípio de segurança deve orientar **Armazenamento e processamento**?
+
+- [ ] A) Compartilhar uma credencial administrativa entre toda a equipe.
+- [ ] B) Liberar acesso público para simplificar integrações.
+- [ ] C) Salvar chaves em arquivos enviados ao repositório.
+- [ ] D) Desativar registros de acesso para reduzir armazenamento.
+- [ ] E) Conceder o menor privilégio necessário, proteger segredos e manter auditoria dos acessos.
+
+4. Qual decisão torna uma arquitetura de **Armazenamento e processamento** mais sustentável?
+
+- [ ] A) Ignorar custos pequenos porque nunca se acumulam.
+- [ ] B) Criar dependências manuais para cada execução.
+- [ ] C) Equilibrar confiabilidade e escala com simplicidade operacional e controle de custos.
+- [ ] D) Adicionar serviços mesmo quando não há necessidade.
+- [ ] E) Buscar disponibilidade máxima sem considerar impacto financeiro.
+
+5. Ordene o desenho de uma solução para **Armazenamento e processamento**.
+
+- A) Definir requisitos funcionais e restrições.
+- B) Mapear fontes, fluxos, consumidores e dados sensíveis.
+- C) Validar a arquitetura com custo e cenários de falha.
+- D) Projetar segurança, observabilidade e recuperação.
+- E) Comparar componentes e seus principais trade-offs.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a evolução controlada de uma arquitetura de **Armazenamento e processamento**.
+
+- A) Propor a menor mudança capaz de tratá-lo.
+- B) Implantar gradualmente e acompanhar os indicadores.
+- C) Medir o comportamento e o custo da solução atual.
+- D) Testar desempenho, segurança e recuperação.
+- E) Identificar o gargalo ou risco prioritário.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-102: armazenamento-e-processamento`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 103 — Databricks aplicado — 23/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Databricks aplicado.
+- **Competência sugerida:** Databricks.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Databricks** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Databricks aplicado** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -4984,7 +10617,6 @@ roadmap-data-science/
 - **Assunto central:** Databricks aplicado.
 - **Pasta/arquivo principal:** `semana-21/dia-103-databricks-aplicado.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Monte notebook Databricks com ingestão, limpeza, SQL, feature table e treino simples.
@@ -5000,24 +10632,82 @@ roadmap-data-science/
 - [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
-1. Como notebooks, jobs, clusters e tabelas se conectam em um fluxo reprodutível?
-2. Em qual exercício de **Databricks aplicado** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Databricks aplicado** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
-6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de desenhar uma arquitetura para **Databricks aplicado**, o que deve ser levantado?
+
+- [ ] A) A quantidade máxima de serviços que podem ser usados.
+- [ ] B) O nome comercial da arquitetura antes dos requisitos.
+- [ ] C) Volume, frequência, latência, segurança, disponibilidade, custo e necessidades dos consumidores.
+- [ ] D) Somente a linguagem preferida pelo desenvolvedor.
+- [ ] E) A ferramenta mais popular nas redes sociais.
+
+2. Como escolher armazenamento e processamento em **Databricks aplicado**?
+
+- [ ] A) Comparando padrões de acesso, escala, formato dos dados, desempenho necessário e custo total.
+- [ ] B) Usando sempre o serviço mais caro.
+- [ ] C) Armazenando todos os dados no mesmo formato sem avaliar o uso.
+- [ ] D) Duplicando os dados em todos os serviços disponíveis.
+- [ ] E) Escolhendo processamento em tempo real para qualquer tarefa.
+
+3. Qual princípio de segurança deve orientar **Databricks aplicado**?
+
+- [ ] A) Liberar acesso público para simplificar integrações.
+- [ ] B) Salvar chaves em arquivos enviados ao repositório.
+- [ ] C) Desativar registros de acesso para reduzir armazenamento.
+- [ ] D) Conceder o menor privilégio necessário, proteger segredos e manter auditoria dos acessos.
+- [ ] E) Compartilhar uma credencial administrativa entre toda a equipe.
+
+4. Qual decisão torna uma arquitetura de **Databricks aplicado** mais sustentável?
+
+- [ ] A) Criar dependências manuais para cada execução.
+- [ ] B) Equilibrar confiabilidade e escala com simplicidade operacional e controle de custos.
+- [ ] C) Adicionar serviços mesmo quando não há necessidade.
+- [ ] D) Buscar disponibilidade máxima sem considerar impacto financeiro.
+- [ ] E) Ignorar custos pequenos porque nunca se acumulam.
+
+5. Ordene o desenho de uma solução para **Databricks aplicado**.
+
+- A) Definir requisitos funcionais e restrições.
+- B) Comparar componentes e seus principais trade-offs.
+- C) Validar a arquitetura com custo e cenários de falha.
+- D) Projetar segurança, observabilidade e recuperação.
+- E) Mapear fontes, fluxos, consumidores e dados sensíveis.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a evolução controlada de uma arquitetura de **Databricks aplicado**.
+
+- A) Medir o comportamento e o custo da solução atual.
+- B) Implantar gradualmente e acompanhar os indicadores.
+- C) Propor a menor mudança capaz de tratá-lo.
+- D) Testar desempenho, segurança e recuperação.
+- E) Identificar o gargalo ou risco prioritário.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-103: databricks-aplicado`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 104 — MLOps introdutório — 24/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** MLOps introdutório.
+- **Competência sugerida:** MLOps.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **MLOps** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **MLOps introdutório** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5025,7 +10715,6 @@ roadmap-data-science/
 - **Assunto central:** MLOps introdutório.
 - **Pasta/arquivo principal:** `semana-21/dia-104-mlops-introdutorio.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie ciclo MLOps: versionar dados/código/modelo, treinar, validar, registrar, implantar, monitorar e re-treinar.
@@ -5041,24 +10730,82 @@ roadmap-data-science/
 - [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
-1. Quais artefatos precisam ser versionados para reproduzir treinamento e inferência?
-2. Em qual exercício de **MLOps introdutório** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **MLOps introdutório** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
-6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Antes de desenhar uma arquitetura para **MLOps introdutório**, o que deve ser levantado?
+
+- [ ] A) O nome comercial da arquitetura antes dos requisitos.
+- [ ] B) Volume, frequência, latência, segurança, disponibilidade, custo e necessidades dos consumidores.
+- [ ] C) Somente a linguagem preferida pelo desenvolvedor.
+- [ ] D) A ferramenta mais popular nas redes sociais.
+- [ ] E) A quantidade máxima de serviços que podem ser usados.
+
+2. Como escolher armazenamento e processamento em **MLOps introdutório**?
+
+- [ ] A) Usando sempre o serviço mais caro.
+- [ ] B) Armazenando todos os dados no mesmo formato sem avaliar o uso.
+- [ ] C) Duplicando os dados em todos os serviços disponíveis.
+- [ ] D) Escolhendo processamento em tempo real para qualquer tarefa.
+- [ ] E) Comparando padrões de acesso, escala, formato dos dados, desempenho necessário e custo total.
+
+3. Qual princípio de segurança deve orientar **MLOps introdutório**?
+
+- [ ] A) Salvar chaves em arquivos enviados ao repositório.
+- [ ] B) Desativar registros de acesso para reduzir armazenamento.
+- [ ] C) Conceder o menor privilégio necessário, proteger segredos e manter auditoria dos acessos.
+- [ ] D) Compartilhar uma credencial administrativa entre toda a equipe.
+- [ ] E) Liberar acesso público para simplificar integrações.
+
+4. Qual decisão torna uma arquitetura de **MLOps introdutório** mais sustentável?
+
+- [ ] A) Equilibrar confiabilidade e escala com simplicidade operacional e controle de custos.
+- [ ] B) Adicionar serviços mesmo quando não há necessidade.
+- [ ] C) Buscar disponibilidade máxima sem considerar impacto financeiro.
+- [ ] D) Ignorar custos pequenos porque nunca se acumulam.
+- [ ] E) Criar dependências manuais para cada execução.
+
+5. Ordene o desenho de uma solução para **MLOps introdutório**.
+
+- A) Comparar componentes e seus principais trade-offs.
+- B) Validar a arquitetura com custo e cenários de falha.
+- C) Definir requisitos funcionais e restrições.
+- D) Projetar segurança, observabilidade e recuperação.
+- E) Mapear fontes, fluxos, consumidores e dados sensíveis.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a evolução controlada de uma arquitetura de **MLOps introdutório**.
+
+- A) Medir o comportamento e o custo da solução atual.
+- B) Propor a menor mudança capaz de tratá-lo.
+- C) Implantar gradualmente e acompanhar os indicadores.
+- D) Testar desempenho, segurança e recuperação.
+- E) Identificar o gargalo ou risco prioritário.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-104: mlops-introdutorio`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 105 — Arquitetura e entrevista — 25/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Arquitetura e entrevista.
+- **Competência sugerida:** Arquitetura de dados e Machine Learning.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Arquitetura de dados e Machine Learning** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Arquitetura e entrevista** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5066,7 +10813,6 @@ roadmap-data-science/
 - **Assunto central:** Arquitetura e entrevista.
 - **Pasta/arquivo principal:** `semana-21/dia-105-arquitetura-e-entrevista/` (pasta do projeto).
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Desenhe a arquitetura final do sistema de churn/risco com dados, pipeline, modelo, API e monitoramento.
@@ -5093,8 +10839,7 @@ roadmap-data-science/
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-105: arquitetura-e-entrevista`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -5128,6 +10873,17 @@ roadmap-data-science/
 **Entrega da semana:** Miniaplicação com LLM, prompts avaliados e registro de limitações.
 
 ## Dia 106 — Fundamentos de LLMs — 28/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Fundamentos de LLMs.
+- **Competência sugerida:** Large Language Models (LLMs).
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Large Language Models (LLMs)** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Fundamentos de LLMs** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5135,7 +10891,6 @@ roadmap-data-science/
 - **Assunto central:** Fundamentos de LLMs.
 - **Pasta/arquivo principal:** `semana-22/dia-106-fundamentos-de-llms.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escreva em `llm_fundamentos.md` a diferença entre modelo base, instruído, embeddings, contexto, temperatura e tokens.
@@ -5151,24 +10906,82 @@ roadmap-data-science/
 - [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
-1. O que são tokens, contexto, temperatura e alucinação, e quais limites eles impõem?
-2. Em qual exercício de **Fundamentos de LLMs** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Fundamentos de LLMs** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
-6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual estrutura torna uma solicitação de **Fundamentos de LLMs** mais controlável?
+
+- [ ] A) Uma frase vaga sem explicar a tarefa.
+- [ ] B) O maior texto possível, mesmo com informações irrelevantes.
+- [ ] C) Vários objetivos conflitantes na mesma instrução.
+- [ ] D) A ausência de critérios para aceitar a resposta.
+- [ ] E) Instrução clara, contexto necessário, restrições e formato de saída definido.
+
+2. Como avaliar uma aplicação relacionada a **Fundamentos de LLMs**?
+
+- [ ] A) Trocar os critérios para favorecer a versão mais recente.
+- [ ] B) Usar somente exemplos escritos pelo próprio modelo.
+- [ ] C) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
+- [ ] D) Ler uma única resposta que parece convincente.
+- [ ] E) Avaliar apenas a fluidez do texto.
+
+3. Qual cuidado de segurança é importante em **Fundamentos de LLMs**?
+
+- [ ] A) Tratar entradas como não confiáveis, limitar acesso a dados e ferramentas e revisar saídas sensíveis.
+- [ ] B) Permitir que qualquer texto altere as regras do sistema.
+- [ ] C) Enviar dados pessoais sem necessidade.
+- [ ] D) Executar automaticamente toda ação sugerida pelo modelo.
+- [ ] E) Ocultar fontes e limitações do usuário.
+
+4. Quando uma resposta de **Fundamentos de LLMs** apoia uma decisão importante, qual prática é mais adequada?
+
+- [ ] A) Considerar confiança verbal equivalente a precisão.
+- [ ] B) Remover avisos para deixar a saída mais direta.
+- [ ] C) Usar o modelo como única fonte para qualquer decisão.
+- [ ] D) Exigir evidência verificável e revisão humana proporcional ao risco.
+- [ ] E) Aceitar a resposta quando ela estiver bem escrita.
+
+5. Ordene o desenvolvimento de uma funcionalidade de **Fundamentos de LLMs**.
+
+- A) Definir usuário, tarefa, risco e critérios de qualidade.
+- B) Estruturar instruções, contexto e formato de saída.
+- C) Criar casos de avaliação antes de ajustar a solução.
+- D) Adicionar controles, documentar limites e monitorar o uso.
+- E) Executar avaliações e analisar tipos de falha.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a melhoria de uma aplicação de **Fundamentos de LLMs**.
+
+- A) Publicar apenas após revisar qualidade, segurança e custo.
+- B) Alterar uma parte controlada da solução.
+- C) Classificar os erros por causa e impacto.
+- D) Comparar a nova versão com a anterior nos mesmos casos.
+- E) Reunir exemplos reais de sucesso e falha.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-106: fundamentos-de-llms`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 107 — APIs e prompts estruturados — 29/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** APIs e prompts estruturados.
+- **Competência sugerida:** Prompt Engineering e APIs.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Prompt Engineering e APIs** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **APIs e prompts estruturados** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5176,7 +10989,6 @@ roadmap-data-science/
 - **Assunto central:** APIs e prompts estruturados.
 - **Pasta/arquivo principal:** `semana-22/dia-107-apis-e-prompts-estruturados.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie script que chama uma API de LLM ou um mock local e recebe pergunta estruturada.
@@ -5192,24 +11004,82 @@ roadmap-data-science/
 - [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
-1. Como estruturar entrada, saída e validação para reduzir respostas imprevisíveis de um LLM?
-2. Em qual exercício de **APIs e prompts estruturados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **APIs e prompts estruturados** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
-6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual estrutura torna uma solicitação de **APIs e prompts estruturados** mais controlável?
+
+- [ ] A) O maior texto possível, mesmo com informações irrelevantes.
+- [ ] B) Vários objetivos conflitantes na mesma instrução.
+- [ ] C) A ausência de critérios para aceitar a resposta.
+- [ ] D) Instrução clara, contexto necessário, restrições e formato de saída definido.
+- [ ] E) Uma frase vaga sem explicar a tarefa.
+
+2. Como avaliar uma aplicação relacionada a **APIs e prompts estruturados**?
+
+- [ ] A) Usar somente exemplos escritos pelo próprio modelo.
+- [ ] B) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
+- [ ] C) Ler uma única resposta que parece convincente.
+- [ ] D) Avaliar apenas a fluidez do texto.
+- [ ] E) Trocar os critérios para favorecer a versão mais recente.
+
+3. Qual cuidado de segurança é importante em **APIs e prompts estruturados**?
+
+- [ ] A) Permitir que qualquer texto altere as regras do sistema.
+- [ ] B) Enviar dados pessoais sem necessidade.
+- [ ] C) Executar automaticamente toda ação sugerida pelo modelo.
+- [ ] D) Ocultar fontes e limitações do usuário.
+- [ ] E) Tratar entradas como não confiáveis, limitar acesso a dados e ferramentas e revisar saídas sensíveis.
+
+4. Quando uma resposta de **APIs e prompts estruturados** apoia uma decisão importante, qual prática é mais adequada?
+
+- [ ] A) Remover avisos para deixar a saída mais direta.
+- [ ] B) Usar o modelo como única fonte para qualquer decisão.
+- [ ] C) Exigir evidência verificável e revisão humana proporcional ao risco.
+- [ ] D) Aceitar a resposta quando ela estiver bem escrita.
+- [ ] E) Considerar confiança verbal equivalente a precisão.
+
+5. Ordene o desenvolvimento de uma funcionalidade de **APIs e prompts estruturados**.
+
+- A) Estruturar instruções, contexto e formato de saída.
+- B) Criar casos de avaliação antes de ajustar a solução.
+- C) Definir usuário, tarefa, risco e critérios de qualidade.
+- D) Adicionar controles, documentar limites e monitorar o uso.
+- E) Executar avaliações e analisar tipos de falha.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a melhoria de uma aplicação de **APIs e prompts estruturados**.
+
+- A) Alterar uma parte controlada da solução.
+- B) Classificar os erros por causa e impacto.
+- C) Publicar apenas após revisar qualidade, segurança e custo.
+- D) Comparar a nova versão com a anterior nos mesmos casos.
+- E) Reunir exemplos reais de sucesso e falha.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-107: apis-e-prompts-estruturados`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 108 — Embeddings e busca semântica — 30/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Embeddings e busca semântica.
+- **Competência sugerida:** Embeddings e busca semântica.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Embeddings e busca semântica** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Embeddings e busca semântica** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5217,7 +11087,6 @@ roadmap-data-science/
 - **Assunto central:** Embeddings e busca semântica.
 - **Pasta/arquivo principal:** `semana-22/dia-108-embeddings-e-busca-semantica.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie 12 pequenos documentos de suporte e gere embeddings com biblioteca disponível ou use vetores simulados para entender o fluxo.
@@ -5233,24 +11102,82 @@ roadmap-data-science/
 - [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
-1. O que a similaridade vetorial representa e por que proximidade semântica não garante resposta correta?
-2. Em qual exercício de **Embeddings e busca semântica** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Embeddings e busca semântica** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
-6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual estrutura torna uma solicitação de **Embeddings e busca semântica** mais controlável?
+
+- [ ] A) Vários objetivos conflitantes na mesma instrução.
+- [ ] B) A ausência de critérios para aceitar a resposta.
+- [ ] C) Instrução clara, contexto necessário, restrições e formato de saída definido.
+- [ ] D) Uma frase vaga sem explicar a tarefa.
+- [ ] E) O maior texto possível, mesmo com informações irrelevantes.
+
+2. Como avaliar uma aplicação relacionada a **Embeddings e busca semântica**?
+
+- [ ] A) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
+- [ ] B) Ler uma única resposta que parece convincente.
+- [ ] C) Avaliar apenas a fluidez do texto.
+- [ ] D) Trocar os critérios para favorecer a versão mais recente.
+- [ ] E) Usar somente exemplos escritos pelo próprio modelo.
+
+3. Qual cuidado de segurança é importante em **Embeddings e busca semântica**?
+
+- [ ] A) Enviar dados pessoais sem necessidade.
+- [ ] B) Executar automaticamente toda ação sugerida pelo modelo.
+- [ ] C) Ocultar fontes e limitações do usuário.
+- [ ] D) Tratar entradas como não confiáveis, limitar acesso a dados e ferramentas e revisar saídas sensíveis.
+- [ ] E) Permitir que qualquer texto altere as regras do sistema.
+
+4. Quando uma resposta de **Embeddings e busca semântica** apoia uma decisão importante, qual prática é mais adequada?
+
+- [ ] A) Usar o modelo como única fonte para qualquer decisão.
+- [ ] B) Exigir evidência verificável e revisão humana proporcional ao risco.
+- [ ] C) Aceitar a resposta quando ela estiver bem escrita.
+- [ ] D) Considerar confiança verbal equivalente a precisão.
+- [ ] E) Remover avisos para deixar a saída mais direta.
+
+5. Ordene o desenvolvimento de uma funcionalidade de **Embeddings e busca semântica**.
+
+- A) Definir usuário, tarefa, risco e critérios de qualidade.
+- B) Criar casos de avaliação antes de ajustar a solução.
+- C) Adicionar controles, documentar limites e monitorar o uso.
+- D) Executar avaliações e analisar tipos de falha.
+- E) Estruturar instruções, contexto e formato de saída.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a melhoria de uma aplicação de **Embeddings e busca semântica**.
+
+- A) Publicar apenas após revisar qualidade, segurança e custo.
+- B) Classificar os erros por causa e impacto.
+- C) Alterar uma parte controlada da solução.
+- D) Comparar a nova versão com a anterior nos mesmos casos.
+- E) Reunir exemplos reais de sucesso e falha.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-108: embeddings-e-busca-semantica`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 109 — Avaliação de aplicações LLM — 31/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Avaliação de aplicações LLM.
+- **Competência sugerida:** Avaliação de aplicações com LLMs.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Avaliação de aplicações com LLMs** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Avaliação de aplicações LLM** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5258,7 +11185,6 @@ roadmap-data-science/
 - **Assunto central:** Avaliação de aplicações LLM.
 - **Pasta/arquivo principal:** `semana-22/dia-109-avaliacao-de-aplicacoes-llm.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie conjunto de 25 perguntas com resposta esperada e fonte correta.
@@ -5274,24 +11200,82 @@ roadmap-data-science/
 - [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
-1. Como separar avaliação de recuperação, fidelidade, utilidade, segurança, custo e latência?
-2. Em qual exercício de **Avaliação de aplicações LLM** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Avaliação de aplicações LLM** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
-6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual estrutura torna uma solicitação de **Avaliação de aplicações LLM** mais controlável?
+
+- [ ] A) A ausência de critérios para aceitar a resposta.
+- [ ] B) Instrução clara, contexto necessário, restrições e formato de saída definido.
+- [ ] C) Uma frase vaga sem explicar a tarefa.
+- [ ] D) O maior texto possível, mesmo com informações irrelevantes.
+- [ ] E) Vários objetivos conflitantes na mesma instrução.
+
+2. Como avaliar uma aplicação relacionada a **Avaliação de aplicações LLM**?
+
+- [ ] A) Ler uma única resposta que parece convincente.
+- [ ] B) Avaliar apenas a fluidez do texto.
+- [ ] C) Trocar os critérios para favorecer a versão mais recente.
+- [ ] D) Usar somente exemplos escritos pelo próprio modelo.
+- [ ] E) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
+
+3. Qual cuidado de segurança é importante em **Avaliação de aplicações LLM**?
+
+- [ ] A) Executar automaticamente toda ação sugerida pelo modelo.
+- [ ] B) Ocultar fontes e limitações do usuário.
+- [ ] C) Tratar entradas como não confiáveis, limitar acesso a dados e ferramentas e revisar saídas sensíveis.
+- [ ] D) Permitir que qualquer texto altere as regras do sistema.
+- [ ] E) Enviar dados pessoais sem necessidade.
+
+4. Quando uma resposta de **Avaliação de aplicações LLM** apoia uma decisão importante, qual prática é mais adequada?
+
+- [ ] A) Exigir evidência verificável e revisão humana proporcional ao risco.
+- [ ] B) Aceitar a resposta quando ela estiver bem escrita.
+- [ ] C) Considerar confiança verbal equivalente a precisão.
+- [ ] D) Remover avisos para deixar a saída mais direta.
+- [ ] E) Usar o modelo como única fonte para qualquer decisão.
+
+5. Ordene o desenvolvimento de uma funcionalidade de **Avaliação de aplicações LLM**.
+
+- A) Definir usuário, tarefa, risco e critérios de qualidade.
+- B) Adicionar controles, documentar limites e monitorar o uso.
+- C) Criar casos de avaliação antes de ajustar a solução.
+- D) Executar avaliações e analisar tipos de falha.
+- E) Estruturar instruções, contexto e formato de saída.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a melhoria de uma aplicação de **Avaliação de aplicações LLM**.
+
+- A) Reunir exemplos reais de sucesso e falha.
+- B) Classificar os erros por causa e impacto.
+- C) Publicar apenas após revisar qualidade, segurança e custo.
+- D) Comparar a nova versão com a anterior nos mesmos casos.
+- E) Alterar uma parte controlada da solução.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-109: avaliacao-de-aplicacoes-llm`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 110 — Miniaplicação de IA — 01/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Miniaplicação de IA.
+- **Competência sugerida:** Aplicações de IA Generativa.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Aplicações de IA Generativa** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Miniaplicação de IA** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5299,7 +11283,6 @@ roadmap-data-science/
 - **Assunto central:** Miniaplicação de IA.
 - **Pasta/arquivo principal:** `semana-22/dia-110-miniaplicacao-de-ia/` (pasta do projeto).
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha miniaplicação: assistente que classifica e resume chamados com recomendação baseada em regras.
@@ -5315,19 +11298,66 @@ roadmap-data-science/
 - [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
-1. Qual baseline sem IA deve ser comparado para provar que o LLM adiciona valor?
-2. Em qual exercício de **Miniaplicação de IA** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Miniaplicação de IA** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
-6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual estrutura torna uma solicitação de **Miniaplicação de IA** mais controlável?
+
+- [ ] A) Instrução clara, contexto necessário, restrições e formato de saída definido.
+- [ ] B) Uma frase vaga sem explicar a tarefa.
+- [ ] C) O maior texto possível, mesmo com informações irrelevantes.
+- [ ] D) Vários objetivos conflitantes na mesma instrução.
+- [ ] E) A ausência de critérios para aceitar a resposta.
+
+2. Como avaliar uma aplicação relacionada a **Miniaplicação de IA**?
+
+- [ ] A) Avaliar apenas a fluidez do texto.
+- [ ] B) Trocar os critérios para favorecer a versão mais recente.
+- [ ] C) Usar somente exemplos escritos pelo próprio modelo.
+- [ ] D) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
+- [ ] E) Ler uma única resposta que parece convincente.
+
+3. Qual cuidado de segurança é importante em **Miniaplicação de IA**?
+
+- [ ] A) Ocultar fontes e limitações do usuário.
+- [ ] B) Tratar entradas como não confiáveis, limitar acesso a dados e ferramentas e revisar saídas sensíveis.
+- [ ] C) Permitir que qualquer texto altere as regras do sistema.
+- [ ] D) Enviar dados pessoais sem necessidade.
+- [ ] E) Executar automaticamente toda ação sugerida pelo modelo.
+
+4. Quando uma resposta de **Miniaplicação de IA** apoia uma decisão importante, qual prática é mais adequada?
+
+- [ ] A) Aceitar a resposta quando ela estiver bem escrita.
+- [ ] B) Considerar confiança verbal equivalente a precisão.
+- [ ] C) Remover avisos para deixar a saída mais direta.
+- [ ] D) Usar o modelo como única fonte para qualquer decisão.
+- [ ] E) Exigir evidência verificável e revisão humana proporcional ao risco.
+
+5. Ordene o desenvolvimento de uma funcionalidade de **Miniaplicação de IA**.
+
+- A) Adicionar controles, documentar limites e monitorar o uso.
+- B) Criar casos de avaliação antes de ajustar a solução.
+- C) Definir usuário, tarefa, risco e critérios de qualidade.
+- D) Executar avaliações e analisar tipos de falha.
+- E) Estruturar instruções, contexto e formato de saída.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a melhoria de uma aplicação de **Miniaplicação de IA**.
+
+- A) Publicar apenas após revisar qualidade, segurança e custo.
+- B) Classificar os erros por causa e impacto.
+- C) Reunir exemplos reais de sucesso e falha.
+- D) Comparar a nova versão com a anterior nos mesmos casos.
+- E) Alterar uma parte controlada da solução.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-110: miniaplicacao-de-ia`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -5365,6 +11395,17 @@ roadmap-data-science/
 **Entrega da semana:** Sistema RAG com fontes, avaliação, API e documentação.
 
 ## Dia 111 — Escopo e documentos — 04/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Escopo e documentos.
+- **Competência sugerida:** Definição de produtos RAG.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Definição de produtos RAG** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Escopo e documentos** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5372,7 +11413,6 @@ roadmap-data-science/
 - **Assunto central:** Escopo e documentos.
 - **Pasta/arquivo principal:** `semana-23/dia-111-escopo-e-documentos.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Defina escopo do RAG: responder apenas sobre procedimentos de suporte técnico presentes nos documentos.
@@ -5388,24 +11428,82 @@ roadmap-data-science/
 - [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
-1. Quais perguntas o RAG deve responder e quais documentos têm autoridade para sustentar respostas?
-2. Em qual exercício de **Escopo e documentos** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Escopo e documentos** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
-6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. O que reduz respostas sem apoio em uma solução de **Escopo e documentos**?
+
+- [ ] A) Pedir ao modelo para inventar detalhes quando faltar contexto.
+- [ ] B) Enviar documentos aleatórios para aumentar o volume.
+- [ ] C) Remover referências para deixar a resposta menor.
+- [ ] D) Usar somente o conhecimento geral do modelo.
+- [ ] E) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
+
+2. Qual escolha afeta diretamente a recuperação em **Escopo e documentos**?
+
+- [ ] A) A quantidade de parágrafos da resposta final.
+- [ ] B) O nome da variável que armazena o índice.
+- [ ] C) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
+- [ ] D) A cor da interface usada para enviar a pergunta.
+- [ ] E) A ordem alfabética dos nomes dos arquivos apenas.
+
+3. Como o sistema deve agir quando **Escopo e documentos** não encontra evidência suficiente?
+
+- [ ] A) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
+- [ ] B) Completar a resposta com uma suposição plausível.
+- [ ] C) Citar qualquer trecho recuperado, mesmo sem relação.
+- [ ] D) Ocultar que a busca não encontrou conteúdo.
+- [ ] E) Repetir a mesma afirmação com mais confiança.
+
+4. Qual avaliação ajuda a diagnosticar uma falha em **Escopo e documentos**?
+
+- [ ] A) Medir somente a velocidade de criação do índice.
+- [ ] B) Considerar toda citação como necessariamente relevante.
+- [ ] C) Trocar o modelo sem examinar os documentos recuperados.
+- [ ] D) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
+- [ ] E) Avaliar apenas o tamanho da resposta.
+
+5. Ordene o fluxo principal de uma solução de **Escopo e documentos**.
+
+- A) Coletar e validar documentos e metadados.
+- B) Dividir o conteúdo em trechos adequados.
+- C) Gerar uma resposta fundamentada e apresentar as fontes.
+- D) Recuperar trechos relevantes para a pergunta.
+- E) Gerar representações e construir o índice.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene o diagnóstico de uma resposta ruim em **Escopo e documentos**.
+
+- A) Registrar a pergunta, a resposta e as fontes recuperadas.
+- B) Corrigir a etapa responsável e repetir os mesmos testes.
+- C) Avaliar chunking, metadados, consulta e ranking da busca.
+- D) Avaliar se a geração respeitou o contexto recuperado.
+- E) Verificar se a informação necessária existe nos documentos.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-111: escopo-e-documentos`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 112 — Ingestão e chunking — 05/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Ingestão e chunking.
+- **Competência sugerida:** Ingestão de documentos e chunking.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Ingestão de documentos e chunking** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Ingestão e chunking** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5413,7 +11511,6 @@ roadmap-data-science/
 - **Assunto central:** Ingestão e chunking.
 - **Pasta/arquivo principal:** `semana-23/dia-112-ingestao-e-chunking.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Implemente leitura de Markdown/PDF/texto conforme os documentos escolhidos.
@@ -5429,24 +11526,82 @@ roadmap-data-science/
 - [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
-1. Como tamanho, sobreposição, estrutura e metadados dos chunks afetam recuperação?
-2. Em qual exercício de **Ingestão e chunking** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Ingestão e chunking** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
-6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. O que reduz respostas sem apoio em uma solução de **Ingestão e chunking**?
+
+- [ ] A) Enviar documentos aleatórios para aumentar o volume.
+- [ ] B) Remover referências para deixar a resposta menor.
+- [ ] C) Usar somente o conhecimento geral do modelo.
+- [ ] D) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
+- [ ] E) Pedir ao modelo para inventar detalhes quando faltar contexto.
+
+2. Qual escolha afeta diretamente a recuperação em **Ingestão e chunking**?
+
+- [ ] A) O nome da variável que armazena o índice.
+- [ ] B) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
+- [ ] C) A cor da interface usada para enviar a pergunta.
+- [ ] D) A ordem alfabética dos nomes dos arquivos apenas.
+- [ ] E) A quantidade de parágrafos da resposta final.
+
+3. Como o sistema deve agir quando **Ingestão e chunking** não encontra evidência suficiente?
+
+- [ ] A) Completar a resposta com uma suposição plausível.
+- [ ] B) Citar qualquer trecho recuperado, mesmo sem relação.
+- [ ] C) Ocultar que a busca não encontrou conteúdo.
+- [ ] D) Repetir a mesma afirmação com mais confiança.
+- [ ] E) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
+
+4. Qual avaliação ajuda a diagnosticar uma falha em **Ingestão e chunking**?
+
+- [ ] A) Considerar toda citação como necessariamente relevante.
+- [ ] B) Trocar o modelo sem examinar os documentos recuperados.
+- [ ] C) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
+- [ ] D) Avaliar apenas o tamanho da resposta.
+- [ ] E) Medir somente a velocidade de criação do índice.
+
+5. Ordene o fluxo principal de uma solução de **Ingestão e chunking**.
+
+- A) Coletar e validar documentos e metadados.
+- B) Gerar uma resposta fundamentada e apresentar as fontes.
+- C) Dividir o conteúdo em trechos adequados.
+- D) Recuperar trechos relevantes para a pergunta.
+- E) Gerar representações e construir o índice.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene o diagnóstico de uma resposta ruim em **Ingestão e chunking**.
+
+- A) Registrar a pergunta, a resposta e as fontes recuperadas.
+- B) Avaliar chunking, metadados, consulta e ranking da busca.
+- C) Corrigir a etapa responsável e repetir os mesmos testes.
+- D) Avaliar se a geração respeitou o contexto recuperado.
+- E) Verificar se a informação necessária existe nos documentos.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-112: ingestao-e-chunking`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 113 — Recuperação — 06/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Recuperação.
+- **Competência sugerida:** Recuperação de informação e busca vetorial.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Recuperação de informação e busca vetorial** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Recuperação** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5454,7 +11609,6 @@ roadmap-data-science/
 - **Assunto central:** Recuperação.
 - **Pasta/arquivo principal:** `semana-23/dia-113-recuperacao.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie índice vetorial e função `retrieve(query, k)`.
@@ -5470,24 +11624,82 @@ roadmap-data-science/
 - [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
-1. Como top-k, filtros e métricas de recall ajudam a diagnosticar falhas antes da geração?
-2. Em qual exercício de **Recuperação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Recuperação** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
-6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. O que reduz respostas sem apoio em uma solução de **Recuperação**?
+
+- [ ] A) Remover referências para deixar a resposta menor.
+- [ ] B) Usar somente o conhecimento geral do modelo.
+- [ ] C) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
+- [ ] D) Pedir ao modelo para inventar detalhes quando faltar contexto.
+- [ ] E) Enviar documentos aleatórios para aumentar o volume.
+
+2. Qual escolha afeta diretamente a recuperação em **Recuperação**?
+
+- [ ] A) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
+- [ ] B) A cor da interface usada para enviar a pergunta.
+- [ ] C) A ordem alfabética dos nomes dos arquivos apenas.
+- [ ] D) A quantidade de parágrafos da resposta final.
+- [ ] E) O nome da variável que armazena o índice.
+
+3. Como o sistema deve agir quando **Recuperação** não encontra evidência suficiente?
+
+- [ ] A) Citar qualquer trecho recuperado, mesmo sem relação.
+- [ ] B) Ocultar que a busca não encontrou conteúdo.
+- [ ] C) Repetir a mesma afirmação com mais confiança.
+- [ ] D) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
+- [ ] E) Completar a resposta com uma suposição plausível.
+
+4. Qual avaliação ajuda a diagnosticar uma falha em **Recuperação**?
+
+- [ ] A) Trocar o modelo sem examinar os documentos recuperados.
+- [ ] B) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
+- [ ] C) Avaliar apenas o tamanho da resposta.
+- [ ] D) Medir somente a velocidade de criação do índice.
+- [ ] E) Considerar toda citação como necessariamente relevante.
+
+5. Ordene o fluxo principal de uma solução de **Recuperação**.
+
+- A) Gerar representações e construir o índice.
+- B) Gerar uma resposta fundamentada e apresentar as fontes.
+- C) Coletar e validar documentos e metadados.
+- D) Recuperar trechos relevantes para a pergunta.
+- E) Dividir o conteúdo em trechos adequados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene o diagnóstico de uma resposta ruim em **Recuperação**.
+
+- A) Avaliar chunking, metadados, consulta e ranking da busca.
+- B) Corrigir a etapa responsável e repetir os mesmos testes.
+- C) Registrar a pergunta, a resposta e as fontes recuperadas.
+- D) Avaliar se a geração respeitou o contexto recuperado.
+- E) Verificar se a informação necessária existe nos documentos.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-113: recuperacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 114 — Geração com fontes — 07/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Geração com fontes.
+- **Competência sugerida:** RAG e geração fundamentada.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **RAG e geração fundamentada** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Geração com fontes** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5495,7 +11707,6 @@ roadmap-data-science/
 - **Assunto central:** Geração com fontes.
 - **Pasta/arquivo principal:** `semana-23/dia-114-geracao-com-fontes.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Construa prompt que exija resposta somente com contexto recuperado e citação das fontes.
@@ -5511,24 +11722,82 @@ roadmap-data-science/
 - [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
-1. Como exigir evidências, recusar falta de contexto e reduzir prompt injection?
-2. Em qual exercício de **Geração com fontes** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Geração com fontes** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
-6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. O que reduz respostas sem apoio em uma solução de **Geração com fontes**?
+
+- [ ] A) Usar somente o conhecimento geral do modelo.
+- [ ] B) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
+- [ ] C) Pedir ao modelo para inventar detalhes quando faltar contexto.
+- [ ] D) Enviar documentos aleatórios para aumentar o volume.
+- [ ] E) Remover referências para deixar a resposta menor.
+
+2. Qual escolha afeta diretamente a recuperação em **Geração com fontes**?
+
+- [ ] A) A cor da interface usada para enviar a pergunta.
+- [ ] B) A ordem alfabética dos nomes dos arquivos apenas.
+- [ ] C) A quantidade de parágrafos da resposta final.
+- [ ] D) O nome da variável que armazena o índice.
+- [ ] E) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
+
+3. Como o sistema deve agir quando **Geração com fontes** não encontra evidência suficiente?
+
+- [ ] A) Ocultar que a busca não encontrou conteúdo.
+- [ ] B) Repetir a mesma afirmação com mais confiança.
+- [ ] C) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
+- [ ] D) Completar a resposta com uma suposição plausível.
+- [ ] E) Citar qualquer trecho recuperado, mesmo sem relação.
+
+4. Qual avaliação ajuda a diagnosticar uma falha em **Geração com fontes**?
+
+- [ ] A) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
+- [ ] B) Avaliar apenas o tamanho da resposta.
+- [ ] C) Medir somente a velocidade de criação do índice.
+- [ ] D) Considerar toda citação como necessariamente relevante.
+- [ ] E) Trocar o modelo sem examinar os documentos recuperados.
+
+5. Ordene o fluxo principal de uma solução de **Geração com fontes**.
+
+- A) Coletar e validar documentos e metadados.
+- B) Gerar uma resposta fundamentada e apresentar as fontes.
+- C) Gerar representações e construir o índice.
+- D) Recuperar trechos relevantes para a pergunta.
+- E) Dividir o conteúdo em trechos adequados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene o diagnóstico de uma resposta ruim em **Geração com fontes**.
+
+- A) Registrar a pergunta, a resposta e as fontes recuperadas.
+- B) Corrigir a etapa responsável e repetir os mesmos testes.
+- C) Avaliar chunking, metadados, consulta e ranking da busca.
+- D) Avaliar se a geração respeitou o contexto recuperado.
+- E) Verificar se a informação necessária existe nos documentos.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-114: geracao-com-fontes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 115 — Avaliação e publicação — 08/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Avaliação e publicação.
+- **Competência sugerida:** IA Generativa e RAG.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **IA Generativa e RAG** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Avaliação e publicação** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5536,7 +11805,6 @@ roadmap-data-science/
 - **Assunto central:** Avaliação e publicação.
 - **Pasta/arquivo principal:** `semana-23/dia-115-avaliacao-e-publicacao/` (pasta do projeto).
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Execute avaliação completa das 30 perguntas e registre métricas de recuperação e geração.
@@ -5552,19 +11820,66 @@ roadmap-data-science/
 - [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
-1. Como medir qualidade do RAG com conjunto fixo de perguntas e análise de falhas?
-2. Em qual exercício de **Avaliação e publicação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Avaliação e publicação** seria usado para apoiar uma decisão real em dados ou IA?
-5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
-6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. O que reduz respostas sem apoio em uma solução de **Avaliação e publicação**?
+
+- [ ] A) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
+- [ ] B) Pedir ao modelo para inventar detalhes quando faltar contexto.
+- [ ] C) Enviar documentos aleatórios para aumentar o volume.
+- [ ] D) Remover referências para deixar a resposta menor.
+- [ ] E) Usar somente o conhecimento geral do modelo.
+
+2. Qual escolha afeta diretamente a recuperação em **Avaliação e publicação**?
+
+- [ ] A) A ordem alfabética dos nomes dos arquivos apenas.
+- [ ] B) A quantidade de parágrafos da resposta final.
+- [ ] C) O nome da variável que armazena o índice.
+- [ ] D) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
+- [ ] E) A cor da interface usada para enviar a pergunta.
+
+3. Como o sistema deve agir quando **Avaliação e publicação** não encontra evidência suficiente?
+
+- [ ] A) Repetir a mesma afirmação com mais confiança.
+- [ ] B) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
+- [ ] C) Completar a resposta com uma suposição plausível.
+- [ ] D) Citar qualquer trecho recuperado, mesmo sem relação.
+- [ ] E) Ocultar que a busca não encontrou conteúdo.
+
+4. Qual avaliação ajuda a diagnosticar uma falha em **Avaliação e publicação**?
+
+- [ ] A) Avaliar apenas o tamanho da resposta.
+- [ ] B) Medir somente a velocidade de criação do índice.
+- [ ] C) Considerar toda citação como necessariamente relevante.
+- [ ] D) Trocar o modelo sem examinar os documentos recuperados.
+- [ ] E) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
+
+5. Ordene o fluxo principal de uma solução de **Avaliação e publicação**.
+
+- A) Gerar representações e construir o índice.
+- B) Gerar uma resposta fundamentada e apresentar as fontes.
+- C) Coletar e validar documentos e metadados.
+- D) Recuperar trechos relevantes para a pergunta.
+- E) Dividir o conteúdo em trechos adequados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene o diagnóstico de uma resposta ruim em **Avaliação e publicação**.
+
+- A) Registrar a pergunta, a resposta e as fontes recuperadas.
+- B) Avaliar chunking, metadados, consulta e ranking da busca.
+- C) Corrigir a etapa responsável e repetir os mesmos testes.
+- D) Avaliar se a geração respeitou o contexto recuperado.
+- E) Verificar se a informação necessária existe nos documentos.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-115: avaliacao-e-publicacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -5602,6 +11917,17 @@ roadmap-data-science/
 **Entrega da semana:** MVP pequeno, executável e orientado a uma decisão real, usado como ensaio técnico para o projeto final.
 
 ## Dia 116 — Definição do produto integrador — 11/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Definição do produto integrador.
+- **Competência sugerida:** Desenvolvimento de produtos de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Desenvolvimento de produtos de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Definição do produto integrador** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5609,7 +11935,6 @@ roadmap-data-science/
 - **Assunto central:** Definição do produto integrador.
 - **Pasta/arquivo principal:** `semana-24/dia-116-definicao-do-produto-integrador.ipynb`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha um produto integrador entre churn, crédito, forecasting ou RAG e defina usuário, decisão e valor.
@@ -5625,24 +11950,82 @@ roadmap-data-science/
 - [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
-1. Qual usuário tomará qual decisão, e por que o MVP precisa de uma métrica técnica e outra de negócio?
-2. Em qual exercício de **Definição do produto integrador** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Definição do produto integrador** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
-6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual decisão deve orientar um produto de **Definição do produto integrador**?
+
+- [ ] A) Incluir o maior número possível de tecnologias.
+- [ ] B) Começar pela interface sem definir o problema.
+- [ ] C) Treinar um modelo antes de conhecer os dados.
+- [ ] D) Trocar o objetivo sempre que surgir uma ferramenta nova.
+- [ ] E) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
+
+2. O que reduz falhas entre componentes em **Definição do produto integrador**?
+
+- [ ] A) Depender de passos manuais não documentados.
+- [ ] B) Compartilhar estado interno sem uma interface definida.
+- [ ] C) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
+- [ ] D) Cada componente interpretar os campos de uma forma.
+- [ ] E) Alterar formatos sem avisar os consumidores.
+
+3. Qual teste oferece mais confiança em uma entrega de **Definição do produto integrador**?
+
+- [ ] A) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
+- [ ] B) Testar apenas cada tela isoladamente.
+- [ ] C) Conferir somente se os arquivos existem.
+- [ ] D) Executar apenas com o conjunto usado no desenvolvimento.
+- [ ] E) Ignorar erros externos quando o código local funciona.
+
+4. Como avaliar o valor de uma solução de **Definição do produto integrador** após a entrega?
+
+- [ ] A) Usar somente o número de tecnologias integradas.
+- [ ] B) Considerar publicação equivalente a sucesso.
+- [ ] C) Avaliar apenas comentários da equipe que desenvolveu.
+- [ ] D) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
+- [ ] E) Medir apenas a quantidade de linhas de código.
+
+5. Ordene a construção de um produto de **Definição do produto integrador**.
+
+- A) Definir usuário, problema, decisão e medida de sucesso.
+- B) Publicar, observar o uso e iterar com evidências.
+- C) Construir primeiro um fluxo mínimo de ponta a ponta.
+- D) Testar qualidade, integração, segurança e falhas.
+- E) Desenhar dados, componentes e contratos entre eles.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação da entrega de **Definição do produto integrador**.
+
+- A) Revisar documentação, configuração e instruções de execução.
+- B) Coletar feedback e priorizar correções ou melhorias.
+- C) Congelar o escopo e registrar critérios de conclusão.
+- D) Apresentar a solução com limitações e decisões técnicas.
+- E) Executar testes automatizados e manuais do fluxo completo.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-116: definicao-do-produto-integrador`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 117 — Dados, SQL e arquitetura — 12/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Dados, SQL e arquitetura.
+- **Competência sugerida:** SQL e arquitetura de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **SQL e arquitetura de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Dados, SQL e arquitetura** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5650,7 +12033,6 @@ roadmap-data-science/
 - **Assunto central:** Dados, SQL e arquitetura.
 - **Pasta/arquivo principal:** `semana-24/dia-117-dados-sql-e-arquitetura.ipynb`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie ou revise esquema SQL e pipeline de formação da base.
@@ -5666,24 +12048,82 @@ roadmap-data-science/
 - [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
-1. Como garantir que o fluxo dos dados até a interface seja rastreável e reproduzível?
-2. Em qual exercício de **Dados, SQL e arquitetura** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Dados, SQL e arquitetura** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
-6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual decisão deve orientar um produto de **Dados, SQL e arquitetura**?
+
+- [ ] A) Começar pela interface sem definir o problema.
+- [ ] B) Treinar um modelo antes de conhecer os dados.
+- [ ] C) Trocar o objetivo sempre que surgir uma ferramenta nova.
+- [ ] D) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
+- [ ] E) Incluir o maior número possível de tecnologias.
+
+2. O que reduz falhas entre componentes em **Dados, SQL e arquitetura**?
+
+- [ ] A) Compartilhar estado interno sem uma interface definida.
+- [ ] B) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
+- [ ] C) Cada componente interpretar os campos de uma forma.
+- [ ] D) Alterar formatos sem avisar os consumidores.
+- [ ] E) Depender de passos manuais não documentados.
+
+3. Qual teste oferece mais confiança em uma entrega de **Dados, SQL e arquitetura**?
+
+- [ ] A) Testar apenas cada tela isoladamente.
+- [ ] B) Conferir somente se os arquivos existem.
+- [ ] C) Executar apenas com o conjunto usado no desenvolvimento.
+- [ ] D) Ignorar erros externos quando o código local funciona.
+- [ ] E) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
+
+4. Como avaliar o valor de uma solução de **Dados, SQL e arquitetura** após a entrega?
+
+- [ ] A) Considerar publicação equivalente a sucesso.
+- [ ] B) Avaliar apenas comentários da equipe que desenvolveu.
+- [ ] C) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
+- [ ] D) Medir apenas a quantidade de linhas de código.
+- [ ] E) Usar somente o número de tecnologias integradas.
+
+5. Ordene a construção de um produto de **Dados, SQL e arquitetura**.
+
+- A) Definir usuário, problema, decisão e medida de sucesso.
+- B) Construir primeiro um fluxo mínimo de ponta a ponta.
+- C) Publicar, observar o uso e iterar com evidências.
+- D) Testar qualidade, integração, segurança e falhas.
+- E) Desenhar dados, componentes e contratos entre eles.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação da entrega de **Dados, SQL e arquitetura**.
+
+- A) Coletar feedback e priorizar correções ou melhorias.
+- B) Executar testes automatizados e manuais do fluxo completo.
+- C) Revisar documentação, configuração e instruções de execução.
+- D) Apresentar a solução com limitações e decisões técnicas.
+- E) Congelar o escopo e registrar critérios de conclusão.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-117: dados-sql-e-arquitetura`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 118 — EDA, baseline e decisão — 13/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** EDA, baseline e decisão.
+- **Competência sugerida:** EDA e baselines.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **EDA e baselines** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **EDA, baseline e decisão** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5691,7 +12131,6 @@ roadmap-data-science/
 - **Assunto central:** EDA, baseline e decisão.
 - **Pasta/arquivo principal:** `semana-24/dia-118-eda-baseline-e-decisao.ipynb`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Faça EDA focada nas hipóteses do produto.
@@ -5707,24 +12146,82 @@ roadmap-data-science/
 - [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
-1. Como provar que o baseline e a análise respondem à decisão definida no escopo?
-2. Em qual exercício de **EDA, baseline e decisão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **EDA, baseline e decisão** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
-6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual decisão deve orientar um produto de **EDA, baseline e decisão**?
+
+- [ ] A) Treinar um modelo antes de conhecer os dados.
+- [ ] B) Trocar o objetivo sempre que surgir uma ferramenta nova.
+- [ ] C) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
+- [ ] D) Incluir o maior número possível de tecnologias.
+- [ ] E) Começar pela interface sem definir o problema.
+
+2. O que reduz falhas entre componentes em **EDA, baseline e decisão**?
+
+- [ ] A) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
+- [ ] B) Cada componente interpretar os campos de uma forma.
+- [ ] C) Alterar formatos sem avisar os consumidores.
+- [ ] D) Depender de passos manuais não documentados.
+- [ ] E) Compartilhar estado interno sem uma interface definida.
+
+3. Qual teste oferece mais confiança em uma entrega de **EDA, baseline e decisão**?
+
+- [ ] A) Conferir somente se os arquivos existem.
+- [ ] B) Executar apenas com o conjunto usado no desenvolvimento.
+- [ ] C) Ignorar erros externos quando o código local funciona.
+- [ ] D) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
+- [ ] E) Testar apenas cada tela isoladamente.
+
+4. Como avaliar o valor de uma solução de **EDA, baseline e decisão** após a entrega?
+
+- [ ] A) Avaliar apenas comentários da equipe que desenvolveu.
+- [ ] B) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
+- [ ] C) Medir apenas a quantidade de linhas de código.
+- [ ] D) Usar somente o número de tecnologias integradas.
+- [ ] E) Considerar publicação equivalente a sucesso.
+
+5. Ordene a construção de um produto de **EDA, baseline e decisão**.
+
+- A) Construir primeiro um fluxo mínimo de ponta a ponta.
+- B) Desenhar dados, componentes e contratos entre eles.
+- C) Publicar, observar o uso e iterar com evidências.
+- D) Testar qualidade, integração, segurança e falhas.
+- E) Definir usuário, problema, decisão e medida de sucesso.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação da entrega de **EDA, baseline e decisão**.
+
+- A) Coletar feedback e priorizar correções ou melhorias.
+- B) Revisar documentação, configuração e instruções de execução.
+- C) Executar testes automatizados e manuais do fluxo completo.
+- D) Apresentar a solução com limitações e decisões técnicas.
+- E) Congelar o escopo e registrar critérios de conclusão.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-118: eda-baseline-e-decisao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 119 — Modelo, IA e interface — 14/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Modelo, IA e interface.
+- **Competência sugerida:** Produtos de IA.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Produtos de IA** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Modelo, IA e interface** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5732,7 +12229,6 @@ roadmap-data-science/
 - **Assunto central:** Modelo, IA e interface.
 - **Pasta/arquivo principal:** `semana-24/dia-119-modelo-ia-e-interface.ipynb`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine/integre o componente principal: modelo preditivo ou RAG.
@@ -5748,24 +12244,82 @@ roadmap-data-science/
 - [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
-1. Qual parte realmente precisa de IA e como comparar com uma solução mais simples?
-2. Em qual exercício de **Modelo, IA e interface** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Modelo, IA e interface** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
-6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual decisão deve orientar um produto de **Modelo, IA e interface**?
+
+- [ ] A) Trocar o objetivo sempre que surgir uma ferramenta nova.
+- [ ] B) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
+- [ ] C) Incluir o maior número possível de tecnologias.
+- [ ] D) Começar pela interface sem definir o problema.
+- [ ] E) Treinar um modelo antes de conhecer os dados.
+
+2. O que reduz falhas entre componentes em **Modelo, IA e interface**?
+
+- [ ] A) Cada componente interpretar os campos de uma forma.
+- [ ] B) Alterar formatos sem avisar os consumidores.
+- [ ] C) Depender de passos manuais não documentados.
+- [ ] D) Compartilhar estado interno sem uma interface definida.
+- [ ] E) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
+
+3. Qual teste oferece mais confiança em uma entrega de **Modelo, IA e interface**?
+
+- [ ] A) Executar apenas com o conjunto usado no desenvolvimento.
+- [ ] B) Ignorar erros externos quando o código local funciona.
+- [ ] C) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
+- [ ] D) Testar apenas cada tela isoladamente.
+- [ ] E) Conferir somente se os arquivos existem.
+
+4. Como avaliar o valor de uma solução de **Modelo, IA e interface** após a entrega?
+
+- [ ] A) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
+- [ ] B) Medir apenas a quantidade de linhas de código.
+- [ ] C) Usar somente o número de tecnologias integradas.
+- [ ] D) Considerar publicação equivalente a sucesso.
+- [ ] E) Avaliar apenas comentários da equipe que desenvolveu.
+
+5. Ordene a construção de um produto de **Modelo, IA e interface**.
+
+- A) Publicar, observar o uso e iterar com evidências.
+- B) Desenhar dados, componentes e contratos entre eles.
+- C) Construir primeiro um fluxo mínimo de ponta a ponta.
+- D) Testar qualidade, integração, segurança e falhas.
+- E) Definir usuário, problema, decisão e medida de sucesso.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação da entrega de **Modelo, IA e interface**.
+
+- A) Coletar feedback e priorizar correções ou melhorias.
+- B) Executar testes automatizados e manuais do fluxo completo.
+- C) Revisar documentação, configuração e instruções de execução.
+- D) Apresentar a solução com limitações e decisões técnicas.
+- E) Congelar o escopo e registrar critérios de conclusão.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-119: modelo-ia-e-interface`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 120 — Teste, apresentação e retrospectiva — 15/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Teste, apresentação e retrospectiva.
+- **Competência sugerida:** Testes e apresentação de produtos de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes e apresentação de produtos de dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Teste, apresentação e retrospectiva** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5773,7 +12327,6 @@ roadmap-data-science/
 - **Assunto central:** Teste, apresentação e retrospectiva.
 - **Pasta/arquivo principal:** `semana-24/dia-120-teste-apresentacao-e-retrospectiva/` (pasta do projeto).
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Execute testes funcionais, de dados e de decisão.
@@ -5789,19 +12342,66 @@ roadmap-data-science/
 - [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
-1. Que evidência de uso, falha ou feedback deve alterar a próxima versão?
-2. Em qual exercício de **Teste, apresentação e retrospectiva** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Teste, apresentação e retrospectiva** seria usado para apoiar uma decisão real em dados ou IA?
-5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
-6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual decisão deve orientar um produto de **Teste, apresentação e retrospectiva**?
+
+- [ ] A) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
+- [ ] B) Incluir o maior número possível de tecnologias.
+- [ ] C) Começar pela interface sem definir o problema.
+- [ ] D) Treinar um modelo antes de conhecer os dados.
+- [ ] E) Trocar o objetivo sempre que surgir uma ferramenta nova.
+
+2. O que reduz falhas entre componentes em **Teste, apresentação e retrospectiva**?
+
+- [ ] A) Alterar formatos sem avisar os consumidores.
+- [ ] B) Depender de passos manuais não documentados.
+- [ ] C) Compartilhar estado interno sem uma interface definida.
+- [ ] D) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
+- [ ] E) Cada componente interpretar os campos de uma forma.
+
+3. Qual teste oferece mais confiança em uma entrega de **Teste, apresentação e retrospectiva**?
+
+- [ ] A) Ignorar erros externos quando o código local funciona.
+- [ ] B) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
+- [ ] C) Testar apenas cada tela isoladamente.
+- [ ] D) Conferir somente se os arquivos existem.
+- [ ] E) Executar apenas com o conjunto usado no desenvolvimento.
+
+4. Como avaliar o valor de uma solução de **Teste, apresentação e retrospectiva** após a entrega?
+
+- [ ] A) Medir apenas a quantidade de linhas de código.
+- [ ] B) Usar somente o número de tecnologias integradas.
+- [ ] C) Considerar publicação equivalente a sucesso.
+- [ ] D) Avaliar apenas comentários da equipe que desenvolveu.
+- [ ] E) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
+
+5. Ordene a construção de um produto de **Teste, apresentação e retrospectiva**.
+
+- A) Publicar, observar o uso e iterar com evidências.
+- B) Construir primeiro um fluxo mínimo de ponta a ponta.
+- C) Desenhar dados, componentes e contratos entre eles.
+- D) Testar qualidade, integração, segurança e falhas.
+- E) Definir usuário, problema, decisão e medida de sucesso.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação da entrega de **Teste, apresentação e retrospectiva**.
+
+- A) Coletar feedback e priorizar correções ou melhorias.
+- B) Revisar documentação, configuração e instruções de execução.
+- C) Executar testes automatizados e manuais do fluxo completo.
+- D) Apresentar a solução com limitações e decisões técnicas.
+- E) Congelar o escopo e registrar critérios de conclusão.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-120: teste-apresentacao-e-retrospectiva`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -5952,6 +12552,17 @@ O backtest deve incluir:
 **Entrega da semana:** Portfólio revisado, currículo, simulado técnico e pré-projeto aprovado do TCC.
 
 ## Dia 121 — GitHub e portfólio — 18/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** GitHub e portfólio.
+- **Competência sugerida:** GitHub e portfólio profissional.
+- **Ação recomendada:** Mantenha o título atual, adicione ou reforce **GitHub e portfólio profissional** em Competências e organize os melhores repositórios para a seção Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **GitHub e portfólio** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -5959,7 +12570,6 @@ O backtest deve incluir:
 - **Assunto central:** GitHub e portfólio.
 - **Pasta/arquivo principal:** `semana-25/dia-121-github-e-portfolio.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Audite todos os repositórios: nome, descrição, README, licença, dependências, dados e execução.
@@ -5975,24 +12585,82 @@ O backtest deve incluir:
 - [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
-1. Que evidências fazem um recrutador confiar que você construiu e compreende um projeto?
-2. Em qual exercício de **GitHub e portfólio** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **GitHub e portfólio** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
-6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual conteúdo fortalece mais uma apresentação de **GitHub e portfólio**?
+
+- [ ] A) Uma lista extensa de ferramentas sem contexto.
+- [ ] B) Afirmações genéricas de domínio avançado.
+- [ ] C) Cópias de descrições encontradas em vagas.
+- [ ] D) Somente imagens, sem explicar o raciocínio.
+- [ ] E) Problema, decisões tomadas, evidências produzidas, limitações e impacto do trabalho.
+
+2. Como adaptar **GitHub e portfólio** a uma oportunidade profissional?
+
+- [ ] A) Ocultar responsabilidades e resultados concretos.
+- [ ] B) Repetir todas as palavras da vaga sem contexto.
+- [ ] C) Relacionar experiências verdadeiras e projetos relevantes aos requisitos prioritários da função.
+- [ ] D) Adicionar habilidades que ainda não foram praticadas.
+- [ ] E) Usar exatamente o mesmo texto para qualquer vaga.
+
+3. Qual é a melhor forma de falar sobre uma lacuna durante **GitHub e portfólio**?
+
+- [ ] A) Reconhecer o limite com honestidade e explicar como aprenderia ou validaria aquela parte.
+- [ ] B) Inventar uma experiência parecida.
+- [ ] C) Mudar de assunto sem responder.
+- [ ] D) Afirmar domínio total sem conseguir demonstrar.
+- [ ] E) Culpar a descrição da vaga pela pergunta.
+
+4. Qual resposta demonstra melhor experiência em uma entrevista ligada a **GitHub e portfólio**?
+
+- [ ] A) Uma resposta decorada que não explica sua participação.
+- [ ] B) Uma descrição longa apenas sobre a equipe.
+- [ ] C) Uma lista de tecnologias sem decisão ou efeito.
+- [ ] D) Uma história objetiva com contexto, ação própria, evidência e aprendizado.
+- [ ] E) Uma opinião ampla sem exemplo concreto.
+
+5. Ordene a preparação de um material de **GitHub e portfólio**.
+
+- A) Escrever uma narrativa clara sobre problema, ação e impacto.
+- B) Selecionar projetos e experiências com evidências relevantes.
+- C) Pedir feedback e ajustar os pontos menos convincentes.
+- D) Revisar precisão, links, legibilidade e consistência.
+- E) Definir função-alvo e competências que precisam ser demonstradas.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação para uma conversa profissional sobre **GitHub e portfólio**.
+
+- A) Praticar respostas curtas com contexto, ação e evidência.
+- B) Selecionar exemplos reais para competências técnicas e comportamentais.
+- C) Revisar os aprendizados e ajustar a próxima simulação.
+- D) Simular perguntas e identificar lacunas de explicação.
+- E) Pesquisar a função, a empresa e os problemas prováveis.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-121: github-e-portfolio`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 122 — Currículo, LinkedIn e narrativa — 19/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Currículo, LinkedIn e narrativa.
+- **Competência sugerida:** LinkedIn, currículo e marca profissional.
+- **Ação recomendada:** Mantenha o título atual, adicione ou reforce **LinkedIn, currículo e marca profissional** em Competências e atualize a seção Sobre com uma narrativa curta e comprovável.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Currículo, LinkedIn e narrativa** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -6000,7 +12668,6 @@ O backtest deve incluir:
 - **Assunto central:** Currículo, LinkedIn e narrativa.
 - **Pasta/arquivo principal:** `semana-25/dia-122-curriculo-linkedin-e-narrativa.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie currículo de uma página orientado a vagas júnior.
@@ -6016,24 +12683,82 @@ O backtest deve incluir:
 - [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
-1. Como transformar um projeto em resultado profissional sem inventar impacto?
-2. Em qual exercício de **Currículo, LinkedIn e narrativa** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Currículo, LinkedIn e narrativa** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
-6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Qual conteúdo fortalece mais uma apresentação de **Currículo, LinkedIn e narrativa**?
+
+- [ ] A) Afirmações genéricas de domínio avançado.
+- [ ] B) Cópias de descrições encontradas em vagas.
+- [ ] C) Somente imagens, sem explicar o raciocínio.
+- [ ] D) Problema, decisões tomadas, evidências produzidas, limitações e impacto do trabalho.
+- [ ] E) Uma lista extensa de ferramentas sem contexto.
+
+2. Como adaptar **Currículo, LinkedIn e narrativa** a uma oportunidade profissional?
+
+- [ ] A) Repetir todas as palavras da vaga sem contexto.
+- [ ] B) Relacionar experiências verdadeiras e projetos relevantes aos requisitos prioritários da função.
+- [ ] C) Adicionar habilidades que ainda não foram praticadas.
+- [ ] D) Usar exatamente o mesmo texto para qualquer vaga.
+- [ ] E) Ocultar responsabilidades e resultados concretos.
+
+3. Qual é a melhor forma de falar sobre uma lacuna durante **Currículo, LinkedIn e narrativa**?
+
+- [ ] A) Inventar uma experiência parecida.
+- [ ] B) Mudar de assunto sem responder.
+- [ ] C) Afirmar domínio total sem conseguir demonstrar.
+- [ ] D) Culpar a descrição da vaga pela pergunta.
+- [ ] E) Reconhecer o limite com honestidade e explicar como aprenderia ou validaria aquela parte.
+
+4. Qual resposta demonstra melhor experiência em uma entrevista ligada a **Currículo, LinkedIn e narrativa**?
+
+- [ ] A) Uma descrição longa apenas sobre a equipe.
+- [ ] B) Uma lista de tecnologias sem decisão ou efeito.
+- [ ] C) Uma história objetiva com contexto, ação própria, evidência e aprendizado.
+- [ ] D) Uma opinião ampla sem exemplo concreto.
+- [ ] E) Uma resposta decorada que não explica sua participação.
+
+5. Ordene a preparação de um material de **Currículo, LinkedIn e narrativa**.
+
+- A) Pedir feedback e ajustar os pontos menos convincentes.
+- B) Selecionar projetos e experiências com evidências relevantes.
+- C) Escrever uma narrativa clara sobre problema, ação e impacto.
+- D) Revisar precisão, links, legibilidade e consistência.
+- E) Definir função-alvo e competências que precisam ser demonstradas.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação para uma conversa profissional sobre **Currículo, LinkedIn e narrativa**.
+
+- A) Selecionar exemplos reais para competências técnicas e comportamentais.
+- B) Praticar respostas curtas com contexto, ação e evidência.
+- C) Simular perguntas e identificar lacunas de explicação.
+- D) Revisar os aprendizados e ajustar a próxima simulação.
+- E) Pesquisar a função, a empresa e os problemas prováveis.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-122: curriculo-linkedin-e-narrativa`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 123 — Simulado de Python e SQL — 20/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Simulado de Python e SQL.
+- **Competência sugerida:** Python e SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python e SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Simulado de Python e SQL** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -6041,7 +12766,6 @@ O backtest deve incluir:
 - **Assunto central:** Simulado de Python e SQL.
 - **Pasta/arquivo principal:** `semana-25/dia-123-simulado-de-python-e-sql.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Resolva 10 exercícios de Python cronometrados sobre listas, funções, arquivos, pandas e tratamento de erro.
@@ -6057,24 +12781,82 @@ O backtest deve incluir:
 - [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
-1. Quais erros de raciocínio se repetiram e como você os detectará mais cedo na próxima tentativa?
-2. Em qual exercício de **Simulado de Python e SQL** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Simulado de Python e SQL** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
-6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Em um simulado de **Simulado de Python e SQL**, qual abordagem demonstra melhor domínio técnico?
+
+- [ ] A) Evitar comentar escolhas quando houver ambiguidade.
+- [ ] B) Mudar o enunciado para combinar com o código.
+- [ ] C) Explicar a lógica, implementar de forma legível e verificar a solução com exemplos diferentes.
+- [ ] D) Entregar somente a saída sem mostrar o raciocínio.
+- [ ] E) Usar a solução mais longa para parecer completa.
+
+2. Qual cuidado é essencial ao resolver a parte de SQL em **Simulado de Python e SQL**?
+
+- [ ] A) Definir granularidade e conferir filtros, chaves, duplicidades e valores nulos.
+- [ ] B) Usar todas as tabelas disponíveis.
+- [ ] C) Escolher sempre a consulta com mais subqueries.
+- [ ] D) Aplicar `DISTINCT` a qualquer resultado duplicado.
+- [ ] E) Conferir apenas se a consulta executa.
+
+3. Ao escolher entre Python e SQL em **Simulado de Python e SQL**, qual critério é mais adequado?
+
+- [ ] A) Usar SQL somente quando não houver cálculos.
+- [ ] B) Escolher pela menor quantidade de caracteres.
+- [ ] C) Trocar de ferramenta no meio sem justificar.
+- [ ] D) Usar a ferramenta compatível com a localização dos dados, a transformação e a necessidade de reutilização.
+- [ ] E) Usar Python para qualquer tarefa, sem considerar o banco.
+
+4. Depois de concluir uma solução de **Simulado de Python e SQL**, qual revisão é mais útil?
+
+- [ ] A) Considerar a primeira execução suficiente.
+- [ ] B) Reexaminar pressupostos, complexidade, casos-limite e clareza da explicação.
+- [ ] C) Alterar nomes aleatoriamente para produzir outra versão.
+- [ ] D) Remover testes para reduzir o material entregue.
+- [ ] E) Comparar apenas o tempo gasto com outros candidatos.
+
+5. Ordene a resolução de uma questão em **Simulado de Python e SQL**.
+
+- A) Ler e esclarecer entradas, saída e restrições.
+- B) Implementar uma versão simples e legível.
+- C) Esboçar a lógica e escolher a ferramenta adequada.
+- D) Testar exemplos e situações menos comuns.
+- E) Revisar complexidade e explicar as decisões.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma resposta incorreta em **Simulado de Python e SQL**.
+
+- A) Reproduzir a falha com o menor exemplo possível.
+- B) Identificar a transformação ou condição incorreta.
+- C) Comparar cada etapa da lógica com o enunciado.
+- D) Corrigir sem alterar partes não relacionadas.
+- E) Executar novamente os testes e registrar o aprendizado.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-123: simulado-de-python-e-sql`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 124 — Simulado de Estatística, ML e comportamento — 21/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Simulado de Estatística, ML e comportamento.
+- **Competência sugerida:** Estatística, Machine Learning e entrevistas.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Estatística, Machine Learning e entrevistas** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Simulado de Estatística, ML e comportamento** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -6082,7 +12864,6 @@ O backtest deve incluir:
 - **Assunto central:** Simulado de Estatística, ML e comportamento.
 - **Pasta/arquivo principal:** `semana-25/dia-124-simulado-de-estatistica-ml-e-comportamento.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Responda 15 perguntas de estatística: média/mediana, probabilidade, IC, teste, A/B, correlação e viés.
@@ -6098,24 +12879,82 @@ O backtest deve incluir:
 - [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
-1. Como explicar um conceito técnico com precisão para alguém não técnico?
-2. Em qual exercício de **Simulado de Estatística, ML e comportamento** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-4. Como o conhecimento de **Simulado de Estatística, ML e comportamento** seria usado para apoiar uma decisão real em dados ou IA?
-5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
-6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
+
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+
+1. Em uma questão de **Simulado de Estatística, ML e comportamento**, qual interpretação estatística é mais segura?
+
+- [ ] A) Escolher a conclusão pelo menor valor-p.
+- [ ] B) Considerar efeito, incerteza, amostragem e pressupostos antes de concluir.
+- [ ] C) Tratar correlação como prova de causa.
+- [ ] D) Ignorar a taxa-base quando a amostra é grande.
+- [ ] E) Usar somente a média para descrever qualquer distribuição.
+
+2. Qual prática evita uma avaliação otimista demais de ML em **Simulado de Estatística, ML e comportamento**?
+
+- [ ] A) Ajustar o modelo até maximizar a métrica no teste.
+- [ ] B) Pré-processar toda a base antes da separação.
+- [ ] C) Remover os erros mais difíceis da avaliação.
+- [ ] D) Usar o conjunto de treino como avaliação final.
+- [ ] E) Separar os dados corretamente e impedir que treino ou ajustes usem informações do teste ou do futuro.
+
+3. Como escolher entre modelos durante **Simulado de Estatística, ML e comportamento**?
+
+- [ ] A) Preferir o modelo com maior arquivo salvo.
+- [ ] B) Ignorar erros por segmento.
+- [ ] C) Comparar com o mesmo protocolo e considerar métrica, estabilidade, custo, interpretação e uso real.
+- [ ] D) Escolher automaticamente o algoritmo mais complexo.
+- [ ] E) Usar somente a maior métrica observada em uma divisão.
+
+4. Qual resposta comportamental combina melhor com um simulado de **Simulado de Estatística, ML e comportamento**?
+
+- [ ] A) Relatar uma situação real, sua ação específica, a evidência obtida e o aprendizado.
+- [ ] B) Responder apenas o que faria em uma situação imaginária.
+- [ ] C) Descrever somente o trabalho de outras pessoas.
+- [ ] D) Evitar mencionar erros ou ajustes.
+- [ ] E) Listar características pessoais sem exemplo.
+
+5. Ordene a análise de um case em **Simulado de Estatística, ML e comportamento**.
+
+- A) Examinar dados, amostragem e possíveis vieses.
+- B) Criar uma validação compatível com o contexto.
+- C) Comparar baseline e alternativas com métricas adequadas.
+- D) Interpretar erros, incerteza e impacto da decisão.
+- E) Definir problema, população, alvo e decisão.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma resposta técnica durante **Simulado de Estatística, ML e comportamento**.
+
+- A) Explicar a solução em etapas curtas.
+- B) Declarar os principais pressupostos.
+- C) Confirmar o que a pergunta solicita.
+- D) Apontar como verificaria a conclusão.
+- E) Mencionar limitações e alternativas relevantes.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-124: simulado-de-estatistica-ml-e-comportamento`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ## Dia 125 — Pré-projeto e banca zero do TCC — 22/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Pré-projeto e banca zero do TCC.
+- **Competência sugerida:** Planejamento de projetos de Ciência de Dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Planejamento de projetos de Ciência de Dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Pré-projeto e banca zero do TCC** produzindo um artefato executável e evidências de que você compreendeu o assunto.
 
@@ -6123,7 +12962,6 @@ O backtest deve incluir:
 - **Assunto central:** Pré-projeto e banca zero do TCC.
 - **Pasta/arquivo principal:** `semana-25/dia-125-pre-projeto-e-banca-zero-do-tcc/` (pasta do projeto).
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Congele o escopo do **Portfolio Intelligence Lab**, definindo universo de ativos, período histórico, frequência de rebalanceamento e fontes de dados.
@@ -6150,8 +12988,7 @@ O backtest deve incluir:
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
-- [ ] Commit realizado com mensagem no formato `dia-125: pre-projeto-e-banca-zero-do-tcc`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -6186,6 +13023,17 @@ O backtest deve incluir:
 **Entrega da semana:** Repositório reproduzível, pipeline de dados, motor de ranking, backtest walk-forward, dashboard/API, relatório técnico, resumo executivo, apresentação e defesa gravada.
 
 ## Dia 126 — TCC: universo, dados e protocolo financeiro — 25/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** TCC: universo, dados e protocolo financeiro.
+- **Competência sugerida:** Análise de dados financeiros.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise de dados financeiros** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Congelar o universo e criar uma base versionada cuja disponibilidade temporal possa ser auditada.
 
@@ -6221,12 +13069,23 @@ O backtest deve incluir:
 - [ ] Universo e regras de elegibilidade documentados.
 - [ ] Protocolo definido antes da modelagem.
 - [ ] Pelo menos três testes automáticos de qualidade aprovados.
-- [ ] Commit: `dia-126: universo-dados-e-protocolo-financeiro`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** relatório de qualidade, dicionário, protocolo e commit.
 
 ## Dia 127 — TCC: fatores e motor de ranking — 26/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** TCC: fatores e motor de ranking.
+- **Competência sugerida:** Factor Investing e ranking quantitativo.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Factor Investing e ranking quantitativo** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Construir fatores auditáveis e um ranking separado para ações, ETFs e FIIs.
 
@@ -6257,12 +13116,23 @@ O backtest deve incluir:
 - [ ] Ranking reproduzível para cada data e classe.
 - [ ] Features possuem ficha de disponibilidade temporal.
 - [ ] Resultados incluem falhas, não apenas o melhor período.
-- [ ] Commit: `dia-127: fatores-e-motor-quantitativo-de-ranking`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** tabela de fatores, ranking, métricas e commit.
 
 ## Dia 128 — TCC: carteiras e backtest walk-forward — 27/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** TCC: carteiras e backtest walk-forward.
+- **Competência sugerida:** Backtesting e construção de carteiras.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Backtesting e construção de carteiras** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Converter rankings em carteiras e avaliar risco-retorno fora da amostra.
 
@@ -6294,12 +13164,23 @@ O backtest deve incluir:
 - [ ] Custos aparecem em todos os resultados líquidos.
 - [ ] Há comparação dentro e fora da amostra.
 - [ ] Pelo menos três estratégias e um benchmark foram comparados.
-- [ ] Commit: `dia-128: carteiras-e-backtest-walk-forward`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** curvas, tabela de métricas, testes de sensibilidade e commit.
 
 ## Dia 129 — TCC: dashboard, API, testes e relatório — 28/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** TCC: dashboard, API, testes e relatório.
+- **Competência sugerida:** Dashboards, APIs e testes.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Dashboards, APIs e testes** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Transformar o estudo em produto demonstrável e reproduzível.
 
@@ -6330,12 +13211,23 @@ O backtest deve incluir:
 - [ ] Dashboard e API funcionam com dados versionados.
 - [ ] Testes e Docker passam em ambiente limpo.
 - [ ] Relatório contém método, resultados, limitações e reprodução.
-- [ ] Commit: `dia-129: produto-testes-e-relatorio-financeiro`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** demo, testes, relatório e commit.
 
 ## Dia 130 — TCC: publicação, banca e candidaturas — 29/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** TCC: publicação, banca e candidaturas.
+- **Competência sugerida:** Portfólio de Ciência de Dados e comunicação técnica.
+- **Ação recomendada:** Mantenha o título final e atualize as seções Sobre, Competências, Projetos e Destaques com o TCC, incluindo links e evidências.
+- **Título final recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Após o roadmap — revisar o perfil sempre que concluir um projeto relevante ou mudar o objetivo profissional.
+
 > [!abstract] Resultado concreto do dia
 > Publicar e defender o Portfolio Intelligence Lab como principal projeto do portfólio.
 
@@ -6381,7 +13273,7 @@ O backtest deve incluir:
 - [ ] Defesa gravada e perguntas respondidas sem ler o README.
 - [ ] Limitações e períodos ruins apresentados com honestidade.
 - [ ] Primeiras candidaturas registradas.
-- [ ] Commit: `dia-130: publicar-defender-e-iniciar-candidaturas`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** release, post, vídeo, candidaturas e retrospectiva.

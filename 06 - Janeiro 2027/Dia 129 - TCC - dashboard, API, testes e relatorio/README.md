@@ -48,16 +48,27 @@
 - [ ] Dashboard e API funcionam com dados versionados.
 - [ ] Testes e Docker passam em ambiente limpo.
 - [ ] Relatório contém método, resultados, limitações e reprodução.
-- [ ] Commit: `dia-129: produto-testes-e-relatorio-financeiro`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** demo, testes, relatório e commit.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** TCC: dashboard, API, testes e relatório.
+- **Competência sugerida:** Dashboards, APIs e testes.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Dashboards, APIs e testes** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

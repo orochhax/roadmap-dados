@@ -4,7 +4,7 @@
 
 ## Enunciado
 
-5. [ ] Crie `testes_manuais.md` com 10 cenários, resultado esperado, resultado obtido e status aprovado/reprovado.
+5. [ ] Crie `testes_manuais.md` com 10 cenários, entrada usada, resultado obtido e status aprovado/reprovado.
 
 ## Desenvolvimento
 

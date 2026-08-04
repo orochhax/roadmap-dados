@@ -8,7 +8,6 @@
 - **Assunto central:** Banco relacional e SELECT.
 - **Pasta/arquivo principal:** `semana-05/dia-021-banco-relacional-e-select.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Instale PostgreSQL ou use DuckDB; crie banco `roadmap_ds` e tabela `incidentes` com chave primária e tipos apropriados.
@@ -24,44 +23,86 @@
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Qual a função de chave primária e chave estrangeira, e por que normalização importa?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Banco relacional e SELECT** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de escrever uma consulta de **Banco relacional e SELECT**, o que deve ser definido primeiro?
 
-**Resposta:**
+- [ ] A) A quantidade máxima de linhas que caberá na tela.
+- [ ] B) A ordem alfabética dos nomes das tabelas.
+- [ ] C) O uso obrigatório de todas as colunas disponíveis.
+- [ ] D) A formatação visual da tabela final antes dos cálculos.
+- [ ] E) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Banco relacional e SELECT**?
 
-**Resposta:**
+- [ ] A) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] B) Selecionar todas as colunas para garantir que nada seja perdido.
+- [ ] C) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] D) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] E) Juntar tabelas por qualquer coluna com o mesmo tipo.
 
-4. Como o conhecimento de **Banco relacional e SELECT** seria usado para apoiar uma decisão real em dados ou IA?
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Banco relacional e SELECT**?
 
-**Resposta:**
+- [ ] A) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] B) Sempre como zero, porque simplifica as agregações.
+- [ ] C) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] D) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] E) Ignorando-os, pois bancos relacionais os convertem sozinhos.
 
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+4. Qual verificação aumenta mais a confiança em uma consulta de **Banco relacional e SELECT**?
 
-**Resposta:**
+- [ ] A) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] B) Limitar a saída a dez linhas e assumir que o restante está correto.
+- [ ] C) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] D) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] E) Executar a consulta apenas uma vez sem mensagem de erro.
 
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+5. Ordene a construção de uma consulta para **Banco relacional e SELECT**.
 
-**Resposta:**
+- A) Definir a pergunta, a métrica e a granularidade.
+- B) Identificar tabelas, campos e chaves necessárias.
+- C) Montar filtros e junções da base da consulta.
+- D) Validar contagens, totais e algumas linhas manualmente.
+- E) Aplicar agregações, janelas ou transformações necessárias.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Banco relacional e SELECT**.
+
+- A) Conferir chaves, duplicidades, filtros e contagens.
+- B) Executar separadamente cada etapa ou CTE.
+- C) Reproduzir o problema com um recorte pequeno.
+- D) Corrigir a etapa que altera os dados indevidamente.
+- E) Executar a consulta completa e registrar a causa do erro.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-021: banco-relacional-e-select`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Banco relacional e SELECT.
+- **Competência sugerida:** Bancos de dados relacionais e SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Bancos de dados relacionais e SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

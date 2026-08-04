@@ -8,7 +8,6 @@
 - **Assunto central:** Conceitos de cloud para dados.
 - **Pasta/arquivo principal:** `semana-21/dia-101-conceitos-de-cloud-para-dados.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Desenhe arquitetura cloud para ingestão, armazenamento, treino, registro e serving usando um provedor à escolha.
@@ -24,44 +23,86 @@
 - [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
-1. Qual a diferença entre computação, armazenamento, rede, identidade e serviço gerenciado em cloud?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Conceitos de cloud para dados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de desenhar uma arquitetura para **Conceitos de cloud para dados**, o que deve ser levantado?
 
-**Resposta:**
+- [ ] A) Somente a linguagem preferida pelo desenvolvedor.
+- [ ] B) A ferramenta mais popular nas redes sociais.
+- [ ] C) A quantidade máxima de serviços que podem ser usados.
+- [ ] D) O nome comercial da arquitetura antes dos requisitos.
+- [ ] E) Volume, frequência, latência, segurança, disponibilidade, custo e necessidades dos consumidores.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Como escolher armazenamento e processamento em **Conceitos de cloud para dados**?
 
-**Resposta:**
+- [ ] A) Duplicando os dados em todos os serviços disponíveis.
+- [ ] B) Escolhendo processamento em tempo real para qualquer tarefa.
+- [ ] C) Comparando padrões de acesso, escala, formato dos dados, desempenho necessário e custo total.
+- [ ] D) Usando sempre o serviço mais caro.
+- [ ] E) Armazenando todos os dados no mesmo formato sem avaliar o uso.
 
-4. Como o conhecimento de **Conceitos de cloud para dados** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual princípio de segurança deve orientar **Conceitos de cloud para dados**?
 
-**Resposta:**
+- [ ] A) Conceder o menor privilégio necessário, proteger segredos e manter auditoria dos acessos.
+- [ ] B) Compartilhar uma credencial administrativa entre toda a equipe.
+- [ ] C) Liberar acesso público para simplificar integrações.
+- [ ] D) Salvar chaves em arquivos enviados ao repositório.
+- [ ] E) Desativar registros de acesso para reduzir armazenamento.
 
-5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
+4. Qual decisão torna uma arquitetura de **Conceitos de cloud para dados** mais sustentável?
 
-**Resposta:**
+- [ ] A) Buscar disponibilidade máxima sem considerar impacto financeiro.
+- [ ] B) Ignorar custos pequenos porque nunca se acumulam.
+- [ ] C) Criar dependências manuais para cada execução.
+- [ ] D) Equilibrar confiabilidade e escala com simplicidade operacional e controle de custos.
+- [ ] E) Adicionar serviços mesmo quando não há necessidade.
 
-6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
+5. Ordene o desenho de uma solução para **Conceitos de cloud para dados**.
 
-**Resposta:**
+- A) Validar a arquitetura com custo e cenários de falha.
+- B) Mapear fontes, fluxos, consumidores e dados sensíveis.
+- C) Definir requisitos funcionais e restrições.
+- D) Projetar segurança, observabilidade e recuperação.
+- E) Comparar componentes e seus principais trade-offs.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a evolução controlada de uma arquitetura de **Conceitos de cloud para dados**.
+
+- A) Medir o comportamento e o custo da solução atual.
+- B) Propor a menor mudança capaz de tratá-lo.
+- C) Implantar gradualmente e acompanhar os indicadores.
+- D) Testar desempenho, segurança e recuperação.
+- E) Identificar o gargalo ou risco prioritário.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-101: conceitos-de-cloud-para-dados`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Conceitos de cloud para dados.
+- **Competência sugerida:** Cloud Computing para dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Cloud Computing para dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

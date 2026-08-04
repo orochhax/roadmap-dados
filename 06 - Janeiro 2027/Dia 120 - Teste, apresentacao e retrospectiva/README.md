@@ -8,7 +8,6 @@
 - **Assunto central:** Teste, apresentação e retrospectiva.
 - **Pasta/arquivo principal:** `semana-24/dia-120-teste-apresentacao-e-retrospectiva/` (pasta do projeto).
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Execute testes funcionais, de dados e de decisão.
@@ -24,35 +23,66 @@
 - [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
-1. Que evidência de uso, falha ou feedback deve alterar a próxima versão?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Teste, apresentação e retrospectiva** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual decisão deve orientar um produto de **Teste, apresentação e retrospectiva**?
 
-**Resposta:**
+- [ ] A) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
+- [ ] B) Incluir o maior número possível de tecnologias.
+- [ ] C) Começar pela interface sem definir o problema.
+- [ ] D) Treinar um modelo antes de conhecer os dados.
+- [ ] E) Trocar o objetivo sempre que surgir uma ferramenta nova.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. O que reduz falhas entre componentes em **Teste, apresentação e retrospectiva**?
 
-**Resposta:**
+- [ ] A) Alterar formatos sem avisar os consumidores.
+- [ ] B) Depender de passos manuais não documentados.
+- [ ] C) Compartilhar estado interno sem uma interface definida.
+- [ ] D) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
+- [ ] E) Cada componente interpretar os campos de uma forma.
 
-4. Como o conhecimento de **Teste, apresentação e retrospectiva** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual teste oferece mais confiança em uma entrega de **Teste, apresentação e retrospectiva**?
 
-**Resposta:**
+- [ ] A) Ignorar erros externos quando o código local funciona.
+- [ ] B) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
+- [ ] C) Testar apenas cada tela isoladamente.
+- [ ] D) Conferir somente se os arquivos existem.
+- [ ] E) Executar apenas com o conjunto usado no desenvolvimento.
 
-5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+4. Como avaliar o valor de uma solução de **Teste, apresentação e retrospectiva** após a entrega?
 
-**Resposta:**
+- [ ] A) Medir apenas a quantidade de linhas de código.
+- [ ] B) Usar somente o número de tecnologias integradas.
+- [ ] C) Considerar publicação equivalente a sucesso.
+- [ ] D) Avaliar apenas comentários da equipe que desenvolveu.
+- [ ] E) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
 
-6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
+5. Ordene a construção de um produto de **Teste, apresentação e retrospectiva**.
 
-**Resposta:**
+- A) Publicar, observar o uso e iterar com evidências.
+- B) Construir primeiro um fluxo mínimo de ponta a ponta.
+- C) Desenhar dados, componentes e contratos entre eles.
+- D) Testar qualidade, integração, segurança e falhas.
+- E) Definir usuário, problema, decisão e medida de sucesso.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação da entrega de **Teste, apresentação e retrospectiva**.
+
+- A) Coletar feedback e priorizar correções ou melhorias.
+- B) Revisar documentação, configuração e instruções de execução.
+- C) Executar testes automatizados e manuais do fluxo completo.
+- D) Apresentar a solução com limitações e decisões técnicas.
+- E) Congelar o escopo e registrar critérios de conclusão.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-120: teste-apresentacao-e-retrospectiva`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -198,9 +228,20 @@ O backtest deve incluir:
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Teste, apresentação e retrospectiva.
+- **Competência sugerida:** Testes e apresentação de produtos de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes e apresentação de produtos de dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

@@ -8,7 +8,6 @@
 - **Assunto central:** Simulado de Python e SQL.
 - **Pasta/arquivo principal:** `semana-25/dia-123-simulado-de-python-e-sql.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Resolva 10 exercícios de Python cronometrados sobre listas, funções, arquivos, pandas e tratamento de erro.
@@ -24,44 +23,86 @@
 - [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
-1. Quais erros de raciocínio se repetiram e como você os detectará mais cedo na próxima tentativa?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Simulado de Python e SQL** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Em um simulado de **Simulado de Python e SQL**, qual abordagem demonstra melhor domínio técnico?
 
-**Resposta:**
+- [ ] A) Evitar comentar escolhas quando houver ambiguidade.
+- [ ] B) Mudar o enunciado para combinar com o código.
+- [ ] C) Explicar a lógica, implementar de forma legível e verificar a solução com exemplos diferentes.
+- [ ] D) Entregar somente a saída sem mostrar o raciocínio.
+- [ ] E) Usar a solução mais longa para parecer completa.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado é essencial ao resolver a parte de SQL em **Simulado de Python e SQL**?
 
-**Resposta:**
+- [ ] A) Definir granularidade e conferir filtros, chaves, duplicidades e valores nulos.
+- [ ] B) Usar todas as tabelas disponíveis.
+- [ ] C) Escolher sempre a consulta com mais subqueries.
+- [ ] D) Aplicar `DISTINCT` a qualquer resultado duplicado.
+- [ ] E) Conferir apenas se a consulta executa.
 
-4. Como o conhecimento de **Simulado de Python e SQL** seria usado para apoiar uma decisão real em dados ou IA?
+3. Ao escolher entre Python e SQL em **Simulado de Python e SQL**, qual critério é mais adequado?
 
-**Resposta:**
+- [ ] A) Usar SQL somente quando não houver cálculos.
+- [ ] B) Escolher pela menor quantidade de caracteres.
+- [ ] C) Trocar de ferramenta no meio sem justificar.
+- [ ] D) Usar a ferramenta compatível com a localização dos dados, a transformação e a necessidade de reutilização.
+- [ ] E) Usar Python para qualquer tarefa, sem considerar o banco.
 
-5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
+4. Depois de concluir uma solução de **Simulado de Python e SQL**, qual revisão é mais útil?
 
-**Resposta:**
+- [ ] A) Considerar a primeira execução suficiente.
+- [ ] B) Reexaminar pressupostos, complexidade, casos-limite e clareza da explicação.
+- [ ] C) Alterar nomes aleatoriamente para produzir outra versão.
+- [ ] D) Remover testes para reduzir o material entregue.
+- [ ] E) Comparar apenas o tempo gasto com outros candidatos.
 
-6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
+5. Ordene a resolução de uma questão em **Simulado de Python e SQL**.
 
-**Resposta:**
+- A) Ler e esclarecer entradas, saída e restrições.
+- B) Implementar uma versão simples e legível.
+- C) Esboçar a lógica e escolher a ferramenta adequada.
+- D) Testar exemplos e situações menos comuns.
+- E) Revisar complexidade e explicar as decisões.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma resposta incorreta em **Simulado de Python e SQL**.
+
+- A) Reproduzir a falha com o menor exemplo possível.
+- B) Identificar a transformação ou condição incorreta.
+- C) Comparar cada etapa da lógica com o enunciado.
+- D) Corrigir sem alterar partes não relacionadas.
+- E) Executar novamente os testes e registrar o aprendizado.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-123: simulado-de-python-e-sql`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Simulado de Python e SQL.
+- **Competência sugerida:** Python e SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python e SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

@@ -8,7 +8,6 @@
 - **Assunto central:** Random Forest.
 - **Pasta/arquivo principal:** `semana-12/dia-057-random-forest.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Treine Random Forest variando número de árvores, profundidade e número de features.
@@ -24,44 +23,86 @@
 - [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
-1. Como bagging e aleatoriedade de atributos reduzem variância em comparação com uma árvore única?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Random Forest** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual prática evita vazamento de dados em uma atividade de **Random Forest**?
 
-**Resposta:**
+- [ ] A) Escolher variáveis depois de observar o desempenho no teste.
+- [ ] B) Duplicar exemplos raros antes de separar os conjuntos.
+- [ ] C) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
+- [ ] D) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
+- [ ] E) Normalizar toda a base antes da separação para usar mais informação.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Como escolher uma métrica adequada para avaliar **Random Forest**?
 
-**Resposta:**
+- [ ] A) Avaliando apenas o tempo de treinamento do algoritmo.
+- [ ] B) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
+- [ ] C) Usando sempre acurácia, pois ela serve para qualquer problema.
+- [ ] D) Escolhendo a métrica que produz o maior número.
+- [ ] E) Trocando de métrica depois de ver qual favorece o modelo.
 
-4. Como o conhecimento de **Random Forest** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Random Forest**?
 
-**Resposta:**
+- [ ] A) Testar cada modelo em uma divisão diferente dos dados.
+- [ ] B) Escolher pelo desempenho no conjunto usado para treinar.
+- [ ] C) Consultar repetidamente o teste durante cada ajuste.
+- [ ] D) Comparar somente a quantidade de parâmetros dos algoritmos.
+- [ ] E) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
 
-5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+4. Antes de usar um modelo de **Random Forest** em uma decisão real, o que deve ser analisado?
 
-**Resposta:**
+- [ ] A) A complexidade do nome do algoritmo escolhido.
+- [ ] B) A quantidade de linhas de código usada para criar o modelo.
+- [ ] C) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
+- [ ] D) Somente a métrica média do melhor experimento.
+- [ ] E) A aparência dos gráficos de treinamento, sem examinar dados.
 
-6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
+5. Ordene um fluxo de modelagem para **Random Forest**.
 
-**Resposta:**
+- A) Avaliar, analisar erros e relacionar o modelo à decisão.
+- B) Ajustar o pré-processamento apenas com os dados de treino.
+- C) Separar os dados conforme o contexto do problema.
+- D) Treinar um baseline e modelos candidatos.
+- E) Definir o problema, a população, o alvo e a métrica.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene uma seleção responsável de modelo em **Random Forest**.
+
+- A) Documentar limitações, segmentos frágeis e regras de uso.
+- B) Comparar candidatos com o mesmo protocolo de validação.
+- C) Ajustar hiperparâmetros sem consultar o conjunto de teste.
+- D) Avaliar uma vez no teste após fechar as escolhas.
+- E) Estabelecer um baseline simples e reproduzível.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-057: random-forest`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Random Forest.
+- **Competência sugerida:** Random Forest.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Random Forest** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

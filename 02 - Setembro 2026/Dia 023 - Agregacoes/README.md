@@ -8,7 +8,6 @@
 - **Assunto central:** Agregações.
 - **Pasta/arquivo principal:** `semana-05/dia-023-agregacoes.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escreva consultas com `COUNT`, `SUM`, `AVG`, `MIN` e `MAX` para a tabela de incidentes.
@@ -24,44 +23,86 @@
 - [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
-1. Qual a diferença entre `WHERE` e `HAVING`, e como uma agregação pode contar registros duplicados?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Agregações** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de escrever uma consulta de **Agregações**, o que deve ser definido primeiro?
 
-**Resposta:**
+- [ ] A) O uso obrigatório de todas as colunas disponíveis.
+- [ ] B) A formatação visual da tabela final antes dos cálculos.
+- [ ] C) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
+- [ ] D) A quantidade máxima de linhas que caberá na tela.
+- [ ] E) A ordem alfabética dos nomes das tabelas.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado é essencial ao usar junções em uma atividade de **Agregações**?
 
-**Resposta:**
+- [ ] A) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
+- [ ] B) Usar sempre `INNER JOIN`, independentemente da pergunta.
+- [ ] C) Juntar tabelas por qualquer coluna com o mesmo tipo.
+- [ ] D) Remover duplicidades depois da junção sem investigar a origem.
+- [ ] E) Selecionar todas as colunas para garantir que nada seja perdido.
 
-4. Como o conhecimento de **Agregações** seria usado para apoiar uma decisão real em dados ou IA?
+3. Como valores NULL devem ser tratados em consultas relacionadas a **Agregações**?
 
-**Resposta:**
+- [ ] A) Sempre como texto vazio, mesmo em colunas numéricas.
+- [ ] B) Excluindo automaticamente todas as linhas que contenham `NULL`.
+- [ ] C) Ignorando-os, pois bancos relacionais os convertem sozinhos.
+- [ ] D) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
+- [ ] E) Sempre como zero, porque simplifica as agregações.
 
-5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+4. Qual verificação aumenta mais a confiança em uma consulta de **Agregações**?
 
-**Resposta:**
+- [ ] A) Trocar nomes de aliases sem conferir os valores calculados.
+- [ ] B) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
+- [ ] C) Executar a consulta apenas uma vez sem mensagem de erro.
+- [ ] D) Adicionar `ORDER BY` para que os números pareçam organizados.
+- [ ] E) Limitar a saída a dez linhas e assumir que o restante está correto.
 
-6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
+5. Ordene a construção de uma consulta para **Agregações**.
 
-**Resposta:**
+- A) Validar contagens, totais e algumas linhas manualmente.
+- B) Identificar tabelas, campos e chaves necessárias.
+- C) Definir a pergunta, a métrica e a granularidade.
+- D) Aplicar agregações, janelas ou transformações necessárias.
+- E) Montar filtros e junções da base da consulta.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a investigação de uma consulta incorreta em **Agregações**.
+
+- A) Reproduzir o problema com um recorte pequeno.
+- B) Conferir chaves, duplicidades, filtros e contagens.
+- C) Executar separadamente cada etapa ou CTE.
+- D) Corrigir a etapa que altera os dados indevidamente.
+- E) Executar a consulta completa e registrar a causa do erro.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-023: agregacoes`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Agregações.
+- **Competência sugerida:** Agregações em SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Agregações em SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

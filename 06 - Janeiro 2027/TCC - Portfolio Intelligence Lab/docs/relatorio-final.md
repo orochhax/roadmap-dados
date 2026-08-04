@@ -40,7 +40,7 @@
 - [ ] Universo e regras de elegibilidade documentados.
 - [ ] Protocolo definido antes da modelagem.
 - [ ] Pelo menos três testes automáticos de qualidade aprovados.
-- [ ] Commit: `dia-126: universo-dados-e-protocolo-financeiro`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** relatório de qualidade, dicionário, protocolo e commit.
@@ -76,7 +76,7 @@
 - [ ] Ranking reproduzível para cada data e classe.
 - [ ] Features possuem ficha de disponibilidade temporal.
 - [ ] Resultados incluem falhas, não apenas o melhor período.
-- [ ] Commit: `dia-127: fatores-e-motor-quantitativo-de-ranking`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** tabela de fatores, ranking, métricas e commit.
@@ -113,7 +113,7 @@
 - [ ] Custos aparecem em todos os resultados líquidos.
 - [ ] Há comparação dentro e fora da amostra.
 - [ ] Pelo menos três estratégias e um benchmark foram comparados.
-- [ ] Commit: `dia-128: carteiras-e-backtest-walk-forward`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** curvas, tabela de métricas, testes de sensibilidade e commit.
@@ -149,7 +149,7 @@
 - [ ] Dashboard e API funcionam com dados versionados.
 - [ ] Testes e Docker passam em ambiente limpo.
 - [ ] Relatório contém método, resultados, limitações e reprodução.
-- [ ] Commit: `dia-129: produto-testes-e-relatorio-financeiro`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** demo, testes, relatório e commit.

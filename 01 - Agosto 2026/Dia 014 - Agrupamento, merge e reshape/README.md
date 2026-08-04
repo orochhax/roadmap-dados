@@ -8,7 +8,6 @@
 - **Assunto central:** Agrupamento, merge e reshape.
 - **Pasta/arquivo principal:** `semana-03/dia-014-agrupamento-merge-e-reshape.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Com `incidentes.csv` e `metas_cidades.csv`, calcule por `groupby` quantidade, média, mediana, soma de clientes e percentual resolvido por cidade.
@@ -24,44 +23,86 @@
 - [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
-1. Como escolher entre `merge`, `concat`, `groupby` e `pivot`, e qual risco existe em chaves não únicas?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Agrupamento, merge e reshape** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Antes de tirar conclusões em **Agrupamento, merge e reshape**, qual é a prática mais confiável?
 
-**Resposta:**
+- [ ] A) Considerar os nomes das colunas suficientes para validar os dados.
+- [ ] B) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+- [ ] C) Começar pelo gráfico mais bonito e escolher os dados depois.
+- [ ] D) Remover todas as linhas incompletas sem medir o impacto.
+- [ ] E) Calcular médias antes de entender o que cada linha representa.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Agrupamento, merge e reshape**?
 
-**Resposta:**
+- [ ] A) Somar todas as colunas numéricas independentemente do significado.
+- [ ] B) Arredondar os valores antes de analisar diferenças.
+- [ ] C) Usar apenas as primeiras linhas como representação de toda a base.
+- [ ] D) Substituir valores ausentes pelo maior valor disponível.
+- [ ] E) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
 
-4. Como o conhecimento de **Agrupamento, merge e reshape** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Agrupamento, merge e reshape**?
 
-**Resposta:**
+- [ ] A) Excluir categorias pequenas antes de examiná-las.
+- [ ] B) Duplicar a base e repetir o mesmo cálculo.
+- [ ] C) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
+- [ ] D) Ordenar as colunas pelo tamanho do nome.
+- [ ] E) Trocar as cores do gráfico até a tendência ficar mais visível.
 
-5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+4. Como uma análise de **Agrupamento, merge e reshape** deve ser apresentada para apoiar uma decisão?
 
-**Resposta:**
+- [ ] A) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
+- [ ] B) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
+- [ ] C) Omitindo incertezas para transmitir mais confiança.
+- [ ] D) Usando apenas termos técnicos, sem explicar o impacto.
+- [ ] E) Escolhendo a recomendação mais popular, mesmo sem evidência.
 
-6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
+5. Ordene um fluxo de análise para uma atividade de **Agrupamento, merge e reshape**.
 
-**Resposta:**
+- A) Definir a pergunta que precisa ser respondida.
+- B) Inspecionar a estrutura e a qualidade dos dados.
+- C) Preparar os dados sem perder a granularidade necessária.
+- D) Comunicar a conclusão, as limitações e a ação sugerida.
+- E) Calcular e visualizar as evidências relevantes.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a preparação de uma visualização ou entrega sobre **Agrupamento, merge e reshape**.
+
+- A) Escolher o tipo de visual compatível com a comparação.
+- B) Selecionar a métrica e o recorte adequados.
+- C) Identificar o público e a decisão que será apoiada.
+- D) Apresentar a mensagem principal e o próximo passo.
+- E) Revisar rótulos, escalas e possíveis interpretações enganosas.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-014: agrupamento-merge-e-reshape`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Agrupamento, merge e reshape.
+- **Competência sugerida:** Manipulação e integração de dados com pandas.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Manipulação e integração de dados com pandas** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

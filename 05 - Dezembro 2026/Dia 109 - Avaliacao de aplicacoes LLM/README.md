@@ -8,7 +8,6 @@
 - **Assunto central:** Avaliação de aplicações LLM.
 - **Pasta/arquivo principal:** `semana-22/dia-109-avaliacao-de-aplicacoes-llm.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie conjunto de 25 perguntas com resposta esperada e fonte correta.
@@ -24,44 +23,86 @@
 - [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
-1. Como separar avaliação de recuperação, fidelidade, utilidade, segurança, custo e latência?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Avaliação de aplicações LLM** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual estrutura torna uma solicitação de **Avaliação de aplicações LLM** mais controlável?
 
-**Resposta:**
+- [ ] A) A ausência de critérios para aceitar a resposta.
+- [ ] B) Instrução clara, contexto necessário, restrições e formato de saída definido.
+- [ ] C) Uma frase vaga sem explicar a tarefa.
+- [ ] D) O maior texto possível, mesmo com informações irrelevantes.
+- [ ] E) Vários objetivos conflitantes na mesma instrução.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Como avaliar uma aplicação relacionada a **Avaliação de aplicações LLM**?
 
-**Resposta:**
+- [ ] A) Ler uma única resposta que parece convincente.
+- [ ] B) Avaliar apenas a fluidez do texto.
+- [ ] C) Trocar os critérios para favorecer a versão mais recente.
+- [ ] D) Usar somente exemplos escritos pelo próprio modelo.
+- [ ] E) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
 
-4. Como o conhecimento de **Avaliação de aplicações LLM** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual cuidado de segurança é importante em **Avaliação de aplicações LLM**?
 
-**Resposta:**
+- [ ] A) Executar automaticamente toda ação sugerida pelo modelo.
+- [ ] B) Ocultar fontes e limitações do usuário.
+- [ ] C) Tratar entradas como não confiáveis, limitar acesso a dados e ferramentas e revisar saídas sensíveis.
+- [ ] D) Permitir que qualquer texto altere as regras do sistema.
+- [ ] E) Enviar dados pessoais sem necessidade.
 
-5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
+4. Quando uma resposta de **Avaliação de aplicações LLM** apoia uma decisão importante, qual prática é mais adequada?
 
-**Resposta:**
+- [ ] A) Exigir evidência verificável e revisão humana proporcional ao risco.
+- [ ] B) Aceitar a resposta quando ela estiver bem escrita.
+- [ ] C) Considerar confiança verbal equivalente a precisão.
+- [ ] D) Remover avisos para deixar a saída mais direta.
+- [ ] E) Usar o modelo como única fonte para qualquer decisão.
 
-6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
+5. Ordene o desenvolvimento de uma funcionalidade de **Avaliação de aplicações LLM**.
 
-**Resposta:**
+- A) Definir usuário, tarefa, risco e critérios de qualidade.
+- B) Adicionar controles, documentar limites e monitorar o uso.
+- C) Criar casos de avaliação antes de ajustar a solução.
+- D) Executar avaliações e analisar tipos de falha.
+- E) Estruturar instruções, contexto e formato de saída.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a melhoria de uma aplicação de **Avaliação de aplicações LLM**.
+
+- A) Reunir exemplos reais de sucesso e falha.
+- B) Classificar os erros por causa e impacto.
+- C) Publicar apenas após revisar qualidade, segurança e custo.
+- D) Comparar a nova versão com a anterior nos mesmos casos.
+- E) Alterar uma parte controlada da solução.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-109: avaliacao-de-aplicacoes-llm`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Avaliação de aplicações LLM.
+- **Competência sugerida:** Avaliação de aplicações com LLMs.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Avaliação de aplicações com LLMs** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

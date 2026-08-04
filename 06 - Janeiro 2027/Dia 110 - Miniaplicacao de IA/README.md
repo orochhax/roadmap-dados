@@ -8,7 +8,6 @@
 - **Assunto central:** Miniaplicação de IA.
 - **Pasta/arquivo principal:** `semana-22/dia-110-miniaplicacao-de-ia/` (pasta do projeto).
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Escolha miniaplicação: assistente que classifica e resume chamados com recomendação baseada em regras.
@@ -24,35 +23,66 @@
 - [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
-1. Qual baseline sem IA deve ser comparado para provar que o LLM adiciona valor?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Miniaplicação de IA** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. Qual estrutura torna uma solicitação de **Miniaplicação de IA** mais controlável?
 
-**Resposta:**
+- [ ] A) Instrução clara, contexto necessário, restrições e formato de saída definido.
+- [ ] B) Uma frase vaga sem explicar a tarefa.
+- [ ] C) O maior texto possível, mesmo com informações irrelevantes.
+- [ ] D) Vários objetivos conflitantes na mesma instrução.
+- [ ] E) A ausência de critérios para aceitar a resposta.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Como avaliar uma aplicação relacionada a **Miniaplicação de IA**?
 
-**Resposta:**
+- [ ] A) Avaliar apenas a fluidez do texto.
+- [ ] B) Trocar os critérios para favorecer a versão mais recente.
+- [ ] C) Usar somente exemplos escritos pelo próprio modelo.
+- [ ] D) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
+- [ ] E) Ler uma única resposta que parece convincente.
 
-4. Como o conhecimento de **Miniaplicação de IA** seria usado para apoiar uma decisão real em dados ou IA?
+3. Qual cuidado de segurança é importante em **Miniaplicação de IA**?
 
-**Resposta:**
+- [ ] A) Ocultar fontes e limitações do usuário.
+- [ ] B) Tratar entradas como não confiáveis, limitar acesso a dados e ferramentas e revisar saídas sensíveis.
+- [ ] C) Permitir que qualquer texto altere as regras do sistema.
+- [ ] D) Enviar dados pessoais sem necessidade.
+- [ ] E) Executar automaticamente toda ação sugerida pelo modelo.
 
-5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
+4. Quando uma resposta de **Miniaplicação de IA** apoia uma decisão importante, qual prática é mais adequada?
 
-**Resposta:**
+- [ ] A) Aceitar a resposta quando ela estiver bem escrita.
+- [ ] B) Considerar confiança verbal equivalente a precisão.
+- [ ] C) Remover avisos para deixar a saída mais direta.
+- [ ] D) Usar o modelo como única fonte para qualquer decisão.
+- [ ] E) Exigir evidência verificável e revisão humana proporcional ao risco.
 
-6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
+5. Ordene o desenvolvimento de uma funcionalidade de **Miniaplicação de IA**.
 
-**Resposta:**
+- A) Adicionar controles, documentar limites e monitorar o uso.
+- B) Criar casos de avaliação antes de ajustar a solução.
+- C) Definir usuário, tarefa, risco e critérios de qualidade.
+- D) Executar avaliações e analisar tipos de falha.
+- E) Estruturar instruções, contexto e formato de saída.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene a melhoria de uma aplicação de **Miniaplicação de IA**.
+
+- A) Publicar apenas após revisar qualidade, segurança e custo.
+- B) Classificar os erros por causa e impacto.
+- C) Reunir exemplos reais de sucesso e falha.
+- D) Comparar a nova versão com a anterior nos mesmos casos.
+- E) Alterar uma parte controlada da solução.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-110: miniaplicacao-de-ia`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
@@ -85,9 +115,20 @@
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Miniaplicação de IA.
+- **Competência sugerida:** Aplicações de IA Generativa.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Aplicações de IA Generativa** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados

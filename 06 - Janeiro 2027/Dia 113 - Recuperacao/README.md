@@ -8,7 +8,6 @@
 - **Assunto central:** Recuperação.
 - **Pasta/arquivo principal:** `semana-23/dia-113-recuperacao.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
-- **Regra:** antes de executar qualquer cálculo ou código importante, anote o resultado que espera obter.
 
 ### Passo a passo completo
 1. [ ] Crie índice vetorial e função `retrieve(query, k)`.
@@ -24,44 +23,86 @@
 - [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
-1. Como top-k, filtros e métricas de recall ajudam a diagnosticar falhas antes da geração?
 
-**Resposta:**
+> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-2. Em qual exercício de **Recuperação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+1. O que reduz respostas sem apoio em uma solução de **Recuperação**?
 
-**Resposta:**
+- [ ] A) Remover referências para deixar a resposta menor.
+- [ ] B) Usar somente o conhecimento geral do modelo.
+- [ ] C) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
+- [ ] D) Pedir ao modelo para inventar detalhes quando faltar contexto.
+- [ ] E) Enviar documentos aleatórios para aumentar o volume.
 
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+2. Qual escolha afeta diretamente a recuperação em **Recuperação**?
 
-**Resposta:**
+- [ ] A) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
+- [ ] B) A cor da interface usada para enviar a pergunta.
+- [ ] C) A ordem alfabética dos nomes dos arquivos apenas.
+- [ ] D) A quantidade de parágrafos da resposta final.
+- [ ] E) O nome da variável que armazena o índice.
 
-4. Como o conhecimento de **Recuperação** seria usado para apoiar uma decisão real em dados ou IA?
+3. Como o sistema deve agir quando **Recuperação** não encontra evidência suficiente?
 
-**Resposta:**
+- [ ] A) Citar qualquer trecho recuperado, mesmo sem relação.
+- [ ] B) Ocultar que a busca não encontrou conteúdo.
+- [ ] C) Repetir a mesma afirmação com mais confiança.
+- [ ] D) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
+- [ ] E) Completar a resposta com uma suposição plausível.
 
-5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+4. Qual avaliação ajuda a diagnosticar uma falha em **Recuperação**?
 
-**Resposta:**
+- [ ] A) Trocar o modelo sem examinar os documentos recuperados.
+- [ ] B) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
+- [ ] C) Avaliar apenas o tamanho da resposta.
+- [ ] D) Medir somente a velocidade de criação do índice.
+- [ ] E) Considerar toda citação como necessariamente relevante.
 
-6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
+5. Ordene o fluxo principal de uma solução de **Recuperação**.
 
-**Resposta:**
+- A) Gerar representações e construir o índice.
+- B) Gerar uma resposta fundamentada e apresentar as fontes.
+- C) Coletar e validar documentos e metadados.
+- D) Recuperar trechos relevantes para a pergunta.
+- E) Dividir o conteúdo em trechos adequados.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+6. Ordene o diagnóstico de uma resposta ruim em **Recuperação**.
+
+- A) Avaliar chunking, metadados, consulta e ranking da busca.
+- B) Corrigir a etapa responsável e repetir os mesmos testes.
+- C) Registrar a pergunta, a resposta e as fontes recuperadas.
+- D) Avaliar se a geração respeitou o contexto recuperado.
+- E) Verificar se a informação necessária existe nos documentos.
+
+**Ordem:** `__ → __ → __ → __ → __`
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Commit realizado com mensagem no formato `dia-113: recuperacao`.
+- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
 **Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Recuperação.
+- **Competência sugerida:** Recuperação de informação e busca vetorial.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Recuperação de informação e busca vetorial** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+---
+
 ## Anotações pessoais
 
-### Resultado esperado antes de executar
 
 
 ### Conceitos estudados
