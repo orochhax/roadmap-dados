@@ -12,8 +12,8 @@
 
 ### Passo a passo completo
 1. [x] Confirme no terminal as versões com `python --version`, `git --version` e `jupyter --version`; salve a saída em `01-python/dia01/versoes.txt`.
-2. [ ] Crie `diagnostico.py` e resolva estes 10 exercícios sem consultar respostas: (1) imprimir nome e objetivo profissional; (2) somar 125 e 378; (3) calcular média de 7.5, 8.0 e 6.5; (4) converter 135 minutos em horas e minutos; (5) calcular 12% de 850; (6) verificar se 37 é par; (7) comparar 18 e 24 e exibir o maior; (8) contar caracteres de `Data Science`; (9) inverter `Vertex`; (10) calcular quantos clientes representam 7,5% de uma base de 2.400.
-3. [ ] Depois de cada exercício, escreva uma linha `# resultado esperado:` antes de executar; compare previsão e saída real.
+2. [x] Crie `diagnostico.py` e resolva estes 10 exercícios sem consultar respostas: (1) imprimir nome e objetivo profissional; (2) somar 125 e 378; (3) calcular média de 7.5, 8.0 e 6.5; (4) converter 135 minutos em horas e minutos; (5) calcular 12% de 850; (6) verificar se 37 é par; (7) comparar 18 e 24 e exibir o maior; (8) contar caracteres de `Data Science`; (9) inverter `Vertex`; (10) calcular quantos clientes representam 7,5% de uma base de 2.400.
+3. [x] Depois de cada exercício, escreva uma linha `# resultado esperado:` antes de executar; compare previsão e saída real.
 4. [ ] Crie o repositório, as pastas `01-python/dia01` e `dados`, faça o primeiro commit e confirme no GitHub que os arquivos chegaram.
 5. [ ] Crie `diario-de-estudos.md` com: data, horas, exercícios acertados de primeira, dúvidas, erro mais importante e próxima ação.
 
