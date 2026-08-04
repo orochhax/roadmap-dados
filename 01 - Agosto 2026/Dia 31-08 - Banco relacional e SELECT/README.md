@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 21 — Banco relacional e SELECT — 31/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Banco relacional e SELECT.
+- **Competência sugerida:** Bancos de dados relacionais e SQL.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Bancos de dados relacionais e SQL** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Banco relacional e SELECT** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Banco relacional e SELECT.
 - **Pasta/arquivo principal:** `01-exercicios/select_basico.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
-### Passo a passo completo
-1. [ ] Instale PostgreSQL ou use DuckDB; crie banco `roadmap_ds` e tabela `incidentes` com chave primária e tipos apropriados.
-2. [ ] Importe `dados/incidentes.csv` e resolva, em `01-exercicios/select_basico.sql`, as 12 consultas numeradas de `SELECT` já preparadas.
-3. [ ] Antes de cada consulta, escreva em comentário quantas linhas e colunas espera receber.
-4. [ ] Crie uma consulta que calcule `impacto = duracao_min * clientes_afetados` e liste os cinco maiores.
-5. [ ] Salve tudo em `01-exercicios/select_basico.sql` e exporte os resultados principais para CSV.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/select_basico.sql`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Use DuckDB ou PostgreSQL, crie a tabela `incidentes` e importe `dados/incidentes.csv`.
+2. [ ] Resolva as consultas 1–6 de `select_basico.sql`, cobrindo seleção de colunas, aliases, ordenação e limite.
+3. [ ] Antes de duas consultas, registre o formato esperado e confira o resultado retornado.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Resolva as consultas 7–12 somente se as seis primeiras saírem sem consulta excessiva.
+- [ ] Calcule `impacto` e exporte um resultado para CSV como extensão prática.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/select_basico.sql`:** Escreva uma consulta que liste incidentes P1 não resolvidos, calcule impacto e ordene do maior para o menor, limitando a cinco linhas.
 - [ ] **Em `01-exercicios/select_basico.sql`:** Escreva uma consulta de validação que compare COUNT(*) com COUNT(DISTINCT id) e conte ids nulos antes de aceitar a importação.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Instale PostgreSQL ou use DuckDB; crie banco `roadmap_ds` e tabela `incidentes` com chave primária e tipos apropriados.
-
-   **Pergunta:** Antes de escrever uma consulta de **Banco relacional e SELECT**, o que deve ser definido primeiro?
-
-- [ ] A) A quantidade máxima de linhas que caberá na tela.
-- [ ] B) A ordem alfabética dos nomes das tabelas.
-- [ ] C) O uso obrigatório de todas as colunas disponíveis.
-- [ ] D) A formatação visual da tabela final antes dos cálculos.
-- [ ] E) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
-
-2. **Referência — atividade 2:** Importe `dados/incidentes.csv` e resolva as 12 consultas numeradas em `01-exercicios/select_basico.sql`.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual cuidado é essencial ao usar junções em uma atividade de **Banco relacional e SELECT**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Usar sempre `INNER JOIN`, independentemente da pergunta.
 - [ ] E) Juntar tabelas por qualquer coluna com o mesmo tipo.
 
-3. **Referência — atividade 3:** Antes de cada consulta, escreva em comentário quantas linhas e colunas espera receber.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Como valores NULL devem ser tratados em consultas relacionadas a **Banco relacional e SELECT**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Excluindo automaticamente todas as linhas que contenham `NULL`.
 - [ ] E) Ignorando-os, pois bancos relacionais os convertem sozinhos.
 
-4. **Referência — atividade 4:** Crie uma consulta que calcule `impacto = duracao_min * clientes_afetados` e liste os cinco maiores.
-
-   **Pergunta:** Qual verificação aumenta mais a confiança em uma consulta de **Banco relacional e SELECT**?
-
-- [ ] A) Adicionar `ORDER BY` para que os números pareçam organizados.
-- [ ] B) Limitar a saída a dez linhas e assumir que o restante está correto.
-- [ ] C) Trocar nomes de aliases sem conferir os valores calculados.
-- [ ] D) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
-- [ ] E) Executar a consulta apenas uma vez sem mensagem de erro.
-
-5. **Referência — atividade 5:** Salve tudo em `01-exercicios/select_basico.sql` e exporte os resultados principais para CSV.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene a construção de uma consulta para **Banco relacional e SELECT**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a investigação de uma consulta incorreta em **Banco relacional e SELECT**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Conferir chaves, duplicidades, filtros e contagens.
-- B) Executar separadamente cada etapa ou CTE.
-- C) Reproduzir o problema com um recorte pequeno.
-- D) Corrigir a etapa que altera os dados indevidamente.
-- E) Executar a consulta completa e registrar a causa do erro.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Banco relacional e SELECT.
-- **Competência sugerida:** Bancos de dados relacionais e SQL.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Bancos de dados relacionais e SQL** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
-- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+**Autoavaliação do dia:** `__/5`

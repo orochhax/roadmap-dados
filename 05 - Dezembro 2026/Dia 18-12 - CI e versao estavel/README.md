@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 95 — CI e versão estável — 11/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** CI e versão estável.
+- **Competência sugerida:** Integração Contínua (CI).
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Integração Contínua (CI)** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **CI e versão estável** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** CI e versão estável.
 - **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Crie workflow de CI que instale dependências e rode testes em cada push/PR.
 2. [ ] Adicione badge de testes ao README.
 3. [ ] Quebre um teste propositalmente para verificar bloqueio.
 4. [ ] Corrija e gere release `v1.0.0` com changelog.
-5. [ ] Faça revisão final usando checklist de PR.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Faça revisão final usando checklist de PR.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Acrescente à CI uma etapa que execute pytest e outra que verifique formatação; faça ambas rodarem em pull request.
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Crie um teste que falha, observe a CI bloquear, corrija e registre os dois commits separadamente.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Crie workflow de CI que instale dependências e rode testes em cada push/PR.
-
-   **Pergunta:** Qual prática melhora a manutenção de uma solução de **CI e versão estável**?
-
-- [ ] A) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
-- [ ] B) Colocar dados, regras e execução em uma única função.
-- [ ] C) Salvar segredos diretamente no código.
-- [ ] D) Alterar vários comportamentos sem registrar o motivo.
-- [ ] E) Duplicar trechos para evitar criar funções.
-
-2. **Referência — atividade 2:** Adicione badge de testes ao README.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual estratégia de testes é mais adequada em **CI e versão estável**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
 - [ ] E) Testar apenas manualmente depois da publicação.
 
-3. **Referência — atividade 3:** Quebre um teste propositalmente para verificar bloqueio.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual cuidado é essencial ao publicar uma aplicação de **CI e versão estável**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Imprimir credenciais nos logs para facilitar suporte.
 - [ ] E) Modificar o ambiente de produção manualmente sem registro.
 
-4. **Referência — atividade 4:** Corrija e gere release `v1.0.0` com changelog.
-
-   **Pergunta:** Como saber se uma solução de **CI e versão estável** continua saudável após a publicação?
-
-- [ ] A) Conferir somente se o computador do desenvolvedor está ligado.
-- [ ] B) Considerar ausência de reclamações como prova suficiente.
-- [ ] C) Observar apenas o uso de memória uma vez por mês.
-- [ ] D) Avaliar somente a métrica obtida durante o treinamento.
-- [ ] E) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
-
-5. **Referência — atividade 5:** Faça revisão final usando checklist de PR.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene uma mudança segura em **CI e versão estável**.
 
@@ -78,55 +86,17 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a resposta a um problema após publicar **CI e versão estável**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Detectar o sintoma por métricas, logs ou alerta.
-- B) Delimitar usuários, versões e componentes afetados.
-- C) Conter o impacto ou reverter para uma versão estável.
-- D) Republicar com controle e documentar o incidente.
-- E) Corrigir a causa e validar com testes.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
+**Autoavaliação do dia:** `__/5`
 
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
-**Autoavaliação do dia:** `__/5`  
-
-> [!project] Projeto semanal — Do notebook ao pacote testável
-> **Desafio:** Transformar um notebook de modelagem em código modular, configurável e coberto por testes.
->
-> **Deve reutilizar:** Git, engenharia de software e projeto anterior.
->
-> **Entregáveis obrigatórios:**
-> - [ ] pacote Python;
-> - [ ] configuração externa;
-> - [ ] testes automatizados;
-> - [ ] CI simples;
-> - [ ] release versionada;
->
-> **Defesa:** demonstração de cinco minutos e resposta a três perguntas técnicas.
->
-> **Nota mínima recomendada:** `6/10`.
-
-> [!check] Critério para avançar
-> Outro desenvolvedor consegue clonar, instalar, testar e executar seu projeto sem falar com você?
 
 ---
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** CI e versão estável.
-- **Competência sugerida:** Integração Contínua (CI).
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Integração Contínua (CI)** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.

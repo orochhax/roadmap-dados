@@ -1,42 +1,61 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 25 — Mini-case SQL — 04/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Mini-case SQL.
+- **Competência sugerida:** SQL aplicado a negócios.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **SQL aplicado a negócios** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
+- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Mini-case SQL** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Mini-case SQL.
 - **Pasta/arquivo principal:** `projeto-semanal/docs/case_sql_semana05.md`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
-### Passo a passo completo
-1. [ ] Responda em SQL: quais cidades concentram churn; quais planos têm maior ticket; quais clientes abriram mais chamados; qual canal arrecadou mais; quais clientes estão inadimplentes.
-2. [ ] Crie uma consulta única com CTEs ou subconsultas para gerar uma tabela executiva por cidade.
-3. [ ] Exporte o resultado e reproduza dois indicadores em pandas para validação cruzada.
-4. [ ] Otimize uma consulta removendo `SELECT *`, filtros tardios e joins desnecessários; compare o plano de execução quando disponível.
-5. [ ] Entregue `case_sql_semana05.md` com pergunta, consulta, resultado, interpretação e limitação para cada análise.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `projeto-semanal/docs/case_sql_semana05.md`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Escolha três das cinco perguntas do mini-case e responda usando apenas `SELECT`, filtros, agregações e JOINs já estudados.
+2. [ ] Valide um indicador em pandas ou por uma segunda consulta mais simples.
+3. [ ] Entregue `case_sql_semana05.md` com pergunta, consulta, resultado, interpretação e uma limitação para cada resposta.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Responda as outras duas perguntas somente se as três primeiras estiverem claras.
+- [ ] CTEs e subqueries não são requisito deste dia; elas serão ensinadas no Dia 26.
+- [ ] Otimização e plano de execução são desafios posteriores.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `projeto-semanal/docs/case_sql_semana05.md`:** Calcule churn por cidade somente para cidades com pelo menos 30 clientes e ordene pela maior taxa.
 - [ ] **Em `projeto-semanal/docs/case_sql_semana05.md`:** Reproduza em pandas a contagem e a taxa da primeira cidade do ranking usando exatamente o mesmo filtro SQL.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Responda em SQL: quais cidades concentram churn; quais planos têm maior ticket; quais clientes abriram mais chamados; qual canal arrecadou mais; quais clientes estão inadimplentes.
-
-   **Pergunta:** Antes de escrever uma consulta de **Mini-case SQL**, o que deve ser definido primeiro?
-
-- [ ] A) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
-- [ ] B) A quantidade máxima de linhas que caberá na tela.
-- [ ] C) A ordem alfabética dos nomes das tabelas.
-- [ ] D) O uso obrigatório de todas as colunas disponíveis.
-- [ ] E) A formatação visual da tabela final antes dos cálculos.
-
-2. **Referência — atividade 2:** Crie uma consulta única com CTEs ou subconsultas para gerar uma tabela executiva por cidade.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual cuidado é essencial ao usar junções em uma atividade de **Mini-case SQL**?
 
@@ -46,7 +65,7 @@
 - [ ] D) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
 - [ ] E) Usar sempre `INNER JOIN`, independentemente da pergunta.
 
-3. **Referência — atividade 3:** Exporte o resultado e reproduza dois indicadores em pandas para validação cruzada.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Como valores NULL devem ser tratados em consultas relacionadas a **Mini-case SQL**?
 
@@ -56,17 +75,7 @@
 - [ ] D) Sempre como texto vazio, mesmo em colunas numéricas.
 - [ ] E) Excluindo automaticamente todas as linhas que contenham `NULL`.
 
-4. **Referência — atividade 4:** Otimize uma consulta removendo `SELECT *`, filtros tardios e joins desnecessários; compare o plano de execução quando disponível.
-
-   **Pergunta:** Qual verificação aumenta mais a confiança em uma consulta de **Mini-case SQL**?
-
-- [ ] A) Executar a consulta apenas uma vez sem mensagem de erro.
-- [ ] B) Adicionar `ORDER BY` para que os números pareçam organizados.
-- [ ] C) Limitar a saída a dez linhas e assumir que o restante está correto.
-- [ ] D) Trocar nomes de aliases sem conferir os valores calculados.
-- [ ] E) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
-
-5. **Referência — atividade 5:** Entregue `case_sql_semana05.md` com pergunta, consulta, resultado, interpretação e limitação para cada análise.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene a construção de uma consulta para **Mini-case SQL**.
 
@@ -78,54 +87,17 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a investigação de uma consulta incorreta em **Mini-case SQL**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Reproduzir o problema com um recorte pequeno.
-- B) Conferir chaves, duplicidades, filtros e contagens.
-- C) Executar a consulta completa e registrar a causa do erro.
-- D) Corrigir a etapa que altera os dados indevidamente.
-- E) Executar separadamente cada etapa ou CTE.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
+**Autoavaliação do dia:** `__/5`
 
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
-**Autoavaliação do dia:** `__/5`  
-
-> [!project] Projeto semanal — Banco comercial e consultas de decisão
-> **Desafio:** Modelar um pequeno banco de clientes, pedidos e pagamentos e responder perguntas comerciais reais com SQL.
->
-> **Deve reutilizar:** Python/pandas anteriores e SQL básico.
->
-> **Entregáveis obrigatórios:**
-> - [ ] script de criação e carga;
-> - [ ] 15 consultas comentadas;
-> - [ ] validação de JOINs e duplicidades;
-> - [ ] memorando com três decisões;
->
-> **Defesa:** demonstração de cinco minutos e resposta a três perguntas técnicas.
->
-> **Nota mínima recomendada:** `6/10`.
-
-> [!check] Critério para avançar
-> Você consegue responder perguntas de negócio combinando várias tabelas e validar se não duplicou valores?
 
 ---
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Mini-case SQL.
-- **Competência sugerida:** SQL aplicado a negócios.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **SQL aplicado a negócios** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
-- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
-- **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.

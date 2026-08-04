@@ -1,111 +1,92 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
-## Dia 34 — Amostragem e Lei dos Grandes Números — 17/09/2026
-> [!abstract] Resultado concreto do dia
-> Concluir **Amostragem e Lei dos Grandes Números** produzindo um artefato executável e evidências de que você compreendeu o assunto.
-
-### Preparação
-- **Assunto central:** Amostragem e Lei dos Grandes Números.
-- **Pasta/arquivo principal:** `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`.
-- **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
-
-### Passo a passo completo
-1. [ ] Retire 100 amostras de tamanhos 10, 30, 100 e 500 de uma população assimétrica; armazene as médias.
-2. [ ] Plote a distribuição das médias e observe aproximação à normalidade.
-3. [ ] Compare erro padrão teórico `s/sqrt(n)` e erro observado.
-4. [ ] Simule amostragem enviesada escolhendo apenas clientes de uma cidade; compare estimativa com população.
-5. [ ] Escreva como tamanho, aleatoriedade e representatividade afetam uma pesquisa empresarial.
-
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`. Faça exatamente estes dois itens.
-
-- [ ] **Em `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`:** Compare as distribuições das médias usando amostras de tamanho 50 e 500 com a mesma população e seed 42.
-- [ ] **Em `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`:** Crie uma amostra apenas de Salvador e outra aleatória com o mesmo tamanho; compare o erro das duas em relação à população.
-
-### Perguntas de checagem
-
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
-
-1. **Referência — atividade 1:** Retire 100 amostras de tamanhos 10, 30, 100 e 500 de uma população assimétrica; armazene as médias.
-
-   **Pergunta:** Ao estudar **Amostragem e Lei dos Grandes Números**, por que uma única medida-resumo pode ser insuficiente?
-
-- [ ] A) Porque gráficos tornam cálculos estatísticos desnecessários.
-- [ ] B) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
-- [ ] C) Porque médias só podem ser usadas com dados de texto.
-- [ ] D) Porque toda análise exige exatamente cinco métricas.
-- [ ] E) Porque a mediana sempre substitui qualquer outra medida.
-
-2. **Referência — atividade 2:** Plote a distribuição das médias e observe aproximação à normalidade.
-
-   **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Amostragem e Lei dos Grandes Números**?
-
-- [ ] A) Tratar qualquer valor-p pequeno como prova de grande impacto.
-- [ ] B) Considerar correlação suficiente para afirmar causalidade.
-- [ ] C) Escolher a hipótese depois de observar os dados.
-- [ ] D) Ignorar o tamanho da amostra quando a média parece convincente.
-- [ ] E) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
-
-3. **Referência — atividade 3:** Compare erro padrão teórico `s/sqrt(n)` e erro observado.
-
-   **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Amostragem e Lei dos Grandes Números**?
-
-- [ ] A) Uma média apresentada com duas casas decimais.
-- [ ] B) Um arquivo salvo em uma pasta específica do projeto.
-- [ ] C) Uma amostra enviesada que não representa adequadamente a população de interesse.
-- [ ] D) Uma tabela com colunas em ordem diferente.
-- [ ] E) Um gráfico com título curto.
-
-4. **Referência — atividade 4:** Simule amostragem enviesada escolhendo apenas clientes de uma cidade; compare estimativa com população.
-
-   **Pergunta:** Como usar evidência de **Amostragem e Lei dos Grandes Números** em uma decisão real?
-
-- [ ] A) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
-- [ ] B) Escolher automaticamente a opção com a maior média observada.
-- [ ] C) Eliminar a incerteza arredondando os números.
-- [ ] D) Tomar a decisão apenas pelo sinal positivo ou negativo.
-- [ ] E) Repetir testes até surgir uma conclusão favorável.
-
-5. **Referência — atividade 5:** Escreva como tamanho, aleatoriedade e representatividade afetam uma pesquisa empresarial.
-
-   **Pergunta:** Ordene um estudo estatístico relacionado a **Amostragem e Lei dos Grandes Números**.
-
-- A) Formular a pergunta e a hipótese antes da análise.
-- B) Definir população, amostra, métrica e método.
-- C) Coletar e verificar a qualidade dos dados.
-- D) Interpretar a evidência com pressupostos e limitações.
-- E) Estimar efeitos e quantificar a incerteza.
-
-**Ordem:** `__ → __ → __ → __ → __`
-
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
-
-   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Amostragem e Lei dos Grandes Números**.
-
-- A) Verificar equilíbrio e integridade da coleta.
-- B) Distribuir aleatoriamente as unidades entre os grupos.
-- C) Definir hipótese, métrica principal e regra de decisão.
-- D) Decidir com base no efeito, no risco e na relevância prática.
-- E) Estimar a diferença entre grupos e sua incerteza.
-
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
+## Dia 34 — Amostragem, Lei dos Grandes Números e TCL — 17/09/2026
 
 ### Conquista para o LinkedIn
 
 > [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
 
-- **Conhecimento praticado hoje:** Amostragem e Lei dos Grandes Números.
+- **Conhecimento praticado hoje:** Amostragem, Lei dos Grandes Números e TCL.
 - **Competência sugerida:** Amostragem.
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Amostragem** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
+> [!abstract] Resultado concreto do dia
+> Concluir **Amostragem, Lei dos Grandes Números e TCL** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
+
+### Preparação
+- **Assunto central:** Amostragem, Lei dos Grandes Números e TCL.
+- **Pasta/arquivo principal:** `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
+
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Simule uma sequência crescente de observações e mostre a média acumulada se aproximando da média da população; identifique isso como Lei dos Grandes Números.
+2. [ ] Compare amostras aleatórias e uma amostra enviesada da mesma população.
+3. [ ] Explique como tamanho, aleatoriedade e representatividade afetam uma estimativa empresarial.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Retire várias amostras de tamanhos 30, 100 e 500 e observe a distribuição das médias; identifique essa normalização como Teorema Central do Limite, não como Lei dos Grandes Números.
+- [ ] Compare erro padrão teórico e observado somente depois de entender a diferença entre uma amostra e a distribuição de muitas médias.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
+
+- [ ] **Em `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`:** Compare as distribuições das médias usando amostras de tamanho 50 e 500 com a mesma população e seed 42.
+- [ ] **Em `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`:** Crie uma amostra apenas de Salvador e outra aleatória com o mesmo tamanho; compare o erro das duas em relação à população.
+
+### Checagem rápida
+
+> Nas questões 1–2, marque `[x]` em uma alternativa. Na questão 3, escreva a sequência correta usando A–E.
+
+1. **Pergunta:** Qual observação representa a Lei dos Grandes Números?
+
+- [ ] A) A distribuição de muitas médias tende a ficar normal.
+- [ ] B) A média acumulada tende ao valor esperado quando a amostra cresce.
+- [ ] C) Toda população possui distribuição normal.
+- [ ] D) Uma amostra enviesada melhora quando repetida.
+- [ ] E) O desvio padrão sempre chega a zero.
+
+2. **Pergunta:** Qual observação está ligada ao Teorema Central do Limite?
+
+- [ ] A) A média de uma única amostra sempre é correta.
+- [ ] B) Dados individuais ficam normais quando a amostra cresce.
+- [ ] C) A distribuição de médias de muitas amostras tende à normalidade sob condições adequadas.
+- [ ] D) Amostras maiores eliminam qualquer viés de seleção.
+- [ ] E) A mediana se transforma em média.
+
+3. **Pergunta:** Ordene uma simulação de amostragem confiável.
+
+- A) Comparar as estimativas com o valor da população.
+- B) Definir a população e a métrica verdadeira.
+- C) Interpretar erro e variabilidade.
+- D) Sortear amostras com tamanhos definidos.
+- E) Calcular a estimativa em cada amostra.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+### Critério de avanço
+
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
+
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
+
+**Autoavaliação do dia:** `__/5`

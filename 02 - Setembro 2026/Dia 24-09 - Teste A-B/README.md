@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 38 — Teste A/B — 23/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Teste A/B.
+- **Competência sugerida:** Testes A/B.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes A/B** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Teste A/B** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Teste A/B.
 - **Pasta/arquivo principal:** `01-exercicios/dia-038-teste-a-b.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
-### Passo a passo completo
-1. [ ] Defina experimento A/B de uma oferta de retenção: unidade, população, métrica primária, guardrails, duração e critério de parada.
-2. [ ] Gere dados sintéticos de 2.000 clientes por grupo com taxas 10% e 11,5%; calcule diferença, IC e teste.
-3. [ ] Calcule tamanho de amostra aproximado para detectar aumento mínimo de 1,5 ponto percentual.
-4. [ ] Simule peeking diário e explique como aumenta falso positivo.
-5. [ ] Crie relatório de decisão: lançar, repetir ou abandonar, justificando risco e impacto.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-038-teste-a-b.ipynb`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Defina um experimento A/B com unidade, população, métrica primária, guardrail e duração.
+2. [ ] Analise uma amostra sintética com diferença, intervalo de confiança e teste de hipótese.
+3. [ ] Escreva uma decisão entre lançar, repetir ou abandonar, citando efeito, incerteza e risco.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Calcule tamanho de amostra depois de compreender o efeito mínimo relevante.
+- [ ] Simule peeking diário como desafio para estudar falso positivo, sem torná-lo requisito do primeiro experimento.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-038-teste-a-b.ipynb`:** Refaça o cálculo de tamanho de amostra para efeito mínimo de 0,5 ponto percentual em vez de 1,5 ponto.
 - [ ] **Em `01-exercicios/dia-038-teste-a-b.ipynb`:** Execute a simulação de peeking em 30 verificações diárias e conte quantas vezes a regra pararia antes da amostra planejada.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Defina experimento A/B de uma oferta de retenção: unidade, população, métrica primária, guardrails, duração e critério de parada.
-
-   **Pergunta:** Ao estudar **Teste A/B**, por que uma única medida-resumo pode ser insuficiente?
-
-- [ ] A) Porque a mediana sempre substitui qualquer outra medida.
-- [ ] B) Porque gráficos tornam cálculos estatísticos desnecessários.
-- [ ] C) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
-- [ ] D) Porque médias só podem ser usadas com dados de texto.
-- [ ] E) Porque toda análise exige exatamente cinco métricas.
-
-2. **Referência — atividade 2:** Gere dados sintéticos de 2.000 clientes por grupo com taxas 10% e 11,5%; calcule diferença, IC e teste.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Teste A/B**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Escolher a hipótese depois de observar os dados.
 - [ ] E) Ignorar o tamanho da amostra quando a média parece convincente.
 
-3. **Referência — atividade 3:** Calcule tamanho de amostra aproximado para detectar aumento mínimo de 1,5 ponto percentual.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Teste A/B**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Uma amostra enviesada que não representa adequadamente a população de interesse.
 - [ ] E) Uma tabela com colunas em ordem diferente.
 
-4. **Referência — atividade 4:** Simule peeking diário e explique como aumenta falso positivo.
-
-   **Pergunta:** Como usar evidência de **Teste A/B** em uma decisão real?
-
-- [ ] A) Repetir testes até surgir uma conclusão favorável.
-- [ ] B) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
-- [ ] C) Escolher automaticamente a opção com a maior média observada.
-- [ ] D) Eliminar a incerteza arredondando os números.
-- [ ] E) Tomar a decisão apenas pelo sinal positivo ou negativo.
-
-5. **Referência — atividade 5:** Crie relatório de decisão: lançar, repetir ou abandonar, justificando risco e impacto.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um estudo estatístico relacionado a **Teste A/B**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Teste A/B**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Definir hipótese, métrica principal e regra de decisão.
-- B) Decidir com base no efeito, no risco e na relevância prática.
-- C) Distribuir aleatoriamente as unidades entre os grupos.
-- D) Estimar a diferença entre grupos e sua incerteza.
-- E) Verificar equilíbrio e integridade da coleta.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Teste A/B.
-- **Competência sugerida:** Testes A/B.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes A/B** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
-- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+**Autoavaliação do dia:** `__/5`

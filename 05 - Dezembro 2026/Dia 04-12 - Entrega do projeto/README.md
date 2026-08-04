@@ -1,83 +1,6 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 85 — Entrega do projeto — 27/11/2026
-> [!abstract] Resultado concreto do dia
-> Concluir **Entrega do projeto** produzindo um artefato executável e evidências de que você compreendeu o assunto.
-
-### Preparação
-- **Assunto central:** Entrega do projeto.
-- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
-- **Dados:** `dados/credito.csv`.
-
-### Passo a passo completo
-1. [ ] Entregue relatório técnico, política de decisão, dashboard e model card.
-2. [ ] Valide reprodução em ambiente limpo.
-3. [ ] Crie apresentação com problema, modelo, calibração, política, impacto e riscos.
-4. [ ] Responda a uma banca simulada sobre viés, explicabilidade, drift e regulação.
-5. [ ] Registre limitações e plano de monitoramento pós-implantação.
-
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
-
-- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Inclua no model card a métrica temporal final e o desempenho para contratos de baixa renda, com tamanho do grupo.
-- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Simule aumento de 20% na taxa de default e registre qual regra da política precisaria de revisão.
-
-### Perguntas de checagem
-1. Como defender uma política de risco para negócio, tecnologia e governança ao mesmo tempo?
-
-**Resposta:**
-
-2. Em qual exercício de **Entrega do projeto** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
-
-**Resposta:**
-
-3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
-
-**Resposta:**
-
-4. Como o conhecimento de **Entrega do projeto** seria usado para apoiar uma decisão real em dados ou IA?
-
-**Resposta:**
-
-5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
-
-**Resposta:**
-
-6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
-
-**Resposta:**
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
-> [!important] Projeto mensal robusto — Laboratório de Risco de Crédito e Política de Decisão
-> **Desafio:** Construir um case completo de risco que una dados, cohorts, classificação, explicabilidade e custo dos erros.
->
-> **Deve reutilizar:** Tudo das semanas 1–17.
->
-> **Entregáveis obrigatórios:**
-> - [ ] base analítica e cohorts;
-> - [ ] modelo de probabilidade;
-> - [ ] política de aprovação/limite;
-> - [ ] simulação financeira;
-> - [ ] fairness e limitações;
-> - [ ] defesa executiva;
->
-> **Defesa:** apresentação de 8–15 minutos, seguida de cinco perguntas críticas respondidas sem ler o README.
->
-> **Nota mínima recomendada:** `7/10`. Abaixo disso, reserve um bloco de correção na segunda-feira seguinte.
-
-> [!check] Critério para avançar
-> Você consegue explicar por que um modelo de risco não deve ser avaliado apenas por accuracy?
-
----
-
----
 
 ### Conquista para o LinkedIn
 
@@ -88,3 +11,65 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise de risco orientada a negócios** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
+> [!abstract] Resultado concreto do dia
+> Concluir **Entrega do projeto** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
+
+### Preparação
+- **Assunto central:** Entrega do projeto.
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
+- **Dados:** `dados/credito.csv`.
+
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Entregue notebook ou scripts reproduzíveis, política de decisão e model card curto.
+2. [ ] Valide calibração, custo e desempenho temporal do modelo escolhido.
+3. [ ] Mostre desempenho em pelo menos um segmento relevante e registre risco de viés.
+4. [ ] Crie README e resumo executivo de até duas páginas com limitações e revisão humana.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Dashboard, relatório extenso e apresentação de banca são desafios de portfólio.
+- [ ] Validação em ambiente limpo é recomendada quando as dependências já estiverem fixadas.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
+
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Inclua no model card a métrica temporal final e o desempenho para contratos de baixa renda, com tamanho do grupo.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Simule aumento de 20% na taxa de default e registre qual regra da política precisaria de revisão.
+
+### Perguntas de checagem
+1. Como defender uma política de risco para negócio, tecnologia e governança ao mesmo tempo?
+2. Em qual exercício de **Entrega do projeto** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
+3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
+4. Como o conhecimento de **Entrega do projeto** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
+
+### Critério de avanço
+
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Respondi pelo menos três das seis perguntas de checagem com justificativa própria.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
+
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
+
+**Autoavaliação do dia:** `__/5`
+
+
+
+---

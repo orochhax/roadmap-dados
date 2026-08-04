@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 17 — Visualização com pandas e Matplotlib — 25/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Visualização com pandas e Matplotlib.
+- **Competência sugerida:** Matplotlib.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Matplotlib** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Visualização com pandas e Matplotlib** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Visualização com pandas e Matplotlib.
 - **Pasta/arquivo principal:** `01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Com `pedidos.csv`, crie séries temporais de receita diária e mensal, barras de receita por canal e boxplot de valor por categoria.
 2. [ ] Faça primeiro com `DataFrame.plot()` e depois recrie dois gráficos diretamente com Matplotlib.
 3. [ ] Adicione linha de meta mensal e destaque meses abaixo da meta por anotação textual.
-4. [ ] Crie uma função reutilizável que receba DataFrame, coluna temporal, métrica e título.
-5. [ ] Teste a função com dados vazios, uma única data e categorias desconhecidas.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Crie uma função reutilizável que receba DataFrame, coluna temporal, métrica e título.
+- [ ] Teste a função com dados vazios, uma única data e categorias desconhecidas.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`:** Filtre somente o canal app, calcule a receita mensal e recrie o gráfico de linha com título que declare uma conclusão desse recorte.
 - [ ] **Em `01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`:** Passe à função reutilizável um DataFrame vazio e outro com uma única data; trate ambos sem produzir gráfico enganoso.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Com `pedidos.csv`, crie séries temporais de receita diária e mensal, barras de receita por canal e boxplot de valor por categoria.
-
-   **Pergunta:** Antes de tirar conclusões em **Visualização com pandas e Matplotlib**, qual é a prática mais confiável?
-
-- [ ] A) Remover todas as linhas incompletas sem medir o impacto.
-- [ ] B) Calcular médias antes de entender o que cada linha representa.
-- [ ] C) Considerar os nomes das colunas suficientes para validar os dados.
-- [ ] D) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
-- [ ] E) Começar pelo gráfico mais bonito e escolher os dados depois.
-
-2. **Referência — atividade 2:** Faça primeiro com `DataFrame.plot()` e depois recrie dois gráficos diretamente com Matplotlib.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual cuidado evita conclusões distorcidas ao trabalhar com **Visualização com pandas e Matplotlib**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Arredondar os valores antes de analisar diferenças.
 - [ ] E) Usar apenas as primeiras linhas como representação de toda a base.
 
-3. **Referência — atividade 3:** Adicione linha de meta mensal e destaque meses abaixo da meta por anotação textual.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Visualização com pandas e Matplotlib**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Duplicar a base e repetir o mesmo cálculo.
 - [ ] E) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
 
-4. **Referência — atividade 4:** Crie uma função reutilizável que receba DataFrame, coluna temporal, métrica e título.
-
-   **Pergunta:** Como uma análise de **Visualização com pandas e Matplotlib** deve ser apresentada para apoiar uma decisão?
-
-- [ ] A) Usando apenas termos técnicos, sem explicar o impacto.
-- [ ] B) Escolhendo a recomendação mais popular, mesmo sem evidência.
-- [ ] C) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
-- [ ] D) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
-- [ ] E) Omitindo incertezas para transmitir mais confiança.
-
-5. **Referência — atividade 5:** Teste a função com dados vazios, uma única data e categorias desconhecidas.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo de análise para uma atividade de **Visualização com pandas e Matplotlib**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a preparação de uma visualização ou entrega sobre **Visualização com pandas e Matplotlib**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Identificar o público e a decisão que será apoiada.
-- B) Selecionar a métrica e o recorte adequados.
-- C) Apresentar a mensagem principal e o próximo passo.
-- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
-- E) Escolher o tipo de visual compatível com a comparação.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Visualização com pandas e Matplotlib.
-- **Competência sugerida:** Matplotlib.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Matplotlib** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Python`.
-- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+**Autoavaliação do dia:** `__/5`

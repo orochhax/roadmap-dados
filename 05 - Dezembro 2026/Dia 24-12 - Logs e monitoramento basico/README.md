@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 99 — Logs e monitoramento básico — 17/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Logs e monitoramento básico.
+- **Competência sugerida:** Logs e monitoramento.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Logs e monitoramento** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Logs e monitoramento básico** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Logs e monitoramento básico.
 - **Pasta/arquivo principal:** `01-exercicios/dia-099-logs-e-monitoramento-basico.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
-### Passo a passo completo
-1. [ ] Adicione logs de requisição com tempo, status, versão e identificador, sem registrar dados sensíveis.
-2. [ ] Crie métricas simples: contagem, latência, erros e distribuição de probabilidades.
-3. [ ] Simule 100 requisições válidas e 20 inválidas.
-4. [ ] Defina alertas conceituais para erro, latência e drift.
-5. [ ] Crie runbook de investigação.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-099-logs-e-monitoramento-basico.py`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Adicione logs de requisição com tempo, status e versão sem registrar dados sensíveis.
+2. [ ] Meça contagem, latência e erros em 20 requisições válidas e cinco inválidas.
+3. [ ] Defina um alerta conceitual e escreva um runbook curto para investigá-lo.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Amplie para 100 requisições somente para observar percentis com uma amostra maior.
+- [ ] Distribuição de probabilidades e drift ficam como extensão após as métricas operacionais básicas.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-099-logs-e-monitoramento-basico.py`:** Simule 50 requisições com latência adicional de 200 ms e compare p50 e p95 com as requisições normais.
 - [ ] **Em `01-exercicios/dia-099-logs-e-monitoramento-basico.py`:** Envie 10 payloads sem campo obrigatório e confirme que logs contam erros sem registrar o conteúdo completo.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Adicione logs de requisição com tempo, status, versão e identificador, sem registrar dados sensíveis.
-
-   **Pergunta:** Qual prática melhora a manutenção de uma solução de **Logs e monitoramento básico**?
-
-- [ ] A) Duplicar trechos para evitar criar funções.
-- [ ] B) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
-- [ ] C) Colocar dados, regras e execução em uma única função.
-- [ ] D) Salvar segredos diretamente no código.
-- [ ] E) Alterar vários comportamentos sem registrar o motivo.
-
-2. **Referência — atividade 2:** Crie métricas simples: contagem, latência, erros e distribuição de probabilidades.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual estratégia de testes é mais adequada em **Logs e monitoramento básico**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Depender da mesma implementação para calcular e conferir a saída.
 - [ ] E) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
 
-3. **Referência — atividade 3:** Simule 100 requisições válidas e 20 inválidas.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual cuidado é essencial ao publicar uma aplicação de **Logs e monitoramento básico**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Usar diretamente a última alteração sem versão.
 - [ ] E) Imprimir credenciais nos logs para facilitar suporte.
 
-4. **Referência — atividade 4:** Defina alertas conceituais para erro, latência e drift.
-
-   **Pergunta:** Como saber se uma solução de **Logs e monitoramento básico** continua saudável após a publicação?
-
-- [ ] A) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
-- [ ] B) Conferir somente se o computador do desenvolvedor está ligado.
-- [ ] C) Considerar ausência de reclamações como prova suficiente.
-- [ ] D) Observar apenas o uso de memória uma vez por mês.
-- [ ] E) Avaliar somente a métrica obtida durante o treinamento.
-
-5. **Referência — atividade 5:** Crie runbook de investigação.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene uma mudança segura em **Logs e monitoramento básico**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a resposta a um problema após publicar **Logs e monitoramento básico**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Republicar com controle e documentar o incidente.
-- B) Delimitar usuários, versões e componentes afetados.
-- C) Detectar o sintoma por métricas, logs ou alerta.
-- D) Corrigir a causa e validar com testes.
-- E) Conter o impacto ou reverter para uma versão estável.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Logs e monitoramento básico.
-- **Competência sugerida:** Logs e monitoramento.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Logs e monitoramento** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

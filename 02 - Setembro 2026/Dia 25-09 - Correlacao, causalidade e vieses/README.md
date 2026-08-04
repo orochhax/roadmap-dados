@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 39 — Correlação, causalidade e vieses — 24/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Correlação, causalidade e vieses.
+- **Competência sugerida:** Correlação, causalidade e vieses.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Correlação, causalidade e vieses** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Correlação, causalidade e vieses** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Correlação, causalidade e vieses.
 - **Pasta/arquivo principal:** `01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
-### Passo a passo completo
-1. [ ] Calcule correlação Pearson e Spearman entre mensalidade, chamados, NPS e churn codificado.
-2. [ ] Crie três exemplos sintéticos: correlação sem causalidade, causalidade com baixa correlação linear e paradoxo de Simpson.
-3. [ ] Desenhe um DAG simples para relação entre plano, renda, mensalidade e churn.
-4. [ ] Liste possíveis confundidores em uma análise de cancelamento.
-5. [ ] Reescreva cinco frases causais como associações honestas quando o desenho não sustenta causalidade.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Calcule Pearson e Spearman em duas relações e compare o que cada medida captura.
+2. [ ] Crie um exemplo de correlação sem causalidade e liste um possível confundidor.
+3. [ ] Reescreva três conclusões causais como associações compatíveis com os dados observacionais.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Construa um DAG simples somente depois de identificar exposição, resultado e confundidor.
+- [ ] Paradoxo de Simpson fica como desafio, pois exige análise estratificada cuidadosa.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb`:** Construa um exemplo de Simpson com duas cidades em que a associação geral tenha sinal diferente das associações por cidade.
 - [ ] **Em `01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb`:** Escolha uma conclusão causal do rascunho e reescreva-a como associação, citando o confundidor que ainda não foi controlado.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Calcule correlação Pearson e Spearman entre mensalidade, chamados, NPS e churn codificado.
-
-   **Pergunta:** Ao estudar **Correlação, causalidade e vieses**, por que uma única medida-resumo pode ser insuficiente?
-
-- [ ] A) Porque gráficos tornam cálculos estatísticos desnecessários.
-- [ ] B) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
-- [ ] C) Porque médias só podem ser usadas com dados de texto.
-- [ ] D) Porque toda análise exige exatamente cinco métricas.
-- [ ] E) Porque a mediana sempre substitui qualquer outra medida.
-
-2. **Referência — atividade 2:** Crie três exemplos sintéticos: correlação sem causalidade, causalidade com baixa correlação linear e paradoxo de Simpson.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Correlação, causalidade e vieses**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Ignorar o tamanho da amostra quando a média parece convincente.
 - [ ] E) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
 
-3. **Referência — atividade 3:** Desenhe um DAG simples para relação entre plano, renda, mensalidade e churn.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Correlação, causalidade e vieses**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Uma tabela com colunas em ordem diferente.
 - [ ] E) Um gráfico com título curto.
 
-4. **Referência — atividade 4:** Liste possíveis confundidores em uma análise de cancelamento.
-
-   **Pergunta:** Como usar evidência de **Correlação, causalidade e vieses** em uma decisão real?
-
-- [ ] A) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
-- [ ] B) Escolher automaticamente a opção com a maior média observada.
-- [ ] C) Eliminar a incerteza arredondando os números.
-- [ ] D) Tomar a decisão apenas pelo sinal positivo ou negativo.
-- [ ] E) Repetir testes até surgir uma conclusão favorável.
-
-5. **Referência — atividade 5:** Reescreva cinco frases causais como associações honestas quando o desenho não sustenta causalidade.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um estudo estatístico relacionado a **Correlação, causalidade e vieses**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Correlação, causalidade e vieses**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Decidir com base no efeito, no risco e na relevância prática.
-- B) Distribuir aleatoriamente as unidades entre os grupos.
-- C) Definir hipótese, métrica principal e regra de decisão.
-- D) Estimar a diferença entre grupos e sua incerteza.
-- E) Verificar equilíbrio e integridade da coleta.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Correlação, causalidade e vieses.
-- **Competência sugerida:** Correlação, causalidade e vieses.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Correlação, causalidade e vieses** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
-- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+**Autoavaliação do dia:** `__/5`

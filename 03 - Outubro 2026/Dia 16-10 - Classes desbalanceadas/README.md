@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 54 — Classes desbalanceadas — 15/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Classes desbalanceadas.
+- **Competência sugerida:** Classes desbalanceadas.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Classes desbalanceadas** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Classes desbalanceadas** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Classes desbalanceadas.
 - **Pasta/arquivo principal:** `01-exercicios/dia-054-classes-desbalanceadas.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Meça a proporção de classes e crie baseline que sempre prevê a maioria.
 2. [ ] Compare `class_weight='balanced'`, undersampling e oversampling apenas no treino.
 3. [ ] Evite aplicar reamostragem antes do split; demonstre como isso vaza informação.
-4. [ ] Avalie PR-AUC, recall da minoria, precision e custo.
-5. [ ] Escolha abordagem final e registre impactos colaterais.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-054-classes-desbalanceadas.ipynb`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Avalie PR-AUC, recall da minoria, precision e custo.
+- [ ] Escolha abordagem final e registre impactos colaterais.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-054-classes-desbalanceadas.ipynb`:** Crie uma amostra com apenas 5% de churn e compare accuracy e PR-AUC com a base original.
 - [ ] **Em `01-exercicios/dia-054-classes-desbalanceadas.ipynb`:** Aplique oversampling somente no treino e confirme que a proporção do conjunto de validação permanece inalterada.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Meça a proporção de classes e crie baseline que sempre prevê a maioria.
-
-   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Classes desbalanceadas**?
-
-- [ ] A) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
-- [ ] B) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
-- [ ] C) Normalizar toda a base antes da separação para usar mais informação.
-- [ ] D) Escolher variáveis depois de observar o desempenho no teste.
-- [ ] E) Duplicar exemplos raros antes de separar os conjuntos.
-
-2. **Referência — atividade 2:** Compare `class_weight='balanced'`, undersampling e oversampling apenas no treino.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Como escolher uma métrica adequada para avaliar **Classes desbalanceadas**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Avaliando apenas o tempo de treinamento do algoritmo.
 - [ ] E) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
 
-3. **Referência — atividade 3:** Evite aplicar reamostragem antes do split; demonstre como isso vaza informação.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Classes desbalanceadas**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Testar cada modelo em uma divisão diferente dos dados.
 - [ ] E) Escolher pelo desempenho no conjunto usado para treinar.
 
-4. **Referência — atividade 4:** Avalie PR-AUC, recall da minoria, precision e custo.
-
-   **Pergunta:** Antes de usar um modelo de **Classes desbalanceadas** em uma decisão real, o que deve ser analisado?
-
-- [ ] A) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
-- [ ] B) Somente a métrica média do melhor experimento.
-- [ ] C) A aparência dos gráficos de treinamento, sem examinar dados.
-- [ ] D) A complexidade do nome do algoritmo escolhido.
-- [ ] E) A quantidade de linhas de código usada para criar o modelo.
-
-5. **Referência — atividade 5:** Escolha abordagem final e registre impactos colaterais.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo de modelagem para **Classes desbalanceadas**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene uma seleção responsável de modelo em **Classes desbalanceadas**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Estabelecer um baseline simples e reproduzível.
-- B) Documentar limitações, segmentos frágeis e regras de uso.
-- C) Ajustar hiperparâmetros sem consultar o conjunto de teste.
-- D) Avaliar uma vez no teste após fechar as escolhas.
-- E) Comparar candidatos com o mesmo protocolo de validação.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Classes desbalanceadas.
-- **Competência sugerida:** Classes desbalanceadas.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Classes desbalanceadas** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
-- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+**Autoavaliação do dia:** `__/5`

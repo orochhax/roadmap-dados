@@ -1,5 +1,9 @@
 # Projeto — Dia 005 — Funções e primeiro mini-projeto
 
+> [!important] Escopo adaptativo
+> Este arquivo é um modelo de documentação. O Núcleo essencial do README na raiz do dia é a única lista obrigatória; use os itens abaixo somente para ampliar o projeto.
+
+
 > Estrutura preparada a partir do roadmap. Nenhuma atividade foi resolvida.
 
 > [!project] Projeto semanal — Sistema Inteligente de Triagem de Incidentes
@@ -7,7 +11,7 @@
 >
 > **Deve reutilizar:** Python básico, condicionais, coleções, funções e Git.
 >
-> **Entregáveis obrigatórios:**
+> **Ideias opcionais para ampliar (o README do dia define o núcleo obrigatório):**
 > - [ ] código dividido em funções e regras carregadas de arquivo configurável;
 > - [ ] ranking dos incidentes por impacto (`clientes_afetados × duração × peso da severidade`);
 > - [ ] resumo por cidade, causa e prioridade;
@@ -20,7 +24,7 @@
 >
 > **Nota mínima recomendada:** `6/10`.
 
-> [!check] Critério para avançar
+> [!check] Pergunta de revisão opcional
 > Você consegue transformar regras operacionais em um sistema configurável, testável e útil para priorizar recursos?
 
 ---

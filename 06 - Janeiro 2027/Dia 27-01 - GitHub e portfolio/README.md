@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 121 — GitHub e portfólio — 18/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** GitHub e portfólio.
+- **Competência sugerida:** GitHub e portfólio profissional.
+- **Ação recomendada:** Mantenha o título atual, adicione ou reforce **GitHub e portfólio profissional** em Competências e organize os melhores repositórios para a seção Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **GitHub e portfólio** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** GitHub e portfólio.
 - **Pasta/arquivo principal:** `01-exercicios/dia-121-github-e-portfolio.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Audite todos os repositórios: nome, descrição, README, licença, dependências, dados e execução.
 2. [ ] Escolha quatro projetos principais e arquive ou oculte os fracos.
 3. [ ] Padronize capas, estrutura e seção de resultados.
-4. [ ] Teste cada projeto em clone limpo.
-5. [ ] Crie página índice de portfólio com problema, técnicas, impacto e link.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-121-github-e-portfolio.md`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Teste cada projeto em clone limpo.
+- [ ] Crie página índice de portfólio com problema, técnicas, impacto e link.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-121-github-e-portfolio.md`:** Clone um dos quatro projetos principais em pasta limpa e cronometre da leitura do README até a primeira execução.
 - [ ] **Em `01-exercicios/dia-121-github-e-portfolio.md`:** Escolha um README sem número de impacto e acrescente uma métrica real já produzida pelo projeto, sem inventar resultado.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Audite todos os repositórios: nome, descrição, README, licença, dependências, dados e execução.
-
-   **Pergunta:** Qual conteúdo fortalece mais uma apresentação de **GitHub e portfólio**?
-
-- [ ] A) Uma lista extensa de ferramentas sem contexto.
-- [ ] B) Afirmações genéricas de domínio avançado.
-- [ ] C) Cópias de descrições encontradas em vagas.
-- [ ] D) Somente imagens, sem explicar o raciocínio.
-- [ ] E) Problema, decisões tomadas, evidências produzidas, limitações e impacto do trabalho.
-
-2. **Referência — atividade 2:** Escolha quatro projetos principais e arquive ou oculte os fracos.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Como adaptar **GitHub e portfólio** a uma oportunidade profissional?
 
@@ -46,7 +64,7 @@
 - [ ] D) Adicionar habilidades que ainda não foram praticadas.
 - [ ] E) Usar exatamente o mesmo texto para qualquer vaga.
 
-3. **Referência — atividade 3:** Padronize capas, estrutura e seção de resultados.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual é a melhor forma de falar sobre uma lacuna durante **GitHub e portfólio**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Afirmar domínio total sem conseguir demonstrar.
 - [ ] E) Culpar a descrição da vaga pela pergunta.
 
-4. **Referência — atividade 4:** Teste cada projeto em clone limpo.
-
-   **Pergunta:** Qual resposta demonstra melhor experiência em uma entrevista ligada a **GitHub e portfólio**?
-
-- [ ] A) Uma resposta decorada que não explica sua participação.
-- [ ] B) Uma descrição longa apenas sobre a equipe.
-- [ ] C) Uma lista de tecnologias sem decisão ou efeito.
-- [ ] D) Uma história objetiva com contexto, ação própria, evidência e aprendizado.
-- [ ] E) Uma opinião ampla sem exemplo concreto.
-
-5. **Referência — atividade 5:** Crie página índice de portfólio com problema, técnicas, impacto e link.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene a preparação de um material de **GitHub e portfólio**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a preparação para uma conversa profissional sobre **GitHub e portfólio**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Praticar respostas curtas com contexto, ação e evidência.
-- B) Selecionar exemplos reais para competências técnicas e comportamentais.
-- C) Revisar os aprendizados e ajustar a próxima simulação.
-- D) Simular perguntas e identificar lacunas de explicação.
-- E) Pesquisar a função, a empresa e os problemas prováveis.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** GitHub e portfólio.
-- **Competência sugerida:** GitHub e portfólio profissional.
-- **Ação recomendada:** Mantenha o título atual, adicione ou reforce **GitHub e portfólio profissional** em Competências e organize os melhores repositórios para a seção Destaques.
-- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
-- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+**Autoavaliação do dia:** `__/5`

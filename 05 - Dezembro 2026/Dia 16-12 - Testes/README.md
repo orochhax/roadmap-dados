@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 93 — Testes — 09/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Testes.
+- **Competência sugerida:** Testes de software.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes de software** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Testes** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Testes.
 - **Pasta/arquivo principal:** `01-exercicios/dia-093-testes.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Instale `pytest` e escreva testes para validação de dados, feature engineering e métrica de custo.
 2. [ ] Crie testes unitários com casos normais, borda e erro.
 3. [ ] Escreva um teste de integração do carregamento até previsão.
-4. [ ] Use fixtures para dados pequenos.
-5. [ ] Introduza um bug proposital, confirme falha e depois corrija.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-093-testes.py`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Use fixtures para dados pequenos.
+- [ ] Introduza um bug proposital, confirme falha e depois corrija.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-093-testes.py`:** Crie um teste para duração negativa e outro para divisão de custo quando total=0 usando fixtures pequenas.
 - [ ] **Em `01-exercicios/dia-093-testes.py`:** Remova temporariamente uma coluna obrigatória da fixture de integração e confirme que o teste falha antes da previsão.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Instale `pytest` e escreva testes para validação de dados, feature engineering e métrica de custo.
-
-   **Pergunta:** Qual prática melhora a manutenção de uma solução de **Testes**?
-
-- [ ] A) Alterar vários comportamentos sem registrar o motivo.
-- [ ] B) Duplicar trechos para evitar criar funções.
-- [ ] C) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
-- [ ] D) Colocar dados, regras e execução em uma única função.
-- [ ] E) Salvar segredos diretamente no código.
-
-2. **Referência — atividade 2:** Crie testes unitários com casos normais, borda e erro.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual estratégia de testes é mais adequada em **Testes**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Validar somente o caminho de sucesso.
 - [ ] E) Depender da mesma implementação para calcular e conferir a saída.
 
-3. **Referência — atividade 3:** Escreva um teste de integração do carregamento até previsão.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual cuidado é essencial ao publicar uma aplicação de **Testes**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
 - [ ] E) Usar diretamente a última alteração sem versão.
 
-4. **Referência — atividade 4:** Use fixtures para dados pequenos.
-
-   **Pergunta:** Como saber se uma solução de **Testes** continua saudável após a publicação?
-
-- [ ] A) Avaliar somente a métrica obtida durante o treinamento.
-- [ ] B) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
-- [ ] C) Conferir somente se o computador do desenvolvedor está ligado.
-- [ ] D) Considerar ausência de reclamações como prova suficiente.
-- [ ] E) Observar apenas o uso de memória uma vez por mês.
-
-5. **Referência — atividade 5:** Introduza um bug proposital, confirme falha e depois corrija.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene uma mudança segura em **Testes**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a resposta a um problema após publicar **Testes**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Detectar o sintoma por métricas, logs ou alerta.
-- B) Conter o impacto ou reverter para uma versão estável.
-- C) Delimitar usuários, versões e componentes afetados.
-- D) Republicar com controle e documentar o incidente.
-- E) Corrigir a causa e validar com testes.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Testes.
-- **Competência sugerida:** Testes de software.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes de software** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

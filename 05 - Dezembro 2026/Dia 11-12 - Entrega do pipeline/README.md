@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 90 — Entrega do pipeline — 04/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Entrega do pipeline.
+- **Competência sugerida:** Engenharia de Dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Engenharia de Dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Entrega do pipeline** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Entrega do pipeline.
 - **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Empacote pipeline da semana com script de execução única.
 2. [ ] Adicione validações de esquema, unicidade, nulos e limites.
 3. [ ] Produza tabela de auditoria com data, status, linhas de entrada, saída e erro.
 4. [ ] Rode duas vezes e com dados novos para provar idempotência/incremento correto.
-5. [ ] Publique README de arquitetura, execução, testes e limitações.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Publique README de arquitetura, execução, testes e limitações.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Execute a pipeline com uma linha duplicada e registre na auditoria quantas linhas foram rejeitadas.
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Rode o mesmo lote duas vezes e um lote com 10 linhas novas; confirme os totais da tabela de auditoria.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Empacote pipeline da semana com script de execução única.
-
-   **Pergunta:** Qual característica torna um pipeline de **Entrega do pipeline** seguro para ser executado novamente?
-
-- [ ] A) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
-- [ ] B) Gerar um arquivo diferente a cada tentativa.
-- [ ] C) Apagar toda a origem antes de iniciar.
-- [ ] D) Depender de correções manuais após cada execução.
-- [ ] E) Ignorar registros já processados sem usar uma chave.
-
-2. **Referência — atividade 2:** Adicione validações de esquema, unicidade, nulos e limites.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual controle de qualidade é mais útil em **Entrega do pipeline**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
 - [ ] E) Conferir apenas se o processo terminou sem erro.
 
-3. **Referência — atividade 3:** Produza tabela de auditoria com data, status, linhas de entrada, saída e erro.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** O que melhora a observabilidade de uma solução de **Entrega do pipeline**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Ocultar falhas e repetir o processo indefinidamente.
 - [ ] E) Registrar somente o horário de início.
 
-4. **Referência — atividade 4:** Rode duas vezes e com dados novos para provar idempotência/incremento correto.
-
-   **Pergunta:** Como relacionar **Entrega do pipeline** a uma necessidade de negócio?
-
-- [ ] A) Escolher a ferramenta mais complexa disponível.
-- [ ] B) Processar tudo em tempo real, mesmo sem necessidade.
-- [ ] C) Manter dados sem informar origem ou atualização.
-- [ ] D) Priorizar volume acima de confiabilidade e custo.
-- [ ] E) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
-
-5. **Referência — atividade 5:** Publique README de arquitetura, execução, testes e limitações.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo de dados para **Entrega do pipeline**.
 
@@ -78,54 +86,17 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a resposta a uma falha em **Entrega do pipeline**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Detectar a falha por alerta ou verificação automática.
-- B) Corrigir a causa mantendo os dados íntegros.
-- C) Identificar execução, etapa e dados afetados.
-- D) Reprocessar somente o escopo necessário.
-- E) Confirmar a recuperação e registrar prevenção.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
+**Autoavaliação do dia:** `__/5`
 
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
-**Autoavaliação do dia:** `__/5`  
-
-> [!project] Projeto semanal — Pipeline ETL reprodutível
-> **Desafio:** Criar um pipeline que ingere, valida, transforma e publica dados para análise e modelagem.
->
-> **Deve reutilizar:** Python, SQL, testes de dados e arquitetura básica.
->
-> **Entregáveis obrigatórios:**
-> - [ ] camadas raw/clean/analytics;
-> - [ ] execução idempotente;
-> - [ ] logs e validações;
-> - [ ] documentação de arquitetura;
->
-> **Defesa:** demonstração de cinco minutos e resposta a três perguntas técnicas.
->
-> **Nota mínima recomendada:** `6/10`.
-
-> [!check] Critério para avançar
-> Você consegue explicar de onde os dados vieram, como foram transformados e como reproduzir a tabela usada no modelo?
 
 ---
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Entrega do pipeline.
-- **Competência sugerida:** Engenharia de Dados.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Engenharia de Dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.

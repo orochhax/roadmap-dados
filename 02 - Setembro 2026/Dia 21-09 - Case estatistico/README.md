@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 35 — Case estatístico — 18/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Case estatístico.
+- **Competência sugerida:** Análise estatística.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise estatística** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Case estatístico** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Case estatístico.
 - **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Receba um case: a empresa afirma que duração média caiu após mudança de processo; defina população, amostra, variável e hipótese.
 2. [ ] Faça EDA antes/depois, calcule diferença absoluta, percentual e tamanho de efeito simples.
 3. [ ] Crie duas análises: uma com média e outra com mediana; explique divergências.
 4. [ ] Simule um resultado estatisticamente aparente causado por composição diferente de cidades.
-5. [ ] Entregue nota técnica de uma página dizendo o que pode e não pode ser concluído.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Entregue nota técnica de uma página dizendo o que pode e não pode ser concluído.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Repita a comparação antes/depois usando somente a cidade com maior número de observações e compare com a conclusão geral.
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Inclua uma duração de 2000 minutos no período depois e compare o efeito sobre média, mediana e tamanho de efeito.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Receba um case: a empresa afirma que duração média caiu após mudança de processo; defina população, amostra, variável e hipótese.
-
-   **Pergunta:** Ao estudar **Case estatístico**, por que uma única medida-resumo pode ser insuficiente?
-
-- [ ] A) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
-- [ ] B) Porque médias só podem ser usadas com dados de texto.
-- [ ] C) Porque toda análise exige exatamente cinco métricas.
-- [ ] D) Porque a mediana sempre substitui qualquer outra medida.
-- [ ] E) Porque gráficos tornam cálculos estatísticos desnecessários.
-
-2. **Referência — atividade 2:** Faça EDA antes/depois, calcule diferença absoluta, percentual e tamanho de efeito simples.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Case estatístico**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
 - [ ] E) Tratar qualquer valor-p pequeno como prova de grande impacto.
 
-3. **Referência — atividade 3:** Crie duas análises: uma com média e outra com mediana; explique divergências.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Case estatístico**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Um gráfico com título curto.
 - [ ] E) Uma média apresentada com duas casas decimais.
 
-4. **Referência — atividade 4:** Simule um resultado estatisticamente aparente causado por composição diferente de cidades.
-
-   **Pergunta:** Como usar evidência de **Case estatístico** em uma decisão real?
-
-- [ ] A) Escolher automaticamente a opção com a maior média observada.
-- [ ] B) Eliminar a incerteza arredondando os números.
-- [ ] C) Tomar a decisão apenas pelo sinal positivo ou negativo.
-- [ ] D) Repetir testes até surgir uma conclusão favorável.
-- [ ] E) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
-
-5. **Referência — atividade 5:** Entregue nota técnica de uma página dizendo o que pode e não pode ser concluído.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um estudo estatístico relacionado a **Case estatístico**.
 
@@ -78,59 +86,22 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Case estatístico**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Definir hipótese, métrica principal e regra de decisão.
-- B) Distribuir aleatoriamente as unidades entre os grupos.
-- C) Decidir com base no efeito, no risco e na relevância prática.
-- D) Estimar a diferença entre grupos e sua incerteza.
-- E) Verificar equilíbrio e integridade da coleta.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
+**Autoavaliação do dia:** `__/5`
 
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
 > - [ ] Inclua problema, abordagem, principal evidência, decisão e link do GitHub.
 > - [ ] **Ângulo sugerido:** explicar como você separou diferença aparente de evidência estatística e evitou confundir correlação com causa.
 
-> [!project] Projeto semanal — Diagnóstico estatístico da qualidade do serviço
-> **Desafio:** Investigar se regiões ou planos apresentam diferenças relevantes em falhas, duração e satisfação.
->
-> **Deve reutilizar:** Python, pandas, visualização, SQL e estatística descritiva.
->
-> **Entregáveis obrigatórios:**
-> - [ ] perguntas e hipóteses;
-> - [ ] análise de distribuição e incerteza;
-> - [ ] simulação ou amostragem;
-> - [ ] recomendação sem confundir correlação com causa;
->
-> **Defesa:** demonstração de cinco minutos e resposta a três perguntas técnicas.
->
-> **Nota mínima recomendada:** `6/10`.
-
-> [!check] Critério para avançar
-> Você consegue interpretar variação e incerteza, não apenas calcular médias?
 
 ---
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Case estatístico.
-- **Competência sugerida:** Análise estatística.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise estatística** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
-- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
-- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.

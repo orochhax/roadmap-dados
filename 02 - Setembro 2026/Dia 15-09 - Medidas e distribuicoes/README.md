@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 31 — Medidas e distribuições — 14/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Medidas e distribuições.
+- **Competência sugerida:** Estatística descritiva.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Estatística descritiva** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Medidas e distribuições** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Medidas e distribuições.
 - **Pasta/arquivo principal:** `01-exercicios/dia-031-medidas-e-distribuicoes.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Com `clientes_telecom.csv`, calcule média, mediana, moda, variância, desvio, quartis, IQR e amplitude para mensalidade, NPS e chamados.
 2. [ ] Crie duas distribuições com mesma média e desvios diferentes; mostre por que a média isolada engana.
 3. [ ] Compare métricas com e sem um outlier extremo inserido manualmente.
-4. [ ] Faça histogramas e boxplots e escreva a forma da distribuição: simétrica, assimétrica ou multimodal.
-5. [ ] Explique em linguagem de negócio quando mediana é mais adequada que média.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-031-medidas-e-distribuicoes.ipynb`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Faça histogramas e boxplots e escreva a forma da distribuição: simétrica, assimétrica ou multimodal.
+- [ ] Explique em linguagem de negócio quando mediana é mais adequada que média.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-031-medidas-e-distribuicoes.ipynb`:** Acrescente mensalidade 999,90 a uma cópia da coluna e compare média, mediana, desvio e IQR antes e depois.
 - [ ] **Em `01-exercicios/dia-031-medidas-e-distribuicoes.ipynb`:** Calcule as mesmas medidas somente para Salvador e compare o tamanho desse grupo com o total antes de interpretar a diferença.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Com `clientes_telecom.csv`, calcule média, mediana, moda, variância, desvio, quartis, IQR e amplitude para mensalidade, NPS e chamados.
-
-   **Pergunta:** Ao estudar **Medidas e distribuições**, por que uma única medida-resumo pode ser insuficiente?
-
-- [ ] A) Porque médias só podem ser usadas com dados de texto.
-- [ ] B) Porque toda análise exige exatamente cinco métricas.
-- [ ] C) Porque a mediana sempre substitui qualquer outra medida.
-- [ ] D) Porque gráficos tornam cálculos estatísticos desnecessários.
-- [ ] E) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
-
-2. **Referência — atividade 2:** Crie duas distribuições com mesma média e desvios diferentes; mostre por que a média isolada engana.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Medidas e distribuições**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Tratar qualquer valor-p pequeno como prova de grande impacto.
 - [ ] E) Considerar correlação suficiente para afirmar causalidade.
 
-3. **Referência — atividade 3:** Compare métricas com e sem um outlier extremo inserido manualmente.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Medidas e distribuições**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Uma média apresentada com duas casas decimais.
 - [ ] E) Um arquivo salvo em uma pasta específica do projeto.
 
-4. **Referência — atividade 4:** Faça histogramas e boxplots e escreva a forma da distribuição: simétrica, assimétrica ou multimodal.
-
-   **Pergunta:** Como usar evidência de **Medidas e distribuições** em uma decisão real?
-
-- [ ] A) Eliminar a incerteza arredondando os números.
-- [ ] B) Tomar a decisão apenas pelo sinal positivo ou negativo.
-- [ ] C) Repetir testes até surgir uma conclusão favorável.
-- [ ] D) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
-- [ ] E) Escolher automaticamente a opção com a maior média observada.
-
-5. **Referência — atividade 5:** Explique em linguagem de negócio quando mediana é mais adequada que média.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um estudo estatístico relacionado a **Medidas e distribuições**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Medidas e distribuições**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Definir hipótese, métrica principal e regra de decisão.
-- B) Decidir com base no efeito, no risco e na relevância prática.
-- C) Distribuir aleatoriamente as unidades entre os grupos.
-- D) Estimar a diferença entre grupos e sua incerteza.
-- E) Verificar equilíbrio e integridade da coleta.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Medidas e distribuições.
-- **Competência sugerida:** Estatística descritiva.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Estatística descritiva** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
-- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+**Autoavaliação do dia:** `__/5`

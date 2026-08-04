@@ -1,42 +1,61 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 8 — Exceções e validação — 12/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Exceções e validação.
+- **Competência sugerida:** Tratamento de exceções e validação.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Tratamento de exceções e validação** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Exceções e validação** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Exceções e validação.
 - **Pasta/arquivo principal:** `01-exercicios/dia-008-excecoes-e-validacao.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
-### Passo a passo completo
-1. [ ] Crie uma cópia do CSV do dia anterior com cinco erros: duração vazia, texto em clientes, severidade inválida, cidade ausente e booleano escrito errado.
-2. [ ] Implemente `validar_linha()` que retorne uma lista de erros, sem interromper o processamento das demais linhas.
-3. [ ] Use `try/except` apenas nos pontos em que a conversão pode falhar; não envolva o programa inteiro em um único `except`.
-4. [ ] Grave linhas válidas em `dados_validos.csv` e inválidas em `dados_rejeitados.csv` com uma coluna `motivo_rejeicao`.
-5. [ ] Crie uma tabela de testes com oito casos e confirme que nenhuma linha inválida entra silenciosamente no arquivo final.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-008-excecoes-e-validacao.py`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Use uma cópia pequena do CSV com quatro erros diferentes e implemente `validar_linha()` para retornar os problemas encontrados.
+2. [ ] Aplique `try/except` somente nas conversões que podem falhar, sem envolver o programa inteiro.
+3. [ ] Separe linhas válidas e rejeitadas sem interromper o processamento no primeiro erro.
+4. [ ] Volte a `metricas_atendimento.py` do Dia 2 e trate divisão por zero e texto no lugar de número em um único programa integrado.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Grave os dois CSVs de saída apenas depois de validar corretamente a lista em memória.
+- [ ] Amplie a tabela para oito casos se ainda houver dúvida sobre qual exceção ocorre em cada conversão.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-008-excecoes-e-validacao.py`:** Adicione uma linha com duracao_min=-10 ao arquivo de teste e faça validar_linha() registrar 'duração negativa' sem interromper as demais linhas.
 - [ ] **Em `01-exercicios/dia-008-excecoes-e-validacao.py`:** Repita um mesmo id em duas linhas válidas e acrescente uma validação que envie a segunda ocorrência para dados_rejeitados.csv.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Crie uma cópia do CSV do dia anterior com cinco erros: duração vazia, texto em clientes, severidade inválida, cidade ausente e booleano escrito errado.
-
-   **Pergunta:** Ao praticar **Exceções e validação**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
-
-- [ ] A) Ignorar os tipos das variáveis quando a saída parece plausível.
-- [ ] B) Evitar testes para não modificar o código que já executou uma vez.
-- [ ] C) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
-- [ ] D) Copiar um código pronto e alterar valores até ele executar.
-- [ ] E) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
-
-2. **Referência — atividade 2:** Implemente `validar_linha()` que retorne uma lista de erros, sem interromper o processamento das demais linhas.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual prática reduz mais o risco de erro em um programa relacionado a **Exceções e validação**?
 
@@ -46,7 +65,7 @@
 - [ ] D) Remover mensagens de erro para deixar o terminal mais limpo.
 - [ ] E) Repetir o mesmo cálculo em vários lugares do arquivo.
 
-3. **Referência — atividade 3:** Use `try/except` apenas nos pontos em que a conversão pode falhar; não envolva o programa inteiro em um único `except`.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual teste fornece a verificação mais completa para um exercício de **Exceções e validação**?
 
@@ -56,17 +75,7 @@
 - [ ] D) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
 - [ ] E) Executar apenas o exemplo numérico apresentado no enunciado.
 
-4. **Referência — atividade 4:** Grave linhas válidas em `dados_validos.csv` e inválidas em `dados_rejeitados.csv` com uma coluna `motivo_rejeicao`.
-
-   **Pergunta:** Ao usar um cálculo de **Exceções e validação** para apoiar uma decisão, qual atitude é mais adequada?
-
-- [ ] A) Excluir valores que contradizem a primeira interpretação.
-- [ ] B) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
-- [ ] C) Apresentar apenas o número final sem informar de onde ele veio.
-- [ ] D) Escolher a conclusão antes do cálculo e adaptar o código a ela.
-- [ ] E) Considerar qualquer saída do Python como prova suficiente.
-
-5. **Referência — atividade 5:** Crie uma tabela de testes com oito casos e confirme que nenhuma linha inválida entra silenciosamente no arquivo final.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo seguro para resolver uma atividade de **Exceções e validação**.
 
@@ -78,34 +87,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene as ações para investigar um erro durante a prática de **Exceções e validação**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Reproduzir o erro e observar a mensagem ou a saída.
-- B) Isolar a parte do código que causa o problema.
-- C) Corrigir a causa identificada.
-- D) Anotar o que provocou o erro e como ele foi corrigido.
-- E) Executar novamente os testes afetados.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Exceções e validação.
-- **Competência sugerida:** Tratamento de exceções e validação.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Tratamento de exceções e validação** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software`.
-- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+**Autoavaliação do dia:** `__/5`

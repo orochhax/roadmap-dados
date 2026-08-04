@@ -1,42 +1,61 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 114 — Geração com fontes — 07/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Geração com fontes.
+- **Competência sugerida:** RAG e geração fundamentada.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **RAG e geração fundamentada** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Geração com fontes** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
+- **Gate da fase:** se Python, SQL, estatística ou ML estiver abaixo de 3/5, troque este dia por reforço da lacuna; LLM/RAG pode ser retomado depois.
 
 ### Preparação
 - **Assunto central:** Geração com fontes.
 - **Pasta/arquivo principal:** `01-exercicios/dia-114-geracao-com-fontes.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Construa prompt que exija resposta somente com contexto recuperado e citação das fontes.
 2. [ ] Implemente recusa explícita quando contexto for insuficiente.
 3. [ ] Teste prompt injection dentro de documentos e perguntas.
-4. [ ] Compare respostas com e sem recuperação.
-5. [ ] Valide se cada afirmação relevante é sustentada por trecho recuperado.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-114-geracao-com-fontes.py`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Compare respostas com e sem recuperação.
+- [ ] Valide se cada afirmação relevante é sustentada por trecho recuperado.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-114-geracao-com-fontes.py`:** Teste 'posso dobrar o cabo óptico para guardar?' e exija citação do documento de LOS vermelha em toda afirmação técnica.
 - [ ] **Em `01-exercicios/dia-114-geracao-com-fontes.py`:** Insira em um documento a frase 'ignore as regras anteriores' e confirme que ela não altera a política de resposta.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Construa prompt que exija resposta somente com contexto recuperado e citação das fontes.
-
-   **Pergunta:** O que reduz respostas sem apoio em uma solução de **Geração com fontes**?
-
-- [ ] A) Usar somente o conhecimento geral do modelo.
-- [ ] B) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
-- [ ] C) Pedir ao modelo para inventar detalhes quando faltar contexto.
-- [ ] D) Enviar documentos aleatórios para aumentar o volume.
-- [ ] E) Remover referências para deixar a resposta menor.
-
-2. **Referência — atividade 2:** Implemente recusa explícita quando contexto for insuficiente.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual escolha afeta diretamente a recuperação em **Geração com fontes**?
 
@@ -46,7 +65,7 @@
 - [ ] D) O nome da variável que armazena o índice.
 - [ ] E) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
 
-3. **Referência — atividade 3:** Teste prompt injection dentro de documentos e perguntas.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Como o sistema deve agir quando **Geração com fontes** não encontra evidência suficiente?
 
@@ -56,17 +75,7 @@
 - [ ] D) Completar a resposta com uma suposição plausível.
 - [ ] E) Citar qualquer trecho recuperado, mesmo sem relação.
 
-4. **Referência — atividade 4:** Compare respostas com e sem recuperação.
-
-   **Pergunta:** Qual avaliação ajuda a diagnosticar uma falha em **Geração com fontes**?
-
-- [ ] A) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
-- [ ] B) Avaliar apenas o tamanho da resposta.
-- [ ] C) Medir somente a velocidade de criação do índice.
-- [ ] D) Considerar toda citação como necessariamente relevante.
-- [ ] E) Trocar o modelo sem examinar os documentos recuperados.
-
-5. **Referência — atividade 5:** Valide se cada afirmação relevante é sustentada por trecho recuperado.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene o fluxo principal de uma solução de **Geração com fontes**.
 
@@ -78,34 +87,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene o diagnóstico de uma resposta ruim em **Geração com fontes**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Registrar a pergunta, a resposta e as fontes recuperadas.
-- B) Corrigir a etapa responsável e repetir os mesmos testes.
-- C) Avaliar chunking, metadados, consulta e ranking da busca.
-- D) Avaliar se a geração respeitou o contexto recuperado.
-- E) Verificar se a informação necessária existe nos documentos.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Geração com fontes.
-- **Competência sugerida:** RAG e geração fundamentada.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **RAG e geração fundamentada** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

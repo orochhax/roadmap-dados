@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 68 — EDA orientada a churn — 04/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** EDA orientada a churn.
+- **Competência sugerida:** EDA aplicada a churn.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **EDA aplicada a churn** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **EDA orientada a churn** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** EDA orientada a churn.
 - **Pasta/arquivo principal:** `01-exercicios/dia-068-eda-orientada-a-churn.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
-### Passo a passo completo
-1. [ ] Escreva dez hipóteses de churn antes de gerar gráficos.
-2. [ ] Teste cada hipótese com tabela, métrica e visualização apropriada.
-3. [ ] Analise churn por plano, cidade, faixa de NPS, chamados, atraso, tempo de cliente, mensalidade e interação entre duas variáveis.
-4. [ ] Calcule tamanho dos segmentos para evitar conclusões com grupos pequenos.
-5. [ ] Produza `insights_eda.md` com evidência, impacto, cautela e próxima análise.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-068-eda-orientada-a-churn.ipynb`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Escreva quatro hipóteses de churn antes de gerar gráficos.
+2. [ ] Teste cada hipótese com tabela, métrica e visualização apropriada, sempre mostrando o tamanho dos grupos.
+3. [ ] Produza `insights_eda.md` com evidência, impacto, cautela e próxima análise para as duas hipóteses mais úteis.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Amplie para dez hipóteses apenas se houver tempo e perguntas realmente diferentes.
+- [ ] Adicione uma interação entre variáveis como desafio, sem transformar todo recorte em conclusão.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-068-eda-orientada-a-churn.ipynb`:** Teste a hipótese 'clientes com três ou mais chamados têm maior churn' com tabela, gráfico e tamanho dos dois grupos.
 - [ ] **Em `01-exercicios/dia-068-eda-orientada-a-churn.ipynb`:** Repita a análise somente em Salvador e registre se a direção da associação permanece.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Escreva dez hipóteses de churn antes de gerar gráficos.
-
-   **Pergunta:** Ao desenvolver **EDA orientada a churn**, qual definição evita um alvo ambíguo ou vazamento de dados?
-
-- [ ] A) Alterar a definição do alvo para melhorar a métrica do modelo.
-- [ ] B) Remover clientes ativos sem registrar o critério usado.
-- [ ] C) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
-- [ ] D) Chamar de churn qualquer cliente com poucos registros.
-- [ ] E) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
-
-2. **Referência — atividade 2:** Teste cada hipótese com tabela, métrica e visualização apropriada.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Como avaliar um modelo ligado a **EDA orientada a churn** para uma estratégia de retenção?
 
@@ -46,7 +64,7 @@
 - [ ] D) Contatando todos os clientes classificados pelo modelo.
 - [ ] E) Ignorando a capacidade operacional da equipe de retenção.
 
-3. **Referência — atividade 3:** Analise churn por plano, cidade, faixa de NPS, chamados, atraso, tempo de cliente, mensalidade e interação entre duas variáveis.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual análise ajuda a encontrar riscos escondidos em **EDA orientada a churn**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
 - [ ] E) Avaliar apenas os clientes com maior probabilidade.
 
-4. **Referência — atividade 4:** Calcule tamanho dos segmentos para evitar conclusões com grupos pequenos.
-
-   **Pergunta:** Qual é a melhor ligação entre um modelo de **EDA orientada a churn** e uma ação de negócio?
-
-- [ ] A) Medir sucesso somente pelo número de contatos realizados.
-- [ ] B) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
-- [ ] C) Enviar a probabilidade bruta sem orientar seu uso.
-- [ ] D) Considerar todo cliente de alto risco automaticamente perdido.
-- [ ] E) Escolher a ação apenas pela variável mais importante do modelo.
-
-5. **Referência — atividade 5:** Produza `insights_eda.md` com evidência, impacto, cautela e próxima análise.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene a construção de um projeto relacionado a **EDA orientada a churn**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a criação de uma política de retenção baseada em **EDA orientada a churn**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Estimar valor, risco, custo de contato e capacidade operacional.
-- B) Escolher limiares com base em custo e benefício.
-- C) Medir retenção incremental e ajustar a política.
-- D) Executar a ação em um grupo controlado.
-- E) Definir segmentos e ações possíveis para cada perfil.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** EDA orientada a churn.
-- **Competência sugerida:** EDA aplicada a churn.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **EDA aplicada a churn** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

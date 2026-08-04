@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 78 — Modelos tradicionais — 18/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Modelos tradicionais.
+- **Competência sugerida:** Modelos de séries temporais.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Modelos de séries temporais** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Modelos tradicionais** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Modelos tradicionais.
 - **Pasta/arquivo principal:** `01-exercicios/dia-078-modelos-tradicionais.ipynb`.
 - **Dados:** `dados/energia.csv`.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Treine regressão linear com lags, árvore/Random Forest e modelo estatístico simples como Holt-Winters ou ARIMA, se disponível.
 2. [ ] Garanta que features sejam criadas respeitando tempo.
 3. [ ] Faça backtesting com múltiplos cortes.
-4. [ ] Compare erro e estabilidade por horizonte.
-5. [ ] Analise resíduos e autocorrelação remanescente.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-078-modelos-tradicionais.ipynb`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Compare erro e estabilidade por horizonte.
+- [ ] Analise resíduos e autocorrelação remanescente.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-078-modelos-tradicionais.ipynb`:** Adicione um quarto corte ao backtesting e compare a estabilidade de Random Forest e Holt-Winters.
 - [ ] **Em `01-exercicios/dia-078-modelos-tradicionais.ipynb`:** Meça autocorrelação dos resíduos nos lags 1 e 7 e registre qual padrão ainda não foi capturado.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Treine regressão linear com lags, árvore/Random Forest e modelo estatístico simples como Holt-Winters ou ARIMA, se disponível.
-
-   **Pergunta:** Qual separação de dados é adequada em **Modelos tradicionais**?
-
-- [ ] A) Escolher aleatoriamente linhas do mesmo período para teste.
-- [ ] B) Treinar e avaliar com toda a série ao mesmo tempo.
-- [ ] C) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
-- [ ] D) Embaralhar todas as datas antes da divisão.
-- [ ] E) Usar os períodos futuros no cálculo das variáveis de treino.
-
-2. **Referência — atividade 2:** Garanta que features sejam criadas respeitando tempo.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Por que um baseline simples é importante em **Modelos tradicionais**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Porque garante que não existam valores ausentes.
 - [ ] E) Porque substitui a definição do horizonte de previsão.
 
-3. **Referência — atividade 3:** Faça backtesting com múltiplos cortes.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual cuidado evita informação do futuro em variáveis de **Modelos tradicionais**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
 - [ ] E) Centralizar médias móveis com dados anteriores e posteriores.
 
-4. **Referência — atividade 4:** Compare erro e estabilidade por horizonte.
-
-   **Pergunta:** Como escolher uma solução de **Modelos tradicionais** para apoiar uma decisão?
-
-- [ ] A) Comparar modelos em períodos de teste diferentes.
-- [ ] B) Avaliar por horizonte e período, traduzindo os erros em impacto operacional ou financeiro.
-- [ ] C) Escolher apenas pela menor falha média de treinamento.
-- [ ] D) Ignorar mudanças de regime quando a métrica global é boa.
-- [ ] E) Usar o mesmo horizonte para qualquer decisão.
-
-5. **Referência — atividade 5:** Analise resíduos e autocorrelação remanescente.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo de previsão para **Modelos tradicionais**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a atualização de uma previsão ligada a **Modelos tradicionais**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Executar o pipeline com a versão aprovada.
-- B) Gerar previsões para o horizonte definido.
-- C) Monitorar erros quando os valores reais se tornarem disponíveis.
-- D) Reavaliar o modelo diante de degradação ou mudança de regime.
-- E) Receber e validar os dados do período mais recente.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Modelos tradicionais.
-- **Competência sugerida:** Modelos de séries temporais.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Modelos de séries temporais** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

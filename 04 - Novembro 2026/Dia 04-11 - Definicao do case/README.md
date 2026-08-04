@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 66 — Definição do case — 02/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Definição do case.
+- **Competência sugerida:** Modelagem de churn.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Modelagem de churn** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Definição do case** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Definição do case.
 - **Pasta/arquivo principal:** `01-exercicios/dia-066-definicao-do-case.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Defina o case de churn em telecom com pergunta: quais clientes têm risco de cancelar em 30 dias e quais ações de retenção são economicamente viáveis.
 2. [ ] Escreva personas dos usuários do produto: gerente de retenção, analista e atendente.
 3. [ ] Crie matriz de decisões com ação, custo, benefício, responsável e risco.
-4. [ ] Defina escopo mínimo do projeto e lista explícita do que ficará fora.
-5. [ ] Abra issues no GitHub para dados, EDA, SQL, modelagem, dashboard, documentação e apresentação.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-066-definicao-do-case.ipynb`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Defina escopo mínimo do projeto e lista explícita do que ficará fora.
+- [ ] Abra issues no GitHub para dados, EDA, SQL, modelagem, dashboard, documentação e apresentação.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-066-definicao-do-case.ipynb`:** Acrescente à matriz de decisão uma ação de revisão humana com custo R$15, benefício R$120 e responsável 'analista'.
 - [ ] **Em `01-exercicios/dia-066-definicao-do-case.ipynb`:** Reduza o orçamento de retenção em 30% e marque quais ações do escopo mínimo seriam mantidas ou cortadas.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Defina o case de churn em telecom com pergunta: quais clientes têm risco de cancelar em 30 dias e quais ações de retenção são economicamente viáveis.
-
-   **Pergunta:** Ao desenvolver **Definição do case**, qual definição evita um alvo ambíguo ou vazamento de dados?
-
-- [ ] A) Chamar de churn qualquer cliente com poucos registros.
-- [ ] B) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
-- [ ] C) Alterar a definição do alvo para melhorar a métrica do modelo.
-- [ ] D) Remover clientes ativos sem registrar o critério usado.
-- [ ] E) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
-
-2. **Referência — atividade 2:** Escreva personas dos usuários do produto: gerente de retenção, analista e atendente.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Como avaliar um modelo ligado a **Definição do case** para uma estratégia de retenção?
 
@@ -46,7 +64,7 @@
 - [ ] D) Escolhendo sempre o limiar de 50%.
 - [ ] E) Priorizando somente a acurácia geral.
 
-3. **Referência — atividade 3:** Crie matriz de decisões com ação, custo, benefício, responsável e risco.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual análise ajuda a encontrar riscos escondidos em **Definição do case**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Usar a mesma explicação para todos os perfis.
 - [ ] E) Conferir somente o desempenho no conjunto de treino.
 
-4. **Referência — atividade 4:** Defina escopo mínimo do projeto e lista explícita do que ficará fora.
-
-   **Pergunta:** Qual é a melhor ligação entre um modelo de **Definição do case** e uma ação de negócio?
-
-- [ ] A) Considerar todo cliente de alto risco automaticamente perdido.
-- [ ] B) Escolher a ação apenas pela variável mais importante do modelo.
-- [ ] C) Medir sucesso somente pelo número de contatos realizados.
-- [ ] D) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
-- [ ] E) Enviar a probabilidade bruta sem orientar seu uso.
-
-5. **Referência — atividade 5:** Abra issues no GitHub para dados, EDA, SQL, modelagem, dashboard, documentação e apresentação.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene a construção de um projeto relacionado a **Definição do case**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a criação de uma política de retenção baseada em **Definição do case**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Escolher limiares com base em custo e benefício.
-- B) Definir segmentos e ações possíveis para cada perfil.
-- C) Estimar valor, risco, custo de contato e capacidade operacional.
-- D) Executar a ação em um grupo controlado.
-- E) Medir retenção incremental e ajustar a política.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Definição do case.
-- **Competência sugerida:** Modelagem de churn.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Modelagem de churn** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

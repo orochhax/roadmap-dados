@@ -1,42 +1,61 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 124 — Simulado de Estatística, ML e comportamento — 21/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Simulado de Estatística, ML e comportamento.
+- **Competência sugerida:** Estatística, Machine Learning e entrevistas.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Estatística, Machine Learning e entrevistas** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Simulado de Estatística, ML e comportamento** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Simulado de Estatística, ML e comportamento.
 - **Pasta/arquivo principal:** `01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
-### Passo a passo completo
-1. [ ] Responda às 15 perguntas completas de estatística em `01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md`.
-2. [ ] No mesmo arquivo, responda às 15 perguntas completas de ML.
-3. [ ] Preencha os seis enunciados STAR já definidos: liderança, erro, conflito, aprendizado, prioridade e impacto.
-4. [ ] Grave simulado de entrevista de 45 minutos.
-5. [ ] Revise respostas vagas e substitua por evidências concretas.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Responda oito perguntas de estatística e oito de Machine Learning sem consulta na primeira tentativa.
+2. [ ] Preencha três histórias STAR: erro, aprendizado e impacto.
+3. [ ] Revise somente respostas vagas, incorretas ou com confiança abaixo de 3.
+4. [ ] Grave um simulado de até 25 minutos ou explique as respostas em blocos menores.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Responda as demais perguntas e histórias STAR em outro bloco opcional.
+- [ ] O objetivo é melhorar evidências e raciocínio, não memorizar 30 textos.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md`:** Escolha a resposta de estatística e a de ML com menor confiança e grave uma nova explicação de dois minutos para cada uma.
 - [ ] **Em `01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md`:** Reescreva uma história STAR vaga incluindo situação, sua ação específica e uma evidência real do resultado.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Responda às 15 perguntas completas de estatística no arquivo principal.
-
-   **Pergunta:** Em uma questão de **Simulado de Estatística, ML e comportamento**, qual interpretação estatística é mais segura?
-
-- [ ] A) Escolher a conclusão pelo menor valor-p.
-- [ ] B) Considerar efeito, incerteza, amostragem e pressupostos antes de concluir.
-- [ ] C) Tratar correlação como prova de causa.
-- [ ] D) Ignorar a taxa-base quando a amostra é grande.
-- [ ] E) Usar somente a média para descrever qualquer distribuição.
-
-2. **Referência — atividade 2:** Responda às 15 perguntas completas de ML no mesmo arquivo.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual prática evita uma avaliação otimista demais de ML em **Simulado de Estatística, ML e comportamento**?
 
@@ -46,7 +65,7 @@
 - [ ] D) Usar o conjunto de treino como avaliação final.
 - [ ] E) Separar os dados corretamente e impedir que treino ou ajustes usem informações do teste ou do futuro.
 
-3. **Referência — atividade 3:** Preencha os seis enunciados STAR definidos no arquivo principal.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Como escolher entre modelos durante **Simulado de Estatística, ML e comportamento**?
 
@@ -56,17 +75,7 @@
 - [ ] D) Escolher automaticamente o algoritmo mais complexo.
 - [ ] E) Usar somente a maior métrica observada em uma divisão.
 
-4. **Referência — atividade 4:** Grave simulado de entrevista de 45 minutos.
-
-   **Pergunta:** Qual resposta comportamental combina melhor com um simulado de **Simulado de Estatística, ML e comportamento**?
-
-- [ ] A) Relatar uma situação real, sua ação específica, a evidência obtida e o aprendizado.
-- [ ] B) Responder apenas o que faria em uma situação imaginária.
-- [ ] C) Descrever somente o trabalho de outras pessoas.
-- [ ] D) Evitar mencionar erros ou ajustes.
-- [ ] E) Listar características pessoais sem exemplo.
-
-5. **Referência — atividade 5:** Revise respostas vagas e substitua por evidências concretas.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene a análise de um case em **Simulado de Estatística, ML e comportamento**.
 
@@ -78,34 +87,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene uma resposta técnica durante **Simulado de Estatística, ML e comportamento**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Explicar a solução em etapas curtas.
-- B) Declarar os principais pressupostos.
-- C) Confirmar o que a pergunta solicita.
-- D) Apontar como verificaria a conclusão.
-- E) Mencionar limitações e alternativas relevantes.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Simulado de Estatística, ML e comportamento.
-- **Competência sugerida:** Estatística, Machine Learning e entrevistas.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Estatística, Machine Learning e entrevistas** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
-- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+**Autoavaliação do dia:** `__/5`

@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 55 — Case de decisão — 16/10/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Case de decisão.
+- **Competência sugerida:** Machine Learning para tomada de decisão.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Machine Learning para tomada de decisão** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Case de decisão** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Case de decisão.
 - **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Monte tabela com cliente, probabilidade, limiar, decisão e custo esperado.
 2. [ ] Crie três políticas: conservadora, equilibrada e agressiva; calcule volume de ações e custo.
 3. [ ] Analise desempenho por cidade, plano e faixa de mensalidade.
 4. [ ] Defina regra de revisão humana para casos próximos ao limiar.
-5. [ ] Apresente decisão em uma página, incluindo quem não deve receber ação automatizada.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Apresente decisão em uma página, incluindo quem não deve receber ação automatizada.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Defina política conservadora com limiar 0,70, equilibrada com 0,50 e agressiva com 0,30; calcule volume e custo no mesmo conjunto.
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Crie revisão humana para probabilidades entre 0,45 e 0,55 e conte quantos clientes entram nessa faixa.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Monte tabela com cliente, probabilidade, limiar, decisão e custo esperado.
-
-   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Case de decisão**?
-
-- [ ] A) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
-- [ ] B) Normalizar toda a base antes da separação para usar mais informação.
-- [ ] C) Escolher variáveis depois de observar o desempenho no teste.
-- [ ] D) Duplicar exemplos raros antes de separar os conjuntos.
-- [ ] E) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
-
-2. **Referência — atividade 2:** Crie três políticas: conservadora, equilibrada e agressiva; calcule volume de ações e custo.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Como escolher uma métrica adequada para avaliar **Case de decisão**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
 - [ ] E) Usando sempre acurácia, pois ela serve para qualquer problema.
 
-3. **Referência — atividade 3:** Analise desempenho por cidade, plano e faixa de mensalidade.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Case de decisão**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Escolher pelo desempenho no conjunto usado para treinar.
 - [ ] E) Consultar repetidamente o teste durante cada ajuste.
 
-4. **Referência — atividade 4:** Defina regra de revisão humana para casos próximos ao limiar.
-
-   **Pergunta:** Antes de usar um modelo de **Case de decisão** em uma decisão real, o que deve ser analisado?
-
-- [ ] A) Somente a métrica média do melhor experimento.
-- [ ] B) A aparência dos gráficos de treinamento, sem examinar dados.
-- [ ] C) A complexidade do nome do algoritmo escolhido.
-- [ ] D) A quantidade de linhas de código usada para criar o modelo.
-- [ ] E) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
-
-5. **Referência — atividade 5:** Apresente decisão em uma página, incluindo quem não deve receber ação automatizada.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo de modelagem para **Case de decisão**.
 
@@ -78,60 +86,22 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene uma seleção responsável de modelo em **Case de decisão**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Estabelecer um baseline simples e reproduzível.
-- B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
-- C) Documentar limitações, segmentos frágeis e regras de uso.
-- D) Avaliar uma vez no teste após fechar as escolhas.
-- E) Comparar candidatos com o mesmo protocolo de validação.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
+**Autoavaliação do dia:** `__/5`
 
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
 > - [ ] Inclua problema, abordagem, principal evidência, decisão e link do GitHub.
 > - [ ] **Ângulo sugerido:** mostrar por que o limiar 0,5 não é automático e como custos dos erros mudam a política.
 
-> [!project] Projeto semanal — Política de acionamento por probabilidade
-> **Desafio:** Criar uma política que decide quem receberá uma intervenção com base em probabilidades e custo dos erros.
->
-> **Deve reutilizar:** Classificação, regressão logística, limiar, calibração e desbalanceamento.
->
-> **Entregáveis obrigatórios:**
-> - [ ] curvas e métricas;
-> - [ ] função de custo;
-> - [ ] limiar escolhido;
-> - [ ] análise de segmentos;
-> - [ ] parecer de risco;
->
-> **Defesa:** demonstração de cinco minutos e resposta a três perguntas técnicas.
->
-> **Nota mínima recomendada:** `6/10`.
-
-> [!check] Critério para avançar
-> Você consegue defender o limiar do modelo com custo e não apenas usar 0,5?
 
 ---
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Case de decisão.
-- **Competência sugerida:** Machine Learning para tomada de decisão.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Machine Learning para tomada de decisão** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
-- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
-- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.

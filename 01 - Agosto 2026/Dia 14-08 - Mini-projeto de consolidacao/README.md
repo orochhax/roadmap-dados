@@ -1,42 +1,61 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 10 — Mini-projeto de consolidação — 14/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Mini-projeto de consolidação.
+- **Competência sugerida:** Python e construção de pipelines.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **Python e construção de pipelines** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Mini-projeto de consolidação** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Mini-projeto de consolidação.
 - **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
-### Passo a passo completo
-1. [ ] Crie uma pasta `projeto_semana02` e copie somente os módulos realmente necessários, sem levar arquivos temporários.
-2. [ ] Implemente uma aplicação que leia CSV ou JSON, valide esquema, consolide incidentes e gere `resumo.json` e `relatorio.csv`.
-3. [ ] Defina no README cinco regras de qualidade: campos obrigatórios, tipos, valores permitidos, limites numéricos e tratamento de duplicados.
-4. [ ] Crie 15 casos de teste divididos em cinco válidos, cinco inválidos e cinco casos de borda.
-5. [ ] Execute o projeto em ambiente virtual novo, grave uma demonstração de até cinco minutos e registre três limitações.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Monte `projeto_semana02` reutilizando somente os módulos necessários dos dias anteriores.
+2. [ ] Leia um arquivo, valide o esquema e gere `resumo.json` e `relatorio.csv` em uma única execução.
+3. [ ] Defina cinco regras de qualidade no README e implemente pelo menos três delas no código.
+4. [ ] Teste seis casos: dois válidos, dois inválidos e dois de borda.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Amplie os testes para 15 somente se alguma regra de qualidade ainda não tiver sido exercitada.
+- [ ] A execução em um segundo ambiente limpo é recomendada; gravação de demonstração é opcional.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Adicione ao conjunto de testes um incidente com id duplicado e cidade vazia; faça o relatório informar separadamente os dois problemas.
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Execute a aplicação duas vezes com a mesma entrada e confira que resumo.json e relatorio.csv não acumulam linhas da execução anterior.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Crie uma pasta `projeto_semana02` e copie somente os módulos realmente necessários, sem levar arquivos temporários.
-
-   **Pergunta:** Ao praticar **Mini-projeto de consolidação**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
-
-- [ ] A) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
-- [ ] B) Copiar um código pronto e alterar valores até ele executar.
-- [ ] C) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
-- [ ] D) Ignorar os tipos das variáveis quando a saída parece plausível.
-- [ ] E) Evitar testes para não modificar o código que já executou uma vez.
-
-2. **Referência — atividade 2:** Implemente uma aplicação que leia CSV ou JSON, valide esquema, consolide incidentes e gere `resumo.json` e `relatorio.csv`.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual prática reduz mais o risco de erro em um programa relacionado a **Mini-projeto de consolidação**?
 
@@ -46,7 +65,7 @@
 - [ ] D) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
 - [ ] E) Transformar todas as entradas em texto e calcular diretamente.
 
-3. **Referência — atividade 3:** Defina no README cinco regras de qualidade: campos obrigatórios, tipos, valores permitidos, limites numéricos e tratamento de duplicados.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual teste fornece a verificação mais completa para um exercício de **Mini-projeto de consolidação**?
 
@@ -56,17 +75,7 @@
 - [ ] D) Conferir somente se o arquivo foi salvo com a extensão `.py`.
 - [ ] E) Ler o código sem executá-lo porque a sintaxe parece correta.
 
-4. **Referência — atividade 4:** Crie 15 casos de teste divididos em cinco válidos, cinco inválidos e cinco casos de borda.
-
-   **Pergunta:** Ao usar um cálculo de **Mini-projeto de consolidação** para apoiar uma decisão, qual atitude é mais adequada?
-
-- [ ] A) Apresentar apenas o número final sem informar de onde ele veio.
-- [ ] B) Escolher a conclusão antes do cálculo e adaptar o código a ela.
-- [ ] C) Considerar qualquer saída do Python como prova suficiente.
-- [ ] D) Excluir valores que contradizem a primeira interpretação.
-- [ ] E) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
-
-5. **Referência — atividade 5:** Execute o projeto em ambiente virtual novo, grave uma demonstração de até cinco minutos e registre três limitações.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo seguro para resolver uma atividade de **Mini-projeto de consolidação**.
 
@@ -78,56 +87,17 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene as ações para investigar um erro durante a prática de **Mini-projeto de consolidação**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Anotar o que provocou o erro e como ele foi corrigido.
-- B) Isolar a parte do código que causa o problema.
-- C) Corrigir a causa identificada.
-- D) Executar novamente os testes afetados.
-- E) Reproduzir o erro e observar a mensagem ou a saída.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
+**Autoavaliação do dia:** `__/5`
 
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
-**Autoavaliação do dia:** `__/5`  
-
-> [!project] Projeto semanal — Pipeline de Qualidade de Dados Operacionais
-> **Desafio:** Ingerir arquivos CSV e JSON de fontes diferentes, validar esquema e regras, separar registros aprovados/rejeitados e publicar uma base confiável para análise.
->
-> **Deve reutilizar:** Python da semana 1, arquivos, exceções, módulos e ambientes.
->
-> **Entregáveis obrigatórios:**
-> - [ ] pipeline executável por comando e idempotente para a mesma entrada;
-> - [ ] contagem de registros recebidos, aprovados, rejeitados e duplicados;
-> - [ ] percentual rejeitado e ranking dos motivos de rejeição;
-> - [ ] comparação antes/depois da qualidade dos dados;
-> - [ ] registro de linhagem: arquivo de origem, horário, versão e transformação aplicada;
-> - [ ] saídas CSV e JSON, relatório de qualidade, README e fluxograma;
->
-> **Defesa:** demonstrar que um erro de origem não contamina silenciosamente a base publicada e explicar como rastrear cada registro.
->
-> **Nota mínima recomendada:** `6/10`.
-
-> [!check] Critério para avançar
-> Você consegue provar quantos registros foram processados, por que alguns foram rejeitados e de onde veio cada dado publicado?
 
 ---
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Mini-projeto de consolidação.
-- **Competência sugerida:** Python e construção de pipelines.
-- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **Python e construção de pipelines** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
-- **Novo título sugerido:** `Engenharia de Software | Python`.
-- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.

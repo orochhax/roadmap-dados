@@ -1,42 +1,61 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 11 — NumPy essencial — 17/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** NumPy essencial.
+- **Competência sugerida:** NumPy.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **NumPy** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **NumPy essencial** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** NumPy essencial.
 - **Pasta/arquivo principal:** `01-exercicios/numpy_essencial.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
-### Passo a passo completo
-1. [ ] Crie `numpy_essencial.ipynb` e um array com durações `[15,30,45,60,90,120,180,240]`; calcule média, mediana, desvio, mínimo, máximo e percentis 25/75.
-2. [ ] Crie uma matriz 4x3 representando quatro cidades e três métricas; selecione linhas, colunas e fatias usando indexação.
-3. [ ] Normalize uma coluna pelo método min-max e padronize outra com z-score, calculando manualmente e com NumPy.
-4. [ ] Use operações vetorizadas para aplicar multa de 10% a durações acima de 120; compare com um laço usando `timeit`.
-5. [ ] Teste `NaN`, array vazio e divisão por desvio zero; escreva como trataria cada caso.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/numpy_essencial.ipynb`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
 
-- [ ] **Em `01-exercicios/numpy_essencial.ipynb`:** Repita as estatísticas com o array [8, 12, 18, 25, 40, 65, 95, 150] e compare média e mediana com o array obrigatório.
-- [ ] **Em `01-exercicios/numpy_essencial.ipynb`:** Acrescente o valor 1440 a uma cópia do novo array e registre como média, mediana e percentil 75 se alteram.
+1. [ ] Em `numpy_essencial.ipynb`, crie o array fornecido e calcule média, mediana, mínimo, máximo e percentis 25/75.
+2. [ ] Crie uma matriz 4x3 e pratique seleção de linhas, colunas e fatias.
+3. [ ] Use uma operação vetorizada para modificar valores acima de um limite e compare o resultado com um laço, sem medir desempenho ainda.
 
-### Perguntas de checagem
+### Reforço direcionado
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
 
-1. **Referência — atividade 1:** Crie `numpy_essencial.ipynb` e um array com durações `[15,30,45,60,90,120,180,240]`; calcule média, mediana, desvio, mínimo, máximo e percentis 25/75.
+- [ ] Pratique normalização min-max somente depois de dominar indexação e operações vetorizadas.
+- [ ] Reserve z-score e interpretação de desvio para a Semana 7 de estatística.
+- [ ] Teste `NaN`, array vazio e desvio zero como desafio posterior, não como requisito do primeiro dia de NumPy.
 
-   **Pergunta:** Antes de tirar conclusões em **NumPy essencial**, qual é a prática mais confiável?
+### Desafio opcional
 
-- [ ] A) Começar pelo gráfico mais bonito e escolher os dados depois.
-- [ ] B) Remover todas as linhas incompletas sem medir o impacto.
-- [ ] C) Calcular médias antes de entender o que cada linha representa.
-- [ ] D) Considerar os nomes das colunas suficientes para validar os dados.
-- [ ] E) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
-2. **Referência — atividade 2:** Crie uma matriz 4x3 representando quatro cidades e três métricas; selecione linhas, colunas e fatias usando indexação.
+- [ ] Compare a solução vetorizada e o laço com `timeit` se as duas versões estiverem corretas.
+- [ ] Após o Dia 31, volte ao notebook e explique como média, mediana e percentil reagem a um valor extremo.
+
+### Checagem rápida
+
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
+
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual cuidado evita conclusões distorcidas ao trabalhar com **NumPy essencial**?
 
@@ -46,7 +65,7 @@
 - [ ] D) Somar todas as colunas numéricas independentemente do significado.
 - [ ] E) Arredondar os valores antes de analisar diferenças.
 
-3. **Referência — atividade 3:** Normalize uma coluna pelo método min-max e padronize outra com z-score, calculando manualmente e com NumPy.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **NumPy essencial**?
 
@@ -56,17 +75,7 @@
 - [ ] D) Excluir categorias pequenas antes de examiná-las.
 - [ ] E) Duplicar a base e repetir o mesmo cálculo.
 
-4. **Referência — atividade 4:** Use operações vetorizadas para aplicar multa de 10% a durações acima de 120; compare com um laço usando `timeit`.
-
-   **Pergunta:** Como uma análise de **NumPy essencial** deve ser apresentada para apoiar uma decisão?
-
-- [ ] A) Omitindo incertezas para transmitir mais confiança.
-- [ ] B) Usando apenas termos técnicos, sem explicar o impacto.
-- [ ] C) Escolhendo a recomendação mais popular, mesmo sem evidência.
-- [ ] D) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
-- [ ] E) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
-
-5. **Referência — atividade 5:** Teste `NaN`, array vazio e divisão por desvio zero; escreva como trataria cada caso.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo de análise para uma atividade de **NumPy essencial**.
 
@@ -78,34 +87,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a preparação de uma visualização ou entrega sobre **NumPy essencial**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Apresentar a mensagem principal e o próximo passo.
-- B) Escolher o tipo de visual compatível com a comparação.
-- C) Selecionar a métrica e o recorte adequados.
-- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
-- E) Identificar o público e a decisão que será apoiada.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** NumPy essencial.
-- **Competência sugerida:** NumPy.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **NumPy** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Python`.
-- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+**Autoavaliação do dia:** `__/5`

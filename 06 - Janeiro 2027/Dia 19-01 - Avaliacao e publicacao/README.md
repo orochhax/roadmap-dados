@@ -1,42 +1,62 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 115 — Avaliação e publicação — 08/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Avaliação e publicação.
+- **Competência sugerida:** IA Generativa e RAG.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **IA Generativa e RAG** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Avaliação e publicação** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
+- **Gate da fase:** se Python, SQL, estatística ou ML estiver abaixo de 3/5, troque este dia por reforço da lacuna; LLM/RAG pode ser retomado depois.
 
 ### Preparação
 - **Assunto central:** Avaliação e publicação.
 - **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
-### Passo a passo completo
-1. [ ] Execute avaliação completa das 30 perguntas e registre métricas de recuperação e geração.
-2. [ ] Crie interface demonstrável com pergunta, resposta, fontes e feedback.
-3. [ ] Adicione logs e tratamento de erro sem expor conteúdo sensível.
-4. [ ] Empacote com Docker ou instrução reproduzível.
-5. [ ] Publique relatório de limitações, riscos, custo e próximos passos.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Execute a avaliação nas dez perguntas essenciais e registre recuperação, fundamentação e recusas.
+2. [ ] Crie uma interface simples com pergunta, resposta e fontes.
+3. [ ] Adicione tratamento de erro e logs sem conteúdo sensível.
+4. [ ] Publique README com execução, limitações, riscos e custo aproximado.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Amplie para as 30 perguntas somente se a avaliação inicial estiver automatizada ou bem organizada.
+- [ ] Docker e interface elaborada são desafios opcionais.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Adicione à avaliação a pergunta de pagamento não reconhecido e a pergunta fora do domínio sobre ações.
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Compare k=3 e k=5 nas mesmas 30 perguntas e registre ganho de recuperação, latência e respostas sem fonte.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Execute avaliação completa das 30 perguntas e registre métricas de recuperação e geração.
-
-   **Pergunta:** O que reduz respostas sem apoio em uma solução de **Avaliação e publicação**?
-
-- [ ] A) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
-- [ ] B) Pedir ao modelo para inventar detalhes quando faltar contexto.
-- [ ] C) Enviar documentos aleatórios para aumentar o volume.
-- [ ] D) Remover referências para deixar a resposta menor.
-- [ ] E) Usar somente o conhecimento geral do modelo.
-
-2. **Referência — atividade 2:** Crie interface demonstrável com pergunta, resposta, fontes e feedback.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual escolha afeta diretamente a recuperação em **Avaliação e publicação**?
 
@@ -46,7 +66,7 @@
 - [ ] D) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
 - [ ] E) A cor da interface usada para enviar a pergunta.
 
-3. **Referência — atividade 3:** Adicione logs e tratamento de erro sem expor conteúdo sensível.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Como o sistema deve agir quando **Avaliação e publicação** não encontra evidência suficiente?
 
@@ -56,17 +76,7 @@
 - [ ] D) Citar qualquer trecho recuperado, mesmo sem relação.
 - [ ] E) Ocultar que a busca não encontrou conteúdo.
 
-4. **Referência — atividade 4:** Empacote com Docker ou instrução reproduzível.
-
-   **Pergunta:** Qual avaliação ajuda a diagnosticar uma falha em **Avaliação e publicação**?
-
-- [ ] A) Avaliar apenas o tamanho da resposta.
-- [ ] B) Medir somente a velocidade de criação do índice.
-- [ ] C) Considerar toda citação como necessariamente relevante.
-- [ ] D) Trocar o modelo sem examinar os documentos recuperados.
-- [ ] E) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
-
-5. **Referência — atividade 5:** Publique relatório de limitações, riscos, custo e próximos passos.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene o fluxo principal de uma solução de **Avaliação e publicação**.
 
@@ -78,60 +88,22 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene o diagnóstico de uma resposta ruim em **Avaliação e publicação**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Registrar a pergunta, a resposta e as fontes recuperadas.
-- B) Avaliar chunking, metadados, consulta e ranking da busca.
-- C) Corrigir a etapa responsável e repetir os mesmos testes.
-- D) Avaliar se a geração respeitou o contexto recuperado.
-- E) Verificar se a informação necessária existe nos documentos.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
+**Autoavaliação do dia:** `__/5`
 
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
 > - [ ] Inclua problema, abordagem, principal evidência, decisão e link do GitHub.
 > - [ ] **Ângulo sugerido:** mostrar recuperação de fontes, avaliação, política de recusa e exemplos de falhas corrigidas.
 
-> [!project] Projeto semanal — Assistente RAG para suporte técnico
-> **Desafio:** Criar uma aplicação que consulte documentos, recupere evidências e responda com fontes ou recusa segura.
->
-> **Deve reutilizar:** Dados, software, LLMs, embeddings e avaliação.
->
-> **Entregáveis obrigatórios:**
-> - [ ] pipeline de ingestão;
-> - [ ] índice e recuperação;
-> - [ ] respostas com fontes;
-> - [ ] avaliação de 30 perguntas;
-> - [ ] API/interface e diagrama;
->
-> **Defesa:** demonstração de cinco minutos e resposta a três perguntas técnicas.
->
-> **Nota mínima recomendada:** `6/10`.
-
-> [!check] Critério para avançar
-> Seu RAG encontra evidências corretas e sabe recusar quando os documentos não sustentam a resposta?
 
 ---
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Avaliação e publicação.
-- **Competência sugerida:** IA Generativa e RAG.
-- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **IA Generativa e RAG** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
-- **Novo título sugerido:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
-- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.

@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 74 — Relatório e dashboard — 12/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Relatório e dashboard.
+- **Competência sugerida:** Dashboards e comunicação de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Dashboards e comunicação de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Relatório e dashboard** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Relatório e dashboard.
 - **Pasta/arquivo principal:** `01-exercicios/dia-074-relatorio-e-dashboard.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Crie dashboard com visão geral, segmentos de risco, drivers e simulação de política.
 2. [ ] Valide números contra SQL/notebook.
 3. [ ] Escreva relatório técnico e resumo executivo.
-4. [ ] Adicione seção de limitações e plano de monitoramento.
-5. [ ] Teste dashboard com uma pessoa e corrija pelo menos três ambiguidades.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-074-relatorio-e-dashboard.ipynb`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Adicione seção de limitações e plano de monitoramento.
+- [ ] Teste dashboard com uma pessoa e corrija pelo menos três ambiguidades.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-074-relatorio-e-dashboard.ipynb`:** Adicione ao dashboard um filtro de plano e valide o total exibido para Básico 100 contra o notebook.
 - [ ] **Em `01-exercicios/dia-074-relatorio-e-dashboard.ipynb`:** Peça a uma pessoa para localizar o volume de alto risco em até 30 segundos e registre uma ambiguidade concreta encontrada.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Crie dashboard com visão geral, segmentos de risco, drivers e simulação de política.
-
-   **Pergunta:** Ao desenvolver **Relatório e dashboard**, qual definição evita um alvo ambíguo ou vazamento de dados?
-
-- [ ] A) Remover clientes ativos sem registrar o critério usado.
-- [ ] B) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
-- [ ] C) Chamar de churn qualquer cliente com poucos registros.
-- [ ] D) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
-- [ ] E) Alterar a definição do alvo para melhorar a métrica do modelo.
-
-2. **Referência — atividade 2:** Valide números contra SQL/notebook.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Como avaliar um modelo ligado a **Relatório e dashboard** para uma estratégia de retenção?
 
@@ -46,7 +64,7 @@
 - [ ] D) Ignorando a capacidade operacional da equipe de retenção.
 - [ ] E) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
 
-3. **Referência — atividade 3:** Escreva relatório técnico e resumo executivo.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual análise ajuda a encontrar riscos escondidos em **Relatório e dashboard**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Avaliar apenas os clientes com maior probabilidade.
 - [ ] E) Excluir segmentos pequenos antes de medir os erros.
 
-4. **Referência — atividade 4:** Adicione seção de limitações e plano de monitoramento.
-
-   **Pergunta:** Qual é a melhor ligação entre um modelo de **Relatório e dashboard** e uma ação de negócio?
-
-- [ ] A) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
-- [ ] B) Enviar a probabilidade bruta sem orientar seu uso.
-- [ ] C) Considerar todo cliente de alto risco automaticamente perdido.
-- [ ] D) Escolher a ação apenas pela variável mais importante do modelo.
-- [ ] E) Medir sucesso somente pelo número de contatos realizados.
-
-5. **Referência — atividade 5:** Teste dashboard com uma pessoa e corrija pelo menos três ambiguidades.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene a construção de um projeto relacionado a **Relatório e dashboard**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a criação de uma política de retenção baseada em **Relatório e dashboard**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Escolher limiares com base em custo e benefício.
-- B) Definir segmentos e ações possíveis para cada perfil.
-- C) Medir retenção incremental e ajustar a política.
-- D) Executar a ação em um grupo controlado.
-- E) Estimar valor, risco, custo de contato e capacidade operacional.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Relatório e dashboard.
-- **Competência sugerida:** Dashboards e comunicação de dados.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Dashboards e comunicação de dados** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

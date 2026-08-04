@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 77 — Baselines temporais — 17/11/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Baselines temporais.
+- **Competência sugerida:** Baselines de forecasting.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Baselines de forecasting** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Baselines temporais** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Baselines temporais.
 - **Pasta/arquivo principal:** `01-exercicios/dia-077-baselines-temporais.ipynb`.
 - **Dados:** `dados/energia.csv`.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Implemente baselines: último valor, média móvel de 7 dias, média do mesmo dia da semana e média sazonal.
 2. [ ] Use validação walk-forward em pelo menos três janelas.
 3. [ ] Calcule MAE, RMSE e MAPE/SMAPE quando adequado.
-4. [ ] Compare desempenho por períodos de alta e baixa demanda.
-5. [ ] Escolha baseline oficial que qualquer modelo deve superar.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-077-baselines-temporais.ipynb`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Compare desempenho por períodos de alta e baixa demanda.
+- [ ] Escolha baseline oficial que qualquer modelo deve superar.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-077-baselines-temporais.ipynb`:** Compare horizonte de 7 e 14 dias nas mesmas três janelas walk-forward e registre MAE por horizonte.
 - [ ] **Em `01-exercicios/dia-077-baselines-temporais.ipynb`:** Avalie o baseline oficial separadamente em dias úteis e fins de semana.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Implemente baselines: último valor, média móvel de 7 dias, média do mesmo dia da semana e média sazonal.
-
-   **Pergunta:** Qual separação de dados é adequada em **Baselines temporais**?
-
-- [ ] A) Usar os períodos futuros no cálculo das variáveis de treino.
-- [ ] B) Escolher aleatoriamente linhas do mesmo período para teste.
-- [ ] C) Treinar e avaliar com toda a série ao mesmo tempo.
-- [ ] D) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
-- [ ] E) Embaralhar todas as datas antes da divisão.
-
-2. **Referência — atividade 2:** Use validação walk-forward em pelo menos três janelas.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Por que um baseline simples é importante em **Baselines temporais**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Porque sempre será o modelo usado em produção.
 - [ ] E) Porque garante que não existam valores ausentes.
 
-3. **Referência — atividade 3:** Calcule MAE, RMSE e MAPE/SMAPE quando adequado.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual cuidado evita informação do futuro em variáveis de **Baselines temporais**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Ordenar por valor em vez de ordenar por data.
 - [ ] E) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
 
-4. **Referência — atividade 4:** Compare desempenho por períodos de alta e baixa demanda.
-
-   **Pergunta:** Como escolher uma solução de **Baselines temporais** para apoiar uma decisão?
-
-- [ ] A) Usar o mesmo horizonte para qualquer decisão.
-- [ ] B) Comparar modelos em períodos de teste diferentes.
-- [ ] C) Avaliar por horizonte e período, traduzindo os erros em impacto operacional ou financeiro.
-- [ ] D) Escolher apenas pela menor falha média de treinamento.
-- [ ] E) Ignorar mudanças de regime quando a métrica global é boa.
-
-5. **Referência — atividade 5:** Escolha baseline oficial que qualquer modelo deve superar.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo de previsão para **Baselines temporais**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a atualização de uma previsão ligada a **Baselines temporais**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Gerar previsões para o horizonte definido.
-- B) Executar o pipeline com a versão aprovada.
-- C) Receber e validar os dados do período mais recente.
-- D) Monitorar erros quando os valores reais se tornarem disponíveis.
-- E) Reavaliar o modelo diante de degradação ou mudança de regime.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Baselines temporais.
-- **Competência sugerida:** Baselines de forecasting.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Baselines de forecasting** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

@@ -1,5 +1,9 @@
 # Projeto — Dia 075 — Publicação e apresentação
 
+> [!important] Escopo adaptativo
+> Este arquivo é um modelo de documentação. O Núcleo essencial do README na raiz do dia é a única lista obrigatória; use os itens abaixo somente para ampliar o projeto.
+
+
 > Estrutura preparada a partir do roadmap. Nenhuma atividade foi resolvida.
 
 > [!project] Projeto semanal — Churn: publicação e defesa técnica
@@ -7,7 +11,7 @@
 >
 > **Deve reutilizar:** Todo o conteúdo acumulado até a semana 15.
 >
-> **Entregáveis obrigatórios:**
+> **Ideias opcionais para ampliar (o README do dia define o núcleo obrigatório):**
 > - [ ] release no GitHub;
 > - [ ] README executivo e técnico;
 > - [ ] dashboard ou API;
@@ -18,7 +22,7 @@
 >
 > **Nota mínima recomendada:** `6/10`.
 
-> [!check] Critério para avançar
+> [!check] Pergunta de revisão opcional
 > Seu projeto mostra impacto de negócio, domínio técnico e comunicação — ou parece apenas um notebook de curso?
 
 ---

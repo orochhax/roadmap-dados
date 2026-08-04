@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 30 — Simulado SQL — 11/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Simulado SQL.
+- **Competência sugerida:** SQL analítico.
+- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **SQL analítico** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
+- **Novo título sugerido:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Simulado SQL** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Simulado SQL.
 - **Pasta/arquivo principal:** `projeto-semanal/docs/simulado_sql_perguntas.md`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
-### Passo a passo completo
-1. [ ] Resolva as 20 questões completas já numeradas em `projeto-semanal/docs/simulado_sql_perguntas.md`.
-2. [ ] Escreva as consultas em `projeto-semanal/sql/simulado_sql_respostas.sql`; não consulte anotações durante os primeiros 90 minutos.
-3. [ ] Para cada questão, marque tempo, confiança de 1–5 e se precisou consultar documentação.
-4. [ ] Escolha as cinco piores respostas e reescreva do zero no fim do dia.
-5. [ ] Crie uma folha de erros com categoria, causa, correção e regra que evitará repetição.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `projeto-semanal/docs/simulado_sql_perguntas.md`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Resolva as questões 1–10 do simulado SQL em até 60 minutos, sem consulta na primeira tentativa.
+2. [ ] Marque tempo, confiança e necessidade de documentação em cada questão.
+3. [ ] Escolha as três respostas mais fracas, estude a lacuna específica e reescreva somente essas três.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Resolva as questões 11–20 em outro bloco ou dia apenas se quiser ampliar o simulado.
+- [ ] Crie uma folha curta de erros com categoria, causa e regra de prevenção.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `projeto-semanal/docs/simulado_sql_perguntas.md`:** Depois do simulado, escreva uma 21ª consulta que encontre os três clientes com maior soma de pagamentos pendentes.
 - [ ] **Em `projeto-semanal/docs/simulado_sql_perguntas.md`:** Valide essa consulta comparando quantidade de pagamentos, clientes distintos e soma antes e depois dos joins usados.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Resolva as 20 questões completas numeradas em `projeto-semanal/docs/simulado_sql_perguntas.md`.
-
-   **Pergunta:** Antes de escrever uma consulta de **Simulado SQL**, o que deve ser definido primeiro?
-
-- [ ] A) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
-- [ ] B) A quantidade máxima de linhas que caberá na tela.
-- [ ] C) A ordem alfabética dos nomes das tabelas.
-- [ ] D) O uso obrigatório de todas as colunas disponíveis.
-- [ ] E) A formatação visual da tabela final antes dos cálculos.
-
-2. **Referência — atividade 2:** Escreva as consultas em `projeto-semanal/sql/simulado_sql_respostas.sql` sem consultar anotações nos primeiros 90 minutos.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual cuidado é essencial ao usar junções em uma atividade de **Simulado SQL**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
 - [ ] E) Usar sempre `INNER JOIN`, independentemente da pergunta.
 
-3. **Referência — atividade 3:** Para cada questão, marque tempo, confiança de 1–5 e se precisou consultar documentação.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Como valores NULL devem ser tratados em consultas relacionadas a **Simulado SQL**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Sempre como texto vazio, mesmo em colunas numéricas.
 - [ ] E) Excluindo automaticamente todas as linhas que contenham `NULL`.
 
-4. **Referência — atividade 4:** Escolha as cinco piores respostas e reescreva do zero no fim do dia.
-
-   **Pergunta:** Qual verificação aumenta mais a confiança em uma consulta de **Simulado SQL**?
-
-- [ ] A) Executar a consulta apenas uma vez sem mensagem de erro.
-- [ ] B) Adicionar `ORDER BY` para que os números pareçam organizados.
-- [ ] C) Limitar a saída a dez linhas e assumir que o restante está correto.
-- [ ] D) Trocar nomes de aliases sem conferir os valores calculados.
-- [ ] E) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
-
-5. **Referência — atividade 5:** Crie uma folha de erros com categoria, causa, correção e regra que evitará repetição.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene a construção de uma consulta para **Simulado SQL**.
 
@@ -78,59 +86,22 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a investigação de uma consulta incorreta em **Simulado SQL**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Reproduzir o problema com um recorte pequeno.
-- B) Executar separadamente cada etapa ou CTE.
-- C) Executar a consulta completa e registrar a causa do erro.
-- D) Corrigir a etapa que altera os dados indevidamente.
-- E) Conferir chaves, duplicidades, filtros e contagens.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
+**Autoavaliação do dia:** `__/5`
 
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
 > - [ ] Inclua problema, abordagem, principal evidência, decisão e link do GitHub.
 > - [ ] **Ângulo sugerido:** mostrar como SQL analítico revela quando clientes abandonam, quais cohorts retêm melhor e onde está a receita.
 
-> [!project] Projeto semanal — Cohorts, retenção e receita
-> **Desafio:** Analisar aquisição, retenção e receita de clientes ao longo do tempo usando SQL analítico.
->
-> **Deve reutilizar:** SQL básico, CTEs, janelas, datas e cohorts.
->
-> **Entregáveis obrigatórios:**
-> - [ ] consultas reproduzíveis;
-> - [ ] matriz de cohort;
-> - [ ] ranking de segmentos;
-> - [ ] explicação de limitações;
->
-> **Defesa:** demonstração de cinco minutos e resposta a três perguntas técnicas.
->
-> **Nota mínima recomendada:** `6/10`.
-
-> [!check] Critério para avançar
-> Você consegue resolver JOINs, CTEs, datas, cohorts e janelas sob limite de tempo?
 
 ---
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Simulado SQL.
-- **Competência sugerida:** SQL analítico.
-- **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **SQL analítico** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
-- **Novo título sugerido:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
-- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.

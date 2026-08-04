@@ -1,42 +1,61 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 13 — Limpeza de dados — 19/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Limpeza de dados.
+- **Competência sugerida:** Limpeza de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Limpeza de dados** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Python`.
+- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Limpeza de dados** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Limpeza de dados.
 - **Pasta/arquivo principal:** `01-exercicios/dia-013-limpeza-de-dados.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
-### Passo a passo completo
-1. [ ] Use uma base com ausentes, duplicados, categorias inconsistentes (`Eunapolis`, `Eunápolis`, `EUNÁPOLIS`) e valores extremos.
-2. [ ] Produza um relatório inicial com quantidade e percentual de ausentes, duplicados e valores inválidos por coluna.
-3. [ ] Padronize textos, converta datas e tipos, trate duplicados com regra explícita e escolha uma estratégia para cada ausente.
-4. [ ] Detecte outliers por IQR e z-score; compare quais linhas cada método marca e não remova nada sem justificativa.
-5. [ ] Salve `dados_limpos.csv` e `relatorio_limpeza.md` com antes/depois, decisões e riscos de distorção.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-013-limpeza-de-dados.ipynb`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
 
-- [ ] **Em `01-exercicios/dia-013-limpeza-de-dados.ipynb`:** Inclua as categorias ' feira DE SANTANA ' e 'Feira de Santana' em uma cópia e aplique a mesma regra de padronização usada nas demais cidades.
-- [ ] **Em `01-exercicios/dia-013-limpeza-de-dados.ipynb`:** Inclua uma duração de 9999 minutos, compare a detecção por IQR e z-score e mantenha a linha até escrever uma justificativa.
+1. [ ] Produza um relatório inicial de ausentes, duplicados, tipos incorretos e categorias inconsistentes.
+2. [ ] Padronize textos, converta tipos e trate duplicados com uma regra explícita.
+3. [ ] Escolha uma estratégia para cada campo ausente, salve `dados_limpos.csv` e registre o antes/depois em poucas linhas.
 
-### Perguntas de checagem
+### Reforço direcionado
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
 
-1. **Referência — atividade 1:** Use uma base com ausentes, duplicados, categorias inconsistentes (`Eunapolis`, `Eunápolis`, `EUNÁPOLIS`) e valores extremos.
+- [ ] Compare duas estratégias para um campo ausente apenas se a escolha inicial ainda não estiver clara.
+- [ ] Não remova valores extremos por regra automática neste dia; apenas identifique casos suspeitos e preserve-os.
+- [ ] IQR e z-score serão estudados com base estatística no Dia 31.
 
-   **Pergunta:** Antes de tirar conclusões em **Limpeza de dados**, qual é a prática mais confiável?
+### Desafio opcional
 
-- [ ] A) Calcular médias antes de entender o que cada linha representa.
-- [ ] B) Considerar os nomes das colunas suficientes para validar os dados.
-- [ ] C) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
-- [ ] D) Começar pelo gráfico mais bonito e escolher os dados depois.
-- [ ] E) Remover todas as linhas incompletas sem medir o impacto.
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
-2. **Referência — atividade 2:** Produza um relatório inicial com quantidade e percentual de ausentes, duplicados e valores inválidos por coluna.
+- [ ] Após o Dia 31, volte a este notebook e compare IQR e z-score em uma cópia dos dados.
+- [ ] Teste uma categoria com espaços e capitalização diferente usando a mesma função de padronização.
+
+### Checagem rápida
+
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
+
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual cuidado evita conclusões distorcidas ao trabalhar com **Limpeza de dados**?
 
@@ -46,7 +65,7 @@
 - [ ] D) Usar apenas as primeiras linhas como representação de toda a base.
 - [ ] E) Substituir valores ausentes pelo maior valor disponível.
 
-3. **Referência — atividade 3:** Padronize textos, converta datas e tipos, trate duplicados com regra explícita e escolha uma estratégia para cada ausente.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Limpeza de dados**?
 
@@ -56,17 +75,7 @@
 - [ ] D) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
 - [ ] E) Ordenar as colunas pelo tamanho do nome.
 
-4. **Referência — atividade 4:** Detecte outliers por IQR e z-score; compare quais linhas cada método marca e não remova nada sem justificativa.
-
-   **Pergunta:** Como uma análise de **Limpeza de dados** deve ser apresentada para apoiar uma decisão?
-
-- [ ] A) Escolhendo a recomendação mais popular, mesmo sem evidência.
-- [ ] B) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
-- [ ] C) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
-- [ ] D) Omitindo incertezas para transmitir mais confiança.
-- [ ] E) Usando apenas termos técnicos, sem explicar o impacto.
-
-5. **Referência — atividade 5:** Salve `dados_limpos.csv` e `relatorio_limpeza.md` com antes/depois, decisões e riscos de distorção.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo de análise para uma atividade de **Limpeza de dados**.
 
@@ -78,34 +87,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a preparação de uma visualização ou entrega sobre **Limpeza de dados**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Apresentar a mensagem principal e o próximo passo.
-- B) Selecionar a métrica e o recorte adequados.
-- C) Escolher o tipo de visual compatível com a comparação.
-- D) Revisar rótulos, escalas e possíveis interpretações enganosas.
-- E) Identificar o público e a decisão que será apoiada.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Limpeza de dados.
-- **Competência sugerida:** Limpeza de dados.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Limpeza de dados** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Python`.
-- **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
+**Autoavaliação do dia:** `__/5`

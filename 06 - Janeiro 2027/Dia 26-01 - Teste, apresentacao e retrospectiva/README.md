@@ -1,42 +1,61 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 120 — Teste, apresentação e retrospectiva — 15/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Teste, apresentação e retrospectiva.
+- **Competência sugerida:** Testes e apresentação de produtos de dados.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes e apresentação de produtos de dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Teste, apresentação e retrospectiva** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Teste, apresentação e retrospectiva.
 - **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
-### Passo a passo completo
-1. [ ] Execute testes funcionais, de dados e de decisão.
-2. [ ] Peça revisão externa e registre pelo menos cinco feedbacks.
-3. [ ] Corrija itens críticos e faça release.
-4. [ ] Apresente em oito minutos para público técnico e executivo.
-5. [ ] Escreva retrospectiva e lições para o TCC.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Execute testes funcionais, de dados e de decisão sobre o fluxo essencial.
+2. [ ] Corrija os problemas críticos e gere uma versão estável.
+3. [ ] Apresente o produto em até cinco minutos com problema, decisão, evidência e limitação.
+4. [ ] Escreva retrospectiva curta com três aprendizados úteis para o TCC.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Revisão externa e cinco feedbacks são recomendados, mas dependem da disponibilidade de outra pessoa.
+- [ ] Uma segunda apresentação para público diferente é desafio de comunicação.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Peça a revisão externa para executar o caso com entrada ausente e registre o feedback sobre clareza da mensagem.
 - [ ] **Em `01-exercicios/roteiro_atividades.md`:** Apresente em uma frase a limitação mais grave e confirme que ela aparece na fala técnica e executiva.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Execute testes funcionais, de dados e de decisão.
-
-   **Pergunta:** Qual decisão deve orientar um produto de **Teste, apresentação e retrospectiva**?
-
-- [ ] A) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
-- [ ] B) Incluir o maior número possível de tecnologias.
-- [ ] C) Começar pela interface sem definir o problema.
-- [ ] D) Treinar um modelo antes de conhecer os dados.
-- [ ] E) Trocar o objetivo sempre que surgir uma ferramenta nova.
-
-2. **Referência — atividade 2:** Peça revisão externa e registre pelo menos cinco feedbacks.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** O que reduz falhas entre componentes em **Teste, apresentação e retrospectiva**?
 
@@ -46,7 +65,7 @@
 - [ ] D) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
 - [ ] E) Cada componente interpretar os campos de uma forma.
 
-3. **Referência — atividade 3:** Corrija itens críticos e faça release.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual teste oferece mais confiança em uma entrega de **Teste, apresentação e retrospectiva**?
 
@@ -56,17 +75,7 @@
 - [ ] D) Conferir somente se os arquivos existem.
 - [ ] E) Executar apenas com o conjunto usado no desenvolvimento.
 
-4. **Referência — atividade 4:** Apresente em oito minutos para público técnico e executivo.
-
-   **Pergunta:** Como avaliar o valor de uma solução de **Teste, apresentação e retrospectiva** após a entrega?
-
-- [ ] A) Medir apenas a quantidade de linhas de código.
-- [ ] B) Usar somente o número de tecnologias integradas.
-- [ ] C) Considerar publicação equivalente a sucesso.
-- [ ] D) Avaliar apenas comentários da equipe que desenvolveu.
-- [ ] E) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
-
-5. **Referência — atividade 5:** Escreva retrospectiva e lições para o TCC.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene a construção de um produto de **Teste, apresentação e retrospectiva**.
 
@@ -78,45 +87,18 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a preparação da entrega de **Teste, apresentação e retrospectiva**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Coletar feedback e priorizar correções ou melhorias.
-- B) Revisar documentação, configuração e instruções de execução.
-- C) Executar testes automatizados e manuais do fluxo completo.
-- D) Apresentar a solução com limitações e decisões técnicas.
-- E) Congelar o escopo e registrar critérios de conclusão.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
+**Autoavaliação do dia:** `__/5`
 
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
-**Autoavaliação do dia:** `__/5`  
-
-> [!project] Projeto semanal — MVP Data + AI orientado à decisão
-> **Desafio:** Construir um produto pequeno que combine análise ou modelo com IA somente onde ela gerar valor verificável.
->
-> **Deve reutilizar:** Todo o conteúdo técnico acumulado.
->
-> **Entregáveis obrigatórios:**
-> - [ ] problema e métricas;
-> - [ ] base e baseline;
-> - [ ] componente analítico;
-> - [ ] componente de IA opcional justificado;
-> - [ ] teste com usuário;
-> - [ ] retrospectiva;
->
-> **Defesa:** demonstração de cinco minutos e resposta a três perguntas técnicas.
->
-> **Nota mínima recomendada:** `6/10`.
-
-> [!check] Critério para avançar
-> O MVP resolve uma decisão concreta, funciona de ponta a ponta e possui evidência de que a IA não foi adicionada apenas por aparência?
 
 ---
 
@@ -236,15 +218,3 @@ O backtest deve incluir:
 
 > [!success] Por que este TCC é forte para o portfólio
 > Ele integra Python, SQL, estatística, séries temporais, Machine Learning, explicabilidade, backtesting, engenharia de dados, API, Docker, visualização, decisão de negócio e comunicação de riscos.
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Teste, apresentação e retrospectiva.
-- **Competência sugerida:** Testes e apresentação de produtos de dados.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes e apresentação de produtos de dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
-- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
-- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.

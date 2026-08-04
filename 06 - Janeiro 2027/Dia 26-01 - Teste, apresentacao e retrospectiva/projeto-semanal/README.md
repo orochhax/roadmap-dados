@@ -1,5 +1,9 @@
 # Projeto — Dia 120 — Teste, apresentação e retrospectiva
 
+> [!important] Escopo adaptativo
+> Este arquivo é um modelo de documentação. O Núcleo essencial do README na raiz do dia é a única lista obrigatória; use os itens abaixo somente para ampliar o projeto.
+
+
 > Estrutura preparada a partir do roadmap. Nenhuma atividade foi resolvida.
 
 > [!project] Projeto semanal — MVP Data + AI orientado à decisão
@@ -7,7 +11,7 @@
 >
 > **Deve reutilizar:** Todo o conteúdo técnico acumulado.
 >
-> **Entregáveis obrigatórios:**
+> **Ideias opcionais para ampliar (o README do dia define o núcleo obrigatório):**
 > - [ ] problema e métricas;
 > - [ ] base e baseline;
 > - [ ] componente analítico;
@@ -19,7 +23,7 @@
 >
 > **Nota mínima recomendada:** `6/10`.
 
-> [!check] Critério para avançar
+> [!check] Pergunta de revisão opcional
 > O MVP resolve uma decisão concreta, funciona de ponta a ponta e possui evidência de que a IA não foi adicionada apenas por aparência?
 
 ---

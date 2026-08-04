@@ -1,104 +1,6 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 42 — Separação e vazamento — 29/09/2026
-> [!abstract] Resultado concreto do dia
-> Concluir **Separação e vazamento** produzindo um artefato executável e evidências de que você compreendeu o assunto.
-
-### Preparação
-- **Assunto central:** Separação e vazamento.
-- **Pasta/arquivo principal:** `01-exercicios/dia-042-separacao-e-vazamento.ipynb`.
-- **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
-
-### Passo a passo completo
-1. [ ] Separe treino, validação e teste com proporção 60/20/20 e `random_state` fixo.
-2. [ ] Repita a separação de forma estratificada e compare proporção de churn em cada conjunto.
-3. [ ] Crie três features com leakage proposital, como `data_cancelamento`, `motivo_cancelamento` e `status_atual`; demonstre o aumento artificial da métrica.
-4. [ ] Remova o leakage e registre a queda de desempenho como evidência de correção.
-5. [ ] Escreva um checklist de 10 perguntas para detectar vazamento antes da modelagem.
-
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-042-separacao-e-vazamento.ipynb`. Faça exatamente estes dois itens.
-
-- [ ] **Em `01-exercicios/dia-042-separacao-e-vazamento.ipynb`:** Compare o split estratificado aleatório com um corte temporal usando a mesma base e registre a proporção de churn em cada conjunto.
-- [ ] **Em `01-exercicios/dia-042-separacao-e-vazamento.ipynb`:** Treine uma versão com status_atual e outra sem essa coluna; use a diferença de métrica para documentar o vazamento.
-
-### Perguntas de checagem
-
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
-
-1. **Referência — atividade 1:** Separe treino, validação e teste com proporção 60/20/20 e `random_state` fixo.
-
-   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Separação e vazamento**?
-
-- [ ] A) Escolher variáveis depois de observar o desempenho no teste.
-- [ ] B) Duplicar exemplos raros antes de separar os conjuntos.
-- [ ] C) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
-- [ ] D) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
-- [ ] E) Normalizar toda a base antes da separação para usar mais informação.
-
-2. **Referência — atividade 2:** Repita a separação de forma estratificada e compare proporção de churn em cada conjunto.
-
-   **Pergunta:** Como escolher uma métrica adequada para avaliar **Separação e vazamento**?
-
-- [ ] A) Avaliando apenas o tempo de treinamento do algoritmo.
-- [ ] B) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
-- [ ] C) Usando sempre acurácia, pois ela serve para qualquer problema.
-- [ ] D) Escolhendo a métrica que produz o maior número.
-- [ ] E) Trocando de métrica depois de ver qual favorece o modelo.
-
-3. **Referência — atividade 3:** Crie três features com leakage proposital, como `data_cancelamento`, `motivo_cancelamento` e `status_atual`; demonstre o aumento artificial da métrica.
-
-   **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Separação e vazamento**?
-
-- [ ] A) Testar cada modelo em uma divisão diferente dos dados.
-- [ ] B) Escolher pelo desempenho no conjunto usado para treinar.
-- [ ] C) Consultar repetidamente o teste durante cada ajuste.
-- [ ] D) Comparar somente a quantidade de parâmetros dos algoritmos.
-- [ ] E) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
-
-4. **Referência — atividade 4:** Remova o leakage e registre a queda de desempenho como evidência de correção.
-
-   **Pergunta:** Antes de usar um modelo de **Separação e vazamento** em uma decisão real, o que deve ser analisado?
-
-- [ ] A) A complexidade do nome do algoritmo escolhido.
-- [ ] B) A quantidade de linhas de código usada para criar o modelo.
-- [ ] C) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
-- [ ] D) Somente a métrica média do melhor experimento.
-- [ ] E) A aparência dos gráficos de treinamento, sem examinar dados.
-
-5. **Referência — atividade 5:** Escreva um checklist de 10 perguntas para detectar vazamento antes da modelagem.
-
-   **Pergunta:** Ordene um fluxo de modelagem para **Separação e vazamento**.
-
-- A) Definir o problema, a população, o alvo e a métrica.
-- B) Avaliar, analisar erros e relacionar o modelo à decisão.
-- C) Separar os dados conforme o contexto do problema.
-- D) Treinar um baseline e modelos candidatos.
-- E) Ajustar o pré-processamento apenas com os dados de treino.
-
-**Ordem:** `__ → __ → __ → __ → __`
-
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
-
-   **Pergunta:** Ordene uma seleção responsável de modelo em **Separação e vazamento**.
-
-- A) Estabelecer um baseline simples e reproduzível.
-- B) Comparar candidatos com o mesmo protocolo de validação.
-- C) Documentar limitações, segmentos frágeis e regras de uso.
-- D) Avaliar uma vez no teste após fechar as escolhas.
-- E) Ajustar hiperparâmetros sem consultar o conjunto de teste.
-
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
 
 ### Conquista para o LinkedIn
 
@@ -109,3 +11,83 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Separação de dados e prevenção de vazamento** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
+> [!abstract] Resultado concreto do dia
+> Concluir **Separação e vazamento** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
+
+### Preparação
+- **Assunto central:** Separação e vazamento.
+- **Pasta/arquivo principal:** `01-exercicios/dia-042-separacao-e-vazamento.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
+
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Separe treino, validação e teste com proporção definida e compare a distribuição do alvo com e sem estratificação.
+2. [ ] Classifique colunas como disponíveis no momento da previsão ou como vazamento, justificando o momento em que surgem.
+3. [ ] Desenhe um corte temporal simples e explique por que nenhum registro futuro pode participar do treino.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Crie as três features com leakage apenas como exemplo identificado, sem usá-las em um modelo ainda.
+- [ ] A comparação de métricas com e sem leakage será feita após o primeiro baseline completo do Dia 45.
+- [ ] Escreva um checklist curto de cinco perguntas, não dez.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
+
+- [ ] Após o Dia 45, treine uma versão com uma coluna vazada e outra sem ela para observar a inflação artificial da métrica.
+- [ ] Compare split aleatório e temporal usando a mesma métrica e explique qual representa melhor o uso real.
+
+### Checagem rápida
+
+> Nas questões 1–2, marque `[x]` em uma alternativa. Na questão 3, escreva a sequência correta usando A–E.
+
+1. **Pergunta:** Qual coluna é um exemplo direto de vazamento ao prever churn futuro?
+
+- [ ] A) Plano conhecido na data de previsão.
+- [ ] B) Cidade cadastrada antes da previsão.
+- [ ] C) Data de cancelamento registrada depois do evento.
+- [ ] D) Mensalidade vigente na data de referência.
+- [ ] E) Tempo de cliente calculado até a data de referência.
+
+2. **Pergunta:** Em um problema temporal, qual conjunto deve conter as observações mais recentes?
+
+- [ ] A) Treino.
+- [ ] B) Dados descartados.
+- [ ] C) Teste final.
+- [ ] D) Todos ao mesmo tempo.
+- [ ] E) Apenas dados sintéticos.
+
+3. **Pergunta:** Ordene um fluxo seguro de separação.
+
+- A) Congelar o conjunto de teste.
+- B) Definir a data ou regra de corte.
+- C) Treinar somente com o conjunto permitido.
+- D) Identificar unidade, alvo e horizonte.
+- E) Verificar proporções e datas dos conjuntos.
+
+**Ordem:** `__ → __ → __ → __ → __`
+
+### Critério de avanço
+
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
+
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
+
+**Autoavaliação do dia:** `__/5`

@@ -1,42 +1,61 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 106 — Fundamentos de LLMs — 28/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Fundamentos de LLMs.
+- **Competência sugerida:** Large Language Models (LLMs).
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Large Language Models (LLMs)** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Fundamentos de LLMs** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
+- **Gate da fase:** se Python, SQL, estatística ou ML estiver abaixo de 3/5, troque este dia por reforço da lacuna; LLM/RAG pode ser retomado depois.
 
 ### Preparação
 - **Assunto central:** Fundamentos de LLMs.
 - **Pasta/arquivo principal:** `01-exercicios/dia-106-fundamentos-de-llms.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Escreva em `llm_fundamentos.md` a diferença entre modelo base, instruído, embeddings, contexto, temperatura e tokens.
 2. [ ] Use um mesmo prompt com três temperaturas ou configurações disponíveis e compare consistência.
 3. [ ] Crie cinco exemplos de alucinação provável e escreva como reduzir risco.
-4. [ ] Calcule custo estimado de uma tarefa com quantidade hipotética de tokens de entrada/saída.
-5. [ ] Liste casos em que LLM não é a solução adequada.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-106-fundamentos-de-llms.py`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Calcule custo estimado de uma tarefa com quantidade hipotética de tokens de entrada/saída.
+- [ ] Liste casos em que LLM não é a solução adequada.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-106-fundamentos-de-llms.py`:** Use a pergunta 'Explique o problema da minha internet' com temperatura 0 e 0,7 e compare consistência e detalhes inventados.
 - [ ] **Em `01-exercicios/dia-106-fundamentos-de-llms.py`:** Estime custo para 1.500 tokens de entrada e 400 de saída usando preços hipotéticos de R$0,01 e R$0,03 por mil tokens.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Escreva em `llm_fundamentos.md` a diferença entre modelo base, instruído, embeddings, contexto, temperatura e tokens.
-
-   **Pergunta:** Qual estrutura torna uma solicitação de **Fundamentos de LLMs** mais controlável?
-
-- [ ] A) Uma frase vaga sem explicar a tarefa.
-- [ ] B) O maior texto possível, mesmo com informações irrelevantes.
-- [ ] C) Vários objetivos conflitantes na mesma instrução.
-- [ ] D) A ausência de critérios para aceitar a resposta.
-- [ ] E) Instrução clara, contexto necessário, restrições e formato de saída definido.
-
-2. **Referência — atividade 2:** Use um mesmo prompt com três temperaturas ou configurações disponíveis e compare consistência.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Como avaliar uma aplicação relacionada a **Fundamentos de LLMs**?
 
@@ -46,7 +65,7 @@
 - [ ] D) Ler uma única resposta que parece convincente.
 - [ ] E) Avaliar apenas a fluidez do texto.
 
-3. **Referência — atividade 3:** Crie cinco exemplos de alucinação provável e escreva como reduzir risco.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual cuidado de segurança é importante em **Fundamentos de LLMs**?
 
@@ -56,17 +75,7 @@
 - [ ] D) Executar automaticamente toda ação sugerida pelo modelo.
 - [ ] E) Ocultar fontes e limitações do usuário.
 
-4. **Referência — atividade 4:** Calcule custo estimado de uma tarefa com quantidade hipotética de tokens de entrada/saída.
-
-   **Pergunta:** Quando uma resposta de **Fundamentos de LLMs** apoia uma decisão importante, qual prática é mais adequada?
-
-- [ ] A) Considerar confiança verbal equivalente a precisão.
-- [ ] B) Remover avisos para deixar a saída mais direta.
-- [ ] C) Usar o modelo como única fonte para qualquer decisão.
-- [ ] D) Exigir evidência verificável e revisão humana proporcional ao risco.
-- [ ] E) Aceitar a resposta quando ela estiver bem escrita.
-
-5. **Referência — atividade 5:** Liste casos em que LLM não é a solução adequada.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene o desenvolvimento de uma funcionalidade de **Fundamentos de LLMs**.
 
@@ -78,34 +87,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a melhoria de uma aplicação de **Fundamentos de LLMs**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Publicar apenas após revisar qualidade, segurança e custo.
-- B) Alterar uma parte controlada da solução.
-- C) Classificar os erros por causa e impacto.
-- D) Comparar a nova versão com a anterior nos mesmos casos.
-- E) Reunir exemplos reais de sucesso e falha.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Fundamentos de LLMs.
-- **Competência sugerida:** Large Language Models (LLMs).
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Large Language Models (LLMs)** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

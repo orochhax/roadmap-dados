@@ -1,42 +1,62 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 111 — Escopo e documentos — 04/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Escopo e documentos.
+- **Competência sugerida:** Definição de produtos RAG.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Definição de produtos RAG** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Escopo e documentos** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
+- **Gate da fase:** se Python, SQL, estatística ou ML estiver abaixo de 3/5, troque este dia por reforço da lacuna; LLM/RAG pode ser retomado depois.
 
 ### Preparação
 - **Assunto central:** Escopo e documentos.
 - **Pasta/arquivo principal:** `01-exercicios/dia-111-escopo-e-documentos.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
-### Passo a passo completo
-1. [ ] Defina escopo do RAG: responder apenas sobre procedimentos de suporte técnico presentes nos documentos.
-2. [ ] Selecione ou crie 15–30 documentos e registre origem, versão e licença.
-3. [ ] Crie 30 perguntas de avaliação antes de implementar o sistema.
-4. [ ] Defina política de recusa quando não houver evidência.
-5. [ ] Desenhe arquitetura de ingestão, indexação, recuperação, geração e avaliação.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-111-escopo-e-documentos.py`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Defina o escopo do RAG e uma política explícita de recusa fora dos documentos.
+2. [ ] Selecione de oito a 12 documentos pequenos e registre origem, versão e licença.
+3. [ ] Crie dez perguntas de avaliação antes da implementação.
+4. [ ] Desenhe o fluxo de ingestão, recuperação, geração e avaliação.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Amplie para 15–30 documentos e 30 perguntas apenas depois que o conjunto inicial estiver funcionando.
+- [ ] Inclua documentos longos ou PDF somente quando a ingestão de Markdown/texto estiver estável.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-111-escopo-e-documentos.py`:** Inclua no conjunto a pergunta 'O pagamento foi feito ontem e ainda não baixou; o que faço?' apontando para o documento correto.
 - [ ] **Em `01-exercicios/dia-111-escopo-e-documentos.py`:** Adicione a pergunta fora do domínio 'qual ação devo comprar?' e escreva a frase de recusa exigida pela política.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Defina escopo do RAG: responder apenas sobre procedimentos de suporte técnico presentes nos documentos.
-
-   **Pergunta:** O que reduz respostas sem apoio em uma solução de **Escopo e documentos**?
-
-- [ ] A) Pedir ao modelo para inventar detalhes quando faltar contexto.
-- [ ] B) Enviar documentos aleatórios para aumentar o volume.
-- [ ] C) Remover referências para deixar a resposta menor.
-- [ ] D) Usar somente o conhecimento geral do modelo.
-- [ ] E) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
-
-2. **Referência — atividade 2:** Selecione ou crie 15–30 documentos e registre origem, versão e licença.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual escolha afeta diretamente a recuperação em **Escopo e documentos**?
 
@@ -46,7 +66,7 @@
 - [ ] D) A cor da interface usada para enviar a pergunta.
 - [ ] E) A ordem alfabética dos nomes dos arquivos apenas.
 
-3. **Referência — atividade 3:** Crie 30 perguntas de avaliação antes de implementar o sistema.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Como o sistema deve agir quando **Escopo e documentos** não encontra evidência suficiente?
 
@@ -56,17 +76,7 @@
 - [ ] D) Ocultar que a busca não encontrou conteúdo.
 - [ ] E) Repetir a mesma afirmação com mais confiança.
 
-4. **Referência — atividade 4:** Defina política de recusa quando não houver evidência.
-
-   **Pergunta:** Qual avaliação ajuda a diagnosticar uma falha em **Escopo e documentos**?
-
-- [ ] A) Medir somente a velocidade de criação do índice.
-- [ ] B) Considerar toda citação como necessariamente relevante.
-- [ ] C) Trocar o modelo sem examinar os documentos recuperados.
-- [ ] D) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
-- [ ] E) Avaliar apenas o tamanho da resposta.
-
-5. **Referência — atividade 5:** Desenhe arquitetura de ingestão, indexação, recuperação, geração e avaliação.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene o fluxo principal de uma solução de **Escopo e documentos**.
 
@@ -78,34 +88,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene o diagnóstico de uma resposta ruim em **Escopo e documentos**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Registrar a pergunta, a resposta e as fontes recuperadas.
-- B) Corrigir a etapa responsável e repetir os mesmos testes.
-- C) Avaliar chunking, metadados, consulta e ranking da busca.
-- D) Avaliar se a geração respeitou o contexto recuperado.
-- E) Verificar se a informação necessária existe nos documentos.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Escopo e documentos.
-- **Competência sugerida:** Definição de produtos RAG.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Definição de produtos RAG** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

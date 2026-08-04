@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 91 — Git profissional básico — 07/12/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Git profissional básico.
+- **Competência sugerida:** Git e GitHub.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Git e GitHub** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
+- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Git profissional básico** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Git profissional básico.
 - **Pasta/arquivo principal:** `01-exercicios/dia-091-git-profissional-basico.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Crie branch `feature/refatoracao`, faça três commits pequenos e abra Pull Request para si mesmo.
 2. [ ] Pratique `git status`, `diff`, `log`, `restore`, `revert` e resolução de conflito.
 3. [ ] Crie conflito intencional em duas branches e documente como resolveu.
-4. [ ] Defina padrão de mensagens de commit e template de PR.
-5. [ ] Marque release e tag para versão estável.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-091-git-profissional-basico.py`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Defina padrão de mensagens de commit e template de PR.
+- [ ] Marque release e tag para versão estável.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-091-git-profissional-basico.py`:** Crie uma branch pratica/conflito-a e outra pratica/conflito-b alterando a mesma linha de um arquivo de treino; resolva sem apagar as duas intenções.
 - [ ] **Em `01-exercicios/dia-091-git-profissional-basico.py`:** Faça um commit de teste e use git revert para desfazê-lo, mantendo o histórico visível; registre os comandos usados.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Crie branch `feature/refatoracao`, faça três commits pequenos e abra Pull Request para si mesmo.
-
-   **Pergunta:** Qual prática melhora a manutenção de uma solução de **Git profissional básico**?
-
-- [ ] A) Colocar dados, regras e execução em uma única função.
-- [ ] B) Salvar segredos diretamente no código.
-- [ ] C) Alterar vários comportamentos sem registrar o motivo.
-- [ ] D) Duplicar trechos para evitar criar funções.
-- [ ] E) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
-
-2. **Referência — atividade 2:** Pratique `git status`, `diff`, `log`, `restore`, `revert` e resolução de conflito.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual estratégia de testes é mais adequada em **Git profissional básico**?
 
@@ -46,7 +64,7 @@
 - [ ] D) Testar apenas manualmente depois da publicação.
 - [ ] E) Criar testes que nunca falham para manter a integração verde.
 
-3. **Referência — atividade 3:** Crie conflito intencional em duas branches e documente como resolveu.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual cuidado é essencial ao publicar uma aplicação de **Git profissional básico**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Modificar o ambiente de produção manualmente sem registro.
 - [ ] E) Remover validações para reduzir o tempo de resposta.
 
-4. **Referência — atividade 4:** Defina padrão de mensagens de commit e template de PR.
-
-   **Pergunta:** Como saber se uma solução de **Git profissional básico** continua saudável após a publicação?
-
-- [ ] A) Considerar ausência de reclamações como prova suficiente.
-- [ ] B) Observar apenas o uso de memória uma vez por mês.
-- [ ] C) Avaliar somente a métrica obtida durante o treinamento.
-- [ ] D) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
-- [ ] E) Conferir somente se o computador do desenvolvedor está ligado.
-
-5. **Referência — atividade 5:** Marque release e tag para versão estável.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene uma mudança segura em **Git profissional básico**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a resposta a um problema após publicar **Git profissional básico**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Conter o impacto ou reverter para uma versão estável.
-- B) Delimitar usuários, versões e componentes afetados.
-- C) Detectar o sintoma por métricas, logs ou alerta.
-- D) Republicar com controle e documentar o incidente.
-- E) Corrigir a causa e validar com testes.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Git profissional básico.
-- **Competência sugerida:** Git e GitHub.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Git e GitHub** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
-- **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
+**Autoavaliação do dia:** `__/5`

@@ -1,42 +1,62 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 5 — Funções e primeiro mini-projeto — 07/08/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Funções e primeiro mini-projeto.
+- **Competência sugerida:** Python e desenvolvimento de mini-projetos.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python e desenvolvimento de mini-projetos** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
+- **Título atual recomendado:** `Engenharia de Software`.
+- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Funções e primeiro mini-projeto** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 4–5 horas; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Funções e primeiro mini-projeto.
 - **Pasta/arquivo principal:** `projeto-semanal/src/noc_insights.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
-### Passo a passo completo
-1. [ ] Refatore os códigos dos dias 2 a 4 em funções com nomes claros, parâmetros tipados e docstrings curtas.
-2. [ ] Crie `noc_insights.py` com menu: adicionar incidente, listar incidentes, calcular resumo e sair.
-3. [ ] Implemente funções separadas para validar entrada, classificar prioridade, calcular métricas e formatar relatório.
-4. [ ] Cadastre manualmente 10 incidentes e confirme: contagem por cidade, média de duração, prioridade mais frequente e total de clientes afetados.
-5. [ ] Crie `testes_manuais.md` com 10 cenários, entrada usada, resultado obtido e status aprovado/reprovado.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `projeto-semanal/src/noc_insights.py`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Transforme a classificação de prioridade do Dia 3 em uma função com parâmetros e retorno.
+2. [ ] Crie funções separadas para calcular um resumo e formatar a saída de uma lista fixa de incidentes.
+3. [ ] Em `noc_insights.py`, gere um relatório com contagem por cidade, média de duração e prioridade mais frequente, sem menu interativo nesta primeira versão.
+4. [ ] Execute quatro testes manuais: lista comum, lista vazia, um único incidente e prioridade inválida.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Adicione o menu interativo somente se as funções já funcionarem quando chamadas diretamente.
+- [ ] Acrescente docstrings curtas; deixe type hints completos como desafio, pois ainda não são pré-requisito.
+- [ ] Não refatore todos os códigos dos Dias 2 a 4: escolha apenas as partes reutilizadas no mini-projeto.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `projeto-semanal/src/noc_insights.py`:** Adicione ao menu a opção 'listar somente P1 e P2' e faça essa opção chamar uma função separada que receba a lista de incidentes.
 - [ ] **Em `projeto-semanal/src/noc_insights.py`:** Teste o novo filtro com uma lista que contém um P1 e um P4 e depois com uma lista vazia; registre os dois comportamentos em testes_manuais.md.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Refatore os códigos dos dias 2 a 4 em funções com nomes claros, parâmetros tipados e docstrings curtas.
-
-   **Pergunta:** Ao praticar **Funções e primeiro mini-projeto**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
-
-- [ ] A) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
-- [ ] B) Copiar um código pronto e alterar valores até ele executar.
-- [ ] C) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
-- [ ] D) Ignorar os tipos das variáveis quando a saída parece plausível.
-- [ ] E) Evitar testes para não modificar o código que já executou uma vez.
-
-2. **Referência — atividade 2:** Crie `noc_insights.py` com menu: adicionar incidente, listar incidentes, calcular resumo e sair.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual prática reduz mais o risco de erro em um programa relacionado a **Funções e primeiro mini-projeto**?
 
@@ -46,7 +66,7 @@
 - [ ] D) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
 - [ ] E) Transformar todas as entradas em texto e calcular diretamente.
 
-3. **Referência — atividade 3:** Implemente funções separadas para validar entrada, classificar prioridade, calcular métricas e formatar relatório.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual teste fornece a verificação mais completa para um exercício de **Funções e primeiro mini-projeto**?
 
@@ -56,17 +76,7 @@
 - [ ] D) Conferir somente se o arquivo foi salvo com a extensão `.py`.
 - [ ] E) Ler o código sem executá-lo porque a sintaxe parece correta.
 
-4. **Referência — atividade 4:** Cadastre manualmente 10 incidentes e confirme: contagem por cidade, média de duração, prioridade mais frequente e total de clientes afetados.
-
-   **Pergunta:** Ao usar um cálculo de **Funções e primeiro mini-projeto** para apoiar uma decisão, qual atitude é mais adequada?
-
-- [ ] A) Apresentar apenas o número final sem informar de onde ele veio.
-- [ ] B) Escolher a conclusão antes do cálculo e adaptar o código a ela.
-- [ ] C) Considerar qualquer saída do Python como prova suficiente.
-- [ ] D) Excluir valores que contradizem a primeira interpretação.
-- [ ] E) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
-
-5. **Referência — atividade 5:** Crie `testes_manuais.md` com 10 cenários, entrada usada, resultado obtido e status aprovado/reprovado.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um fluxo seguro para resolver uma atividade de **Funções e primeiro mini-projeto**.
 
@@ -78,57 +88,17 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene as ações para investigar um erro durante a prática de **Funções e primeiro mini-projeto**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Reproduzir o erro e observar a mensagem ou a saída.
-- B) Corrigir a causa identificada.
-- C) Isolar a parte do código que causa o problema.
-- D) Executar novamente os testes afetados.
-- E) Anotar o que provocou o erro e como ele foi corrigido.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
+**Autoavaliação do dia:** `__/5`
 
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
 
-**Autoavaliação do dia:** `__/5`  
-
-> [!project] Projeto semanal — Sistema Inteligente de Triagem de Incidentes
-> **Desafio:** Construir uma aplicação de terminal que receba incidentes, valide campos, aplique regras configuráveis de prioridade e produza uma visão gerencial do impacto operacional.
->
-> **Deve reutilizar:** Python básico, condicionais, coleções, funções e Git.
->
-> **Entregáveis obrigatórios:**
-> - [ ] código dividido em funções e regras carregadas de arquivo configurável;
-> - [ ] ranking dos incidentes por impacto (`clientes_afetados × duração × peso da severidade`);
-> - [ ] resumo por cidade, causa e prioridade;
-> - [ ] dashboard simples em Markdown/HTML ou gráficos exportados;
-> - [ ] relatório executivo com três ações recomendadas;
-> - [ ] dez casos de teste documentados;
-> - [ ] README com regras de negócio e demonstração de três minutos;
->
-> **Defesa:** explicar por que a regra de priorização é coerente e mostrar um caso em que a ordem das condições altera a decisão.
->
-> **Nota mínima recomendada:** `6/10`.
-
-> [!check] Critério para avançar
-> Você consegue transformar regras operacionais em um sistema configurável, testável e útil para priorizar recursos?
 
 ---
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Funções e primeiro mini-projeto.
-- **Competência sugerida:** Python e desenvolvimento de mini-projetos.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python e desenvolvimento de mini-projetos** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
-- **Título atual recomendado:** `Engenharia de Software`.
-- **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.

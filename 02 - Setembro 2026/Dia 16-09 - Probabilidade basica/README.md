@@ -1,42 +1,61 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 32 — Probabilidade básica — 15/09/2026
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Probabilidade básica.
+- **Competência sugerida:** Probabilidade.
+- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Probabilidade** na seção Competências.
+- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Probabilidade básica** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Probabilidade básica.
 - **Pasta/arquivo principal:** `01-exercicios/dia-032-probabilidade-basica.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
-### Passo a passo completo
-1. [ ] Resolva no notebook os 12 problemas completos e numerados de probabilidade; todos os números necessários já aparecem nos enunciados.
-2. [ ] Construa uma tabela 2x2 com 1.000 clientes, 100 churns e um alerta com sensibilidade 80% e falso positivo 20%; calcule `P(churn|alerta)`.
-3. [ ] Simule 10.000 lançamentos de moeda e dados com NumPy; compare frequência observada e probabilidade teórica.
-4. [ ] Crie dois eventos independentes e dois dependentes em dados sintéticos; mostre numericamente a diferença.
-5. [ ] Escreva três erros comuns ao interpretar probabilidade condicional.
+### Núcleo essencial
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-032-probabilidade-basica.ipynb`. Faça exatamente estes dois itens.
+> Estes são os únicos itens obrigatórios do dia.
+
+1. [ ] Resolva os problemas 1–6 de probabilidade, identificando antes de calcular o espaço amostral e o evento pedido.
+2. [ ] Construa uma tabela 2x2 pequena e use-a para interpretar uma probabilidade condicional.
+3. [ ] Simule lançamentos com NumPy e compare frequência observada e probabilidade teórica em dois tamanhos de amostra.
+
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Resolva os problemas 7–12 apenas para o tipo de probabilidade em que ainda houver erro.
+- [ ] Amplie a simulação para 10.000 repetições e compare a estabilidade do resultado.
+- [ ] Deixe exemplos formais de independência e dependência para depois de dominar a tabela 2x2.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-032-probabilidade-basica.ipynb`:** Refaça o problema de Bayes com 2.000 clientes, 160 churns, sensibilidade de 75% e falso positivo de 10%.
 - [ ] **Em `01-exercicios/dia-032-probabilidade-basica.ipynb`:** Simule 100, 1.000 e 10.000 lançamentos da mesma moeda com seed 42 e compare a distância entre frequência e probabilidade teórica.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Resolva os 12 problemas completos e numerados no notebook, usando os números fornecidos em cada enunciado.
-
-   **Pergunta:** Ao estudar **Probabilidade básica**, por que uma única medida-resumo pode ser insuficiente?
-
-- [ ] A) Porque toda análise exige exatamente cinco métricas.
-- [ ] B) Porque a mediana sempre substitui qualquer outra medida.
-- [ ] C) Porque gráficos tornam cálculos estatísticos desnecessários.
-- [ ] D) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
-- [ ] E) Porque médias só podem ser usadas com dados de texto.
-
-2. **Referência — atividade 2:** Construa uma tabela 2x2 com 1.000 clientes, 100 churns e um alerta com sensibilidade 80% e falso positivo 20%; calcule `P(churn|alerta)`.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Probabilidade básica**?
 
@@ -46,7 +65,7 @@
 - [ ] D) Considerar correlação suficiente para afirmar causalidade.
 - [ ] E) Escolher a hipótese depois de observar os dados.
 
-3. **Referência — atividade 3:** Simule 10.000 lançamentos de moeda e dados com NumPy; compare frequência observada e probabilidade teórica.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Probabilidade básica**?
 
@@ -56,17 +75,7 @@
 - [ ] D) Um arquivo salvo em uma pasta específica do projeto.
 - [ ] E) Uma amostra enviesada que não representa adequadamente a população de interesse.
 
-4. **Referência — atividade 4:** Crie dois eventos independentes e dois dependentes em dados sintéticos; mostre numericamente a diferença.
-
-   **Pergunta:** Como usar evidência de **Probabilidade básica** em uma decisão real?
-
-- [ ] A) Tomar a decisão apenas pelo sinal positivo ou negativo.
-- [ ] B) Repetir testes até surgir uma conclusão favorável.
-- [ ] C) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
-- [ ] D) Escolher automaticamente a opção com a maior média observada.
-- [ ] E) Eliminar a incerteza arredondando os números.
-
-5. **Referência — atividade 5:** Escreva três erros comuns ao interpretar probabilidade condicional.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene um estudo estatístico relacionado a **Probabilidade básica**.
 
@@ -78,34 +87,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Probabilidade básica**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Definir hipótese, métrica principal e regra de decisão.
-- B) Distribuir aleatoriamente as unidades entre os grupos.
-- C) Verificar equilíbrio e integridade da coleta.
-- D) Decidir com base no efeito, no risco e na relevância prática.
-- E) Estimar a diferença entre grupos e sua incerteza.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Probabilidade básica.
-- **Competência sugerida:** Probabilidade.
-- **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Probabilidade** na seção Competências.
-- **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
-- **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
+**Autoavaliação do dia:** `__/5`

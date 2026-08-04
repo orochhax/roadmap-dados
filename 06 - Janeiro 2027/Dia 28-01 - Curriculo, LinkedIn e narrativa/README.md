@@ -1,42 +1,60 @@
-<!-- Estrutura preparada automaticamente a partir do roadmap. Nenhuma atividade foi resolvida. -->
+<!-- Estrutura reformulada por domínio. Nenhuma atividade foi resolvida. -->
 
 ## Dia 122 — Currículo, LinkedIn e narrativa — 19/01/2027
+
+### Conquista para o LinkedIn
+
+> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
+
+- **Conhecimento praticado hoje:** Currículo, LinkedIn e narrativa.
+- **Competência sugerida:** LinkedIn, currículo e marca profissional.
+- **Ação recomendada:** Mantenha o título atual, adicione ou reforce **LinkedIn, currículo e marca profissional** em Competências e atualize a seção Sobre com uma narrativa curta e comprovável.
+- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
+- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+
 > [!abstract] Resultado concreto do dia
 > Concluir **Currículo, LinkedIn e narrativa** produzindo um artefato executável e evidências de que você compreendeu o assunto.
+
+### Rota adaptativa do dia
+
+- **Obrigatório:** conclua somente o Núcleo essencial.
+- **Reforço:** comece por um item apenas se ainda não atingir o critério de avanço.
+- **Desafio:** é opcional e nunca impede seguir para o próximo dia.
+- **Limite sugerido:** 2h30–3h30; se ultrapassar muito, divida a tarefa sem copiar respostas.
+- **Fonte de prioridade:** se o arquivo de exercício tiver mais enunciados, este README define quais são obrigatórios.
 
 ### Preparação
 - **Assunto central:** Currículo, LinkedIn e narrativa.
 - **Pasta/arquivo principal:** `01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
-### Passo a passo completo
+### Núcleo essencial
+
+> Estes são os únicos itens obrigatórios do dia.
+
 1. [ ] Crie currículo de uma página orientado a vagas júnior.
 2. [ ] Escreva quatro bullets de projeto no formato ação + técnica + resultado + impacto.
 3. [ ] Atualize headline, sobre, competências e projetos do LinkedIn.
-4. [ ] Crie narrativa de transição de NOC para dados sem desvalorizar experiência anterior.
-5. [ ] Prepare versões de apresentação de 30 segundos, 2 minutos e 5 minutos.
 
-### Exercícios extras
-> Os enunciados também estão preparados em `01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md`. Faça exatamente estes dois itens.
+### Reforço direcionado
+
+> Faça primeiro um único item desta seção se o núcleo ainda não estiver claro. Pare quando corrigir a lacuna.
+
+- [ ] Crie narrativa de transição de NOC para dados sem desvalorizar experiência anterior.
+- [ ] Prepare versões de apresentação de 30 segundos, 2 minutos e 5 minutos.
+
+### Desafio opcional
+
+> Faça somente se o núcleo estiver correto, a autoavaliação for 3 ou mais e ainda houver tempo e energia.
 
 - [ ] **Em `01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md`:** Adapte um bullet de projeto para uma vaga que exige Python e SQL, usando somente técnica e resultado comprováveis.
 - [ ] **Em `01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md`:** Grave a apresentação de 30 segundos e remova qualquer ferramenta que você ainda não consiga explicar com um exemplo.
 
-### Perguntas de checagem
+### Checagem rápida
 
-> Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
+> Nas questões 1–2, marque `[x]` em uma única alternativa. Na questão 3, escreva a sequência correta usando as letras A–E. A checagem não substitui executar o código.
 
-1. **Referência — atividade 1:** Crie currículo de uma página orientado a vagas júnior.
-
-   **Pergunta:** Qual conteúdo fortalece mais uma apresentação de **Currículo, LinkedIn e narrativa**?
-
-- [ ] A) Afirmações genéricas de domínio avançado.
-- [ ] B) Cópias de descrições encontradas em vagas.
-- [ ] C) Somente imagens, sem explicar o raciocínio.
-- [ ] D) Problema, decisões tomadas, evidências produzidas, limitações e impacto do trabalho.
-- [ ] E) Uma lista extensa de ferramentas sem contexto.
-
-2. **Referência — atividade 2:** Escreva quatro bullets de projeto no formato ação + técnica + resultado + impacto.
+1. **Referência:** conceito e implementação do Núcleo essencial deste dia.
 
    **Pergunta:** Como adaptar **Currículo, LinkedIn e narrativa** a uma oportunidade profissional?
 
@@ -46,7 +64,7 @@
 - [ ] D) Usar exatamente o mesmo texto para qualquer vaga.
 - [ ] E) Ocultar responsabilidades e resultados concretos.
 
-3. **Referência — atividade 3:** Atualize headline, sobre, competências e projetos do LinkedIn.
+2. **Referência:** execução, testes e variação de dados do Núcleo essencial.
 
    **Pergunta:** Qual é a melhor forma de falar sobre uma lacuna durante **Currículo, LinkedIn e narrativa**?
 
@@ -56,17 +74,7 @@
 - [ ] D) Culpar a descrição da vaga pela pergunta.
 - [ ] E) Reconhecer o limite com honestidade e explicar como aprenderia ou validaria aquela parte.
 
-4. **Referência — atividade 4:** Crie narrativa de transição de NOC para dados sem desvalorizar experiência anterior.
-
-   **Pergunta:** Qual resposta demonstra melhor experiência em uma entrevista ligada a **Currículo, LinkedIn e narrativa**?
-
-- [ ] A) Uma descrição longa apenas sobre a equipe.
-- [ ] B) Uma lista de tecnologias sem decisão ou efeito.
-- [ ] C) Uma história objetiva com contexto, ação própria, evidência e aprendizado.
-- [ ] D) Uma opinião ampla sem exemplo concreto.
-- [ ] E) Uma resposta decorada que não explica sua participação.
-
-5. **Referência — atividade 5:** Prepare versões de apresentação de 30 segundos, 2 minutos e 5 minutos.
+3. **Referência:** fluxo completo do Núcleo essencial deste dia.
 
    **Pergunta:** Ordene a preparação de um material de **Currículo, LinkedIn e narrativa**.
 
@@ -78,34 +86,13 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+### Critério de avanço
 
-   **Pergunta:** Ordene a preparação para uma conversa profissional sobre **Currículo, LinkedIn e narrativa**.
+- [ ] O Núcleo essencial foi executado ou produzido do início ao fim.
+- [ ] Acertei pelo menos duas das três perguntas sem consulta.
+- [ ] Alterei uma entrada, parâmetro ou hipótese e entendi o efeito no resultado.
+- [ ] Consigo explicar o objetivo, a lógica principal e um erro ou limitação conhecida.
 
-- A) Selecionar exemplos reais para competências técnicas e comportamentais.
-- B) Praticar respostas curtas com contexto, ação e evidência.
-- C) Simular perguntas e identificar lacunas de explicação.
-- D) Revisar os aprendizados e ajustar a próxima simulação.
-- E) Pesquisar a função, a empresa e os problemas prováveis.
+> Se todos os itens acima estiverem marcados, avance. Reforço e desafio não são requisitos. Faça commit quando encerrar uma unidade útil, sem usar o commit como prova de compreensão.
 
-**Ordem:** `__ → __ → __ → __ → __`
-
-### Critério objetivo para marcar como concluído
-- [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
-- [ ] O artefato executa do início ao fim sem edição manual oculta.
-- [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] Alterações registradas em commit e enviadas ao GitHub.
-
-**Autoavaliação do dia:** `__/5`  
-
----
-
-### Conquista para o LinkedIn
-
-> [!tip] Libere esta conquista somente depois de concluir as atividades do dia e conseguir explicar o conhecimento com suas próprias palavras.
-
-- **Conhecimento praticado hoje:** Currículo, LinkedIn e narrativa.
-- **Competência sugerida:** LinkedIn, currículo e marca profissional.
-- **Ação recomendada:** Mantenha o título atual, adicione ou reforce **LinkedIn, currículo e marca profissional** em Competências e atualize a seção Sobre com uma narrativa curta e comprovável.
-- **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
-- **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
+**Autoavaliação do dia:** `__/5`
