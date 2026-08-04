@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao praticar **Mini-projeto de consolidação**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+1. **Referência — atividade 1:** Crie uma pasta `projeto_semana02` e copie somente os módulos realmente necessários, sem levar arquivos temporários.
+
+   **Pergunta:** Ao praticar **Mini-projeto de consolidação**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
 
 - [ ] A) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
 - [ ] B) Copiar um código pronto e alterar valores até ele executar.
@@ -34,7 +36,9 @@
 - [ ] D) Ignorar os tipos das variáveis quando a saída parece plausível.
 - [ ] E) Evitar testes para não modificar o código que já executou uma vez.
 
-2. Qual prática reduz mais o risco de erro em um programa relacionado a **Mini-projeto de consolidação**?
+2. **Referência — atividade 2:** Implemente uma aplicação que leia CSV ou JSON, valide esquema, consolide incidentes e gere `resumo.json` e `relatorio.csv`.
+
+   **Pergunta:** Qual prática reduz mais o risco de erro em um programa relacionado a **Mini-projeto de consolidação**?
 
 - [ ] A) Aceitar qualquer entrada e corrigir somente se o programa fechar.
 - [ ] B) Remover mensagens de erro para deixar o terminal mais limpo.
@@ -42,7 +46,9 @@
 - [ ] D) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
 - [ ] E) Transformar todas as entradas em texto e calcular diretamente.
 
-3. Qual teste fornece a verificação mais completa para um exercício de **Mini-projeto de consolidação**?
+3. **Referência — atividade 3:** Defina no README cinco regras de qualidade: campos obrigatórios, tipos, valores permitidos, limites numéricos e tratamento de duplicados.
+
+   **Pergunta:** Qual teste fornece a verificação mais completa para um exercício de **Mini-projeto de consolidação**?
 
 - [ ] A) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
 - [ ] B) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
@@ -50,7 +56,9 @@
 - [ ] D) Conferir somente se o arquivo foi salvo com a extensão `.py`.
 - [ ] E) Ler o código sem executá-lo porque a sintaxe parece correta.
 
-4. Ao usar um cálculo de **Mini-projeto de consolidação** para apoiar uma decisão, qual atitude é mais adequada?
+4. **Referência — atividade 4:** Crie 15 casos de teste divididos em cinco válidos, cinco inválidos e cinco casos de borda.
+
+   **Pergunta:** Ao usar um cálculo de **Mini-projeto de consolidação** para apoiar uma decisão, qual atitude é mais adequada?
 
 - [ ] A) Apresentar apenas o número final sem informar de onde ele veio.
 - [ ] B) Escolher a conclusão antes do cálculo e adaptar o código a ela.
@@ -58,7 +66,9 @@
 - [ ] D) Excluir valores que contradizem a primeira interpretação.
 - [ ] E) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
 
-5. Ordene um fluxo seguro para resolver uma atividade de **Mini-projeto de consolidação**.
+5. **Referência — atividade 5:** Execute o projeto em ambiente virtual novo, grave uma demonstração de até cinco minutos e registre três limitações.
+
+   **Pergunta:** Ordene um fluxo seguro para resolver uma atividade de **Mini-projeto de consolidação**.
 
 - A) Ler o enunciado e identificar o objetivo.
 - B) Implementar a solução em pequenas etapas.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as ações para investigar um erro durante a prática de **Mini-projeto de consolidação**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as ações para investigar um erro durante a prática de **Mini-projeto de consolidação**.
 
 - A) Anotar o que provocou o erro e como ele foi corrigido.
 - B) Isolar a parte do código que causa o problema.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!project] Projeto semanal — Pipeline de Qualidade de Dados Operacionais
 > **Desafio:** Ingerir arquivos CSV e JSON de fontes diferentes, validar esquema e regras, separar registros aprovados/rejeitados e publicar uma base confiável para análise.
@@ -120,23 +131,3 @@
 - **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **Python e construção de pipelines** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
 - **Novo título sugerido:** `Engenharia de Software | Python`.
 - **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao praticar **Condicionais e regras de negócio**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+1. **Referência — atividade 1:** Crie `prioridade_chamados.py` com entradas `clientes_afetados`, `duracao_min`, `servico_critico`, `cidade_inteira` e `risco_seguranca`.
+
+   **Pergunta:** Ao praticar **Condicionais e regras de negócio**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
 
 - [ ] A) Ignorar os tipos das variáveis quando a saída parece plausível.
 - [ ] B) Evitar testes para não modificar o código que já executou uma vez.
@@ -34,7 +36,9 @@
 - [ ] D) Copiar um código pronto e alterar valores até ele executar.
 - [ ] E) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
 
-2. Qual prática reduz mais o risco de erro em um programa relacionado a **Condicionais e regras de negócio**?
+2. **Referência — atividade 2:** Implemente exatamente seis regras, nesta ordem: risco de segurança→P1; cidade inteira→P1; serviço crítico e mais de 100 clientes→P1; mais de 500 clientes ou duração acima de 180 min→P2; mais de 50 clientes→P3; demais→P4.
+
+   **Pergunta:** Qual prática reduz mais o risco de erro em um programa relacionado a **Condicionais e regras de negócio**?
 
 - [ ] A) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
 - [ ] B) Transformar todas as entradas em texto e calcular diretamente.
@@ -42,7 +46,9 @@
 - [ ] D) Remover mensagens de erro para deixar o terminal mais limpo.
 - [ ] E) Repetir o mesmo cálculo em vários lugares do arquivo.
 
-3. Qual teste fornece a verificação mais completa para um exercício de **Condicionais e regras de negócio**?
+3. **Referência — atividade 3:** Monte uma tabela com 12 casos de teste, incluindo valores nos limites 50, 51, 100, 101, 500 e 501; registre entrada, prioridade esperada e obtida.
+
+   **Pergunta:** Qual teste fornece a verificação mais completa para um exercício de **Condicionais e regras de negócio**?
 
 - [ ] A) Conferir somente se o arquivo foi salvo com a extensão `.py`.
 - [ ] B) Ler o código sem executá-lo porque a sintaxe parece correta.
@@ -50,7 +56,9 @@
 - [ ] D) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
 - [ ] E) Executar apenas o exemplo numérico apresentado no enunciado.
 
-4. Ao usar um cálculo de **Condicionais e regras de negócio** para apoiar uma decisão, qual atitude é mais adequada?
+4. **Referência — atividade 4:** Crie uma versão deliberadamente errada trocando a ordem das regras e escreva no README qual caso passa a ser classificado incorretamente.
+
+   **Pergunta:** Ao usar um cálculo de **Condicionais e regras de negócio** para apoiar uma decisão, qual atitude é mais adequada?
 
 - [ ] A) Excluir valores que contradizem a primeira interpretação.
 - [ ] B) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
@@ -58,7 +66,9 @@
 - [ ] D) Escolher a conclusão antes do cálculo e adaptar o código a ela.
 - [ ] E) Considerar qualquer saída do Python como prova suficiente.
 
-5. Ordene um fluxo seguro para resolver uma atividade de **Condicionais e regras de negócio**.
+5. **Referência — atividade 5:** Adicione validação para clientes negativos e duração negativa; nesses casos o programa deve parar com mensagem clara.
+
+   **Pergunta:** Ordene um fluxo seguro para resolver uma atividade de **Condicionais e regras de negócio**.
 
 - A) Ler o enunciado e identificar o objetivo.
 - B) Implementar a solução em pequenas etapas.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as ações para investigar um erro durante a prática de **Condicionais e regras de negócio**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as ações para investigar um erro durante a prática de **Condicionais e regras de negócio**.
 
 - A) Reproduzir o erro e observar a mensagem ou a saída.
 - B) Anotar o que provocou o erro e como ele foi corrigido.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python e regras de negócio** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software`.
 - **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

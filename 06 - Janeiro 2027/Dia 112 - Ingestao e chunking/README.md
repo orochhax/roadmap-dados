@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. O que reduz respostas sem apoio em uma solução de **Ingestão e chunking**?
+1. **Referência — atividade 1:** Implemente leitura de Markdown/PDF/texto conforme os documentos escolhidos.
+
+   **Pergunta:** O que reduz respostas sem apoio em uma solução de **Ingestão e chunking**?
 
 - [ ] A) Enviar documentos aleatórios para aumentar o volume.
 - [ ] B) Remover referências para deixar a resposta menor.
@@ -34,7 +36,9 @@
 - [ ] D) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
 - [ ] E) Pedir ao modelo para inventar detalhes quando faltar contexto.
 
-2. Qual escolha afeta diretamente a recuperação em **Ingestão e chunking**?
+2. **Referência — atividade 2:** Teste quatro estratégias de chunking: tamanho fixo, por parágrafo, por seção e com overlap.
+
+   **Pergunta:** Qual escolha afeta diretamente a recuperação em **Ingestão e chunking**?
 
 - [ ] A) O nome da variável que armazena o índice.
 - [ ] B) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
@@ -42,7 +46,9 @@
 - [ ] D) A ordem alfabética dos nomes dos arquivos apenas.
 - [ ] E) A quantidade de parágrafos da resposta final.
 
-3. Como o sistema deve agir quando **Ingestão e chunking** não encontra evidência suficiente?
+3. **Referência — atividade 3:** Registre quantidade e tamanho médio dos chunks.
+
+   **Pergunta:** Como o sistema deve agir quando **Ingestão e chunking** não encontra evidência suficiente?
 
 - [ ] A) Completar a resposta com uma suposição plausível.
 - [ ] B) Citar qualquer trecho recuperado, mesmo sem relação.
@@ -50,7 +56,9 @@
 - [ ] D) Repetir a mesma afirmação com mais confiança.
 - [ ] E) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
 
-4. Qual avaliação ajuda a diagnosticar uma falha em **Ingestão e chunking**?
+4. **Referência — atividade 4:** Adicione metadados de documento, seção e versão.
+
+   **Pergunta:** Qual avaliação ajuda a diagnosticar uma falha em **Ingestão e chunking**?
 
 - [ ] A) Considerar toda citação como necessariamente relevante.
 - [ ] B) Trocar o modelo sem examinar os documentos recuperados.
@@ -58,7 +66,9 @@
 - [ ] D) Avaliar apenas o tamanho da resposta.
 - [ ] E) Medir somente a velocidade de criação do índice.
 
-5. Ordene o fluxo principal de uma solução de **Ingestão e chunking**.
+5. **Referência — atividade 5:** Escolha estratégia com base em 10 perguntas de avaliação.
+
+   **Pergunta:** Ordene o fluxo principal de uma solução de **Ingestão e chunking**.
 
 - A) Coletar e validar documentos e metadados.
 - B) Gerar uma resposta fundamentada e apresentar as fontes.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene o diagnóstico de uma resposta ruim em **Ingestão e chunking**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene o diagnóstico de uma resposta ruim em **Ingestão e chunking**.
 
 - A) Registrar a pergunta, a resposta e as fontes recuperadas.
 - B) Avaliar chunking, metadados, consulta e ranking da busca.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Ingestão de documentos e chunking** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

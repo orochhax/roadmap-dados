@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática evita vazamento de dados em uma atividade de **Baseline completo**?
+1. **Referência — atividade 1:** Treine baseline `DummyClassifier`, regressão logística simples e regra de negócio.
+
+   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Baseline completo**?
 
 - [ ] A) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
 - [ ] B) Normalizar toda a base antes da separação para usar mais informação.
@@ -34,7 +36,9 @@
 - [ ] D) Duplicar exemplos raros antes de separar os conjuntos.
 - [ ] E) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
 
-2. Como escolher uma métrica adequada para avaliar **Baseline completo**?
+2. **Referência — atividade 2:** Use a mesma divisão e pipeline para todos; registre tempo de treino e métricas em tabela.
+
+   **Pergunta:** Como escolher uma métrica adequada para avaliar **Baseline completo**?
 
 - [ ] A) Escolhendo a métrica que produz o maior número.
 - [ ] B) Trocando de métrica depois de ver qual favorece o modelo.
@@ -42,7 +46,9 @@
 - [ ] D) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
 - [ ] E) Usando sempre acurácia, pois ela serve para qualquer problema.
 
-3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Baseline completo**?
+3. **Referência — atividade 3:** Crie uma função `avaliar_modelo()` que retorne métricas e matriz de confusão.
+
+   **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Baseline completo**?
 
 - [ ] A) Comparar somente a quantidade de parâmetros dos algoritmos.
 - [ ] B) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
@@ -50,7 +56,9 @@
 - [ ] D) Escolher pelo desempenho no conjunto usado para treinar.
 - [ ] E) Consultar repetidamente o teste durante cada ajuste.
 
-4. Antes de usar um modelo de **Baseline completo** em uma decisão real, o que deve ser analisado?
+4. **Referência — atividade 4:** Faça análise de erros de 20 casos: 10 falsos positivos e 10 falsos negativos.
+
+   **Pergunta:** Antes de usar um modelo de **Baseline completo** em uma decisão real, o que deve ser analisado?
 
 - [ ] A) Somente a métrica média do melhor experimento.
 - [ ] B) A aparência dos gráficos de treinamento, sem examinar dados.
@@ -58,7 +66,9 @@
 - [ ] D) A quantidade de linhas de código usada para criar o modelo.
 - [ ] E) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
 
-5. Ordene um fluxo de modelagem para **Baseline completo**.
+5. **Referência — atividade 5:** Publique notebook executável do início ao fim e um resumo de qual baseline deve ser superado.
+
+   **Pergunta:** Ordene um fluxo de modelagem para **Baseline completo**.
 
 - A) Definir o problema, a população, o alvo e a métrica.
 - B) Avaliar, analisar erros e relacionar o modelo à decisão.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene uma seleção responsável de modelo em **Baseline completo**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene uma seleção responsável de modelo em **Baseline completo**.
 
 - A) Estabelecer um baseline simples e reproduzível.
 - B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
@@ -124,23 +135,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Baselines de Machine Learning** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

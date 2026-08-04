@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual definição é essencial antes de modelar **Problema e governança**?
+1. **Referência — atividade 1:** Defina case de risco: prever default em 90 dias e apoiar aprovação, revisão ou rejeição.
+
+   **Pergunta:** Qual definição é essencial antes de modelar **Problema e governança**?
 
 - [ ] A) Escolher o algoritmo antes de definir o evento.
 - [ ] B) Usar dados posteriores ao evento para completar o cadastro.
@@ -34,7 +36,9 @@
 - [ ] D) Definir risco apenas como uma pontuação alta do modelo.
 - [ ] E) Estabelecer o evento de risco, o horizonte, a população e a data-limite das informações permitidas.
 
-2. Por que a calibração importa em uma aplicação de **Problema e governança**?
+2. **Referência — atividade 2:** Liste variáveis proibidas, sensíveis ou potencialmente discriminatórias.
+
+   **Pergunta:** Por que a calibração importa em uma aplicação de **Problema e governança**?
 
 - [ ] A) Porque permite ignorar a taxa-base do evento.
 - [ ] B) Porque substitui a validação temporal.
@@ -42,7 +46,9 @@
 - [ ] D) Porque transforma qualquer modelo no mais preciso.
 - [ ] E) Porque elimina diferenças entre grupos.
 
-3. Qual cuidado de governança é necessário em **Problema e governança**?
+3. **Referência — atividade 3:** Defina custos de falso negativo, falso positivo e revisão manual.
+
+   **Pergunta:** Qual cuidado de governança é necessário em **Problema e governança**?
 
 - [ ] A) Documentar dados, critérios, limitações e desempenho por segmento, com revisão de possíveis impactos injustos.
 - [ ] B) Ocultar as variáveis para impedir questionamentos.
@@ -50,7 +56,9 @@
 - [ ] D) Usar atributos sensíveis sem analisar consequências.
 - [ ] E) Manter a política fixa mesmo quando os dados mudarem.
 
-4. Como transformar uma pontuação de **Problema e governança** em política?
+4. **Referência — atividade 4:** Crie política de governança com responsável, frequência de revisão e trilha de auditoria.
+
+   **Pergunta:** Como transformar uma pontuação de **Problema e governança** em política?
 
 - [ ] A) Usar 50% como corte obrigatório.
 - [ ] B) Escolher o corte que aprova o menor número de pessoas.
@@ -58,7 +66,9 @@
 - [ ] D) Definir faixas e ações segundo perdas, capacidade, restrições e acompanhamento posterior.
 - [ ] E) Aplicar automaticamente a mesma decisão a toda pontuação positiva.
 
-5. Ordene o desenvolvimento de um modelo para **Problema e governança**.
+5. **Referência — atividade 5:** Escreva critérios de sucesso técnico, econômico e de equidade.
+
+   **Pergunta:** Ordene o desenvolvimento de um modelo para **Problema e governança**.
 
 - A) Definir evento, horizonte, população e restrições.
 - B) Separar períodos e treinar um baseline.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a criação de uma política baseada em **Problema e governança**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a criação de uma política baseada em **Problema e governança**.
 
 - A) Definir custos, benefícios, capacidade e restrições.
 - B) Simular faixas de pontuação e decisões possíveis.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Governança de dados** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

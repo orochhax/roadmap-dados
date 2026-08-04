@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual estrutura torna uma solicitação de **APIs e prompts estruturados** mais controlável?
+1. **Referência — atividade 1:** Crie script que chama uma API de LLM ou um mock local e recebe pergunta estruturada.
+
+   **Pergunta:** Qual estrutura torna uma solicitação de **APIs e prompts estruturados** mais controlável?
 
 - [ ] A) O maior texto possível, mesmo com informações irrelevantes.
 - [ ] B) Vários objetivos conflitantes na mesma instrução.
@@ -34,7 +36,9 @@
 - [ ] D) Instrução clara, contexto necessário, restrições e formato de saída definido.
 - [ ] E) Uma frase vaga sem explicar a tarefa.
 
-2. Como avaliar uma aplicação relacionada a **APIs e prompts estruturados**?
+2. **Referência — atividade 2:** Defina saída JSON com campos `resposta`, `confianca`, `fontes` e `alertas`; valide com Pydantic.
+
+   **Pergunta:** Como avaliar uma aplicação relacionada a **APIs e prompts estruturados**?
 
 - [ ] A) Usar somente exemplos escritos pelo próprio modelo.
 - [ ] B) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
@@ -42,7 +46,9 @@
 - [ ] D) Avaliar apenas a fluidez do texto.
 - [ ] E) Trocar os critérios para favorecer a versão mais recente.
 
-3. Qual cuidado de segurança é importante em **APIs e prompts estruturados**?
+3. **Referência — atividade 3:** Crie dez prompts de teste: cinco claros, três ambíguos e dois maliciosos.
+
+   **Pergunta:** Qual cuidado de segurança é importante em **APIs e prompts estruturados**?
 
 - [ ] A) Permitir que qualquer texto altere as regras do sistema.
 - [ ] B) Enviar dados pessoais sem necessidade.
@@ -50,7 +56,9 @@
 - [ ] D) Ocultar fontes e limitações do usuário.
 - [ ] E) Tratar entradas como não confiáveis, limitar acesso a dados e ferramentas e revisar saídas sensíveis.
 
-4. Quando uma resposta de **APIs e prompts estruturados** apoia uma decisão importante, qual prática é mais adequada?
+4. **Referência — atividade 4:** Implemente retry, timeout e tratamento de resposta inválida.
+
+   **Pergunta:** Quando uma resposta de **APIs e prompts estruturados** apoia uma decisão importante, qual prática é mais adequada?
 
 - [ ] A) Remover avisos para deixar a saída mais direta.
 - [ ] B) Usar o modelo como única fonte para qualquer decisão.
@@ -58,7 +66,9 @@
 - [ ] D) Aceitar a resposta quando ela estiver bem escrita.
 - [ ] E) Considerar confiança verbal equivalente a precisão.
 
-5. Ordene o desenvolvimento de uma funcionalidade de **APIs e prompts estruturados**.
+5. **Referência — atividade 5:** Compare prompt livre, few-shot e instrução com schema.
+
+   **Pergunta:** Ordene o desenvolvimento de uma funcionalidade de **APIs e prompts estruturados**.
 
 - A) Estruturar instruções, contexto e formato de saída.
 - B) Criar casos de avaliação antes de ajustar a solução.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a melhoria de uma aplicação de **APIs e prompts estruturados**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a melhoria de uma aplicação de **APIs e prompts estruturados**.
 
 - A) Alterar uma parte controlada da solução.
 - B) Classificar os erros por causa e impacto.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Prompt Engineering e APIs** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

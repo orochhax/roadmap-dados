@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual característica torna um pipeline de **Entrega do pipeline** seguro para ser executado novamente?
+1. **Referência — atividade 1:** Empacote pipeline da semana com script de execução única.
+
+   **Pergunta:** Qual característica torna um pipeline de **Entrega do pipeline** seguro para ser executado novamente?
 
 - [ ] A) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
 - [ ] B) Gerar um arquivo diferente a cada tentativa.
@@ -34,7 +36,9 @@
 - [ ] D) Depender de correções manuais após cada execução.
 - [ ] E) Ignorar registros já processados sem usar uma chave.
 
-2. Qual controle de qualidade é mais útil em **Entrega do pipeline**?
+2. **Referência — atividade 2:** Adicione validações de esquema, unicidade, nulos e limites.
+
+   **Pergunta:** Qual controle de qualidade é mais útil em **Entrega do pipeline**?
 
 - [ ] A) Aceitar qualquer alteração de esquema automaticamente.
 - [ ] B) Verificar somente o tamanho do arquivo final.
@@ -42,7 +46,9 @@
 - [ ] D) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
 - [ ] E) Conferir apenas se o processo terminou sem erro.
 
-3. O que melhora a observabilidade de uma solução de **Entrega do pipeline**?
+3. **Referência — atividade 3:** Produza tabela de auditoria com data, status, linhas de entrada, saída e erro.
+
+   **Pergunta:** O que melhora a observabilidade de uma solução de **Entrega do pipeline**?
 
 - [ ] A) Depender da observação manual da pasta de saída.
 - [ ] B) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
@@ -50,7 +56,9 @@
 - [ ] D) Ocultar falhas e repetir o processo indefinidamente.
 - [ ] E) Registrar somente o horário de início.
 
-4. Como relacionar **Entrega do pipeline** a uma necessidade de negócio?
+4. **Referência — atividade 4:** Rode duas vezes e com dados novos para provar idempotência/incremento correto.
+
+   **Pergunta:** Como relacionar **Entrega do pipeline** a uma necessidade de negócio?
 
 - [ ] A) Escolher a ferramenta mais complexa disponível.
 - [ ] B) Processar tudo em tempo real, mesmo sem necessidade.
@@ -58,7 +66,9 @@
 - [ ] D) Priorizar volume acima de confiabilidade e custo.
 - [ ] E) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
 
-5. Ordene um fluxo de dados para **Entrega do pipeline**.
+5. **Referência — atividade 5:** Publique README de arquitetura, execução, testes e limitações.
+
+   **Pergunta:** Ordene um fluxo de dados para **Entrega do pipeline**.
 
 - A) Definir fontes, destino, frequência e contrato dos dados.
 - B) Validar e transformar preservando rastreabilidade.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a resposta a uma falha em **Entrega do pipeline**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a resposta a uma falha em **Entrega do pipeline**.
 
 - A) Detectar a falha por alerta ou verificação automática.
 - B) Corrigir a causa mantendo os dados íntegros.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!project] Projeto semanal — Pipeline ETL reprodutível
 > **Desafio:** Criar um pipeline que ingere, valida, transforma e publica dados para análise e modelagem.
@@ -118,23 +129,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Engenharia de Dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

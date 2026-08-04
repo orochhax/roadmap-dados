@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao desenvolver **Engenharia e qualidade dos dados**, qual definição evita um alvo ambíguo ou vazamento de dados?
+1. **Referência — atividade 1:** Carregue `clientes_telecom.csv`, valide esquema e gere relatório de qualidade por coluna.
+
+   **Pergunta:** Ao desenvolver **Engenharia e qualidade dos dados**, qual definição evita um alvo ambíguo ou vazamento de dados?
 
 - [ ] A) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
 - [ ] B) Alterar a definição do alvo para melhorar a métrica do modelo.
@@ -34,7 +36,9 @@
 - [ ] D) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
 - [ ] E) Chamar de churn qualquer cliente com poucos registros.
 
-2. Como avaliar um modelo ligado a **Engenharia e qualidade dos dados** para uma estratégia de retenção?
+2. **Referência — atividade 2:** Defina regras de negócio para ausentes, duplicados, NPS fora de 0–10, mensalidade negativa e datas inconsistentes.
+
+   **Pergunta:** Como avaliar um modelo ligado a **Engenharia e qualidade dos dados** para uma estratégia de retenção?
 
 - [ ] A) Ignorando a capacidade operacional da equipe de retenção.
 - [ ] B) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
@@ -42,7 +46,9 @@
 - [ ] D) Priorizando somente a acurácia geral.
 - [ ] E) Contatando todos os clientes classificados pelo modelo.
 
-3. Qual análise ajuda a encontrar riscos escondidos em **Engenharia e qualidade dos dados**?
+3. **Referência — atividade 3:** Implemente função de validação que falhe com mensagens claras.
+
+   **Pergunta:** Qual análise ajuda a encontrar riscos escondidos em **Engenharia e qualidade dos dados**?
 
 - [ ] A) Avaliar apenas os clientes com maior probabilidade.
 - [ ] B) Excluir segmentos pequenos antes de medir os erros.
@@ -50,7 +56,9 @@
 - [ ] D) Conferir somente o desempenho no conjunto de treino.
 - [ ] E) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
 
-4. Qual é a melhor ligação entre um modelo de **Engenharia e qualidade dos dados** e uma ação de negócio?
+4. **Referência — atividade 4:** Crie base analítica limpa e dicionário de dados.
+
+   **Pergunta:** Qual é a melhor ligação entre um modelo de **Engenharia e qualidade dos dados** e uma ação de negócio?
 
 - [ ] A) Escolher a ação apenas pela variável mais importante do modelo.
 - [ ] B) Medir sucesso somente pelo número de contatos realizados.
@@ -58,7 +66,9 @@
 - [ ] D) Enviar a probabilidade bruta sem orientar seu uso.
 - [ ] E) Considerar todo cliente de alto risco automaticamente perdido.
 
-5. Ordene a construção de um projeto relacionado a **Engenharia e qualidade dos dados**.
+5. **Referência — atividade 5:** Registre quantidade de linhas alteradas ou removidas e impacto na taxa de churn.
+
+   **Pergunta:** Ordene a construção de um projeto relacionado a **Engenharia e qualidade dos dados**.
 
 - A) Definir população, churn, datas e objetivo de negócio.
 - B) Construir e auditar dados disponíveis até a data de referência.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a criação de uma política de retenção baseada em **Engenharia e qualidade dos dados**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a criação de uma política de retenção baseada em **Engenharia e qualidade dos dados**.
 
 - A) Estimar valor, risco, custo de contato e capacidade operacional.
 - B) Escolher limiares com base em custo e benefício.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Qualidade e engenharia de dados** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

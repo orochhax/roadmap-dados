@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática evita vazamento de dados em uma atividade de **Métricas de regressão**?
+1. **Referência — atividade 1:** Calcule MAE, MSE, RMSE, R² e MAPE manualmente para cinco previsões pequenas.
+
+   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Métricas de regressão**?
 
 - [ ] A) Escolher variáveis depois de observar o desempenho no teste.
 - [ ] B) Duplicar exemplos raros antes de separar os conjuntos.
@@ -34,7 +36,9 @@
 - [ ] D) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
 - [ ] E) Normalizar toda a base antes da separação para usar mais informação.
 
-2. Como escolher uma métrica adequada para avaliar **Métricas de regressão**?
+2. **Referência — atividade 2:** Crie um caso com valor real zero e mostre por que MAPE pode quebrar.
+
+   **Pergunta:** Como escolher uma métrica adequada para avaliar **Métricas de regressão**?
 
 - [ ] A) Avaliando apenas o tempo de treinamento do algoritmo.
 - [ ] B) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
@@ -42,7 +46,9 @@
 - [ ] D) Escolhendo a métrica que produz o maior número.
 - [ ] E) Trocando de métrica depois de ver qual favorece o modelo.
 
-3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Métricas de regressão**?
+3. **Referência — atividade 3:** Compare dois modelos: um com poucos erros grandes e outro com muitos erros pequenos.
+
+   **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Métricas de regressão**?
 
 - [ ] A) Testar cada modelo em uma divisão diferente dos dados.
 - [ ] B) Escolher pelo desempenho no conjunto usado para treinar.
@@ -50,7 +56,9 @@
 - [ ] D) Comparar somente a quantidade de parâmetros dos algoritmos.
 - [ ] E) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
 
-4. Antes de usar um modelo de **Métricas de regressão** em uma decisão real, o que deve ser analisado?
+4. **Referência — atividade 4:** Escolha a métrica mais coerente para previsão de receita e justifique custo dos erros.
+
+   **Pergunta:** Antes de usar um modelo de **Métricas de regressão** em uma decisão real, o que deve ser analisado?
 
 - [ ] A) A complexidade do nome do algoritmo escolhido.
 - [ ] B) A quantidade de linhas de código usada para criar o modelo.
@@ -58,7 +66,9 @@
 - [ ] D) Somente a métrica média do melhor experimento.
 - [ ] E) A aparência dos gráficos de treinamento, sem examinar dados.
 
-5. Ordene um fluxo de modelagem para **Métricas de regressão**.
+5. **Referência — atividade 5:** Crie intervalo de erro por faixa de valor e verifique se o modelo piora nos pedidos maiores.
+
+   **Pergunta:** Ordene um fluxo de modelagem para **Métricas de regressão**.
 
 - A) Definir o problema, a população, o alvo e a métrica.
 - B) Avaliar, analisar erros e relacionar o modelo à decisão.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene uma seleção responsável de modelo em **Métricas de regressão**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene uma seleção responsável de modelo em **Métricas de regressão**.
 
 - A) Estabelecer um baseline simples e reproduzível.
 - B) Documentar limitações, segmentos frágeis e regras de uso.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Métricas de regressão** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

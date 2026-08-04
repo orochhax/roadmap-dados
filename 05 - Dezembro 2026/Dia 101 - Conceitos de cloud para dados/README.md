@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de desenhar uma arquitetura para **Conceitos de cloud para dados**, o que deve ser levantado?
+1. **Referência — atividade 1:** Desenhe arquitetura cloud para ingestão, armazenamento, treino, registro e serving usando um provedor à escolha.
+
+   **Pergunta:** Antes de desenhar uma arquitetura para **Conceitos de cloud para dados**, o que deve ser levantado?
 
 - [ ] A) Somente a linguagem preferida pelo desenvolvedor.
 - [ ] B) A ferramenta mais popular nas redes sociais.
@@ -34,7 +36,9 @@
 - [ ] D) O nome comercial da arquitetura antes dos requisitos.
 - [ ] E) Volume, frequência, latência, segurança, disponibilidade, custo e necessidades dos consumidores.
 
-2. Como escolher armazenamento e processamento em **Conceitos de cloud para dados**?
+2. **Referência — atividade 2:** Mapeie cada componente para AWS, Azure ou GCP sem tentar aprender os três.
+
+   **Pergunta:** Como escolher armazenamento e processamento em **Conceitos de cloud para dados**?
 
 - [ ] A) Duplicando os dados em todos os serviços disponíveis.
 - [ ] B) Escolhendo processamento em tempo real para qualquer tarefa.
@@ -42,7 +46,9 @@
 - [ ] D) Usando sempre o serviço mais caro.
 - [ ] E) Armazenando todos os dados no mesmo formato sem avaliar o uso.
 
-3. Qual princípio de segurança deve orientar **Conceitos de cloud para dados**?
+3. **Referência — atividade 3:** Defina IAM mínimo para cientista, pipeline e API.
+
+   **Pergunta:** Qual princípio de segurança deve orientar **Conceitos de cloud para dados**?
 
 - [ ] A) Conceder o menor privilégio necessário, proteger segredos e manter auditoria dos acessos.
 - [ ] B) Compartilhar uma credencial administrativa entre toda a equipe.
@@ -50,7 +56,9 @@
 - [ ] D) Salvar chaves em arquivos enviados ao repositório.
 - [ ] E) Desativar registros de acesso para reduzir armazenamento.
 
-4. Qual decisão torna uma arquitetura de **Conceitos de cloud para dados** mais sustentável?
+4. **Referência — atividade 4:** Estime custos qualitativos e pontos de maior gasto.
+
+   **Pergunta:** Qual decisão torna uma arquitetura de **Conceitos de cloud para dados** mais sustentável?
 
 - [ ] A) Buscar disponibilidade máxima sem considerar impacto financeiro.
 - [ ] B) Ignorar custos pequenos porque nunca se acumulam.
@@ -58,7 +66,9 @@
 - [ ] D) Equilibrar confiabilidade e escala com simplicidade operacional e controle de custos.
 - [ ] E) Adicionar serviços mesmo quando não há necessidade.
 
-5. Ordene o desenho de uma solução para **Conceitos de cloud para dados**.
+5. **Referência — atividade 5:** Liste riscos de segurança, disponibilidade e lock-in.
+
+   **Pergunta:** Ordene o desenho de uma solução para **Conceitos de cloud para dados**.
 
 - A) Validar a arquitetura com custo e cenários de falha.
 - B) Mapear fontes, fluxos, consumidores e dados sensíveis.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a evolução controlada de uma arquitetura de **Conceitos de cloud para dados**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a evolução controlada de uma arquitetura de **Conceitos de cloud para dados**.
 
 - A) Medir o comportamento e o custo da solução atual.
 - B) Propor a menor mudança capaz de tratá-lo.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Cloud Computing para dados** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

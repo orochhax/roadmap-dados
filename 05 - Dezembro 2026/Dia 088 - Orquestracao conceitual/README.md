@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual característica torna um pipeline de **Orquestração conceitual** seguro para ser executado novamente?
+1. **Referência — atividade 1:** Modele o pipeline como tarefas com dependências: extrair → validar → transformar → carregar → testar.
+
+   **Pergunta:** Qual característica torna um pipeline de **Orquestração conceitual** seguro para ser executado novamente?
 
 - [ ] A) Depender de correções manuais após cada execução.
 - [ ] B) Ignorar registros já processados sem usar uma chave.
@@ -34,7 +36,9 @@
 - [ ] D) Gerar um arquivo diferente a cada tentativa.
 - [ ] E) Apagar toda a origem antes de iniciar.
 
-2. Qual controle de qualidade é mais útil em **Orquestração conceitual**?
+2. **Referência — atividade 2:** Crie um DAG conceitual em Mermaid ou use Prefect/Airflow local se desejar.
+
+   **Pergunta:** Qual controle de qualidade é mais útil em **Orquestração conceitual**?
 
 - [ ] A) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
 - [ ] B) Conferir apenas se o processo terminou sem erro.
@@ -42,7 +46,9 @@
 - [ ] D) Verificar somente o tamanho do arquivo final.
 - [ ] E) Remover registros problemáticos sem contabilizá-los.
 
-3. O que melhora a observabilidade de uma solução de **Orquestração conceitual**?
+3. **Referência — atividade 3:** Defina política de retry, timeout, alerta e backfill.
+
+   **Pergunta:** O que melhora a observabilidade de uma solução de **Orquestração conceitual**?
 
 - [ ] A) Ocultar falhas e repetir o processo indefinidamente.
 - [ ] B) Registrar somente o horário de início.
@@ -50,7 +56,9 @@
 - [ ] D) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
 - [ ] E) Mensagens genéricas como 'deu erro'.
 
-4. Como relacionar **Orquestração conceitual** a uma necessidade de negócio?
+4. **Referência — atividade 4:** Simule falha na transformação e confirme que carregamento não ocorre.
+
+   **Pergunta:** Como relacionar **Orquestração conceitual** a uma necessidade de negócio?
 
 - [ ] A) Priorizar volume acima de confiabilidade e custo.
 - [ ] B) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
@@ -58,7 +66,9 @@
 - [ ] D) Processar tudo em tempo real, mesmo sem necessidade.
 - [ ] E) Manter dados sem informar origem ou atualização.
 
-5. Ordene um fluxo de dados para **Orquestração conceitual**.
+5. **Referência — atividade 5:** Escreva um runbook com diagnóstico e recuperação.
+
+   **Pergunta:** Ordene um fluxo de dados para **Orquestração conceitual**.
 
 - A) Validar e transformar preservando rastreabilidade.
 - B) Extrair os dados com identificação da execução.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a resposta a uma falha em **Orquestração conceitual**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a resposta a uma falha em **Orquestração conceitual**.
 
 - A) Corrigir a causa mantendo os dados íntegros.
 - B) Identificar execução, etapa e dados afetados.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Orquestração de pipelines** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

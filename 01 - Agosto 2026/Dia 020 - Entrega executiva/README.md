@@ -54,7 +54,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!important] Projeto mensal robusto — Painel Executivo de Operações Telecom
 > **Desafio:** Construir uma entrega completa para uma gerência decidir onde priorizar equipe e manutenção.
@@ -88,23 +87,3 @@
 - **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **Análise de Dados para Tomada de Decisão** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
 - **Novo título sugerido:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
 - **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

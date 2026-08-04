@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual decisão deve orientar um produto de **Dados, SQL e arquitetura**?
+1. **Referência — atividade 1:** Crie ou revise esquema SQL e pipeline de formação da base.
+
+   **Pergunta:** Qual decisão deve orientar um produto de **Dados, SQL e arquitetura**?
 
 - [ ] A) Começar pela interface sem definir o problema.
 - [ ] B) Treinar um modelo antes de conhecer os dados.
@@ -34,7 +36,9 @@
 - [ ] D) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
 - [ ] E) Incluir o maior número possível de tecnologias.
 
-2. O que reduz falhas entre componentes em **Dados, SQL e arquitetura**?
+2. **Referência — atividade 2:** Adicione testes de qualidade e dicionário.
+
+   **Pergunta:** O que reduz falhas entre componentes em **Dados, SQL e arquitetura**?
 
 - [ ] A) Compartilhar estado interno sem uma interface definida.
 - [ ] B) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
@@ -42,7 +46,9 @@
 - [ ] D) Alterar formatos sem avisar os consumidores.
 - [ ] E) Depender de passos manuais não documentados.
 
-3. Qual teste oferece mais confiança em uma entrega de **Dados, SQL e arquitetura**?
+3. **Referência — atividade 3:** Desenhe arquitetura de execução e deploy.
+
+   **Pergunta:** Qual teste oferece mais confiança em uma entrega de **Dados, SQL e arquitetura**?
 
 - [ ] A) Testar apenas cada tela isoladamente.
 - [ ] B) Conferir somente se os arquivos existem.
@@ -50,7 +56,9 @@
 - [ ] D) Ignorar erros externos quando o código local funciona.
 - [ ] E) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
 
-4. Como avaliar o valor de uma solução de **Dados, SQL e arquitetura** após a entrega?
+4. **Referência — atividade 4:** Garanta que uma única instrução reproduza a base.
+
+   **Pergunta:** Como avaliar o valor de uma solução de **Dados, SQL e arquitetura** após a entrega?
 
 - [ ] A) Considerar publicação equivalente a sucesso.
 - [ ] B) Avaliar apenas comentários da equipe que desenvolveu.
@@ -58,7 +66,9 @@
 - [ ] D) Medir apenas a quantidade de linhas de código.
 - [ ] E) Usar somente o número de tecnologias integradas.
 
-5. Ordene a construção de um produto de **Dados, SQL e arquitetura**.
+5. **Referência — atividade 5:** Faça revisão de segurança e privacidade.
+
+   **Pergunta:** Ordene a construção de um produto de **Dados, SQL e arquitetura**.
 
 - A) Definir usuário, problema, decisão e medida de sucesso.
 - B) Construir primeiro um fluxo mínimo de ponta a ponta.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação da entrega de **Dados, SQL e arquitetura**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação da entrega de **Dados, SQL e arquitetura**.
 
 - A) Coletar feedback e priorizar correções ou melhorias.
 - B) Executar testes automatizados e manuais do fluxo completo.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **SQL e arquitetura de dados** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
 - **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

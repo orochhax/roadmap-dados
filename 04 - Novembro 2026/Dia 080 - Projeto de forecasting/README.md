@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual separação de dados é adequada em **Projeto de forecasting**?
+1. **Referência — atividade 1:** Organize projeto de forecasting com dados, notebook, scripts, resultados e relatório.
+
+   **Pergunta:** Qual separação de dados é adequada em **Projeto de forecasting**?
 
 - [ ] A) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
 - [ ] B) Embaralhar todas as datas antes da divisão.
@@ -34,7 +36,9 @@
 - [ ] D) Escolher aleatoriamente linhas do mesmo período para teste.
 - [ ] E) Treinar e avaliar com toda a série ao mesmo tempo.
 
-2. Por que um baseline simples é importante em **Projeto de forecasting**?
+2. **Referência — atividade 2:** Reexecute backtesting do zero e salve métricas em CSV.
+
+   **Pergunta:** Por que um baseline simples é importante em **Projeto de forecasting**?
 
 - [ ] A) Porque sempre será o modelo usado em produção.
 - [ ] B) Porque garante que não existam valores ausentes.
@@ -42,7 +46,9 @@
 - [ ] D) Porque mostra se o modelo supera regras como repetir o último valor ou a sazonalidade anterior.
 - [ ] E) Porque elimina a necessidade de avaliar modelos mais complexos.
 
-3. Qual cuidado evita informação do futuro em variáveis de **Projeto de forecasting**?
+3. **Referência — atividade 3:** Crie gráfico de previsão com intervalo e comparação com baseline.
+
+   **Pergunta:** Qual cuidado evita informação do futuro em variáveis de **Projeto de forecasting**?
 
 - [ ] A) Ordenar por valor em vez de ordenar por data.
 - [ ] B) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
@@ -50,7 +56,9 @@
 - [ ] D) Preencher períodos passados com valores observados no futuro.
 - [ ] E) Usar a série completa para ajustar cada transformação.
 
-4. Como escolher uma solução de **Projeto de forecasting** para apoiar uma decisão?
+4. **Referência — atividade 4:** Produza resumo executivo com decisão e riscos.
+
+   **Pergunta:** Como escolher uma solução de **Projeto de forecasting** para apoiar uma decisão?
 
 - [ ] A) Escolher apenas pela menor falha média de treinamento.
 - [ ] B) Ignorar mudanças de regime quando a métrica global é boa.
@@ -58,7 +66,9 @@
 - [ ] D) Comparar modelos em períodos de teste diferentes.
 - [ ] E) Avaliar por horizonte e período, traduzindo os erros em impacto operacional ou financeiro.
 
-5. Ordene um fluxo de previsão para **Projeto de forecasting**.
+5. **Referência — atividade 5:** Grave apresentação de seis minutos e responda perguntas sobre leakage temporal e validação.
+
+   **Pergunta:** Ordene um fluxo de previsão para **Projeto de forecasting**.
 
 - A) Ordenar a série e verificar falhas, datas e mudanças de regime.
 - B) Criar baselines e variáveis usando apenas o passado.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a atualização de uma previsão ligada a **Projeto de forecasting**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a atualização de uma previsão ligada a **Projeto de forecasting**.
 
 - A) Gerar previsões para o horizonte definido.
 - B) Executar o pipeline com a versão aprovada.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
@@ -124,23 +135,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Forecasting** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual decisão deve orientar um produto de **EDA, baseline e decisão**?
+1. **Referência — atividade 1:** Faça EDA focada nas hipóteses do produto.
+
+   **Pergunta:** Qual decisão deve orientar um produto de **EDA, baseline e decisão**?
 
 - [ ] A) Treinar um modelo antes de conhecer os dados.
 - [ ] B) Trocar o objetivo sempre que surgir uma ferramenta nova.
@@ -34,7 +36,9 @@
 - [ ] D) Incluir o maior número possível de tecnologias.
 - [ ] E) Começar pela interface sem definir o problema.
 
-2. O que reduz falhas entre componentes em **EDA, baseline e decisão**?
+2. **Referência — atividade 2:** Implemente baseline de negócio e técnico.
+
+   **Pergunta:** O que reduz falhas entre componentes em **EDA, baseline e decisão**?
 
 - [ ] A) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
 - [ ] B) Cada componente interpretar os campos de uma forma.
@@ -42,7 +46,9 @@
 - [ ] D) Depender de passos manuais não documentados.
 - [ ] E) Compartilhar estado interno sem uma interface definida.
 
-3. Qual teste oferece mais confiança em uma entrega de **EDA, baseline e decisão**?
+3. **Referência — atividade 3:** Defina limiar/regra de decisão.
+
+   **Pergunta:** Qual teste oferece mais confiança em uma entrega de **EDA, baseline e decisão**?
 
 - [ ] A) Conferir somente se os arquivos existem.
 - [ ] B) Executar apenas com o conjunto usado no desenvolvimento.
@@ -50,7 +56,9 @@
 - [ ] D) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
 - [ ] E) Testar apenas cada tela isoladamente.
 
-4. Como avaliar o valor de uma solução de **EDA, baseline e decisão** após a entrega?
+4. **Referência — atividade 4:** Calcule impacto esperado e cenário de pior caso.
+
+   **Pergunta:** Como avaliar o valor de uma solução de **EDA, baseline e decisão** após a entrega?
 
 - [ ] A) Avaliar apenas comentários da equipe que desenvolveu.
 - [ ] B) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
@@ -58,7 +66,9 @@
 - [ ] D) Usar somente o número de tecnologias integradas.
 - [ ] E) Considerar publicação equivalente a sucesso.
 
-5. Ordene a construção de um produto de **EDA, baseline e decisão**.
+5. **Referência — atividade 5:** Produza memorando de decisão de uma página.
+
+   **Pergunta:** Ordene a construção de um produto de **EDA, baseline e decisão**.
 
 - A) Construir primeiro um fluxo mínimo de ponta a ponta.
 - B) Desenhar dados, componentes e contratos entre eles.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação da entrega de **EDA, baseline e decisão**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação da entrega de **EDA, baseline e decisão**.
 
 - A) Coletar feedback e priorizar correções ou melhorias.
 - B) Revisar documentação, configuração e instruções de execução.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **EDA e baselines** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
 - **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

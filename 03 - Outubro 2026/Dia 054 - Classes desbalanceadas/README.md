@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática evita vazamento de dados em uma atividade de **Classes desbalanceadas**?
+1. **Referência — atividade 1:** Meça a proporção de classes e crie baseline que sempre prevê a maioria.
+
+   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Classes desbalanceadas**?
 
 - [ ] A) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
 - [ ] B) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
@@ -34,7 +36,9 @@
 - [ ] D) Escolher variáveis depois de observar o desempenho no teste.
 - [ ] E) Duplicar exemplos raros antes de separar os conjuntos.
 
-2. Como escolher uma métrica adequada para avaliar **Classes desbalanceadas**?
+2. **Referência — atividade 2:** Compare `class_weight='balanced'`, undersampling e oversampling apenas no treino.
+
+   **Pergunta:** Como escolher uma métrica adequada para avaliar **Classes desbalanceadas**?
 
 - [ ] A) Usando sempre acurácia, pois ela serve para qualquer problema.
 - [ ] B) Escolhendo a métrica que produz o maior número.
@@ -42,7 +46,9 @@
 - [ ] D) Avaliando apenas o tempo de treinamento do algoritmo.
 - [ ] E) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
 
-3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Classes desbalanceadas**?
+3. **Referência — atividade 3:** Evite aplicar reamostragem antes do split; demonstre como isso vaza informação.
+
+   **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Classes desbalanceadas**?
 
 - [ ] A) Consultar repetidamente o teste durante cada ajuste.
 - [ ] B) Comparar somente a quantidade de parâmetros dos algoritmos.
@@ -50,7 +56,9 @@
 - [ ] D) Testar cada modelo em uma divisão diferente dos dados.
 - [ ] E) Escolher pelo desempenho no conjunto usado para treinar.
 
-4. Antes de usar um modelo de **Classes desbalanceadas** em uma decisão real, o que deve ser analisado?
+4. **Referência — atividade 4:** Avalie PR-AUC, recall da minoria, precision e custo.
+
+   **Pergunta:** Antes de usar um modelo de **Classes desbalanceadas** em uma decisão real, o que deve ser analisado?
 
 - [ ] A) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
 - [ ] B) Somente a métrica média do melhor experimento.
@@ -58,7 +66,9 @@
 - [ ] D) A complexidade do nome do algoritmo escolhido.
 - [ ] E) A quantidade de linhas de código usada para criar o modelo.
 
-5. Ordene um fluxo de modelagem para **Classes desbalanceadas**.
+5. **Referência — atividade 5:** Escolha abordagem final e registre impactos colaterais.
+
+   **Pergunta:** Ordene um fluxo de modelagem para **Classes desbalanceadas**.
 
 - A) Definir o problema, a população, o alvo e a métrica.
 - B) Avaliar, analisar erros e relacionar o modelo à decisão.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene uma seleção responsável de modelo em **Classes desbalanceadas**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene uma seleção responsável de modelo em **Classes desbalanceadas**.
 
 - A) Estabelecer um baseline simples e reproduzível.
 - B) Documentar limitações, segmentos frágeis e regras de uso.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Classes desbalanceadas** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

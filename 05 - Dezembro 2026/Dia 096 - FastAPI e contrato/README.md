@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática melhora a manutenção de uma solução de **FastAPI e contrato**?
+1. **Referência — atividade 1:** Crie API FastAPI com endpoints `/health`, `/predict` e `/model-info`.
+
+   **Pergunta:** Qual prática melhora a manutenção de uma solução de **FastAPI e contrato**?
 
 - [ ] A) Colocar dados, regras e execução em uma única função.
 - [ ] B) Salvar segredos diretamente no código.
@@ -34,7 +36,9 @@
 - [ ] D) Duplicar trechos para evitar criar funções.
 - [ ] E) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
 
-2. Qual estratégia de testes é mais adequada em **FastAPI e contrato**?
+2. **Referência — atividade 2:** Defina esquema de entrada com Pydantic e exemplos válidos/invalidos.
+
+   **Pergunta:** Qual estratégia de testes é mais adequada em **FastAPI e contrato**?
 
 - [ ] A) Validar somente o caminho de sucesso.
 - [ ] B) Depender da mesma implementação para calcular e conferir a saída.
@@ -42,7 +46,9 @@
 - [ ] D) Testar apenas manualmente depois da publicação.
 - [ ] E) Criar testes que nunca falham para manter a integração verde.
 
-3. Qual cuidado é essencial ao publicar uma aplicação de **FastAPI e contrato**?
+3. **Referência — atividade 3:** Retorne probabilidade, classe, versão do modelo e aviso de uso.
+
+   **Pergunta:** Qual cuidado é essencial ao publicar uma aplicação de **FastAPI e contrato**?
 
 - [ ] A) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
 - [ ] B) Usar diretamente a última alteração sem versão.
@@ -50,7 +56,9 @@
 - [ ] D) Modificar o ambiente de produção manualmente sem registro.
 - [ ] E) Remover validações para reduzir o tempo de resposta.
 
-4. Como saber se uma solução de **FastAPI e contrato** continua saudável após a publicação?
+4. **Referência — atividade 4:** Teste via documentação automática e `curl`/Postman.
+
+   **Pergunta:** Como saber se uma solução de **FastAPI e contrato** continua saudável após a publicação?
 
 - [ ] A) Considerar ausência de reclamações como prova suficiente.
 - [ ] B) Observar apenas o uso de memória uma vez por mês.
@@ -58,7 +66,9 @@
 - [ ] D) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
 - [ ] E) Conferir somente se o computador do desenvolvedor está ligado.
 
-5. Ordene uma mudança segura em **FastAPI e contrato**.
+5. **Referência — atividade 5:** Garanta códigos HTTP claros para erro de validação e falha interna.
+
+   **Pergunta:** Ordene uma mudança segura em **FastAPI e contrato**.
 
 - A) Implementar uma alteração pequena e revisável.
 - B) Criar ou ajustar testes que representem esse comportamento.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a resposta a um problema após publicar **FastAPI e contrato**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a resposta a um problema após publicar **FastAPI e contrato**.
 
 - A) Republicar com controle e documentar o incidente.
 - B) Delimitar usuários, versões e componentes afetados.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **FastAPI e APIs REST** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

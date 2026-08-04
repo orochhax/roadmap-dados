@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de tirar conclusões em **Limpeza de dados**, qual é a prática mais confiável?
+1. **Referência — atividade 1:** Use uma base com ausentes, duplicados, categorias inconsistentes (`Eunapolis`, `Eunápolis`, `EUNÁPOLIS`) e valores extremos.
+
+   **Pergunta:** Antes de tirar conclusões em **Limpeza de dados**, qual é a prática mais confiável?
 
 - [ ] A) Calcular médias antes de entender o que cada linha representa.
 - [ ] B) Considerar os nomes das colunas suficientes para validar os dados.
@@ -34,7 +36,9 @@
 - [ ] D) Começar pelo gráfico mais bonito e escolher os dados depois.
 - [ ] E) Remover todas as linhas incompletas sem medir o impacto.
 
-2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Limpeza de dados**?
+2. **Referência — atividade 2:** Produza um relatório inicial com quantidade e percentual de ausentes, duplicados e valores inválidos por coluna.
+
+   **Pergunta:** Qual cuidado evita conclusões distorcidas ao trabalhar com **Limpeza de dados**?
 
 - [ ] A) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
 - [ ] B) Somar todas as colunas numéricas independentemente do significado.
@@ -42,7 +46,9 @@
 - [ ] D) Usar apenas as primeiras linhas como representação de toda a base.
 - [ ] E) Substituir valores ausentes pelo maior valor disponível.
 
-3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Limpeza de dados**?
+3. **Referência — atividade 3:** Padronize textos, converta datas e tipos, trate duplicados com regra explícita e escolha uma estratégia para cada ausente.
+
+   **Pergunta:** Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Limpeza de dados**?
 
 - [ ] A) Trocar as cores do gráfico até a tendência ficar mais visível.
 - [ ] B) Excluir categorias pequenas antes de examiná-las.
@@ -50,7 +56,9 @@
 - [ ] D) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
 - [ ] E) Ordenar as colunas pelo tamanho do nome.
 
-4. Como uma análise de **Limpeza de dados** deve ser apresentada para apoiar uma decisão?
+4. **Referência — atividade 4:** Detecte outliers por IQR e z-score; compare quais linhas cada método marca e não remova nada sem justificativa.
+
+   **Pergunta:** Como uma análise de **Limpeza de dados** deve ser apresentada para apoiar uma decisão?
 
 - [ ] A) Escolhendo a recomendação mais popular, mesmo sem evidência.
 - [ ] B) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
@@ -58,7 +66,9 @@
 - [ ] D) Omitindo incertezas para transmitir mais confiança.
 - [ ] E) Usando apenas termos técnicos, sem explicar o impacto.
 
-5. Ordene um fluxo de análise para uma atividade de **Limpeza de dados**.
+5. **Referência — atividade 5:** Salve `dados_limpos.csv` e `relatorio_limpeza.md` com antes/depois, decisões e riscos de distorção.
+
+   **Pergunta:** Ordene um fluxo de análise para uma atividade de **Limpeza de dados**.
 
 - A) Preparar os dados sem perder a granularidade necessária.
 - B) Inspecionar a estrutura e a qualidade dos dados.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação de uma visualização ou entrega sobre **Limpeza de dados**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação de uma visualização ou entrega sobre **Limpeza de dados**.
 
 - A) Apresentar a mensagem principal e o próximo passo.
 - B) Selecionar a métrica e o recorte adequados.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Limpeza de dados** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Python`.
 - **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

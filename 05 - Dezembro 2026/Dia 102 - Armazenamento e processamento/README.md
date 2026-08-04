@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de desenhar uma arquitetura para **Armazenamento e processamento**, o que deve ser levantado?
+1. **Referência — atividade 1:** Compare objeto, arquivo, banco relacional, warehouse e lakehouse para quatro tipos de dados.
+
+   **Pergunta:** Antes de desenhar uma arquitetura para **Armazenamento e processamento**, o que deve ser levantado?
 
 - [ ] A) A ferramenta mais popular nas redes sociais.
 - [ ] B) A quantidade máxima de serviços que podem ser usados.
@@ -34,7 +36,9 @@
 - [ ] D) Volume, frequência, latência, segurança, disponibilidade, custo e necessidades dos consumidores.
 - [ ] E) Somente a linguagem preferida pelo desenvolvedor.
 
-2. Como escolher armazenamento e processamento em **Armazenamento e processamento**?
+2. **Referência — atividade 2:** Crie uma matriz decisão com volume, latência, custo, governança e acesso.
+
+   **Pergunta:** Como escolher armazenamento e processamento em **Armazenamento e processamento**?
 
 - [ ] A) Escolhendo processamento em tempo real para qualquer tarefa.
 - [ ] B) Comparando padrões de acesso, escala, formato dos dados, desempenho necessário e custo total.
@@ -42,7 +46,9 @@
 - [ ] D) Armazenando todos os dados no mesmo formato sem avaliar o uso.
 - [ ] E) Duplicando os dados em todos os serviços disponíveis.
 
-3. Qual princípio de segurança deve orientar **Armazenamento e processamento**?
+3. **Referência — atividade 3:** Converta CSV para Parquet e compare tamanho/tempo de leitura.
+
+   **Pergunta:** Qual princípio de segurança deve orientar **Armazenamento e processamento**?
 
 - [ ] A) Compartilhar uma credencial administrativa entre toda a equipe.
 - [ ] B) Liberar acesso público para simplificar integrações.
@@ -50,7 +56,9 @@
 - [ ] D) Desativar registros de acesso para reduzir armazenamento.
 - [ ] E) Conceder o menor privilégio necessário, proteger segredos e manter auditoria dos acessos.
 
-4. Qual decisão torna uma arquitetura de **Armazenamento e processamento** mais sustentável?
+4. **Referência — atividade 4:** Particione um conjunto temporal por ano/mês e teste leitura seletiva.
+
+   **Pergunta:** Qual decisão torna uma arquitetura de **Armazenamento e processamento** mais sustentável?
 
 - [ ] A) Ignorar custos pequenos porque nunca se acumulam.
 - [ ] B) Criar dependências manuais para cada execução.
@@ -58,7 +66,9 @@
 - [ ] D) Adicionar serviços mesmo quando não há necessidade.
 - [ ] E) Buscar disponibilidade máxima sem considerar impacto financeiro.
 
-5. Ordene o desenho de uma solução para **Armazenamento e processamento**.
+5. **Referência — atividade 5:** Explique quando não usar Spark ou warehouse.
+
+   **Pergunta:** Ordene o desenho de uma solução para **Armazenamento e processamento**.
 
 - A) Definir requisitos funcionais e restrições.
 - B) Mapear fontes, fluxos, consumidores e dados sensíveis.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a evolução controlada de uma arquitetura de **Armazenamento e processamento**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a evolução controlada de uma arquitetura de **Armazenamento e processamento**.
 
 - A) Propor a menor mudança capaz de tratá-lo.
 - B) Implantar gradualmente e acompanhar os indicadores.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Armazenamento e processamento em cloud** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

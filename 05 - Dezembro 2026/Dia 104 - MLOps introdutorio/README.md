@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de desenhar uma arquitetura para **MLOps introdutório**, o que deve ser levantado?
+1. **Referência — atividade 1:** Crie ciclo MLOps: versionar dados/código/modelo, treinar, validar, registrar, implantar, monitorar e re-treinar.
+
+   **Pergunta:** Antes de desenhar uma arquitetura para **MLOps introdutório**, o que deve ser levantado?
 
 - [ ] A) O nome comercial da arquitetura antes dos requisitos.
 - [ ] B) Volume, frequência, latência, segurança, disponibilidade, custo e necessidades dos consumidores.
@@ -34,7 +36,9 @@
 - [ ] D) A ferramenta mais popular nas redes sociais.
 - [ ] E) A quantidade máxima de serviços que podem ser usados.
 
-2. Como escolher armazenamento e processamento em **MLOps introdutório**?
+2. **Referência — atividade 2:** Defina gatilhos de drift de dados, performance e conceito.
+
+   **Pergunta:** Como escolher armazenamento e processamento em **MLOps introdutório**?
 
 - [ ] A) Usando sempre o serviço mais caro.
 - [ ] B) Armazenando todos os dados no mesmo formato sem avaliar o uso.
@@ -42,7 +46,9 @@
 - [ ] D) Escolhendo processamento em tempo real para qualquer tarefa.
 - [ ] E) Comparando padrões de acesso, escala, formato dos dados, desempenho necessário e custo total.
 
-3. Qual princípio de segurança deve orientar **MLOps introdutório**?
+3. **Referência — atividade 3:** Crie model card com uso, métricas, limitações e aprovação.
+
+   **Pergunta:** Qual princípio de segurança deve orientar **MLOps introdutório**?
 
 - [ ] A) Salvar chaves em arquivos enviados ao repositório.
 - [ ] B) Desativar registros de acesso para reduzir armazenamento.
@@ -50,7 +56,9 @@
 - [ ] D) Compartilhar uma credencial administrativa entre toda a equipe.
 - [ ] E) Liberar acesso público para simplificar integrações.
 
-4. Qual decisão torna uma arquitetura de **MLOps introdutório** mais sustentável?
+4. **Referência — atividade 4:** Simule comparação champion/challenger.
+
+   **Pergunta:** Qual decisão torna uma arquitetura de **MLOps introdutório** mais sustentável?
 
 - [ ] A) Equilibrar confiabilidade e escala com simplicidade operacional e controle de custos.
 - [ ] B) Adicionar serviços mesmo quando não há necessidade.
@@ -58,7 +66,9 @@
 - [ ] D) Ignorar custos pequenos porque nunca se acumulam.
 - [ ] E) Criar dependências manuais para cada execução.
 
-5. Ordene o desenho de uma solução para **MLOps introdutório**.
+5. **Referência — atividade 5:** Escreva processo de rollback.
+
+   **Pergunta:** Ordene o desenho de uma solução para **MLOps introdutório**.
 
 - A) Comparar componentes e seus principais trade-offs.
 - B) Validar a arquitetura com custo e cenários de falha.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a evolução controlada de uma arquitetura de **MLOps introdutório**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a evolução controlada de uma arquitetura de **MLOps introdutório**.
 
 - A) Medir o comportamento e o custo da solução atual.
 - B) Propor a menor mudança capaz de tratá-lo.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **MLOps** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

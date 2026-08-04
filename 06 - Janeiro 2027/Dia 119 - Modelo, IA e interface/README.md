@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual decisão deve orientar um produto de **Modelo, IA e interface**?
+1. **Referência — atividade 1:** Treine/integre o componente principal: modelo preditivo ou RAG.
+
+   **Pergunta:** Qual decisão deve orientar um produto de **Modelo, IA e interface**?
 
 - [ ] A) Trocar o objetivo sempre que surgir uma ferramenta nova.
 - [ ] B) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
@@ -34,7 +36,9 @@
 - [ ] D) Começar pela interface sem definir o problema.
 - [ ] E) Treinar um modelo antes de conhecer os dados.
 
-2. O que reduz falhas entre componentes em **Modelo, IA e interface**?
+2. **Referência — atividade 2:** Crie API, dashboard ou interface mínima.
+
+   **Pergunta:** O que reduz falhas entre componentes em **Modelo, IA e interface**?
 
 - [ ] A) Cada componente interpretar os campos de uma forma.
 - [ ] B) Alterar formatos sem avisar os consumidores.
@@ -42,7 +46,9 @@
 - [ ] D) Compartilhar estado interno sem uma interface definida.
 - [ ] E) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
 
-3. Qual teste oferece mais confiança em uma entrega de **Modelo, IA e interface**?
+3. **Referência — atividade 3:** Adicione explicações/fontes e tratamento de incerteza.
+
+   **Pergunta:** Qual teste oferece mais confiança em uma entrega de **Modelo, IA e interface**?
 
 - [ ] A) Executar apenas com o conjunto usado no desenvolvimento.
 - [ ] B) Ignorar erros externos quando o código local funciona.
@@ -50,7 +56,9 @@
 - [ ] D) Testar apenas cada tela isoladamente.
 - [ ] E) Conferir somente se os arquivos existem.
 
-4. Como avaliar o valor de uma solução de **Modelo, IA e interface** após a entrega?
+4. **Referência — atividade 4:** Teste ponta a ponta com 20 casos.
+
+   **Pergunta:** Como avaliar o valor de uma solução de **Modelo, IA e interface** após a entrega?
 
 - [ ] A) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
 - [ ] B) Medir apenas a quantidade de linhas de código.
@@ -58,7 +66,9 @@
 - [ ] D) Considerar publicação equivalente a sucesso.
 - [ ] E) Avaliar apenas comentários da equipe que desenvolveu.
 
-5. Ordene a construção de um produto de **Modelo, IA e interface**.
+5. **Referência — atividade 5:** Registre métricas, latência, custo e falhas.
+
+   **Pergunta:** Ordene a construção de um produto de **Modelo, IA e interface**.
 
 - A) Publicar, observar o uso e iterar com evidências.
 - B) Desenhar dados, componentes e contratos entre eles.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação da entrega de **Modelo, IA e interface**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação da entrega de **Modelo, IA e interface**.
 
 - A) Coletar feedback e priorizar correções ou melhorias.
 - B) Executar testes automatizados e manuais do fluxo completo.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Produtos de IA** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
 - **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual estrutura torna uma solicitação de **Avaliação de aplicações LLM** mais controlável?
+1. **Referência — atividade 1:** Crie conjunto de 25 perguntas com resposta esperada e fonte correta.
+
+   **Pergunta:** Qual estrutura torna uma solicitação de **Avaliação de aplicações LLM** mais controlável?
 
 - [ ] A) A ausência de critérios para aceitar a resposta.
 - [ ] B) Instrução clara, contexto necessário, restrições e formato de saída definido.
@@ -34,7 +36,9 @@
 - [ ] D) O maior texto possível, mesmo com informações irrelevantes.
 - [ ] E) Vários objetivos conflitantes na mesma instrução.
 
-2. Como avaliar uma aplicação relacionada a **Avaliação de aplicações LLM**?
+2. **Referência — atividade 2:** Defina métricas de recuperação: recall@k, precision@k e MRR; calcule em exemplos.
+
+   **Pergunta:** Como avaliar uma aplicação relacionada a **Avaliação de aplicações LLM**?
 
 - [ ] A) Ler uma única resposta que parece convincente.
 - [ ] B) Avaliar apenas a fluidez do texto.
@@ -42,7 +46,9 @@
 - [ ] D) Usar somente exemplos escritos pelo próprio modelo.
 - [ ] E) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
 
-3. Qual cuidado de segurança é importante em **Avaliação de aplicações LLM**?
+3. **Referência — atividade 3:** Defina rubrica para resposta: correção, cobertura, fundamentação, clareza e segurança.
+
+   **Pergunta:** Qual cuidado de segurança é importante em **Avaliação de aplicações LLM**?
 
 - [ ] A) Executar automaticamente toda ação sugerida pelo modelo.
 - [ ] B) Ocultar fontes e limitações do usuário.
@@ -50,7 +56,9 @@
 - [ ] D) Permitir que qualquer texto altere as regras do sistema.
 - [ ] E) Enviar dados pessoais sem necessidade.
 
-4. Quando uma resposta de **Avaliação de aplicações LLM** apoia uma decisão importante, qual prática é mais adequada?
+4. **Referência — atividade 4:** Avalie manualmente ou com avaliador separado, mantendo amostra humana.
+
+   **Pergunta:** Quando uma resposta de **Avaliação de aplicações LLM** apoia uma decisão importante, qual prática é mais adequada?
 
 - [ ] A) Exigir evidência verificável e revisão humana proporcional ao risco.
 - [ ] B) Aceitar a resposta quando ela estiver bem escrita.
@@ -58,7 +66,9 @@
 - [ ] D) Remover avisos para deixar a saída mais direta.
 - [ ] E) Usar o modelo como única fonte para qualquer decisão.
 
-5. Ordene o desenvolvimento de uma funcionalidade de **Avaliação de aplicações LLM**.
+5. **Referência — atividade 5:** Crie tabela de erros por causa: recuperação, prompt, contexto, modelo ou dados.
+
+   **Pergunta:** Ordene o desenvolvimento de uma funcionalidade de **Avaliação de aplicações LLM**.
 
 - A) Definir usuário, tarefa, risco e critérios de qualidade.
 - B) Adicionar controles, documentar limites e monitorar o uso.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a melhoria de uma aplicação de **Avaliação de aplicações LLM**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a melhoria de uma aplicação de **Avaliação de aplicações LLM**.
 
 - A) Reunir exemplos reais de sucesso e falha.
 - B) Classificar os erros por causa e impacto.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Avaliação de aplicações com LLMs** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

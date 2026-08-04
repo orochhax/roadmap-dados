@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual definição é essencial antes de modelar **Política e custo**?
+1. **Referência — atividade 1:** Converta probabilidade em faixas de risco A–E.
+
+   **Pergunta:** Qual definição é essencial antes de modelar **Política e custo**?
 
 - [ ] A) Definir risco apenas como uma pontuação alta do modelo.
 - [ ] B) Estabelecer o evento de risco, o horizonte, a população e a data-limite das informações permitidas.
@@ -34,7 +36,9 @@
 - [ ] D) Usar dados posteriores ao evento para completar o cadastro.
 - [ ] E) Remover todos os casos sem histórico longo.
 
-2. Por que a calibração importa em uma aplicação de **Política e custo**?
+2. **Referência — atividade 2:** Defina política de aprovar, revisar ou rejeitar por faixa.
+
+   **Pergunta:** Por que a calibração importa em uma aplicação de **Política e custo**?
 
 - [ ] A) Porque transforma qualquer modelo no mais preciso.
 - [ ] B) Porque elimina diferenças entre grupos.
@@ -42,7 +46,9 @@
 - [ ] D) Porque substitui a validação temporal.
 - [ ] E) Porque a probabilidade estimada precisa representar uma frequência útil para políticas baseadas em custo e risco.
 
-3. Qual cuidado de governança é necessário em **Política e custo**?
+3. **Referência — atividade 3:** Simule lucro/prejuízo com taxas, perda esperada e custo operacional.
+
+   **Pergunta:** Qual cuidado de governança é necessário em **Política e custo**?
 
 - [ ] A) Usar atributos sensíveis sem analisar consequências.
 - [ ] B) Manter a política fixa mesmo quando os dados mudarem.
@@ -50,7 +56,9 @@
 - [ ] D) Ocultar as variáveis para impedir questionamentos.
 - [ ] E) Avaliar somente o grupo mais numeroso.
 
-4. Como transformar uma pontuação de **Política e custo** em política?
+4. **Referência — atividade 4:** Teste cenários de mudança na taxa de default.
+
+   **Pergunta:** Como transformar uma pontuação de **Política e custo** em política?
 
 - [ ] A) Definir faixas e ações segundo perdas, capacidade, restrições e acompanhamento posterior.
 - [ ] B) Aplicar automaticamente a mesma decisão a toda pontuação positiva.
@@ -58,7 +66,9 @@
 - [ ] D) Escolher o corte que aprova o menor número de pessoas.
 - [ ] E) Ignorar o custo de erros porque a probabilidade já resume tudo.
 
-5. Ordene o desenvolvimento de um modelo para **Política e custo**.
+5. **Referência — atividade 5:** Crie regra para casos sem informação suficiente e revisão humana.
+
+   **Pergunta:** Ordene o desenvolvimento de um modelo para **Política e custo**.
 
 - A) Documentar limites e propor uma política de uso.
 - B) Separar períodos e treinar um baseline.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a criação de uma política baseada em **Política e custo**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a criação de uma política baseada em **Política e custo**.
 
 - A) Definir custos, benefícios, capacidade e restrições.
 - B) Escolher regras compatíveis com risco e operação.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Políticas de decisão e análise de custo** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

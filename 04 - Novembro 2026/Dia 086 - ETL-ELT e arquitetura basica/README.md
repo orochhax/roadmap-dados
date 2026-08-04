@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual característica torna um pipeline de **ETL/ELT e arquitetura básica** seguro para ser executado novamente?
+1. **Referência — atividade 1:** Desenhe arquitetura simples: fontes CSV/API → camada raw → transformação → camada curated → consumo por BI/modelo.
+
+   **Pergunta:** Qual característica torna um pipeline de **ETL/ELT e arquitetura básica** seguro para ser executado novamente?
 
 - [ ] A) Gerar um arquivo diferente a cada tentativa.
 - [ ] B) Apagar toda a origem antes de iniciar.
@@ -34,7 +36,9 @@
 - [ ] D) Ignorar registros já processados sem usar uma chave.
 - [ ] E) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
 
-2. Qual controle de qualidade é mais útil em **ETL/ELT e arquitetura básica**?
+2. **Referência — atividade 2:** Explique ETL versus ELT com o mesmo exemplo e escolha uma abordagem.
+
+   **Pergunta:** Qual controle de qualidade é mais útil em **ETL/ELT e arquitetura básica**?
 
 - [ ] A) Verificar somente o tamanho do arquivo final.
 - [ ] B) Remover registros problemáticos sem contabilizá-los.
@@ -42,7 +46,9 @@
 - [ ] D) Conferir apenas se o processo terminou sem erro.
 - [ ] E) Aceitar qualquer alteração de esquema automaticamente.
 
-3. O que melhora a observabilidade de uma solução de **ETL/ELT e arquitetura básica**?
+3. **Referência — atividade 3:** Defina contratos de dados para incidentes e clientes: campos, tipos, chave e frequência.
+
+   **Pergunta:** O que melhora a observabilidade de uma solução de **ETL/ELT e arquitetura básica**?
 
 - [ ] A) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
 - [ ] B) Mensagens genéricas como 'deu erro'.
@@ -50,7 +56,9 @@
 - [ ] D) Registrar somente o horário de início.
 - [ ] E) Depender da observação manual da pasta de saída.
 
-4. Como relacionar **ETL/ELT e arquitetura básica** a uma necessidade de negócio?
+4. **Referência — atividade 4:** Crie estrutura de pastas `raw`, `processed`, `curated` e regras de nomenclatura.
+
+   **Pergunta:** Como relacionar **ETL/ELT e arquitetura básica** a uma necessidade de negócio?
 
 - [ ] A) Processar tudo em tempo real, mesmo sem necessidade.
 - [ ] B) Manter dados sem informar origem ou atualização.
@@ -58,7 +66,9 @@
 - [ ] D) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
 - [ ] E) Escolher a ferramenta mais complexa disponível.
 
-5. Ordene um fluxo de dados para **ETL/ELT e arquitetura básica**.
+5. **Referência — atividade 5:** Liste cinco falhas possíveis e como detectar cada uma.
+
+   **Pergunta:** Ordene um fluxo de dados para **ETL/ELT e arquitetura básica**.
 
 - A) Monitorar qualidade, volume, duração e falhas.
 - B) Extrair os dados com identificação da execução.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a resposta a uma falha em **ETL/ELT e arquitetura básica**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a resposta a uma falha em **ETL/ELT e arquitetura básica**.
 
 - A) Detectar a falha por alerta ou verificação automática.
 - B) Identificar execução, etapa e dados afetados.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **ETL, ELT e arquitetura de dados** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

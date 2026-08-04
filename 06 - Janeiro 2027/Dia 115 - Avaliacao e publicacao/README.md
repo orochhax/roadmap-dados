@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. O que reduz respostas sem apoio em uma solução de **Avaliação e publicação**?
+1. **Referência — atividade 1:** Execute avaliação completa das 30 perguntas e registre métricas de recuperação e geração.
+
+   **Pergunta:** O que reduz respostas sem apoio em uma solução de **Avaliação e publicação**?
 
 - [ ] A) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
 - [ ] B) Pedir ao modelo para inventar detalhes quando faltar contexto.
@@ -34,7 +36,9 @@
 - [ ] D) Remover referências para deixar a resposta menor.
 - [ ] E) Usar somente o conhecimento geral do modelo.
 
-2. Qual escolha afeta diretamente a recuperação em **Avaliação e publicação**?
+2. **Referência — atividade 2:** Crie interface demonstrável com pergunta, resposta, fontes e feedback.
+
+   **Pergunta:** Qual escolha afeta diretamente a recuperação em **Avaliação e publicação**?
 
 - [ ] A) A ordem alfabética dos nomes dos arquivos apenas.
 - [ ] B) A quantidade de parágrafos da resposta final.
@@ -42,7 +46,9 @@
 - [ ] D) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
 - [ ] E) A cor da interface usada para enviar a pergunta.
 
-3. Como o sistema deve agir quando **Avaliação e publicação** não encontra evidência suficiente?
+3. **Referência — atividade 3:** Adicione logs e tratamento de erro sem expor conteúdo sensível.
+
+   **Pergunta:** Como o sistema deve agir quando **Avaliação e publicação** não encontra evidência suficiente?
 
 - [ ] A) Repetir a mesma afirmação com mais confiança.
 - [ ] B) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
@@ -50,7 +56,9 @@
 - [ ] D) Citar qualquer trecho recuperado, mesmo sem relação.
 - [ ] E) Ocultar que a busca não encontrou conteúdo.
 
-4. Qual avaliação ajuda a diagnosticar uma falha em **Avaliação e publicação**?
+4. **Referência — atividade 4:** Empacote com Docker ou instrução reproduzível.
+
+   **Pergunta:** Qual avaliação ajuda a diagnosticar uma falha em **Avaliação e publicação**?
 
 - [ ] A) Avaliar apenas o tamanho da resposta.
 - [ ] B) Medir somente a velocidade de criação do índice.
@@ -58,7 +66,9 @@
 - [ ] D) Trocar o modelo sem examinar os documentos recuperados.
 - [ ] E) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
 
-5. Ordene o fluxo principal de uma solução de **Avaliação e publicação**.
+5. **Referência — atividade 5:** Publique relatório de limitações, riscos, custo e próximos passos.
+
+   **Pergunta:** Ordene o fluxo principal de uma solução de **Avaliação e publicação**.
 
 - A) Gerar representações e construir o índice.
 - B) Gerar uma resposta fundamentada e apresentar as fontes.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene o diagnóstico de uma resposta ruim em **Avaliação e publicação**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene o diagnóstico de uma resposta ruim em **Avaliação e publicação**.
 
 - A) Registrar a pergunta, a resposta e as fontes recuperadas.
 - B) Avaliar chunking, metadados, consulta e ranking da busca.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
@@ -124,23 +135,3 @@
 - **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **IA Generativa e RAG** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
 - **Novo título sugerido:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
 - **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

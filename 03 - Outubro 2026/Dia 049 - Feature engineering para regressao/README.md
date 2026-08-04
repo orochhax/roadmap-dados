@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática evita vazamento de dados em uma atividade de **Feature engineering para regressão**?
+1. **Referência — atividade 1:** Crie features de data: mês, dia da semana, fim de semana e dias desde primeira compra.
+
+   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Feature engineering para regressão**?
 
 - [ ] A) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
 - [ ] B) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
@@ -34,7 +36,9 @@
 - [ ] D) Escolher variáveis depois de observar o desempenho no teste.
 - [ ] E) Duplicar exemplos raros antes de separar os conjuntos.
 
-2. Como escolher uma métrica adequada para avaliar **Feature engineering para regressão**?
+2. **Referência — atividade 2:** Crie transformações `log1p` para variável assimétrica e interações entre desconto e canal.
+
+   **Pergunta:** Como escolher uma métrica adequada para avaliar **Feature engineering para regressão**?
 
 - [ ] A) Usando sempre acurácia, pois ela serve para qualquer problema.
 - [ ] B) Escolhendo a métrica que produz o maior número.
@@ -42,7 +46,9 @@
 - [ ] D) Avaliando apenas o tempo de treinamento do algoritmo.
 - [ ] E) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
 
-3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Feature engineering para regressão**?
+3. **Referência — atividade 3:** Agrupe categorias raras com limiar explícito e documente impacto.
+
+   **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Feature engineering para regressão**?
 
 - [ ] A) Consultar repetidamente o teste durante cada ajuste.
 - [ ] B) Comparar somente a quantidade de parâmetros dos algoritmos.
@@ -50,7 +56,9 @@
 - [ ] D) Testar cada modelo em uma divisão diferente dos dados.
 - [ ] E) Escolher pelo desempenho no conjunto usado para treinar.
 
-4. Antes de usar um modelo de **Feature engineering para regressão** em uma decisão real, o que deve ser analisado?
+4. **Referência — atividade 4:** Construa cada feature dentro da pipeline para evitar diferenças entre treino e inferência.
+
+   **Pergunta:** Antes de usar um modelo de **Feature engineering para regressão** em uma decisão real, o que deve ser analisado?
 
 - [ ] A) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
 - [ ] B) Somente a métrica média do melhor experimento.
@@ -58,7 +66,9 @@
 - [ ] D) A complexidade do nome do algoritmo escolhido.
 - [ ] E) A quantidade de linhas de código usada para criar o modelo.
 
-5. Ordene um fluxo de modelagem para **Feature engineering para regressão**.
+5. **Referência — atividade 5:** Faça ablação: remova grupos de features e registre quanto cada grupo muda a métrica.
+
+   **Pergunta:** Ordene um fluxo de modelagem para **Feature engineering para regressão**.
 
 - A) Definir o problema, a população, o alvo e a métrica.
 - B) Avaliar, analisar erros e relacionar o modelo à decisão.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene uma seleção responsável de modelo em **Feature engineering para regressão**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene uma seleção responsável de modelo em **Feature engineering para regressão**.
 
 - A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
 - B) Documentar limitações, segmentos frágeis e regras de uso.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Feature Engineering** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

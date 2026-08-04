@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática evita vazamento de dados em uma atividade de **Calibração e probabilidades**?
+1. **Referência — atividade 1:** Crie gráfico de calibração e calcule Brier Score para regressão logística e modelo de árvore.
+
+   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Calibração e probabilidades**?
 
 - [ ] A) Duplicar exemplos raros antes de separar os conjuntos.
 - [ ] B) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
@@ -34,7 +36,9 @@
 - [ ] D) Normalizar toda a base antes da separação para usar mais informação.
 - [ ] E) Escolher variáveis depois de observar o desempenho no teste.
 
-2. Como escolher uma métrica adequada para avaliar **Calibração e probabilidades**?
+2. **Referência — atividade 2:** Agrupe probabilidades em decis e compare previsão média com frequência real.
+
+   **Pergunta:** Como escolher uma métrica adequada para avaliar **Calibração e probabilidades**?
 
 - [ ] A) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
 - [ ] B) Usando sempre acurácia, pois ela serve para qualquer problema.
@@ -42,7 +46,9 @@
 - [ ] D) Trocando de métrica depois de ver qual favorece o modelo.
 - [ ] E) Avaliando apenas o tempo de treinamento do algoritmo.
 
-3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Calibração e probabilidades**?
+3. **Referência — atividade 3:** Aplique `CalibratedClassifierCV` com métodos sigmoid e isotonic.
+
+   **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Calibração e probabilidades**?
 
 - [ ] A) Escolher pelo desempenho no conjunto usado para treinar.
 - [ ] B) Consultar repetidamente o teste durante cada ajuste.
@@ -50,7 +56,9 @@
 - [ ] D) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
 - [ ] E) Testar cada modelo em uma divisão diferente dos dados.
 
-4. Antes de usar um modelo de **Calibração e probabilidades** em uma decisão real, o que deve ser analisado?
+4. **Referência — atividade 4:** Compare discriminação e calibração antes/depois.
+
+   **Pergunta:** Antes de usar um modelo de **Calibração e probabilidades** em uma decisão real, o que deve ser analisado?
 
 - [ ] A) A quantidade de linhas de código usada para criar o modelo.
 - [ ] B) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
@@ -58,7 +66,9 @@
 - [ ] D) A aparência dos gráficos de treinamento, sem examinar dados.
 - [ ] E) A complexidade do nome do algoritmo escolhido.
 
-5. Ordene um fluxo de modelagem para **Calibração e probabilidades**.
+5. **Referência — atividade 5:** Explique por que uma probabilidade mal calibrada prejudica política de crédito ou retenção.
+
+   **Pergunta:** Ordene um fluxo de modelagem para **Calibração e probabilidades**.
 
 - A) Ajustar o pré-processamento apenas com os dados de treino.
 - B) Avaliar, analisar erros e relacionar o modelo à decisão.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene uma seleção responsável de modelo em **Calibração e probabilidades**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene uma seleção responsável de modelo em **Calibração e probabilidades**.
 
 - A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
 - B) Documentar limitações, segmentos frágeis e regras de uso.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Calibração de modelos** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

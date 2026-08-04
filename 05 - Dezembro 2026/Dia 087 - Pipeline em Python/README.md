@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual característica torna um pipeline de **Pipeline em Python** seguro para ser executado novamente?
+1. **Referência — atividade 1:** Implemente `extract.py` para ler CSV/JSON, `transform.py` para limpar e criar features, e `load.py` para gravar Parquet ou DuckDB.
+
+   **Pergunta:** Qual característica torna um pipeline de **Pipeline em Python** seguro para ser executado novamente?
 
 - [ ] A) Apagar toda a origem antes de iniciar.
 - [ ] B) Depender de correções manuais após cada execução.
@@ -34,7 +36,9 @@
 - [ ] D) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
 - [ ] E) Gerar um arquivo diferente a cada tentativa.
 
-2. Qual controle de qualidade é mais útil em **Pipeline em Python**?
+2. **Referência — atividade 2:** Use arquivo de configuração para caminhos, sem valores fixos no código.
+
+   **Pergunta:** Qual controle de qualidade é mais útil em **Pipeline em Python**?
 
 - [ ] A) Remover registros problemáticos sem contabilizá-los.
 - [ ] B) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
@@ -42,7 +46,9 @@
 - [ ] D) Aceitar qualquer alteração de esquema automaticamente.
 - [ ] E) Verificar somente o tamanho do arquivo final.
 
-3. O que melhora a observabilidade de uma solução de **Pipeline em Python**?
+3. **Referência — atividade 3:** Adicione logs com quantidade lida, rejeitada e gravada.
+
+   **Pergunta:** O que melhora a observabilidade de uma solução de **Pipeline em Python**?
 
 - [ ] A) Mensagens genéricas como 'deu erro'.
 - [ ] B) Ocultar falhas e repetir o processo indefinidamente.
@@ -50,7 +56,9 @@
 - [ ] D) Depender da observação manual da pasta de saída.
 - [ ] E) Logs estruturados, métricas, alertas e identificação clara de cada execução e etapa.
 
-4. Como relacionar **Pipeline em Python** a uma necessidade de negócio?
+4. **Referência — atividade 4:** Garanta idempotência: executar duas vezes não deve duplicar dados.
+
+   **Pergunta:** Como relacionar **Pipeline em Python** a uma necessidade de negócio?
 
 - [ ] A) Manter dados sem informar origem ou atualização.
 - [ ] B) Priorizar volume acima de confiabilidade e custo.
@@ -58,7 +66,9 @@
 - [ ] D) Escolher a ferramenta mais complexa disponível.
 - [ ] E) Processar tudo em tempo real, mesmo sem necessidade.
 
-5. Ordene um fluxo de dados para **Pipeline em Python**.
+5. **Referência — atividade 5:** Teste arquivo ausente, coluna faltante, linha inválida e execução repetida.
+
+   **Pergunta:** Ordene um fluxo de dados para **Pipeline em Python**.
 
 - A) Monitorar qualidade, volume, duração e falhas.
 - B) Validar e transformar preservando rastreabilidade.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a resposta a uma falha em **Pipeline em Python**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a resposta a uma falha em **Pipeline em Python**.
 
 - A) Detectar a falha por alerta ou verificação automática.
 - B) Confirmar a recuperação e registrar prevenção.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Pipelines de dados com Python** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

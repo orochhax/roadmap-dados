@@ -90,7 +90,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** release, post, vídeo, candidaturas e retrospectiva.
 
 > [!important] Projeto final estilo TCC — Portfolio Intelligence Lab
 > **Desafio:** Entregar e defender uma plataforma de análise, ranking quantitativo e carteiras com ações, ETFs e FIIs, validada temporalmente e líquida de custos.
@@ -123,23 +122,3 @@
 - **Ação recomendada:** Mantenha o título final e atualize as seções Sobre, Competências, Projetos e Destaques com o TCC, incluindo links e evidências.
 - **Título final recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
 - **Próximo marco do perfil:** Após o roadmap — revisar o perfil sempre que concluir um projeto relevante ou mudar o objetivo profissional.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

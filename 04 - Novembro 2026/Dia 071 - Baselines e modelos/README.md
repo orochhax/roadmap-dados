@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao desenvolver **Baselines e modelos**, qual definição evita um alvo ambíguo ou vazamento de dados?
+1. **Referência — atividade 1:** Treine regressão logística, árvore, Random Forest e boosting usando a mesma pipeline.
+
+   **Pergunta:** Ao desenvolver **Baselines e modelos**, qual definição evita um alvo ambíguo ou vazamento de dados?
 
 - [ ] A) Chamar de churn qualquer cliente com poucos registros.
 - [ ] B) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
@@ -34,7 +36,9 @@
 - [ ] D) Remover clientes ativos sem registrar o critério usado.
 - [ ] E) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
 
-2. Como avaliar um modelo ligado a **Baselines e modelos** para uma estratégia de retenção?
+2. **Referência — atividade 2:** Execute cross-validation no treino e avalie no conjunto de validação.
+
+   **Pergunta:** Como avaliar um modelo ligado a **Baselines e modelos** para uma estratégia de retenção?
 
 - [ ] A) Contatando todos os clientes classificados pelo modelo.
 - [ ] B) Ignorando a capacidade operacional da equipe de retenção.
@@ -42,7 +46,9 @@
 - [ ] D) Escolhendo sempre o limiar de 50%.
 - [ ] E) Priorizando somente a acurácia geral.
 
-3. Qual análise ajuda a encontrar riscos escondidos em **Baselines e modelos**?
+3. **Referência — atividade 3:** Crie tabela com média, desvio, custo e tempo.
+
+   **Pergunta:** Qual análise ajuda a encontrar riscos escondidos em **Baselines e modelos**?
 
 - [ ] A) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
 - [ ] B) Avaliar apenas os clientes com maior probabilidade.
@@ -50,7 +56,9 @@
 - [ ] D) Usar a mesma explicação para todos os perfis.
 - [ ] E) Conferir somente o desempenho no conjunto de treino.
 
-4. Qual é a melhor ligação entre um modelo de **Baselines e modelos** e uma ação de negócio?
+4. **Referência — atividade 4:** Analise 20 erros críticos.
+
+   **Pergunta:** Qual é a melhor ligação entre um modelo de **Baselines e modelos** e uma ação de negócio?
 
 - [ ] A) Considerar todo cliente de alto risco automaticamente perdido.
 - [ ] B) Escolher a ação apenas pela variável mais importante do modelo.
@@ -58,7 +66,9 @@
 - [ ] D) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
 - [ ] E) Enviar a probabilidade bruta sem orientar seu uso.
 
-5. Ordene a construção de um projeto relacionado a **Baselines e modelos**.
+5. **Referência — atividade 5:** Selecione campeão e challenger com justificativa pré-definida.
+
+   **Pergunta:** Ordene a construção de um projeto relacionado a **Baselines e modelos**.
 
 - A) Realizar EDA e preparar uma separação sem vazamento.
 - B) Transformar previsões em estratégia e comunicar limitações.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a criação de uma política de retenção baseada em **Baselines e modelos**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a criação de uma política de retenção baseada em **Baselines e modelos**.
 
 - A) Medir retenção incremental e ajustar a política.
 - B) Escolher limiares com base em custo e benefício.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Baselines e modelos de Machine Learning** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

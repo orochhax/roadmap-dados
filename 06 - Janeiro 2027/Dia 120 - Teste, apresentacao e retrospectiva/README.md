@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual decisão deve orientar um produto de **Teste, apresentação e retrospectiva**?
+1. **Referência — atividade 1:** Execute testes funcionais, de dados e de decisão.
+
+   **Pergunta:** Qual decisão deve orientar um produto de **Teste, apresentação e retrospectiva**?
 
 - [ ] A) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
 - [ ] B) Incluir o maior número possível de tecnologias.
@@ -34,7 +36,9 @@
 - [ ] D) Treinar um modelo antes de conhecer os dados.
 - [ ] E) Trocar o objetivo sempre que surgir uma ferramenta nova.
 
-2. O que reduz falhas entre componentes em **Teste, apresentação e retrospectiva**?
+2. **Referência — atividade 2:** Peça revisão externa e registre pelo menos cinco feedbacks.
+
+   **Pergunta:** O que reduz falhas entre componentes em **Teste, apresentação e retrospectiva**?
 
 - [ ] A) Alterar formatos sem avisar os consumidores.
 - [ ] B) Depender de passos manuais não documentados.
@@ -42,7 +46,9 @@
 - [ ] D) Contratos explícitos para dados, esquemas, entradas, saídas, versões e tratamento de erros.
 - [ ] E) Cada componente interpretar os campos de uma forma.
 
-3. Qual teste oferece mais confiança em uma entrega de **Teste, apresentação e retrospectiva**?
+3. **Referência — atividade 3:** Corrija itens críticos e faça release.
+
+   **Pergunta:** Qual teste oferece mais confiança em uma entrega de **Teste, apresentação e retrospectiva**?
 
 - [ ] A) Ignorar erros externos quando o código local funciona.
 - [ ] B) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
@@ -50,7 +56,9 @@
 - [ ] D) Conferir somente se os arquivos existem.
 - [ ] E) Executar apenas com o conjunto usado no desenvolvimento.
 
-4. Como avaliar o valor de uma solução de **Teste, apresentação e retrospectiva** após a entrega?
+4. **Referência — atividade 4:** Apresente em oito minutos para público técnico e executivo.
+
+   **Pergunta:** Como avaliar o valor de uma solução de **Teste, apresentação e retrospectiva** após a entrega?
 
 - [ ] A) Medir apenas a quantidade de linhas de código.
 - [ ] B) Usar somente o número de tecnologias integradas.
@@ -58,7 +66,9 @@
 - [ ] D) Avaliar apenas comentários da equipe que desenvolveu.
 - [ ] E) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
 
-5. Ordene a construção de um produto de **Teste, apresentação e retrospectiva**.
+5. **Referência — atividade 5:** Escreva retrospectiva e lições para o TCC.
+
+   **Pergunta:** Ordene a construção de um produto de **Teste, apresentação e retrospectiva**.
 
 - A) Publicar, observar o uso e iterar com evidências.
 - B) Construir primeiro um fluxo mínimo de ponta a ponta.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação da entrega de **Teste, apresentação e retrospectiva**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação da entrega de **Teste, apresentação e retrospectiva**.
 
 - A) Coletar feedback e priorizar correções ou melhorias.
 - B) Revisar documentação, configuração e instruções de execução.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!project] Projeto semanal — MVP Data + AI orientado à decisão
 > **Desafio:** Construir um produto pequeno que combine análise ou modelo com IA somente onde ela gerar valor verificável.
@@ -237,23 +248,3 @@ O backtest deve incluir:
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes e apresentação de produtos de dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
 - **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

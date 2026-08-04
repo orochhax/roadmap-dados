@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual estrutura torna uma solicitação de **Miniaplicação de IA** mais controlável?
+1. **Referência — atividade 1:** Escolha miniaplicação: assistente que classifica e resume chamados com recomendação baseada em regras.
+
+   **Pergunta:** Qual estrutura torna uma solicitação de **Miniaplicação de IA** mais controlável?
 
 - [ ] A) Instrução clara, contexto necessário, restrições e formato de saída definido.
 - [ ] B) Uma frase vaga sem explicar a tarefa.
@@ -34,7 +36,9 @@
 - [ ] D) Vários objetivos conflitantes na mesma instrução.
 - [ ] E) A ausência de critérios para aceitar a resposta.
 
-2. Como avaliar uma aplicação relacionada a **Miniaplicação de IA**?
+2. **Referência — atividade 2:** Crie interface simples em CLI, Streamlit ou API.
+
+   **Pergunta:** Como avaliar uma aplicação relacionada a **Miniaplicação de IA**?
 
 - [ ] A) Avaliar apenas a fluidez do texto.
 - [ ] B) Trocar os critérios para favorecer a versão mais recente.
@@ -42,7 +46,9 @@
 - [ ] D) Usar um conjunto representativo de casos e critérios definidos para qualidade, segurança, custo e latência.
 - [ ] E) Ler uma única resposta que parece convincente.
 
-3. Qual cuidado de segurança é importante em **Miniaplicação de IA**?
+3. **Referência — atividade 3:** Use saída estruturada e registre fontes/regras utilizadas.
+
+   **Pergunta:** Qual cuidado de segurança é importante em **Miniaplicação de IA**?
 
 - [ ] A) Ocultar fontes e limitações do usuário.
 - [ ] B) Tratar entradas como não confiáveis, limitar acesso a dados e ferramentas e revisar saídas sensíveis.
@@ -50,7 +56,9 @@
 - [ ] D) Enviar dados pessoais sem necessidade.
 - [ ] E) Executar automaticamente toda ação sugerida pelo modelo.
 
-4. Quando uma resposta de **Miniaplicação de IA** apoia uma decisão importante, qual prática é mais adequada?
+4. **Referência — atividade 4:** Teste com 20 chamados, incluindo cinco ambíguos e cinco fora do domínio.
+
+   **Pergunta:** Quando uma resposta de **Miniaplicação de IA** apoia uma decisão importante, qual prática é mais adequada?
 
 - [ ] A) Aceitar a resposta quando ela estiver bem escrita.
 - [ ] B) Considerar confiança verbal equivalente a precisão.
@@ -58,7 +66,9 @@
 - [ ] D) Usar o modelo como única fonte para qualquer decisão.
 - [ ] E) Exigir evidência verificável e revisão humana proporcional ao risco.
 
-5. Ordene o desenvolvimento de uma funcionalidade de **Miniaplicação de IA**.
+5. **Referência — atividade 5:** Publique README com limitações e casos em que revisão humana é obrigatória.
+
+   **Pergunta:** Ordene o desenvolvimento de uma funcionalidade de **Miniaplicação de IA**.
 
 - A) Adicionar controles, documentar limites e monitorar o uso.
 - B) Criar casos de avaliação antes de ajustar a solução.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a melhoria de uma aplicação de **Miniaplicação de IA**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a melhoria de uma aplicação de **Miniaplicação de IA**.
 
 - A) Publicar apenas após revisar qualidade, segurança e custo.
 - B) Classificar os erros por causa e impacto.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
@@ -124,23 +135,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Aplicações de IA Generativa** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

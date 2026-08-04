@@ -54,7 +54,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!important] Projeto mensal robusto — Sistema de ML Reproduzível e Implantável
 > **Desafio:** Unir ingestão, treinamento, versionamento, API, container e arquitetura de implantação em uma solução demonstrável.
@@ -89,23 +88,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Arquitetura de dados e Machine Learning** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

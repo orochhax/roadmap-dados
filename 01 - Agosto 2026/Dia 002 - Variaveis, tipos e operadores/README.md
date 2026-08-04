@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao praticar **Variáveis, tipos e operadores**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+1. **Referência — atividade 1:** Crie `tipos_operadores.py` e declare exemplos de `int`, `float`, `str` e `bool`; use `type()` para registrar o tipo de cada variável.
+
+   **Pergunta:** Ao praticar **Variáveis, tipos e operadores**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
 
 - [ ] A) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
 - [ ] B) Ignorar os tipos das variáveis quando a saída parece plausível.
@@ -34,7 +36,9 @@
 - [ ] D) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
 - [ ] E) Copiar um código pronto e alterar valores até ele executar.
 
-2. Qual prática reduz mais o risco de erro em um programa relacionado a **Variáveis, tipos e operadores**?
+2. **Referência — atividade 2:** Resolva 15 exercícios: preço com desconto; IMC; conversão °C→°F; km/h→m/s; juros simples; comissão; divisão de conta; consumo médio; custo por cliente; taxa de resolução; taxa de reincidência; duração média; arredondamento monetário; comparação de metas; formatação de uma frase com f-string.
+
+   **Pergunta:** Qual prática reduz mais o risco de erro em um programa relacionado a **Variáveis, tipos e operadores**?
 
 - [ ] A) Repetir o mesmo cálculo em vários lugares do arquivo.
 - [ ] B) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
@@ -42,7 +46,9 @@
 - [ ] D) Aceitar qualquer entrada e corrigir somente se o programa fechar.
 - [ ] E) Remover mensagens de erro para deixar o terminal mais limpo.
 
-3. Qual teste fornece a verificação mais completa para um exercício de **Variáveis, tipos e operadores**?
+3. **Referência — atividade 3:** Para cada exercício, peça entradas com `input()`, converta explicitamente o tipo e trate pelo menos uma entrada impossível, como texto no lugar de número ou divisão por zero.
+
+   **Pergunta:** Qual teste fornece a verificação mais completa para um exercício de **Variáveis, tipos e operadores**?
 
 - [ ] A) Executar apenas o exemplo numérico apresentado no enunciado.
 - [ ] B) Conferir somente se o arquivo foi salvo com a extensão `.py`.
@@ -50,7 +56,9 @@
 - [ ] D) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
 - [ ] E) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
 
-4. Ao usar um cálculo de **Variáveis, tipos e operadores** para apoiar uma decisão, qual atitude é mais adequada?
+4. **Referência — atividade 4:** Crie `metricas_atendimento.py` para receber total de chamados, resolvidos, reincidentes e soma das durações; exiba três métricas com duas casas decimais.
+
+   **Pergunta:** Ao usar um cálculo de **Variáveis, tipos e operadores** para apoiar uma decisão, qual atitude é mais adequada?
 
 - [ ] A) Considerar qualquer saída do Python como prova suficiente.
 - [ ] B) Excluir valores que contradizem a primeira interpretação.
@@ -58,7 +66,9 @@
 - [ ] D) Apresentar apenas o número final sem informar de onde ele veio.
 - [ ] E) Escolher a conclusão antes do cálculo e adaptar o código a ela.
 
-5. Ordene um fluxo seguro para resolver uma atividade de **Variáveis, tipos e operadores**.
+5. **Referência — atividade 5:** Teste com três cenários definidos: normal `(100, 82, 12, 3450)`, nenhum chamado `(0, 0, 0, 0)` e valores inválidos `(-5, 7, 2, 100)`.
+
+   **Pergunta:** Ordene um fluxo seguro para resolver uma atividade de **Variáveis, tipos e operadores**.
 
 - A) Revisar o código e registrar o aprendizado.
 - B) Implementar a solução em pequenas etapas.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as ações para investigar um erro durante a prática de **Variáveis, tipos e operadores**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as ações para investigar um erro durante a prática de **Variáveis, tipos e operadores**.
 
 - A) Corrigir a causa identificada.
 - B) Anotar o que provocou o erro e como ele foi corrigido.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software`.
 - **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

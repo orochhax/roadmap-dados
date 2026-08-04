@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de desenhar uma arquitetura para **Databricks aplicado**, o que deve ser levantado?
+1. **Referência — atividade 1:** Monte notebook Databricks com ingestão, limpeza, SQL, feature table e treino simples.
+
+   **Pergunta:** Antes de desenhar uma arquitetura para **Databricks aplicado**, o que deve ser levantado?
 
 - [ ] A) A quantidade máxima de serviços que podem ser usados.
 - [ ] B) O nome comercial da arquitetura antes dos requisitos.
@@ -34,7 +36,9 @@
 - [ ] D) Somente a linguagem preferida pelo desenvolvedor.
 - [ ] E) A ferramenta mais popular nas redes sociais.
 
-2. Como escolher armazenamento e processamento em **Databricks aplicado**?
+2. **Referência — atividade 2:** Registre parâmetros e métricas manualmente ou com MLflow.
+
+   **Pergunta:** Como escolher armazenamento e processamento em **Databricks aplicado**?
 
 - [ ] A) Comparando padrões de acesso, escala, formato dos dados, desempenho necessário e custo total.
 - [ ] B) Usando sempre o serviço mais caro.
@@ -42,7 +46,9 @@
 - [ ] D) Duplicando os dados em todos os serviços disponíveis.
 - [ ] E) Escolhendo processamento em tempo real para qualquer tarefa.
 
-3. Qual princípio de segurança deve orientar **Databricks aplicado**?
+3. **Referência — atividade 3:** Salve modelo e artefatos.
+
+   **Pergunta:** Qual princípio de segurança deve orientar **Databricks aplicado**?
 
 - [ ] A) Liberar acesso público para simplificar integrações.
 - [ ] B) Salvar chaves em arquivos enviados ao repositório.
@@ -50,7 +56,9 @@
 - [ ] D) Conceder o menor privilégio necessário, proteger segredos e manter auditoria dos acessos.
 - [ ] E) Compartilhar uma credencial administrativa entre toda a equipe.
 
-4. Qual decisão torna uma arquitetura de **Databricks aplicado** mais sustentável?
+4. **Referência — atividade 4:** Reproduza uma execução com parâmetro alterado.
+
+   **Pergunta:** Qual decisão torna uma arquitetura de **Databricks aplicado** mais sustentável?
 
 - [ ] A) Criar dependências manuais para cada execução.
 - [ ] B) Equilibrar confiabilidade e escala com simplicidade operacional e controle de custos.
@@ -58,7 +66,9 @@
 - [ ] D) Buscar disponibilidade máxima sem considerar impacto financeiro.
 - [ ] E) Ignorar custos pequenos porque nunca se acumulam.
 
-5. Ordene o desenho de uma solução para **Databricks aplicado**.
+5. **Referência — atividade 5:** Documente diferenças entre ambiente local e plataforma.
+
+   **Pergunta:** Ordene o desenho de uma solução para **Databricks aplicado**.
 
 - A) Definir requisitos funcionais e restrições.
 - B) Comparar componentes e seus principais trade-offs.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a evolução controlada de uma arquitetura de **Databricks aplicado**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a evolução controlada de uma arquitetura de **Databricks aplicado**.
 
 - A) Medir o comportamento e o custo da solução atual.
 - B) Implantar gradualmente e acompanhar os indicadores.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Databricks** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

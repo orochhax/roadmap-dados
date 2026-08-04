@@ -54,7 +54,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!important] Projeto mensal robusto — Motor de Decisão de Churn
 > **Desafio:** Entregar um sistema completo que classifique risco, explique fatores e recomende uma ação de retenção.
@@ -89,23 +88,3 @@
 - **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **Auditoria e pipelines de Machine Learning** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
 - **Novo título sugerido:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

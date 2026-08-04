@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática evita vazamento de dados em uma atividade de **Árvore de decisão**?
+1. **Referência — atividade 1:** Treine árvore de decisão com profundidades 1, 3, 5, 10 e sem limite.
+
+   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Árvore de decisão**?
 
 - [ ] A) Normalizar toda a base antes da separação para usar mais informação.
 - [ ] B) Escolher variáveis depois de observar o desempenho no teste.
@@ -34,7 +36,9 @@
 - [ ] D) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
 - [ ] E) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
 
-2. Como escolher uma métrica adequada para avaliar **Árvore de decisão**?
+2. **Referência — atividade 2:** Visualize uma árvore pequena e traduza cinco divisões em regras de negócio.
+
+   **Pergunta:** Como escolher uma métrica adequada para avaliar **Árvore de decisão**?
 
 - [ ] A) Trocando de métrica depois de ver qual favorece o modelo.
 - [ ] B) Avaliando apenas o tempo de treinamento do algoritmo.
@@ -42,7 +46,9 @@
 - [ ] D) Usando sempre acurácia, pois ela serve para qualquer problema.
 - [ ] E) Escolhendo a métrica que produz o maior número.
 
-3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Árvore de decisão**?
+3. **Referência — atividade 3:** Compare desempenho de treino e validação para identificar overfitting.
+
+   **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Árvore de decisão**?
 
 - [ ] A) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
 - [ ] B) Testar cada modelo em uma divisão diferente dos dados.
@@ -50,7 +56,9 @@
 - [ ] D) Consultar repetidamente o teste durante cada ajuste.
 - [ ] E) Comparar somente a quantidade de parâmetros dos algoritmos.
 
-4. Antes de usar um modelo de **Árvore de decisão** em uma decisão real, o que deve ser analisado?
+4. **Referência — atividade 4:** Varie `min_samples_leaf` e registre estabilidade.
+
+   **Pergunta:** Antes de usar um modelo de **Árvore de decisão** em uma decisão real, o que deve ser analisado?
 
 - [ ] A) A aparência dos gráficos de treinamento, sem examinar dados.
 - [ ] B) A complexidade do nome do algoritmo escolhido.
@@ -58,7 +66,9 @@
 - [ ] D) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
 - [ ] E) Somente a métrica média do melhor experimento.
 
-5. Ordene um fluxo de modelagem para **Árvore de decisão**.
+5. **Referência — atividade 5:** Crie uma árvore deliberadamente complexa e explique por que não deve ser usada apesar da métrica de treino.
+
+   **Pergunta:** Ordene um fluxo de modelagem para **Árvore de decisão**.
 
 - A) Definir o problema, a população, o alvo e a métrica.
 - B) Avaliar, analisar erros e relacionar o modelo à decisão.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene uma seleção responsável de modelo em **Árvore de decisão**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene uma seleção responsável de modelo em **Árvore de decisão**.
 
 - A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
 - B) Comparar candidatos com o mesmo protocolo de validação.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Árvore de decisão** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

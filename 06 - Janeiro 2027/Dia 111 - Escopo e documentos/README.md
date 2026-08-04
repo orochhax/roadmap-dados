@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. O que reduz respostas sem apoio em uma solução de **Escopo e documentos**?
+1. **Referência — atividade 1:** Defina escopo do RAG: responder apenas sobre procedimentos de suporte técnico presentes nos documentos.
+
+   **Pergunta:** O que reduz respostas sem apoio em uma solução de **Escopo e documentos**?
 
 - [ ] A) Pedir ao modelo para inventar detalhes quando faltar contexto.
 - [ ] B) Enviar documentos aleatórios para aumentar o volume.
@@ -34,7 +36,9 @@
 - [ ] D) Usar somente o conhecimento geral do modelo.
 - [ ] E) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
 
-2. Qual escolha afeta diretamente a recuperação em **Escopo e documentos**?
+2. **Referência — atividade 2:** Selecione ou crie 15–30 documentos e registre origem, versão e licença.
+
+   **Pergunta:** Qual escolha afeta diretamente a recuperação em **Escopo e documentos**?
 
 - [ ] A) A quantidade de parágrafos da resposta final.
 - [ ] B) O nome da variável que armazena o índice.
@@ -42,7 +46,9 @@
 - [ ] D) A cor da interface usada para enviar a pergunta.
 - [ ] E) A ordem alfabética dos nomes dos arquivos apenas.
 
-3. Como o sistema deve agir quando **Escopo e documentos** não encontra evidência suficiente?
+3. **Referência — atividade 3:** Crie 30 perguntas de avaliação antes de implementar o sistema.
+
+   **Pergunta:** Como o sistema deve agir quando **Escopo e documentos** não encontra evidência suficiente?
 
 - [ ] A) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
 - [ ] B) Completar a resposta com uma suposição plausível.
@@ -50,7 +56,9 @@
 - [ ] D) Ocultar que a busca não encontrou conteúdo.
 - [ ] E) Repetir a mesma afirmação com mais confiança.
 
-4. Qual avaliação ajuda a diagnosticar uma falha em **Escopo e documentos**?
+4. **Referência — atividade 4:** Defina política de recusa quando não houver evidência.
+
+   **Pergunta:** Qual avaliação ajuda a diagnosticar uma falha em **Escopo e documentos**?
 
 - [ ] A) Medir somente a velocidade de criação do índice.
 - [ ] B) Considerar toda citação como necessariamente relevante.
@@ -58,7 +66,9 @@
 - [ ] D) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
 - [ ] E) Avaliar apenas o tamanho da resposta.
 
-5. Ordene o fluxo principal de uma solução de **Escopo e documentos**.
+5. **Referência — atividade 5:** Desenhe arquitetura de ingestão, indexação, recuperação, geração e avaliação.
+
+   **Pergunta:** Ordene o fluxo principal de uma solução de **Escopo e documentos**.
 
 - A) Coletar e validar documentos e metadados.
 - B) Dividir o conteúdo em trechos adequados.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene o diagnóstico de uma resposta ruim em **Escopo e documentos**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene o diagnóstico de uma resposta ruim em **Escopo e documentos**.
 
 - A) Registrar a pergunta, a resposta e as fontes recuperadas.
 - B) Corrigir a etapa responsável e repetir os mesmos testes.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Definição de produtos RAG** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

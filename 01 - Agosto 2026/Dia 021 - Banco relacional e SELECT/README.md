@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de escrever uma consulta de **Banco relacional e SELECT**, o que deve ser definido primeiro?
+1. **Referência — atividade 1:** Instale PostgreSQL ou use DuckDB; crie banco `roadmap_ds` e tabela `incidentes` com chave primária e tipos apropriados.
+
+   **Pergunta:** Antes de escrever uma consulta de **Banco relacional e SELECT**, o que deve ser definido primeiro?
 
 - [ ] A) A quantidade máxima de linhas que caberá na tela.
 - [ ] B) A ordem alfabética dos nomes das tabelas.
@@ -34,7 +36,9 @@
 - [ ] D) A formatação visual da tabela final antes dos cálculos.
 - [ ] E) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
 
-2. Qual cuidado é essencial ao usar junções em uma atividade de **Banco relacional e SELECT**?
+2. **Referência — atividade 2:** Importe `incidentes.csv` e execute 12 consultas `SELECT`: todas as colunas; colunas específicas; alias; `DISTINCT`; limite; ordenação crescente/decrescente; expressão calculada; concatenação; `COALESCE`; `CAST`; `CASE`; contagem total.
+
+   **Pergunta:** Qual cuidado é essencial ao usar junções em uma atividade de **Banco relacional e SELECT**?
 
 - [ ] A) Remover duplicidades depois da junção sem investigar a origem.
 - [ ] B) Selecionar todas as colunas para garantir que nada seja perdido.
@@ -42,7 +46,9 @@
 - [ ] D) Usar sempre `INNER JOIN`, independentemente da pergunta.
 - [ ] E) Juntar tabelas por qualquer coluna com o mesmo tipo.
 
-3. Como valores NULL devem ser tratados em consultas relacionadas a **Banco relacional e SELECT**?
+3. **Referência — atividade 3:** Antes de cada consulta, escreva em comentário quantas linhas e colunas espera receber.
+
+   **Pergunta:** Como valores NULL devem ser tratados em consultas relacionadas a **Banco relacional e SELECT**?
 
 - [ ] A) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
 - [ ] B) Sempre como zero, porque simplifica as agregações.
@@ -50,7 +56,9 @@
 - [ ] D) Excluindo automaticamente todas as linhas que contenham `NULL`.
 - [ ] E) Ignorando-os, pois bancos relacionais os convertem sozinhos.
 
-4. Qual verificação aumenta mais a confiança em uma consulta de **Banco relacional e SELECT**?
+4. **Referência — atividade 4:** Crie uma consulta que calcule `impacto = duracao_min * clientes_afetados` e liste os cinco maiores.
+
+   **Pergunta:** Qual verificação aumenta mais a confiança em uma consulta de **Banco relacional e SELECT**?
 
 - [ ] A) Adicionar `ORDER BY` para que os números pareçam organizados.
 - [ ] B) Limitar a saída a dez linhas e assumir que o restante está correto.
@@ -58,7 +66,9 @@
 - [ ] D) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
 - [ ] E) Executar a consulta apenas uma vez sem mensagem de erro.
 
-5. Ordene a construção de uma consulta para **Banco relacional e SELECT**.
+5. **Referência — atividade 5:** Salve tudo em `03-sql/dia21/select_basico.sql` e exporte os resultados principais para CSV.
+
+   **Pergunta:** Ordene a construção de uma consulta para **Banco relacional e SELECT**.
 
 - A) Definir a pergunta, a métrica e a granularidade.
 - B) Identificar tabelas, campos e chaves necessárias.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a investigação de uma consulta incorreta em **Banco relacional e SELECT**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a investigação de uma consulta incorreta em **Banco relacional e SELECT**.
 
 - A) Conferir chaves, duplicidades, filtros e contagens.
 - B) Executar separadamente cada etapa ou CTE.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Bancos de dados relacionais e SQL** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
 - **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

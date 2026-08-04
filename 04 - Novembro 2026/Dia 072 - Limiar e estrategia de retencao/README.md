@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao desenvolver **Limiar e estratégia de retenção**, qual definição evita um alvo ambíguo ou vazamento de dados?
+1. **Referência — atividade 1:** Calcule custo e volume de campanhas para 20 limiares entre 0.05 e 0.95.
+
+   **Pergunta:** Ao desenvolver **Limiar e estratégia de retenção**, qual definição evita um alvo ambíguo ou vazamento de dados?
 
 - [ ] A) Usar informações posteriores ao cancelamento para prever o próprio cancelamento.
 - [ ] B) Alterar a definição do alvo para melhorar a métrica do modelo.
@@ -34,7 +36,9 @@
 - [ ] D) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
 - [ ] E) Chamar de churn qualquer cliente com poucos registros.
 
-2. Como avaliar um modelo ligado a **Limiar e estratégia de retenção** para uma estratégia de retenção?
+2. **Referência — atividade 2:** Defina três estratégias de retenção por risco e valor do cliente.
+
+   **Pergunta:** Como avaliar um modelo ligado a **Limiar e estratégia de retenção** para uma estratégia de retenção?
 
 - [ ] A) Ignorando a capacidade operacional da equipe de retenção.
 - [ ] B) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
@@ -42,7 +46,9 @@
 - [ ] D) Priorizando somente a acurácia geral.
 - [ ] E) Contatando todos os clientes classificados pelo modelo.
 
-3. Qual análise ajuda a encontrar riscos escondidos em **Limiar e estratégia de retenção**?
+3. **Referência — atividade 3:** Simule orçamento limitado e selecione os clientes com maior benefício esperado.
+
+   **Pergunta:** Qual análise ajuda a encontrar riscos escondidos em **Limiar e estratégia de retenção**?
 
 - [ ] A) Avaliar apenas os clientes com maior probabilidade.
 - [ ] B) Excluir segmentos pequenos antes de medir os erros.
@@ -50,7 +56,9 @@
 - [ ] D) Conferir somente o desempenho no conjunto de treino.
 - [ ] E) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
 
-4. Qual é a melhor ligação entre um modelo de **Limiar e estratégia de retenção** e uma ação de negócio?
+4. **Referência — atividade 4:** Calcule retorno estimado e ponto de equilíbrio.
+
+   **Pergunta:** Qual é a melhor ligação entre um modelo de **Limiar e estratégia de retenção** e uma ação de negócio?
 
 - [ ] A) Escolher a ação apenas pela variável mais importante do modelo.
 - [ ] B) Medir sucesso somente pelo número de contatos realizados.
@@ -58,7 +66,9 @@
 - [ ] D) Enviar a probabilidade bruta sem orientar seu uso.
 - [ ] E) Considerar todo cliente de alto risco automaticamente perdido.
 
-5. Ordene a construção de um projeto relacionado a **Limiar e estratégia de retenção**.
+5. **Referência — atividade 5:** Crie regras de exclusão para evitar ofertas inadequadas.
+
+   **Pergunta:** Ordene a construção de um projeto relacionado a **Limiar e estratégia de retenção**.
 
 - A) Definir população, churn, datas e objetivo de negócio.
 - B) Transformar previsões em estratégia e comunicar limitações.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a criação de uma política de retenção baseada em **Limiar e estratégia de retenção**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a criação de uma política de retenção baseada em **Limiar e estratégia de retenção**.
 
 - A) Escolher limiares com base em custo e benefício.
 - B) Definir segmentos e ações possíveis para cada perfil.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Estratégias de retenção orientadas por dados** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

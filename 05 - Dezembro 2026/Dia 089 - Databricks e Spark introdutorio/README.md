@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual característica torna um pipeline de **Databricks e Spark introdutório** seguro para ser executado novamente?
+1. **Referência — atividade 1:** Crie conta/ambiente Databricks Free ou use PySpark local.
+
+   **Pergunta:** Qual característica torna um pipeline de **Databricks e Spark introdutório** seguro para ser executado novamente?
 
 - [ ] A) Ignorar registros já processados sem usar uma chave.
 - [ ] B) Ser idempotente, produzindo estado consistente sem duplicar ou corromper dados.
@@ -34,7 +36,9 @@
 - [ ] D) Apagar toda a origem antes de iniciar.
 - [ ] E) Depender de correções manuais após cada execução.
 
-2. Qual controle de qualidade é mais útil em **Databricks e Spark introdutório**?
+2. **Referência — atividade 2:** Carregue `clientes_telecom.csv` como DataFrame Spark e inspecione esquema.
+
+   **Pergunta:** Qual controle de qualidade é mais útil em **Databricks e Spark introdutório**?
 
 - [ ] A) Conferir apenas se o processo terminou sem erro.
 - [ ] B) Aceitar qualquer alteração de esquema automaticamente.
@@ -42,7 +46,9 @@
 - [ ] D) Remover registros problemáticos sem contabilizá-los.
 - [ ] E) Validar esquema, chaves, nulidade, faixas, duplicidades e volume em pontos definidos do fluxo.
 
-3. O que melhora a observabilidade de uma solução de **Databricks e Spark introdutório**?
+3. **Referência — atividade 3:** Faça seleção, filtro, agregação, join e criação de coluna.
+
+   **Pergunta:** O que melhora a observabilidade de uma solução de **Databricks e Spark introdutório**?
 
 - [ ] A) Registrar somente o horário de início.
 - [ ] B) Depender da observação manual da pasta de saída.
@@ -50,7 +56,9 @@
 - [ ] D) Mensagens genéricas como 'deu erro'.
 - [ ] E) Ocultar falhas e repetir o processo indefinidamente.
 
-4. Como relacionar **Databricks e Spark introdutório** a uma necessidade de negócio?
+4. **Referência — atividade 4:** Compare sintaxe e execução com pandas em cinco operações.
+
+   **Pergunta:** Como relacionar **Databricks e Spark introdutório** a uma necessidade de negócio?
 
 - [ ] A) Definir prazo, frequência, qualidade e consumidores dos dados antes de escolher a arquitetura.
 - [ ] B) Escolher a ferramenta mais complexa disponível.
@@ -58,7 +66,9 @@
 - [ ] D) Manter dados sem informar origem ou atualização.
 - [ ] E) Priorizar volume acima de confiabilidade e custo.
 
-5. Ordene um fluxo de dados para **Databricks e Spark introdutório**.
+5. **Referência — atividade 5:** Salve resultado em Parquet e explique quando Spark é desnecessário.
+
+   **Pergunta:** Ordene um fluxo de dados para **Databricks e Spark introdutório**.
 
 - A) Extrair os dados com identificação da execução.
 - B) Validar e transformar preservando rastreabilidade.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a resposta a uma falha em **Databricks e Spark introdutório**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a resposta a uma falha em **Databricks e Spark introdutório**.
 
 - A) Identificar execução, etapa e dados afetados.
 - B) Corrigir a causa mantendo os dados íntegros.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Databricks e Apache Spark** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática melhora a manutenção de uma solução de **Docker**?
+1. **Referência — atividade 1:** Crie `Dockerfile` para a API com imagem enxuta, usuário não root quando possível e dependências fixadas.
+
+   **Pergunta:** Qual prática melhora a manutenção de uma solução de **Docker**?
 
 - [ ] A) Alterar vários comportamentos sem registrar o motivo.
 - [ ] B) Duplicar trechos para evitar criar funções.
@@ -34,7 +36,9 @@
 - [ ] D) Colocar dados, regras e execução em uma única função.
 - [ ] E) Salvar segredos diretamente no código.
 
-2. Qual estratégia de testes é mais adequada em **Docker**?
+2. **Referência — atividade 2:** Crie `.dockerignore` e não copie dados sensíveis.
+
+   **Pergunta:** Qual estratégia de testes é mais adequada em **Docker**?
 
 - [ ] A) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
 - [ ] B) Testar apenas manualmente depois da publicação.
@@ -42,7 +46,9 @@
 - [ ] D) Validar somente o caminho de sucesso.
 - [ ] E) Depender da mesma implementação para calcular e conferir a saída.
 
-3. Qual cuidado é essencial ao publicar uma aplicação de **Docker**?
+3. **Referência — atividade 3:** Construa imagem, execute container e teste endpoints.
+
+   **Pergunta:** Qual cuidado é essencial ao publicar uma aplicação de **Docker**?
 
 - [ ] A) Imprimir credenciais nos logs para facilitar suporte.
 - [ ] B) Modificar o ambiente de produção manualmente sem registro.
@@ -50,7 +56,9 @@
 - [ ] D) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
 - [ ] E) Usar diretamente a última alteração sem versão.
 
-4. Como saber se uma solução de **Docker** continua saudável após a publicação?
+4. **Referência — atividade 4:** Passe configurações por variável de ambiente.
+
+   **Pergunta:** Como saber se uma solução de **Docker** continua saudável após a publicação?
 
 - [ ] A) Avaliar somente a métrica obtida durante o treinamento.
 - [ ] B) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
@@ -58,7 +66,9 @@
 - [ ] D) Considerar ausência de reclamações como prova suficiente.
 - [ ] E) Observar apenas o uso de memória uma vez por mês.
 
-5. Ordene uma mudança segura em **Docker**.
+5. **Referência — atividade 5:** Registre tamanho da imagem, tempo de build e comandos no README.
+
+   **Pergunta:** Ordene uma mudança segura em **Docker**.
 
 - A) Definir o comportamento que precisa mudar.
 - B) Versionar, publicar e observar a mudança.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a resposta a um problema após publicar **Docker**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a resposta a um problema após publicar **Docker**.
 
 - A) Detectar o sintoma por métricas, logs ou alerta.
 - B) Republicar com controle e documentar o incidente.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Docker** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

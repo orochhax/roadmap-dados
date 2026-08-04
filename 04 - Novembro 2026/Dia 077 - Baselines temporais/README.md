@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual separação de dados é adequada em **Baselines temporais**?
+1. **Referência — atividade 1:** Implemente baselines: último valor, média móvel de 7 dias, média do mesmo dia da semana e média sazonal.
+
+   **Pergunta:** Qual separação de dados é adequada em **Baselines temporais**?
 
 - [ ] A) Usar os períodos futuros no cálculo das variáveis de treino.
 - [ ] B) Escolher aleatoriamente linhas do mesmo período para teste.
@@ -34,7 +36,9 @@
 - [ ] D) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
 - [ ] E) Embaralhar todas as datas antes da divisão.
 
-2. Por que um baseline simples é importante em **Baselines temporais**?
+2. **Referência — atividade 2:** Use validação walk-forward em pelo menos três janelas.
+
+   **Pergunta:** Por que um baseline simples é importante em **Baselines temporais**?
 
 - [ ] A) Porque substitui a definição do horizonte de previsão.
 - [ ] B) Porque mostra se o modelo supera regras como repetir o último valor ou a sazonalidade anterior.
@@ -42,7 +46,9 @@
 - [ ] D) Porque sempre será o modelo usado em produção.
 - [ ] E) Porque garante que não existam valores ausentes.
 
-3. Qual cuidado evita informação do futuro em variáveis de **Baselines temporais**?
+3. **Referência — atividade 3:** Calcule MAE, RMSE e MAPE/SMAPE quando adequado.
+
+   **Pergunta:** Qual cuidado evita informação do futuro em variáveis de **Baselines temporais**?
 
 - [ ] A) Centralizar médias móveis com dados anteriores e posteriores.
 - [ ] B) Preencher períodos passados com valores observados no futuro.
@@ -50,7 +56,9 @@
 - [ ] D) Ordenar por valor em vez de ordenar por data.
 - [ ] E) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
 
-4. Como escolher uma solução de **Baselines temporais** para apoiar uma decisão?
+4. **Referência — atividade 4:** Compare desempenho por períodos de alta e baixa demanda.
+
+   **Pergunta:** Como escolher uma solução de **Baselines temporais** para apoiar uma decisão?
 
 - [ ] A) Usar o mesmo horizonte para qualquer decisão.
 - [ ] B) Comparar modelos em períodos de teste diferentes.
@@ -58,7 +66,9 @@
 - [ ] D) Escolher apenas pela menor falha média de treinamento.
 - [ ] E) Ignorar mudanças de regime quando a métrica global é boa.
 
-5. Ordene um fluxo de previsão para **Baselines temporais**.
+5. **Referência — atividade 5:** Escolha baseline oficial que qualquer modelo deve superar.
+
+   **Pergunta:** Ordene um fluxo de previsão para **Baselines temporais**.
 
 - A) Criar baselines e variáveis usando apenas o passado.
 - B) Ordenar a série e verificar falhas, datas e mudanças de regime.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a atualização de uma previsão ligada a **Baselines temporais**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a atualização de uma previsão ligada a **Baselines temporais**.
 
 - A) Gerar previsões para o horizonte definido.
 - B) Executar o pipeline com a versão aprovada.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Baselines de forecasting** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

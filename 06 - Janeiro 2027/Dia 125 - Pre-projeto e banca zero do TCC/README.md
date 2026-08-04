@@ -54,7 +54,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!project] Projeto semanal — Pré-projeto e banca zero do TCC
 > **Desafio:** Defender o plano do Portfolio Intelligence Lab antes de implementá-lo, eliminando escopo vago, vieses de backtest e riscos previsíveis.
@@ -90,23 +89,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Planejamento de projetos de Ciência de Dados** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
 - **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

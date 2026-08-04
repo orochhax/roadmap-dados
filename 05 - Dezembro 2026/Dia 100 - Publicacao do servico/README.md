@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática melhora a manutenção de uma solução de **Publicação do serviço**?
+1. **Referência — atividade 1:** Publique localmente via Docker Compose ou em serviço gratuito compatível, quando disponível.
+
+   **Pergunta:** Qual prática melhora a manutenção de uma solução de **Publicação do serviço**?
 
 - [ ] A) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
 - [ ] B) Colocar dados, regras e execução em uma única função.
@@ -34,7 +36,9 @@
 - [ ] D) Alterar vários comportamentos sem registrar o motivo.
 - [ ] E) Duplicar trechos para evitar criar funções.
 
-2. Qual estratégia de testes é mais adequada em **Publicação do serviço**?
+2. **Referência — atividade 2:** Execute teste de ponta a ponta com dados novos.
+
+   **Pergunta:** Qual estratégia de testes é mais adequada em **Publicação do serviço**?
 
 - [ ] A) Criar testes que nunca falham para manter a integração verde.
 - [ ] B) Validar somente o caminho de sucesso.
@@ -42,7 +46,9 @@
 - [ ] D) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
 - [ ] E) Testar apenas manualmente depois da publicação.
 
-3. Qual cuidado é essencial ao publicar uma aplicação de **Publicação do serviço**?
+3. **Referência — atividade 3:** Crie página de documentação para consumidores da API.
+
+   **Pergunta:** Qual cuidado é essencial ao publicar uma aplicação de **Publicação do serviço**?
 
 - [ ] A) Remover validações para reduzir o tempo de resposta.
 - [ ] B) Versionar artefatos, validar configuração e segredos, registrar logs e prever uma forma segura de reversão.
@@ -50,7 +56,9 @@
 - [ ] D) Imprimir credenciais nos logs para facilitar suporte.
 - [ ] E) Modificar o ambiente de produção manualmente sem registro.
 
-4. Como saber se uma solução de **Publicação do serviço** continua saudável após a publicação?
+4. **Referência — atividade 4:** Faça teste de carga leve e registre limites.
+
+   **Pergunta:** Como saber se uma solução de **Publicação do serviço** continua saudável após a publicação?
 
 - [ ] A) Conferir somente se o computador do desenvolvedor está ligado.
 - [ ] B) Considerar ausência de reclamações como prova suficiente.
@@ -58,7 +66,9 @@
 - [ ] D) Avaliar somente a métrica obtida durante o treinamento.
 - [ ] E) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
 
-5. Ordene uma mudança segura em **Publicação do serviço**.
+5. **Referência — atividade 5:** Grave demonstração de cinco minutos do dado até resposta.
+
+   **Pergunta:** Ordene uma mudança segura em **Publicação do serviço**.
 
 - A) Definir o comportamento que precisa mudar.
 - B) Criar ou ajustar testes que representem esse comportamento.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a resposta a um problema após publicar **Publicação do serviço**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a resposta a um problema após publicar **Publicação do serviço**.
 
 - A) Detectar o sintoma por métricas, logs ou alerta.
 - B) Delimitar usuários, versões e componentes afetados.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
@@ -124,23 +135,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Implantação de modelos** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

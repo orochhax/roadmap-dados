@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual decisão deve orientar um produto de **Definição do produto integrador**?
+1. **Referência — atividade 1:** Escolha um produto integrador entre churn, crédito, forecasting ou RAG e defina usuário, decisão e valor.
+
+   **Pergunta:** Qual decisão deve orientar um produto de **Definição do produto integrador**?
 
 - [ ] A) Incluir o maior número possível de tecnologias.
 - [ ] B) Começar pela interface sem definir o problema.
@@ -34,7 +36,9 @@
 - [ ] D) Trocar o objetivo sempre que surgir uma ferramenta nova.
 - [ ] E) Resolver uma necessidade clara de um usuário com uma saída que apoie uma ação mensurável.
 
-2. O que reduz falhas entre componentes em **Definição do produto integrador**?
+2. **Referência — atividade 2:** Escreva escopo de cinco dias com backlog priorizado MoSCoW.
+
+   **Pergunta:** O que reduz falhas entre componentes em **Definição do produto integrador**?
 
 - [ ] A) Depender de passos manuais não documentados.
 - [ ] B) Compartilhar estado interno sem uma interface definida.
@@ -42,7 +46,9 @@
 - [ ] D) Cada componente interpretar os campos de uma forma.
 - [ ] E) Alterar formatos sem avisar os consumidores.
 
-3. Qual teste oferece mais confiança em uma entrega de **Definição do produto integrador**?
+3. **Referência — atividade 3:** Desenhe arquitetura e fluxo de dados.
+
+   **Pergunta:** Qual teste oferece mais confiança em uma entrega de **Definição do produto integrador**?
 
 - [ ] A) Executar o fluxo completo com casos representativos e simular falhas nas principais integrações.
 - [ ] B) Testar apenas cada tela isoladamente.
@@ -50,7 +56,9 @@
 - [ ] D) Executar apenas com o conjunto usado no desenvolvimento.
 - [ ] E) Ignorar erros externos quando o código local funciona.
 
-4. Como avaliar o valor de uma solução de **Definição do produto integrador** após a entrega?
+4. **Referência — atividade 4:** Defina métricas técnicas, de negócio e de experiência.
+
+   **Pergunta:** Como avaliar o valor de uma solução de **Definição do produto integrador** após a entrega?
 
 - [ ] A) Usar somente o número de tecnologias integradas.
 - [ ] B) Considerar publicação equivalente a sucesso.
@@ -58,7 +66,9 @@
 - [ ] D) Acompanhar uso, qualidade técnica e efeito sobre a decisão ou processo que motivou o produto.
 - [ ] E) Medir apenas a quantidade de linhas de código.
 
-5. Ordene a construção de um produto de **Definição do produto integrador**.
+5. **Referência — atividade 5:** Abra issues e marcos no GitHub.
+
+   **Pergunta:** Ordene a construção de um produto de **Definição do produto integrador**.
 
 - A) Definir usuário, problema, decisão e medida de sucesso.
 - B) Publicar, observar o uso e iterar com evidências.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação da entrega de **Definição do produto integrador**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação da entrega de **Definição do produto integrador**.
 
 - A) Revisar documentação, configuração e instruções de execução.
 - B) Coletar feedback e priorizar correções ou melhorias.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Desenvolvimento de produtos de dados** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
 - **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

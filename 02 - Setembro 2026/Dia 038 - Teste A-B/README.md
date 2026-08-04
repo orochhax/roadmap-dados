@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao estudar **Teste A/B**, por que uma única medida-resumo pode ser insuficiente?
+1. **Referência — atividade 1:** Defina experimento A/B de uma oferta de retenção: unidade, população, métrica primária, guardrails, duração e critério de parada.
+
+   **Pergunta:** Ao estudar **Teste A/B**, por que uma única medida-resumo pode ser insuficiente?
 
 - [ ] A) Porque a mediana sempre substitui qualquer outra medida.
 - [ ] B) Porque gráficos tornam cálculos estatísticos desnecessários.
@@ -34,7 +36,9 @@
 - [ ] D) Porque médias só podem ser usadas com dados de texto.
 - [ ] E) Porque toda análise exige exatamente cinco métricas.
 
-2. Qual interpretação estatística é mais responsável em uma análise de **Teste A/B**?
+2. **Referência — atividade 2:** Gere dados sintéticos de 2.000 clientes por grupo com taxas 10% e 11,5%; calcule diferença, IC e teste.
+
+   **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Teste A/B**?
 
 - [ ] A) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
 - [ ] B) Tratar qualquer valor-p pequeno como prova de grande impacto.
@@ -42,7 +46,9 @@
 - [ ] D) Escolher a hipótese depois de observar os dados.
 - [ ] E) Ignorar o tamanho da amostra quando a média parece convincente.
 
-3. Qual situação ameaça mais a validade de uma conclusão sobre **Teste A/B**?
+3. **Referência — atividade 3:** Calcule tamanho de amostra aproximado para detectar aumento mínimo de 1,5 ponto percentual.
+
+   **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Teste A/B**?
 
 - [ ] A) Um gráfico com título curto.
 - [ ] B) Uma média apresentada com duas casas decimais.
@@ -50,7 +56,9 @@
 - [ ] D) Uma amostra enviesada que não representa adequadamente a população de interesse.
 - [ ] E) Uma tabela com colunas em ordem diferente.
 
-4. Como usar evidência de **Teste A/B** em uma decisão real?
+4. **Referência — atividade 4:** Simule peeking diário e explique como aumenta falso positivo.
+
+   **Pergunta:** Como usar evidência de **Teste A/B** em uma decisão real?
 
 - [ ] A) Repetir testes até surgir uma conclusão favorável.
 - [ ] B) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
@@ -58,7 +66,9 @@
 - [ ] D) Eliminar a incerteza arredondando os números.
 - [ ] E) Tomar a decisão apenas pelo sinal positivo ou negativo.
 
-5. Ordene um estudo estatístico relacionado a **Teste A/B**.
+5. **Referência — atividade 5:** Crie relatório de decisão: lançar, repetir ou abandonar, justificando risco e impacto.
+
+   **Pergunta:** Ordene um estudo estatístico relacionado a **Teste A/B**.
 
 - A) Coletar e verificar a qualidade dos dados.
 - B) Definir população, amostra, métrica e método.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as etapas de um experimento controlado ligado a **Teste A/B**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Teste A/B**.
 
 - A) Definir hipótese, métrica principal e regra de decisão.
 - B) Decidir com base no efeito, no risco e na relevância prática.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes A/B** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de tirar conclusões em **Storytelling e recomendação**, qual é a prática mais confiável?
+1. **Referência — atividade 1:** Escolha três achados da EDA e transforme cada um em uma estrutura: contexto → evidência → impacto → recomendação.
+
+   **Pergunta:** Antes de tirar conclusões em **Storytelling e recomendação**, qual é a prática mais confiável?
 
 - [ ] A) Calcular médias antes de entender o que cada linha representa.
 - [ ] B) Considerar os nomes das colunas suficientes para validar os dados.
@@ -34,7 +36,9 @@
 - [ ] D) Começar pelo gráfico mais bonito e escolher os dados depois.
 - [ ] E) Remover todas as linhas incompletas sem medir o impacto.
 
-2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Storytelling e recomendação**?
+2. **Referência — atividade 2:** Crie um slide ou página Markdown para cada achado com no máximo um gráfico e três frases.
+
+   **Pergunta:** Qual cuidado evita conclusões distorcidas ao trabalhar com **Storytelling e recomendação**?
 
 - [ ] A) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
 - [ ] B) Somar todas as colunas numéricas independentemente do significado.
@@ -42,7 +46,9 @@
 - [ ] D) Usar apenas as primeiras linhas como representação de toda a base.
 - [ ] E) Substituir valores ausentes pelo maior valor disponível.
 
-3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Storytelling e recomendação**?
+3. **Referência — atividade 3:** Escreva uma recomendação deliberadamente exagerada e depois revise indicando o que os dados realmente permitem concluir.
+
+   **Pergunta:** Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Storytelling e recomendação**?
 
 - [ ] A) Trocar as cores do gráfico até a tendência ficar mais visível.
 - [ ] B) Excluir categorias pequenas antes de examiná-las.
@@ -50,7 +56,9 @@
 - [ ] D) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
 - [ ] E) Ordenar as colunas pelo tamanho do nome.
 
-4. Como uma análise de **Storytelling e recomendação** deve ser apresentada para apoiar uma decisão?
+4. **Referência — atividade 4:** Grave áudio de três minutos explicando a análise sem termos técnicos desnecessários.
+
+   **Pergunta:** Como uma análise de **Storytelling e recomendação** deve ser apresentada para apoiar uma decisão?
 
 - [ ] A) Escolhendo a recomendação mais popular, mesmo sem evidência.
 - [ ] B) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
@@ -58,7 +66,9 @@
 - [ ] D) Omitindo incertezas para transmitir mais confiança.
 - [ ] E) Usando apenas termos técnicos, sem explicar o impacto.
 
-5. Ordene um fluxo de análise para uma atividade de **Storytelling e recomendação**.
+5. **Referência — atividade 5:** Peça a outra pessoa para resumir a mensagem; registre o que ela entendeu errado e ajuste o material.
+
+   **Pergunta:** Ordene um fluxo de análise para uma atividade de **Storytelling e recomendação**.
 
 - A) Preparar os dados sem perder a granularidade necessária.
 - B) Inspecionar a estrutura e a qualidade dos dados.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação de uma visualização ou entrega sobre **Storytelling e recomendação**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação de uma visualização ou entrega sobre **Storytelling e recomendação**.
 
 - A) Identificar o público e a decisão que será apoiada.
 - B) Apresentar a mensagem principal e o próximo passo.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Data Storytelling e recomendação** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Python`.
 - **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de tirar conclusões em **pandas: Series e DataFrame**, qual é a prática mais confiável?
+1. **Referência — atividade 1:** Crie `pandas_basico.ipynb` e monte um DataFrame de 12 incidentes a partir de um dicionário.
+
+   **Pergunta:** Antes de tirar conclusões em **pandas: Series e DataFrame**, qual é a prática mais confiável?
 
 - [ ] A) Remover todas as linhas incompletas sem medir o impacto.
 - [ ] B) Calcular médias antes de entender o que cada linha representa.
@@ -34,7 +36,9 @@
 - [ ] D) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
 - [ ] E) Começar pelo gráfico mais bonito e escolher os dados depois.
 
-2. Qual cuidado evita conclusões distorcidas ao trabalhar com **pandas: Series e DataFrame**?
+2. **Referência — atividade 2:** Inspecione `shape`, `columns`, `dtypes`, `head`, `tail`, `info` e `describe`; escreva uma interpretação de cada saída.
+
+   **Pergunta:** Qual cuidado evita conclusões distorcidas ao trabalhar com **pandas: Series e DataFrame**?
 
 - [ ] A) Substituir valores ausentes pelo maior valor disponível.
 - [ ] B) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
@@ -42,7 +46,9 @@
 - [ ] D) Arredondar os valores antes de analisar diferenças.
 - [ ] E) Usar apenas as primeiras linhas como representação de toda a base.
 
-3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **pandas: Series e DataFrame**?
+3. **Referência — atividade 3:** Selecione colunas com `[]`, linhas com `loc` e posições com `iloc`; crie cinco filtros combinando cidade, severidade e duração.
+
+   **Pergunta:** Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **pandas: Series e DataFrame**?
 
 - [ ] A) Ordenar as colunas pelo tamanho do nome.
 - [ ] B) Trocar as cores do gráfico até a tendência ficar mais visível.
@@ -50,7 +56,9 @@
 - [ ] D) Duplicar a base e repetir o mesmo cálculo.
 - [ ] E) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
 
-4. Como uma análise de **pandas: Series e DataFrame** deve ser apresentada para apoiar uma decisão?
+4. **Referência — atividade 4:** Crie colunas `duracao_horas` e `impacto = duracao_min * clientes_afetados` sem usar laço.
+
+   **Pergunta:** Como uma análise de **pandas: Series e DataFrame** deve ser apresentada para apoiar uma decisão?
 
 - [ ] A) Usando apenas termos técnicos, sem explicar o impacto.
 - [ ] B) Escolhendo a recomendação mais popular, mesmo sem evidência.
@@ -58,7 +66,9 @@
 - [ ] D) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
 - [ ] E) Omitindo incertezas para transmitir mais confiança.
 
-5. Ordene um fluxo de análise para uma atividade de **pandas: Series e DataFrame**.
+5. **Referência — atividade 5:** Ordene pelos maiores impactos, selecione os três principais e confirme manualmente os cálculos.
+
+   **Pergunta:** Ordene um fluxo de análise para uma atividade de **pandas: Series e DataFrame**.
 
 - A) Definir a pergunta que precisa ser respondida.
 - B) Inspecionar a estrutura e a qualidade dos dados.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação de uma visualização ou entrega sobre **pandas: Series e DataFrame**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação de uma visualização ou entrega sobre **pandas: Series e DataFrame**.
 
 - A) Escolher o tipo de visual compatível com a comparação.
 - B) Selecionar a métrica e o recorte adequados.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **pandas** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Python`.
 - **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual separação de dados é adequada em **Fundamentos temporais**?
+1. **Referência — atividade 1:** Carregue `energia.csv`, converta índice temporal e verifique frequência, lacunas e duplicidades.
+
+   **Pergunta:** Qual separação de dados é adequada em **Fundamentos temporais**?
 
 - [ ] A) Embaralhar todas as datas antes da divisão.
 - [ ] B) Usar os períodos futuros no cálculo das variáveis de treino.
@@ -34,7 +36,9 @@
 - [ ] D) Treinar e avaliar com toda a série ao mesmo tempo.
 - [ ] E) Treinar no passado e validar em períodos posteriores, preservando a ordem temporal.
 
-2. Por que um baseline simples é importante em **Fundamentos temporais**?
+2. **Referência — atividade 2:** Separe tendência, sazonalidade e ruído por gráficos e médias móveis.
+
+   **Pergunta:** Por que um baseline simples é importante em **Fundamentos temporais**?
 
 - [ ] A) Porque garante que não existam valores ausentes.
 - [ ] B) Porque substitui a definição do horizonte de previsão.
@@ -42,7 +46,9 @@
 - [ ] D) Porque elimina a necessidade de avaliar modelos mais complexos.
 - [ ] E) Porque sempre será o modelo usado em produção.
 
-3. Qual cuidado evita informação do futuro em variáveis de **Fundamentos temporais**?
+3. **Referência — atividade 3:** Calcule autocorrelação em atrasos 1, 7 e 30.
+
+   **Pergunta:** Qual cuidado evita informação do futuro em variáveis de **Fundamentos temporais**?
 
 - [ ] A) Calcular defasagens e médias móveis usando somente observações disponíveis antes de cada previsão.
 - [ ] B) Centralizar médias móveis com dados anteriores e posteriores.
@@ -50,7 +56,9 @@
 - [ ] D) Usar a série completa para ajustar cada transformação.
 - [ ] E) Ordenar por valor em vez de ordenar por data.
 
-4. Como escolher uma solução de **Fundamentos temporais** para apoiar uma decisão?
+4. **Referência — atividade 4:** Crie features de calendário e lags sem olhar o futuro.
+
+   **Pergunta:** Como escolher uma solução de **Fundamentos temporais** para apoiar uma decisão?
 
 - [ ] A) Ignorar mudanças de regime quando a métrica global é boa.
 - [ ] B) Usar o mesmo horizonte para qualquer decisão.
@@ -58,7 +66,9 @@
 - [ ] D) Avaliar por horizonte e período, traduzindo os erros em impacto operacional ou financeiro.
 - [ ] E) Escolher apenas pela menor falha média de treinamento.
 
-5. Ordene um fluxo de previsão para **Fundamentos temporais**.
+5. **Referência — atividade 5:** Defina horizonte de previsão e decisão operacional associada.
+
+   **Pergunta:** Ordene um fluxo de previsão para **Fundamentos temporais**.
 
 - A) Comparar erros, comunicar incerteza e definir o uso da previsão.
 - B) Criar baselines e variáveis usando apenas o passado.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a atualização de uma previsão ligada a **Fundamentos temporais**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a atualização de uma previsão ligada a **Fundamentos temporais**.
 
 - A) Receber e validar os dados do período mais recente.
 - B) Gerar previsões para o horizonte definido.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Séries temporais** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

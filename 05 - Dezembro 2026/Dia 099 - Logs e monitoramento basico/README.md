@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática melhora a manutenção de uma solução de **Logs e monitoramento básico**?
+1. **Referência — atividade 1:** Adicione logs de requisição com tempo, status, versão e identificador, sem registrar dados sensíveis.
+
+   **Pergunta:** Qual prática melhora a manutenção de uma solução de **Logs e monitoramento básico**?
 
 - [ ] A) Duplicar trechos para evitar criar funções.
 - [ ] B) Separar responsabilidades, usar configuração explícita e manter mudanças pequenas e versionadas.
@@ -34,7 +36,9 @@
 - [ ] D) Salvar segredos diretamente no código.
 - [ ] E) Alterar vários comportamentos sem registrar o motivo.
 
-2. Qual estratégia de testes é mais adequada em **Logs e monitoramento básico**?
+2. **Referência — atividade 2:** Crie métricas simples: contagem, latência, erros e distribuição de probabilidades.
+
+   **Pergunta:** Qual estratégia de testes é mais adequada em **Logs e monitoramento básico**?
 
 - [ ] A) Testar apenas manualmente depois da publicação.
 - [ ] B) Criar testes que nunca falham para manter a integração verde.
@@ -42,7 +46,9 @@
 - [ ] D) Depender da mesma implementação para calcular e conferir a saída.
 - [ ] E) Combinar testes pequenos das regras com testes das integrações e dos contratos principais.
 
-3. Qual cuidado é essencial ao publicar uma aplicação de **Logs e monitoramento básico**?
+3. **Referência — atividade 3:** Simule 100 requisições válidas e 20 inválidas.
+
+   **Pergunta:** Qual cuidado é essencial ao publicar uma aplicação de **Logs e monitoramento básico**?
 
 - [ ] A) Modificar o ambiente de produção manualmente sem registro.
 - [ ] B) Remover validações para reduzir o tempo de resposta.
@@ -50,7 +56,9 @@
 - [ ] D) Usar diretamente a última alteração sem versão.
 - [ ] E) Imprimir credenciais nos logs para facilitar suporte.
 
-4. Como saber se uma solução de **Logs e monitoramento básico** continua saudável após a publicação?
+4. **Referência — atividade 4:** Defina alertas conceituais para erro, latência e drift.
+
+   **Pergunta:** Como saber se uma solução de **Logs e monitoramento básico** continua saudável após a publicação?
 
 - [ ] A) Monitorar disponibilidade, erros, latência, qualidade das entradas e comportamento das saídas.
 - [ ] B) Conferir somente se o computador do desenvolvedor está ligado.
@@ -58,7 +66,9 @@
 - [ ] D) Observar apenas o uso de memória uma vez por mês.
 - [ ] E) Avaliar somente a métrica obtida durante o treinamento.
 
-5. Ordene uma mudança segura em **Logs e monitoramento básico**.
+5. **Referência — atividade 5:** Crie runbook de investigação.
+
+   **Pergunta:** Ordene uma mudança segura em **Logs e monitoramento básico**.
 
 - A) Versionar, publicar e observar a mudança.
 - B) Criar ou ajustar testes que representem esse comportamento.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a resposta a um problema após publicar **Logs e monitoramento básico**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a resposta a um problema após publicar **Logs e monitoramento básico**.
 
 - A) Republicar com controle e documentar o incidente.
 - B) Delimitar usuários, versões e componentes afetados.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Logs e monitoramento** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de escrever uma consulta de **Simulado SQL**, o que deve ser definido primeiro?
+1. **Referência — atividade 1:** Resolva um simulado cronometrado com 20 questões: cinco filtros, quatro agregações, quatro joins, três CTEs, duas janelas e duas datas.
+
+   **Pergunta:** Antes de escrever uma consulta de **Simulado SQL**, o que deve ser definido primeiro?
 
 - [ ] A) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
 - [ ] B) A quantidade máxima de linhas que caberá na tela.
@@ -34,7 +36,9 @@
 - [ ] D) O uso obrigatório de todas as colunas disponíveis.
 - [ ] E) A formatação visual da tabela final antes dos cálculos.
 
-2. Qual cuidado é essencial ao usar junções em uma atividade de **Simulado SQL**?
+2. **Referência — atividade 2:** Use os arquivos `simulado_sql_perguntas.md` e `simulado_sql_respostas.sql`; não abra respostas durante os primeiros 90 minutos.
+
+   **Pergunta:** Qual cuidado é essencial ao usar junções em uma atividade de **Simulado SQL**?
 
 - [ ] A) Juntar tabelas por qualquer coluna com o mesmo tipo.
 - [ ] B) Remover duplicidades depois da junção sem investigar a origem.
@@ -42,7 +46,9 @@
 - [ ] D) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
 - [ ] E) Usar sempre `INNER JOIN`, independentemente da pergunta.
 
-3. Como valores NULL devem ser tratados em consultas relacionadas a **Simulado SQL**?
+3. **Referência — atividade 3:** Para cada questão, marque tempo, confiança de 1–5 e se precisou consultar documentação.
+
+   **Pergunta:** Como valores NULL devem ser tratados em consultas relacionadas a **Simulado SQL**?
 
 - [ ] A) Ignorando-os, pois bancos relacionais os convertem sozinhos.
 - [ ] B) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
@@ -50,7 +56,9 @@
 - [ ] D) Sempre como texto vazio, mesmo em colunas numéricas.
 - [ ] E) Excluindo automaticamente todas as linhas que contenham `NULL`.
 
-4. Qual verificação aumenta mais a confiança em uma consulta de **Simulado SQL**?
+4. **Referência — atividade 4:** Escolha as cinco piores respostas e reescreva do zero no fim do dia.
+
+   **Pergunta:** Qual verificação aumenta mais a confiança em uma consulta de **Simulado SQL**?
 
 - [ ] A) Executar a consulta apenas uma vez sem mensagem de erro.
 - [ ] B) Adicionar `ORDER BY` para que os números pareçam organizados.
@@ -58,7 +66,9 @@
 - [ ] D) Trocar nomes de aliases sem conferir os valores calculados.
 - [ ] E) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
 
-5. Ordene a construção de uma consulta para **Simulado SQL**.
+5. **Referência — atividade 5:** Crie uma folha de erros com categoria, causa, correção e regra que evitará repetição.
+
+   **Pergunta:** Ordene a construção de uma consulta para **Simulado SQL**.
 
 - A) Definir a pergunta, a métrica e a granularidade.
 - B) Montar filtros e junções da base da consulta.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a investigação de uma consulta incorreta em **Simulado SQL**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a investigação de uma consulta incorreta em **Simulado SQL**.
 
 - A) Reproduzir o problema com um recorte pequeno.
 - B) Executar separadamente cada etapa ou CTE.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
@@ -123,23 +134,3 @@
 - **Ação recomendada:** Após concluir todas as atividades do dia, atualize o título profissional e adicione ou reforce **SQL analítico** na seção Competências. Se a entrega estiver revisada e apresentável, inclua-a também em Projetos ou Destaques.
 - **Novo título sugerido:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

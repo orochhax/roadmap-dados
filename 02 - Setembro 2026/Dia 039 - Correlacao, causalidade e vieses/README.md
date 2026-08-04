@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao estudar **Correlação, causalidade e vieses**, por que uma única medida-resumo pode ser insuficiente?
+1. **Referência — atividade 1:** Calcule correlação Pearson e Spearman entre mensalidade, chamados, NPS e churn codificado.
+
+   **Pergunta:** Ao estudar **Correlação, causalidade e vieses**, por que uma única medida-resumo pode ser insuficiente?
 
 - [ ] A) Porque gráficos tornam cálculos estatísticos desnecessários.
 - [ ] B) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
@@ -34,7 +36,9 @@
 - [ ] D) Porque toda análise exige exatamente cinco métricas.
 - [ ] E) Porque a mediana sempre substitui qualquer outra medida.
 
-2. Qual interpretação estatística é mais responsável em uma análise de **Correlação, causalidade e vieses**?
+2. **Referência — atividade 2:** Crie três exemplos sintéticos: correlação sem causalidade, causalidade com baixa correlação linear e paradoxo de Simpson.
+
+   **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Correlação, causalidade e vieses**?
 
 - [ ] A) Tratar qualquer valor-p pequeno como prova de grande impacto.
 - [ ] B) Considerar correlação suficiente para afirmar causalidade.
@@ -42,7 +46,9 @@
 - [ ] D) Ignorar o tamanho da amostra quando a média parece convincente.
 - [ ] E) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
 
-3. Qual situação ameaça mais a validade de uma conclusão sobre **Correlação, causalidade e vieses**?
+3. **Referência — atividade 3:** Desenhe um DAG simples para relação entre plano, renda, mensalidade e churn.
+
+   **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Correlação, causalidade e vieses**?
 
 - [ ] A) Uma média apresentada com duas casas decimais.
 - [ ] B) Um arquivo salvo em uma pasta específica do projeto.
@@ -50,7 +56,9 @@
 - [ ] D) Uma tabela com colunas em ordem diferente.
 - [ ] E) Um gráfico com título curto.
 
-4. Como usar evidência de **Correlação, causalidade e vieses** em uma decisão real?
+4. **Referência — atividade 4:** Liste possíveis confundidores em uma análise de cancelamento.
+
+   **Pergunta:** Como usar evidência de **Correlação, causalidade e vieses** em uma decisão real?
 
 - [ ] A) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
 - [ ] B) Escolher automaticamente a opção com a maior média observada.
@@ -58,7 +66,9 @@
 - [ ] D) Tomar a decisão apenas pelo sinal positivo ou negativo.
 - [ ] E) Repetir testes até surgir uma conclusão favorável.
 
-5. Ordene um estudo estatístico relacionado a **Correlação, causalidade e vieses**.
+5. **Referência — atividade 5:** Reescreva cinco frases causais como associações honestas quando o desenho não sustenta causalidade.
+
+   **Pergunta:** Ordene um estudo estatístico relacionado a **Correlação, causalidade e vieses**.
 
 - A) Formular a pergunta e a hipótese antes da análise.
 - B) Definir população, amostra, métrica e método.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as etapas de um experimento controlado ligado a **Correlação, causalidade e vieses**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Correlação, causalidade e vieses**.
 
 - A) Decidir com base no efeito, no risco e na relevância prática.
 - B) Distribuir aleatoriamente as unidades entre os grupos.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Correlação, causalidade e vieses** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

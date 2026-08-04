@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de tirar conclusões em **NumPy essencial**, qual é a prática mais confiável?
+1. **Referência — atividade 1:** Crie `numpy_essencial.ipynb` e um array com durações `[15,30,45,60,90,120,180,240]`; calcule média, mediana, desvio, mínimo, máximo e percentis 25/75.
+
+   **Pergunta:** Antes de tirar conclusões em **NumPy essencial**, qual é a prática mais confiável?
 
 - [ ] A) Começar pelo gráfico mais bonito e escolher os dados depois.
 - [ ] B) Remover todas as linhas incompletas sem medir o impacto.
@@ -34,7 +36,9 @@
 - [ ] D) Considerar os nomes das colunas suficientes para validar os dados.
 - [ ] E) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
 
-2. Qual cuidado evita conclusões distorcidas ao trabalhar com **NumPy essencial**?
+2. **Referência — atividade 2:** Crie uma matriz 4x3 representando quatro cidades e três métricas; selecione linhas, colunas e fatias usando indexação.
+
+   **Pergunta:** Qual cuidado evita conclusões distorcidas ao trabalhar com **NumPy essencial**?
 
 - [ ] A) Usar apenas as primeiras linhas como representação de toda a base.
 - [ ] B) Substituir valores ausentes pelo maior valor disponível.
@@ -42,7 +46,9 @@
 - [ ] D) Somar todas as colunas numéricas independentemente do significado.
 - [ ] E) Arredondar os valores antes de analisar diferenças.
 
-3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **NumPy essencial**?
+3. **Referência — atividade 3:** Normalize uma coluna pelo método min-max e padronize outra com z-score, calculando manualmente e com NumPy.
+
+   **Pergunta:** Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **NumPy essencial**?
 
 - [ ] A) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
 - [ ] B) Ordenar as colunas pelo tamanho do nome.
@@ -50,7 +56,9 @@
 - [ ] D) Excluir categorias pequenas antes de examiná-las.
 - [ ] E) Duplicar a base e repetir o mesmo cálculo.
 
-4. Como uma análise de **NumPy essencial** deve ser apresentada para apoiar uma decisão?
+4. **Referência — atividade 4:** Use operações vetorizadas para aplicar multa de 10% a durações acima de 120; compare com um laço usando `timeit`.
+
+   **Pergunta:** Como uma análise de **NumPy essencial** deve ser apresentada para apoiar uma decisão?
 
 - [ ] A) Omitindo incertezas para transmitir mais confiança.
 - [ ] B) Usando apenas termos técnicos, sem explicar o impacto.
@@ -58,7 +66,9 @@
 - [ ] D) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
 - [ ] E) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
 
-5. Ordene um fluxo de análise para uma atividade de **NumPy essencial**.
+5. **Referência — atividade 5:** Teste `NaN`, array vazio e divisão por desvio zero; escreva como trataria cada caso.
+
+   **Pergunta:** Ordene um fluxo de análise para uma atividade de **NumPy essencial**.
 
 - A) Preparar os dados sem perder a granularidade necessária.
 - B) Inspecionar a estrutura e a qualidade dos dados.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação de uma visualização ou entrega sobre **NumPy essencial**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação de uma visualização ou entrega sobre **NumPy essencial**.
 
 - A) Apresentar a mensagem principal e o próximo passo.
 - B) Escolher o tipo de visual compatível com a comparação.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **NumPy** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Python`.
 - **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

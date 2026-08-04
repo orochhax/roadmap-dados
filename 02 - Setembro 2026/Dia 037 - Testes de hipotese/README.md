@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao estudar **Testes de hipótese**, por que uma única medida-resumo pode ser insuficiente?
+1. **Referência — atividade 1:** Formule H0 e H1 para diferença de média de duração entre duas cidades.
+
+   **Pergunta:** Ao estudar **Testes de hipótese**, por que uma única medida-resumo pode ser insuficiente?
 
 - [ ] A) Porque toda análise exige exatamente cinco métricas.
 - [ ] B) Porque a mediana sempre substitui qualquer outra medida.
@@ -34,7 +36,9 @@
 - [ ] D) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
 - [ ] E) Porque médias só podem ser usadas com dados de texto.
 
-2. Qual interpretação estatística é mais responsável em uma análise de **Testes de hipótese**?
+2. **Referência — atividade 2:** Escolha e execute teste apropriado; verifique suposições e calcule tamanho de efeito.
+
+   **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Testes de hipótese**?
 
 - [ ] A) Ignorar o tamanho da amostra quando a média parece convincente.
 - [ ] B) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
@@ -42,7 +46,9 @@
 - [ ] D) Considerar correlação suficiente para afirmar causalidade.
 - [ ] E) Escolher a hipótese depois de observar os dados.
 
-3. Qual situação ameaça mais a validade de uma conclusão sobre **Testes de hipótese**?
+3. **Referência — atividade 3:** Resolva um teste de proporções para taxa de churn entre dois planos.
+
+   **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Testes de hipótese**?
 
 - [ ] A) Uma tabela com colunas em ordem diferente.
 - [ ] B) Um gráfico com título curto.
@@ -50,7 +56,9 @@
 - [ ] D) Um arquivo salvo em uma pasta específica do projeto.
 - [ ] E) Uma amostra enviesada que não representa adequadamente a população de interesse.
 
-4. Como usar evidência de **Testes de hipótese** em uma decisão real?
+4. **Referência — atividade 4:** Crie cenários de erro tipo I e II com consequências de negócio.
+
+   **Pergunta:** Como usar evidência de **Testes de hipótese** em uma decisão real?
 
 - [ ] A) Tomar a decisão apenas pelo sinal positivo ou negativo.
 - [ ] B) Repetir testes até surgir uma conclusão favorável.
@@ -58,7 +66,9 @@
 - [ ] D) Escolher automaticamente a opção com a maior média observada.
 - [ ] E) Eliminar a incerteza arredondando os números.
 
-5. Ordene um estudo estatístico relacionado a **Testes de hipótese**.
+5. **Referência — atividade 5:** Escreva decisão usando significância, efeito, intervalo e custo, sem depender só de p-valor.
+
+   **Pergunta:** Ordene um estudo estatístico relacionado a **Testes de hipótese**.
 
 - A) Formular a pergunta e a hipótese antes da análise.
 - B) Definir população, amostra, métrica e método.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as etapas de um experimento controlado ligado a **Testes de hipótese**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Testes de hipótese**.
 
 - A) Definir hipótese, métrica principal e regra de decisão.
 - B) Distribuir aleatoriamente as unidades entre os grupos.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Testes de hipótese** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

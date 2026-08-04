@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática evita vazamento de dados em uma atividade de **Separação e vazamento**?
+1. **Referência — atividade 1:** Separe treino, validação e teste com proporção 60/20/20 e `random_state` fixo.
+
+   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Separação e vazamento**?
 
 - [ ] A) Escolher variáveis depois de observar o desempenho no teste.
 - [ ] B) Duplicar exemplos raros antes de separar os conjuntos.
@@ -34,7 +36,9 @@
 - [ ] D) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
 - [ ] E) Normalizar toda a base antes da separação para usar mais informação.
 
-2. Como escolher uma métrica adequada para avaliar **Separação e vazamento**?
+2. **Referência — atividade 2:** Repita a separação de forma estratificada e compare proporção de churn em cada conjunto.
+
+   **Pergunta:** Como escolher uma métrica adequada para avaliar **Separação e vazamento**?
 
 - [ ] A) Avaliando apenas o tempo de treinamento do algoritmo.
 - [ ] B) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
@@ -42,7 +46,9 @@
 - [ ] D) Escolhendo a métrica que produz o maior número.
 - [ ] E) Trocando de métrica depois de ver qual favorece o modelo.
 
-3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Separação e vazamento**?
+3. **Referência — atividade 3:** Crie três features com leakage proposital, como `data_cancelamento`, `motivo_cancelamento` e `status_atual`; demonstre o aumento artificial da métrica.
+
+   **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Separação e vazamento**?
 
 - [ ] A) Testar cada modelo em uma divisão diferente dos dados.
 - [ ] B) Escolher pelo desempenho no conjunto usado para treinar.
@@ -50,7 +56,9 @@
 - [ ] D) Comparar somente a quantidade de parâmetros dos algoritmos.
 - [ ] E) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
 
-4. Antes de usar um modelo de **Separação e vazamento** em uma decisão real, o que deve ser analisado?
+4. **Referência — atividade 4:** Remova o leakage e registre a queda de desempenho como evidência de correção.
+
+   **Pergunta:** Antes de usar um modelo de **Separação e vazamento** em uma decisão real, o que deve ser analisado?
 
 - [ ] A) A complexidade do nome do algoritmo escolhido.
 - [ ] B) A quantidade de linhas de código usada para criar o modelo.
@@ -58,7 +66,9 @@
 - [ ] D) Somente a métrica média do melhor experimento.
 - [ ] E) A aparência dos gráficos de treinamento, sem examinar dados.
 
-5. Ordene um fluxo de modelagem para **Separação e vazamento**.
+5. **Referência — atividade 5:** Escreva um checklist de 10 perguntas para detectar vazamento antes da modelagem.
+
+   **Pergunta:** Ordene um fluxo de modelagem para **Separação e vazamento**.
 
 - A) Definir o problema, a população, o alvo e a métrica.
 - B) Avaliar, analisar erros e relacionar o modelo à decisão.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene uma seleção responsável de modelo em **Separação e vazamento**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene uma seleção responsável de modelo em **Separação e vazamento**.
 
 - A) Estabelecer um baseline simples e reproduzível.
 - B) Comparar candidatos com o mesmo protocolo de validação.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Separação de dados e prevenção de vazamento** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

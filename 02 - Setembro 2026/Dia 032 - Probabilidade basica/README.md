@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao estudar **Probabilidade básica**, por que uma única medida-resumo pode ser insuficiente?
+1. **Referência — atividade 1:** Resolva 12 problemas de probabilidade: complemento, união, interseção, condicional, independência e Bayes em contexto de churn/fraude.
+
+   **Pergunta:** Ao estudar **Probabilidade básica**, por que uma única medida-resumo pode ser insuficiente?
 
 - [ ] A) Porque toda análise exige exatamente cinco métricas.
 - [ ] B) Porque a mediana sempre substitui qualquer outra medida.
@@ -34,7 +36,9 @@
 - [ ] D) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
 - [ ] E) Porque médias só podem ser usadas com dados de texto.
 
-2. Qual interpretação estatística é mais responsável em uma análise de **Probabilidade básica**?
+2. **Referência — atividade 2:** Construa uma tabela 2x2 com 1.000 clientes, 100 churns e um alerta com sensibilidade 80% e falso positivo 20%; calcule `P(churn|alerta)`.
+
+   **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Probabilidade básica**?
 
 - [ ] A) Ignorar o tamanho da amostra quando a média parece convincente.
 - [ ] B) Avaliar tamanho do efeito, incerteza, pressupostos e relevância prática em conjunto.
@@ -42,7 +46,9 @@
 - [ ] D) Considerar correlação suficiente para afirmar causalidade.
 - [ ] E) Escolher a hipótese depois de observar os dados.
 
-3. Qual situação ameaça mais a validade de uma conclusão sobre **Probabilidade básica**?
+3. **Referência — atividade 3:** Simule 10.000 lançamentos de moeda e dados com NumPy; compare frequência observada e probabilidade teórica.
+
+   **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Probabilidade básica**?
 
 - [ ] A) Uma tabela com colunas em ordem diferente.
 - [ ] B) Um gráfico com título curto.
@@ -50,7 +56,9 @@
 - [ ] D) Um arquivo salvo em uma pasta específica do projeto.
 - [ ] E) Uma amostra enviesada que não representa adequadamente a população de interesse.
 
-4. Como usar evidência de **Probabilidade básica** em uma decisão real?
+4. **Referência — atividade 4:** Crie dois eventos independentes e dois dependentes em dados sintéticos; mostre numericamente a diferença.
+
+   **Pergunta:** Como usar evidência de **Probabilidade básica** em uma decisão real?
 
 - [ ] A) Tomar a decisão apenas pelo sinal positivo ou negativo.
 - [ ] B) Repetir testes até surgir uma conclusão favorável.
@@ -58,7 +66,9 @@
 - [ ] D) Escolher automaticamente a opção com a maior média observada.
 - [ ] E) Eliminar a incerteza arredondando os números.
 
-5. Ordene um estudo estatístico relacionado a **Probabilidade básica**.
+5. **Referência — atividade 5:** Escreva três erros comuns ao interpretar probabilidade condicional.
+
+   **Pergunta:** Ordene um estudo estatístico relacionado a **Probabilidade básica**.
 
 - A) Formular a pergunta e a hipótese antes da análise.
 - B) Definir população, amostra, métrica e método.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as etapas de um experimento controlado ligado a **Probabilidade básica**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Probabilidade básica**.
 
 - A) Definir hipótese, métrica principal e regra de decisão.
 - B) Distribuir aleatoriamente as unidades entre os grupos.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Probabilidade** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

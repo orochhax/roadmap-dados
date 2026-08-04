@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao praticar **Exceções e validação**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+1. **Referência — atividade 1:** Crie uma cópia do CSV do dia anterior com cinco erros: duração vazia, texto em clientes, severidade inválida, cidade ausente e booleano escrito errado.
+
+   **Pergunta:** Ao praticar **Exceções e validação**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
 
 - [ ] A) Ignorar os tipos das variáveis quando a saída parece plausível.
 - [ ] B) Evitar testes para não modificar o código que já executou uma vez.
@@ -34,7 +36,9 @@
 - [ ] D) Copiar um código pronto e alterar valores até ele executar.
 - [ ] E) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
 
-2. Qual prática reduz mais o risco de erro em um programa relacionado a **Exceções e validação**?
+2. **Referência — atividade 2:** Implemente `validar_linha()` que retorne uma lista de erros, sem interromper o processamento das demais linhas.
+
+   **Pergunta:** Qual prática reduz mais o risco de erro em um programa relacionado a **Exceções e validação**?
 
 - [ ] A) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
 - [ ] B) Transformar todas as entradas em texto e calcular diretamente.
@@ -42,7 +46,9 @@
 - [ ] D) Remover mensagens de erro para deixar o terminal mais limpo.
 - [ ] E) Repetir o mesmo cálculo em vários lugares do arquivo.
 
-3. Qual teste fornece a verificação mais completa para um exercício de **Exceções e validação**?
+3. **Referência — atividade 3:** Use `try/except` apenas nos pontos em que a conversão pode falhar; não envolva o programa inteiro em um único `except`.
+
+   **Pergunta:** Qual teste fornece a verificação mais completa para um exercício de **Exceções e validação**?
 
 - [ ] A) Conferir somente se o arquivo foi salvo com a extensão `.py`.
 - [ ] B) Ler o código sem executá-lo porque a sintaxe parece correta.
@@ -50,7 +56,9 @@
 - [ ] D) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
 - [ ] E) Executar apenas o exemplo numérico apresentado no enunciado.
 
-4. Ao usar um cálculo de **Exceções e validação** para apoiar uma decisão, qual atitude é mais adequada?
+4. **Referência — atividade 4:** Grave linhas válidas em `dados_validos.csv` e inválidas em `dados_rejeitados.csv` com uma coluna `motivo_rejeicao`.
+
+   **Pergunta:** Ao usar um cálculo de **Exceções e validação** para apoiar uma decisão, qual atitude é mais adequada?
 
 - [ ] A) Excluir valores que contradizem a primeira interpretação.
 - [ ] B) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
@@ -58,7 +66,9 @@
 - [ ] D) Escolher a conclusão antes do cálculo e adaptar o código a ela.
 - [ ] E) Considerar qualquer saída do Python como prova suficiente.
 
-5. Ordene um fluxo seguro para resolver uma atividade de **Exceções e validação**.
+5. **Referência — atividade 5:** Crie uma tabela de testes com oito casos e confirme que nenhuma linha inválida entra silenciosamente no arquivo final.
+
+   **Pergunta:** Ordene um fluxo seguro para resolver uma atividade de **Exceções e validação**.
 
 - A) Ler o enunciado e identificar o objetivo.
 - B) Definir as entradas, as regras e a saída necessária.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as ações para investigar um erro durante a prática de **Exceções e validação**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as ações para investigar um erro durante a prática de **Exceções e validação**.
 
 - A) Reproduzir o erro e observar a mensagem ou a saída.
 - B) Isolar a parte do código que causa o problema.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Tratamento de exceções e validação** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software`.
 - **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

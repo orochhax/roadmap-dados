@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de escrever uma consulta de **Datas e análise temporal**, o que deve ser definido primeiro?
+1. **Referência — atividade 1:** Converta colunas de texto em data/hora e extraia ano, mês, semana, dia da semana e hora.
+
+   **Pergunta:** Antes de escrever uma consulta de **Datas e análise temporal**, o que deve ser definido primeiro?
 
 - [ ] A) O uso obrigatório de todas as colunas disponíveis.
 - [ ] B) A formatação visual da tabela final antes dos cálculos.
@@ -34,7 +36,9 @@
 - [ ] D) A quantidade máxima de linhas que caberá na tela.
 - [ ] E) A ordem alfabética dos nomes das tabelas.
 
-2. Qual cuidado é essencial ao usar junções em uma atividade de **Datas e análise temporal**?
+2. **Referência — atividade 2:** Calcule incidentes e duração média por dia, semana e mês.
+
+   **Pergunta:** Qual cuidado é essencial ao usar junções em uma atividade de **Datas e análise temporal**?
 
 - [ ] A) Conferir as chaves e a cardinalidade para evitar perda ou multiplicação indevida de linhas.
 - [ ] B) Usar sempre `INNER JOIN`, independentemente da pergunta.
@@ -42,7 +46,9 @@
 - [ ] D) Remover duplicidades depois da junção sem investigar a origem.
 - [ ] E) Selecionar todas as colunas para garantir que nada seja perdido.
 
-3. Como valores NULL devem ser tratados em consultas relacionadas a **Datas e análise temporal**?
+3. **Referência — atividade 3:** Meça tempo entre abertura e fechamento e classifique SLA em `no prazo` ou `atrasado`.
+
+   **Pergunta:** Como valores NULL devem ser tratados em consultas relacionadas a **Datas e análise temporal**?
 
 - [ ] A) Sempre como texto vazio, mesmo em colunas numéricas.
 - [ ] B) Excluindo automaticamente todas as linhas que contenham `NULL`.
@@ -50,7 +56,9 @@
 - [ ] D) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
 - [ ] E) Sempre como zero, porque simplifica as agregações.
 
-4. Qual verificação aumenta mais a confiança em uma consulta de **Datas e análise temporal**?
+4. **Referência — atividade 4:** Crie calendário completo e faça `LEFT JOIN` para exibir dias sem eventos com zero.
+
+   **Pergunta:** Qual verificação aumenta mais a confiança em uma consulta de **Datas e análise temporal**?
 
 - [ ] A) Trocar nomes de aliases sem conferir os valores calculados.
 - [ ] B) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
@@ -58,7 +66,9 @@
 - [ ] D) Adicionar `ORDER BY` para que os números pareçam organizados.
 - [ ] E) Limitar a saída a dez linhas e assumir que o restante está correto.
 
-5. Ordene a construção de uma consulta para **Datas e análise temporal**.
+5. **Referência — atividade 5:** Teste virada de mês, ano bissexto, horário nulo e eventos abertos; documente decisões.
+
+   **Pergunta:** Ordene a construção de uma consulta para **Datas e análise temporal**.
 
 - A) Montar filtros e junções da base da consulta.
 - B) Identificar tabelas, campos e chaves necessárias.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a investigação de uma consulta incorreta em **Datas e análise temporal**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a investigação de uma consulta incorreta em **Datas e análise temporal**.
 
 - A) Reproduzir o problema com um recorte pequeno.
 - B) Executar separadamente cada etapa ou CTE.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Análise temporal com SQL** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
 - **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

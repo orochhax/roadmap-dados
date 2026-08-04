@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de tirar conclusões em **Visualização com pandas e Matplotlib**, qual é a prática mais confiável?
+1. **Referência — atividade 1:** Com `pedidos.csv`, crie séries temporais de receita diária e mensal, barras de receita por canal e boxplot de valor por categoria.
+
+   **Pergunta:** Antes de tirar conclusões em **Visualização com pandas e Matplotlib**, qual é a prática mais confiável?
 
 - [ ] A) Remover todas as linhas incompletas sem medir o impacto.
 - [ ] B) Calcular médias antes de entender o que cada linha representa.
@@ -34,7 +36,9 @@
 - [ ] D) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
 - [ ] E) Começar pelo gráfico mais bonito e escolher os dados depois.
 
-2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Visualização com pandas e Matplotlib**?
+2. **Referência — atividade 2:** Faça primeiro com `DataFrame.plot()` e depois recrie dois gráficos diretamente com Matplotlib.
+
+   **Pergunta:** Qual cuidado evita conclusões distorcidas ao trabalhar com **Visualização com pandas e Matplotlib**?
 
 - [ ] A) Substituir valores ausentes pelo maior valor disponível.
 - [ ] B) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
@@ -42,7 +46,9 @@
 - [ ] D) Arredondar os valores antes de analisar diferenças.
 - [ ] E) Usar apenas as primeiras linhas como representação de toda a base.
 
-3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Visualização com pandas e Matplotlib**?
+3. **Referência — atividade 3:** Adicione linha de meta mensal e destaque meses abaixo da meta por anotação textual.
+
+   **Pergunta:** Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Visualização com pandas e Matplotlib**?
 
 - [ ] A) Ordenar as colunas pelo tamanho do nome.
 - [ ] B) Trocar as cores do gráfico até a tendência ficar mais visível.
@@ -50,7 +56,9 @@
 - [ ] D) Duplicar a base e repetir o mesmo cálculo.
 - [ ] E) Comparar segmentos, distribuições, valores extremos e grupos com poucos registros.
 
-4. Como uma análise de **Visualização com pandas e Matplotlib** deve ser apresentada para apoiar uma decisão?
+4. **Referência — atividade 4:** Crie uma função reutilizável que receba DataFrame, coluna temporal, métrica e título.
+
+   **Pergunta:** Como uma análise de **Visualização com pandas e Matplotlib** deve ser apresentada para apoiar uma decisão?
 
 - [ ] A) Usando apenas termos técnicos, sem explicar o impacto.
 - [ ] B) Escolhendo a recomendação mais popular, mesmo sem evidência.
@@ -58,7 +66,9 @@
 - [ ] D) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
 - [ ] E) Omitindo incertezas para transmitir mais confiança.
 
-5. Ordene um fluxo de análise para uma atividade de **Visualização com pandas e Matplotlib**.
+5. **Referência — atividade 5:** Teste a função com dados vazios, uma única data e categorias desconhecidas.
+
+   **Pergunta:** Ordene um fluxo de análise para uma atividade de **Visualização com pandas e Matplotlib**.
 
 - A) Comunicar a conclusão, as limitações e a ação sugerida.
 - B) Preparar os dados sem perder a granularidade necessária.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação de uma visualização ou entrega sobre **Visualização com pandas e Matplotlib**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação de uma visualização ou entrega sobre **Visualização com pandas e Matplotlib**.
 
 - A) Identificar o público e a decisão que será apoiada.
 - B) Selecionar a métrica e o recorte adequados.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Matplotlib** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Python`.
 - **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

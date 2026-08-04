@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Em um simulado de **Simulado de Python e SQL**, qual abordagem demonstra melhor domínio técnico?
+1. **Referência — atividade 1:** Resolva 10 exercícios de Python cronometrados sobre listas, funções, arquivos, pandas e tratamento de erro.
+
+   **Pergunta:** Em um simulado de **Simulado de Python e SQL**, qual abordagem demonstra melhor domínio técnico?
 
 - [ ] A) Evitar comentar escolhas quando houver ambiguidade.
 - [ ] B) Mudar o enunciado para combinar com o código.
@@ -34,7 +36,9 @@
 - [ ] D) Entregar somente a saída sem mostrar o raciocínio.
 - [ ] E) Usar a solução mais longa para parecer completa.
 
-2. Qual cuidado é essencial ao resolver a parte de SQL em **Simulado de Python e SQL**?
+2. **Referência — atividade 2:** Resolva 10 questões SQL sobre filtros, joins, agregações, CTEs, janelas e datas.
+
+   **Pergunta:** Qual cuidado é essencial ao resolver a parte de SQL em **Simulado de Python e SQL**?
 
 - [ ] A) Definir granularidade e conferir filtros, chaves, duplicidades e valores nulos.
 - [ ] B) Usar todas as tabelas disponíveis.
@@ -42,7 +46,9 @@
 - [ ] D) Aplicar `DISTINCT` a qualquer resultado duplicado.
 - [ ] E) Conferir apenas se a consulta executa.
 
-3. Ao escolher entre Python e SQL em **Simulado de Python e SQL**, qual critério é mais adequado?
+3. **Referência — atividade 3:** Não consulte durante 120 minutos; depois marque erros.
+
+   **Pergunta:** Ao escolher entre Python e SQL em **Simulado de Python e SQL**, qual critério é mais adequado?
 
 - [ ] A) Usar SQL somente quando não houver cálculos.
 - [ ] B) Escolher pela menor quantidade de caracteres.
@@ -50,7 +56,9 @@
 - [ ] D) Usar a ferramenta compatível com a localização dos dados, a transformação e a necessidade de reutilização.
 - [ ] E) Usar Python para qualquer tarefa, sem considerar o banco.
 
-4. Depois de concluir uma solução de **Simulado de Python e SQL**, qual revisão é mais útil?
+4. **Referência — atividade 4:** Reescreva as cinco soluções mais fracas.
+
+   **Pergunta:** Depois de concluir uma solução de **Simulado de Python e SQL**, qual revisão é mais útil?
 
 - [ ] A) Considerar a primeira execução suficiente.
 - [ ] B) Reexaminar pressupostos, complexidade, casos-limite e clareza da explicação.
@@ -58,7 +66,9 @@
 - [ ] D) Remover testes para reduzir o material entregue.
 - [ ] E) Comparar apenas o tempo gasto com outros candidatos.
 
-5. Ordene a resolução de uma questão em **Simulado de Python e SQL**.
+5. **Referência — atividade 5:** Crie plano de revisão de sete dias para lacunas.
+
+   **Pergunta:** Ordene a resolução de uma questão em **Simulado de Python e SQL**.
 
 - A) Ler e esclarecer entradas, saída e restrições.
 - B) Implementar uma versão simples e legível.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a investigação de uma resposta incorreta em **Simulado de Python e SQL**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a investigação de uma resposta incorreta em **Simulado de Python e SQL**.
 
 - A) Reproduzir a falha com o menor exemplo possível.
 - B) Identificar a transformação ou condição incorreta.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python e SQL** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
 - **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

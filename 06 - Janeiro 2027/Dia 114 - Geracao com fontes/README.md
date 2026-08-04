@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. O que reduz respostas sem apoio em uma solução de **Geração com fontes**?
+1. **Referência — atividade 1:** Construa prompt que exija resposta somente com contexto recuperado e citação das fontes.
+
+   **Pergunta:** O que reduz respostas sem apoio em uma solução de **Geração com fontes**?
 
 - [ ] A) Usar somente o conhecimento geral do modelo.
 - [ ] B) Recuperar trechos relevantes e exigir que a resposta se baseie neles com indicação das fontes.
@@ -34,7 +36,9 @@
 - [ ] D) Enviar documentos aleatórios para aumentar o volume.
 - [ ] E) Remover referências para deixar a resposta menor.
 
-2. Qual escolha afeta diretamente a recuperação em **Geração com fontes**?
+2. **Referência — atividade 2:** Implemente recusa explícita quando contexto for insuficiente.
+
+   **Pergunta:** Qual escolha afeta diretamente a recuperação em **Geração com fontes**?
 
 - [ ] A) A cor da interface usada para enviar a pergunta.
 - [ ] B) A ordem alfabética dos nomes dos arquivos apenas.
@@ -42,7 +46,9 @@
 - [ ] D) O nome da variável que armazena o índice.
 - [ ] E) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
 
-3. Como o sistema deve agir quando **Geração com fontes** não encontra evidência suficiente?
+3. **Referência — atividade 3:** Teste prompt injection dentro de documentos e perguntas.
+
+   **Pergunta:** Como o sistema deve agir quando **Geração com fontes** não encontra evidência suficiente?
 
 - [ ] A) Ocultar que a busca não encontrou conteúdo.
 - [ ] B) Repetir a mesma afirmação com mais confiança.
@@ -50,7 +56,9 @@
 - [ ] D) Completar a resposta com uma suposição plausível.
 - [ ] E) Citar qualquer trecho recuperado, mesmo sem relação.
 
-4. Qual avaliação ajuda a diagnosticar uma falha em **Geração com fontes**?
+4. **Referência — atividade 4:** Compare respostas com e sem recuperação.
+
+   **Pergunta:** Qual avaliação ajuda a diagnosticar uma falha em **Geração com fontes**?
 
 - [ ] A) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
 - [ ] B) Avaliar apenas o tamanho da resposta.
@@ -58,7 +66,9 @@
 - [ ] D) Considerar toda citação como necessariamente relevante.
 - [ ] E) Trocar o modelo sem examinar os documentos recuperados.
 
-5. Ordene o fluxo principal de uma solução de **Geração com fontes**.
+5. **Referência — atividade 5:** Valide se cada afirmação relevante é sustentada por trecho recuperado.
+
+   **Pergunta:** Ordene o fluxo principal de uma solução de **Geração com fontes**.
 
 - A) Coletar e validar documentos e metadados.
 - B) Gerar uma resposta fundamentada e apresentar as fontes.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene o diagnóstico de uma resposta ruim em **Geração com fontes**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene o diagnóstico de uma resposta ruim em **Geração com fontes**.
 
 - A) Registrar a pergunta, a resposta e as fontes recuperadas.
 - B) Corrigir a etapa responsável e repetir os mesmos testes.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **RAG e geração fundamentada** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

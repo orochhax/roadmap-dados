@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao estudar **Medidas e distribuições**, por que uma única medida-resumo pode ser insuficiente?
+1. **Referência — atividade 1:** Com `clientes_telecom.csv`, calcule média, mediana, moda, variância, desvio, quartis, IQR e amplitude para mensalidade, NPS e chamados.
+
+   **Pergunta:** Ao estudar **Medidas e distribuições**, por que uma única medida-resumo pode ser insuficiente?
 
 - [ ] A) Porque médias só podem ser usadas com dados de texto.
 - [ ] B) Porque toda análise exige exatamente cinco métricas.
@@ -34,7 +36,9 @@
 - [ ] D) Porque gráficos tornam cálculos estatísticos desnecessários.
 - [ ] E) Porque distribuições diferentes podem ter a mesma média e esconder dispersão, assimetria ou valores extremos.
 
-2. Qual interpretação estatística é mais responsável em uma análise de **Medidas e distribuições**?
+2. **Referência — atividade 2:** Crie duas distribuições com mesma média e desvios diferentes; mostre por que a média isolada engana.
+
+   **Pergunta:** Qual interpretação estatística é mais responsável em uma análise de **Medidas e distribuições**?
 
 - [ ] A) Escolher a hipótese depois de observar os dados.
 - [ ] B) Ignorar o tamanho da amostra quando a média parece convincente.
@@ -42,7 +46,9 @@
 - [ ] D) Tratar qualquer valor-p pequeno como prova de grande impacto.
 - [ ] E) Considerar correlação suficiente para afirmar causalidade.
 
-3. Qual situação ameaça mais a validade de uma conclusão sobre **Medidas e distribuições**?
+3. **Referência — atividade 3:** Compare métricas com e sem um outlier extremo inserido manualmente.
+
+   **Pergunta:** Qual situação ameaça mais a validade de uma conclusão sobre **Medidas e distribuições**?
 
 - [ ] A) Uma amostra enviesada que não representa adequadamente a população de interesse.
 - [ ] B) Uma tabela com colunas em ordem diferente.
@@ -50,7 +56,9 @@
 - [ ] D) Uma média apresentada com duas casas decimais.
 - [ ] E) Um arquivo salvo em uma pasta específica do projeto.
 
-4. Como usar evidência de **Medidas e distribuições** em uma decisão real?
+4. **Referência — atividade 4:** Faça histogramas e boxplots e escreva a forma da distribuição: simétrica, assimétrica ou multimodal.
+
+   **Pergunta:** Como usar evidência de **Medidas e distribuições** em uma decisão real?
 
 - [ ] A) Eliminar a incerteza arredondando os números.
 - [ ] B) Tomar a decisão apenas pelo sinal positivo ou negativo.
@@ -58,7 +66,9 @@
 - [ ] D) Combinar a estimativa e sua incerteza com custos, riscos e consequências das alternativas.
 - [ ] E) Escolher automaticamente a opção com a maior média observada.
 
-5. Ordene um estudo estatístico relacionado a **Medidas e distribuições**.
+5. **Referência — atividade 5:** Explique em linguagem de negócio quando mediana é mais adequada que média.
+
+   **Pergunta:** Ordene um estudo estatístico relacionado a **Medidas e distribuições**.
 
 - A) Coletar e verificar a qualidade dos dados.
 - B) Definir população, amostra, métrica e método.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as etapas de um experimento controlado ligado a **Medidas e distribuições**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as etapas de um experimento controlado ligado a **Medidas e distribuições**.
 
 - A) Definir hipótese, métrica principal e regra de decisão.
 - B) Decidir com base no efeito, no risco e na relevância prática.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Estatística descritiva** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

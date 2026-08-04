@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual conteúdo fortalece mais uma apresentação de **GitHub e portfólio**?
+1. **Referência — atividade 1:** Audite todos os repositórios: nome, descrição, README, licença, dependências, dados e execução.
+
+   **Pergunta:** Qual conteúdo fortalece mais uma apresentação de **GitHub e portfólio**?
 
 - [ ] A) Uma lista extensa de ferramentas sem contexto.
 - [ ] B) Afirmações genéricas de domínio avançado.
@@ -34,7 +36,9 @@
 - [ ] D) Somente imagens, sem explicar o raciocínio.
 - [ ] E) Problema, decisões tomadas, evidências produzidas, limitações e impacto do trabalho.
 
-2. Como adaptar **GitHub e portfólio** a uma oportunidade profissional?
+2. **Referência — atividade 2:** Escolha quatro projetos principais e arquive ou oculte os fracos.
+
+   **Pergunta:** Como adaptar **GitHub e portfólio** a uma oportunidade profissional?
 
 - [ ] A) Ocultar responsabilidades e resultados concretos.
 - [ ] B) Repetir todas as palavras da vaga sem contexto.
@@ -42,7 +46,9 @@
 - [ ] D) Adicionar habilidades que ainda não foram praticadas.
 - [ ] E) Usar exatamente o mesmo texto para qualquer vaga.
 
-3. Qual é a melhor forma de falar sobre uma lacuna durante **GitHub e portfólio**?
+3. **Referência — atividade 3:** Padronize capas, estrutura e seção de resultados.
+
+   **Pergunta:** Qual é a melhor forma de falar sobre uma lacuna durante **GitHub e portfólio**?
 
 - [ ] A) Reconhecer o limite com honestidade e explicar como aprenderia ou validaria aquela parte.
 - [ ] B) Inventar uma experiência parecida.
@@ -50,7 +56,9 @@
 - [ ] D) Afirmar domínio total sem conseguir demonstrar.
 - [ ] E) Culpar a descrição da vaga pela pergunta.
 
-4. Qual resposta demonstra melhor experiência em uma entrevista ligada a **GitHub e portfólio**?
+4. **Referência — atividade 4:** Teste cada projeto em clone limpo.
+
+   **Pergunta:** Qual resposta demonstra melhor experiência em uma entrevista ligada a **GitHub e portfólio**?
 
 - [ ] A) Uma resposta decorada que não explica sua participação.
 - [ ] B) Uma descrição longa apenas sobre a equipe.
@@ -58,7 +66,9 @@
 - [ ] D) Uma história objetiva com contexto, ação própria, evidência e aprendizado.
 - [ ] E) Uma opinião ampla sem exemplo concreto.
 
-5. Ordene a preparação de um material de **GitHub e portfólio**.
+5. **Referência — atividade 5:** Crie página índice de portfólio com problema, técnicas, impacto e link.
+
+   **Pergunta:** Ordene a preparação de um material de **GitHub e portfólio**.
 
 - A) Escrever uma narrativa clara sobre problema, ação e impacto.
 - B) Selecionar projetos e experiências com evidências relevantes.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação para uma conversa profissional sobre **GitHub e portfólio**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação para uma conversa profissional sobre **GitHub e portfólio**.
 
 - A) Praticar respostas curtas com contexto, ação e evidência.
 - B) Selecionar exemplos reais para competências técnicas e comportamentais.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual, adicione ou reforce **GitHub e portfólio profissional** em Competências e organize os melhores repositórios para a seção Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa`.
 - **Próximo marco do perfil:** Dia 130 — revisão final do título, Sobre, Competências, Projetos e Destaques.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

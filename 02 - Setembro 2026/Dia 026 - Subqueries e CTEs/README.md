@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de escrever uma consulta de **Subqueries e CTEs**, o que deve ser definido primeiro?
+1. **Referência — atividade 1:** Escreva uma subquery escalar para comparar cada incidente à duração média geral.
+
+   **Pergunta:** Antes de escrever uma consulta de **Subqueries e CTEs**, o que deve ser definido primeiro?
 
 - [ ] A) A quantidade máxima de linhas que caberá na tela.
 - [ ] B) A ordem alfabética dos nomes das tabelas.
@@ -34,7 +36,9 @@
 - [ ] D) A formatação visual da tabela final antes dos cálculos.
 - [ ] E) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
 
-2. Qual cuidado é essencial ao usar junções em uma atividade de **Subqueries e CTEs**?
+2. **Referência — atividade 2:** Escreva uma subquery correlacionada para identificar incidentes acima da média de sua própria cidade.
+
+   **Pergunta:** Qual cuidado é essencial ao usar junções em uma atividade de **Subqueries e CTEs**?
 
 - [ ] A) Remover duplicidades depois da junção sem investigar a origem.
 - [ ] B) Selecionar todas as colunas para garantir que nada seja perdido.
@@ -42,7 +46,9 @@
 - [ ] D) Usar sempre `INNER JOIN`, independentemente da pergunta.
 - [ ] E) Juntar tabelas por qualquer coluna com o mesmo tipo.
 
-3. Como valores NULL devem ser tratados em consultas relacionadas a **Subqueries e CTEs**?
+3. **Referência — atividade 3:** Reescreva ambas usando CTEs e compare legibilidade.
+
+   **Pergunta:** Como valores NULL devem ser tratados em consultas relacionadas a **Subqueries e CTEs**?
 
 - [ ] A) De acordo com o significado do campo, distinguindo ausência de dado de um valor numérico ou textual válido.
 - [ ] B) Sempre como zero, porque simplifica as agregações.
@@ -50,7 +56,9 @@
 - [ ] D) Excluindo automaticamente todas as linhas que contenham `NULL`.
 - [ ] E) Ignorando-os, pois bancos relacionais os convertem sozinhos.
 
-4. Qual verificação aumenta mais a confiança em uma consulta de **Subqueries e CTEs**?
+4. **Referência — atividade 4:** Crie uma sequência de três CTEs: dados válidos → métricas por cidade → ranking final.
+
+   **Pergunta:** Qual verificação aumenta mais a confiança em uma consulta de **Subqueries e CTEs**?
 
 - [ ] A) Adicionar `ORDER BY` para que os números pareçam organizados.
 - [ ] B) Limitar a saída a dez linhas e assumir que o restante está correto.
@@ -58,7 +66,9 @@
 - [ ] D) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
 - [ ] E) Executar a consulta apenas uma vez sem mensagem de erro.
 
-5. Ordene a construção de uma consulta para **Subqueries e CTEs**.
+5. **Referência — atividade 5:** Introduza um filtro em posição errada e demonstre como ele altera o denominador de uma taxa.
+
+   **Pergunta:** Ordene a construção de uma consulta para **Subqueries e CTEs**.
 
 - A) Validar contagens, totais e algumas linhas manualmente.
 - B) Identificar tabelas, campos e chaves necessárias.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a investigação de uma consulta incorreta em **Subqueries e CTEs**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a investigação de uma consulta incorreta em **Subqueries e CTEs**.
 
 - A) Reproduzir o problema com um recorte pequeno.
 - B) Conferir chaves, duplicidades, filtros e contagens.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **CTEs e subqueries em SQL** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
 - **Próximo marco do perfil:** Dia 30 — Engenharia de Software | Análise de Dados | Python, SQL e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

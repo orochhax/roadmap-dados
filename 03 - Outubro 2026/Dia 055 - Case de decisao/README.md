@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática evita vazamento de dados em uma atividade de **Case de decisão**?
+1. **Referência — atividade 1:** Monte tabela com cliente, probabilidade, limiar, decisão e custo esperado.
+
+   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Case de decisão**?
 
 - [ ] A) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
 - [ ] B) Normalizar toda a base antes da separação para usar mais informação.
@@ -34,7 +36,9 @@
 - [ ] D) Duplicar exemplos raros antes de separar os conjuntos.
 - [ ] E) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
 
-2. Como escolher uma métrica adequada para avaliar **Case de decisão**?
+2. **Referência — atividade 2:** Crie três políticas: conservadora, equilibrada e agressiva; calcule volume de ações e custo.
+
+   **Pergunta:** Como escolher uma métrica adequada para avaliar **Case de decisão**?
 
 - [ ] A) Escolhendo a métrica que produz o maior número.
 - [ ] B) Trocando de métrica depois de ver qual favorece o modelo.
@@ -42,7 +46,9 @@
 - [ ] D) Considerando o tipo de problema, o desbalanceamento e o custo dos diferentes erros para o negócio.
 - [ ] E) Usando sempre acurácia, pois ela serve para qualquer problema.
 
-3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Case de decisão**?
+3. **Referência — atividade 3:** Analise desempenho por cidade, plano e faixa de mensalidade.
+
+   **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Case de decisão**?
 
 - [ ] A) Comparar somente a quantidade de parâmetros dos algoritmos.
 - [ ] B) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
@@ -50,7 +56,9 @@
 - [ ] D) Escolher pelo desempenho no conjunto usado para treinar.
 - [ ] E) Consultar repetidamente o teste durante cada ajuste.
 
-4. Antes de usar um modelo de **Case de decisão** em uma decisão real, o que deve ser analisado?
+4. **Referência — atividade 4:** Defina regra de revisão humana para casos próximos ao limiar.
+
+   **Pergunta:** Antes de usar um modelo de **Case de decisão** em uma decisão real, o que deve ser analisado?
 
 - [ ] A) Somente a métrica média do melhor experimento.
 - [ ] B) A aparência dos gráficos de treinamento, sem examinar dados.
@@ -58,7 +66,9 @@
 - [ ] D) A quantidade de linhas de código usada para criar o modelo.
 - [ ] E) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
 
-5. Ordene um fluxo de modelagem para **Case de decisão**.
+5. **Referência — atividade 5:** Apresente decisão em uma página, incluindo quem não deve receber ação automatizada.
+
+   **Pergunta:** Ordene um fluxo de modelagem para **Case de decisão**.
 
 - A) Definir o problema, a população, o alvo e a métrica.
 - B) Ajustar o pré-processamento apenas com os dados de treino.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene uma seleção responsável de modelo em **Case de decisão**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene uma seleção responsável de modelo em **Case de decisão**.
 
 - A) Estabelecer um baseline simples e reproduzível.
 - B) Ajustar hiperparâmetros sem consultar o conjunto de teste.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
@@ -124,23 +135,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Machine Learning para tomada de decisão** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

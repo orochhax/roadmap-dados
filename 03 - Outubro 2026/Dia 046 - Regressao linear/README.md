@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual prática evita vazamento de dados em uma atividade de **Regressão linear**?
+1. **Referência — atividade 1:** Crie dados sintéticos lineares `y = 3x + 5 + ruído` e ajuste regressão linear.
+
+   **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Regressão linear**?
 
 - [ ] A) Normalizar toda a base antes da separação para usar mais informação.
 - [ ] B) Escolher variáveis depois de observar o desempenho no teste.
@@ -34,7 +36,9 @@
 - [ ] D) Usar a variável-alvo para preencher valores ausentes de todas as colunas.
 - [ ] E) Separar treino e teste antes de ajustar transformações, selecionar variáveis ou treinar o modelo.
 
-2. Como escolher uma métrica adequada para avaliar **Regressão linear**?
+2. **Referência — atividade 2:** Recupere coeficiente e intercepto; compare com valores reais usados na geração.
+
+   **Pergunta:** Como escolher uma métrica adequada para avaliar **Regressão linear**?
 
 - [ ] A) Trocando de métrica depois de ver qual favorece o modelo.
 - [ ] B) Avaliando apenas o tempo de treinamento do algoritmo.
@@ -42,7 +46,9 @@
 - [ ] D) Usando sempre acurácia, pois ela serve para qualquer problema.
 - [ ] E) Escolhendo a métrica que produz o maior número.
 
-3. Qual procedimento fornece uma comparação mais confiável entre modelos em **Regressão linear**?
+3. **Referência — atividade 3:** Use `pedidos.csv` para prever valor do pedido com variáveis permitidas.
+
+   **Pergunta:** Qual procedimento fornece uma comparação mais confiável entre modelos em **Regressão linear**?
 
 - [ ] A) Usar o mesmo protocolo de validação, ajustar decisões no treino e reservar o teste para a avaliação final.
 - [ ] B) Testar cada modelo em uma divisão diferente dos dados.
@@ -50,7 +56,9 @@
 - [ ] D) Consultar repetidamente o teste durante cada ajuste.
 - [ ] E) Comparar somente a quantidade de parâmetros dos algoritmos.
 
-4. Antes de usar um modelo de **Regressão linear** em uma decisão real, o que deve ser analisado?
+4. **Referência — atividade 4:** Plote resíduos versus predição e distribuição dos resíduos.
+
+   **Pergunta:** Antes de usar um modelo de **Regressão linear** em uma decisão real, o que deve ser analisado?
 
 - [ ] A) A aparência dos gráficos de treinamento, sem examinar dados.
 - [ ] B) A complexidade do nome do algoritmo escolhido.
@@ -58,7 +66,9 @@
 - [ ] D) Erros por segmento, estabilidade, explicabilidade e impacto dos falsos positivos e falsos negativos.
 - [ ] E) Somente a métrica média do melhor experimento.
 
-5. Ordene um fluxo de modelagem para **Regressão linear**.
+5. **Referência — atividade 5:** Crie uma relação não linear e demonstre por que regressão linear simples falha.
+
+   **Pergunta:** Ordene um fluxo de modelagem para **Regressão linear**.
 
 - A) Avaliar, analisar erros e relacionar o modelo à decisão.
 - B) Separar os dados conforme o contexto do problema.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene uma seleção responsável de modelo em **Regressão linear**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene uma seleção responsável de modelo em **Regressão linear**.
 
 - A) Ajustar hiperparâmetros sem consultar o conjunto de teste.
 - B) Documentar limitações, segmentos frágeis e regras de uso.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Regressão linear** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
 - **Próximo marco do perfil:** Dia 65 — Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

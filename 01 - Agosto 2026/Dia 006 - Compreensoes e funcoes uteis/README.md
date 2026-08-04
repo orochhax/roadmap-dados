@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao praticar **Compreensões e funções úteis**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+1. **Referência — atividade 1:** Crie `comprehensions.py` com uma lista de 20 incidentes; gere com list comprehension apenas os P1/P2 com duração superior a 60 minutos.
+
+   **Pergunta:** Ao praticar **Compreensões e funções úteis**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
 
 - [ ] A) Copiar um código pronto e alterar valores até ele executar.
 - [ ] B) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
@@ -34,7 +36,9 @@
 - [ ] D) Evitar testes para não modificar o código que já executou uma vez.
 - [ ] E) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
 
-2. Qual prática reduz mais o risco de erro em um programa relacionado a **Compreensões e funções úteis**?
+2. **Referência — atividade 2:** Crie um dicionário por comprehension no formato `{cidade: total_de_incidentes}` e compare com a solução usando laço tradicional.
+
+   **Pergunta:** Qual prática reduz mais o risco de erro em um programa relacionado a **Compreensões e funções úteis**?
 
 - [ ] A) Remover mensagens de erro para deixar o terminal mais limpo.
 - [ ] B) Repetir o mesmo cálculo em vários lugares do arquivo.
@@ -42,7 +46,9 @@
 - [ ] D) Transformar todas as entradas em texto e calcular diretamente.
 - [ ] E) Aceitar qualquer entrada e corrigir somente se o programa fechar.
 
-3. Qual teste fornece a verificação mais completa para um exercício de **Compreensões e funções úteis**?
+3. **Referência — atividade 3:** Use `enumerate` para numerar um ranking, `zip` para combinar cidades e metas, `sorted` com `key` para ordenar por duração, `any` para detectar P1 e `all` para validar durações não negativas.
+
+   **Pergunta:** Qual teste fornece a verificação mais completa para um exercício de **Compreensões e funções úteis**?
 
 - [ ] A) Executar exemplos comuns, valores-limite e entradas inadequadas para observar comportamentos diferentes.
 - [ ] B) Executar apenas o exemplo numérico apresentado no enunciado.
@@ -50,7 +56,9 @@
 - [ ] D) Ler o código sem executá-lo porque a sintaxe parece correta.
 - [ ] E) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
 
-4. Ao usar um cálculo de **Compreensões e funções úteis** para apoiar uma decisão, qual atitude é mais adequada?
+4. **Referência — atividade 4:** Escreva três versões de uma mesma transformação: laço, comprehension legível e comprehension excessivamente compacta; explique qual manteria em produção.
+
+   **Pergunta:** Ao usar um cálculo de **Compreensões e funções úteis** para apoiar uma decisão, qual atitude é mais adequada?
 
 - [ ] A) Escolher a conclusão antes do cálculo e adaptar o código a ela.
 - [ ] B) Considerar qualquer saída do Python como prova suficiente.
@@ -58,7 +66,9 @@
 - [ ] D) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
 - [ ] E) Apresentar apenas o número final sem informar de onde ele veio.
 
-5. Ordene um fluxo seguro para resolver uma atividade de **Compreensões e funções úteis**.
+5. **Referência — atividade 5:** Crie cinco testes com lista vazia, cidade repetida, duração zero, valor negativo e prioridade inválida.
+
+   **Pergunta:** Ordene um fluxo seguro para resolver uma atividade de **Compreensões e funções úteis**.
 
 - A) Ler o enunciado e identificar o objetivo.
 - B) Definir as entradas, as regras e a saída necessária.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as ações para investigar um erro durante a prática de **Compreensões e funções úteis**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as ações para investigar um erro durante a prática de **Compreensões e funções úteis**.
 
 - A) Corrigir a causa identificada.
 - B) Isolar a parte do código que causa o problema.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python e list comprehensions** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software`.
 - **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

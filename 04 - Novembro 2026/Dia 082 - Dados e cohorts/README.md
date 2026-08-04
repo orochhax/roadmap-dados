@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Qual definição é essencial antes de modelar **Dados e cohorts**?
+1. **Referência — atividade 1:** Carregue `credito.csv`, faça qualidade e EDA da taxa de default.
+
+   **Pergunta:** Qual definição é essencial antes de modelar **Dados e cohorts**?
 
 - [ ] A) Usar dados posteriores ao evento para completar o cadastro.
 - [ ] B) Remover todos os casos sem histórico longo.
@@ -34,7 +36,9 @@
 - [ ] D) Estabelecer o evento de risco, o horizonte, a população e a data-limite das informações permitidas.
 - [ ] E) Escolher o algoritmo antes de definir o evento.
 
-2. Por que a calibração importa em uma aplicação de **Dados e cohorts**?
+2. **Referência — atividade 2:** Crie cohorts por mês de concessão e acompanhe default P1/P2/P3 quando possível.
+
+   **Pergunta:** Por que a calibração importa em uma aplicação de **Dados e cohorts**?
 
 - [ ] A) Porque substitui a validação temporal.
 - [ ] B) Porque a probabilidade estimada precisa representar uma frequência útil para políticas baseadas em custo e risco.
@@ -42,7 +46,9 @@
 - [ ] D) Porque elimina diferenças entre grupos.
 - [ ] E) Porque permite ignorar a taxa-base do evento.
 
-3. Qual cuidado de governança é necessário em **Dados e cohorts**?
+3. **Referência — atividade 3:** Analise default por faixas de renda, dívida, atrasos e tempo de emprego.
+
+   **Pergunta:** Qual cuidado de governança é necessário em **Dados e cohorts**?
 
 - [ ] A) Ocultar as variáveis para impedir questionamentos.
 - [ ] B) Avaliar somente o grupo mais numeroso.
@@ -50,7 +56,9 @@
 - [ ] D) Manter a política fixa mesmo quando os dados mudarem.
 - [ ] E) Documentar dados, critérios, limitações e desempenho por segmento, com revisão de possíveis impactos injustos.
 
-4. Como transformar uma pontuação de **Dados e cohorts** em política?
+4. **Referência — atividade 4:** Valide estabilidade temporal das variáveis.
+
+   **Pergunta:** Como transformar uma pontuação de **Dados e cohorts** em política?
 
 - [ ] A) Escolher o corte que aprova o menor número de pessoas.
 - [ ] B) Ignorar o custo de erros porque a probabilidade já resume tudo.
@@ -58,7 +66,9 @@
 - [ ] D) Aplicar automaticamente a mesma decisão a toda pontuação positiva.
 - [ ] E) Usar 50% como corte obrigatório.
 
-5. Ordene o desenvolvimento de um modelo para **Dados e cohorts**.
+5. **Referência — atividade 5:** Crie dicionário de features e regras de exclusão.
+
+   **Pergunta:** Ordene o desenvolvimento de um modelo para **Dados e cohorts**.
 
 - A) Separar períodos e treinar um baseline.
 - B) Construir dados disponíveis até a data de decisão.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a criação de uma política baseada em **Dados e cohorts**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a criação de uma política baseada em **Dados e cohorts**.
 
 - A) Escolher regras compatíveis com risco e operação.
 - B) Simular faixas de pontuação e decisões possíveis.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Cohorts e análise de risco** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

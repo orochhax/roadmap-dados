@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao desenvolver **Publicação e apresentação**, qual definição evita um alvo ambíguo ou vazamento de dados?
+1. **Referência — atividade 1:** Limpe o repositório, fixe dependências e rode tudo em ambiente novo.
+
+   **Pergunta:** Ao desenvolver **Publicação e apresentação**, qual definição evita um alvo ambíguo ou vazamento de dados?
 
 - [ ] A) Fixar a população, a data de referência, a janela de observação e a regra objetiva de churn.
 - [ ] B) Chamar de churn qualquer cliente com poucos registros.
@@ -34,7 +36,9 @@
 - [ ] D) Alterar a definição do alvo para melhorar a métrica do modelo.
 - [ ] E) Remover clientes ativos sem registrar o critério usado.
 
-2. Como avaliar um modelo ligado a **Publicação e apresentação** para uma estratégia de retenção?
+2. **Referência — atividade 2:** Crie README com instalação, estrutura, resultados e decisões.
+
+   **Pergunta:** Como avaliar um modelo ligado a **Publicação e apresentação** para uma estratégia de retenção?
 
 - [ ] A) Priorizando somente a acurácia geral.
 - [ ] B) Contatando todos os clientes classificados pelo modelo.
@@ -42,7 +46,9 @@
 - [ ] D) Relacionando métricas e limiar ao custo do contato, ao valor do cliente e ao benefício provável da retenção.
 - [ ] E) Escolhendo sempre o limiar de 50%.
 
-3. Qual análise ajuda a encontrar riscos escondidos em **Publicação e apresentação**?
+3. **Referência — atividade 3:** Publique release e grave demo de 8–10 minutos.
+
+   **Pergunta:** Qual análise ajuda a encontrar riscos escondidos em **Publicação e apresentação**?
 
 - [ ] A) Conferir somente o desempenho no conjunto de treino.
 - [ ] B) Comparar qualidade dos dados, erros e desempenho entre períodos e segmentos de clientes.
@@ -50,7 +56,9 @@
 - [ ] D) Excluir segmentos pequenos antes de medir os erros.
 - [ ] E) Usar a mesma explicação para todos os perfis.
 
-4. Qual é a melhor ligação entre um modelo de **Publicação e apresentação** e uma ação de negócio?
+4. **Referência — atividade 4:** Responda por escrito a cinco perguntas de banca sobre leakage, métrica, custo, viés e implantação.
+
+   **Pergunta:** Qual é a melhor ligação entre um modelo de **Publicação e apresentação** e uma ação de negócio?
 
 - [ ] A) Enviar a probabilidade bruta sem orientar seu uso.
 - [ ] B) Considerar todo cliente de alto risco automaticamente perdido.
@@ -58,7 +66,9 @@
 - [ ] D) Medir sucesso somente pelo número de contatos realizados.
 - [ ] E) Criar uma política explícita que defina quem será priorizado, qual ação receberá e como o impacto será medido.
 
-5. Ordene a construção de um projeto relacionado a **Publicação e apresentação**.
+5. **Referência — atividade 5:** Faça retrospectiva: três acertos, três falhas e três melhorias.
+
+   **Pergunta:** Ordene a construção de um projeto relacionado a **Publicação e apresentação**.
 
 - A) Transformar previsões em estratégia e comunicar limitações.
 - B) Construir e auditar dados disponíveis até a data de referência.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a criação de uma política de retenção baseada em **Publicação e apresentação**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a criação de uma política de retenção baseada em **Publicação e apresentação**.
 
 - A) Medir retenção incremental e ajustar a política.
 - B) Definir segmentos e ações possíveis para cada perfil.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 > [!todo] PUBLICAR NO LINKEDIN — projeto prioritário do portfólio
 > - [ ] Publique somente após README, resultados e limitações estarem revisados.
@@ -124,23 +135,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Apresentação de projetos de Ciência de Dados** na seção Competências. Se a entrega estiver revisada e representar bem seu trabalho, considere incluí-la em Projetos ou Destaques.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

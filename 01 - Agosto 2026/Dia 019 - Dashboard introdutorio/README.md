@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Antes de tirar conclusões em **Dashboard introdutório**, qual é a prática mais confiável?
+1. **Referência — atividade 1:** Defina um público-alvo para o dashboard: gerente de operações de telecom; escreva cinco decisões que ele precisa tomar.
+
+   **Pergunta:** Antes de tirar conclusões em **Dashboard introdutório**, qual é a prática mais confiável?
 
 - [ ] A) Considerar os nomes das colunas suficientes para validar os dados.
 - [ ] B) Inspecionar estrutura, tipos, granularidade, valores ausentes e possíveis duplicidades.
@@ -34,7 +36,9 @@
 - [ ] D) Remover todas as linhas incompletas sem medir o impacto.
 - [ ] E) Calcular médias antes de entender o que cada linha representa.
 
-2. Qual cuidado evita conclusões distorcidas ao trabalhar com **Dashboard introdutório**?
+2. **Referência — atividade 2:** Crie no Power BI ou alternativa quatro indicadores: incidentes, duração média, clientes afetados e percentual dentro da meta.
+
+   **Pergunta:** Qual cuidado evita conclusões distorcidas ao trabalhar com **Dashboard introdutório**?
 
 - [ ] A) Somar todas as colunas numéricas independentemente do significado.
 - [ ] B) Arredondar os valores antes de analisar diferenças.
@@ -42,7 +46,9 @@
 - [ ] D) Substituir valores ausentes pelo maior valor disponível.
 - [ ] E) Manter a granularidade correta e conferir o efeito de filtros, agrupamentos e junções.
 
-3. Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Dashboard introdutório**?
+3. **Referência — atividade 3:** Adicione filtros de período, cidade e severidade; crie duas páginas: visão executiva e diagnóstico.
+
+   **Pergunta:** Qual verificação é mais útil para encontrar problemas que uma média geral pode esconder em **Dashboard introdutório**?
 
 - [ ] A) Excluir categorias pequenas antes de examiná-las.
 - [ ] B) Duplicar a base e repetir o mesmo cálculo.
@@ -50,7 +56,9 @@
 - [ ] D) Ordenar as colunas pelo tamanho do nome.
 - [ ] E) Trocar as cores do gráfico até a tendência ficar mais visível.
 
-4. Como uma análise de **Dashboard introdutório** deve ser apresentada para apoiar uma decisão?
+4. **Referência — atividade 4:** Valide cada número do dashboard contra uma consulta ou cálculo em pandas.
+
+   **Pergunta:** Como uma análise de **Dashboard introdutório** deve ser apresentada para apoiar uma decisão?
 
 - [ ] A) Ligando evidências à pergunta de negócio, com limitações e uma ação recomendada.
 - [ ] B) Mostrando todas as tabelas produzidas, sem priorizar uma conclusão.
@@ -58,7 +66,9 @@
 - [ ] D) Usando apenas termos técnicos, sem explicar o impacto.
 - [ ] E) Escolhendo a recomendação mais popular, mesmo sem evidência.
 
-5. Ordene um fluxo de análise para uma atividade de **Dashboard introdutório**.
+5. **Referência — atividade 5:** Escreva `dicionario_metricas.md` com fórmula, fonte, periodicidade e risco de interpretação de cada indicador.
+
+   **Pergunta:** Ordene um fluxo de análise para uma atividade de **Dashboard introdutório**.
 
 - A) Comunicar a conclusão, as limitações e a ação sugerida.
 - B) Inspecionar a estrutura e a qualidade dos dados.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene a preparação de uma visualização ou entrega sobre **Dashboard introdutório**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene a preparação de uma visualização ou entrega sobre **Dashboard introdutório**.
 
 - A) Escolher o tipo de visual compatível com a comparação.
 - B) Selecionar a métrica e o recorte adequados.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Power BI e dashboards** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Python`.
 - **Próximo marco do perfil:** Dia 20 — Engenharia de Software | Análise de Dados | Python e Power BI.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

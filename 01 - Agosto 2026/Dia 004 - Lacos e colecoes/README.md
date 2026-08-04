@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. Ao praticar **Laços e coleções**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
+1. **Referência — atividade 1:** Crie uma lista com 15 incidentes em formato de dicionário contendo `cidade`, `causa`, `severidade` e `duracao_min`.
+
+   **Pergunta:** Ao praticar **Laços e coleções**, qual abordagem ajuda mais a construir uma solução correta e compreensível?
 
 - [ ] A) Evitar testes para não modificar o código que já executou uma vez.
 - [ ] B) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
@@ -34,7 +36,9 @@
 - [ ] D) Escrever tudo em uma única linha para reduzir o tamanho do arquivo.
 - [ ] E) Ignorar os tipos das variáveis quando a saída parece plausível.
 
-2. Qual prática reduz mais o risco de erro em um programa relacionado a **Laços e coleções**?
+2. **Referência — atividade 2:** Use `for` para contar incidentes por cidade e por causa; armazene os resultados em dicionários de frequência.
+
+   **Pergunta:** Qual prática reduz mais o risco de erro em um programa relacionado a **Laços e coleções**?
 
 - [ ] A) Transformar todas as entradas em texto e calcular diretamente.
 - [ ] B) Aceitar qualquer entrada e corrigir somente se o programa fechar.
@@ -42,7 +46,9 @@
 - [ ] D) Repetir o mesmo cálculo em vários lugares do arquivo.
 - [ ] E) Verificar os tipos e os limites das entradas antes de realizar os cálculos.
 
-3. Qual teste fornece a verificação mais completa para um exercício de **Laços e coleções**?
+3. **Referência — atividade 3:** Use um conjunto para listar causas únicas e uma tupla para representar níveis válidos `('P1','P2','P3','P4')`.
+
+   **Pergunta:** Qual teste fornece a verificação mais completa para um exercício de **Laços e coleções**?
 
 - [ ] A) Ler o código sem executá-lo porque a sintaxe parece correta.
 - [ ] B) Trocar somente o nome das variáveis e comparar o tamanho do arquivo.
@@ -50,7 +56,9 @@
 - [ ] D) Executar apenas o exemplo numérico apresentado no enunciado.
 - [ ] E) Conferir somente se o arquivo foi salvo com a extensão `.py`.
 
-4. Ao usar um cálculo de **Laços e coleções** para apoiar uma decisão, qual atitude é mais adequada?
+4. **Referência — atividade 4:** Calcule duração total e média por cidade sem usar pandas; ordene o relatório da maior para a menor duração média.
+
+   **Pergunta:** Ao usar um cálculo de **Laços e coleções** para apoiar uma decisão, qual atitude é mais adequada?
 
 - [ ] A) Explicar o que foi calculado, conferir os dados usados e indicar as limitações da conclusão.
 - [ ] B) Apresentar apenas o número final sem informar de onde ele veio.
@@ -58,7 +66,9 @@
 - [ ] D) Considerar qualquer saída do Python como prova suficiente.
 - [ ] E) Excluir valores que contradizem a primeira interpretação.
 
-5. Ordene um fluxo seguro para resolver uma atividade de **Laços e coleções**.
+5. **Referência — atividade 5:** Teste um incidente duplicado e explique quando um `set` ajuda e quando ele destruiria informação importante.
+
+   **Pergunta:** Ordene um fluxo seguro para resolver uma atividade de **Laços e coleções**.
 
 - A) Implementar a solução em pequenas etapas.
 - B) Definir as entradas, as regras e a saída necessária.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene as ações para investigar um erro durante a prática de **Laços e coleções**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene as ações para investigar um erro durante a prática de **Laços e coleções**.
 
 - A) Reproduzir o erro e observar a mensagem ou a saída.
 - B) Corrigir a causa identificada.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Python, laços e coleções** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software`.
 - **Próximo marco do perfil:** Dia 10 — Engenharia de Software | Python.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação

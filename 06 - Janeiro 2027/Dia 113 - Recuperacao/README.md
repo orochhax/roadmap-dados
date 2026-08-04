@@ -26,7 +26,9 @@
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. O que reduz respostas sem apoio em uma solução de **Recuperação**?
+1. **Referência — atividade 1:** Crie índice vetorial e função `retrieve(query, k)`.
+
+   **Pergunta:** O que reduz respostas sem apoio em uma solução de **Recuperação**?
 
 - [ ] A) Remover referências para deixar a resposta menor.
 - [ ] B) Usar somente o conhecimento geral do modelo.
@@ -34,7 +36,9 @@
 - [ ] D) Pedir ao modelo para inventar detalhes quando faltar contexto.
 - [ ] E) Enviar documentos aleatórios para aumentar o volume.
 
-2. Qual escolha afeta diretamente a recuperação em **Recuperação**?
+2. **Referência — atividade 2:** Teste valores de k=1,3,5,10 e diferentes limiares.
+
+   **Pergunta:** Qual escolha afeta diretamente a recuperação em **Recuperação**?
 
 - [ ] A) O tamanho e a sobreposição dos chunks, os metadados e a forma de representar e consultar os documentos.
 - [ ] B) A cor da interface usada para enviar a pergunta.
@@ -42,7 +46,9 @@
 - [ ] D) A quantidade de parágrafos da resposta final.
 - [ ] E) O nome da variável que armazena o índice.
 
-3. Como o sistema deve agir quando **Recuperação** não encontra evidência suficiente?
+3. **Referência — atividade 3:** Implemente filtro por metadados e, se possível, busca híbrida.
+
+   **Pergunta:** Como o sistema deve agir quando **Recuperação** não encontra evidência suficiente?
 
 - [ ] A) Citar qualquer trecho recuperado, mesmo sem relação.
 - [ ] B) Ocultar que a busca não encontrou conteúdo.
@@ -50,7 +56,9 @@
 - [ ] D) Informar a limitação, evitar afirmar algo sem fonte e permitir reformular ou encaminhar a consulta.
 - [ ] E) Completar a resposta com uma suposição plausível.
 
-4. Qual avaliação ajuda a diagnosticar uma falha em **Recuperação**?
+4. **Referência — atividade 4:** Calcule métricas de recuperação nas 30 perguntas.
+
+   **Pergunta:** Qual avaliação ajuda a diagnosticar uma falha em **Recuperação**?
 
 - [ ] A) Trocar o modelo sem examinar os documentos recuperados.
 - [ ] B) Medir separadamente se a busca encontrou o conteúdo certo e se a geração o utilizou corretamente.
@@ -58,7 +66,9 @@
 - [ ] D) Medir somente a velocidade de criação do índice.
 - [ ] E) Considerar toda citação como necessariamente relevante.
 
-5. Ordene o fluxo principal de uma solução de **Recuperação**.
+5. **Referência — atividade 5:** Faça análise de 10 erros e ajuste chunking ou consulta.
+
+   **Pergunta:** Ordene o fluxo principal de uma solução de **Recuperação**.
 
 - A) Gerar representações e construir o índice.
 - B) Gerar uma resposta fundamentada e apresentar as fontes.
@@ -68,7 +78,9 @@
 
 **Ordem:** `__ → __ → __ → __ → __`
 
-6. Ordene o diagnóstico de uma resposta ruim em **Recuperação**.
+6. **Referência — fluxo completo do dia:** atividades 1 a 5 do passo a passo exibido acima.
+
+   **Pergunta:** Ordene o diagnóstico de uma resposta ruim em **Recuperação**.
 
 - A) Avaliar chunking, metadados, consulta e ranking da busca.
 - B) Corrigir a etapa responsável e repetir os mesmos testes.
@@ -85,7 +97,6 @@
 - [ ] Alterações registradas em commit e enviadas ao GitHub.
 
 **Autoavaliação do dia:** `__/5`  
-**Evidência:** link do commit, notebook, consulta, imagem ou gravação.
 
 ---
 
@@ -98,23 +109,3 @@
 - **Ação recomendada:** Mantenha o título atual e adicione ou reforce **Recuperação de informação e busca vetorial** na seção Competências.
 - **Título atual recomendado:** `Engenharia de Software | Ciência de Dados | Python, SQL, Power BI e Machine Learning`.
 - **Próximo marco do perfil:** Dia 115 — Engenharia de Software | Análise e Ciência de Dados | Python, SQL, Power BI e Machine Learning | IA Generativa.
-
----
-
-## Anotações pessoais
-
-
-
-### Conceitos estudados
-
-
-### Dúvidas
-
-
-### Erros encontrados e correções
-
-
-### Aprendizado principal
-
-
-### Próxima ação
