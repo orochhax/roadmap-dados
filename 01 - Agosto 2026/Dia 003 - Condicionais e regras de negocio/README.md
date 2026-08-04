@@ -17,10 +17,11 @@
 4. [ ] Crie uma versão deliberadamente errada trocando a ordem das regras e escreva no README qual caso passa a ser classificado incorretamente.
 5. [ ] Adicione validação para clientes negativos e duração negativa; nesses casos o programa deve parar com mensagem clara.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Condicionais e regras de negócio** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Condicionais e regras de negócio** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Como a ordem de `if` e `elif` pode mudar uma regra de negócio, mesmo quando todas as condições parecem corretas?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Condicionais e regras de negócio** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Que parte da sua solução de **Condicionais e regras de negócio** ficaria mais difícil de manter se novas regras fossem adicionadas?
+
+**Resposta:**
+
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 **Resposta:**
 

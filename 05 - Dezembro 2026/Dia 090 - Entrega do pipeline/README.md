@@ -17,10 +17,11 @@
 4. [ ] Rode duas vezes e com dados novos para provar idempotência/incremento correto.
 5. [ ] Publique README de arquitetura, execução, testes e limitações.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Entrega do pipeline** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente ao fluxo de **Entrega do pipeline** uma checagem automática de qualidade ou uma condição clara de falha.
+- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
 1. Como demonstrar rastreabilidade desde a fonte até a tabela usada pelo modelo?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Entrega do pipeline** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+
+**Resposta:**
+
+6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
 
 **Resposta:**
 

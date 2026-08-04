@@ -17,10 +17,11 @@
 4. [ ] Garanta idempotência: executar duas vezes não deve duplicar dados.
 5. [ ] Teste arquivo ausente, coluna faltante, linha inválida e execução repetida.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Pipeline em Python** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente ao fluxo de **Pipeline em Python** uma checagem automática de qualidade ou uma condição clara de falha.
+- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
 1. O que torna um pipeline idempotente, observável e seguro para reexecução?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Pipeline em Python** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+
+**Resposta:**
+
+6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
 
 **Resposta:**
 

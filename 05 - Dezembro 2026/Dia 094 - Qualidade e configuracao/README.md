@@ -17,10 +17,11 @@
 4. [ ] Crie logging estruturado com níveis INFO, WARNING e ERROR.
 5. [ ] Escreva checklist de segurança: segredos, dados pessoais, caminhos e dependências.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Qualidade e configuração** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Qualidade e configuração** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Por que credenciais, caminhos e parâmetros não devem ficar fixos no código?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Qualidade e configuração** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+
+**Resposta:**
+
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 **Resposta:**
 

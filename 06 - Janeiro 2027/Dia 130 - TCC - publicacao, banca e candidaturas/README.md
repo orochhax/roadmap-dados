@@ -18,6 +18,12 @@
 5. [ ] Envie 5–10 candidaturas compatíveis destacando o TCC e adapte palavras-chave sem inventar experiência.
 6. [ ] Crie retrospectiva e backlog de melhorias que não impedirão a candidatura.
 
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: publicação, banca e candidaturas** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
+
 ### Perguntas de banca obrigatórias
 1. Por que você não tentou prever diretamente o preço de amanhã?
 
@@ -64,6 +70,14 @@
 **Resposta:**
 
 12. O que você faria com mais três meses?
+
+**Resposta:**
+
+13. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+
+**Resposta:**
+
+14. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 **Resposta:**
 

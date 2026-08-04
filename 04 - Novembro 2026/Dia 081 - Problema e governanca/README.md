@@ -17,10 +17,11 @@
 4. [ ] Crie política de governança com responsável, frequência de revisão e trilha de auditoria.
 5. [ ] Escreva critérios de sucesso técnico, econômico e de equidade.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Problema e governança** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Problema e governança** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Quais decisões de crédito exigem rastreabilidade, privacidade, explicabilidade e análise de viés?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Problema e governança** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+
+**Resposta:**
+
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 **Resposta:**
 

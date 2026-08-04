@@ -17,10 +17,11 @@
 4. [ ] Empacote com Docker ou instrução reproduzível.
 5. [ ] Publique relatório de limitações, riscos, custo e próximos passos.
 
-### Verificação prática sem consulta
-- [ ] Teste **Avaliação e publicação** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Avaliação e publicação** e verifique recuperação, resposta e rastreabilidade da fonte.
+- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
 1. Como medir qualidade do RAG com conjunto fixo de perguntas e análise de falhas?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Avaliação e publicação** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+
+**Resposta:**
+
+6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
 
 **Resposta:**
 

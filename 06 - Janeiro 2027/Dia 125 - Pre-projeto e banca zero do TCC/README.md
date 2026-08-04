@@ -17,10 +17,11 @@
 4. [ ] Apresente a banca zero de oito minutos para outra pessoa ou gravação.
 5. [ ] Registre todas as críticas, classifique por severidade e ajuste o escopo.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Pré-projeto e banca zero do TCC** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione uma evidência concreta relacionada a **Pré-projeto e banca zero do TCC** que possa ser mostrada a um recrutador ou avaliador.
+- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
 1. O escopo do TCC cabe em cinco dias e quais itens serão cortados primeiro se houver atraso?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Pré-projeto e banca zero do TCC** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
+
+**Resposta:**
+
+6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
 
 **Resposta:**
 

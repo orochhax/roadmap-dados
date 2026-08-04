@@ -17,10 +17,11 @@
 4. [ ] Crie colunas `duracao_horas` e `impacto = duracao_min * clientes_afetados` sem usar laço.
 5. [ ] Ordene pelos maiores impactos, selecione os três principais e confirme manualmente os cálculos.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **pandas: Series e DataFrame** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Aplique a técnica central de **pandas: Series e DataFrame** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
+- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
 1. Qual a diferença prática entre `Series` e `DataFrame`, e como índice e tipos afetam uma análise?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **pandas: Series e DataFrame** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+
+**Resposta:**
+
+6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
 
 **Resposta:**
 

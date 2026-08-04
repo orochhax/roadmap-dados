@@ -5,7 +5,6 @@
 ## Dia 001 — Preparação e diagnóstico
 
 - [02-pratica-sem-consulta/diagnostico.py](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/02-pratica-sem-consulta/diagnostico.py>)
-- [02-pratica-sem-consulta/memoria.py](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/02-pratica-sem-consulta/memoria.py>)
 - [03-evidencias/versoes.md](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/03-evidencias/versoes.md>)
 - [03-evidencias/versoes.txt](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/03-evidencias/versoes.txt>)
 - [README.md](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/README.md>)
@@ -14,24 +13,20 @@
 
 - [01-exercicios/metricas_atendimento.py](<../01 - Agosto 2026/Dia 002 - Variaveis, tipos e operadores/01-exercicios/metricas_atendimento.py>)
 - [01-exercicios/tipos_operadores.py](<../01 - Agosto 2026/Dia 002 - Variaveis, tipos e operadores/01-exercicios/tipos_operadores.py>)
-- [02-pratica-sem-consulta/memoria.py](<../01 - Agosto 2026/Dia 002 - Variaveis, tipos e operadores/02-pratica-sem-consulta/memoria.py>)
 - [README.md](<../01 - Agosto 2026/Dia 002 - Variaveis, tipos e operadores/README.md>)
 
 ## Dia 003 — Condicionais e regras de negócio
 
 - [01-exercicios/prioridade_chamados.py](<../01 - Agosto 2026/Dia 003 - Condicionais e regras de negocio/01-exercicios/prioridade_chamados.py>)
-- [02-pratica-sem-consulta/memoria.py](<../01 - Agosto 2026/Dia 003 - Condicionais e regras de negocio/02-pratica-sem-consulta/memoria.py>)
 - [README.md](<../01 - Agosto 2026/Dia 003 - Condicionais e regras de negocio/README.md>)
 
 ## Dia 004 — Laços e coleções
 
 - [01-exercicios/dia-004-lacos-e-colecoes.py](<../01 - Agosto 2026/Dia 004 - Lacos e colecoes/01-exercicios/dia-004-lacos-e-colecoes.py>)
-- [02-pratica-sem-consulta/memoria.py](<../01 - Agosto 2026/Dia 004 - Lacos e colecoes/02-pratica-sem-consulta/memoria.py>)
 - [README.md](<../01 - Agosto 2026/Dia 004 - Lacos e colecoes/README.md>)
 
 ## Dia 005 — Funções e primeiro mini-projeto
 
-- [02-pratica-sem-consulta/memoria.py](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/02-pratica-sem-consulta/memoria.py>)
 - [README.md](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/README.md>)
 - [projeto-semanal/README.md](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/projeto-semanal/README.md>)
 - [projeto-semanal/docs/apresentacao.md](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/projeto-semanal/docs/apresentacao.md>)
@@ -43,7 +38,6 @@
 ## Dia 006 — Compreensões e funções úteis
 
 - [01-exercicios/comprehensions.py](<../01 - Agosto 2026/Dia 006 - Compreensoes e funcoes uteis/01-exercicios/comprehensions.py>)
-- [02-pratica-sem-consulta/memoria.py](<../01 - Agosto 2026/Dia 006 - Compreensoes e funcoes uteis/02-pratica-sem-consulta/memoria.py>)
 - [README.md](<../01 - Agosto 2026/Dia 006 - Compreensoes e funcoes uteis/README.md>)
 
 ## Dia 007 — Arquivos CSV, JSON e caminhos
@@ -51,14 +45,12 @@
 - [01-exercicios/dia-007-arquivos-csv-json-e-caminhos.py](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/01-exercicios/dia-007-arquivos-csv-json-e-caminhos.py>)
 - [01-exercicios/incidentes.csv](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/01-exercicios/incidentes.csv>)
 - [01-exercicios/metas.json](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/01-exercicios/metas.json>)
-- [02-pratica-sem-consulta/memoria.py](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/02-pratica-sem-consulta/memoria.py>)
 - [03-evidencias/relatorio_consolidado.csv](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/03-evidencias/relatorio_consolidado.csv>)
 - [README.md](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/README.md>)
 
 ## Dia 008 — Exceções e validação
 
 - [01-exercicios/dia-008-excecoes-e-validacao.py](<../01 - Agosto 2026/Dia 008 - Excecoes e validacao/01-exercicios/dia-008-excecoes-e-validacao.py>)
-- [02-pratica-sem-consulta/memoria.py](<../01 - Agosto 2026/Dia 008 - Excecoes e validacao/02-pratica-sem-consulta/memoria.py>)
 - [03-evidencias/dados_rejeitados.csv](<../01 - Agosto 2026/Dia 008 - Excecoes e validacao/03-evidencias/dados_rejeitados.csv>)
 - [03-evidencias/dados_validos.csv](<../01 - Agosto 2026/Dia 008 - Excecoes e validacao/03-evidencias/dados_validos.csv>)
 - [README.md](<../01 - Agosto 2026/Dia 008 - Excecoes e validacao/README.md>)
@@ -70,13 +62,11 @@
 - [01-exercicios/noc_utils/io.py](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/io.py>)
 - [01-exercicios/noc_utils/metricas.py](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/metricas.py>)
 - [01-exercicios/noc_utils/validacao.py](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/validacao.py>)
-- [02-pratica-sem-consulta/memoria.py](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/02-pratica-sem-consulta/memoria.py>)
 - [03-evidencias/requirements.txt](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/03-evidencias/requirements.txt>)
 - [README.md](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/README.md>)
 
 ## Dia 010 — Mini-projeto de consolidação
 
-- [02-pratica-sem-consulta/memoria.py](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/02-pratica-sem-consulta/memoria.py>)
 - [README.md](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/README.md>)
 - [projeto-semanal/README.md](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/projeto-semanal/README.md>)
 - [projeto-semanal/docs/apresentacao.md](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/projeto-semanal/docs/apresentacao.md>)

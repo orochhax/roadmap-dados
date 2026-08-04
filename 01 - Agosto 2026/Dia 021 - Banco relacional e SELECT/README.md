@@ -17,10 +17,11 @@
 4. [ ] Crie uma consulta que calcule `impacto = duracao_min * clientes_afetados` e liste os cinco maiores.
 5. [ ] Salve tudo em `03-sql/dia21/select_basico.sql` e exporte os resultados principais para CSV.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Banco relacional e SELECT** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Banco relacional e SELECT** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Qual a função de chave primária e chave estrangeira, e por que normalização importa?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Banco relacional e SELECT** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+
+**Resposta:**
+
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 **Resposta:**
 

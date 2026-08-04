@@ -240,10 +240,6 @@ roadmap-data-science/
 4. [ ] Crie o repositório, as pastas `01-python/dia01` e `dados`, faça o primeiro commit e confirme no GitHub que os arquivos chegaram.
 5. [ ] Crie `diario-de-estudos.md` com: data, horas, exercícios acertados de primeira, dúvidas, erro mais importante e próxima ação.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Preparação e diagnóstico** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
 
 ### Perguntas de checagem
 1. Qual é a diferença entre instalar uma ferramenta, configurá-la e comprovar que o ambiente está reproduzível?
@@ -278,16 +274,19 @@ roadmap-data-science/
 4. [ ] Crie `metricas_atendimento.py` para receber total de chamados, resolvidos, reincidentes e soma das durações; exiba três métricas com duas casas decimais.
 5. [ ] Teste com três cenários definidos: normal `(100, 82, 12, 3450)`, nenhum chamado `(0, 0, 0, 0)` e valores inválidos `(-5, 7, 2, 100)`.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Variáveis, tipos e operadores** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Variáveis, tipos e operadores** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Quando usar `int`, `float`, `str` e `bool`, e em quais conversões de tipo pode ocorrer perda ou distorção de informação?
 2. Em qual exercício de **Variáveis, tipos e operadores** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Variáveis, tipos e operadores** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte da sua solução de **Variáveis, tipos e operadores** ficaria mais difícil de manter se novas regras fossem adicionadas?
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -316,16 +315,19 @@ roadmap-data-science/
 4. [ ] Crie uma versão deliberadamente errada trocando a ordem das regras e escreva no README qual caso passa a ser classificado incorretamente.
 5. [ ] Adicione validação para clientes negativos e duração negativa; nesses casos o programa deve parar com mensagem clara.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Condicionais e regras de negócio** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Condicionais e regras de negócio** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Como a ordem de `if` e `elif` pode mudar uma regra de negócio, mesmo quando todas as condições parecem corretas?
 2. Em qual exercício de **Condicionais e regras de negócio** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Condicionais e regras de negócio** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte da sua solução de **Condicionais e regras de negócio** ficaria mais difícil de manter se novas regras fossem adicionadas?
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -354,16 +356,19 @@ roadmap-data-science/
 4. [ ] Calcule duração total e média por cidade sem usar pandas; ordene o relatório da maior para a menor duração média.
 5. [ ] Teste um incidente duplicado e explique quando um `set` ajuda e quando ele destruiria informação importante.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Laços e coleções** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Laços e coleções** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Quando escolher lista, tupla, conjunto ou dicionário, e qual estrutura evita duplicidades por natureza?
 2. Em qual exercício de **Laços e coleções** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Laços e coleções** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte da sua solução de **Laços e coleções** ficaria mais difícil de manter se novas regras fossem adicionadas?
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -392,16 +397,19 @@ roadmap-data-science/
 4. [ ] Cadastre manualmente 10 incidentes e confirme: contagem por cidade, média de duração, prioridade mais frequente e total de clientes afetados.
 5. [ ] Crie `testes_manuais.md` com 10 cenários, resultado esperado, resultado obtido e status aprovado/reprovado.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Funções e primeiro mini-projeto** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Funções e primeiro mini-projeto** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Qual a diferença entre parâmetro, argumento, retorno e efeito colateral de uma função?
 2. Em qual exercício de **Funções e primeiro mini-projeto** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Funções e primeiro mini-projeto** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte da sua solução de **Funções e primeiro mini-projeto** ficaria mais difícil de manter se novas regras fossem adicionadas?
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -459,16 +467,19 @@ roadmap-data-science/
 4. [ ] Escreva três versões de uma mesma transformação: laço, comprehension legível e comprehension excessivamente compacta; explique qual manteria em produção.
 5. [ ] Crie cinco testes com lista vazia, cidade repetida, duração zero, valor negativo e prioridade inválida.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Compreensões e funções úteis** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Compreensões e funções úteis** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Em que situação uma comprehension melhora o código e em que situação ela prejudica a legibilidade?
 2. Em qual exercício de **Compreensões e funções úteis** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Compreensões e funções úteis** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte da sua solução de **Compreensões e funções úteis** ficaria mais difícil de manter se novas regras fossem adicionadas?
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -497,16 +508,19 @@ roadmap-data-science/
 4. [ ] Grave `relatorio_consolidado.csv` com uma coluna nova `dentro_da_meta`.
 5. [ ] Teste o programa a partir de outra pasta para comprovar que os caminhos usam `pathlib.Path` e não dependem do diretório atual.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Arquivos CSV, JSON e caminhos** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Arquivos CSV, JSON e caminhos** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Como detectar e tratar encoding, delimitador, esquema e linhas inválidas ao ler arquivos externos?
 2. Em qual exercício de **Arquivos CSV, JSON e caminhos** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Arquivos CSV, JSON e caminhos** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte da sua solução de **Arquivos CSV, JSON e caminhos** ficaria mais difícil de manter se novas regras fossem adicionadas?
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -535,16 +549,19 @@ roadmap-data-science/
 4. [ ] Grave linhas válidas em `dados_validos.csv` e inválidas em `dados_rejeitados.csv` com uma coluna `motivo_rejeicao`.
 5. [ ] Crie uma tabela de testes com oito casos e confirme que nenhuma linha inválida entra silenciosamente no arquivo final.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Exceções e validação** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Exceções e validação** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Por que capturar `Exception` genericamente pode esconder defeitos, e quando usar `raise`?
 2. Em qual exercício de **Exceções e validação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Exceções e validação** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte da sua solução de **Exceções e validação** ficaria mais difícil de manter se novas regras fossem adicionadas?
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -573,16 +590,19 @@ roadmap-data-science/
 4. [ ] Execute em um segundo ambiente virtual limpo usando somente `pip install -r requirements.txt`.
 5. [ ] Documente no README os comandos exatos para criar, ativar e reproduzir o ambiente no Windows.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Módulos, pacotes e ambientes** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Módulos, pacotes e ambientes** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Qual problema módulos, pacotes e ambientes virtuais resolvem em um projeto reproduzível?
 2. Em qual exercício de **Módulos, pacotes e ambientes** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Módulos, pacotes e ambientes** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte da sua solução de **Módulos, pacotes e ambientes** ficaria mais difícil de manter se novas regras fossem adicionadas?
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -611,16 +631,19 @@ roadmap-data-science/
 4. [ ] Crie 15 casos de teste divididos em cinco válidos, cinco inválidos e cinco casos de borda.
 5. [ ] Execute o projeto em ambiente virtual novo, grave uma demonstração de até cinco minutos e registre três limitações.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Mini-projeto de consolidação** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Mini-projeto de consolidação** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Como garantir que registros vindos de fontes diferentes representam a mesma estrutura e não sejam duplicados?
 2. Em qual exercício de **Mini-projeto de consolidação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Mini-projeto de consolidação** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte da sua solução de **Mini-projeto de consolidação** ficaria mais difícil de manter se novas regras fossem adicionadas?
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -677,16 +700,19 @@ roadmap-data-science/
 4. [ ] Use operações vetorizadas para aplicar multa de 10% a durações acima de 120; compare com um laço usando `timeit`.
 5. [ ] Teste `NaN`, array vazio e divisão por desvio zero; escreva como trataria cada caso.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **NumPy essencial** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Aplique a técnica central de **NumPy essencial** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
+- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
 1. Por que operações vetorizadas costumam ser preferíveis a laços Python em dados numéricos?
 2. Em qual exercício de **NumPy essencial** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **NumPy essencial** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -715,16 +741,19 @@ roadmap-data-science/
 4. [ ] Crie colunas `duracao_horas` e `impacto = duracao_min * clientes_afetados` sem usar laço.
 5. [ ] Ordene pelos maiores impactos, selecione os três principais e confirme manualmente os cálculos.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **pandas: Series e DataFrame** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Aplique a técnica central de **pandas: Series e DataFrame** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
+- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
 1. Qual a diferença prática entre `Series` e `DataFrame`, e como índice e tipos afetam uma análise?
 2. Em qual exercício de **pandas: Series e DataFrame** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **pandas: Series e DataFrame** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -753,16 +782,19 @@ roadmap-data-science/
 4. [ ] Detecte outliers por IQR e z-score; compare quais linhas cada método marca e não remova nada sem justificativa.
 5. [ ] Salve `dados_limpos.csv` e `relatorio_limpeza.md` com antes/depois, decisões e riscos de distorção.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **Limpeza de dados** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Aplique a técnica central de **Limpeza de dados** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
+- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
 1. Quando remover, imputar ou manter um valor ausente, e como documentar essa decisão?
 2. Em qual exercício de **Limpeza de dados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Limpeza de dados** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -791,16 +823,19 @@ roadmap-data-science/
 4. [ ] Transforme dados largos em longos com `melt` e volte ao formato largo com `pivot`.
 5. [ ] Provoque uma chave duplicada em `metas_cidades.csv`, observe o aumento de linhas e crie uma validação para impedir merge muitos-para-muitos acidental.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **Agrupamento, merge e reshape** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Aplique a técnica central de **Agrupamento, merge e reshape** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
+- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
 1. Como escolher entre `merge`, `concat`, `groupby` e `pivot`, e qual risco existe em chaves não únicas?
 2. Em qual exercício de **Agrupamento, merge e reshape** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Agrupamento, merge e reshape** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -829,16 +864,19 @@ roadmap-data-science/
 4. [ ] Produza quatro gráficos úteis, cada um com título que declare a conclusão e um parágrafo de interpretação.
 5. [ ] Entregue `eda_clientes.ipynb` e `resumo_executivo.md` com três achados, duas limitações e duas ações sugeridas.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **EDA prática** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Aplique a técnica central de **EDA prática** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
+- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
 1. Como distinguir uma descoberta útil de uma coincidência visual durante uma análise exploratória?
 2. Em qual exercício de **EDA prática** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **EDA prática** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -895,16 +933,19 @@ roadmap-data-science/
 4. [ ] Crie uma versão acessível sem depender apenas de cor: use rótulos, marcadores e legenda clara.
 5. [ ] Exporte em PNG com tamanho legível e verifique se o gráfico continua compreensível fora do notebook.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **Fundamentos de visualização** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie uma segunda versão da entrega de **Fundamentos de visualização** para um público diferente e ajuste título, destaque e nível de detalhe.
+- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
 1. Como escolher o gráfico adequado para comparação, distribuição, relação e evolução temporal?
 2. Em qual exercício de **Fundamentos de visualização** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Fundamentos de visualização** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
+6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -933,16 +974,19 @@ roadmap-data-science/
 4. [ ] Crie uma função reutilizável que receba DataFrame, coluna temporal, métrica e título.
 5. [ ] Teste a função com dados vazios, uma única data e categorias desconhecidas.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **Visualização com pandas e Matplotlib** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie uma segunda versão da entrega de **Visualização com pandas e Matplotlib** para um público diferente e ajuste título, destaque e nível de detalhe.
+- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
 1. Quais elementos tornam um gráfico tecnicamente correto, mas ainda assim enganoso?
 2. Em qual exercício de **Visualização com pandas e Matplotlib** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Visualização com pandas e Matplotlib** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
+6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -971,16 +1015,19 @@ roadmap-data-science/
 4. [ ] Grave áudio de três minutos explicando a análise sem termos técnicos desnecessários.
 5. [ ] Peça a outra pessoa para resumir a mensagem; registre o que ela entendeu errado e ajuste o material.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **Storytelling e recomendação** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie uma segunda versão da entrega de **Storytelling e recomendação** para um público diferente e ajuste título, destaque e nível de detalhe.
+- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
 1. Como transformar uma sequência de gráficos em argumento com contexto, evidência e recomendação?
 2. Em qual exercício de **Storytelling e recomendação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Storytelling e recomendação** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
+6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1009,16 +1056,19 @@ roadmap-data-science/
 4. [ ] Valide cada número do dashboard contra uma consulta ou cálculo em pandas.
 5. [ ] Escreva `dicionario_metricas.md` com fórmula, fonte, periodicidade e risco de interpretação de cada indicador.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **Dashboard introdutório** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie uma segunda versão da entrega de **Dashboard introdutório** para um público diferente e ajuste título, destaque e nível de detalhe.
+- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
 1. Qual métrica deve aparecer primeiro em um dashboard e como evitar indicadores sem ação associada?
 2. Em qual exercício de **Dashboard introdutório** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Dashboard introdutório** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
+6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1047,16 +1097,19 @@ roadmap-data-science/
 4. [ ] Produza resumo executivo de uma página com três decisões recomendadas e evidências numéricas.
 5. [ ] Execute uma revisão externa: peça a alguém para explicar o dashboard; corrija pelo menos três pontos de confusão e registre as mudanças.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **Entrega executiva** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie uma segunda versão da entrega de **Entrega executiva** para um público diferente e ajuste título, destaque e nível de detalhe.
+- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
 1. Como explicar método, incerteza e recomendação a uma liderança sem esconder limitações?
 2. Em qual exercício de **Entrega executiva** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Entrega executiva** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
+6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1112,16 +1165,19 @@ roadmap-data-science/
 4. [ ] Crie uma consulta que calcule `impacto = duracao_min * clientes_afetados` e liste os cinco maiores.
 5. [ ] Salve tudo em `03-sql/dia21/select_basico.sql` e exporte os resultados principais para CSV.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Banco relacional e SELECT** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Banco relacional e SELECT** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Qual a função de chave primária e chave estrangeira, e por que normalização importa?
 2. Em qual exercício de **Banco relacional e SELECT** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Banco relacional e SELECT** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1150,16 +1206,19 @@ roadmap-data-science/
 4. [ ] Construa três consultas logicamente equivalentes com parênteses diferentes e explique por que uma delas retorna linhas erradas.
 5. [ ] Teste limites exatos 50/51, 120/121 e datas de início/fim; registre os casos inclusivos e exclusivos.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Filtros e funções** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Filtros e funções** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Como `NULL` se comporta em filtros SQL e por que `= NULL` não funciona como esperado?
 2. Em qual exercício de **Filtros e funções** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Filtros e funções** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1188,16 +1247,19 @@ roadmap-data-science/
 4. [ ] Calcule taxa de resolução com proteção contra divisão por zero e compare resultado com pandas.
 5. [ ] Crie uma tabela de validação manual para duas cidades e confirme os agregados linha por linha.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Agregações** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Agregações** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Qual a diferença entre `WHERE` e `HAVING`, e como uma agregação pode contar registros duplicados?
 2. Em qual exercício de **Agregações** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Agregações** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1226,16 +1288,19 @@ roadmap-data-science/
 4. [ ] Corrija o problema agregando antes do join ou validando cardinalidade.
 5. [ ] Desenhe em Mermaid ou texto o relacionamento entre as quatro tabelas e anote a granularidade de cada uma.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **JOINs** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **JOINs** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Qual a diferença entre `INNER`, `LEFT`, `RIGHT` e `FULL JOIN`, e como detectar multiplicação de linhas?
 2. Em qual exercício de **JOINs** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **JOINs** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1264,16 +1329,19 @@ roadmap-data-science/
 4. [ ] Otimize uma consulta removendo `SELECT *`, filtros tardios e joins desnecessários; compare o plano de execução quando disponível.
 5. [ ] Entregue `case_sql_semana05.md` com pergunta, consulta, resultado, interpretação e limitação para cada análise.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Mini-case SQL** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Mini-case SQL** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Como validar uma consulta de negócio antes de confiar no número final?
 2. Em qual exercício de **Mini-case SQL** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Mini-case SQL** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1328,16 +1396,19 @@ roadmap-data-science/
 4. [ ] Crie uma sequência de três CTEs: dados válidos → métricas por cidade → ranking final.
 5. [ ] Introduza um filtro em posição errada e demonstre como ele altera o denominador de uma taxa.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Subqueries e CTEs** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Subqueries e CTEs** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Quando uma CTE melhora legibilidade e quando uma subconsulta correlacionada pode prejudicar desempenho?
 2. Em qual exercício de **Subqueries e CTEs** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Subqueries e CTEs** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1366,16 +1437,19 @@ roadmap-data-science/
 4. [ ] Selecione o top 3 por cidade sem perder empates relevantes.
 5. [ ] Compare uma solução com função de janela a outra com `GROUP BY` e explique por que elas respondem perguntas diferentes.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Funções de janela** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Funções de janela** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Qual a diferença entre agregar linhas e usar uma função de janela sem perder granularidade?
 2. Em qual exercício de **Funções de janela** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Funções de janela** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1404,16 +1478,19 @@ roadmap-data-science/
 4. [ ] Crie calendário completo e faça `LEFT JOIN` para exibir dias sem eventos com zero.
 5. [ ] Teste virada de mês, ano bissexto, horário nulo e eventos abertos; documente decisões.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Datas e análise temporal** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Datas e análise temporal** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Como fuso horário, datas incompletas e janelas móveis podem distorcer uma análise?
 2. Em qual exercício de **Datas e análise temporal** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Datas e análise temporal** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1442,16 +1519,19 @@ roadmap-data-science/
 4. [ ] Compare retenção por canal de aquisição ou plano.
 5. [ ] Escreva três conclusões e uma cautela sobre coortes pequenas.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Cohorts e retenção** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Cohorts e retenção** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Como definir corretamente cohort, período zero e retenção para evitar comparações injustas?
 2. Em qual exercício de **Cohorts e retenção** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Cohorts e retenção** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1480,16 +1560,19 @@ roadmap-data-science/
 4. [ ] Escolha as cinco piores respostas e reescreva do zero no fim do dia.
 5. [ ] Crie uma folha de erros com categoria, causa, correção e regra que evitará repetição.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Simulado SQL** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Simulado SQL** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Como você investigaria uma consulta correta sintaticamente, mas com resultado numericamente suspeito?
 2. Em qual exercício de **Simulado SQL** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Simulado SQL** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1549,16 +1632,19 @@ roadmap-data-science/
 4. [ ] Faça histogramas e boxplots e escreva a forma da distribuição: simétrica, assimétrica ou multimodal.
 5. [ ] Explique em linguagem de negócio quando mediana é mais adequada que média.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Medidas e distribuições** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Medidas e distribuições**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. Quando a mediana representa melhor os dados do que a média, e como outliers afetam cada medida?
 2. Em qual exercício de **Medidas e distribuições** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Medidas e distribuições** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1587,16 +1673,19 @@ roadmap-data-science/
 4. [ ] Crie dois eventos independentes e dois dependentes em dados sintéticos; mostre numericamente a diferença.
 5. [ ] Escreva três erros comuns ao interpretar probabilidade condicional.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Probabilidade básica** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Probabilidade básica**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. Qual a diferença entre probabilidade condicional, independência e eventos mutuamente exclusivos?
 2. Em qual exercício de **Probabilidade básica** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Probabilidade básica** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1625,16 +1714,19 @@ roadmap-data-science/
 4. [ ] Padronize uma normal em z-score e calcule percentuais abaixo/acima de dois limites.
 5. [ ] Crie um caso em que usar Normal para contagem gera valores impossíveis e explique a distribuição mais adequada.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Distribuições importantes** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Distribuições importantes**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. Como reconhecer quando uma distribuição normal, binomial ou Poisson é uma aproximação razoável?
 2. Em qual exercício de **Distribuições importantes** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Distribuições importantes** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1663,16 +1755,19 @@ roadmap-data-science/
 4. [ ] Simule amostragem enviesada escolhendo apenas clientes de uma cidade; compare estimativa com população.
 5. [ ] Escreva como tamanho, aleatoriedade e representatividade afetam uma pesquisa empresarial.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Amostragem e Lei dos Grandes Números** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Amostragem e Lei dos Grandes Números**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. Como viés de seleção e tamanho da amostra afetam a possibilidade de generalizar um resultado?
 2. Em qual exercício de **Amostragem e Lei dos Grandes Números** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Amostragem e Lei dos Grandes Números** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1701,16 +1796,19 @@ roadmap-data-science/
 4. [ ] Simule um resultado estatisticamente aparente causado por composição diferente de cidades.
 5. [ ] Entregue nota técnica de uma página dizendo o que pode e não pode ser concluído.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Case estatístico** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Case estatístico**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. Qual conclusão estatística pode ser tomada e qual conclusão exigiria evidência adicional?
 2. Em qual exercício de **Case estatístico** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Case estatístico** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1770,16 +1868,19 @@ roadmap-data-science/
 4. [ ] Use bootstrap para média e mediana; compare com abordagem paramétrica.
 5. [ ] Explique a interpretação correta de um IC de 95% sem dizer que há 95% de chance do parâmetro estar dentro do intervalo.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Intervalos de confiança** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Intervalos de confiança**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. O que um intervalo de confiança representa e qual interpretação comum está errada?
 2. Em qual exercício de **Intervalos de confiança** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Intervalos de confiança** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1808,16 +1909,19 @@ roadmap-data-science/
 4. [ ] Crie cenários de erro tipo I e II com consequências de negócio.
 5. [ ] Escreva decisão usando significância, efeito, intervalo e custo, sem depender só de p-valor.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Testes de hipótese** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Testes de hipótese**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. Qual a relação entre hipótese nula, valor-p, nível de significância e tamanho de efeito?
 2. Em qual exercício de **Testes de hipótese** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Testes de hipótese** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1846,16 +1950,19 @@ roadmap-data-science/
 4. [ ] Simule peeking diário e explique como aumenta falso positivo.
 5. [ ] Crie relatório de decisão: lançar, repetir ou abandonar, justificando risco e impacto.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Teste A/B** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Teste A/B**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. Como definir unidade de randomização, métrica primária e duração antes de observar os resultados?
 2. Em qual exercício de **Teste A/B** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Teste A/B** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1884,16 +1991,19 @@ roadmap-data-science/
 4. [ ] Liste possíveis confundidores em uma análise de cancelamento.
 5. [ ] Reescreva cinco frases causais como associações honestas quando o desenho não sustenta causalidade.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Correlação, causalidade e vieses** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Correlação, causalidade e vieses**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. Quais mecanismos podem produzir correlação sem causalidade e como um experimento ajuda?
 2. Em qual exercício de **Correlação, causalidade e vieses** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Correlação, causalidade e vieses** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1922,16 +2032,19 @@ roadmap-data-science/
 4. [ ] Execute testes de sensibilidade por cidade, plano e tempo de cliente sem praticar caça a significância.
 5. [ ] Apresente em oito minutos: problema, desenho, resultado, impacto, riscos e próxima decisão.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Entrega de experimento** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Entrega de experimento**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. Como decidir uma ação quando o resultado é inconclusivo, mas o negócio exige uma escolha?
 2. Em qual exercício de **Entrega de experimento** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Entrega de experimento** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -1987,16 +2100,19 @@ roadmap-data-science/
 4. [ ] Crie baseline de negócio: prever todos como não churn e comparar com regra simples `chamados_90d >= 3`.
 5. [ ] Escreva `problem_statement.md` com objetivo, restrições, métrica primária, métricas secundárias e critério de sucesso.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Definição do problema** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Definição do problema** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como transformar um pedido vago em alvo, unidade de análise, horizonte e ação mensurável?
 2. Em qual exercício de **Definição do problema** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Definição do problema** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2025,16 +2141,19 @@ roadmap-data-science/
 4. [ ] Remova o leakage e registre a queda de desempenho como evidência de correção.
 5. [ ] Escreva um checklist de 10 perguntas para detectar vazamento antes da modelagem.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Separação e vazamento** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Separação e vazamento** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Quais informações configuram data leakage e por que a separação deve respeitar tempo ou grupos?
 2. Em qual exercício de **Separação e vazamento** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Separação e vazamento** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2063,16 +2182,19 @@ roadmap-data-science/
 4. [ ] Teste categorias inéditas no conjunto de validação usando `handle_unknown='ignore'`.
 5. [ ] Salve e recarregue a pipeline; compare previsões antes e depois para garantir igualdade.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Pré-processamento com Pipeline** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Pré-processamento com Pipeline** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Por que transformações devem ser ajustadas apenas no treino e encapsuladas em pipeline?
 2. Em qual exercício de **Pré-processamento com Pipeline** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Pré-processamento com Pipeline** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2101,16 +2223,19 @@ roadmap-data-science/
 4. [ ] Plote curvas ROC e Precision-Recall; compare interpretação em classe desbalanceada.
 5. [ ] Escolha uma métrica primária e duas guardrails e registre justificativa.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Métricas de classificação** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Métricas de classificação** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Quando priorizar precision, recall, F1, ROC-AUC ou PR-AUC?
 2. Em qual exercício de **Métricas de classificação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Métricas de classificação** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2139,16 +2264,19 @@ roadmap-data-science/
 4. [ ] Faça análise de erros de 20 casos: 10 falsos positivos e 10 falsos negativos.
 5. [ ] Publique notebook executável do início ao fim e um resumo de qual baseline deve ser superado.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Baseline completo** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Baseline completo** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. O que torna um baseline válido e por que um modelo complexo precisa superá-lo de forma relevante?
 2. Em qual exercício de **Baseline completo** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Baseline completo** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2209,16 +2337,19 @@ roadmap-data-science/
 4. [ ] Plote resíduos versus predição e distribuição dos resíduos.
 5. [ ] Crie uma relação não linear e demonstre por que regressão linear simples falha.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Regressão linear** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Regressão linear** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Quais pressupostos da regressão linear afetam interpretação e previsão?
 2. Em qual exercício de **Regressão linear** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Regressão linear** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2247,16 +2378,19 @@ roadmap-data-science/
 4. [ ] Escolha a métrica mais coerente para previsão de receita e justifique custo dos erros.
 5. [ ] Crie intervalo de erro por faixa de valor e verifique se o modelo piora nos pedidos maiores.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Métricas de regressão** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Métricas de regressão** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como MAE, RMSE e R² reagem a erros grandes e qual delas conversa melhor com o custo do negócio?
 2. Em qual exercício de **Métricas de regressão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Métricas de regressão** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2285,16 +2419,19 @@ roadmap-data-science/
 4. [ ] Mostre quais coeficientes o Lasso zera e quando isso não significa causalidade.
 5. [ ] Escolha um modelo equilibrando erro, estabilidade e interpretação.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Regularização** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Regularização** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como L1 e L2 controlam complexidade e por que regularização não corrige dados ruins?
 2. Em qual exercício de **Regularização** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Regularização** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2323,16 +2460,19 @@ roadmap-data-science/
 4. [ ] Construa cada feature dentro da pipeline para evitar diferenças entre treino e inferência.
 5. [ ] Faça ablação: remova grupos de features e registre quanto cada grupo muda a métrica.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Feature engineering para regressão** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Feature engineering para regressão** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como criar atributos úteis sem inserir informação futura ou relação artificial?
 2. Em qual exercício de **Feature engineering para regressão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Feature engineering para regressão** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2361,16 +2501,19 @@ roadmap-data-science/
 4. [ ] Analise os 10 maiores erros e proponha duas features futuras.
 5. [ ] Entregue README com pergunta, dados, validação, resultado, decisão e limitações.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Mini-projeto de regressão** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Mini-projeto de regressão** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como demonstrar que a melhora do modelo é útil e não apenas uma diferença pequena de métrica?
 2. Em qual exercício de **Mini-projeto de regressão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Mini-projeto de regressão** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2426,16 +2569,19 @@ roadmap-data-science/
 4. [ ] Compare regressão logística com `DummyClassifier` e regra simples.
 5. [ ] Teste multicolinearidade e regularização; documente estabilidade dos coeficientes.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Regressão logística** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Regressão logística** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como interpretar probabilidade e coeficientes de uma regressão logística sem confundir com causalidade?
 2. Em qual exercício de **Regressão logística** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Regressão logística** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2464,16 +2610,19 @@ roadmap-data-science/
 4. [ ] Escolha o limiar de menor custo respeitando recall mínimo de 70%.
 5. [ ] Crie gráfico custo versus limiar e escreva recomendação executiva.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Limiar e custo** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Limiar e custo** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Por que o limiar 0,5 não é universal e como escolher um limiar com custo de falsos positivos e negativos?
 2. Em qual exercício de **Limiar e custo** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Limiar e custo** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2502,16 +2651,19 @@ roadmap-data-science/
 4. [ ] Compare discriminação e calibração antes/depois.
 5. [ ] Explique por que uma probabilidade mal calibrada prejudica política de crédito ou retenção.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Calibração e probabilidades** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Calibração e probabilidades** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Qual a diferença entre discriminação e calibração de probabilidades?
 2. Em qual exercício de **Calibração e probabilidades** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Calibração e probabilidades** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2540,16 +2692,19 @@ roadmap-data-science/
 4. [ ] Avalie PR-AUC, recall da minoria, precision e custo.
 5. [ ] Escolha abordagem final e registre impactos colaterais.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Classes desbalanceadas** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Classes desbalanceadas** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Por que acurácia pode enganar em classes raras e quais alternativas devem ser avaliadas?
 2. Em qual exercício de **Classes desbalanceadas** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Classes desbalanceadas** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2578,16 +2733,19 @@ roadmap-data-science/
 4. [ ] Defina regra de revisão humana para casos próximos ao limiar.
 5. [ ] Apresente decisão em uma página, incluindo quem não deve receber ação automatizada.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Case de decisão** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Case de decisão** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como converter uma probabilidade prevista em política operacional auditável?
 2. Em qual exercício de **Case de decisão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Case de decisão** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2648,16 +2806,19 @@ roadmap-data-science/
 4. [ ] Varie `min_samples_leaf` e registre estabilidade.
 5. [ ] Crie uma árvore deliberadamente complexa e explique por que não deve ser usada apesar da métrica de treino.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Árvore de decisão** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Árvore de decisão** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como profundidade, folhas mínimas e impureza afetam overfitting e interpretabilidade?
 2. Em qual exercício de **Árvore de decisão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Árvore de decisão** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2686,16 +2847,19 @@ roadmap-data-science/
 4. [ ] Meça tempo e tamanho do modelo.
 5. [ ] Escolha configuração considerando desempenho, estabilidade e custo de inferência.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Random Forest** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Random Forest** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como bagging e aleatoriedade de atributos reduzem variância em comparação com uma árvore única?
 2. Em qual exercício de **Random Forest** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Random Forest** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2724,16 +2888,19 @@ roadmap-data-science/
 4. [ ] Analise importância e erros por segmento.
 5. [ ] Documente por que boosting pode ganhar em dados tabulares e quais riscos de tuning existem.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Gradient Boosting** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Gradient Boosting** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como boosting corrige erros sequencialmente e qual risco existe ao aumentar complexidade?
 2. Em qual exercício de **Gradient Boosting** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Gradient Boosting** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2762,16 +2929,19 @@ roadmap-data-science/
 4. [ ] Escolha modelo campeão e um challenger.
 5. [ ] Escreva decisão com trade-offs, não apenas ranking.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Seleção de modelo** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Seleção de modelo** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Quais critérios além da métrica devem decidir entre dois modelos?
 2. Em qual exercício de **Seleção de modelo** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Seleção de modelo** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2800,16 +2970,19 @@ roadmap-data-science/
 4. [ ] Crie README com tabela de resultados e três conclusões.
 5. [ ] Faça release `v0.1.0` no GitHub e grave apresentação técnica de cinco minutos.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Benchmark publicado** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Benchmark publicado** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como garantir que uma comparação de modelos foi justa, reproduzível e sem ajuste no teste?
 2. Em qual exercício de **Benchmark publicado** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Benchmark publicado** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2866,16 +3039,19 @@ roadmap-data-science/
 4. [ ] Faça análise de ablação por grupo.
 5. [ ] Elimine features que dependam do futuro ou duplicam o alvo.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Feature engineering** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Feature engineering** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como avaliar se uma nova feature adiciona sinal real, estabilidade e explicabilidade?
 2. Em qual exercício de **Feature engineering** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Feature engineering** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2904,16 +3080,19 @@ roadmap-data-science/
 4. [ ] Separe conjunto de teste final e não o use durante tuning.
 5. [ ] Compare melhor configuração com padrão e avalie se ganho compensa complexidade.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Validação cruzada e tuning** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Validação cruzada e tuning** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Quando usar validação cruzada comum, estratificada, por grupo ou temporal?
 2. Em qual exercício de **Validação cruzada e tuning** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Validação cruzada e tuning** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2942,16 +3121,19 @@ roadmap-data-science/
 4. [ ] Treine modelo com todas as features e com seleção; compare métrica e estabilidade.
 5. [ ] Documente por que feature selecionada não implica causalidade.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Seleção de variáveis** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Seleção de variáveis** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Qual o risco de selecionar variáveis usando o conjunto de teste ou apenas importância do modelo?
 2. Em qual exercício de **Seleção de variáveis** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Seleção de variáveis** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -2980,16 +3162,19 @@ roadmap-data-science/
 4. [ ] Identifique uma explicação plausível porém enganosa causada por correlação.
 5. [ ] Crie relatório para público não técnico com três cuidados ao interpretar importância.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Explicabilidade** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Explicabilidade** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Qual a diferença entre explicação global e local, e por que importância não implica causalidade?
 2. Em qual exercício de **Explicabilidade** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Explicabilidade** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3018,16 +3203,19 @@ roadmap-data-science/
 4. [ ] Use linter ou revisão manual para encontrar código duplicado, variáveis globais e caminhos fixos.
 5. [ ] Crie `auditoria_modelo.md` com problemas encontrados, severidade, correção e evidência.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Auditoria do pipeline** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Auditoria do pipeline** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Quais pontos do pipeline você verificaria para detectar leakage, inconsistência e baixa reprodutibilidade?
 2. Em qual exercício de **Auditoria do pipeline** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Auditoria do pipeline** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3084,16 +3272,19 @@ roadmap-data-science/
 4. [ ] Defina escopo mínimo do projeto e lista explícita do que ficará fora.
 5. [ ] Abra issues no GitHub para dados, EDA, SQL, modelagem, dashboard, documentação e apresentação.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Definição do case** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Definição do case**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Qual decisão de retenção será tomada com a previsão e qual seria o custo de uma intervenção errada?
 2. Em qual exercício de **Definição do case** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Definição do case** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3122,16 +3313,19 @@ roadmap-data-science/
 4. [ ] Crie base analítica limpa e dicionário de dados.
 5. [ ] Registre quantidade de linhas alteradas ou removidas e impacto na taxa de churn.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Engenharia e qualidade dos dados** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Engenharia e qualidade dos dados**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Quais testes garantem que a base de churn representa clientes, períodos e cancelamentos corretamente?
 2. Em qual exercício de **Engenharia e qualidade dos dados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Engenharia e qualidade dos dados** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3160,16 +3354,19 @@ roadmap-data-science/
 4. [ ] Calcule tamanho dos segmentos para evitar conclusões com grupos pequenos.
 5. [ ] Produza `insights_eda.md` com evidência, impacto, cautela e próxima análise.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **EDA orientada a churn** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **EDA orientada a churn**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Quais padrões devem ser investigados sem usar informação posterior ao cancelamento?
 2. Em qual exercício de **EDA orientada a churn** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **EDA orientada a churn** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3198,16 +3395,19 @@ roadmap-data-science/
 4. [ ] Crie testes de unicidade, ausência de chaves e totais antes/depois dos joins.
 5. [ ] Exporte `base_modelagem.csv` e compare cinco linhas com cálculo manual.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **SQL do projeto** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **SQL do projeto**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Como produzir uma linha por unidade de análise sem duplicar clientes ao juntar eventos?
 2. Em qual exercício de **SQL do projeto** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **SQL do projeto** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3236,16 +3436,19 @@ roadmap-data-science/
 4. [ ] Defina métricas técnicas e custo de decisão.
 5. [ ] Salve um `data_card.md` com origem, período, população, exclusões e limitações.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Preparação para modelagem** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Preparação para modelagem**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Como congelar a definição de treino, validação, teste e features antes de comparar modelos?
 2. Em qual exercício de **Preparação para modelagem** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Preparação para modelagem** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3301,16 +3504,19 @@ roadmap-data-science/
 4. [ ] Analise 20 erros críticos.
 5. [ ] Selecione campeão e challenger com justificativa pré-definida.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Baselines e modelos** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Baselines e modelos**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Como comparar baseline e modelos usando o mesmo protocolo e intervalo de incerteza?
 2. Em qual exercício de **Baselines e modelos** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Baselines e modelos** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3339,16 +3545,19 @@ roadmap-data-science/
 4. [ ] Calcule retorno estimado e ponto de equilíbrio.
 5. [ ] Crie regras de exclusão para evitar ofertas inadequadas.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Limiar e estratégia de retenção** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Limiar e estratégia de retenção**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Como orçamento, capacidade de contato e custo de desconto alteram o limiar de ação?
 2. Em qual exercício de **Limiar e estratégia de retenção** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Limiar e estratégia de retenção** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3377,16 +3586,19 @@ roadmap-data-science/
 4. [ ] Identifique possíveis vieses e grupos com baixo suporte.
 5. [ ] Escreva exemplos de mensagens operacionais para o time de retenção sem expor informações sensíveis.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Explicabilidade e segmentos** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Explicabilidade e segmentos**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Como verificar se o modelo funciona de forma consistente entre regiões, planos ou perfis?
 2. Em qual exercício de **Explicabilidade e segmentos** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Explicabilidade e segmentos** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3415,16 +3627,19 @@ roadmap-data-science/
 4. [ ] Adicione seção de limitações e plano de monitoramento.
 5. [ ] Teste dashboard com uma pessoa e corrija pelo menos três ambiguidades.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Relatório e dashboard** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Relatório e dashboard**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Quais informações um gestor precisa para agir e quais detalhes técnicos devem ir para o anexo?
 2. Em qual exercício de **Relatório e dashboard** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Relatório e dashboard** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3453,16 +3668,19 @@ roadmap-data-science/
 4. [ ] Responda por escrito a cinco perguntas de banca sobre leakage, métrica, custo, viés e implantação.
 5. [ ] Faça retrospectiva: três acertos, três falhas e três melhorias.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Publicação e apresentação** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Publicação e apresentação**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Como apresentar limitações sem enfraquecer a credibilidade do projeto?
 2. Em qual exercício de **Publicação e apresentação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Publicação e apresentação** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3523,16 +3741,19 @@ roadmap-data-science/
 4. [ ] Crie features de calendário e lags sem olhar o futuro.
 5. [ ] Defina horizonte de previsão e decisão operacional associada.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Fundamentos temporais** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Fundamentos temporais** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Por que ordem temporal, tendência e sazonalidade impedem o embaralhamento aleatório dos dados?
 2. Em qual exercício de **Fundamentos temporais** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Fundamentos temporais** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3561,16 +3782,19 @@ roadmap-data-science/
 4. [ ] Compare desempenho por períodos de alta e baixa demanda.
 5. [ ] Escolha baseline oficial que qualquer modelo deve superar.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Baselines temporais** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Baselines temporais** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Quais baselines ingênuos devem ser vencidos antes de adotar um modelo de forecasting?
 2. Em qual exercício de **Baselines temporais** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Baselines temporais** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3599,16 +3823,19 @@ roadmap-data-science/
 4. [ ] Compare erro e estabilidade por horizonte.
 5. [ ] Analise resíduos e autocorrelação remanescente.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Modelos tradicionais** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Modelos tradicionais** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Como escolher entre média móvel, suavização, ARIMA ou outro método conforme o padrão temporal?
 2. Em qual exercício de **Modelos tradicionais** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Modelos tradicionais** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3637,16 +3864,19 @@ roadmap-data-science/
 4. [ ] Escolha métrica e modelo alinhados ao custo.
 5. [ ] Escreva recomendação para a próxima semana com nível de confiança.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Previsão e decisão** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Previsão e decisão** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Como intervalos de previsão e cenários devem influenciar planejamento de capacidade?
 2. Em qual exercício de **Previsão e decisão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Previsão e decisão** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3675,16 +3905,19 @@ roadmap-data-science/
 4. [ ] Produza resumo executivo com decisão e riscos.
 5. [ ] Grave apresentação de seis minutos e responda perguntas sobre leakage temporal e validação.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Projeto de forecasting** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Projeto de forecasting** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Como comprovar que a previsão continua útil em diferentes horizontes e períodos?
 2. Em qual exercício de **Projeto de forecasting** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Projeto de forecasting** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3745,16 +3978,19 @@ roadmap-data-science/
 4. [ ] Crie política de governança com responsável, frequência de revisão e trilha de auditoria.
 5. [ ] Escreva critérios de sucesso técnico, econômico e de equidade.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Problema e governança** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Problema e governança** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Quais decisões de crédito exigem rastreabilidade, privacidade, explicabilidade e análise de viés?
 2. Em qual exercício de **Problema e governança** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Problema e governança** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3783,16 +4019,19 @@ roadmap-data-science/
 4. [ ] Valide estabilidade temporal das variáveis.
 5. [ ] Crie dicionário de features e regras de exclusão.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Dados e cohorts** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Dados e cohorts** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Como cohorts de originação e maturação ajudam a comparar risco de crédito?
 2. Em qual exercício de **Dados e cohorts** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Dados e cohorts** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3821,16 +4060,19 @@ roadmap-data-science/
 4. [ ] Analise estabilidade e desempenho por segmentos.
 5. [ ] Escolha modelo explicável compatível com política de crédito.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Modelagem de risco** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Modelagem de risco** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Como avaliar ranking, probabilidade, calibração e estabilidade de um score?
 2. Em qual exercício de **Modelagem de risco** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Modelagem de risco** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3859,16 +4101,19 @@ roadmap-data-science/
 4. [ ] Teste cenários de mudança na taxa de default.
 5. [ ] Crie regra para casos sem informação suficiente e revisão humana.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Política e custo** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Política e custo** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Como transformar score em aprovação, limite ou preço sem ignorar custo e capacidade de perda?
 2. Em qual exercício de **Política e custo** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Política e custo** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3897,16 +4142,19 @@ roadmap-data-science/
 4. [ ] Responda a uma banca simulada sobre viés, explicabilidade, drift e regulação.
 5. [ ] Registre limitações e plano de monitoramento pós-implantação.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Entrega do projeto** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Entrega do projeto** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Como defender uma política de risco para negócio, tecnologia e governança ao mesmo tempo?
 2. Em qual exercício de **Entrega do projeto** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Entrega do projeto** seria usado para apoiar uma decisão real em dados ou IA?
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -3963,16 +4211,19 @@ roadmap-data-science/
 4. [ ] Crie estrutura de pastas `raw`, `processed`, `curated` e regras de nomenclatura.
 5. [ ] Liste cinco falhas possíveis e como detectar cada uma.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **ETL/ELT e arquitetura básica** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente ao fluxo de **ETL/ELT e arquitetura básica** uma checagem automática de qualidade ou uma condição clara de falha.
+- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
 1. Qual a diferença entre ETL e ELT e como escolher camadas raw, clean e analytics?
 2. Em qual exercício de **ETL/ELT e arquitetura básica** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **ETL/ELT e arquitetura básica** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4001,16 +4252,19 @@ roadmap-data-science/
 4. [ ] Garanta idempotência: executar duas vezes não deve duplicar dados.
 5. [ ] Teste arquivo ausente, coluna faltante, linha inválida e execução repetida.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Pipeline em Python** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente ao fluxo de **Pipeline em Python** uma checagem automática de qualidade ou uma condição clara de falha.
+- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
 1. O que torna um pipeline idempotente, observável e seguro para reexecução?
 2. Em qual exercício de **Pipeline em Python** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Pipeline em Python** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4039,16 +4293,19 @@ roadmap-data-science/
 4. [ ] Simule falha na transformação e confirme que carregamento não ocorre.
 5. [ ] Escreva um runbook com diagnóstico e recuperação.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Orquestração conceitual** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente ao fluxo de **Orquestração conceitual** uma checagem automática de qualidade ou uma condição clara de falha.
+- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
 1. Qual a diferença entre dependência, agendamento, retry, backfill e monitoramento?
 2. Em qual exercício de **Orquestração conceitual** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Orquestração conceitual** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4077,16 +4334,19 @@ roadmap-data-science/
 4. [ ] Compare sintaxe e execução com pandas em cinco operações.
 5. [ ] Salve resultado em Parquet e explique quando Spark é desnecessário.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Databricks e Spark introdutório** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente ao fluxo de **Databricks e Spark introdutório** uma checagem automática de qualidade ou uma condição clara de falha.
+- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
 1. Quando processamento distribuído é necessário e quando pandas ou SQL local é suficiente?
 2. Em qual exercício de **Databricks e Spark introdutório** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Databricks e Spark introdutório** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4115,16 +4375,19 @@ roadmap-data-science/
 4. [ ] Rode duas vezes e com dados novos para provar idempotência/incremento correto.
 5. [ ] Publique README de arquitetura, execução, testes e limitações.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Entrega do pipeline** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente ao fluxo de **Entrega do pipeline** uma checagem automática de qualidade ou uma condição clara de falha.
+- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
 1. Como demonstrar rastreabilidade desde a fonte até a tabela usada pelo modelo?
 2. Em qual exercício de **Entrega do pipeline** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Entrega do pipeline** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4179,16 +4442,19 @@ roadmap-data-science/
 4. [ ] Defina padrão de mensagens de commit e template de PR.
 5. [ ] Marque release e tag para versão estável.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Git profissional básico** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Git profissional básico** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Qual a função de branch, pull request, merge, tag e release em uma equipe?
 2. Em qual exercício de **Git profissional básico** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Git profissional básico** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4217,16 +4483,19 @@ roadmap-data-science/
 4. [ ] Garanta que notebook use funções importadas e não duplique lógica.
 5. [ ] Execute do zero e compare métricas com versão anterior.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Refatoração de notebook** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Refatoração de notebook** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. O que deve sair de um notebook e virar função, módulo, configuração ou teste?
 2. Em qual exercício de **Refatoração de notebook** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Refatoração de notebook** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4255,16 +4524,19 @@ roadmap-data-science/
 4. [ ] Use fixtures para dados pequenos.
 5. [ ] Introduza um bug proposital, confirme falha e depois corrija.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Testes** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Testes** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Qual a diferença entre teste unitário, integração e ponta a ponta em um projeto de dados?
 2. Em qual exercício de **Testes** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Testes** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4293,16 +4565,19 @@ roadmap-data-science/
 4. [ ] Crie logging estruturado com níveis INFO, WARNING e ERROR.
 5. [ ] Escreva checklist de segurança: segredos, dados pessoais, caminhos e dependências.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Qualidade e configuração** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Qualidade e configuração** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Por que credenciais, caminhos e parâmetros não devem ficar fixos no código?
 2. Em qual exercício de **Qualidade e configuração** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Qualidade e configuração** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4331,16 +4606,19 @@ roadmap-data-science/
 4. [ ] Corrija e gere release `v1.0.0` com changelog.
 5. [ ] Faça revisão final usando checklist de PR.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **CI e versão estável** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **CI e versão estável** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Que verificações mínimas uma integração contínua deve executar antes de aceitar mudanças?
 2. Em qual exercício de **CI e versão estável** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **CI e versão estável** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4396,16 +4674,19 @@ roadmap-data-science/
 4. [ ] Teste via documentação automática e `curl`/Postman.
 5. [ ] Garanta códigos HTTP claros para erro de validação e falha interna.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **FastAPI e contrato** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **FastAPI e contrato** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Como schemas, códigos HTTP e validação formam o contrato de uma API de modelo?
 2. Em qual exercício de **FastAPI e contrato** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **FastAPI e contrato** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4434,16 +4715,19 @@ roadmap-data-science/
 4. [ ] Compare 20 previsões do notebook e API; devem coincidir.
 5. [ ] Teste modelo inexistente, arquivo corrompido e campo extra.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Serialização e pipeline de inferência** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Serialização e pipeline de inferência** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Quais riscos existem ao salvar e carregar modelos, preprocessadores e versões de bibliotecas separadamente?
 2. Em qual exercício de **Serialização e pipeline de inferência** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Serialização e pipeline de inferência** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4472,16 +4756,19 @@ roadmap-data-science/
 4. [ ] Passe configurações por variável de ambiente.
 5. [ ] Registre tamanho da imagem, tempo de build e comandos no README.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Docker** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Docker** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Qual problema imagem, container, volume e porta resolvem na reprodução do ambiente?
 2. Em qual exercício de **Docker** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Docker** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4510,16 +4797,19 @@ roadmap-data-science/
 4. [ ] Defina alertas conceituais para erro, latência e drift.
 5. [ ] Crie runbook de investigação.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Logs e monitoramento básico** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Logs e monitoramento básico** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Quais sinais indicam erro técnico, mudança de dados, drift ou queda de desempenho?
 2. Em qual exercício de **Logs e monitoramento básico** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Logs e monitoramento básico** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4548,16 +4838,19 @@ roadmap-data-science/
 4. [ ] Faça teste de carga leve e registre limites.
 5. [ ] Grave demonstração de cinco minutos do dado até resposta.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Publicação do serviço** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Publicação do serviço** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Como testar disponibilidade, latência, entradas inválidas e rollback antes de chamar um serviço de pronto?
 2. Em qual exercício de **Publicação do serviço** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Publicação do serviço** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4618,16 +4911,19 @@ roadmap-data-science/
 4. [ ] Estime custos qualitativos e pontos de maior gasto.
 5. [ ] Liste riscos de segurança, disponibilidade e lock-in.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Conceitos de cloud para dados** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Compare duas opções de arquitetura para **Conceitos de cloud para dados** em um cenário pequeno e em outro com crescimento de volume.
+- [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
 1. Qual a diferença entre computação, armazenamento, rede, identidade e serviço gerenciado em cloud?
 2. Em qual exercício de **Conceitos de cloud para dados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Conceitos de cloud para dados** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
+6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4656,16 +4952,19 @@ roadmap-data-science/
 4. [ ] Particione um conjunto temporal por ano/mês e teste leitura seletiva.
 5. [ ] Explique quando não usar Spark ou warehouse.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Armazenamento e processamento** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Compare duas opções de arquitetura para **Armazenamento e processamento** em um cenário pequeno e em outro com crescimento de volume.
+- [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
 1. Como custo, latência, volume e segurança influenciam a arquitetura de dados?
 2. Em qual exercício de **Armazenamento e processamento** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Armazenamento e processamento** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
+6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4694,16 +4993,19 @@ roadmap-data-science/
 4. [ ] Reproduza uma execução com parâmetro alterado.
 5. [ ] Documente diferenças entre ambiente local e plataforma.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Databricks aplicado** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Compare duas opções de arquitetura para **Databricks aplicado** em um cenário pequeno e em outro com crescimento de volume.
+- [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
 1. Como notebooks, jobs, clusters e tabelas se conectam em um fluxo reprodutível?
 2. Em qual exercício de **Databricks aplicado** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Databricks aplicado** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
+6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4732,16 +5034,19 @@ roadmap-data-science/
 4. [ ] Simule comparação champion/challenger.
 5. [ ] Escreva processo de rollback.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **MLOps introdutório** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Compare duas opções de arquitetura para **MLOps introdutório** em um cenário pequeno e em outro com crescimento de volume.
+- [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
 1. Quais artefatos precisam ser versionados para reproduzir treinamento e inferência?
 2. Em qual exercício de **MLOps introdutório** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **MLOps introdutório** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
+6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4770,16 +5075,19 @@ roadmap-data-science/
 4. [ ] Revise respostas imprecisas e escreva versões melhores.
 5. [ ] Entregue projeto mensal reproduzível e implantável com checklist aprovado.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Arquitetura e entrevista** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Compare duas opções de arquitetura para **Arquitetura e entrevista** em um cenário pequeno e em outro com crescimento de volume.
+- [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
 1. Como explicar uma arquitetura indicando fluxo, falhas, segurança, custo e alternativas?
 2. Em qual exercício de **Arquitetura e entrevista** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Arquitetura e entrevista** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
+6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4836,16 +5144,19 @@ roadmap-data-science/
 4. [ ] Calcule custo estimado de uma tarefa com quantidade hipotética de tokens de entrada/saída.
 5. [ ] Liste casos em que LLM não é a solução adequada.
 
-### Verificação prática sem consulta
-- [ ] Teste **Fundamentos de LLMs** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Teste a solução de **Fundamentos de LLMs** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
+- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
 1. O que são tokens, contexto, temperatura e alucinação, e quais limites eles impõem?
 2. Em qual exercício de **Fundamentos de LLMs** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Fundamentos de LLMs** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
+6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4874,16 +5185,19 @@ roadmap-data-science/
 4. [ ] Implemente retry, timeout e tratamento de resposta inválida.
 5. [ ] Compare prompt livre, few-shot e instrução com schema.
 
-### Verificação prática sem consulta
-- [ ] Teste **APIs e prompts estruturados** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Teste a solução de **APIs e prompts estruturados** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
+- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
 1. Como estruturar entrada, saída e validação para reduzir respostas imprevisíveis de um LLM?
 2. Em qual exercício de **APIs e prompts estruturados** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **APIs e prompts estruturados** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
+6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4912,16 +5226,19 @@ roadmap-data-science/
 4. [ ] Teste consultas fora do domínio e defina limiar mínimo de relevância.
 5. [ ] Registre falsos positivos e falsos negativos da recuperação.
 
-### Verificação prática sem consulta
-- [ ] Teste **Embeddings e busca semântica** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Teste a solução de **Embeddings e busca semântica** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
+- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
 1. O que a similaridade vetorial representa e por que proximidade semântica não garante resposta correta?
 2. Em qual exercício de **Embeddings e busca semântica** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Embeddings e busca semântica** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
+6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4950,16 +5267,19 @@ roadmap-data-science/
 4. [ ] Avalie manualmente ou com avaliador separado, mantendo amostra humana.
 5. [ ] Crie tabela de erros por causa: recuperação, prompt, contexto, modelo ou dados.
 
-### Verificação prática sem consulta
-- [ ] Teste **Avaliação de aplicações LLM** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Teste a solução de **Avaliação de aplicações LLM** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
+- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
 1. Como separar avaliação de recuperação, fidelidade, utilidade, segurança, custo e latência?
 2. Em qual exercício de **Avaliação de aplicações LLM** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Avaliação de aplicações LLM** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
+6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -4988,16 +5308,19 @@ roadmap-data-science/
 4. [ ] Teste com 20 chamados, incluindo cinco ambíguos e cinco fora do domínio.
 5. [ ] Publique README com limitações e casos em que revisão humana é obrigatória.
 
-### Verificação prática sem consulta
-- [ ] Teste **Miniaplicação de IA** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Teste a solução de **Miniaplicação de IA** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
+- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
 1. Qual baseline sem IA deve ser comparado para provar que o LLM adiciona valor?
 2. Em qual exercício de **Miniaplicação de IA** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Miniaplicação de IA** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
+6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5058,16 +5381,19 @@ roadmap-data-science/
 4. [ ] Defina política de recusa quando não houver evidência.
 5. [ ] Desenhe arquitetura de ingestão, indexação, recuperação, geração e avaliação.
 
-### Verificação prática sem consulta
-- [ ] Teste **Escopo e documentos** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Escopo e documentos** e verifique recuperação, resposta e rastreabilidade da fonte.
+- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
 1. Quais perguntas o RAG deve responder e quais documentos têm autoridade para sustentar respostas?
 2. Em qual exercício de **Escopo e documentos** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Escopo e documentos** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5096,16 +5422,19 @@ roadmap-data-science/
 4. [ ] Adicione metadados de documento, seção e versão.
 5. [ ] Escolha estratégia com base em 10 perguntas de avaliação.
 
-### Verificação prática sem consulta
-- [ ] Teste **Ingestão e chunking** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Ingestão e chunking** e verifique recuperação, resposta e rastreabilidade da fonte.
+- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
 1. Como tamanho, sobreposição, estrutura e metadados dos chunks afetam recuperação?
 2. Em qual exercício de **Ingestão e chunking** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Ingestão e chunking** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5134,16 +5463,19 @@ roadmap-data-science/
 4. [ ] Calcule métricas de recuperação nas 30 perguntas.
 5. [ ] Faça análise de 10 erros e ajuste chunking ou consulta.
 
-### Verificação prática sem consulta
-- [ ] Teste **Recuperação** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Recuperação** e verifique recuperação, resposta e rastreabilidade da fonte.
+- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
 1. Como top-k, filtros e métricas de recall ajudam a diagnosticar falhas antes da geração?
 2. Em qual exercício de **Recuperação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Recuperação** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5172,16 +5504,19 @@ roadmap-data-science/
 4. [ ] Compare respostas com e sem recuperação.
 5. [ ] Valide se cada afirmação relevante é sustentada por trecho recuperado.
 
-### Verificação prática sem consulta
-- [ ] Teste **Geração com fontes** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Geração com fontes** e verifique recuperação, resposta e rastreabilidade da fonte.
+- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
 1. Como exigir evidências, recusar falta de contexto e reduzir prompt injection?
 2. Em qual exercício de **Geração com fontes** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Geração com fontes** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5210,16 +5545,19 @@ roadmap-data-science/
 4. [ ] Empacote com Docker ou instrução reproduzível.
 5. [ ] Publique relatório de limitações, riscos, custo e próximos passos.
 
-### Verificação prática sem consulta
-- [ ] Teste **Avaliação e publicação** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Avaliação e publicação** e verifique recuperação, resposta e rastreabilidade da fonte.
+- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
 1. Como medir qualidade do RAG com conjunto fixo de perguntas e análise de falhas?
 2. Em qual exercício de **Avaliação e publicação** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Avaliação e publicação** seria usado para apoiar uma decisão real em dados ou IA?
+5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5280,16 +5618,19 @@ roadmap-data-science/
 4. [ ] Defina métricas técnicas, de negócio e de experiência.
 5. [ ] Abra issues e marcos no GitHub.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Definição do produto integrador** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente um cenário de uso ponta a ponta ainda não coberto em **Definição do produto integrador** e acompanhe os dados da entrada até a saída.
+- [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
 1. Qual usuário tomará qual decisão, e por que o MVP precisa de uma métrica técnica e outra de negócio?
 2. Em qual exercício de **Definição do produto integrador** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Definição do produto integrador** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5318,16 +5659,19 @@ roadmap-data-science/
 4. [ ] Garanta que uma única instrução reproduza a base.
 5. [ ] Faça revisão de segurança e privacidade.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Dados, SQL e arquitetura** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente um cenário de uso ponta a ponta ainda não coberto em **Dados, SQL e arquitetura** e acompanhe os dados da entrada até a saída.
+- [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
 1. Como garantir que o fluxo dos dados até a interface seja rastreável e reproduzível?
 2. Em qual exercício de **Dados, SQL e arquitetura** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Dados, SQL e arquitetura** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5356,16 +5700,19 @@ roadmap-data-science/
 4. [ ] Calcule impacto esperado e cenário de pior caso.
 5. [ ] Produza memorando de decisão de uma página.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **EDA, baseline e decisão** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente um cenário de uso ponta a ponta ainda não coberto em **EDA, baseline e decisão** e acompanhe os dados da entrada até a saída.
+- [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
 1. Como provar que o baseline e a análise respondem à decisão definida no escopo?
 2. Em qual exercício de **EDA, baseline e decisão** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **EDA, baseline e decisão** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5394,16 +5741,19 @@ roadmap-data-science/
 4. [ ] Teste ponta a ponta com 20 casos.
 5. [ ] Registre métricas, latência, custo e falhas.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Modelo, IA e interface** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente um cenário de uso ponta a ponta ainda não coberto em **Modelo, IA e interface** e acompanhe os dados da entrada até a saída.
+- [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
 1. Qual parte realmente precisa de IA e como comparar com uma solução mais simples?
 2. Em qual exercício de **Modelo, IA e interface** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Modelo, IA e interface** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5432,16 +5782,19 @@ roadmap-data-science/
 4. [ ] Apresente em oito minutos para público técnico e executivo.
 5. [ ] Escreva retrospectiva e lições para o TCC.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Teste, apresentação e retrospectiva** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente um cenário de uso ponta a ponta ainda não coberto em **Teste, apresentação e retrospectiva** e acompanhe os dados da entrada até a saída.
+- [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
 1. Que evidência de uso, falha ou feedback deve alterar a próxima versão?
 2. Em qual exercício de **Teste, apresentação e retrospectiva** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Teste, apresentação e retrospectiva** seria usado para apoiar uma decisão real em dados ou IA?
+5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5615,16 +5968,19 @@ O backtest deve incluir:
 4. [ ] Teste cada projeto em clone limpo.
 5. [ ] Crie página índice de portfólio com problema, técnicas, impacto e link.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **GitHub e portfólio** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione uma evidência concreta relacionada a **GitHub e portfólio** que possa ser mostrada a um recrutador ou avaliador.
+- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
 1. Que evidências fazem um recrutador confiar que você construiu e compreende um projeto?
 2. Em qual exercício de **GitHub e portfólio** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **GitHub e portfólio** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
+6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5653,16 +6009,19 @@ O backtest deve incluir:
 4. [ ] Crie narrativa de transição de NOC para dados sem desvalorizar experiência anterior.
 5. [ ] Prepare versões de apresentação de 30 segundos, 2 minutos e 5 minutos.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Currículo, LinkedIn e narrativa** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione uma evidência concreta relacionada a **Currículo, LinkedIn e narrativa** que possa ser mostrada a um recrutador ou avaliador.
+- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
 1. Como transformar um projeto em resultado profissional sem inventar impacto?
 2. Em qual exercício de **Currículo, LinkedIn e narrativa** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Currículo, LinkedIn e narrativa** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
+6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5691,16 +6050,19 @@ O backtest deve incluir:
 4. [ ] Reescreva as cinco soluções mais fracas.
 5. [ ] Crie plano de revisão de sete dias para lacunas.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Simulado de Python e SQL** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione uma evidência concreta relacionada a **Simulado de Python e SQL** que possa ser mostrada a um recrutador ou avaliador.
+- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
 1. Quais erros de raciocínio se repetiram e como você os detectará mais cedo na próxima tentativa?
 2. Em qual exercício de **Simulado de Python e SQL** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Simulado de Python e SQL** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
+6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5729,16 +6091,19 @@ O backtest deve incluir:
 4. [ ] Grave simulado de entrevista de 45 minutos.
 5. [ ] Revise respostas vagas e substitua por evidências concretas.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Simulado de Estatística, ML e comportamento** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione uma evidência concreta relacionada a **Simulado de Estatística, ML e comportamento** que possa ser mostrada a um recrutador ou avaliador.
+- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
 1. Como explicar um conceito técnico com precisão para alguém não técnico?
 2. Em qual exercício de **Simulado de Estatística, ML e comportamento** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Simulado de Estatística, ML e comportamento** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
+6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5767,16 +6132,19 @@ O backtest deve incluir:
 4. [ ] Apresente a banca zero de oito minutos para outra pessoa ou gravação.
 5. [ ] Registre todas as críticas, classifique por severidade e ajuste o escopo.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Pré-projeto e banca zero do TCC** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione uma evidência concreta relacionada a **Pré-projeto e banca zero do TCC** que possa ser mostrada a um recrutador ou avaliador.
+- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
 1. O escopo do TCC cabe em cinco dias e quais itens serão cortados primeiro se houver atraso?
 2. Em qual exercício de **Pré-projeto e banca zero do TCC** uma implementação errada poderia parecer correta? Dê um exemplo com entrada, saída errada e saída esperada.
 3. Qual caso de borda você testou, por que ele importa e qual evidência comprova que foi tratado?
 4. Como o conhecimento de **Pré-projeto e banca zero do TCC** seria usado para apoiar uma decisão real em dados ou IA?
+5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
+6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
@@ -5834,16 +6202,19 @@ O backtest deve incluir:
 5. [ ] Gere relatório automático de ausentes, duplicados, gaps, ativos sem histórico suficiente e datas inconsistentes.
 6. [ ] Defina baselines, protocolo walk-forward, custos, métricas e critérios de sucesso antes de testar modelos.
 
-### Verificação prática sem consulta
-- [ ] Escolha cinco features e prove com datas que nenhuma usa informação futura.
-- [ ] Mostre como um ativo que entrou ou saiu do universo pode criar survivorship bias.
-- [ ] Explique por que split aleatório seria inadequado neste projeto.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: universo, dados e protocolo financeiro** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. Qual informação estaria disponível na data real de cada decisão?
 2. Como você evitará selecionar hoje apenas ativos que sobreviveram?
 3. Qual é o benchmark mais simples que o projeto precisa superar?
 4. Que resultado faria você concluir que o ranking não funciona?
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Dados brutos preservados e versionados.
@@ -5867,16 +6238,19 @@ O backtest deve incluir:
 5. [ ] Gere ranking A–E por classe, Precision@K, retorno dos Top-K, turnover e estabilidade entre rebalanceamentos.
 6. [ ] Produza explicabilidade global e exemplos de ativos bem/mal classificados.
 
-### Verificação prática sem consulta
-- [ ] Recalcule manualmente o score de três ativos.
-- [ ] Remova um fator e meça o efeito no ranking.
-- [ ] Inverta deliberadamente uma janela temporal, detecte o leakage e documente por que o resultado falso melhora.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: fatores e motor de ranking** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. Por que o ranking deve ser separado por classe?
 2. Um ranking estável é necessariamente um ranking bom?
 3. Como Precision@K se conecta à seleção de uma carteira?
 4. Qual fator tem maior risco de estar apenas ajustado ao passado?
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Baseline e modelos usam o mesmo protocolo temporal.
@@ -5901,16 +6275,19 @@ O backtest deve incluir:
 6. [ ] Faça testes de sensibilidade variando K, custos, janelas, frequência e pesos dos fatores.
 7. [ ] Analise períodos em que o ranking e as carteiras falharam.
 
-### Verificação prática sem consulta
-- [ ] Recalcule o retorno líquido de um rebalanceamento incluindo custos.
-- [ ] Compare a estratégia com um baseline ingênuo no mesmo período.
-- [ ] Execute cenário de custo dobrado e mostre se a conclusão muda.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: carteiras e backtest walk-forward** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. Por que maior retorno acumulado não basta para escolher uma estratégia?
 2. Qual diferença entre risco observado e risco estimado?
 3. Como turnover pode destruir uma estratégia aparentemente lucrativa?
 4. O que caracteriza overfitting de backtest?
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Nenhum resultado principal usa dados do futuro.
@@ -5935,16 +6312,19 @@ O backtest deve incluir:
 6. [ ] Escreva relatório técnico de 10–18 páginas, resumo executivo de uma página e model card/metodologia do ranking.
 7. [ ] Inclua seção explícita: vieses, períodos ruins, limitações e por que o resultado não é recomendação de investimento.
 
-### Verificação prática sem consulta
-- [ ] Outra pessoa consegue executar o projeto apenas com o README.
-- [ ] Uma entrada inválida não derruba nem produz resposta enganosa.
-- [ ] Toda métrica exibida no dashboard pode ser rastreada até uma função ou consulta.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: dashboard, API, testes e relatório** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. O produto mostra incerteza e risco ou apenas resultados positivos?
 2. Quais decisões são do modelo e quais continuam humanas?
 3. O que você retiraria primeiro para reduzir o escopo sem destruir o TCC?
 4. Qual teste aumenta mais a confiança no produto?
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Dashboard e API funcionam com dados versionados.
@@ -5973,6 +6353,12 @@ O backtest deve incluir:
 5. [ ] Envie 5–10 candidaturas compatíveis destacando o TCC e adapte palavras-chave sem inventar experiência.
 6. [ ] Crie retrospectiva e backlog de melhorias que não impedirão a candidatura.
 
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: publicação, banca e candidaturas** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
+
 ### Perguntas de banca obrigatórias
 1. Por que você não tentou prever diretamente o preço de amanhã?
 2. Como provou que não houve look-ahead bias?
@@ -5986,6 +6372,8 @@ O backtest deve incluir:
 10. Que monitoramento seria necessário em produção?
 11. Qual decisão de escopo melhorou a qualidade do projeto?
 12. O que você faria com mais três meses?
+13. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+14. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Repositório e release públicos e reproduzíveis.

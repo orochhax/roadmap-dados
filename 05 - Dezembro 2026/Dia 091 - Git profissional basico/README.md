@@ -17,10 +17,11 @@
 4. [ ] Defina padrão de mensagens de commit e template de PR.
 5. [ ] Marque release e tag para versão estável.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Git profissional básico** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Git profissional básico** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Qual a função de branch, pull request, merge, tag e release em uma equipe?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Git profissional básico** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+
+**Resposta:**
+
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 **Resposta:**
 

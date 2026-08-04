@@ -17,10 +17,11 @@
 4. [ ] Garanta que uma única instrução reproduza a base.
 5. [ ] Faça revisão de segurança e privacidade.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Dados, SQL e arquitetura** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente um cenário de uso ponta a ponta ainda não coberto em **Dados, SQL e arquitetura** e acompanhe os dados da entrada até a saída.
+- [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
 1. Como garantir que o fluxo dos dados até a interface seja rastreável e reproduzível?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Dados, SQL e arquitetura** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+
+**Resposta:**
+
+6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
 
 **Resposta:**
 

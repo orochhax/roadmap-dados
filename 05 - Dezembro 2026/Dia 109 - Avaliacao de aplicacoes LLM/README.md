@@ -17,10 +17,11 @@
 4. [ ] Avalie manualmente ou com avaliador separado, mantendo amostra humana.
 5. [ ] Crie tabela de erros por causa: recuperação, prompt, contexto, modelo ou dados.
 
-### Verificação prática sem consulta
-- [ ] Teste **Avaliação de aplicações LLM** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Teste a solução de **Avaliação de aplicações LLM** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
+- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
 1. Como separar avaliação de recuperação, fidelidade, utilidade, segurança, custo e latência?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Avaliação de aplicações LLM** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
+
+**Resposta:**
+
+6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
 
 **Resposta:**
 

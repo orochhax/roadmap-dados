@@ -13,10 +13,11 @@
 6. [ ] Escreva relatório técnico de 10–18 páginas, resumo executivo de uma página e model card/metodologia do ranking.
 7. [ ] Inclua seção explícita: vieses, períodos ruins, limitações e por que o resultado não é recomendação de investimento.
 
-### Verificação prática sem consulta
-- [ ] Outra pessoa consegue executar o projeto apenas com o README.
-- [ ] Uma entrada inválida não derruba nem produz resposta enganosa.
-- [ ] Toda métrica exibida no dashboard pode ser rastreada até uma função ou consulta.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: dashboard, API, testes e relatório** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. O produto mostra incerteza e risco ou apenas resultados positivos?
@@ -32,6 +33,14 @@
 **Resposta:**
 
 4. Qual teste aumenta mais a confiança no produto?
+
+**Resposta:**
+
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+
+**Resposta:**
+
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 **Resposta:**
 

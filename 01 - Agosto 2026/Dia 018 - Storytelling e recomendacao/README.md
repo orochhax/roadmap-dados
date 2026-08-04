@@ -17,10 +17,11 @@
 4. [ ] Grave áudio de três minutos explicando a análise sem termos técnicos desnecessários.
 5. [ ] Peça a outra pessoa para resumir a mensagem; registre o que ela entendeu errado e ajuste o material.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **Storytelling e recomendação** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie uma segunda versão da entrega de **Storytelling e recomendação** para um público diferente e ajuste título, destaque e nível de detalhe.
+- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
 
 ### Perguntas de checagem
 1. Como transformar uma sequência de gráficos em argumento com contexto, evidência e recomendação?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Storytelling e recomendação** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Que escolha de apresentação pode induzir uma interpretação errada mesmo quando os números estão corretos?
+
+**Resposta:**
+
+6. O que o público precisa saber para transformar essa entrega em decisão sem exagerar a conclusão?
 
 **Resposta:**
 

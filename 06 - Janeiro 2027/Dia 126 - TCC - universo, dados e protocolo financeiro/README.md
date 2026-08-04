@@ -17,10 +17,11 @@
 5. [ ] Gere relatório automático de ausentes, duplicados, gaps, ativos sem histórico suficiente e datas inconsistentes.
 6. [ ] Defina baselines, protocolo walk-forward, custos, métricas e critérios de sucesso antes de testar modelos.
 
-### Verificação prática sem consulta
-- [ ] Escolha cinco features e prove com datas que nenhuma usa informação futura.
-- [ ] Mostre como um ativo que entrou ou saiu do universo pode criar survivorship bias.
-- [ ] Explique por que split aleatório seria inadequado neste projeto.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: universo, dados e protocolo financeiro** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. Qual informação estaria disponível na data real de cada decisão?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Que resultado faria você concluir que o ranking não funciona?
+
+**Resposta:**
+
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+
+**Resposta:**
+
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 **Resposta:**
 

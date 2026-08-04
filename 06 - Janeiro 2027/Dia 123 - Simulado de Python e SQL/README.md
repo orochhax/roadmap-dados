@@ -17,10 +17,11 @@
 4. [ ] Reescreva as cinco soluções mais fracas.
 5. [ ] Crie plano de revisão de sete dias para lacunas.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Simulado de Python e SQL** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione uma evidência concreta relacionada a **Simulado de Python e SQL** que possa ser mostrada a um recrutador ou avaliador.
+- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
 
 ### Perguntas de checagem
 1. Quais erros de raciocínio se repetiram e como você os detectará mais cedo na próxima tentativa?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Simulado de Python e SQL** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Que parte desta entrega demonstra competência de forma verificável, em vez de apenas afirmar conhecimento?
+
+**Resposta:**
+
+6. Qual melhoria teria maior impacto para a vaga-alvo dentro do tempo disponível?
 
 **Resposta:**
 

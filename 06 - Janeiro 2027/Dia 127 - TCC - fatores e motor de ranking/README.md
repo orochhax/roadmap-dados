@@ -12,10 +12,11 @@
 5. [ ] Gere ranking A–E por classe, Precision@K, retorno dos Top-K, turnover e estabilidade entre rebalanceamentos.
 6. [ ] Produza explicabilidade global e exemplos de ativos bem/mal classificados.
 
-### Verificação prática sem consulta
-- [ ] Recalcule manualmente o score de três ativos.
-- [ ] Remova um fator e meça o efeito no ranking.
-- [ ] Inverta deliberadamente uma janela temporal, detecte o leakage e documente por que o resultado falso melhora.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: fatores e motor de ranking** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. Por que o ranking deve ser separado por classe?
@@ -31,6 +32,14 @@
 **Resposta:**
 
 4. Qual fator tem maior risco de estar apenas ajustado ao passado?
+
+**Resposta:**
+
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+
+**Resposta:**
+
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 **Resposta:**
 

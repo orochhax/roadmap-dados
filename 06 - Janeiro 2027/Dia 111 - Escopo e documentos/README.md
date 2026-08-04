@@ -17,10 +17,11 @@
 4. [ ] Defina política de recusa quando não houver evidência.
 5. [ ] Desenhe arquitetura de ingestão, indexação, recuperação, geração e avaliação.
 
-### Verificação prática sem consulta
-- [ ] Teste **Escopo e documentos** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Escopo e documentos** e verifique recuperação, resposta e rastreabilidade da fonte.
+- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
 1. Quais perguntas o RAG deve responder e quais documentos têm autoridade para sustentar respostas?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Escopo e documentos** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+
+**Resposta:**
+
+6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
 
 **Resposta:**
 

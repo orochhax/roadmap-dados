@@ -17,10 +17,11 @@
 4. [ ] Otimize uma consulta removendo `SELECT *`, filtros tardios e joins desnecessários; compare o plano de execução quando disponível.
 5. [ ] Entregue `case_sql_semana05.md` com pergunta, consulta, resultado, interpretação e limitação para cada análise.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Mini-case SQL** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Mini-case SQL** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Como validar uma consulta de negócio antes de confiar no número final?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Mini-case SQL** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+
+**Resposta:**
+
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 **Resposta:**
 

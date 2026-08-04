@@ -17,10 +17,11 @@
 4. [ ] Calcule custo estimado de uma tarefa com quantidade hipotética de tokens de entrada/saída.
 5. [ ] Liste casos em que LLM não é a solução adequada.
 
-### Verificação prática sem consulta
-- [ ] Teste **Fundamentos de LLMs** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Teste a solução de **Fundamentos de LLMs** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
+- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
 
 ### Perguntas de checagem
 1. O que são tokens, contexto, temperatura e alucinação, e quais limites eles impõem?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Fundamentos de LLMs** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual critério objetivo separa uma resposta útil de uma resposta apenas convincente?
+
+**Resposta:**
+
+6. Que proteção reduz o risco de alucinação ou uso indevido sem impedir o caso de uso principal?
 
 **Resposta:**
 

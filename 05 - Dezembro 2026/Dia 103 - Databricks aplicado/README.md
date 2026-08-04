@@ -17,10 +17,11 @@
 4. [ ] Reproduza uma execução com parâmetro alterado.
 5. [ ] Documente diferenças entre ambiente local e plataforma.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Databricks aplicado** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Compare duas opções de arquitetura para **Databricks aplicado** em um cenário pequeno e em outro com crescimento de volume.
+- [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
 
 ### Perguntas de checagem
 1. Como notebooks, jobs, clusters e tabelas se conectam em um fluxo reprodutível?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Databricks aplicado** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual componente se tornaria gargalo primeiro e que métrica confirmaria isso?
+
+**Resposta:**
+
+6. Que risco de segurança, custo ou disponibilidade precisa entrar na decisão arquitetural?
 
 **Resposta:**
 

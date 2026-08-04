@@ -17,10 +17,11 @@
 4. [ ] Padronize uma normal em z-score e calcule percentuais abaixo/acima de dois limites.
 5. [ ] Crie um caso em que usar Normal para contagem gera valores impossíveis e explique a distribuição mais adequada.
 
-### Verificação prática sem consulta
-- [ ] Refaça um cálculo central de **Distribuições importantes** manualmente em uma amostra pequena.
-- [ ] Simule uma mudança de tamanho de amostra, parâmetro ou distribuição e antecipe o efeito.
-- [ ] Escreva a interpretação correta e uma interpretação enganosa que deve ser evitada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Altere uma condição do estudo de **Distribuições importantes**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
+- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
 
 ### Perguntas de checagem
 1. Como reconhecer quando uma distribuição normal, binomial ou Poisson é uma aproximação razoável?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Distribuições importantes** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual suposição estatística é mais importante aqui e o que acontece se ela não for atendida?
+
+**Resposta:**
+
+6. Como distinguir significância estatística de importância prática neste contexto?
 
 **Resposta:**
 

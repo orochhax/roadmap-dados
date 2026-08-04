@@ -17,10 +17,11 @@
 4. [ ] Crie uma sequência de três CTEs: dados válidos → métricas por cidade → ranking final.
 5. [ ] Introduza um filtro em posição errada e demonstre como ele altera o denominador de uma taxa.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Subqueries e CTEs** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Subqueries e CTEs** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Quando uma CTE melhora legibilidade e quando uma subconsulta correlacionada pode prejudicar desempenho?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Subqueries e CTEs** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+
+**Resposta:**
+
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 **Resposta:**
 

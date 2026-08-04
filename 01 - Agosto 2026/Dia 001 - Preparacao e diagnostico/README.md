@@ -16,10 +16,6 @@
 3. [x] Depois de cada exercício, escreva uma linha `# resultado esperado:` antes de executar; compare previsão e saída real.
 4. [ ] Crie o repositório, as pastas `01-python/dia01` e `dados`, faça o primeiro commit e confirme no GitHub que os arquivos chegaram.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Preparação e diagnóstico** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
 
 ### Perguntas de checagem
 1. Qual é a diferença entre instalar uma ferramenta, configurá-la e comprovar que o ambiente está reproduzível?

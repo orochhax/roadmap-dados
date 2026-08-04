@@ -17,10 +17,11 @@
 4. [ ] Teste ponta a ponta com 20 casos.
 5. [ ] Registre métricas, latência, custo e falhas.
 
-### Verificação prática sem consulta
-- [ ] Apresente o resultado central de **Modelo, IA e interface** sem abrir o README.
-- [ ] Peça ou simule duas objeções técnicas e uma de negócio; responda com evidências.
-- [ ] Registre uma melhoria obrigatória antes de considerar o dia concluído.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente um cenário de uso ponta a ponta ainda não coberto em **Modelo, IA e interface** e acompanhe os dados da entrada até a saída.
+- [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
 
 ### Perguntas de checagem
 1. Qual parte realmente precisa de IA e como comparar com uma solução mais simples?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Modelo, IA e interface** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual componente limita hoje a utilidade do produto e qual evidência sustenta essa avaliação?
+
+**Resposta:**
+
+6. Que requisito poderia ser cortado sem comprometer o valor principal da entrega?
 
 **Resposta:**
 

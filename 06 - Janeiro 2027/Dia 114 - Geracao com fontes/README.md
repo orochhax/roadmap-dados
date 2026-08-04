@@ -17,10 +17,11 @@
 4. [ ] Compare respostas com e sem recuperação.
 5. [ ] Valide se cada afirmação relevante é sustentada por trecho recuperado.
 
-### Verificação prática sem consulta
-- [ ] Teste **Geração com fontes** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Geração com fontes** e verifique recuperação, resposta e rastreabilidade da fonte.
+- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
 1. Como exigir evidências, recusar falta de contexto e reduzir prompt injection?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Geração com fontes** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+
+**Resposta:**
+
+6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
 
 **Resposta:**
 

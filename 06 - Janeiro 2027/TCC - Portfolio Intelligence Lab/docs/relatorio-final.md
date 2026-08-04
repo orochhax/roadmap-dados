@@ -21,16 +21,19 @@
 5. [ ] Gere relatório automático de ausentes, duplicados, gaps, ativos sem histórico suficiente e datas inconsistentes.
 6. [ ] Defina baselines, protocolo walk-forward, custos, métricas e critérios de sucesso antes de testar modelos.
 
-### Verificação prática sem consulta
-- [ ] Escolha cinco features e prove com datas que nenhuma usa informação futura.
-- [ ] Mostre como um ativo que entrou ou saiu do universo pode criar survivorship bias.
-- [ ] Explique por que split aleatório seria inadequado neste projeto.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: universo, dados e protocolo financeiro** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. Qual informação estaria disponível na data real de cada decisão?
 2. Como você evitará selecionar hoje apenas ativos que sobreviveram?
 3. Qual é o benchmark mais simples que o projeto precisa superar?
 4. Que resultado faria você concluir que o ranking não funciona?
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Dados brutos preservados e versionados.
@@ -54,16 +57,19 @@
 5. [ ] Gere ranking A–E por classe, Precision@K, retorno dos Top-K, turnover e estabilidade entre rebalanceamentos.
 6. [ ] Produza explicabilidade global e exemplos de ativos bem/mal classificados.
 
-### Verificação prática sem consulta
-- [ ] Recalcule manualmente o score de três ativos.
-- [ ] Remova um fator e meça o efeito no ranking.
-- [ ] Inverta deliberadamente uma janela temporal, detecte o leakage e documente por que o resultado falso melhora.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: fatores e motor de ranking** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. Por que o ranking deve ser separado por classe?
 2. Um ranking estável é necessariamente um ranking bom?
 3. Como Precision@K se conecta à seleção de uma carteira?
 4. Qual fator tem maior risco de estar apenas ajustado ao passado?
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Baseline e modelos usam o mesmo protocolo temporal.
@@ -88,16 +94,19 @@
 6. [ ] Faça testes de sensibilidade variando K, custos, janelas, frequência e pesos dos fatores.
 7. [ ] Analise períodos em que o ranking e as carteiras falharam.
 
-### Verificação prática sem consulta
-- [ ] Recalcule o retorno líquido de um rebalanceamento incluindo custos.
-- [ ] Compare a estratégia com um baseline ingênuo no mesmo período.
-- [ ] Execute cenário de custo dobrado e mostre se a conclusão muda.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: carteiras e backtest walk-forward** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. Por que maior retorno acumulado não basta para escolher uma estratégia?
 2. Qual diferença entre risco observado e risco estimado?
 3. Como turnover pode destruir uma estratégia aparentemente lucrativa?
 4. O que caracteriza overfitting de backtest?
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Nenhum resultado principal usa dados do futuro.
@@ -122,16 +131,19 @@
 6. [ ] Escreva relatório técnico de 10–18 páginas, resumo executivo de uma página e model card/metodologia do ranking.
 7. [ ] Inclua seção explícita: vieses, períodos ruins, limitações e por que o resultado não é recomendação de investimento.
 
-### Verificação prática sem consulta
-- [ ] Outra pessoa consegue executar o projeto apenas com o README.
-- [ ] Uma entrada inválida não derruba nem produz resposta enganosa.
-- [ ] Toda métrica exibida no dashboard pode ser rastreada até uma função ou consulta.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: dashboard, API, testes e relatório** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. O produto mostra incerteza e risco ou apenas resultados positivos?
 2. Quais decisões são do modelo e quais continuam humanas?
 3. O que você retiraria primeiro para reduzir o escopo sem destruir o TCC?
 4. Qual teste aumenta mais a confiança no produto?
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 ### Critério objetivo para marcar como concluído
 - [ ] Dashboard e API funcionam com dados versionados.

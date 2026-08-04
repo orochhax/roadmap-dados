@@ -17,10 +17,11 @@
 4. [ ] Use fixtures para dados pequenos.
 5. [ ] Introduza um bug proposital, confirme falha e depois corrija.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Testes** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione ao artefato de **Testes** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
+- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
 
 ### Perguntas de checagem
 1. Qual a diferença entre teste unitário, integração e ponta a ponta em um projeto de dados?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Testes** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual contrato do sistema precisa permanecer estável para não quebrar quem o utiliza?
+
+**Resposta:**
+
+6. Que evidência permitiria distinguir rapidamente erro de código, dados ou ambiente?
 
 **Resposta:**
 

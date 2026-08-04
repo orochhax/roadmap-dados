@@ -17,10 +17,11 @@
 4. [ ] Crie features de calendário e lags sem olhar o futuro.
 5. [ ] Defina horizonte de previsão e decisão operacional associada.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Fundamentos temporais** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Fundamentos temporais** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Por que ordem temporal, tendência e sazonalidade impedem o embaralhamento aleatório dos dados?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Fundamentos temporais** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+
+**Resposta:**
+
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 **Resposta:**
 

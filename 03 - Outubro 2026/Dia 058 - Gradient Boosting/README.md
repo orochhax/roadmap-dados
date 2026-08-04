@@ -17,10 +17,11 @@
 4. [ ] Analise importância e erros por segmento.
 5. [ ] Documente por que boosting pode ganhar em dados tabulares e quais riscos de tuning existem.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Gradient Boosting** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Gradient Boosting** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como boosting corrige erros sequencialmente e qual risco existe ao aumentar complexidade?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Gradient Boosting** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+
+**Resposta:**
+
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 **Resposta:**
 

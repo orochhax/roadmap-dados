@@ -17,10 +17,11 @@
 4. [ ] Compare erro e estabilidade por horizonte.
 5. [ ] Analise resíduos e autocorrelação remanescente.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Modelos tradicionais** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Avalie **Modelos tradicionais** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
+- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
 
 ### Perguntas de checagem
 1. Como escolher entre média móvel, suavização, ARIMA ou outro método conforme o padrão temporal?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Modelos tradicionais** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Onde pode surgir vazamento temporal e como você provaria que ele não ocorreu?
+
+**Resposta:**
+
+6. Que mudança no ambiente faria o modelo ou política precisar ser revisado primeiro?
 
 **Resposta:**
 

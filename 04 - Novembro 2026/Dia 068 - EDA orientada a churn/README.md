@@ -17,10 +17,11 @@
 4. [ ] Calcule tamanho dos segmentos para evitar conclusões com grupos pequenos.
 5. [ ] Produza `insights_eda.md` com evidência, impacto, cautela e próxima análise.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **EDA orientada a churn** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **EDA orientada a churn**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Quais padrões devem ser investigados sem usar informação posterior ao cancelamento?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **EDA orientada a churn** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+
+**Resposta:**
+
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 **Resposta:**
 

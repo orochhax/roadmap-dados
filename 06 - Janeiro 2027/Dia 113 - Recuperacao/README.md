@@ -17,10 +17,11 @@
 4. [ ] Calcule métricas de recuperação nas 30 perguntas.
 5. [ ] Faça análise de 10 erros e ajuste chunking ou consulta.
 
-### Verificação prática sem consulta
-- [ ] Teste **Recuperação** com uma pergunta normal, uma ambígua e uma fora do domínio.
-- [ ] Verifique fontes, recusa e saída estruturada; registre qualquer afirmação sem suporte.
-- [ ] Explique por que uma resposta fluente pode continuar errada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Recuperação** e verifique recuperação, resposta e rastreabilidade da fonte.
+- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
 
 ### Perguntas de checagem
 1. Como top-k, filtros e métricas de recall ajudam a diagnosticar falhas antes da geração?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Recuperação** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como identificar se uma falha veio da recuperação ou da geração da resposta?
+
+**Resposta:**
+
+6. Que evidência mínima uma resposta precisa apresentar para ser considerada confiável?
 
 **Resposta:**
 

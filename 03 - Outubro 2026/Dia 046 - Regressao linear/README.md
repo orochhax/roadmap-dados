@@ -17,10 +17,11 @@
 4. [ ] Plote resíduos versus predição e distribuição dos resíduos.
 5. [ ] Crie uma relação não linear e demonstre por que regressão linear simples falha.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Regressão linear** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Regressão linear** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Quais pressupostos da regressão linear afetam interpretação e previsão?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Regressão linear** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+
+**Resposta:**
+
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 **Resposta:**
 

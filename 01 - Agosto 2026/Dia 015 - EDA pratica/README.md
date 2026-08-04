@@ -17,10 +17,11 @@
 4. [ ] Produza quatro gráficos úteis, cada um com título que declare a conclusão e um parágrafo de interpretação.
 5. [ ] Entregue `eda_clientes.ipynb` e `resumo_executivo.md` com três achados, duas limitações e duas ações sugeridas.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **EDA prática** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Aplique a técnica central de **EDA prática** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
+- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
 1. Como distinguir uma descoberta útil de uma coincidência visual durante uma análise exploratória?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **EDA prática** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+
+**Resposta:**
+
+6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
 
 **Resposta:**
 

@@ -17,10 +17,11 @@
 4. [ ] Crie README com tabela de resultados e três conclusões.
 5. [ ] Faça release `v0.1.0` no GitHub e grave apresentação técnica de cinco minutos.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Benchmark publicado** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Benchmark publicado** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Como garantir que uma comparação de modelos foi justa, reproduzível e sem ajuste no teste?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Benchmark publicado** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+
+**Resposta:**
+
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 **Resposta:**
 

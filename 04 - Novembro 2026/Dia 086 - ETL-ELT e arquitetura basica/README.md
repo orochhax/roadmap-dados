@@ -17,10 +17,11 @@
 4. [ ] Crie estrutura de pastas `raw`, `processed`, `curated` e regras de nomenclatura.
 5. [ ] Liste cinco falhas possíveis e como detectar cada uma.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **ETL/ELT e arquitetura básica** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente ao fluxo de **ETL/ELT e arquitetura básica** uma checagem automática de qualidade ou uma condição clara de falha.
+- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
 1. Qual a diferença entre ETL e ELT e como escolher camadas raw, clean e analytics?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **ETL/ELT e arquitetura básica** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+
+**Resposta:**
+
+6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
 
 **Resposta:**
 

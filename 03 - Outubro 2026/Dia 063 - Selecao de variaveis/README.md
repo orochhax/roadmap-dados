@@ -17,10 +17,11 @@
 4. [ ] Treine modelo com todas as features e com seleção; compare métrica e estabilidade.
 5. [ ] Documente por que feature selecionada não implica causalidade.
 
-### Verificação prática sem consulta
-- [ ] Treine ou avalie novamente o componente central de **Seleção de variáveis** em um notebook limpo.
-- [ ] Mude seed, limiar ou uma feature e registre se a conclusão permanece estável.
-- [ ] Explique qual erro técnico produziria uma métrica artificialmente boa.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Seleção de variáveis** e compare usando a mesma validação.
+- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
 
 ### Perguntas de checagem
 1. Qual o risco de selecionar variáveis usando o conjunto de teste ou apenas importância do modelo?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Seleção de variáveis** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Que vazamento ou escolha de validação poderia produzir um resultado artificialmente bom neste dia?
+
+**Resposta:**
+
+6. Qual troca entre métricas mudaria a decisão de negócio e por quê?
 
 **Resposta:**
 

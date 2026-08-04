@@ -13,10 +13,11 @@
 6. [ ] Faça testes de sensibilidade variando K, custos, janelas, frequência e pesos dos fatores.
 7. [ ] Analise períodos em que o ranking e as carteiras falharam.
 
-### Verificação prática sem consulta
-- [ ] Recalcule o retorno líquido de um rebalanceamento incluindo custos.
-- [ ] Compare a estratégia com um baseline ingênuo no mesmo período.
-- [ ] Execute cenário de custo dobrado e mostre se a conclusão muda.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: carteiras e backtest walk-forward** e defina antes o critério de aceitação.
+- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
 
 ### Perguntas de checagem
 1. Por que maior retorno acumulado não basta para escolher uma estratégia?
@@ -32,6 +33,14 @@
 **Resposta:**
 
 4. O que caracteriza overfitting de backtest?
+
+**Resposta:**
+
+5. Qual risco, viés ou limitação poderia enfraquecer mais a conclusão deste dia?
+
+**Resposta:**
+
+6. Qual é a evidência mínima necessária para outra pessoa reproduzir e contestar o resultado?
 
 **Resposta:**
 

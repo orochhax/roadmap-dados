@@ -17,10 +17,11 @@
 4. [ ] Selecione o top 3 por cidade sem perder empates relevantes.
 5. [ ] Compare uma solução com função de janela a outra com `GROUP BY` e explique por que elas respondem perguntas diferentes.
 
-### Verificação prática sem consulta
-- [ ] Escreva do zero uma consulta que use o principal recurso de **Funções de janela** e responda uma pergunta nova.
-- [ ] Valide o resultado por contagem manual em uma amostra de 5–10 linhas ou por pandas.
-- [ ] Explique a granularidade do resultado e o risco de duplicação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Escreva uma consulta adicional sobre **Funções de janela** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
+- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
 
 ### Perguntas de checagem
 1. Qual a diferença entre agregar linhas e usar uma função de janela sem perder granularidade?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Funções de janela** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual é a granularidade da sua saída e como ela pode mudar por causa de filtros, agregações ou joins?
+
+**Resposta:**
+
+6. Como você tornaria a consulta mais legível e verificável sem alterar o resultado?
 
 **Resposta:**
 

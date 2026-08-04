@@ -17,10 +17,11 @@
 4. [ ] Calcule duração total e média por cidade sem usar pandas; ordene o relatório da maior para a menor duração média.
 5. [ ] Teste um incidente duplicado e explique quando um `set` ajuda e quando ele destruiria informação importante.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Laços e coleções** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Laços e coleções** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Quando escolher lista, tupla, conjunto ou dicionário, e qual estrutura evita duplicidades por natureza?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Laços e coleções** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Que parte da sua solução de **Laços e coleções** ficaria mais difícil de manter se novas regras fossem adicionadas?
+
+**Resposta:**
+
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 **Resposta:**
 

@@ -17,10 +17,11 @@
 4. [ ] Compare sintaxe e execução com pandas em cinco operações.
 5. [ ] Salve resultado em Parquet e explique quando Spark é desnecessário.
 
-### Verificação prática sem consulta
-- [ ] Execute o artefato de **Databricks e Spark introdutório** a partir de um terminal ou ambiente limpo.
-- [ ] Provoque uma falha controlada e confirme que logs/testes apontam a causa.
-- [ ] Explique como outra pessoa instalaria, executaria e recuperaria o sistema.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Acrescente ao fluxo de **Databricks e Spark introdutório** uma checagem automática de qualidade ou uma condição clara de falha.
+- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
 
 ### Perguntas de checagem
 1. Quando processamento distribuído é necessário e quando pandas ou SQL local é suficiente?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Databricks e Spark introdutório** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como garantir que o pipeline seja reproduzível e seguro para ser executado novamente?
+
+**Resposta:**
+
+6. Qual informação de linhagem ou log seria essencial para investigar uma falha?
 
 **Resposta:**
 

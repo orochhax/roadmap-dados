@@ -17,10 +17,11 @@
 4. [ ] Escreva três versões de uma mesma transformação: laço, comprehension legível e comprehension excessivamente compacta; explique qual manteria em produção.
 5. [ ] Crie cinco testes com lista vazia, cidade repetida, duração zero, valor negativo e prioridade inválida.
 
-### Verificação prática sem consulta
-- [ ] Feche notas e reimplemente, em um arquivo `memoria.py`, a parte principal de **Compreensões e funções úteis** em até 20 minutos.
-- [ ] Execute com um caso normal, um caso de borda e um caso inválido; anote resultado esperado antes de rodar.
-- [ ] Explique em áudio de 2 minutos o fluxo do código, sem ler o arquivo.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Amplie um dos programas de **Compreensões e funções úteis** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
+- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o resultado esperado antes de executar.
 
 ### Perguntas de checagem
 1. Em que situação uma comprehension melhora o código e em que situação ela prejudica a legibilidade?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Compreensões e funções úteis** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Que parte da sua solução de **Compreensões e funções úteis** ficaria mais difícil de manter se novas regras fossem adicionadas?
+
+**Resposta:**
+
+6. Qual escolha de organização, tipo de dado ou validação foi mais importante neste dia e que erro ela evita?
 
 **Resposta:**
 

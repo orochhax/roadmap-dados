@@ -17,10 +17,11 @@
 4. [ ] Use operações vetorizadas para aplicar multa de 10% a durações acima de 120; compare com um laço usando `timeit`.
 5. [ ] Teste `NaN`, array vazio e divisão por desvio zero; escreva como trataria cada caso.
 
-### Verificação prática sem consulta
-- [ ] Em um notebook vazio, reproduza uma transformação ou visualização central de **NumPy essencial** sem copiar código.
-- [ ] Altere uma coluna, filtro ou segmento e preveja como o resultado mudará antes de executar.
-- [ ] Escreva uma conclusão que contenha número, comparação e limitação.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Aplique a técnica central de **NumPy essencial** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
+- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
 
 ### Perguntas de checagem
 1. Por que operações vetorizadas costumam ser preferíveis a laços Python em dados numéricos?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **NumPy essencial** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Qual decisão sobre estrutura ou qualidade dos dados mais influencia a confiabilidade desta análise?
+
+**Resposta:**
+
+6. Como você confirmaria que o resultado não depende apenas de uma coluna ou recorte conveniente?
 
 **Resposta:**
 

@@ -17,10 +17,11 @@
 4. [ ] Adicione seção de limitações e plano de monitoramento.
 5. [ ] Teste dashboard com uma pessoa e corrija pelo menos três ambiguidades.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **Relatório e dashboard** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Relatório e dashboard**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Quais informações um gestor precisa para agir e quais detalhes técnicos devem ir para o anexo?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **Relatório e dashboard** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+
+**Resposta:**
+
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 **Resposta:**
 

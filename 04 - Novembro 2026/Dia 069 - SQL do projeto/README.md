@@ -17,10 +17,11 @@
 4. [ ] Crie testes de unicidade, ausência de chaves e totais antes/depois dos joins.
 5. [ ] Exporte `base_modelagem.csv` e compare cinco linhas com cálculo manual.
 
-### Verificação prática sem consulta
-- [ ] Reproduza sem notas a etapa principal de **SQL do projeto** usando uma amostra do projeto.
-- [ ] Faça um teste de ponta a ponta ou uma validação manual de cinco registros.
-- [ ] Explique a decisão de negócio sustentada e quando ela não deveria ser automatizada.
+### Exercícios extras
+> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+
+- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **SQL do projeto**.
+- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
 
 ### Perguntas de checagem
 1. Como produzir uma linha por unidade de análise sem duplicar clientes ao juntar eventos?
@@ -36,6 +37,14 @@
 **Resposta:**
 
 4. Como o conhecimento de **SQL do projeto** seria usado para apoiar uma decisão real em dados ou IA?
+
+**Resposta:**
+
+5. Como transformar o resultado técnico deste dia em uma ação mensurável sem tratar correlação como causa?
+
+**Resposta:**
+
+6. Qual segmento pode ser prejudicado ou mal representado e como você perceberia isso?
 
 **Resposta:**
 
