@@ -5,7 +5,7 @@
 --
 -- ENUNCIADOS
 -- ### Passo a passo completo
--- 1. [ ] Resolva um simulado cronometrado com 20 questões: cinco filtros, quatro agregações, quatro joins, três CTEs, duas janelas e duas datas.
+-- [ ] Escreva aqui as respostas das 20 questões numeradas em `../docs/simulado_sql_perguntas.md`.
 -- 2. [ ] Use os arquivos `simulado_sql_perguntas.md` e `simulado_sql_respostas.sql`; não abra respostas durante os primeiros 90 minutos.
 -- 3. [ ] Para cada questão, marque tempo, confiança de 1–5 e se precisou consultar documentação.
 -- 4. [ ] Escolha as cinco piores respostas e reescreva do zero no fim do dia.

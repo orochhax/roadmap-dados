@@ -12,3 +12,10 @@
 # 5. [ ] Escreva um runbook com diagnóstico e recuperação.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Defina retry máximo 3, timeout 10 minutos e alerta após a última falha para a tarefa transformar.
+# ESCREVA AQUI:
+
+# 2. [ ] Simule transformar com status falha e confirme no fluxo que carregar e testar ficam bloqueadas.
+# ESCREVA AQUI:

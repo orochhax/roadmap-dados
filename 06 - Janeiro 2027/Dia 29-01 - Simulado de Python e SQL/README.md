@@ -6,27 +6,27 @@
 
 ### Preparação
 - **Assunto central:** Simulado de Python e SQL.
-- **Pasta/arquivo principal:** `semana-25/dia-123-simulado-de-python-e-sql.md`.
+- **Pasta/arquivo principal:** `01-exercicios/respostas_python.py` e `01-exercicios/respostas_sql.sql`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
 ### Passo a passo completo
-1. [ ] Resolva 10 exercícios de Python cronometrados sobre listas, funções, arquivos, pandas e tratamento de erro.
-2. [ ] Resolva 10 questões SQL sobre filtros, joins, agregações, CTEs, janelas e datas.
+1. [ ] Resolva as 10 questões completas de Python em `01-exercicios/respostas_python.py`; os dados iniciais já estão no arquivo.
+2. [ ] Resolva as 10 questões completas de SQL em `01-exercicios/respostas_sql.sql`, usando as tabelas da pasta `dados`.
 3. [ ] Não consulte durante 120 minutos; depois marque erros.
 4. [ ] Reescreva as cinco soluções mais fracas.
 5. [ ] Crie plano de revisão de sete dias para lacunas.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-123-simulado-de-python-e-sql.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione uma evidência concreta relacionada a **Simulado de Python e SQL** que possa ser mostrada a um recrutador ou avaliador.
-- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
+- [ ] **Em `01-exercicios/dia-123-simulado-de-python-e-sql.md`:** Reescreva sem consulta a questão Python com menor confiança e a questão SQL em que gastou mais tempo.
+- [ ] **Em `01-exercicios/dia-123-simulado-de-python-e-sql.md`:** No plano de sete dias, atribua uma tarefa de 30 minutos à lacuna mais frequente e uma forma objetiva de conferi-la.
 
 ### Perguntas de checagem
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. **Referência — atividade 1:** Resolva 10 exercícios de Python cronometrados sobre listas, funções, arquivos, pandas e tratamento de erro.
+1. **Referência — atividade 1:** Resolva as 10 questões completas de Python em `01-exercicios/respostas_python.py`.
 
    **Pergunta:** Em um simulado de **Simulado de Python e SQL**, qual abordagem demonstra melhor domínio técnico?
 
@@ -36,7 +36,7 @@
 - [ ] D) Entregar somente a saída sem mostrar o raciocínio.
 - [ ] E) Usar a solução mais longa para parecer completa.
 
-2. **Referência — atividade 2:** Resolva 10 questões SQL sobre filtros, joins, agregações, CTEs, janelas e datas.
+2. **Referência — atividade 2:** Resolva as 10 questões completas de SQL em `01-exercicios/respostas_sql.sql`.
 
    **Pergunta:** Qual cuidado é essencial ao resolver a parte de SQL em **Simulado de Python e SQL**?
 

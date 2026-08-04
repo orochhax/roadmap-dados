@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Refatoração de notebook.
-- **Pasta/arquivo principal:** `semana-19/dia-092-refatoracao-de-notebook.py`.
+- **Pasta/arquivo principal:** `01-exercicios/train.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Execute do zero e compare métricas com versão anterior.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/train.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione ao artefato de **Refatoração de notebook** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
-- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
+- [ ] **Em `01-exercicios/train.py`:** Mova random_state e caminho dos dados para config.yaml e faça train.py ler ambos sem valores duplicados.
+- [ ] **Em `01-exercicios/train.py`:** Execute train.py com um caminho inexistente e mostre uma mensagem que identifique exatamente o arquivo ausente.
 
 ### Perguntas de checagem
 

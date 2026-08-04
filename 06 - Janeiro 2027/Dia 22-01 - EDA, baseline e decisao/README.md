@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** EDA, baseline e decisão.
-- **Pasta/arquivo principal:** `semana-24/dia-118-eda-baseline-e-decisao.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-118-eda-baseline-e-decisao.ipynb`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Produza memorando de decisão de uma página.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-118-eda-baseline-e-decisao.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Acrescente um cenário de uso ponta a ponta ainda não coberto em **EDA, baseline e decisão** e acompanhe os dados da entrada até a saída.
-- [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
+- [ ] **Em `01-exercicios/dia-118-eda-baseline-e-decisao.ipynb`:** Refaça a decisão aumentando o custo do pior erro em 50% e registre se limiar ou ação recomendada muda.
+- [ ] **Em `01-exercicios/dia-118-eda-baseline-e-decisao.ipynb`:** Calcule o impacto somente para Salvador e compare tamanho e direção com o cenário geral.
 
 ### Perguntas de checagem
 

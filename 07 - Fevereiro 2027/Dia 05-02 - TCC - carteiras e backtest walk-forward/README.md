@@ -4,6 +4,9 @@
 > [!abstract] Resultado concreto do dia
 > Converter rankings em carteiras e avaliar risco-retorno fora da amostra.
 
+### Arquivo para responder
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_tcc.md`.
+
 ### Passo a passo completo
 1. [ ] Implemente carteira de pesos iguais como baseline.
 2. [ ] Implemente carteira Top-K baseada no ranking e uma estratégia de mínima volatilidade ou risk parity.
@@ -14,10 +17,10 @@
 7. [ ] Analise períodos em que o ranking e as carteiras falharam.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_tcc.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: carteiras e backtest walk-forward** e defina antes o critério de aceitação.
-- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
+- [ ] **Em `01-exercicios/roteiro_tcc.md`:** Dobre o custo de transação e repita o backtest Top-K sem alterar as previsões ou datas de rebalanceamento.
+- [ ] **Em `01-exercicios/roteiro_tcc.md`:** Formule a objeção 'o resultado depende de um único período de alta?' e indique o teste por subperíodos que responderá.
 
 ### Perguntas de checagem
 1. Por que maior retorno acumulado não basta para escolher uma estratégia?

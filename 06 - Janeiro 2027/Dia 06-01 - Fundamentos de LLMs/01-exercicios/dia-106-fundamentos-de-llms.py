@@ -11,3 +11,10 @@
 # 5. [ ] Liste casos em que LLM não é a solução adequada.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Use a pergunta 'Explique o problema da minha internet' com temperatura 0 e 0,7 e compare consistência e detalhes inventados.
+# ESCREVA AQUI:
+
+# 2. [ ] Estime custo para 1.500 tokens de entrada e 400 de saída usando preços hipotéticos de R$0,01 e R$0,03 por mil tokens.
+# ESCREVA AQUI:

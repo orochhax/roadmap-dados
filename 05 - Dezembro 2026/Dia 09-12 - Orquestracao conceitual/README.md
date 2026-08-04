@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Orquestração conceitual.
-- **Pasta/arquivo principal:** `semana-18/dia-088-orquestracao-conceitual.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-088-orquestracao-conceitual.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva um runbook com diagnóstico e recuperação.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-088-orquestracao-conceitual.py`. Faça exatamente estes dois itens.
 
-- [ ] Acrescente ao fluxo de **Orquestração conceitual** uma checagem automática de qualidade ou uma condição clara de falha.
-- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
+- [ ] **Em `01-exercicios/dia-088-orquestracao-conceitual.py`:** Defina retry máximo 3, timeout 10 minutos e alerta após a última falha para a tarefa transformar.
+- [ ] **Em `01-exercicios/dia-088-orquestracao-conceitual.py`:** Simule transformar com status falha e confirme no fluxo que carregar e testar ficam bloqueadas.
 
 ### Perguntas de checagem
 

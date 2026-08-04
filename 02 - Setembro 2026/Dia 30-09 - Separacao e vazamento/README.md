@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Separação e vazamento.
-- **Pasta/arquivo principal:** `semana-09/dia-042-separacao-e-vazamento.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-042-separacao-e-vazamento.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva um checklist de 10 perguntas para detectar vazamento antes da modelagem.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-042-separacao-e-vazamento.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Separação e vazamento** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-042-separacao-e-vazamento.ipynb`:** Compare o split estratificado aleatório com um corte temporal usando a mesma base e registre a proporção de churn em cada conjunto.
+- [ ] **Em `01-exercicios/dia-042-separacao-e-vazamento.ipynb`:** Treine uma versão com status_atual e outra sem essa coluna; use a diferença de métrica para documentar o vazamento.
 
 ### Perguntas de checagem
 

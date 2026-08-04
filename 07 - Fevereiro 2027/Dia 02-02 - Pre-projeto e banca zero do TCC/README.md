@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Pré-projeto e banca zero do TCC.
-- **Pasta/arquivo principal:** `semana-25/dia-125-pre-projeto-e-banca-zero-do-tcc/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Registre todas as críticas, classifique por severidade e ajuste o escopo.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione uma evidência concreta relacionada a **Pré-projeto e banca zero do TCC** que possa ser mostrada a um recrutador ou avaliador.
-- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Corte um item não essencial do escopo e registre no backlog por que ele não bloqueia a banca nem a candidatura.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Formule a objeção 'o backtest usa informação futura?' e indique quais colunas, datas e testes deverão respondê-la.
 
 ### Perguntas de checagem
 1. O escopo do TCC cabe em cinco dias e quais itens serão cortados primeiro se houver atraso?

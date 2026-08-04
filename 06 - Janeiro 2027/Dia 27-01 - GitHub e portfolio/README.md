@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** GitHub e portfólio.
-- **Pasta/arquivo principal:** `semana-25/dia-121-github-e-portfolio.md`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-121-github-e-portfolio.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie página índice de portfólio com problema, técnicas, impacto e link.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-121-github-e-portfolio.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione uma evidência concreta relacionada a **GitHub e portfólio** que possa ser mostrada a um recrutador ou avaliador.
-- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
+- [ ] **Em `01-exercicios/dia-121-github-e-portfolio.md`:** Clone um dos quatro projetos principais em pasta limpa e cronometre da leitura do README até a primeira execução.
+- [ ] **Em `01-exercicios/dia-121-github-e-portfolio.md`:** Escolha um README sem número de impacto e acrescente uma métrica real já produzida pelo projeto, sem inventar resultado.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Currículo, LinkedIn e narrativa.
-- **Pasta/arquivo principal:** `semana-25/dia-122-curriculo-linkedin-e-narrativa.md`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Prepare versões de apresentação de 30 segundos, 2 minutos e 5 minutos.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione uma evidência concreta relacionada a **Currículo, LinkedIn e narrativa** que possa ser mostrada a um recrutador ou avaliador.
-- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
+- [ ] **Em `01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md`:** Adapte um bullet de projeto para uma vaga que exige Python e SQL, usando somente técnica e resultado comprováveis.
+- [ ] **Em `01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md`:** Grave a apresentação de 30 segundos e remova qualquer ferramenta que você ainda não consiga explicar com um exemplo.
 
 ### Perguntas de checagem
 

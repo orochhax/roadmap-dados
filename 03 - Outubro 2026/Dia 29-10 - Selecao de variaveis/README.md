@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Seleção de variáveis.
-- **Pasta/arquivo principal:** `semana-13/dia-063-selecao-de-variaveis.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-063-selecao-de-variaveis.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Documente por que feature selecionada não implica causalidade.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-063-selecao-de-variaveis.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Seleção de variáveis** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-063-selecao-de-variaveis.ipynb`:** Compare remoção de correlações acima de 0,90 e 0,75 e registre quantidade de features e métrica.
+- [ ] **Em `01-exercicios/dia-063-selecao-de-variaveis.ipynb`:** Adicione uma cópia exata de uma coluna, faça a detecção removê-la e confirme que a original permanece.
 
 ### Perguntas de checagem
 

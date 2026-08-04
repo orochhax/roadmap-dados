@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Pipeline em Python.
-- **Pasta/arquivo principal:** `semana-18/dia-087-pipeline-em-python.py`.
+- **Pasta/arquivo principal:** `01-exercicios/transform.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Teste arquivo ausente, coluna faltante, linha inválida e execução repetida.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/transform.py`. Faça exatamente estes dois itens.
 
-- [ ] Acrescente ao fluxo de **Pipeline em Python** uma checagem automática de qualidade ou uma condição clara de falha.
-- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
+- [ ] **Em `01-exercicios/transform.py`:** Adicione validação obrigatória das colunas cliente_id e data_ativacao antes da transformação.
+- [ ] **Em `01-exercicios/transform.py`:** Execute duas vezes com o mesmo arquivo e depois com uma linha nova; compare contagens para provar idempotência e incremento.
 
 ### Perguntas de checagem
 

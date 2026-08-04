@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Feature engineering para regressão.
-- **Pasta/arquivo principal:** `semana-10/dia-049-feature-engineering-para-regressao.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-049-feature-engineering-para-regressao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Faça ablação: remova grupos de features e registre quanto cada grupo muda a métrica.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-049-feature-engineering-para-regressao.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Feature engineering para regressão** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-049-feature-engineering-para-regressao.ipynb`:** Agrupe categorias com frequência abaixo de 1% e depois abaixo de 5%; compare número de colunas e MAE.
+- [ ] **Em `01-exercicios/dia-049-feature-engineering-para-regressao.ipynb`:** Remova somente as features de interação e registre a variação da métrica no mesmo conjunto de validação.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Fundamentos temporais.
-- **Pasta/arquivo principal:** `semana-16/dia-076-fundamentos-temporais.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-076-fundamentos-temporais.ipynb`.
 - **Dados:** `dados/energia.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Defina horizonte de previsão e decisão operacional associada.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-076-fundamentos-temporais.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Avalie **Fundamentos temporais** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
-- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
+- [ ] **Em `01-exercicios/dia-076-fundamentos-temporais.ipynb`:** Remova sete dias consecutivos de uma cópia da série e mostre como a verificação de frequência identifica a lacuna.
+- [ ] **Em `01-exercicios/dia-076-fundamentos-temporais.ipynb`:** Crie lags 1, 7 e 30 e confirme que cada linha usa somente datas anteriores à própria data.
 
 ### Perguntas de checagem
 

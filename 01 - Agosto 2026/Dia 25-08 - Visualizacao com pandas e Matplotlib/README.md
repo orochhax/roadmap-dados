@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Visualização com pandas e Matplotlib.
-- **Pasta/arquivo principal:** `semana-04/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Teste a função com dados vazios, uma única data e categorias desconhecidas.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie uma segunda versão da entrega de **Visualização com pandas e Matplotlib** para um público diferente e ajuste título, destaque e nível de detalhe.
-- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
+- [ ] **Em `01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`:** Filtre somente o canal app, calcule a receita mensal e recrie o gráfico de linha com título que declare uma conclusão desse recorte.
+- [ ] **Em `01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb`:** Passe à função reutilizável um DataFrame vazio e outro com uma única data; trate ambos sem produzir gráfico enganoso.
 
 ### Perguntas de checagem
 

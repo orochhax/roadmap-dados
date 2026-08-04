@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Cohorts e retenção.
-- **Pasta/arquivo principal:** `semana-06/dia-029-cohorts-e-retencao.sql`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-029-cohorts-e-retencao.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva três conclusões e uma cautela sobre coortes pequenas.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-029-cohorts-e-retencao.sql`. Faça exatamente estes dois itens.
 
-- [ ] Escreva uma consulta adicional sobre **Cohorts e retenção** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
-- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
+- [ ] **Em `01-exercicios/dia-029-cohorts-e-retencao.sql`:** Calcule a matriz de retenção somente para clientes adquiridos pelo site e limite a cohorts com pelo menos 20 clientes no mês 0.
+- [ ] **Em `01-exercicios/dia-029-cohorts-e-retencao.sql`:** Selecione cinco clientes de uma coorte e liste os meses em que ficaram ativos antes de conferir a taxa agregada.
 
 ### Perguntas de checagem
 

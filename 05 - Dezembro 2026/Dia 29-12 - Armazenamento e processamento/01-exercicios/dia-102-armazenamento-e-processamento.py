@@ -12,3 +12,10 @@
 # 5. [ ] Explique quando não usar Spark ou warehouse.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Compare CSV e Parquet ao ler somente data_pedido e valor_pedido de pedidos.csv convertido.
+# ESCREVA AQUI:
+
+# 2. [ ] Particione por ano/mês e leia somente janeiro de 2026; registre arquivos lidos e linhas retornadas.
+# ESCREVA AQUI:

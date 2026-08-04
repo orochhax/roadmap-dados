@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Baselines e modelos.
-- **Pasta/arquivo principal:** `semana-15/dia-071-baselines-e-modelos.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-071-baselines-e-modelos.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Selecione campeão e challenger com justificativa pré-definida.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-071-baselines-e-modelos.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Baselines e modelos**.
-- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
+- [ ] **Em `01-exercicios/dia-071-baselines-e-modelos.ipynb`:** Compare campeão e challenger no segmento plano Básico 100 e registre tamanho, custo, recall e precision.
+- [ ] **Em `01-exercicios/dia-071-baselines-e-modelos.ipynb`:** Aumente o custo de falso negativo de R$500 para R$800 e confira se a escolha do campeão muda.
 
 ### Perguntas de checagem
 

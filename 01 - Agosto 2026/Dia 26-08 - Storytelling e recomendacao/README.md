@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Storytelling e recomendação.
-- **Pasta/arquivo principal:** `semana-04/dia-018-storytelling-e-recomendacao.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-018-storytelling-e-recomendacao.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Peça a outra pessoa para resumir a mensagem; registre o que ela entendeu errado e ajuste o material.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-018-storytelling-e-recomendacao.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie uma segunda versão da entrega de **Storytelling e recomendação** para um público diferente e ajuste título, destaque e nível de detalhe.
-- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
+- [ ] **Em `01-exercicios/dia-018-storytelling-e-recomendacao.ipynb`:** Use o achado de menor NPS entre clientes com três ou mais chamados e escreva contexto, evidência, impacto e uma recomendação limitada aos dados.
+- [ ] **Em `01-exercicios/dia-018-storytelling-e-recomendacao.ipynb`:** Apresente o mesmo achado em duas versões: três frases para diretoria e um parágrafo técnico para a equipe de dados.
 
 ### Perguntas de checagem
 

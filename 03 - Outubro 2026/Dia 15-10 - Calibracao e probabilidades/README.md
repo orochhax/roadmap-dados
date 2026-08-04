@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Calibração e probabilidades.
-- **Pasta/arquivo principal:** `semana-11/dia-053-calibracao-e-probabilidades.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-053-calibracao-e-probabilidades.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Explique por que uma probabilidade mal calibrada prejudica política de crédito ou retenção.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-053-calibracao-e-probabilidades.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Calibração e probabilidades** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-053-calibracao-e-probabilidades.ipynb`:** Crie probabilidades artificialmente confiantes elevando-as ao quadrado e compare Brier Score e curva de calibração.
+- [ ] **Em `01-exercicios/dia-053-calibracao-e-probabilidades.ipynb`:** Calcule calibração separadamente para planos Básico 100 e Família 500 e registre o tamanho de cada grupo.
 
 ### Perguntas de checagem
 

@@ -11,3 +11,10 @@
 # 5. [ ] Escreva checklist de segurança: segredos, dados pessoais, caminhos e dependências.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Adicione MODEL_VERSION ao .env.example e leia essa configuração sem inserir uma versão real secreta no repositório.
+# ESCREVA AQUI:
+
+# 2. [ ] Execute uma função com campo obrigatório ausente e registre um log ERROR sem incluir nome ou documento do cliente.
+# ESCREVA AQUI:

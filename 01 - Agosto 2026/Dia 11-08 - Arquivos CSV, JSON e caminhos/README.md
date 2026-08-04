@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Arquivos CSV, JSON e caminhos.
-- **Pasta/arquivo principal:** `semana-02/dia-007-arquivos-csv-json-e-caminhos.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-007-arquivos-csv-json-e-caminhos.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Teste o programa a partir de outra pasta para comprovar que os caminhos usam `pathlib.Path` e não dependem do diretório atual.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-007-arquivos-csv-json-e-caminhos.py`. Faça exatamente estes dois itens.
 
-- [ ] Amplie um dos programas de **Arquivos CSV, JSON e caminhos** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
+- [ ] **Em `01-exercicios/dia-007-arquivos-csv-json-e-caminhos.py`:** Acrescente ao CSV a linha INC-013,Ilhéus,queda de energia,P2,85,140,true e adicione ao JSON a meta de 90 minutos para Ilhéus; gere novamente o consolidado.
+- [ ] **Em `01-exercicios/dia-007-arquivos-csv-json-e-caminhos.py`:** Execute o programa a partir da raiz do repositório e da pasta do próprio dia; use pathlib para que ambas as execuções encontrem os mesmos arquivos.
 
 ### Perguntas de checagem
 

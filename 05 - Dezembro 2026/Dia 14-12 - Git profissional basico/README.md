@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Git profissional básico.
-- **Pasta/arquivo principal:** `semana-19/dia-091-git-profissional-basico.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-091-git-profissional-basico.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Marque release e tag para versão estável.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-091-git-profissional-basico.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione ao artefato de **Git profissional básico** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
-- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
+- [ ] **Em `01-exercicios/dia-091-git-profissional-basico.py`:** Crie uma branch pratica/conflito-a e outra pratica/conflito-b alterando a mesma linha de um arquivo de treino; resolva sem apagar as duas intenções.
+- [ ] **Em `01-exercicios/dia-091-git-profissional-basico.py`:** Faça um commit de teste e use git revert para desfazê-lo, mantendo o histórico visível; registre os comandos usados.
 
 ### Perguntas de checagem
 

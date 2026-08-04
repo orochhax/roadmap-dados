@@ -12,3 +12,10 @@
 # 5. [ ] Faça análise de 10 erros e ajuste chunking ou consulta.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Execute retrieve('luz LOS vermelha', k=1,3,5) e registre posição do documento correto em cada execução.
+# ESCREVA AQUI:
+
+# 2. [ ] Aplique filtro de metadados para versão 1.0 e teste uma versão inexistente sem retornar documentos indevidos.
+# ESCREVA AQUI:

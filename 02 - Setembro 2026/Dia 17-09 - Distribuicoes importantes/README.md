@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Distribuições importantes.
-- **Pasta/arquivo principal:** `semana-07/dia-033-distribuicoes-importantes.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-033-distribuicoes-importantes.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie um caso em que usar Normal para contagem gera valores impossíveis e explique a distribuição mais adequada.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-033-distribuicoes-importantes.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Altere uma condição do estudo de **Distribuições importantes**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
-- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
+- [ ] **Em `01-exercicios/dia-033-distribuicoes-importantes.ipynb`:** Simule Poisson com lambda=4 para amostras de 100, 1.000 e 100.000 e compare média e variância amostrais.
+- [ ] **Em `01-exercicios/dia-033-distribuicoes-importantes.ipynb`:** Gere uma aproximação Normal para a mesma contagem, conte valores negativos e explique por que eles são impossíveis no caso real.
 
 ### Perguntas de checagem
 

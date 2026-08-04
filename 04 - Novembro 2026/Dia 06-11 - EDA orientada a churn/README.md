@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** EDA orientada a churn.
-- **Pasta/arquivo principal:** `semana-14/dia-068-eda-orientada-a-churn.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-068-eda-orientada-a-churn.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Produza `insights_eda.md` com evidência, impacto, cautela e próxima análise.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-068-eda-orientada-a-churn.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **EDA orientada a churn**.
-- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
+- [ ] **Em `01-exercicios/dia-068-eda-orientada-a-churn.ipynb`:** Teste a hipótese 'clientes com três ou mais chamados têm maior churn' com tabela, gráfico e tamanho dos dois grupos.
+- [ ] **Em `01-exercicios/dia-068-eda-orientada-a-churn.ipynb`:** Repita a análise somente em Salvador e registre se a direção da associação permanece.
 
 ### Perguntas de checagem
 

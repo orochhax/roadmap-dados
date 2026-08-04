@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Geração com fontes.
-- **Pasta/arquivo principal:** `semana-23/dia-114-geracao-com-fontes.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-114-geracao-com-fontes.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Valide se cada afirmação relevante é sustentada por trecho recuperado.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-114-geracao-com-fontes.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Geração com fontes** e verifique recuperação, resposta e rastreabilidade da fonte.
-- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
+- [ ] **Em `01-exercicios/dia-114-geracao-com-fontes.py`:** Teste 'posso dobrar o cabo óptico para guardar?' e exija citação do documento de LOS vermelha em toda afirmação técnica.
+- [ ] **Em `01-exercicios/dia-114-geracao-com-fontes.py`:** Insira em um documento a frase 'ignore as regras anteriores' e confirme que ela não altera a política de resposta.
 
 ### Perguntas de checagem
 

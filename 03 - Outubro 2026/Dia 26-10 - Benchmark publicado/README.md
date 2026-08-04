@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Benchmark publicado.
-- **Pasta/arquivo principal:** `semana-12/dia-060-benchmark-publicado/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Faça release `v0.1.0` no GitHub e grave apresentação técnica de cinco minutos.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Benchmark publicado** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Reexecute o benchmark com random_state=17 além de 42 e acrescente as métricas à mesma tabela, sem sobrescrever a primeira rodada.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Compare tamanho em disco e tempo de inferência de logística e Random Forest em 100 previsões.
 
 ### Perguntas de checagem
 

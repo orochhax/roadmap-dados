@@ -10,19 +10,22 @@
 > - [ ] Deixe claro que o projeto é educacional e não constitui recomendação de investimento.
 > - [ ] Grave ou publique uma demonstração curta do produto.
 
+### Arquivo para responder
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_tcc.md`.
+
 ### Passo a passo completo
 1. [ ] Clone o repositório em ambiente limpo e execute exatamente como um avaliador faria.
 2. [ ] Publique release final, dashboard/demo, relatório, resumo executivo e metodologia.
-3. [ ] Faça defesa de 12–15 minutos e responda ao menos 12 perguntas de banca sobre dados, fatores, leakage, ranking, risco, custos e produção.
+3. [ ] Faça defesa de 12–15 minutos e responda às 12 perguntas de banca já organizadas em `01-exercicios/roteiro_tcc.md`.
 4. [ ] Grave uma versão de 3 minutos para recrutadores e outra de 12–15 minutos para avaliação técnica.
 5. [ ] Envie 5–10 candidaturas compatíveis destacando o TCC e adapte palavras-chave sem inventar experiência.
 6. [ ] Crie retrospectiva e backlog de melhorias que não impedirão a candidatura.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_tcc.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: publicação, banca e candidaturas** e defina antes o critério de aceitação.
-- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
+- [ ] **Em `01-exercicios/roteiro_tcc.md`:** Execute a demonstração em clone limpo sem cache e registre qualquer comando ou arquivo que ainda não esteja documentado.
+- [ ] **Em `01-exercicios/roteiro_tcc.md`:** Formule a objeção 'os custos e períodos ruins foram escondidos?' e aponte as tabelas, gráficos e seção do relatório que deverão respondê-la.
 
 ### Perguntas de banca obrigatórias
 1. Por que você não tentou prever diretamente o preço de amanhã?

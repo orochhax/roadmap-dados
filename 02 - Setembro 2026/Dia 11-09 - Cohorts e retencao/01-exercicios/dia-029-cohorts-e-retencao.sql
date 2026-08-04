@@ -12,3 +12,10 @@
 -- 5. [ ] Escreva três conclusões e uma cautela sobre coortes pequenas.
 --
 -- Escreva sua solução abaixo desta linha.
+
+-- EXERCÍCIOS EXTRAS ESPECÍFICOS
+-- 1. [ ] Calcule a matriz de retenção somente para clientes adquiridos pelo site e limite a cohorts com pelo menos 20 clientes no mês 0.
+-- ESCREVA AQUI:
+
+-- 2. [ ] Selecione cinco clientes de uma coorte e liste os meses em que ficaram ativos antes de conferir a taxa agregada.
+-- ESCREVA AQUI:

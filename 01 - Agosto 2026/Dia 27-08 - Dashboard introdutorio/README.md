@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Dashboard introdutório.
-- **Pasta/arquivo principal:** `semana-04/dia-019-dashboard-introdutorio.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-019-dashboard-introdutorio.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva `dicionario_metricas.md` com fórmula, fonte, periodicidade e risco de interpretação de cada indicador.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-019-dashboard-introdutorio.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie uma segunda versão da entrega de **Dashboard introdutório** para um público diferente e ajuste título, destaque e nível de detalhe.
-- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
+- [ ] **Em `01-exercicios/dia-019-dashboard-introdutorio.ipynb`:** Crie no notebook uma tabela de validação com os quatro indicadores somente para severidade P1 e compare com a página executiva.
+- [ ] **Em `01-exercicios/dia-019-dashboard-introdutorio.ipynb`:** Escolha a cidade com mais incidentes e confira manualmente contagem e duração média em cinco linhas antes de aceitar o número do dashboard.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Mini-projeto de regressão.
-- **Pasta/arquivo principal:** `semana-10/dia-050-mini-projeto-de-regressao/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Entregue README com pergunta, dados, validação, resultado, decisão e limitações.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Mini-projeto de regressão** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Use duração de incidente como alvo, compare baseline da média com árvore e mantenha random_state=42.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Nos 10 maiores erros, conte quantos são P1/P2 e compare com a proporção dessas classes na base.
 
 ### Perguntas de checagem
 

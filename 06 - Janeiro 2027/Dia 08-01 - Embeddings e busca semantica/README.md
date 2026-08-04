@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Embeddings e busca semântica.
-- **Pasta/arquivo principal:** `semana-22/dia-108-embeddings-e-busca-semantica.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-108-embeddings-e-busca-semantica.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Registre falsos positivos e falsos negativos da recuperação.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-108-embeddings-e-busca-semantica.py`. Faça exatamente estes dois itens.
 
-- [ ] Teste a solução de **Embeddings e busca semântica** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
-- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
+- [ ] **Em `01-exercicios/dia-108-embeddings-e-busca-semantica.py`:** Compare palavra-chave e cosseno para 'a luz LOS ficou vermelha' e registre os três documentos retornados por cada busca.
+- [ ] **Em `01-exercicios/dia-108-embeddings-e-busca-semantica.py`:** Teste 'qual a previsão do tempo amanhã?' e aplique um limiar que permita declarar a consulta fora do domínio.
 
 ### Perguntas de checagem
 

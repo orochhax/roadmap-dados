@@ -12,3 +12,10 @@
 # 5. [ ] Liste cinco falhas possíveis e como detectar cada uma.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Adicione à arquitetura uma área quarantine entre raw e processed para linhas sem id ou com tipo inválido.
+# ESCREVA AQUI:
+
+# 2. [ ] Simule ausência da coluna id e uma execução repetida; descreva em qual etapa cada problema deve ser detectado.
+# ESCREVA AQUI:

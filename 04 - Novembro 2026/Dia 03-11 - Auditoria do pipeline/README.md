@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Auditoria do pipeline.
-- **Pasta/arquivo principal:** `semana-13/dia-065-auditoria-do-pipeline/` (pasta do projeto).
+- **Pasta/arquivo principal:** `projeto-mensal/src/train.py`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie `auditoria_modelo.md` com problemas encontrados, severidade, correção e evidência.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `projeto-mensal/src/train.py`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Auditoria do pipeline** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `projeto-mensal/src/train.py`:** Acrescente à auditoria uma checagem que procure caminhos absolutos contendo C:\Users e classifique a severidade.
+- [ ] **Em `projeto-mensal/src/train.py`:** Rode train.py duas vezes com seed 42 e compare as métricas salvas para verificar reprodutibilidade.
 
 ### Perguntas de checagem
 1. Quais pontos do pipeline você verificaria para detectar leakage, inconsistência e baixa reprodutibilidade?

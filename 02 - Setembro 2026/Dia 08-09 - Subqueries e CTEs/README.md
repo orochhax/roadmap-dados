@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Subqueries e CTEs.
-- **Pasta/arquivo principal:** `semana-06/dia-026-subqueries-e-ctes.sql`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-026-subqueries-e-ctes.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Introduza um filtro em posição errada e demonstre como ele altera o denominador de uma taxa.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-026-subqueries-e-ctes.sql`. Faça exatamente estes dois itens.
 
-- [ ] Escreva uma consulta adicional sobre **Subqueries e CTEs** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
-- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
+- [ ] **Em `01-exercicios/dia-026-subqueries-e-ctes.sql`:** Crie uma CTE que filtre P1/P2, outra que agregue impacto por cidade e uma terceira que retorne as três cidades de maior impacto.
+- [ ] **Em `01-exercicios/dia-026-subqueries-e-ctes.sql`:** Mova o filtro de resolvido entre a primeira e a segunda CTE e registre como o denominador da taxa muda nas duas versões.
 
 ### Perguntas de checagem
 

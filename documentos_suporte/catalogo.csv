@@ -1,0 +1,16 @@
+﻿documento_id,arquivo,titulo,versao,licenca
+DOC-01,DOC-01-reinicio-roteador.md,Reinício seguro do roteador,1.0,conteúdo sintético para estudo
+DOC-02,DOC-02-sem-conexao.md,Diagnóstico de ausência de conexão,1.0,conteúdo sintético para estudo
+DOC-03,DOC-03-wifi-lento.md,Wi-Fi com baixa velocidade,1.0,conteúdo sintético para estudo
+DOC-04,DOC-04-troca-senha-wifi.md,Troca de senha do Wi-Fi,1.0,conteúdo sintético para estudo
+DOC-05,DOC-05-segunda-via.md,Segunda via da fatura,1.0,conteúdo sintético para estudo
+DOC-06,DOC-06-pagamento-nao-baixado.md,Pagamento ainda não reconhecido,1.0,conteúdo sintético para estudo
+DOC-07,DOC-07-mudanca-endereco.md,Mudança de endereço,1.0,conteúdo sintético para estudo
+DOC-08,DOC-08-equipamento-aquecendo.md,Equipamento aquecendo,1.0,conteúdo sintético para estudo
+DOC-09,DOC-09-luz-los-vermelha.md,Luz LOS vermelha,1.0,conteúdo sintético para estudo
+DOC-10,DOC-10-instabilidade-chuva.md,Instabilidade durante chuva,1.0,conteúdo sintético para estudo
+DOC-11,DOC-11-cancelamento.md,Solicitação de cancelamento,1.0,conteúdo sintético para estudo
+DOC-12,DOC-12-visita-tecnica.md,Preparação para visita técnica,1.0,conteúdo sintético para estudo
+DOC-13,DOC-13-dados-pessoais.md,Proteção de dados pessoais,1.0,conteúdo sintético para estudo
+DOC-14,DOC-14-fora-de-escopo.md,Solicitações fora do escopo,1.0,conteúdo sintético para estudo
+DOC-15,DOC-15-escalonamento-p1.md,Escalonamento de incidente P1,1.0,conteúdo sintético para estudo

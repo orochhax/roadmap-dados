@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Limiar e custo.
-- **Pasta/arquivo principal:** `semana-11/dia-052-limiar-e-custo.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-052-limiar-e-custo.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie gráfico custo versus limiar e escreva recomendação executiva.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-052-limiar-e-custo.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Limiar e custo** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-052-limiar-e-custo.ipynb`:** Refaça a tabela de limiares aumentando o custo de FP de R$20 para R$50 e mantenha os demais valores.
+- [ ] **Em `01-exercicios/dia-052-limiar-e-custo.ipynb`:** Escolha novamente o limiar exigindo recall mínimo de 80% em vez de 70% e registre a troca de custo e volume.
 
 ### Perguntas de checagem
 

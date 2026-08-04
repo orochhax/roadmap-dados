@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Explicabilidade.
-- **Pasta/arquivo principal:** `semana-13/dia-064-explicabilidade.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-064-explicabilidade.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie relatório para público não técnico com três cuidados ao interpretar importância.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-064-explicabilidade.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Explicabilidade** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-064-explicabilidade.ipynb`:** Explique uma previsão correta de churn alto e uma incorreta de churn baixo usando o mesmo método local.
+- [ ] **Em `01-exercicios/dia-064-explicabilidade.ipynb`:** Remova a feature mais correlacionada com a principal e gere novamente a explicação para observar estabilidade.
 
 ### Perguntas de checagem
 

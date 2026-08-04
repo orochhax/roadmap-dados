@@ -12,3 +12,10 @@
 # 5. [ ] Garanta códigos HTTP claros para erro de validação e falha interna.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Adicione ao exemplo de /predict um cliente com mensalidade 129,90, NPS 4 e chamados_90d 5.
+# ESCREVA AQUI:
+
+# 2. [ ] Teste payload sem nps e payload com mensalidade='texto'; confirme respostas de validação sem erro interno 500.
+# ESCREVA AQUI:

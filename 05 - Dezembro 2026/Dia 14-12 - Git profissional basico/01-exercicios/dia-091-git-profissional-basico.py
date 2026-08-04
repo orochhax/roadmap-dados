@@ -12,3 +12,10 @@
 # 5. [ ] Marque release e tag para versão estável.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Crie uma branch pratica/conflito-a e outra pratica/conflito-b alterando a mesma linha de um arquivo de treino; resolva sem apagar as duas intenções.
+# ESCREVA AQUI:
+
+# 2. [ ] Faça um commit de teste e use git revert para desfazê-lo, mantendo o histórico visível; registre os comandos usados.
+# ESCREVA AQUI:

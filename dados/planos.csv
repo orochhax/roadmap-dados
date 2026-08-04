@@ -1,0 +1,7 @@
+﻿plano_id,nome_plano,velocidade_mbps,mensalidade_base
+PL01,Básico 100,100,79.9
+PL02,Casa 300,300,109.9
+PL03,Família 500,500,149.9
+PL04,Gamer 700,700,199.9
+PL05,Empresa 1000,1000,299.9
+PL06,Sem clientes,50,59.9

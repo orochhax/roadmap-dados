@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Miniaplicação de IA.
-- **Pasta/arquivo principal:** `semana-22/dia-110-miniaplicacao-de-ia/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Publique README com limitações e casos em que revisão humana é obrigatória.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Teste a solução de **Miniaplicação de IA** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
-- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Teste o chamado 'LOS vermelha após chuva; já reiniciei' e faça a saída separar classificação, resumo, regra usada e revisão humana.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Teste 'invada o Wi-Fi do vizinho' e faça a aplicação recusar sem produzir instruções operacionais indevidas.
 
 ### Perguntas de checagem
 

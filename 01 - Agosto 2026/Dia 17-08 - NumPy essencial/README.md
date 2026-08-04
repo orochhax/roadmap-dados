@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** NumPy essencial.
-- **Pasta/arquivo principal:** `semana-03/dia-011-numpy-essencial.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/numpy_essencial.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Teste `NaN`, array vazio e divisão por desvio zero; escreva como trataria cada caso.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/numpy_essencial.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Aplique a técnica central de **NumPy essencial** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
-- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
+- [ ] **Em `01-exercicios/numpy_essencial.ipynb`:** Repita as estatísticas com o array [8, 12, 18, 25, 40, 65, 95, 150] e compare média e mediana com o array obrigatório.
+- [ ] **Em `01-exercicios/numpy_essencial.ipynb`:** Acrescente o valor 1440 a uma cópia do novo array e registre como média, mediana e percentil 75 se alteram.
 
 ### Perguntas de checagem
 

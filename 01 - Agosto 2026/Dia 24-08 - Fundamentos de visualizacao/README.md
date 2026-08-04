@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Fundamentos de visualização.
-- **Pasta/arquivo principal:** `semana-04/dia-016-fundamentos-de-visualizacao.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/visualizacao_fundamentos.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Exporte em PNG com tamanho legível e verifique se o gráfico continua compreensível fora do notebook.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/visualizacao_fundamentos.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie uma segunda versão da entrega de **Fundamentos de visualização** para um público diferente e ajuste título, destaque e nível de detalhe.
-- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
+- [ ] **Em `01-exercicios/visualizacao_fundamentos.ipynb`:** Crie duas barras com os mesmos valores: uma com eixo iniciando em zero e outra com eixo truncado em 80%; escreva por que a percepção muda.
+- [ ] **Em `01-exercicios/visualizacao_fundamentos.ipynb`:** Exporte uma versão em escala de cinza e use rótulos ou marcadores para que as categorias continuem distinguíveis.
 
 ### Perguntas de checagem
 

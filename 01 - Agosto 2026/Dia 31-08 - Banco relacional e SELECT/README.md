@@ -6,21 +6,21 @@
 
 ### Preparação
 - **Assunto central:** Banco relacional e SELECT.
-- **Pasta/arquivo principal:** `semana-05/dia-021-banco-relacional-e-select.sql`.
+- **Pasta/arquivo principal:** `01-exercicios/select_basico.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
 ### Passo a passo completo
 1. [ ] Instale PostgreSQL ou use DuckDB; crie banco `roadmap_ds` e tabela `incidentes` com chave primária e tipos apropriados.
-2. [ ] Importe `incidentes.csv` e execute 12 consultas `SELECT`: todas as colunas; colunas específicas; alias; `DISTINCT`; limite; ordenação crescente/decrescente; expressão calculada; concatenação; `COALESCE`; `CAST`; `CASE`; contagem total.
+2. [ ] Importe `dados/incidentes.csv` e resolva, em `01-exercicios/select_basico.sql`, as 12 consultas numeradas de `SELECT` já preparadas.
 3. [ ] Antes de cada consulta, escreva em comentário quantas linhas e colunas espera receber.
 4. [ ] Crie uma consulta que calcule `impacto = duracao_min * clientes_afetados` e liste os cinco maiores.
-5. [ ] Salve tudo em `03-sql/dia21/select_basico.sql` e exporte os resultados principais para CSV.
+5. [ ] Salve tudo em `01-exercicios/select_basico.sql` e exporte os resultados principais para CSV.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/select_basico.sql`. Faça exatamente estes dois itens.
 
-- [ ] Escreva uma consulta adicional sobre **Banco relacional e SELECT** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
-- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
+- [ ] **Em `01-exercicios/select_basico.sql`:** Escreva uma consulta que liste incidentes P1 não resolvidos, calcule impacto e ordene do maior para o menor, limitando a cinco linhas.
+- [ ] **Em `01-exercicios/select_basico.sql`:** Escreva uma consulta de validação que compare COUNT(*) com COUNT(DISTINCT id) e conte ids nulos antes de aceitar a importação.
 
 ### Perguntas de checagem
 
@@ -36,7 +36,7 @@
 - [ ] D) A formatação visual da tabela final antes dos cálculos.
 - [ ] E) A pergunta de negócio, a métrica e a granularidade que cada linha da saída deve representar.
 
-2. **Referência — atividade 2:** Importe `incidentes.csv` e execute 12 consultas `SELECT`: todas as colunas; colunas específicas; alias; `DISTINCT`; limite; ordenação crescente/decrescente; expressão calculada; concatenação; `COALESCE`; `CAST`; `CASE`; contagem total.
+2. **Referência — atividade 2:** Importe `dados/incidentes.csv` e resolva as 12 consultas numeradas em `01-exercicios/select_basico.sql`.
 
    **Pergunta:** Qual cuidado é essencial ao usar junções em uma atividade de **Banco relacional e SELECT**?
 
@@ -66,7 +66,7 @@
 - [ ] D) Comparar contagens e totais, inspecionar amostras e validar a lógica em partes menores.
 - [ ] E) Executar a consulta apenas uma vez sem mensagem de erro.
 
-5. **Referência — atividade 5:** Salve tudo em `03-sql/dia21/select_basico.sql` e exporte os resultados principais para CSV.
+5. **Referência — atividade 5:** Salve tudo em `01-exercicios/select_basico.sql` e exporte os resultados principais para CSV.
 
    **Pergunta:** Ordene a construção de uma consulta para **Banco relacional e SELECT**.
 

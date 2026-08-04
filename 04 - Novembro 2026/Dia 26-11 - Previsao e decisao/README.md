@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Previsão e decisão.
-- **Pasta/arquivo principal:** `semana-16/dia-079-previsao-e-decisao.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-079-previsao-e-decisao.ipynb`.
 - **Dados:** `dados/energia.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva recomendação para a próxima semana com nível de confiança.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-079-previsao-e-decisao.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Avalie **Previsão e decisão** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
-- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
+- [ ] **Em `01-exercicios/dia-079-previsao-e-decisao.ipynb`:** Atribua custo 3 vezes maior para subestimar do que para superestimar e recalcule a escolha entre os modelos.
+- [ ] **Em `01-exercicios/dia-079-previsao-e-decisao.ipynb`:** Produza recomendação para horizonte de 14 dias e compare o nível de incerteza com a recomendação de 7 dias.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Funções de janela.
-- **Pasta/arquivo principal:** `semana-06/dia-027-funcoes-de-janela.sql`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-027-funcoes-de-janela.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Compare uma solução com função de janela a outra com `GROUP BY` e explique por que elas respondem perguntas diferentes.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-027-funcoes-de-janela.sql`. Faça exatamente estes dois itens.
 
-- [ ] Escreva uma consulta adicional sobre **Funções de janela** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
-- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
+- [ ] **Em `01-exercicios/dia-027-funcoes-de-janela.sql`:** Retorne os dois maiores impactos por cidade com DENSE_RANK e mantenha todos os empates na segunda posição.
+- [ ] **Em `01-exercicios/dia-027-funcoes-de-janela.sql`:** Crie três linhas empatadas para uma cidade em uma CTE de valores e compare ROW_NUMBER, RANK e DENSE_RANK nessa entrada.
 
 ### Perguntas de checagem
 

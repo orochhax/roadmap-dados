@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Publicação e apresentação.
-- **Pasta/arquivo principal:** `semana-15/dia-075-publicacao-e-apresentacao/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Faça retrospectiva: três acertos, três falhas e três melhorias.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Publicação e apresentação**.
-- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Responda por escrito: 'Como você provou que status_atual não entrou no treino?' citando a etapa exata da pipeline.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Clone em uma pasta nova, execute a instrução principal e registre qualquer etapa manual que ainda impeça reprodução.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Logs e monitoramento básico.
-- **Pasta/arquivo principal:** `semana-20/dia-099-logs-e-monitoramento-basico.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-099-logs-e-monitoramento-basico.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie runbook de investigação.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-099-logs-e-monitoramento-basico.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione ao artefato de **Logs e monitoramento básico** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
-- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
+- [ ] **Em `01-exercicios/dia-099-logs-e-monitoramento-basico.py`:** Simule 50 requisições com latência adicional de 200 ms e compare p50 e p95 com as requisições normais.
+- [ ] **Em `01-exercicios/dia-099-logs-e-monitoramento-basico.py`:** Envie 10 payloads sem campo obrigatório e confirme que logs contam erros sem registrar o conteúdo completo.
 
 ### Perguntas de checagem
 

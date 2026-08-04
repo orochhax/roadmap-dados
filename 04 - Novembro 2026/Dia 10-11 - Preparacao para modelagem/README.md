@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Preparação para modelagem.
-- **Pasta/arquivo principal:** `semana-14/dia-070-preparacao-para-modelagem/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Salve um `data_card.md` com origem, período, população, exclusões e limitações.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Preparação para modelagem**.
-- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Compare o baseline de negócio chamados_90d>=3 com o DummyClassifier usando a métrica e o custo definidos.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Altere o corte temporal em 30 dias e confira se nenhuma data posterior entrou no conjunto de treino.
 
 ### Perguntas de checagem
 

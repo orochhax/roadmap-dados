@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Limpeza de dados.
-- **Pasta/arquivo principal:** `semana-03/dia-013-limpeza-de-dados.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-013-limpeza-de-dados.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Salve `dados_limpos.csv` e `relatorio_limpeza.md` com antes/depois, decisões e riscos de distorção.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-013-limpeza-de-dados.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Aplique a técnica central de **Limpeza de dados** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
-- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
+- [ ] **Em `01-exercicios/dia-013-limpeza-de-dados.ipynb`:** Inclua as categorias ' feira DE SANTANA ' e 'Feira de Santana' em uma cópia e aplique a mesma regra de padronização usada nas demais cidades.
+- [ ] **Em `01-exercicios/dia-013-limpeza-de-dados.ipynb`:** Inclua uma duração de 9999 minutos, compare a detecção por IQR e z-score e mantenha a linha até escrever uma justificativa.
 
 ### Perguntas de checagem
 

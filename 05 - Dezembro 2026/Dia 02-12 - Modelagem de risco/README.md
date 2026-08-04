@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Modelagem de risco.
-- **Pasta/arquivo principal:** `semana-17/dia-083-modelagem-de-risco.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-083-modelagem-de-risco.ipynb`.
 - **Dados:** `dados/credito.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escolha modelo explicável compatível com política de crédito.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-083-modelagem-de-risco.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Avalie **Modelagem de risco** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
-- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
+- [ ] **Em `01-exercicios/dia-083-modelagem-de-risco.ipynb`:** Compare calibração e KS no conjunto temporal final para logística e o melhor modelo de árvore.
+- [ ] **Em `01-exercicios/dia-083-modelagem-de-risco.ipynb`:** Calcule as métricas separadamente para contratos com prazo até 12 meses e acima de 24 meses.
 
 ### Perguntas de checagem
 

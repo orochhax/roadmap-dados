@@ -1,0 +1,601 @@
+﻿cliente_id,cidade,plano,canal_aquisicao,mensalidade,nps,chamados_90d,atraso_dias,tempo_cliente_meses,data_ativacao,churn,data_cancelamento,motivo_cancelamento,status_atual
+CLI-0001,Ilhéus,Família 500,telefone,142.9,8,0,10,31,2024-01-01,0,,,ativo
+CLI-0002,Vitória da Conquista,Família 500,indicação,145.39,7,0,0,28,2024-04-08,0,,,ativo
+CLI-0003,Ilhéus,Casa 300,site,103.78,7,2,10,25,2024-06-22,1,2026-06-26,mudança,cancelado
+CLI-0004,Feira de Santana,Básico 100,indicação,76.14,5,3,0,36,2023-08-06,0,,,ativo
+CLI-0005,Salvador,Gamer 700,telefone,219.45,6,0,0,43,2023-01-14,0,,,ativo
+CLI-0006,Eunápolis,Gamer 700,site,192.51,9,0,0,35,2023-09-01,0,,,ativo
+CLI-0007,Feira de Santana,Empresa 1000,site,295.58,6,1,60,32,2023-12-10,0,,,ativo
+CLI-0008,Eunápolis,Gamer 700,site,200.42,3,3,0,22,2024-09-28,0,,,ativo
+CLI-0009,Feira de Santana,Gamer 700,indicação,185.59,6,2,35,24,2024-07-26,0,,,ativo
+CLI-0010,Salvador,Gamer 700,telefone,215.41,7,0,0,13,2025-07-07,0,,,ativo
+CLI-0011,Feira de Santana,Empresa 1000,site,312.55,5,0,0,47,2022-09-20,0,,,ativo
+CLI-0012,Ilhéus,Família 500,telefone,160.61,8,2,20,29,2024-03-03,0,,,ativo
+CLI-0013,Eunápolis,Gamer 700,site,204.43,7,1,0,4,2026-03-11,0,,,ativo
+CLI-0014,Eunápolis,Gamer 700,telefone,187.12,8,0,60,31,2023-12-27,0,,,ativo
+CLI-0015,Eunápolis,Básico 100,site,82.13,2,2,0,28,2024-03-31,0,,,ativo
+CLI-0016,Salvador,Empresa 1000,indicação,298.53,5,6,5,14,2025-06-07,0,,,ativo
+CLI-0017,Vitória da Conquista,Casa 300,telefone,107.6,8,2,0,2,2026-05-30,0,,,ativo
+CLI-0018,Feira de Santana,Gamer 700,indicação,190.68,2,0,10,32,2023-12-02,0,,,ativo
+CLI-0019,Feira de Santana,Empresa 1000,site,313.08,8,2,10,11,2025-09-01,0,,,ativo
+CLI-0020,Feira de Santana,Família 500,loja,152.92,9,1,60,27,2024-05-07,0,,,ativo
+CLI-0021,Eunápolis,Básico 100,telefone,82.41,6,1,0,13,2025-06-14,0,,,ativo
+CLI-0022,Ilhéus,Gamer 700,site,202.21,9,0,0,41,2023-03-04,0,,,ativo
+CLI-0023,Vitória da Conquista,Gamer 700,site,194.01,8,3,0,10,2025-09-20,0,,,ativo
+CLI-0024,Salvador,Básico 100,indicação,77.06,4,0,10,1,2026-06-11,0,,,ativo
+CLI-0025,Eunápolis,Básico 100,loja,75.36,5,3,0,21,2024-11-04,0,,,ativo
+CLI-0026,Vitória da Conquista,Casa 300,site,111.16,7,4,0,25,2024-06-13,0,,,ativo
+CLI-0027,Feira de Santana,Casa 300,telefone,107.46,10,3,5,38,2023-05-23,0,,,ativo
+CLI-0028,Ilhéus,Casa 300,indicação,120.03,4,1,5,15,2025-04-29,0,,,ativo
+CLI-0029,Vitória da Conquista,Básico 100,loja,86.22,10,0,20,32,2023-12-07,0,,,ativo
+CLI-0030,Feira de Santana,Família 500,telefone,157.56,8,3,10,48,2022-07-31,0,,,ativo
+CLI-0031,Salvador,Básico 100,telefone,79.13,9,0,0,10,2025-09-19,0,,,ativo
+CLI-0032,Salvador,Básico 100,loja,77.7,9,4,0,41,2023-03-18,0,,,ativo
+CLI-0033,Eunápolis,Básico 100,indicação,81.88,10,1,5,23,2024-08-15,0,,,ativo
+CLI-0034,Vitória da Conquista,Básico 100,indicação,78.74,8,2,0,32,2023-11-23,0,,,ativo
+CLI-0035,Ilhéus,Gamer 700,loja,204.12,5,0,5,6,2026-01-10,1,2026-06-19,instabilidade,cancelado
+CLI-0036,Ilhéus,Família 500,loja,144.35,8,3,20,49,2022-07-20,0,,,ativo
+CLI-0037,Ilhéus,Casa 300,site,115.34,7,0,0,3,2026-04-23,0,,,ativo
+CLI-0038,Eunápolis,Empresa 1000,indicação,286.69,7,3,0,22,2024-09-12,0,,,ativo
+CLI-0039,Eunápolis,Família 500,loja,148.0,10,0,10,49,2022-07-21,0,,,ativo
+CLI-0040,Salvador,Família 500,indicação,144.19,5,0,5,31,2023-12-31,0,,,ativo
+CLI-0041,Vitória da Conquista,Casa 300,loja,110.51,10,1,5,4,2026-03-13,0,,,ativo
+CLI-0042,Feira de Santana,Gamer 700,loja,217.52,4,2,20,41,2023-03-13,0,,,ativo
+CLI-0043,Salvador,Básico 100,indicação,87.37,2,5,0,39,2023-05-07,0,,,ativo
+CLI-0044,Ilhéus,Família 500,loja,143.54,8,1,0,29,2024-03-01,0,,,ativo
+CLI-0045,Salvador,Básico 100,site,79.46,6,1,20,47,2022-09-06,0,,,ativo
+CLI-0046,Eunápolis,Família 500,indicação,158.21,5,3,20,15,2025-04-12,0,,,ativo
+CLI-0047,Vitória da Conquista,Família 500,site,163.11,5,3,0,35,2023-08-29,0,,,ativo
+CLI-0048,Feira de Santana,Família 500,indicação,156.93,4,5,0,44,2022-12-18,1,2026-06-13,instabilidade,cancelado
+CLI-0049,Ilhéus,Família 500,loja,155.71,6,3,20,37,2023-07-03,1,2026-07-24,atendimento,cancelado
+CLI-0050,Feira de Santana,Gamer 700,loja,184.42,8,2,0,23,2024-08-24,0,,,ativo
+CLI-0051,Eunápolis,Gamer 700,site,208.35,3,2,20,39,2023-04-24,0,,,ativo
+CLI-0052,Eunápolis,Casa 300,telefone,120.22,5,0,0,35,2023-09-01,0,,,ativo
+CLI-0053,Vitória da Conquista,Empresa 1000,telefone,282.75,5,2,0,33,2023-11-07,0,,,ativo
+CLI-0054,Ilhéus,Básico 100,indicação,81.56,10,1,0,27,2024-04-30,0,,,ativo
+CLI-0055,Eunápolis,Empresa 1000,loja,307.26,6,3,5,20,2024-11-24,0,,,ativo
+CLI-0056,Feira de Santana,Empresa 1000,site,293.55,6,1,0,42,2023-02-13,0,,,ativo
+CLI-0057,Ilhéus,Casa 300,telefone,103.13,8,2,0,29,2024-03-03,0,,,ativo
+CLI-0058,Ilhéus,Básico 100,telefone,83.84,5,5,35,15,2025-05-07,0,,,ativo
+CLI-0059,Vitória da Conquista,Família 500,loja,146.35,5,3,20,47,2022-08-28,1,2026-07-21,instabilidade,cancelado
+CLI-0060,Feira de Santana,Casa 300,loja,107.38,7,3,0,46,2022-09-27,0,,,ativo
+CLI-0061,Feira de Santana,Família 500,indicação,141.92,7,1,0,27,2024-04-20,1,2026-07-16,instabilidade,cancelado
+CLI-0062,Eunápolis,Casa 300,indicação,119.07,8,1,0,36,2023-08-10,1,2026-06-05,instabilidade,cancelado
+CLI-0063,Feira de Santana,Empresa 1000,loja,329.34,7,2,35,11,2025-08-07,0,,,ativo
+CLI-0064,Salvador,Empresa 1000,site,298.59,7,5,0,41,2023-03-11,0,,,ativo
+CLI-0065,Salvador,Básico 100,loja,81.81,8,1,20,49,2022-07-11,0,,,ativo
+CLI-0066,Salvador,Gamer 700,indicação,192.77,8,3,0,7,2026-01-03,0,,,ativo
+CLI-0067,Vitória da Conquista,Básico 100,indicação,79.06,5,2,60,38,2023-06-03,0,,,ativo
+CLI-0068,Salvador,Casa 300,telefone,115.92,10,2,20,20,2024-11-21,0,,,ativo
+CLI-0069,Salvador,Casa 300,telefone,108.05,5,5,0,32,2023-12-09,1,2026-07-08,mudança,cancelado
+CLI-0070,Salvador,Gamer 700,telefone,213.68,4,3,0,43,2022-12-21,0,,,ativo
+CLI-0071,Vitória da Conquista,Casa 300,loja,105.74,7,1,35,17,2025-03-09,0,,,ativo
+CLI-0072,Ilhéus,Casa 300,indicação,105.25,4,3,20,1,2026-06-18,0,,,ativo
+CLI-0073,Ilhéus,Gamer 700,telefone,191.42,6,2,0,19,2024-12-22,0,,,ativo
+CLI-0074,Vitória da Conquista,Gamer 700,site,198.32,3,3,0,44,2022-12-03,0,,,ativo
+CLI-0075,Ilhéus,Casa 300,loja,103.87,10,2,10,48,2022-07-27,0,,,ativo
+CLI-0076,Eunápolis,Empresa 1000,site,312.68,6,0,0,47,2022-09-02,0,,,ativo
+CLI-0077,Feira de Santana,Família 500,loja,140.94,8,2,0,6,2026-01-24,0,,,ativo
+CLI-0078,Eunápolis,Casa 300,indicação,115.56,3,0,0,38,2023-06-02,0,,,ativo
+CLI-0079,Vitória da Conquista,Empresa 1000,loja,293.92,10,2,0,10,2025-09-29,0,,,ativo
+CLI-0080,Eunápolis,Família 500,telefone,165.8,7,0,0,24,2024-07-20,0,,,ativo
+CLI-0081,Salvador,Casa 300,telefone,113.67,6,4,0,23,2024-08-13,0,,,ativo
+CLI-0082,Feira de Santana,Básico 100,site,87.39,10,1,20,4,2026-03-13,0,,,ativo
+CLI-0083,Ilhéus,Casa 300,indicação,102.27,6,2,0,48,2022-08-06,0,,,ativo
+CLI-0084,Feira de Santana,Casa 300,telefone,122.44,6,0,35,40,2023-04-16,0,,,ativo
+CLI-0085,Eunápolis,Família 500,telefone,152.11,7,2,0,13,2025-06-21,0,,,ativo
+CLI-0086,Vitória da Conquista,Gamer 700,indicação,211.56,8,0,35,7,2025-12-30,0,,,ativo
+CLI-0087,Ilhéus,Casa 300,site,104.67,8,4,0,23,2024-08-15,0,,,ativo
+CLI-0088,Ilhéus,Básico 100,indicação,78.8,10,0,0,46,2022-10-05,0,,,ativo
+CLI-0089,Eunápolis,Empresa 1000,loja,295.93,6,0,0,29,2024-03-05,0,,,ativo
+CLI-0090,Ilhéus,Básico 100,indicação,86.28,1,5,20,15,2025-05-02,1,2026-07-30,mudança,cancelado
+CLI-0091,Vitória da Conquista,Básico 100,site,78.64,8,2,0,40,2023-04-07,0,,,ativo
+CLI-0092,Feira de Santana,Gamer 700,loja,216.41,4,2,35,39,2023-04-27,0,,,ativo
+CLI-0093,Ilhéus,Casa 300,telefone,118.35,9,0,0,48,2022-08-11,0,,,ativo
+CLI-0094,Ilhéus,Família 500,indicação,165.44,6,1,35,21,2024-10-27,0,,,ativo
+CLI-0095,Ilhéus,Gamer 700,site,210.39,7,0,0,30,2024-01-23,0,,,ativo
+CLI-0096,Eunápolis,Básico 100,loja,75.78,10,1,10,40,2023-04-01,0,,,ativo
+CLI-0097,Vitória da Conquista,Empresa 1000,loja,293.11,6,4,20,4,2026-03-19,0,,,ativo
+CLI-0098,Vitória da Conquista,Família 500,loja,139.48,3,3,0,4,2026-03-13,0,,,ativo
+CLI-0099,Ilhéus,Família 500,telefone,151.73,5,1,5,45,2022-10-31,0,,,ativo
+CLI-0100,Salvador,Básico 100,loja,87.19,4,1,0,49,2022-07-13,0,,,ativo
+CLI-0101,Salvador,Casa 300,telefone,122.64,8,2,5,31,2024-01-12,0,,,ativo
+CLI-0102,Feira de Santana,Básico 100,loja,79.65,7,1,5,37,2023-06-22,0,,,ativo
+CLI-0103,Vitória da Conquista,Empresa 1000,telefone,307.93,4,3,60,44,2022-11-23,1,2026-07-28,mudança,cancelado
+CLI-0104,Salvador,Gamer 700,site,196.77,7,1,60,23,2024-09-06,0,,,ativo
+CLI-0105,Eunápolis,Família 500,loja,154.63,10,4,60,24,2024-07-20,0,,,ativo
+CLI-0106,Eunápolis,Casa 300,site,109.62,6,0,0,42,2023-01-31,0,,,ativo
+CLI-0107,Ilhéus,Gamer 700,telefone,217.37,10,1,10,15,2025-04-15,0,,,ativo
+CLI-0108,Eunápolis,Empresa 1000,telefone,322.2,2,4,20,2,2026-05-14,1,2026-07-02,preço,cancelado
+CLI-0109,Feira de Santana,Casa 300,loja,115.37,3,1,20,23,2024-08-16,0,,,ativo
+CLI-0110,Eunápolis,Empresa 1000,indicação,301.11,8,0,10,10,2025-10-05,1,2026-06-10,instabilidade,cancelado
+CLI-0111,Salvador,Casa 300,indicação,113.74,8,0,0,8,2025-11-05,0,,,ativo
+CLI-0112,Vitória da Conquista,Família 500,site,161.88,9,0,10,33,2023-11-05,0,,,ativo
+CLI-0113,Eunápolis,Gamer 700,indicação,184.4,8,1,0,26,2024-06-05,0,,,ativo
+CLI-0114,Vitória da Conquista,Gamer 700,telefone,191.08,4,6,35,9,2025-10-21,0,,,ativo
+CLI-0115,Feira de Santana,Básico 100,site,85.73,6,1,0,36,2023-08-15,0,,,ativo
+CLI-0116,Eunápolis,Básico 100,telefone,74.19,8,0,0,2,2026-05-25,0,,,ativo
+CLI-0117,Ilhéus,Empresa 1000,site,286.99,7,1,20,15,2025-05-08,0,,,ativo
+CLI-0118,Ilhéus,Gamer 700,telefone,195.53,7,1,20,16,2025-03-27,0,,,ativo
+CLI-0119,Feira de Santana,Gamer 700,site,185.1,2,1,0,34,2023-09-18,1,2026-07-20,atendimento,cancelado
+CLI-0120,Feira de Santana,Gamer 700,indicação,212.52,9,1,0,30,2024-02-01,0,,,ativo
+CLI-0121,Eunápolis,Gamer 700,indicação,206.8,5,2,5,39,2023-04-21,0,,,ativo
+CLI-0122,Ilhéus,Família 500,telefone,150.71,10,2,0,5,2026-02-15,0,,,ativo
+CLI-0123,Feira de Santana,Família 500,indicação,158.5,8,2,0,20,2024-11-22,1,2026-06-10,mudança,cancelado
+CLI-0124,Salvador,Família 500,telefone,166.18,7,2,10,46,2022-09-26,0,,,ativo
+CLI-0125,Ilhéus,Casa 300,telefone,107.91,5,3,20,18,2025-01-30,1,2026-06-06,instabilidade,cancelado
+CLI-0126,Feira de Santana,Básico 100,site,81.76,9,0,60,8,2025-11-18,0,,,ativo
+CLI-0127,Salvador,Casa 300,site,121.04,5,3,10,2,2026-05-21,1,2026-07-06,atendimento,cancelado
+CLI-0128,Eunápolis,Gamer 700,site,207.9,6,1,60,9,2025-10-09,0,,,ativo
+CLI-0129,Eunápolis,Casa 300,indicação,120.4,7,3,0,35,2023-09-05,0,,,ativo
+CLI-0130,Ilhéus,Empresa 1000,site,310.91,3,2,60,46,2022-10-13,0,,,ativo
+CLI-0131,Vitória da Conquista,Básico 100,indicação,86.26,3,2,5,44,2022-11-22,1,2026-07-15,instabilidade,cancelado
+CLI-0132,Feira de Santana,Casa 300,telefone,112.7,7,5,5,45,2022-11-14,1,2026-06-10,atendimento,cancelado
+CLI-0133,Salvador,Família 500,telefone,153.93,6,3,0,46,2022-09-22,0,,,ativo
+CLI-0134,Salvador,Gamer 700,loja,190.55,5,0,0,29,2024-02-19,0,,,ativo
+CLI-0135,Salvador,Casa 300,loja,110.38,7,1,35,49,2022-07-01,0,,,ativo
+CLI-0136,Vitória da Conquista,Empresa 1000,loja,315.92,7,2,0,15,2025-05-04,0,,,ativo
+CLI-0137,Vitória da Conquista,Básico 100,indicação,86.6,7,3,60,11,2025-08-21,0,,,ativo
+CLI-0138,Eunápolis,Empresa 1000,telefone,314.53,4,2,20,11,2025-09-05,0,,,ativo
+CLI-0139,Salvador,Gamer 700,loja,217.55,9,2,0,35,2023-09-02,0,,,ativo
+CLI-0140,Salvador,Empresa 1000,site,303.22,8,1,0,37,2023-07-15,0,,,ativo
+CLI-0141,Eunápolis,Gamer 700,indicação,205.54,3,6,10,16,2025-03-13,0,,,ativo
+CLI-0142,Feira de Santana,Empresa 1000,loja,318.69,8,0,0,23,2024-09-04,0,,,ativo
+CLI-0143,Vitória da Conquista,Gamer 700,site,183.93,4,4,5,43,2023-01-08,0,,,ativo
+CLI-0144,Salvador,Empresa 1000,loja,316.26,8,3,0,33,2023-10-31,0,,,ativo
+CLI-0145,Vitória da Conquista,Casa 300,loja,107.28,3,4,0,34,2023-09-25,0,,,ativo
+CLI-0146,Eunápolis,Básico 100,telefone,78.56,5,0,0,19,2024-12-10,0,,,ativo
+CLI-0147,Eunápolis,Básico 100,telefone,86.21,3,4,0,31,2023-12-17,0,,,ativo
+CLI-0148,Vitória da Conquista,Básico 100,site,89.11,7,0,5,29,2024-02-19,0,,,ativo
+CLI-0149,Feira de Santana,Casa 300,site,120.57,5,1,0,20,2024-11-28,0,,,ativo
+CLI-0150,Eunápolis,Empresa 1000,telefone,304.32,4,2,5,48,2022-08-10,0,,,ativo
+CLI-0151,Vitória da Conquista,Gamer 700,telefone,196.58,7,1,0,28,2024-03-17,0,,,ativo
+CLI-0152,Feira de Santana,Gamer 700,site,202.88,7,2,0,16,2025-03-23,0,,,ativo
+CLI-0153,Vitória da Conquista,Empresa 1000,loja,309.95,6,3,60,21,2024-10-27,0,,,ativo
+CLI-0154,Feira de Santana,Gamer 700,site,186.69,7,0,60,2,2026-05-09,0,,,ativo
+CLI-0155,Ilhéus,Empresa 1000,telefone,292.43,6,3,0,14,2025-05-13,0,,,ativo
+CLI-0156,Feira de Santana,Gamer 700,indicação,192.2,10,0,0,31,2023-12-22,0,,,ativo
+CLI-0157,Salvador,Empresa 1000,telefone,317.31,8,0,0,44,2022-11-28,0,,,ativo
+CLI-0158,Eunápolis,Básico 100,indicação,85.77,9,3,0,15,2025-04-11,0,,,ativo
+CLI-0159,Eunápolis,Casa 300,site,115.22,10,2,60,11,2025-08-26,0,,,ativo
+CLI-0160,Feira de Santana,Gamer 700,site,193.7,7,1,0,22,2024-10-03,0,,,ativo
+CLI-0161,Eunápolis,Gamer 700,telefone,196.21,6,2,20,26,2024-05-29,0,,,ativo
+CLI-0162,Ilhéus,Básico 100,indicação,86.52,6,5,0,44,2022-12-08,0,,,ativo
+CLI-0163,Vitória da Conquista,Gamer 700,indicação,223.87,0,4,5,23,2024-08-12,1,2026-07-28,mudança,cancelado
+CLI-0164,Ilhéus,Básico 100,site,77.4,10,0,0,33,2023-10-19,0,,,ativo
+CLI-0165,Vitória da Conquista,Casa 300,loja,107.5,7,3,5,16,2025-04-01,0,,,ativo
+CLI-0166,Vitória da Conquista,Gamer 700,site,223.53,5,1,0,27,2024-04-21,0,,,ativo
+CLI-0167,Salvador,Casa 300,site,109.83,9,1,0,3,2026-04-24,0,,,ativo
+CLI-0168,Eunápolis,Gamer 700,indicação,206.75,10,0,0,34,2023-10-15,0,,,ativo
+CLI-0169,Ilhéus,Família 500,site,158.53,6,1,0,42,2023-02-07,0,,,ativo
+CLI-0170,Salvador,Básico 100,indicação,88.04,9,1,10,23,2024-08-27,0,,,ativo
+CLI-0171,Vitória da Conquista,Empresa 1000,loja,332.74,8,0,0,16,2025-03-21,0,,,ativo
+CLI-0172,Feira de Santana,Básico 100,indicação,88.73,5,0,0,26,2024-06-11,0,,,ativo
+CLI-0173,Salvador,Empresa 1000,telefone,315.27,7,1,10,19,2024-12-28,1,2026-06-05,instabilidade,cancelado
+CLI-0174,Eunápolis,Casa 300,site,111.52,8,3,10,46,2022-10-07,0,,,ativo
+CLI-0175,Vitória da Conquista,Empresa 1000,indicação,320.37,10,0,0,9,2025-10-09,0,,,ativo
+CLI-0176,Salvador,Gamer 700,telefone,186.61,9,1,0,43,2022-12-21,0,,,ativo
+CLI-0177,Salvador,Casa 300,site,121.81,7,2,20,20,2024-11-12,1,2026-07-16,instabilidade,cancelado
+CLI-0178,Feira de Santana,Gamer 700,telefone,187.65,8,2,0,26,2024-06-08,0,,,ativo
+CLI-0179,Ilhéus,Básico 100,indicação,75.15,4,3,0,8,2025-12-04,0,,,ativo
+CLI-0180,Eunápolis,Básico 100,indicação,88.42,5,4,20,19,2024-12-24,1,2026-06-02,instabilidade,cancelado
+CLI-0181,Ilhéus,Gamer 700,site,212.02,6,2,60,36,2023-07-19,1,2026-06-26,atendimento,cancelado
+CLI-0182,Vitória da Conquista,Empresa 1000,site,301.32,9,1,0,35,2023-09-09,0,,,ativo
+CLI-0183,Feira de Santana,Casa 300,loja,106.39,7,4,0,38,2023-05-30,0,,,ativo
+CLI-0184,Ilhéus,Casa 300,indicação,110.94,5,2,0,11,2025-08-07,0,,,ativo
+CLI-0185,Eunápolis,Família 500,telefone,145.79,3,4,5,6,2026-01-13,0,,,ativo
+CLI-0186,Ilhéus,Família 500,telefone,144.28,9,0,10,24,2024-07-31,0,,,ativo
+CLI-0187,Ilhéus,Gamer 700,site,187.02,4,0,0,1,2026-06-12,0,,,ativo
+CLI-0188,Salvador,Família 500,telefone,157.36,5,1,0,35,2023-09-08,0,,,ativo
+CLI-0189,Eunápolis,Gamer 700,loja,221.47,4,2,0,29,2024-03-09,0,,,ativo
+CLI-0190,Feira de Santana,Casa 300,loja,114.99,6,6,10,7,2025-12-11,1,2026-06-26,instabilidade,cancelado
+CLI-0191,Vitória da Conquista,Casa 300,site,106.38,5,3,0,31,2023-12-16,0,,,ativo
+CLI-0192,Vitória da Conquista,Básico 100,telefone,89.41,10,0,5,24,2024-07-30,0,,,ativo
+CLI-0193,Eunápolis,Gamer 700,telefone,207.75,8,1,0,30,2024-01-27,0,,,ativo
+CLI-0194,Eunápolis,Gamer 700,indicação,216.43,8,3,0,47,2022-09-04,1,2026-07-14,atendimento,cancelado
+CLI-0195,Feira de Santana,Básico 100,loja,89.38,2,4,0,1,2026-06-11,1,2026-06-15,mudança,cancelado
+CLI-0196,Salvador,Gamer 700,site,207.01,9,0,5,46,2022-10-03,0,,,ativo
+CLI-0197,Feira de Santana,Casa 300,loja,107.21,7,3,20,28,2024-04-04,0,,,ativo
+CLI-0198,Salvador,Gamer 700,site,213.25,5,5,20,27,2024-04-19,0,,,ativo
+CLI-0199,Vitória da Conquista,Básico 100,indicação,80.74,0,1,0,7,2025-12-10,0,,,ativo
+CLI-0200,Ilhéus,Empresa 1000,site,291.82,8,2,5,31,2023-12-25,0,,,ativo
+CLI-0201,Eunápolis,Básico 100,indicação,73.59,10,0,0,4,2026-03-16,0,,,ativo
+CLI-0202,Eunápolis,Empresa 1000,site,298.46,6,0,20,43,2022-12-24,0,,,ativo
+CLI-0203,Vitória da Conquista,Empresa 1000,loja,283.19,6,0,10,33,2023-10-20,0,,,ativo
+CLI-0204,Eunápolis,Empresa 1000,loja,331.45,5,1,0,31,2024-01-06,0,,,ativo
+CLI-0205,Salvador,Empresa 1000,indicação,333.66,8,0,0,31,2024-01-04,0,,,ativo
+CLI-0206,Feira de Santana,Empresa 1000,indicação,311.23,1,5,5,18,2025-01-18,1,2026-07-30,instabilidade,cancelado
+CLI-0207,Eunápolis,Básico 100,telefone,75.64,5,0,0,48,2022-08-02,0,,,ativo
+CLI-0208,Salvador,Básico 100,site,86.01,8,0,0,39,2023-04-24,0,,,ativo
+CLI-0209,Eunápolis,Família 500,loja,164.52,7,1,10,5,2026-02-08,0,,,ativo
+CLI-0210,Eunápolis,Casa 300,site,103.65,3,2,0,30,2024-02-03,0,,,ativo
+CLI-0211,Eunápolis,Empresa 1000,loja,315.29,7,6,0,28,2024-04-09,0,,,ativo
+CLI-0212,Eunápolis,Gamer 700,loja,192.88,6,0,0,27,2024-05-06,0,,,ativo
+CLI-0213,Eunápolis,Família 500,telefone,160.26,5,3,0,12,2025-08-04,0,,,ativo
+CLI-0214,Ilhéus,Casa 300,loja,106.22,8,1,5,11,2025-09-05,0,,,ativo
+CLI-0215,Ilhéus,Empresa 1000,indicação,332.29,9,0,5,49,2022-06-28,0,,,ativo
+CLI-0216,Ilhéus,Gamer 700,site,208.12,6,0,10,47,2022-09-21,0,,,ativo
+CLI-0217,Eunápolis,Gamer 700,telefone,195.47,7,1,0,44,2022-12-19,0,,,ativo
+CLI-0218,Eunápolis,Empresa 1000,site,325.75,10,0,0,30,2024-02-10,0,,,ativo
+CLI-0219,Salvador,Empresa 1000,telefone,279.94,6,0,0,15,2025-04-20,0,,,ativo
+CLI-0220,Feira de Santana,Família 500,telefone,139.73,5,4,10,35,2023-08-28,0,,,ativo
+CLI-0221,Ilhéus,Básico 100,loja,81.52,5,2,0,2,2026-05-22,1,2026-06-21,instabilidade,cancelado
+CLI-0222,Vitória da Conquista,Família 500,site,149.37,5,2,60,33,2023-10-17,0,,,ativo
+CLI-0223,Salvador,Empresa 1000,site,300.09,3,3,20,18,2025-02-06,0,,,ativo
+CLI-0224,Ilhéus,Empresa 1000,site,284.4,7,3,0,26,2024-06-01,0,,,ativo
+CLI-0225,Ilhéus,Gamer 700,indicação,222.56,4,1,35,23,2024-08-25,0,,,ativo
+CLI-0226,Ilhéus,Gamer 700,site,199.2,6,2,0,15,2025-04-21,0,,,ativo
+CLI-0227,Eunápolis,Casa 300,loja,102.34,6,1,0,6,2026-01-14,0,,,ativo
+CLI-0228,Vitória da Conquista,Família 500,telefone,154.94,4,2,5,9,2025-11-03,1,2026-07-26,instabilidade,cancelado
+CLI-0229,Vitória da Conquista,Casa 300,indicação,116.44,9,1,0,13,2025-07-05,0,,,ativo
+CLI-0230,Vitória da Conquista,Empresa 1000,loja,313.66,9,0,20,3,2026-04-24,0,,,ativo
+CLI-0231,Salvador,Gamer 700,site,214.42,4,4,0,21,2024-10-26,0,,,ativo
+CLI-0232,Vitória da Conquista,Gamer 700,site,199.9,6,1,0,9,2025-10-12,0,,,ativo
+CLI-0233,Feira de Santana,Casa 300,telefone,116.19,5,4,5,22,2024-09-17,0,,,ativo
+CLI-0234,Salvador,Básico 100,indicação,85.2,5,2,0,41,2023-02-28,0,,,ativo
+CLI-0235,Salvador,Casa 300,indicação,113.71,10,3,0,48,2022-08-11,0,,,ativo
+CLI-0236,Eunápolis,Gamer 700,loja,210.32,7,4,0,18,2025-01-25,0,,,ativo
+CLI-0237,Ilhéus,Família 500,telefone,144.66,9,0,0,35,2023-09-08,0,,,ativo
+CLI-0238,Ilhéus,Gamer 700,telefone,223.48,7,5,10,17,2025-02-16,1,2026-06-23,mudança,cancelado
+CLI-0239,Vitória da Conquista,Básico 100,loja,85.05,9,0,0,10,2025-09-07,0,,,ativo
+CLI-0240,Eunápolis,Gamer 700,indicação,190.08,8,2,20,49,2022-07-03,0,,,ativo
+CLI-0241,Salvador,Gamer 700,indicação,204.19,10,1,20,43,2022-12-28,0,,,ativo
+CLI-0242,Eunápolis,Básico 100,indicação,81.38,3,3,0,18,2025-02-02,0,,,ativo
+CLI-0243,Feira de Santana,Casa 300,site,117.95,1,3,5,23,2024-09-07,1,2026-06-28,atendimento,cancelado
+CLI-0244,Vitória da Conquista,Casa 300,indicação,119.41,5,0,0,15,2025-05-01,0,,,ativo
+CLI-0245,Vitória da Conquista,Gamer 700,indicação,206.16,3,3,0,17,2025-02-15,0,,,ativo
+CLI-0246,Eunápolis,Básico 100,indicação,80.95,8,0,20,47,2022-09-01,0,,,ativo
+CLI-0247,Feira de Santana,Família 500,site,143.96,10,5,0,22,2024-09-25,0,,,ativo
+CLI-0248,Vitória da Conquista,Gamer 700,indicação,221.72,3,1,20,7,2025-12-10,0,,,ativo
+CLI-0249,Vitória da Conquista,Família 500,loja,161.39,10,0,0,43,2023-01-06,0,,,ativo
+CLI-0250,Eunápolis,Família 500,indicação,160.69,4,1,0,23,2024-08-28,0,,,ativo
+CLI-0251,Ilhéus,Básico 100,indicação,75.53,9,0,0,9,2025-10-29,0,,,ativo
+CLI-0252,Feira de Santana,Empresa 1000,indicação,280.14,6,1,60,14,2025-06-01,1,2026-06-14,instabilidade,cancelado
+CLI-0253,Salvador,Família 500,loja,140.94,5,2,0,25,2024-07-02,0,,,ativo
+CLI-0254,Vitória da Conquista,Básico 100,loja,78.18,9,1,0,44,2022-12-19,0,,,ativo
+CLI-0255,Feira de Santana,Básico 100,indicação,88.03,4,1,10,8,2025-11-16,0,,,ativo
+CLI-0256,Eunápolis,Família 500,loja,145.28,6,3,0,16,2025-03-29,0,,,ativo
+CLI-0257,Feira de Santana,Empresa 1000,loja,334.75,4,2,0,40,2023-04-04,0,,,ativo
+CLI-0258,Ilhéus,Empresa 1000,indicação,327.65,10,0,60,47,2022-09-06,0,,,ativo
+CLI-0259,Salvador,Empresa 1000,loja,334.81,6,3,0,18,2025-01-21,0,,,ativo
+CLI-0260,Feira de Santana,Casa 300,indicação,121.72,4,2,35,42,2023-02-13,0,,,ativo
+CLI-0261,Eunápolis,Gamer 700,telefone,187.2,6,3,0,28,2024-03-27,0,,,ativo
+CLI-0262,Salvador,Básico 100,telefone,88.69,4,7,35,15,2025-04-19,1,2026-07-18,preço,cancelado
+CLI-0263,Ilhéus,Gamer 700,loja,208.96,9,0,0,18,2025-01-29,0,,,ativo
+CLI-0264,Salvador,Básico 100,site,78.96,7,4,35,39,2023-04-25,0,,,ativo
+CLI-0265,Feira de Santana,Básico 100,loja,79.6,5,0,10,47,2022-08-31,0,,,ativo
+CLI-0266,Eunápolis,Família 500,telefone,164.4,0,4,0,15,2025-05-02,0,,,ativo
+CLI-0267,Feira de Santana,Gamer 700,site,200.35,8,0,0,40,2023-04-12,0,,,ativo
+CLI-0268,Feira de Santana,Empresa 1000,site,300.81,3,6,0,11,2025-08-09,0,,,ativo
+CLI-0269,Salvador,Gamer 700,site,222.35,10,0,35,11,2025-08-30,0,,,ativo
+CLI-0270,Salvador,Gamer 700,indicação,205.95,10,0,0,46,2022-10-21,0,,,ativo
+CLI-0271,Feira de Santana,Família 500,site,161.26,6,2,0,5,2026-02-19,0,,,ativo
+CLI-0272,Feira de Santana,Básico 100,site,77.71,6,0,20,6,2026-01-21,0,,,ativo
+CLI-0273,Salvador,Básico 100,telefone,79.01,4,1,20,5,2026-02-26,1,2026-06-13,atendimento,cancelado
+CLI-0274,Feira de Santana,Básico 100,site,82.98,8,2,0,30,2024-01-25,0,,,ativo
+CLI-0275,Feira de Santana,Casa 300,indicação,115.04,4,3,0,23,2024-09-02,0,,,ativo
+CLI-0276,Feira de Santana,Casa 300,loja,107.61,9,0,0,45,2022-11-18,0,,,ativo
+CLI-0277,Salvador,Casa 300,loja,102.26,9,1,0,23,2024-09-09,0,,,ativo
+CLI-0278,Vitória da Conquista,Casa 300,site,106.37,5,2,5,8,2025-11-08,0,,,ativo
+CLI-0279,Feira de Santana,Família 500,telefone,144.29,6,0,10,35,2023-08-25,0,,,ativo
+CLI-0280,Vitória da Conquista,Casa 300,indicação,111.3,7,1,5,41,2023-03-06,0,,,ativo
+CLI-0281,Ilhéus,Gamer 700,indicação,194.71,4,1,10,40,2023-04-02,0,,,ativo
+CLI-0282,Eunápolis,Casa 300,telefone,109.03,2,3,0,46,2022-09-24,0,,,ativo
+CLI-0283,Ilhéus,Empresa 1000,loja,310.42,9,2,35,3,2026-04-08,0,,,ativo
+CLI-0284,Eunápolis,Casa 300,site,119.45,7,0,35,44,2022-11-29,0,,,ativo
+CLI-0285,Ilhéus,Gamer 700,loja,211.06,5,4,0,44,2022-12-10,0,,,ativo
+CLI-0286,Eunápolis,Casa 300,loja,108.2,5,2,0,42,2023-02-12,0,,,ativo
+CLI-0287,Feira de Santana,Básico 100,loja,76.69,7,1,10,47,2022-08-26,0,,,ativo
+CLI-0288,Salvador,Básico 100,site,76.74,7,0,0,39,2023-05-13,0,,,ativo
+CLI-0289,Ilhéus,Básico 100,loja,82.56,10,2,20,33,2023-10-28,0,,,ativo
+CLI-0290,Eunápolis,Família 500,indicação,151.83,7,3,20,19,2024-12-11,0,,,ativo
+CLI-0291,Ilhéus,Família 500,telefone,157.99,8,3,10,19,2025-01-08,0,,,ativo
+CLI-0292,Ilhéus,Gamer 700,indicação,204.34,6,1,0,32,2023-12-14,0,,,ativo
+CLI-0293,Eunápolis,Empresa 1000,telefone,288.71,7,2,10,41,2023-02-20,0,,,ativo
+CLI-0294,Salvador,Gamer 700,telefone,206.76,9,0,0,49,2022-07-03,0,,,ativo
+CLI-0295,Ilhéus,Empresa 1000,site,293.2,7,0,0,4,2026-03-18,1,2026-07-19,preço,cancelado
+CLI-0296,Vitória da Conquista,Família 500,telefone,145.28,7,2,0,40,2023-04-14,0,,,ativo
+CLI-0297,Feira de Santana,Família 500,site,138.4,8,2,0,28,2024-04-12,0,,,ativo
+CLI-0298,Ilhéus,Casa 300,site,101.35,6,3,0,22,2024-10-05,1,2026-06-29,instabilidade,cancelado
+CLI-0299,Eunápolis,Gamer 700,indicação,189.66,5,2,5,23,2024-08-25,0,,,ativo
+CLI-0300,Vitória da Conquista,Empresa 1000,site,289.48,4,2,0,47,2022-09-04,0,,,ativo
+CLI-0301,Vitória da Conquista,Família 500,site,152.49,4,6,0,9,2025-11-02,1,2026-07-04,instabilidade,cancelado
+CLI-0302,Salvador,Família 500,loja,167.53,6,4,5,7,2025-12-10,1,2026-07-06,atendimento,cancelado
+CLI-0303,Ilhéus,Gamer 700,indicação,195.65,4,1,20,25,2024-06-28,0,,,ativo
+CLI-0304,Feira de Santana,Casa 300,indicação,110.25,7,2,0,1,2026-06-17,0,,,ativo
+CLI-0305,Feira de Santana,Casa 300,indicação,116.06,2,4,0,15,2025-04-26,0,,,ativo
+CLI-0306,Vitória da Conquista,Gamer 700,loja,216.56,5,1,5,19,2025-01-06,1,2026-07-17,preço,cancelado
+CLI-0307,Vitória da Conquista,Gamer 700,site,221.75,6,3,10,6,2026-01-20,0,,,ativo
+CLI-0308,Salvador,Família 500,telefone,148.03,8,0,0,13,2025-07-01,0,,,ativo
+CLI-0309,Eunápolis,Básico 100,site,76.19,5,0,5,35,2023-08-18,0,,,ativo
+CLI-0310,Salvador,Casa 300,site,121.58,8,1,5,49,2022-07-06,0,,,ativo
+CLI-0311,Salvador,Empresa 1000,telefone,278.46,4,2,0,1,2026-06-24,0,,,ativo
+CLI-0312,Ilhéus,Gamer 700,telefone,183.97,4,0,0,18,2025-01-26,0,,,ativo
+CLI-0313,Vitória da Conquista,Básico 100,telefone,79.56,7,0,5,26,2024-06-07,0,,,ativo
+CLI-0314,Feira de Santana,Empresa 1000,loja,291.96,6,3,0,44,2022-11-26,0,,,ativo
+CLI-0315,Feira de Santana,Família 500,indicação,152.69,8,0,5,33,2023-11-10,0,,,ativo
+CLI-0316,Ilhéus,Empresa 1000,indicação,275.91,10,1,5,16,2025-03-20,0,,,ativo
+CLI-0317,Salvador,Gamer 700,site,198.88,6,0,35,26,2024-05-19,0,,,ativo
+CLI-0318,Eunápolis,Empresa 1000,site,279.08,10,0,0,33,2023-10-25,0,,,ativo
+CLI-0319,Eunápolis,Gamer 700,loja,213.4,8,1,0,5,2026-02-06,0,,,ativo
+CLI-0320,Salvador,Empresa 1000,indicação,298.67,6,2,0,43,2023-01-06,0,,,ativo
+CLI-0321,Ilhéus,Empresa 1000,site,283.45,6,5,35,44,2022-12-07,0,,,ativo
+CLI-0322,Salvador,Família 500,telefone,164.09,4,4,20,18,2025-02-02,0,,,ativo
+CLI-0323,Ilhéus,Casa 300,loja,114.97,8,2,0,17,2025-02-24,0,,,ativo
+CLI-0324,Vitória da Conquista,Casa 300,indicação,104.05,4,6,0,27,2024-04-21,1,2026-06-28,mudança,cancelado
+CLI-0325,Eunápolis,Básico 100,loja,88.51,3,5,0,9,2025-10-12,0,,,ativo
+CLI-0326,Ilhéus,Empresa 1000,indicação,293.33,7,3,60,15,2025-04-27,0,,,ativo
+CLI-0327,Ilhéus,Família 500,telefone,140.6,6,1,10,38,2023-05-28,0,,,ativo
+CLI-0328,Eunápolis,Básico 100,site,85.48,10,0,0,44,2022-11-26,0,,,ativo
+CLI-0329,Salvador,Família 500,site,138.36,7,0,5,28,2024-03-21,0,,,ativo
+CLI-0330,Salvador,Básico 100,telefone,81.94,5,3,5,4,2026-03-26,0,,,ativo
+CLI-0331,Salvador,Casa 300,loja,117.5,7,0,0,24,2024-07-27,0,,,ativo
+CLI-0332,Feira de Santana,Básico 100,telefone,74.7,6,2,5,13,2025-06-08,1,2026-07-21,mudança,cancelado
+CLI-0333,Salvador,Empresa 1000,site,308.51,5,4,0,17,2025-02-20,0,,,ativo
+CLI-0334,Vitória da Conquista,Casa 300,indicação,115.92,2,3,0,16,2025-03-31,0,,,ativo
+CLI-0335,Eunápolis,Família 500,telefone,166.76,6,2,5,24,2024-07-22,0,,,ativo
+CLI-0336,Eunápolis,Família 500,indicação,158.46,8,1,0,27,2024-04-24,0,,,ativo
+CLI-0337,Eunápolis,Casa 300,site,122.4,10,4,0,24,2024-07-29,0,,,ativo
+CLI-0338,Eunápolis,Básico 100,telefone,76.14,6,4,0,8,2025-11-13,0,,,ativo
+CLI-0339,Salvador,Gamer 700,loja,222.28,10,1,5,22,2024-09-21,0,,,ativo
+CLI-0340,Feira de Santana,Básico 100,indicação,79.46,4,5,0,3,2026-04-06,0,,,ativo
+CLI-0341,Salvador,Casa 300,indicação,107.77,3,3,0,47,2022-09-05,0,,,ativo
+CLI-0342,Ilhéus,Família 500,site,160.9,5,2,0,2,2026-05-14,0,,,ativo
+CLI-0343,Ilhéus,Família 500,indicação,152.41,10,0,35,25,2024-06-19,0,,,ativo
+CLI-0344,Feira de Santana,Família 500,site,155.2,4,0,0,13,2025-06-25,0,,,ativo
+CLI-0345,Eunápolis,Casa 300,indicação,106.54,6,3,20,12,2025-08-06,0,,,ativo
+CLI-0346,Vitória da Conquista,Casa 300,indicação,105.17,6,1,5,48,2022-08-13,0,,,ativo
+CLI-0347,Salvador,Casa 300,site,117.19,7,3,20,28,2024-04-09,0,,,ativo
+CLI-0348,Feira de Santana,Família 500,indicação,149.17,7,1,0,10,2025-09-30,0,,,ativo
+CLI-0349,Salvador,Casa 300,indicação,121.8,3,4,0,15,2025-04-24,0,,,ativo
+CLI-0350,Vitória da Conquista,Família 500,telefone,163.2,7,1,35,26,2024-06-01,0,,,ativo
+CLI-0351,Salvador,Casa 300,telefone,105.1,6,0,0,2,2026-05-13,0,,,ativo
+CLI-0352,Feira de Santana,Gamer 700,loja,198.03,6,2,0,30,2024-01-20,0,,,ativo
+CLI-0353,Ilhéus,Gamer 700,telefone,209.45,5,1,5,27,2024-04-15,0,,,ativo
+CLI-0354,Salvador,Básico 100,site,84.07,5,0,5,29,2024-03-13,0,,,ativo
+CLI-0355,Feira de Santana,Empresa 1000,loja,302.98,4,3,0,10,2025-09-22,0,,,ativo
+CLI-0356,Ilhéus,Empresa 1000,indicação,323.38,2,1,5,35,2023-09-13,0,,,ativo
+CLI-0357,Eunápolis,Família 500,loja,145.87,6,1,0,42,2023-01-27,0,,,ativo
+CLI-0358,Vitória da Conquista,Empresa 1000,site,335.8,5,3,20,17,2025-02-09,0,,,ativo
+CLI-0359,Vitória da Conquista,Empresa 1000,loja,308.7,4,5,20,9,2025-10-16,0,,,ativo
+CLI-0360,Salvador,Família 500,loja,141.63,5,1,0,22,2024-09-28,0,,,ativo
+CLI-0361,Vitória da Conquista,Família 500,indicação,143.27,9,1,0,10,2025-09-27,0,,,ativo
+CLI-0362,Vitória da Conquista,Gamer 700,loja,188.24,5,0,5,23,2024-08-12,0,,,ativo
+CLI-0363,Salvador,Básico 100,loja,81.09,7,0,10,37,2023-06-29,0,,,ativo
+CLI-0364,Vitória da Conquista,Família 500,indicação,157.46,6,4,0,21,2024-10-15,0,,,ativo
+CLI-0365,Ilhéus,Família 500,site,145.91,4,3,0,38,2023-06-12,0,,,ativo
+CLI-0366,Salvador,Gamer 700,loja,218.36,0,3,60,16,2025-03-13,0,,,ativo
+CLI-0367,Feira de Santana,Empresa 1000,site,284.65,6,3,0,39,2023-05-19,0,,,ativo
+CLI-0368,Salvador,Básico 100,telefone,86.86,7,2,0,14,2025-05-22,0,,,ativo
+CLI-0369,Feira de Santana,Empresa 1000,telefone,312.31,3,2,0,28,2024-03-25,0,,,ativo
+CLI-0370,Ilhéus,Família 500,site,149.3,10,1,0,32,2023-12-15,0,,,ativo
+CLI-0371,Ilhéus,Família 500,site,137.99,6,1,20,30,2024-01-23,0,,,ativo
+CLI-0372,Feira de Santana,Básico 100,telefone,74.8,6,2,20,22,2024-09-25,0,,,ativo
+CLI-0373,Feira de Santana,Empresa 1000,telefone,296.58,6,0,0,40,2023-04-16,0,,,ativo
+CLI-0374,Ilhéus,Família 500,site,154.31,6,1,60,21,2024-10-27,0,,,ativo
+CLI-0375,Vitória da Conquista,Básico 100,indicação,84.76,8,0,5,10,2025-09-14,0,,,ativo
+CLI-0376,Eunápolis,Empresa 1000,indicação,277.83,9,0,0,18,2025-01-17,0,,,ativo
+CLI-0377,Ilhéus,Básico 100,indicação,83.53,1,6,60,5,2026-02-05,1,2026-06-22,instabilidade,cancelado
+CLI-0378,Ilhéus,Família 500,indicação,163.75,5,1,0,21,2024-10-12,0,,,ativo
+CLI-0379,Salvador,Básico 100,loja,79.64,8,0,5,11,2025-08-26,1,2026-06-04,mudança,cancelado
+CLI-0380,Salvador,Empresa 1000,indicação,310.04,8,1,0,38,2023-06-01,0,,,ativo
+CLI-0381,Eunápolis,Família 500,indicação,157.54,2,1,20,20,2024-12-09,0,,,ativo
+CLI-0382,Ilhéus,Casa 300,site,103.73,5,4,10,40,2023-03-28,0,,,ativo
+CLI-0383,Feira de Santana,Básico 100,indicação,76.97,7,1,20,21,2024-11-04,0,,,ativo
+CLI-0384,Feira de Santana,Família 500,indicação,166.31,8,0,60,17,2025-02-27,1,2026-06-27,instabilidade,cancelado
+CLI-0385,Feira de Santana,Casa 300,indicação,107.38,5,5,0,6,2026-01-22,0,,,ativo
+CLI-0386,Eunápolis,Casa 300,loja,107.72,6,0,0,11,2025-08-14,0,,,ativo
+CLI-0387,Vitória da Conquista,Empresa 1000,site,289.26,8,0,0,29,2024-03-13,0,,,ativo
+CLI-0388,Salvador,Empresa 1000,site,321.68,5,3,0,48,2022-08-15,0,,,ativo
+CLI-0389,Feira de Santana,Empresa 1000,loja,293.14,3,3,20,42,2023-02-03,0,,,ativo
+CLI-0390,Vitória da Conquista,Gamer 700,indicação,215.07,4,3,0,49,2022-07-15,0,,,ativo
+CLI-0391,Salvador,Básico 100,site,85.89,9,3,0,46,2022-10-20,0,,,ativo
+CLI-0392,Ilhéus,Empresa 1000,site,311.35,2,3,0,26,2024-05-24,1,2026-06-10,preço,cancelado
+CLI-0393,Salvador,Gamer 700,telefone,222.25,2,0,0,47,2022-09-19,0,,,ativo
+CLI-0394,Eunápolis,Empresa 1000,indicação,304.69,9,1,10,44,2022-11-30,0,,,ativo
+CLI-0395,Ilhéus,Família 500,telefone,144.59,9,3,5,10,2025-09-24,0,,,ativo
+CLI-0396,Ilhéus,Família 500,indicação,164.2,2,3,0,16,2025-03-26,0,,,ativo
+CLI-0397,Vitória da Conquista,Gamer 700,telefone,215.91,8,4,0,26,2024-06-04,1,2026-07-12,mudança,cancelado
+CLI-0398,Ilhéus,Gamer 700,telefone,222.72,6,0,0,1,2026-06-28,0,,,ativo
+CLI-0399,Feira de Santana,Casa 300,site,119.33,8,3,0,21,2024-11-02,0,,,ativo
+CLI-0400,Feira de Santana,Básico 100,indicação,88.65,6,4,0,11,2025-08-19,0,,,ativo
+CLI-0401,Feira de Santana,Casa 300,site,106.68,7,1,5,2,2026-05-19,0,,,ativo
+CLI-0402,Salvador,Família 500,site,146.24,10,3,0,18,2025-02-07,0,,,ativo
+CLI-0403,Eunápolis,Família 500,indicação,157.09,10,2,0,4,2026-03-22,0,,,ativo
+CLI-0404,Feira de Santana,Casa 300,site,111.03,7,2,10,34,2023-10-12,0,,,ativo
+CLI-0405,Vitória da Conquista,Básico 100,site,75.81,9,0,0,25,2024-06-24,0,,,ativo
+CLI-0406,Eunápolis,Família 500,indicação,140.05,6,0,10,42,2023-01-22,0,,,ativo
+CLI-0407,Vitória da Conquista,Gamer 700,indicação,208.84,6,4,0,6,2026-01-28,0,,,ativo
+CLI-0408,Salvador,Família 500,loja,153.82,5,0,0,1,2026-06-15,0,,,ativo
+CLI-0409,Eunápolis,Gamer 700,indicação,214.9,7,3,0,20,2024-12-02,0,,,ativo
+CLI-0410,Salvador,Básico 100,indicação,88.47,4,4,10,5,2026-02-25,0,,,ativo
+CLI-0411,Eunápolis,Casa 300,site,119.96,8,3,20,32,2023-12-09,0,,,ativo
+CLI-0412,Feira de Santana,Básico 100,site,76.72,5,2,0,13,2025-06-09,0,,,ativo
+CLI-0413,Ilhéus,Básico 100,telefone,82.77,7,0,5,25,2024-07-11,0,,,ativo
+CLI-0414,Eunápolis,Empresa 1000,loja,321.73,8,2,10,19,2024-12-21,0,,,ativo
+CLI-0415,Ilhéus,Empresa 1000,indicação,282.66,7,0,0,14,2025-06-01,0,,,ativo
+CLI-0416,Vitória da Conquista,Empresa 1000,loja,322.1,8,3,0,18,2025-01-31,0,,,ativo
+CLI-0417,Ilhéus,Gamer 700,indicação,209.7,4,7,0,7,2025-12-06,1,2026-06-26,mudança,cancelado
+CLI-0418,Vitória da Conquista,Gamer 700,telefone,206.24,8,0,35,19,2024-12-18,0,,,ativo
+CLI-0419,Vitória da Conquista,Família 500,telefone,164.91,8,1,10,35,2023-09-15,0,,,ativo
+CLI-0420,Ilhéus,Casa 300,indicação,104.85,8,4,20,13,2025-06-27,1,2026-07-24,mudança,cancelado
+CLI-0421,Ilhéus,Empresa 1000,loja,297.06,8,3,0,12,2025-07-09,0,,,ativo
+CLI-0422,Feira de Santana,Básico 100,site,86.51,5,1,0,22,2024-10-05,0,,,ativo
+CLI-0423,Eunápolis,Empresa 1000,site,309.56,2,4,20,26,2024-06-03,1,2026-06-16,mudança,cancelado
+CLI-0424,Feira de Santana,Básico 100,loja,76.86,7,1,0,13,2025-06-24,0,,,ativo
+CLI-0425,Feira de Santana,Gamer 700,site,216.82,9,0,5,40,2023-03-22,0,,,ativo
+CLI-0426,Salvador,Família 500,site,146.88,6,2,10,23,2024-08-30,0,,,ativo
+CLI-0427,Feira de Santana,Empresa 1000,site,304.19,7,2,0,3,2026-04-06,0,,,ativo
+CLI-0428,Salvador,Gamer 700,indicação,189.61,2,2,0,15,2025-04-20,0,,,ativo
+CLI-0429,Feira de Santana,Casa 300,loja,112.26,8,2,5,21,2024-10-16,0,,,ativo
+CLI-0430,Salvador,Básico 100,site,87.29,7,1,0,18,2025-01-12,0,,,ativo
+CLI-0431,Feira de Santana,Gamer 700,site,198.83,5,5,10,14,2025-05-09,1,2026-07-31,mudança,cancelado
+CLI-0432,Salvador,Família 500,loja,161.85,6,0,0,39,2023-05-06,0,,,ativo
+CLI-0433,Feira de Santana,Casa 300,loja,115.35,6,3,0,25,2024-06-24,0,,,ativo
+CLI-0434,Salvador,Empresa 1000,indicação,333.19,7,1,0,46,2022-10-05,0,,,ativo
+CLI-0435,Ilhéus,Gamer 700,site,199.62,4,4,20,39,2023-04-20,0,,,ativo
+CLI-0436,Ilhéus,Empresa 1000,loja,283.18,6,2,0,36,2023-07-31,0,,,ativo
+CLI-0437,Salvador,Casa 300,loja,112.61,7,2,5,31,2024-01-02,0,,,ativo
+CLI-0438,Ilhéus,Básico 100,site,88.22,4,0,5,48,2022-08-22,0,,,ativo
+CLI-0439,Vitória da Conquista,Empresa 1000,telefone,282.77,6,4,0,2,2026-05-27,1,2026-07-04,atendimento,cancelado
+CLI-0440,Eunápolis,Família 500,loja,167.01,7,2,0,22,2024-10-01,0,,,ativo
+CLI-0441,Ilhéus,Gamer 700,telefone,204.32,2,4,0,28,2024-03-17,0,,,ativo
+CLI-0442,Ilhéus,Básico 100,telefone,85.88,7,2,0,46,2022-09-28,0,,,ativo
+CLI-0443,Feira de Santana,Gamer 700,telefone,189.6,3,1,0,1,2026-06-24,1,2026-07-28,instabilidade,cancelado
+CLI-0444,Eunápolis,Família 500,indicação,163.91,3,8,35,44,2022-12-08,0,,,ativo
+CLI-0445,Eunápolis,Empresa 1000,indicação,304.77,3,2,0,41,2023-03-16,0,,,ativo
+CLI-0446,Feira de Santana,Empresa 1000,indicação,326.8,5,3,10,18,2025-01-20,0,,,ativo
+CLI-0447,Vitória da Conquista,Empresa 1000,telefone,318.67,9,2,35,27,2024-04-29,0,,,ativo
+CLI-0448,Ilhéus,Básico 100,telefone,76.08,7,4,10,46,2022-09-26,0,,,ativo
+CLI-0449,Feira de Santana,Gamer 700,telefone,185.9,6,0,10,46,2022-09-26,0,,,ativo
+CLI-0450,Feira de Santana,Família 500,site,164.68,4,1,0,42,2023-02-12,1,2026-06-04,preço,cancelado
+CLI-0451,Feira de Santana,Família 500,telefone,163.41,5,0,0,18,2025-01-27,0,,,ativo
+CLI-0452,Salvador,Gamer 700,site,207.28,7,5,20,40,2023-04-05,0,,,ativo
+CLI-0453,Feira de Santana,Casa 300,site,111.26,9,3,0,42,2023-02-10,0,,,ativo
+CLI-0454,Feira de Santana,Empresa 1000,site,322.19,6,4,35,4,2026-03-29,0,,,ativo
+CLI-0455,Feira de Santana,Casa 300,site,105.64,6,3,0,24,2024-07-19,1,2026-06-10,mudança,cancelado
+CLI-0456,Salvador,Casa 300,telefone,105.11,7,0,10,5,2026-02-18,0,,,ativo
+CLI-0457,Salvador,Casa 300,site,115.61,1,5,0,2,2026-05-09,1,2026-07-28,instabilidade,cancelado
+CLI-0458,Vitória da Conquista,Empresa 1000,indicação,327.49,8,2,0,9,2025-10-16,0,,,ativo
+CLI-0459,Feira de Santana,Empresa 1000,site,334.25,9,1,10,37,2023-07-12,0,,,ativo
+CLI-0460,Vitória da Conquista,Família 500,site,155.72,4,1,10,6,2026-01-05,0,,,ativo
+CLI-0461,Salvador,Família 500,loja,159.41,6,1,10,45,2022-11-15,0,,,ativo
+CLI-0462,Feira de Santana,Gamer 700,indicação,200.85,4,5,0,12,2025-07-12,1,2026-07-24,instabilidade,cancelado
+CLI-0463,Salvador,Gamer 700,telefone,208.68,6,1,5,2,2026-05-23,1,2026-07-21,mudança,cancelado
+CLI-0464,Ilhéus,Família 500,telefone,155.07,7,1,0,14,2025-05-26,0,,,ativo
+CLI-0465,Salvador,Gamer 700,indicação,210.77,6,4,5,37,2023-07-06,0,,,ativo
+CLI-0466,Ilhéus,Gamer 700,telefone,184.72,4,2,60,45,2022-11-10,0,,,ativo
+CLI-0467,Vitória da Conquista,Básico 100,loja,86.99,5,0,0,22,2024-09-26,0,,,ativo
+CLI-0468,Eunápolis,Casa 300,loja,111.16,8,2,35,16,2025-03-12,0,,,ativo
+CLI-0469,Feira de Santana,Família 500,loja,158.82,3,2,20,45,2022-10-23,1,2026-06-15,preço,cancelado
+CLI-0470,Salvador,Básico 100,site,80.1,5,3,0,33,2023-11-01,1,2026-06-21,preço,cancelado
+CLI-0471,Eunápolis,Básico 100,telefone,79.77,6,2,0,12,2025-07-16,1,2026-06-22,preço,cancelado
+CLI-0472,Eunápolis,Família 500,loja,155.46,7,2,35,15,2025-04-18,0,,,ativo
+CLI-0473,Eunápolis,Casa 300,loja,109.49,3,3,5,16,2025-03-17,0,,,ativo
+CLI-0474,Eunápolis,Empresa 1000,telefone,318.5,8,2,0,33,2023-10-29,0,,,ativo
+CLI-0475,Vitória da Conquista,Família 500,site,139.58,8,2,0,1,2026-06-09,0,,,ativo
+CLI-0476,Ilhéus,Gamer 700,loja,209.86,5,2,20,9,2025-10-19,1,2026-07-01,mudança,cancelado
+CLI-0477,Eunápolis,Casa 300,indicação,102.47,9,0,10,6,2026-02-02,0,,,ativo
+CLI-0478,Eunápolis,Família 500,site,166.72,4,3,0,7,2025-12-31,0,,,ativo
+CLI-0479,Salvador,Gamer 700,indicação,184.36,10,2,0,1,2026-06-27,0,,,ativo
+CLI-0480,Vitória da Conquista,Empresa 1000,loja,315.5,9,1,0,28,2024-04-06,0,,,ativo
+CLI-0481,Salvador,Família 500,loja,143.89,5,2,0,16,2025-04-03,0,,,ativo
+CLI-0482,Salvador,Família 500,indicação,159.77,2,3,0,27,2024-04-24,0,,,ativo
+CLI-0483,Salvador,Família 500,indicação,148.07,4,0,0,10,2025-09-28,0,,,ativo
+CLI-0484,Vitória da Conquista,Casa 300,indicação,117.53,6,2,60,3,2026-04-04,0,,,ativo
+CLI-0485,Eunápolis,Família 500,telefone,138.27,5,4,20,48,2022-07-31,0,,,ativo
+CLI-0486,Salvador,Família 500,site,145.26,4,4,0,21,2024-10-22,0,,,ativo
+CLI-0487,Ilhéus,Gamer 700,indicação,193.68,5,4,0,7,2026-01-02,1,2026-06-23,mudança,cancelado
+CLI-0488,Ilhéus,Gamer 700,site,194.23,9,2,0,43,2023-01-15,0,,,ativo
+CLI-0489,Vitória da Conquista,Família 500,site,164.79,6,6,0,19,2024-12-29,0,,,ativo
+CLI-0490,Eunápolis,Básico 100,loja,78.86,4,1,0,17,2025-03-02,0,,,ativo
+CLI-0491,Eunápolis,Básico 100,site,86.37,5,1,20,17,2025-02-16,0,,,ativo
+CLI-0492,Ilhéus,Empresa 1000,telefone,277.97,8,4,10,49,2022-07-17,1,2026-07-13,instabilidade,cancelado
+CLI-0493,Feira de Santana,Empresa 1000,indicação,276.88,5,1,0,24,2024-08-06,0,,,ativo
+CLI-0494,Ilhéus,Empresa 1000,site,300.93,7,1,0,5,2026-03-03,0,,,ativo
+CLI-0495,Salvador,Família 500,indicação,140.05,8,1,0,47,2022-09-02,0,,,ativo
+CLI-0496,Feira de Santana,Família 500,indicação,157.93,6,3,0,5,2026-02-11,0,,,ativo
+CLI-0497,Feira de Santana,Família 500,indicação,149.58,6,2,0,8,2025-11-20,1,2026-07-18,mudança,cancelado
+CLI-0498,Eunápolis,Empresa 1000,site,326.55,7,0,0,2,2026-05-28,0,,,ativo
+CLI-0499,Vitória da Conquista,Gamer 700,telefone,212.55,5,2,0,3,2026-04-30,0,,,ativo
+CLI-0500,Feira de Santana,Casa 300,telefone,117.04,4,1,0,17,2025-03-07,0,,,ativo
+CLI-0501,Ilhéus,Família 500,telefone,142.93,5,2,0,26,2024-06-06,0,,,ativo
+CLI-0502,Eunápolis,Básico 100,loja,88.14,6,3,0,45,2022-11-12,1,2026-07-24,preço,cancelado
+CLI-0503,Ilhéus,Empresa 1000,site,335.68,8,2,0,29,2024-03-07,0,,,ativo
+CLI-0504,Ilhéus,Família 500,site,141.05,10,3,0,35,2023-08-25,0,,,ativo
+CLI-0505,Salvador,Família 500,telefone,144.44,7,3,0,2,2026-05-19,0,,,ativo
+CLI-0506,Eunápolis,Casa 300,site,103.4,4,0,0,46,2022-10-15,0,,,ativo
+CLI-0507,Ilhéus,Família 500,indicação,154.24,3,0,0,44,2022-12-16,0,,,ativo
+CLI-0508,Ilhéus,Gamer 700,telefone,223.49,7,0,0,9,2025-10-23,0,,,ativo
+CLI-0509,Vitória da Conquista,Básico 100,loja,83.36,10,2,0,19,2024-12-18,0,,,ativo
+CLI-0510,Feira de Santana,Família 500,site,139.89,6,0,35,33,2023-11-15,0,,,ativo
+CLI-0511,Salvador,Gamer 700,telefone,209.13,8,1,0,7,2025-12-15,0,,,ativo
+CLI-0512,Salvador,Empresa 1000,loja,334.87,7,3,0,10,2025-09-15,0,,,ativo
+CLI-0513,Eunápolis,Casa 300,loja,118.62,9,3,0,36,2023-08-09,0,,,ativo
+CLI-0514,Vitória da Conquista,Gamer 700,telefone,217.28,3,3,0,16,2025-03-14,0,,,ativo
+CLI-0515,Eunápolis,Família 500,indicação,157.9,9,0,5,27,2024-04-17,0,,,ativo
+CLI-0516,Ilhéus,Família 500,indicação,152.9,5,3,0,29,2024-03-13,0,,,ativo
+CLI-0517,Eunápolis,Empresa 1000,telefone,333.42,6,2,35,42,2023-01-23,0,,,ativo
+CLI-0518,Salvador,Família 500,loja,143.35,9,3,0,35,2023-09-01,0,,,ativo
+CLI-0519,Feira de Santana,Casa 300,indicação,122.47,10,3,0,16,2025-03-26,0,,,ativo
+CLI-0520,Vitória da Conquista,Família 500,indicação,154.5,9,0,20,35,2023-09-09,0,,,ativo
+CLI-0521,Feira de Santana,Básico 100,telefone,87.11,8,1,0,9,2025-10-31,0,,,ativo
+CLI-0522,Salvador,Casa 300,telefone,113.15,3,0,20,27,2024-04-28,0,,,ativo
+CLI-0523,Eunápolis,Básico 100,telefone,82.16,6,3,60,1,2026-06-25,0,,,ativo
+CLI-0524,Feira de Santana,Gamer 700,loja,188.77,5,2,20,12,2025-07-22,1,2026-07-22,instabilidade,cancelado
+CLI-0525,Feira de Santana,Empresa 1000,loja,323.38,7,1,10,41,2023-03-08,0,,,ativo
+CLI-0526,Feira de Santana,Casa 300,telefone,106.62,7,1,35,7,2025-12-15,0,,,ativo
+CLI-0527,Ilhéus,Básico 100,loja,75.75,7,2,0,21,2024-10-28,0,,,ativo
+CLI-0528,Vitória da Conquista,Empresa 1000,indicação,294.82,10,3,0,8,2025-11-23,0,,,ativo
+CLI-0529,Salvador,Básico 100,site,83.18,10,0,5,20,2024-12-07,0,,,ativo
+CLI-0530,Ilhéus,Básico 100,loja,75.21,6,2,0,46,2022-09-26,0,,,ativo
+CLI-0531,Salvador,Casa 300,loja,114.62,5,3,5,31,2024-01-05,0,,,ativo
+CLI-0532,Feira de Santana,Família 500,site,143.86,3,2,0,17,2025-02-14,1,2026-07-23,atendimento,cancelado
+CLI-0533,Feira de Santana,Empresa 1000,telefone,321.19,7,0,0,15,2025-05-01,0,,,ativo
+CLI-0534,Ilhéus,Empresa 1000,telefone,285.49,8,0,0,21,2024-11-08,0,,,ativo
+CLI-0535,Salvador,Família 500,site,155.16,10,0,5,10,2025-09-22,0,,,ativo
+CLI-0536,Feira de Santana,Casa 300,telefone,105.51,9,5,0,46,2022-09-27,0,,,ativo
+CLI-0537,Ilhéus,Casa 300,indicação,121.27,10,1,0,2,2026-05-14,0,,,ativo
+CLI-0538,Salvador,Empresa 1000,site,325.91,5,4,0,24,2024-08-05,0,,,ativo
+CLI-0539,Eunápolis,Família 500,telefone,167.32,7,0,0,36,2023-08-11,0,,,ativo
+CLI-0540,Eunápolis,Empresa 1000,telefone,308.78,8,0,5,19,2024-12-31,0,,,ativo
+CLI-0541,Vitória da Conquista,Casa 300,site,105.36,4,1,20,49,2022-06-26,0,,,ativo
+CLI-0542,Ilhéus,Básico 100,indicação,75.94,8,4,35,2,2026-05-28,0,,,ativo
+CLI-0543,Feira de Santana,Gamer 700,site,188.99,7,2,0,43,2023-01-01,0,,,ativo
+CLI-0544,Vitória da Conquista,Casa 300,site,108.98,6,0,35,22,2024-09-18,0,,,ativo
+CLI-0545,Salvador,Básico 100,site,73.84,7,1,0,3,2026-04-13,0,,,ativo
+CLI-0546,Salvador,Básico 100,loja,81.92,7,0,5,4,2026-03-08,0,,,ativo
+CLI-0547,Vitória da Conquista,Empresa 1000,indicação,322.68,0,6,10,5,2026-02-16,0,,,ativo
+CLI-0548,Feira de Santana,Casa 300,telefone,113.08,7,0,35,28,2024-03-17,0,,,ativo
+CLI-0549,Vitória da Conquista,Casa 300,telefone,111.66,7,3,5,23,2024-09-08,0,,,ativo
+CLI-0550,Feira de Santana,Básico 100,indicação,77.82,7,4,10,42,2023-02-13,0,,,ativo
+CLI-0551,Eunápolis,Família 500,indicação,164.93,3,0,0,21,2024-10-16,0,,,ativo
+CLI-0552,Eunápolis,Casa 300,site,110.65,6,1,0,29,2024-03-02,0,,,ativo
+CLI-0553,Eunápolis,Gamer 700,site,217.67,6,0,10,16,2025-03-24,0,,,ativo
+CLI-0554,Eunápolis,Casa 300,indicação,105.24,7,0,10,16,2025-03-31,0,,,ativo
+CLI-0555,Feira de Santana,Básico 100,indicação,75.01,8,0,0,40,2023-03-23,0,,,ativo
+CLI-0556,Eunápolis,Básico 100,telefone,76.06,7,4,5,35,2023-08-21,0,,,ativo
+CLI-0557,Ilhéus,Básico 100,indicação,87.09,7,3,0,22,2024-10-09,0,,,ativo
+CLI-0558,Salvador,Família 500,loja,158.46,5,1,20,16,2025-03-29,0,,,ativo
+CLI-0559,Feira de Santana,Empresa 1000,loja,311.52,9,2,0,11,2025-08-18,0,,,ativo
+CLI-0560,Salvador,Casa 300,indicação,101.3,6,4,10,45,2022-11-12,0,,,ativo
+CLI-0561,Feira de Santana,Família 500,loja,161.02,3,2,0,17,2025-03-06,0,,,ativo
+CLI-0562,Ilhéus,Básico 100,indicação,75.17,8,2,0,45,2022-11-01,0,,,ativo
+CLI-0563,Eunápolis,Família 500,site,151.66,10,3,0,25,2024-06-18,0,,,ativo
+CLI-0564,Vitória da Conquista,Família 500,telefone,154.06,3,1,0,27,2024-04-28,0,,,ativo
+CLI-0565,Salvador,Casa 300,telefone,108.36,7,2,35,33,2023-10-18,1,2026-06-14,instabilidade,cancelado
+CLI-0566,Vitória da Conquista,Família 500,loja,154.48,10,1,0,29,2024-02-28,0,,,ativo
+CLI-0567,Feira de Santana,Gamer 700,loja,202.71,4,3,0,9,2025-10-29,0,,,ativo
+CLI-0568,Feira de Santana,Empresa 1000,indicação,297.38,7,3,0,27,2024-04-14,0,,,ativo
+CLI-0569,Ilhéus,Família 500,site,162.21,6,4,0,7,2025-12-22,0,,,ativo
+CLI-0570,Eunápolis,Empresa 1000,telefone,296.96,9,2,35,22,2024-10-10,0,,,ativo
+CLI-0571,Eunápolis,Gamer 700,telefone,207.22,4,4,0,27,2024-05-11,1,2026-07-09,instabilidade,cancelado
+CLI-0572,Vitória da Conquista,Empresa 1000,indicação,286.45,3,4,0,30,2024-01-24,0,,,ativo
+CLI-0573,Salvador,Família 500,site,138.04,2,2,0,32,2023-12-08,0,,,ativo
+CLI-0574,Eunápolis,Empresa 1000,loja,296.1,5,2,0,18,2025-01-15,0,,,ativo
+CLI-0575,Feira de Santana,Família 500,indicação,139.58,2,4,0,3,2026-04-25,0,,,ativo
+CLI-0576,Feira de Santana,Básico 100,loja,85.64,4,2,5,42,2023-01-29,0,,,ativo
+CLI-0577,Vitória da Conquista,Família 500,telefone,151.75,8,0,35,20,2024-12-06,0,,,ativo
+CLI-0578,Feira de Santana,Família 500,site,139.69,7,1,5,33,2023-11-11,0,,,ativo
+CLI-0579,Vitória da Conquista,Básico 100,telefone,73.97,5,5,0,3,2026-04-18,0,,,ativo
+CLI-0580,Eunápolis,Básico 100,telefone,79.9,7,0,5,20,2024-12-05,0,,,ativo
+CLI-0581,Feira de Santana,Empresa 1000,site,279.93,6,2,20,29,2024-02-19,0,,,ativo
+CLI-0582,Vitória da Conquista,Gamer 700,telefone,203.06,7,3,0,29,2024-03-07,0,,,ativo
+CLI-0583,Feira de Santana,Empresa 1000,site,332.44,7,3,0,13,2025-07-03,0,,,ativo
+CLI-0584,Ilhéus,Família 500,indicação,157.8,2,4,0,42,2023-01-22,0,,,ativo
+CLI-0585,Salvador,Casa 300,telefone,108.93,6,1,10,11,2025-08-25,0,,,ativo
+CLI-0586,Ilhéus,Gamer 700,indicação,208.52,7,1,10,19,2025-01-01,0,,,ativo
+CLI-0587,Feira de Santana,Família 500,site,153.34,7,0,0,30,2024-01-31,0,,,ativo
+CLI-0588,Vitória da Conquista,Família 500,indicação,159.79,8,3,0,9,2025-10-27,0,,,ativo
+CLI-0589,Vitória da Conquista,Empresa 1000,telefone,317.22,9,4,0,29,2024-03-07,0,,,ativo
+CLI-0590,Vitória da Conquista,Família 500,telefone,147.94,6,0,0,40,2023-04-13,0,,,ativo
+CLI-0591,Salvador,Casa 300,site,108.82,7,0,20,1,2026-06-16,0,,,ativo
+CLI-0592,Eunápolis,Gamer 700,loja,206.61,6,2,0,27,2024-05-12,1,2026-07-26,preço,cancelado
+CLI-0593,Vitória da Conquista,Básico 100,site,82.41,3,4,0,25,2024-07-01,0,,,ativo
+CLI-0594,Vitória da Conquista,Básico 100,site,81.82,7,1,5,30,2024-02-04,0,,,ativo
+CLI-0595,Vitória da Conquista,Básico 100,telefone,75.64,8,1,60,46,2022-10-21,0,,,ativo
+CLI-0596,Eunápolis,Básico 100,site,77.32,2,3,10,14,2025-06-01,0,,,ativo
+CLI-0597,Vitória da Conquista,Gamer 700,telefone,185.39,7,0,20,20,2024-11-29,0,,,ativo
+CLI-0598,Feira de Santana,Empresa 1000,indicação,322.64,6,3,60,37,2023-06-26,1,2026-07-19,preço,cancelado
+CLI-0599,Vitória da Conquista,Gamer 700,loja,189.56,7,0,0,41,2023-03-10,0,,,ativo
+CLI-0600,Ilhéus,Empresa 1000,site,302.57,4,4,35,7,2025-12-09,1,2026-06-12,mudança,cancelado

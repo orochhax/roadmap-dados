@@ -14,3 +14,17 @@
 ## Desenvolvimento
 
 <!-- Preencha durante a atividade. -->
+
+## Exercícios extras específicos
+
+1. [ ] Adapte um bullet de projeto para uma vaga que exige Python e SQL, usando somente técnica e resultado comprováveis.
+
+### Desenvolvimento do extra 1
+
+<!-- Escreva aqui. -->
+
+2. [ ] Grave a apresentação de 30 segundos e remova qualquer ferramenta que você ainda não consiga explicar com um exemplo.
+
+### Desenvolvimento do extra 2
+
+<!-- Escreva aqui. -->

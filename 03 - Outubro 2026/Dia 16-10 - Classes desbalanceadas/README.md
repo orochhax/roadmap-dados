@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Classes desbalanceadas.
-- **Pasta/arquivo principal:** `semana-11/dia-054-classes-desbalanceadas.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-054-classes-desbalanceadas.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escolha abordagem final e registre impactos colaterais.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-054-classes-desbalanceadas.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Classes desbalanceadas** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-054-classes-desbalanceadas.ipynb`:** Crie uma amostra com apenas 5% de churn e compare accuracy e PR-AUC com a base original.
+- [ ] **Em `01-exercicios/dia-054-classes-desbalanceadas.ipynb`:** Aplique oversampling somente no treino e confirme que a proporção do conjunto de validação permanece inalterada.
 
 ### Perguntas de checagem
 

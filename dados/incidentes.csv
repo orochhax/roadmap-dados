@@ -1,0 +1,241 @@
+﻿id,cidade,causa,severidade,duracao_min,clientes_afetados,resolvido,data_abertura,data_fechamento,observacao
+INC-0001,Feira de Santana,rompimento de fibra,P3,50,66,true,2026-01-08T20:09,2026-01-08T20:59,registro operacional
+INC-0002,Salvador,rompimento de fibra,P3,51,118,true,2026-08-18T16:48,2026-08-18T17:39,registro operacional
+INC-0003,Feira de Santana,manutenção programada,P2,100,304,true,2026-03-02T16:07,2026-03-02T17:47,registro operacional
+INC-0004,Feira de Santana,erro de configuração,P3,101,10,true,2026-04-26T17:33,2026-04-26T19:14,registro operacional
+INC-0005,Salvador,rompimento de fibra,P3,120,96,false,2026-02-10T11:10,,registro operacional
+INC-0006,Salvador,erro de configuração,P3,121,76,true,2026-04-03T21:57,2026-04-03T23:58,registro operacional
+INC-0007,Ilhéus,falha de equipamento,P3,180,84,true,2026-08-26T13:57,2026-08-26T16:57,registro operacional
+INC-0008,Vitória da Conquista,rompimento de fibra,P3,181,68,true,2026-07-01T08:41,2026-07-01T11:42,registro operacional
+INC-0009,Feira de Santana,falha de equipamento,P4,17,51,true,2026-04-09T12:14,2026-04-09T12:31,registro operacional
+INC-0010,Feira de Santana,manutenção programada,P3,88,164,true,2026-06-30T19:09,2026-06-30T20:37,registro operacional
+INC-0011,Ilhéus,queda de energia,P3,61,172,true,2026-04-30T13:58,2026-04-30T14:59,registro operacional
+INC-0012,Eunápolis,falha de equipamento,P3,34,90,true,2026-03-01T21:31,2026-03-01T22:05,registro operacional
+INC-0013,Eunápolis,erro de configuração,P1,380,704,true,2026-08-14T19:45,2026-08-15T02:05,registro operacional
+INC-0014,Ilhéus,manutenção programada,P4,87,36,true,2026-04-29T09:56,2026-04-29T11:23,registro operacional
+INC-0015,Feira de Santana,manutenção programada,P2,194,132,true,2026-04-21T17:27,2026-04-21T20:41,registro operacional
+INC-0016,Eunápolis,manutenção programada,P3,32,50,true,2026-08-10T09:22,2026-08-10T09:54,registro operacional
+INC-0017,Salvador,rompimento de fibra,P1,285,600,true,2026-06-03T15:29,2026-06-03T20:14,
+INC-0018,Salvador,falha de equipamento,P3,157,96,true,2026-07-13T12:03,2026-07-13T14:40,registro operacional
+INC-0019,Ilhéus,queda de energia,P3,136,76,false,2026-01-02T19:49,,registro operacional
+INC-0020,Ilhéus,manutenção programada,P3,47,172,true,2026-08-12T18:10,2026-08-12T18:57,registro operacional
+INC-0021,Salvador,manutenção programada,P2,140,288,true,2026-07-16T10:15,2026-07-16T12:35,registro operacional
+INC-0022,Feira de Santana,rompimento de fibra,P3,24,88,false,2026-01-30T13:41,,registro operacional
+INC-0023,Ilhéus,queda de energia,P2,190,52,true,2026-01-22T08:57,2026-01-22T12:07,registro operacional
+INC-0024,Eunápolis,queda de energia,P2,166,328,true,2026-05-22T10:19,2026-05-22T13:05,registro operacional
+INC-0025,Vitória da Conquista,erro de configuração,P4,30,90,true,2026-07-03T12:49,2026-07-03T13:19,registro operacional
+INC-0026,Salvador,manutenção programada,P4,62,48,true,2026-02-01T11:43,2026-02-01T12:45,registro operacional
+INC-0027,Salvador,queda de energia,P3,170,170,true,2026-02-27T07:37,2026-02-27T10:27,registro operacional
+INC-0028,Vitória da Conquista,erro de configuração,P1,106,280,true,2026-08-10T13:08,2026-08-10T14:54,registro operacional
+INC-0029,Eunápolis,erro de configuração,P2,78,144,true,2026-07-06T17:14,2026-07-06T18:32,registro operacional
+INC-0030,Eunápolis,rompimento de fibra,P2,69,228,true,2026-06-19T14:51,2026-06-19T16:00,registro operacional
+INC-0031,Feira de Santana,queda de energia,P3,45,36,true,2026-01-17T14:22,2026-01-17T15:07,registro operacional
+INC-0032,Feira de Santana,rompimento de fibra,P2,159,256,true,2026-02-06T14:42,2026-02-06T17:21,registro operacional
+INC-0033,Salvador,rompimento de fibra,P3,160,148,true,2026-01-27T08:21,2026-01-27T11:01,registro operacional
+INC-0034,Eunápolis,rompimento de fibra,P4,35,32,true,2026-02-13T14:26,2026-02-13T15:01,
+INC-0035,Vitória da Conquista,erro de configuração,P2,45,252,false,2026-04-11T12:01,,registro operacional
+INC-0036,Vitória da Conquista,queda de energia,P3,162,58,true,2026-06-20T19:45,2026-06-20T22:27,registro operacional
+INC-0037,Salvador,rompimento de fibra,P4,79,45,true,2026-07-09T16:45,2026-07-09T18:04,registro operacional
+INC-0038,Ilhéus,rompimento de fibra,P3,148,24,true,2026-08-25T22:03,2026-08-26T00:31,registro operacional
+INC-0039,Eunápolis,rompimento de fibra,P4,13,35,true,2026-06-03T08:39,2026-06-03T08:52,registro operacional
+INC-0040,Salvador,erro de configuração,P4,77,84,true,2026-03-06T17:22,2026-03-06T18:39,registro operacional
+INC-0041,Vitória da Conquista,queda de energia,P3,164,62,false,2026-05-15T12:53,,registro operacional
+INC-0042,Salvador,rompimento de fibra,P2,78,180,true,2026-06-22T18:30,2026-06-22T19:48,registro operacional
+INC-0043,Vitória da Conquista,queda de energia,P3,164,138,true,2026-01-27T08:45,2026-01-27T11:29,registro operacional
+INC-0044,Eunápolis,manutenção programada,P4,13,25,true,2026-08-15T11:40,2026-08-15T11:53,registro operacional
+INC-0045,Ilhéus,falha de equipamento,P3,176,180,true,2026-07-27T18:39,2026-07-27T21:35,registro operacional
+INC-0046,Salvador,manutenção programada,P4,18,19,true,2026-08-30T22:29,2026-08-30T22:47,registro operacional
+INC-0047,Vitória da Conquista,manutenção programada,P2,117,124,true,2026-06-05T11:05,2026-06-05T13:02,registro operacional
+INC-0048,Salvador,rompimento de fibra,P3,33,80,true,2026-01-25T18:19,2026-01-25T18:52,registro operacional
+INC-0049,Ilhéus,erro de configuração,P3,53,122,true,2026-06-14T11:58,2026-06-14T12:51,registro operacional
+INC-0050,Salvador,falha de equipamento,P3,48,148,false,2026-01-21T19:17,,registro operacional
+INC-0051,Salvador,falha de equipamento,P3,57,102,true,2026-04-22T09:40,2026-04-22T10:37,
+INC-0052,Eunápolis,manutenção programada,P2,108,304,true,2026-06-21T09:15,2026-06-21T11:03,registro operacional
+INC-0053,Eunápolis,rompimento de fibra,P3,80,54,false,2026-08-11T10:16,,registro operacional
+INC-0054,Vitória da Conquista,queda de energia,P2,130,144,true,2026-07-21T14:31,2026-07-21T16:41,registro operacional
+INC-0055,Feira de Santana,queda de energia,P4,18,65,true,2026-04-09T22:23,2026-04-09T22:41,registro operacional
+INC-0056,Feira de Santana,rompimento de fibra,P4,63,34,true,2026-04-01T12:42,2026-04-01T13:45,registro operacional
+INC-0057,Vitória da Conquista,manutenção programada,P3,122,80,false,2026-03-27T12:15,,registro operacional
+INC-0058,Feira de Santana,manutenção programada,P3,157,76,true,2026-03-27T07:58,2026-03-27T10:35,registro operacional
+INC-0059,Vitória da Conquista,erro de configuração,P4,38,49,true,2026-01-11T09:21,2026-01-11T09:59,registro operacional
+INC-0060,Vitória da Conquista,rompimento de fibra,P3,150,58,false,2026-01-31T14:04,,registro operacional
+INC-0061,Feira de Santana,falha de equipamento,P3,20,180,true,2026-05-15T21:15,2026-05-15T21:35,registro operacional
+INC-0062,Vitória da Conquista,manutenção programada,P3,104,40,true,2026-06-10T12:51,2026-06-10T14:35,registro operacional
+INC-0063,Feira de Santana,queda de energia,P2,149,300,true,2026-03-26T14:22,2026-03-26T16:51,registro operacional
+INC-0064,Ilhéus,falha de equipamento,P3,117,166,false,2026-06-24T20:16,,registro operacional
+INC-0065,Ilhéus,falha de equipamento,P3,20,158,true,2026-03-20T12:23,2026-03-20T12:43,registro operacional
+INC-0066,Salvador,falha de equipamento,P3,133,52,true,2026-06-23T11:08,2026-06-23T13:21,registro operacional
+INC-0067,Vitória da Conquista,queda de energia,P3,178,70,true,2026-03-28T09:05,2026-03-28T12:03,registro operacional
+INC-0068,Ilhéus,rompimento de fibra,P4,23,65,true,2026-01-08T08:17,2026-01-08T08:40,
+INC-0069,Eunápolis,queda de energia,P3,167,136,true,2026-02-20T19:45,2026-02-20T22:32,registro operacional
+INC-0070,Eunápolis,queda de energia,P2,221,72,false,2026-01-03T20:18,,registro operacional
+INC-0071,Salvador,erro de configuração,P2,223,144,true,2026-05-14T15:25,2026-05-14T19:08,registro operacional
+INC-0072,Vitória da Conquista,erro de configuração,P2,163,324,false,2026-06-21T16:33,,registro operacional
+INC-0073,Feira de Santana,erro de configuração,P3,149,124,false,2026-04-21T21:40,,registro operacional
+INC-0074,Eunápolis,queda de energia,P3,83,142,true,2026-08-05T18:22,2026-08-05T19:45,registro operacional
+INC-0075,Vitória da Conquista,manutenção programada,P2,64,188,true,2026-07-03T12:22,2026-07-03T13:26,registro operacional
+INC-0076,Salvador,erro de configuração,P2,83,128,true,2026-03-02T14:02,2026-03-02T15:25,registro operacional
+INC-0077,Eunápolis,manutenção programada,P3,158,116,true,2026-05-01T14:35,2026-05-01T17:13,registro operacional
+INC-0078,Salvador,falha de equipamento,P4,7,66,true,2026-08-09T20:33,2026-08-09T20:40,registro operacional
+INC-0079,Ilhéus,queda de energia,P2,144,296,true,2026-08-08T21:45,2026-08-09T00:09,registro operacional
+INC-0080,Eunápolis,queda de energia,P3,89,96,true,2026-04-23T15:47,2026-04-23T17:16,registro operacional
+INC-0081,Ilhéus,manutenção programada,P4,21,55,true,2026-06-10T16:36,2026-06-10T16:57,registro operacional
+INC-0082,Feira de Santana,rompimento de fibra,P3,41,128,true,2026-06-15T14:48,2026-06-15T15:29,registro operacional
+INC-0083,Vitória da Conquista,erro de configuração,P2,128,212,true,2026-02-25T15:15,2026-02-25T17:23,registro operacional
+INC-0084,Vitória da Conquista,queda de energia,P2,65,44,true,2026-05-02T07:49,2026-05-02T08:54,registro operacional
+INC-0085,Salvador,manutenção programada,P3,30,60,false,2026-07-14T08:01,,
+INC-0086,Eunápolis,falha de equipamento,P2,77,128,true,2026-05-03T18:55,2026-05-03T20:12,registro operacional
+INC-0087,Feira de Santana,falha de equipamento,P4,26,19,false,2026-06-06T17:51,,registro operacional
+INC-0088,Eunápolis,queda de energia,P2,51,212,true,2026-08-27T12:49,2026-08-27T13:40,registro operacional
+INC-0089,Ilhéus,rompimento de fibra,P1,411,344,true,2026-03-05T09:14,2026-03-05T16:05,registro operacional
+INC-0090,Vitória da Conquista,rompimento de fibra,P4,77,59,true,2026-07-21T08:12,2026-07-21T09:29,registro operacional
+INC-0091,Salvador,erro de configuração,P3,107,134,true,2026-01-05T21:59,2026-01-05T23:46,registro operacional
+INC-0092,Eunápolis,queda de energia,P4,86,24,true,2026-08-18T21:38,2026-08-18T23:04,registro operacional
+INC-0093,Eunápolis,erro de configuração,P3,89,132,false,2026-06-08T21:17,,registro operacional
+INC-0094,Vitória da Conquista,erro de configuração,P4,80,16,true,2026-03-11T13:00,2026-03-11T14:20,registro operacional
+INC-0095,Salvador,erro de configuração,P2,163,192,true,2026-05-27T17:54,2026-05-27T20:37,registro operacional
+INC-0096,Vitória da Conquista,falha de equipamento,P4,28,38,true,2026-05-06T11:07,2026-05-06T11:35,registro operacional
+INC-0097,Salvador,queda de energia,P4,40,29,true,2026-05-24T07:40,2026-05-24T08:20,registro operacional
+INC-0098,Eunápolis,erro de configuração,P3,145,130,true,2026-05-24T20:26,2026-05-24T22:51,registro operacional
+INC-0099,Vitória da Conquista,manutenção programada,P4,16,36,true,2026-03-18T11:16,2026-03-18T11:32,registro operacional
+INC-0100,Vitória da Conquista,falha de equipamento,P3,161,150,true,2026-05-17T13:22,2026-05-17T16:03,registro operacional
+INC-0101,Vitória da Conquista,rompimento de fibra,P3,89,58,true,2026-03-21T11:47,2026-03-21T13:16,registro operacional
+INC-0102,Ilhéus,manutenção programada,P3,67,80,true,2026-02-20T11:11,2026-02-20T12:18,
+INC-0103,Feira de Santana,falha de equipamento,P3,45,102,true,2026-08-03T10:48,2026-08-03T11:33,registro operacional
+INC-0104,Ilhéus,falha de equipamento,P1,363,88,true,2026-02-03T12:10,2026-02-03T18:13,registro operacional
+INC-0105,Salvador,manutenção programada,P3,52,36,true,2026-06-14T22:19,2026-06-14T23:11,registro operacional
+INC-0106,Vitória da Conquista,erro de configuração,P2,167,44,true,2026-04-24T13:18,2026-04-24T16:05,registro operacional
+INC-0107,Salvador,queda de energia,P2,61,340,true,2026-04-14T15:53,2026-04-14T16:54,registro operacional
+INC-0108,Ilhéus,erro de configuração,P2,189,80,false,2026-03-20T08:57,,registro operacional
+INC-0109,Eunápolis,falha de equipamento,P3,178,124,true,2026-02-28T20:44,2026-02-28T23:42,registro operacional
+INC-0110,Salvador,queda de energia,P4,59,83,true,2026-03-21T17:12,2026-03-21T18:11,registro operacional
+INC-0111,Ilhéus,rompimento de fibra,P3,87,54,true,2026-06-20T08:53,2026-06-20T10:20,registro operacional
+INC-0112,Salvador,queda de energia,P2,149,168,true,2026-04-27T19:15,2026-04-27T21:44,registro operacional
+INC-0113,Vitória da Conquista,manutenção programada,P2,117,136,true,2026-06-30T22:10,2026-07-01T00:07,registro operacional
+INC-0114,Feira de Santana,falha de equipamento,P3,70,174,true,2026-04-20T09:27,2026-04-20T10:37,registro operacional
+INC-0115,Ilhéus,falha de equipamento,P4,14,81,true,2026-01-17T10:19,2026-01-17T10:33,registro operacional
+INC-0116,Ilhéus,manutenção programada,P3,139,78,true,2026-06-27T12:41,2026-06-27T15:00,registro operacional
+INC-0117,Ilhéus,falha de equipamento,P3,40,92,false,2026-06-04T08:10,,registro operacional
+INC-0118,Salvador,falha de equipamento,P1,207,640,false,2026-06-23T21:46,,registro operacional
+INC-0119,Feira de Santana,manutenção programada,P3,64,80,true,2026-05-02T16:21,2026-05-02T17:25,
+INC-0120,Vitória da Conquista,rompimento de fibra,P3,145,94,true,2026-01-25T15:31,2026-01-25T17:56,registro operacional
+INC-0121,Eunápolis,manutenção programada,P4,47,89,true,2026-04-17T19:20,2026-04-17T20:07,registro operacional
+INC-0122,Ilhéus,rompimento de fibra,P1,135,448,true,2026-03-23T11:48,2026-03-23T14:03,registro operacional
+INC-0123,Vitória da Conquista,manutenção programada,P3,158,142,true,2026-04-30T14:33,2026-04-30T17:11,registro operacional
+INC-0124,Ilhéus,queda de energia,P4,85,39,true,2026-04-25T20:28,2026-04-25T21:53,registro operacional
+INC-0125,Ilhéus,queda de energia,P4,61,8,true,2026-08-15T19:25,2026-08-15T20:26,registro operacional
+INC-0126,Feira de Santana,rompimento de fibra,P3,99,32,true,2026-05-23T07:44,2026-05-23T09:23,registro operacional
+INC-0127,Ilhéus,falha de equipamento,P3,50,84,true,2026-06-16T21:42,2026-06-16T22:32,registro operacional
+INC-0128,Eunápolis,queda de energia,P3,143,46,true,2026-05-02T11:39,2026-05-02T14:02,registro operacional
+INC-0129,Vitória da Conquista,erro de configuração,P4,70,13,true,2026-07-12T22:30,2026-07-12T23:40,registro operacional
+INC-0130,Ilhéus,manutenção programada,P3,149,86,true,2026-03-11T21:30,2026-03-11T23:59,registro operacional
+INC-0131,Vitória da Conquista,falha de equipamento,P4,67,66,true,2026-08-11T10:02,2026-08-11T11:09,registro operacional
+INC-0132,Feira de Santana,manutenção programada,P3,159,58,false,2026-04-08T15:16,,registro operacional
+INC-0133,Eunápolis,queda de energia,P3,125,106,true,2026-01-13T12:55,2026-01-13T15:00,registro operacional
+INC-0134,Salvador,erro de configuração,P3,29,94,false,2026-02-03T16:04,,registro operacional
+INC-0135,Feira de Santana,rompimento de fibra,P2,161,352,true,2026-01-05T19:49,2026-01-05T22:30,registro operacional
+INC-0136,Salvador,falha de equipamento,P3,87,176,true,2026-03-29T18:08,2026-03-29T19:35,
+INC-0137,Ilhéus,rompimento de fibra,P4,73,67,true,2026-04-09T12:54,2026-04-09T14:07,registro operacional
+INC-0138,Salvador,erro de configuração,P3,80,68,false,2026-06-12T19:10,,registro operacional
+INC-0139,Vitória da Conquista,rompimento de fibra,P4,86,26,true,2026-07-01T22:23,2026-07-01T23:49,registro operacional
+INC-0140,Feira de Santana,manutenção programada,P1,118,184,true,2026-03-18T13:37,2026-03-18T15:35,registro operacional
+INC-0141,Ilhéus,queda de energia,P3,66,106,true,2026-02-14T10:29,2026-02-14T11:35,registro operacional
+INC-0142,Eunápolis,falha de equipamento,P3,169,74,true,2026-02-07T11:27,2026-02-07T14:16,registro operacional
+INC-0143,Salvador,erro de configuração,P3,139,50,true,2026-08-20T12:24,2026-08-20T14:43,registro operacional
+INC-0144,Eunápolis,falha de equipamento,P4,80,37,false,2026-03-19T18:24,,registro operacional
+INC-0145,Ilhéus,falha de equipamento,P2,143,212,true,2026-08-08T15:44,2026-08-08T18:07,registro operacional
+INC-0146,Salvador,manutenção programada,P3,95,80,true,2026-01-07T21:39,2026-01-07T23:14,registro operacional
+INC-0147,Feira de Santana,manutenção programada,P4,11,41,true,2026-08-23T17:50,2026-08-23T18:01,registro operacional
+INC-0148,Feira de Santana,rompimento de fibra,P4,33,89,true,2026-06-13T10:44,2026-06-13T11:17,registro operacional
+INC-0149,Ilhéus,falha de equipamento,P4,87,9,true,2026-01-12T12:46,2026-01-12T14:13,registro operacional
+INC-0150,Feira de Santana,queda de energia,P3,43,116,true,2026-08-22T12:32,2026-08-22T13:15,registro operacional
+INC-0151,Feira de Santana,falha de equipamento,P2,183,156,true,2026-08-14T13:44,2026-08-14T16:47,registro operacional
+INC-0152,Salvador,erro de configuração,P4,66,48,true,2026-07-27T12:32,2026-07-27T13:38,registro operacional
+INC-0153,Ilhéus,falha de equipamento,P4,23,55,false,2026-07-14T11:21,,
+INC-0154,Vitória da Conquista,falha de equipamento,P2,146,252,true,2026-01-05T12:00,2026-01-05T14:26,registro operacional
+INC-0155,Ilhéus,manutenção programada,P3,115,16,true,2026-01-29T19:01,2026-01-29T20:56,registro operacional
+INC-0156,Vitória da Conquista,erro de configuração,P3,176,128,true,2026-02-27T18:33,2026-02-27T21:29,registro operacional
+INC-0157,Salvador,queda de energia,P2,56,76,false,2026-01-11T12:41,,registro operacional
+INC-0158,Eunápolis,manutenção programada,P4,22,74,true,2026-04-11T15:14,2026-04-11T15:36,registro operacional
+INC-0159,Ilhéus,erro de configuração,P3,59,134,true,2026-08-16T14:34,2026-08-16T15:33,registro operacional
+INC-0160,Eunápolis,queda de energia,P4,40,61,true,2026-01-10T19:16,2026-01-10T19:56,registro operacional
+INC-0161,Vitória da Conquista,rompimento de fibra,P4,17,87,true,2026-06-26T13:46,2026-06-26T14:03,registro operacional
+INC-0162,Feira de Santana,manutenção programada,P3,68,32,true,2026-02-02T21:58,2026-02-02T23:06,registro operacional
+INC-0163,Ilhéus,queda de energia,P4,11,21,true,2026-07-22T13:11,2026-07-22T13:22,registro operacional
+INC-0164,Vitória da Conquista,queda de energia,P1,373,272,true,2026-02-24T17:30,2026-02-24T23:43,registro operacional
+INC-0165,Feira de Santana,manutenção programada,P4,81,23,true,2026-01-02T12:13,2026-01-02T13:34,registro operacional
+INC-0166,Salvador,falha de equipamento,P2,89,84,false,2026-01-30T18:46,,registro operacional
+INC-0167,Salvador,queda de energia,P4,35,38,true,2026-06-01T13:01,2026-06-01T13:36,registro operacional
+INC-0168,Vitória da Conquista,manutenção programada,P3,154,124,true,2026-01-31T20:13,2026-01-31T22:47,registro operacional
+INC-0169,Ilhéus,falha de equipamento,P3,135,20,false,2026-05-10T11:16,,registro operacional
+INC-0170,Salvador,erro de configuração,P3,27,118,true,2026-01-17T15:40,2026-01-17T16:07,
+INC-0171,Salvador,queda de energia,P3,133,46,true,2026-01-20T08:52,2026-01-20T11:05,registro operacional
+INC-0172,Ilhéus,manutenção programada,P2,207,212,true,2026-05-31T16:51,2026-05-31T20:18,registro operacional
+INC-0173,Ilhéus,queda de energia,P2,174,76,true,2026-06-05T14:50,2026-06-05T17:44,registro operacional
+INC-0174,Eunápolis,rompimento de fibra,P3,78,112,true,2026-04-17T13:17,2026-04-17T14:35,registro operacional
+INC-0175,Eunápolis,rompimento de fibra,P2,125,96,true,2026-06-21T11:51,2026-06-21T13:56,registro operacional
+INC-0176,Feira de Santana,manutenção programada,P2,66,208,true,2026-01-25T14:52,2026-01-25T15:58,registro operacional
+INC-0177,Vitória da Conquista,erro de configuração,P1,377,456,true,2026-05-25T13:07,2026-05-25T19:24,registro operacional
+INC-0178,Ilhéus,manutenção programada,P4,11,18,true,2026-03-16T17:44,2026-03-16T17:55,registro operacional
+INC-0179,Ilhéus,falha de equipamento,P2,213,196,true,2026-05-05T11:19,2026-05-05T14:52,registro operacional
+INC-0180,Ilhéus,manutenção programada,P2,116,304,true,2026-05-28T11:21,2026-05-28T13:17,registro operacional
+INC-0181,Salvador,queda de energia,P3,162,78,false,2026-01-08T17:53,,registro operacional
+INC-0182,Feira de Santana,manutenção programada,P2,240,112,true,2026-03-22T13:17,2026-03-22T17:17,registro operacional
+INC-0183,Salvador,manutenção programada,P3,37,16,true,2026-02-07T20:08,2026-02-07T20:45,registro operacional
+INC-0184,Vitória da Conquista,manutenção programada,P2,152,176,true,2026-04-28T13:19,2026-04-28T15:51,registro operacional
+INC-0185,Salvador,falha de equipamento,P3,33,22,true,2026-02-10T10:11,2026-02-10T10:44,registro operacional
+INC-0186,Feira de Santana,manutenção programada,P3,128,78,true,2026-05-06T17:51,2026-05-06T19:59,registro operacional
+INC-0187,Eunápolis,manutenção programada,P2,155,320,true,2026-01-30T12:20,2026-01-30T14:55,
+INC-0188,Salvador,queda de energia,P3,31,24,false,2026-02-27T14:14,,registro operacional
+INC-0189,Vitória da Conquista,rompimento de fibra,P2,99,168,true,2026-07-17T09:50,2026-07-17T11:29,registro operacional
+INC-0190,Ilhéus,manutenção programada,P1,310,272,true,2026-02-15T09:42,2026-02-15T14:52,registro operacional
+INC-0191,Eunápolis,rompimento de fibra,P4,50,10,false,2026-01-20T14:16,,registro operacional
+INC-0192,Eunápolis,erro de configuração,P3,39,156,true,2026-08-10T12:50,2026-08-10T13:29,registro operacional
+INC-0193,Eunápolis,falha de equipamento,P2,148,336,true,2026-01-07T13:02,2026-01-07T15:30,registro operacional
+INC-0194,Salvador,erro de configuração,P2,72,288,true,2026-03-05T14:56,2026-03-05T16:08,registro operacional
+INC-0195,Ilhéus,rompimento de fibra,P4,48,14,true,2026-02-27T13:11,2026-02-27T13:59,registro operacional
+INC-0196,Feira de Santana,queda de energia,P3,69,174,true,2026-08-21T20:44,2026-08-21T21:53,registro operacional
+INC-0197,Salvador,queda de energia,P2,110,352,true,2026-02-21T10:27,2026-02-21T12:17,registro operacional
+INC-0198,Eunápolis,manutenção programada,P4,85,79,true,2026-05-08T15:25,2026-05-08T16:50,registro operacional
+INC-0199,Feira de Santana,erro de configuração,P3,179,90,false,2026-03-25T22:14,,registro operacional
+INC-0200,Salvador,falha de equipamento,P1,316,640,true,2026-06-12T12:40,2026-06-12T17:56,registro operacional
+INC-0201,Vitória da Conquista,rompimento de fibra,P3,99,104,true,2026-04-30T15:12,2026-04-30T16:51,registro operacional
+INC-0202,Ilhéus,manutenção programada,P3,43,128,true,2026-06-08T17:38,2026-06-08T18:21,registro operacional
+INC-0203,Vitória da Conquista,manutenção programada,P4,10,29,true,2026-04-27T21:19,2026-04-27T21:29,registro operacional
+INC-0204,Salvador,manutenção programada,P3,58,96,true,2026-01-17T15:11,2026-01-17T16:09,
+INC-0205,Ilhéus,manutenção programada,P3,30,122,true,2026-03-06T19:34,2026-03-06T20:04,registro operacional
+INC-0206,Ilhéus,rompimento de fibra,P3,113,96,true,2026-04-07T12:19,2026-04-07T14:12,registro operacional
+INC-0207,Eunápolis,falha de equipamento,P4,87,76,true,2026-03-28T08:37,2026-03-28T10:04,registro operacional
+INC-0208,Salvador,manutenção programada,P2,213,188,false,2026-08-22T17:47,,registro operacional
+INC-0209,Feira de Santana,manutenção programada,P3,109,110,true,2026-03-22T18:41,2026-03-22T20:30,registro operacional
+INC-0210,Feira de Santana,manutenção programada,P3,41,94,true,2026-03-22T17:02,2026-03-22T17:43,registro operacional
+INC-0211,Vitória da Conquista,queda de energia,P2,216,204,true,2026-04-20T16:10,2026-04-20T19:46,registro operacional
+INC-0212,Feira de Santana,rompimento de fibra,P4,48,22,true,2026-07-17T15:47,2026-07-17T16:35,registro operacional
+INC-0213,Salvador,falha de equipamento,P2,246,288,true,2026-01-27T16:09,2026-01-27T20:15,registro operacional
+INC-0214,Feira de Santana,manutenção programada,P4,84,25,true,2026-02-04T17:41,2026-02-04T19:05,registro operacional
+INC-0215,Feira de Santana,erro de configuração,P4,26,51,true,2026-07-05T14:58,2026-07-05T15:24,registro operacional
+INC-0216,Feira de Santana,falha de equipamento,P3,134,130,true,2026-03-02T16:36,2026-03-02T18:50,registro operacional
+INC-0217,Ilhéus,manutenção programada,P3,166,106,true,2026-04-24T15:22,2026-04-24T18:08,registro operacional
+INC-0218,Vitória da Conquista,rompimento de fibra,P3,61,44,true,2026-07-30T10:54,2026-07-30T11:55,registro operacional
+INC-0219,Salvador,falha de equipamento,P3,115,142,true,2026-05-23T09:15,2026-05-23T11:10,registro operacional
+INC-0220,Eunápolis,rompimento de fibra,P2,86,92,false,2026-03-12T15:10,,registro operacional
+INC-0221,Eunápolis,rompimento de fibra,P4,33,8,false,2026-07-30T15:11,,
+INC-0222,Feira de Santana,rompimento de fibra,P3,115,104,false,2026-03-03T14:05,,registro operacional
+INC-0223,Feira de Santana,rompimento de fibra,P2,70,92,true,2026-08-04T19:41,2026-08-04T20:51,registro operacional
+INC-0224,Eunápolis,manutenção programada,P2,257,260,true,2026-05-02T19:22,2026-05-02T23:39,registro operacional
+INC-0225,Ilhéus,manutenção programada,P1,130,192,true,2026-01-06T11:52,2026-01-06T14:02,registro operacional
+INC-0226,Salvador,queda de energia,P3,48,40,true,2026-07-19T12:25,2026-07-19T13:13,registro operacional
+INC-0227,Ilhéus,manutenção programada,P3,179,136,true,2026-04-29T08:34,2026-04-29T11:33,registro operacional
+INC-0228,Eunápolis,rompimento de fibra,P1,353,336,true,2026-05-29T11:37,2026-05-29T17:30,registro operacional
+INC-0229,Salvador,manutenção programada,P3,81,180,true,2026-05-28T14:36,2026-05-28T15:57,registro operacional
+INC-0230,Ilhéus,rompimento de fibra,P4,13,69,true,2026-05-16T16:47,2026-05-16T17:00,registro operacional
+INC-0231,Vitória da Conquista,rompimento de fibra,P3,140,104,true,2026-01-13T18:20,2026-01-13T20:40,registro operacional
+INC-0232,Salvador,manutenção programada,P3,37,170,true,2026-03-31T11:36,2026-03-31T12:13,registro operacional
+INC-0233,Feira de Santana,erro de configuração,P3,105,96,true,2026-02-05T08:15,2026-02-05T10:00,registro operacional
+INC-0234,Eunápolis,rompimento de fibra,P4,66,13,true,2026-06-12T10:36,2026-06-12T11:42,registro operacional
+INC-0235,Vitória da Conquista,manutenção programada,P2,56,180,false,2026-07-23T10:54,,registro operacional
+INC-0236,Feira de Santana,falha de equipamento,P3,159,174,true,2026-05-03T11:49,2026-05-03T14:28,registro operacional
+INC-0237,Vitória da Conquista,erro de configuração,P3,32,40,true,2026-08-11T18:41,2026-08-11T19:13,registro operacional
+INC-0238,Eunápolis,erro de configuração,P4,61,28,true,2026-08-19T14:05,2026-08-19T15:06,
+INC-0239,Salvador,erro de configuração,P3,152,118,true,2026-03-11T21:10,2026-03-11T23:42,registro operacional
+INC-0240,Vitória da Conquista,falha de equipamento,P3,66,30,true,2026-05-21T12:30,2026-05-21T13:36,registro operacional

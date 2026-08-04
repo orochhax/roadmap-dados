@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** JOINs.
-- **Pasta/arquivo principal:** `semana-05/dia-024-joins.sql`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-024-joins.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Desenhe em Mermaid ou texto o relacionamento entre as quatro tabelas e anote a granularidade de cada uma.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-024-joins.sql`. Faça exatamente estes dois itens.
 
-- [ ] Escreva uma consulta adicional sobre **JOINs** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
-- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
+- [ ] **Em `01-exercicios/dia-024-joins.sql`:** Liste clientes que possuem plano cadastrado, mas não têm nenhum pagamento, usando LEFT JOIN e filtro de nulo.
+- [ ] **Em `01-exercicios/dia-024-joins.sql`:** Conte linhas e clientes distintos antes e depois do join com pagamentos para revelar qualquer multiplicação de registros.
 
 ### Perguntas de checagem
 

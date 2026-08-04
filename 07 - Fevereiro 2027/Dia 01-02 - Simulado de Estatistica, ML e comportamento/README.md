@@ -6,27 +6,27 @@
 
 ### Preparação
 - **Assunto central:** Simulado de Estatística, ML e comportamento.
-- **Pasta/arquivo principal:** `semana-25/dia-124-simulado-de-estatistica-ml-e-comportamento.md`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
 ### Passo a passo completo
-1. [ ] Responda 15 perguntas de estatística: média/mediana, probabilidade, IC, teste, A/B, correlação e viés.
-2. [ ] Responda 15 perguntas de ML: split, leakage, pipeline, métricas, modelos, tuning, calibração e explicabilidade.
-3. [ ] Prepare seis histórias comportamentais em STAR sobre liderança, erro, conflito, aprendizado, prioridade e impacto.
+1. [ ] Responda às 15 perguntas completas de estatística em `01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md`.
+2. [ ] No mesmo arquivo, responda às 15 perguntas completas de ML.
+3. [ ] Preencha os seis enunciados STAR já definidos: liderança, erro, conflito, aprendizado, prioridade e impacto.
 4. [ ] Grave simulado de entrevista de 45 minutos.
 5. [ ] Revise respostas vagas e substitua por evidências concretas.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione uma evidência concreta relacionada a **Simulado de Estatística, ML e comportamento** que possa ser mostrada a um recrutador ou avaliador.
-- [ ] Compare a entrega com uma vaga ou rubrica real e corrija uma lacuna específica sem inventar experiência.
+- [ ] **Em `01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md`:** Escolha a resposta de estatística e a de ML com menor confiança e grave uma nova explicação de dois minutos para cada uma.
+- [ ] **Em `01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md`:** Reescreva uma história STAR vaga incluindo situação, sua ação específica e uma evidência real do resultado.
 
 ### Perguntas de checagem
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. **Referência — atividade 1:** Responda 15 perguntas de estatística: média/mediana, probabilidade, IC, teste, A/B, correlação e viés.
+1. **Referência — atividade 1:** Responda às 15 perguntas completas de estatística no arquivo principal.
 
    **Pergunta:** Em uma questão de **Simulado de Estatística, ML e comportamento**, qual interpretação estatística é mais segura?
 
@@ -36,7 +36,7 @@
 - [ ] D) Ignorar a taxa-base quando a amostra é grande.
 - [ ] E) Usar somente a média para descrever qualquer distribuição.
 
-2. **Referência — atividade 2:** Responda 15 perguntas de ML: split, leakage, pipeline, métricas, modelos, tuning, calibração e explicabilidade.
+2. **Referência — atividade 2:** Responda às 15 perguntas completas de ML no mesmo arquivo.
 
    **Pergunta:** Qual prática evita uma avaliação otimista demais de ML em **Simulado de Estatística, ML e comportamento**?
 
@@ -46,7 +46,7 @@
 - [ ] D) Usar o conjunto de treino como avaliação final.
 - [ ] E) Separar os dados corretamente e impedir que treino ou ajustes usem informações do teste ou do futuro.
 
-3. **Referência — atividade 3:** Prepare seis histórias comportamentais em STAR sobre liderança, erro, conflito, aprendizado, prioridade e impacto.
+3. **Referência — atividade 3:** Preencha os seis enunciados STAR definidos no arquivo principal.
 
    **Pergunta:** Como escolher entre modelos durante **Simulado de Estatística, ML e comportamento**?
 

@@ -12,3 +12,10 @@
 -- 5. [ ] Introduza um filtro em posição errada e demonstre como ele altera o denominador de uma taxa.
 --
 -- Escreva sua solução abaixo desta linha.
+
+-- EXERCÍCIOS EXTRAS ESPECÍFICOS
+-- 1. [ ] Crie uma CTE que filtre P1/P2, outra que agregue impacto por cidade e uma terceira que retorne as três cidades de maior impacto.
+-- ESCREVA AQUI:
+
+-- 2. [ ] Mova o filtro de resolvido entre a primeira e a segunda CTE e registre como o denominador da taxa muda nas duas versões.
+-- ESCREVA AQUI:

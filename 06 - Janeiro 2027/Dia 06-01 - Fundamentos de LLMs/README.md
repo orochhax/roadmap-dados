@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Fundamentos de LLMs.
-- **Pasta/arquivo principal:** `semana-22/dia-106-fundamentos-de-llms.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-106-fundamentos-de-llms.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Liste casos em que LLM não é a solução adequada.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-106-fundamentos-de-llms.py`. Faça exatamente estes dois itens.
 
-- [ ] Teste a solução de **Fundamentos de LLMs** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
-- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
+- [ ] **Em `01-exercicios/dia-106-fundamentos-de-llms.py`:** Use a pergunta 'Explique o problema da minha internet' com temperatura 0 e 0,7 e compare consistência e detalhes inventados.
+- [ ] **Em `01-exercicios/dia-106-fundamentos-de-llms.py`:** Estime custo para 1.500 tokens de entrada e 400 de saída usando preços hipotéticos de R$0,01 e R$0,03 por mil tokens.
 
 ### Perguntas de checagem
 

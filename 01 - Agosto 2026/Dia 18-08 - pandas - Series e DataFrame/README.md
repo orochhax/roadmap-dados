@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** pandas: Series e DataFrame.
-- **Pasta/arquivo principal:** `semana-03/dia-012-pandas-series-e-dataframe.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/pandas_basico.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Ordene pelos maiores impactos, selecione os três principais e confirme manualmente os cálculos.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/pandas_basico.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Aplique a técnica central de **pandas: Series e DataFrame** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
-- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
+- [ ] **Em `01-exercicios/pandas_basico.ipynb`:** Adicione ao DataFrame um incidente de Ilhéus, P2, duração 75 e 120 clientes afetados; refaça o ranking de impacto.
+- [ ] **Em `01-exercicios/pandas_basico.ipynb`:** Em uma cópia, substitua a duração desse registro por valor ausente e observe dtypes, describe() e o cálculo de impacto sem alterar a base original.
 
 ### Perguntas de checagem
 

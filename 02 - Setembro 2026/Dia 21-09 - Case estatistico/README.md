@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Case estatístico.
-- **Pasta/arquivo principal:** `semana-07/dia-035-case-estatistico/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Entregue nota técnica de uma página dizendo o que pode e não pode ser concluído.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Altere uma condição do estudo de **Case estatístico**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
-- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Repita a comparação antes/depois usando somente a cidade com maior número de observações e compare com a conclusão geral.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Inclua uma duração de 2000 minutos no período depois e compare o efeito sobre média, mediana e tamanho de efeito.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Mini-projeto de consolidação.
-- **Pasta/arquivo principal:** `semana-02/dia-010-mini-projeto-de-consolidacao/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Execute o projeto em ambiente virtual novo, grave uma demonstração de até cinco minutos e registre três limitações.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Amplie um dos programas de **Mini-projeto de consolidação** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Adicione ao conjunto de testes um incidente com id duplicado e cidade vazia; faça o relatório informar separadamente os dois problemas.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Execute a aplicação duas vezes com a mesma entrada e confira que resumo.json e relatorio.csv não acumulam linhas da execução anterior.
 
 ### Perguntas de checagem
 

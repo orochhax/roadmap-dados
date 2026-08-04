@@ -5,7 +5,7 @@
 > Congelar o universo e criar uma base versionada cuja disponibilidade temporal possa ser auditada.
 
 ### Preparação
-- **Pasta/arquivo principal:** `13-tcc-final/portfolio-intelligence-lab/`.
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_tcc.md`.
 - **Unidade de análise:** ativo × data de rebalanceamento.
 - **Classes obrigatórias:** ações, ETFs e FIIs.
 
@@ -18,10 +18,10 @@
 6. [ ] Defina baselines, protocolo walk-forward, custos, métricas e critérios de sucesso antes de testar modelos.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_tcc.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: universo, dados e protocolo financeiro** e defina antes o critério de aceitação.
-- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
+- [ ] **Em `01-exercicios/roteiro_tcc.md`:** Teste o protocolo removendo ativos com menos de 252 pregões e registre quantos permanecem por classe.
+- [ ] **Em `01-exercicios/roteiro_tcc.md`:** Formule a objeção 'disponivel_em ainda permite olhar o futuro?' e indique a validação temporal que deverá respondê-la.
 
 ### Perguntas de checagem
 1. Qual informação estaria disponível na data real de cada decisão?

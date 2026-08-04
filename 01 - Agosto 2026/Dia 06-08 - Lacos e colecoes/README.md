@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Laços e coleções.
-- **Pasta/arquivo principal:** `semana-01/dia-004-lacos-e-colecoes.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-004-lacos-e-colecoes.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Teste um incidente duplicado e explique quando um `set` ajuda e quando ele destruiria informação importante.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-004-lacos-e-colecoes.py`. Faça exatamente estes dois itens.
 
-- [ ] Amplie um dos programas de **Laços e coleções** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
+- [ ] **Em `01-exercicios/dia-004-lacos-e-colecoes.py`:** Adicione à lista um incidente de Salvador, causa 'rompimento de fibra', severidade P2 e duração 95; recalcule as frequências e a média da cidade.
+- [ ] **Em `01-exercicios/dia-004-lacos-e-colecoes.py`:** Inclua duas cópias idênticas desse incidente e compare o tamanho da lista com a quantidade de causas únicas, sem remover registros da lista.
 
 ### Perguntas de checagem
 

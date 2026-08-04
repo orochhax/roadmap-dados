@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Case de decisão.
-- **Pasta/arquivo principal:** `semana-11/dia-055-case-de-decisao/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Apresente decisão em uma página, incluindo quem não deve receber ação automatizada.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Case de decisão** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Defina política conservadora com limiar 0,70, equilibrada com 0,50 e agressiva com 0,30; calcule volume e custo no mesmo conjunto.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Crie revisão humana para probabilidades entre 0,45 e 0,55 e conte quantos clientes entram nessa faixa.
 
 ### Perguntas de checagem
 

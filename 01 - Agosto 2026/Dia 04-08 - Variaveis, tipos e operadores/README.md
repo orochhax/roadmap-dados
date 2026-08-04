@@ -6,21 +6,21 @@
 
 ### Preparação
 - **Assunto central:** Variáveis, tipos e operadores.
-- **Pasta/arquivo principal:** `semana-01/dia-002-variaveis-tipos-e-operadores.py`.
-- **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
+- **Pasta/arquivo principal:** `01-exercicios/tipos_operadores.py` e `01-exercicios/metricas_atendimento.py`.
+- **Dados:** Valores iniciais já incluídos nos dois arquivos de exercícios.
 
 ### Passo a passo completo
-1. [ ] Crie `tipos_operadores.py` e declare exemplos de `int`, `float`, `str` e `bool`; use `type()` para registrar o tipo de cada variável.
-2. [ ] Resolva 15 exercícios: preço com desconto; IMC; conversão °C→°F; km/h→m/s; juros simples; comissão; divisão de conta; consumo médio; custo por cliente; taxa de resolução; taxa de reincidência; duração média; arredondamento monetário; comparação de metas; formatação de uma frase com f-string.
-3. [ ] Para cada exercício, peça entradas com `input()`, converta explicitamente o tipo e trate pelo menos uma entrada impossível, como texto no lugar de número ou divisão por zero.
+1. [ ] Em `01-exercicios/tipos_operadores.py`, declare exemplos de `int`, `float`, `str` e `bool`; use `type()` para registrar o tipo de cada variável.
+2. [ ] No mesmo arquivo, resolva os 15 enunciados numerados. Cada exercício já possui valores iniciais; escreva a solução abaixo do respectivo comentário `ESCREVA AQUI`.
+3. [ ] Depois que cada cálculo funcionar com os valores fornecidos, adapte-o para receber entradas com `input()`, converter explicitamente o tipo e tratar texto no lugar de número ou divisão por zero.
 4. [ ] Crie `metricas_atendimento.py` para receber total de chamados, resolvidos, reincidentes e soma das durações; exiba três métricas com duas casas decimais.
 5. [ ] Teste com três cenários definidos: normal `(100, 82, 12, 3450)`, nenhum chamado `(0, 0, 0, 0)` e valores inválidos `(-5, 7, 2, 100)`.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados e os dados destes itens já estão preparados nos arquivos indicados. Implemente somente as soluções.
 
-- [ ] Amplie um dos programas de **Variáveis, tipos e operadores** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
+- [ ] Em `01-exercicios/tipos_operadores.py`, resolva o exercício 16: calcular o adicional por 7 GB excedentes e o total de uma mensalidade de R$ 129,90, cobrando R$ 4,50 por GB.
+- [ ] Em `01-exercicios/metricas_atendimento.py`, processe o cenário comum `(150, 120, 18, 5400)` e faça o programa rejeitar `(10, 12, 1, 300)` porque resolvidos supera o total.
 
 ### Perguntas de checagem
 
@@ -36,7 +36,7 @@
 - [ ] D) Dividir o problema em etapas, usar nomes claros e conferir o comportamento do código.
 - [ ] E) Copiar um código pronto e alterar valores até ele executar.
 
-2. **Referência — atividade 2:** Resolva 15 exercícios: preço com desconto; IMC; conversão °C→°F; km/h→m/s; juros simples; comissão; divisão de conta; consumo médio; custo por cliente; taxa de resolução; taxa de reincidência; duração média; arredondamento monetário; comparação de metas; formatação de uma frase com f-string.
+2. **Referência — atividade 2:** Em `tipos_operadores.py`, resolva os 15 enunciados numerados usando primeiro os valores iniciais fornecidos em cada seção.
 
    **Pergunta:** Qual prática reduz mais o risco de erro em um programa relacionado a **Variáveis, tipos e operadores**?
 
@@ -46,7 +46,7 @@
 - [ ] D) Aceitar qualquer entrada e corrigir somente se o programa fechar.
 - [ ] E) Remover mensagens de erro para deixar o terminal mais limpo.
 
-3. **Referência — atividade 3:** Para cada exercício, peça entradas com `input()`, converta explicitamente o tipo e trate pelo menos uma entrada impossível, como texto no lugar de número ou divisão por zero.
+3. **Referência — atividade 3:** Depois dos testes com os valores fornecidos, adapte cada cálculo para `input()`, conversão explícita e tratamento de entrada impossível.
 
    **Pergunta:** Qual teste fornece a verificação mais completa para um exercício de **Variáveis, tipos e operadores**?
 

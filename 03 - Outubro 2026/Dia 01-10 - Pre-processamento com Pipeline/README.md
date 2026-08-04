@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Pré-processamento com Pipeline.
-- **Pasta/arquivo principal:** `semana-09/dia-043-pre-processamento-com-pipeline.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-043-pre-processamento-com-pipeline.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Salve e recarregue a pipeline; compare previsões antes e depois para garantir igualdade.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-043-pre-processamento-com-pipeline.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Pré-processamento com Pipeline** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-043-pre-processamento-com-pipeline.ipynb`:** Passe à pipeline uma linha com plano='Plano Experimental' e confirme que handle_unknown='ignore' evita falha.
+- [ ] **Em `01-exercicios/dia-043-pre-processamento-com-pipeline.ipynb`:** Passe outra linha com mensalidade ausente e registre a transformação aplicada sem ajustar novamente a pipeline.
 
 ### Perguntas de checagem
 

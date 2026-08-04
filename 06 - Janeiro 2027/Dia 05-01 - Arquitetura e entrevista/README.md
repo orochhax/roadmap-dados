@@ -6,21 +6,21 @@
 
 ### Preparação
 - **Assunto central:** Arquitetura e entrevista.
-- **Pasta/arquivo principal:** `semana-21/dia-105-arquitetura-e-entrevista/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/perguntas_entrevista.md`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
 1. [ ] Desenhe a arquitetura final do sistema de churn/risco com dados, pipeline, modelo, API e monitoramento.
-2. [ ] Prepare respostas para 15 perguntas de entrevista sobre cloud, Docker, API, CI, drift e segurança.
+2. [ ] Responda às 15 perguntas completas já organizadas em `01-exercicios/perguntas_entrevista.md`.
 3. [ ] Execute uma entrevista simulada de 30 minutos gravada.
 4. [ ] Revise respostas imprecisas e escreva versões melhores.
 5. [ ] Entregue projeto mensal reproduzível e implantável com checklist aprovado.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/perguntas_entrevista.md`. Faça exatamente estes dois itens.
 
-- [ ] Compare duas opções de arquitetura para **Arquitetura e entrevista** em um cenário pequeno e em outro com crescimento de volume.
-- [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
+- [ ] **Em `01-exercicios/perguntas_entrevista.md`:** Adapte a arquitetura para crescimento de 10 GB para 1 TB por dia e identifique os dois componentes que precisam mudar.
+- [ ] **Em `01-exercicios/perguntas_entrevista.md`:** Simule indisponibilidade do serviço de modelo e explique health check, fallback e procedimento de rollback.
 
 ### Perguntas de checagem
 1. Como explicar uma arquitetura indicando fluxo, falhas, segurança, custo e alternativas?

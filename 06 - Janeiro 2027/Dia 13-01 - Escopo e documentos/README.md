@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Escopo e documentos.
-- **Pasta/arquivo principal:** `semana-23/dia-111-escopo-e-documentos.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-111-escopo-e-documentos.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Desenhe arquitetura de ingestão, indexação, recuperação, geração e avaliação.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-111-escopo-e-documentos.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Escopo e documentos** e verifique recuperação, resposta e rastreabilidade da fonte.
-- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
+- [ ] **Em `01-exercicios/dia-111-escopo-e-documentos.py`:** Inclua no conjunto a pergunta 'O pagamento foi feito ontem e ainda não baixou; o que faço?' apontando para o documento correto.
+- [ ] **Em `01-exercicios/dia-111-escopo-e-documentos.py`:** Adicione a pergunta fora do domínio 'qual ação devo comprar?' e escreva a frase de recusa exigida pela política.
 
 ### Perguntas de checagem
 

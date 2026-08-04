@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** CI e versão estável.
-- **Pasta/arquivo principal:** `semana-19/dia-095-ci-e-versao-estavel/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Faça revisão final usando checklist de PR.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione ao artefato de **CI e versão estável** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
-- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Acrescente à CI uma etapa que execute pytest e outra que verifique formatação; faça ambas rodarem em pull request.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Crie um teste que falha, observe a CI bloquear, corrija e registre os dois commits separadamente.
 
 ### Perguntas de checagem
 

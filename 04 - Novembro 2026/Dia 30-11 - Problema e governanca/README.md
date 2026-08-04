@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Problema e governança.
-- **Pasta/arquivo principal:** `semana-17/dia-081-problema-e-governanca.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-081-problema-e-governanca.ipynb`.
 - **Dados:** `dados/credito.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva critérios de sucesso técnico, econômico e de equidade.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-081-problema-e-governanca.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Avalie **Problema e governança** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
-- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
+- [ ] **Em `01-exercicios/dia-081-problema-e-governanca.ipynb`:** Acrescente à política a regra de revisão humana para probabilidade entre 0,40 e 0,60 e calcule o volume dessa faixa.
+- [ ] **Em `01-exercicios/dia-081-problema-e-governanca.ipynb`:** Liste quais colunas seriam removidas se contivessem atributo sensível ou uma proxy direta de renda familiar protegida.
 
 ### Perguntas de checagem
 

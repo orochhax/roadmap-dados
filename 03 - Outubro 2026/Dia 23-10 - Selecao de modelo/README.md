@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Seleção de modelo.
-- **Pasta/arquivo principal:** `semana-12/dia-059-selecao-de-modelo.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-059-selecao-de-modelo.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva decisão com trade-offs, não apenas ranking.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-059-selecao-de-modelo.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Seleção de modelo** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-059-selecao-de-modelo.ipynb`:** Refaça o ranking dando peso dobrado ao custo e depois peso dobrado à explicabilidade; registre se campeão e challenger mudam.
+- [ ] **Em `01-exercicios/dia-059-selecao-de-modelo.ipynb`:** Use bootstrap com seed 42 para comparar os dois melhores em 200 reamostragens do conjunto de validação.
 
 ### Perguntas de checagem
 

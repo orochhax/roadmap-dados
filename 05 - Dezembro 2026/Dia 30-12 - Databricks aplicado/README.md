@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Databricks aplicado.
-- **Pasta/arquivo principal:** `semana-21/dia-103-databricks-aplicado.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-103-databricks-aplicado.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Documente diferenças entre ambiente local e plataforma.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-103-databricks-aplicado.py`. Faça exatamente estes dois itens.
 
-- [ ] Compare duas opções de arquitetura para **Databricks aplicado** em um cenário pequeno e em outro com crescimento de volume.
-- [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
+- [ ] **Em `01-exercicios/dia-103-databricks-aplicado.py`:** Reexecute o treino com um parâmetro alterado e registre as duas execuções com nomes e métricas diferentes.
+- [ ] **Em `01-exercicios/dia-103-databricks-aplicado.py`:** Remova uma coluna obrigatória do DataFrame Spark e faça a validação parar antes da feature table.
 
 ### Perguntas de checagem
 

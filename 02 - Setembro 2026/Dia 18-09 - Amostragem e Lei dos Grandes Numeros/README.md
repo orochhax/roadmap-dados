@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Amostragem e Lei dos Grandes Números.
-- **Pasta/arquivo principal:** `semana-07/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva como tamanho, aleatoriedade e representatividade afetam uma pesquisa empresarial.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Altere uma condição do estudo de **Amostragem e Lei dos Grandes Números**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
-- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
+- [ ] **Em `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`:** Compare as distribuições das médias usando amostras de tamanho 50 e 500 com a mesma população e seed 42.
+- [ ] **Em `01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb`:** Crie uma amostra apenas de Salvador e outra aleatória com o mesmo tamanho; compare o erro das duas em relação à população.
 
 ### Perguntas de checagem
 

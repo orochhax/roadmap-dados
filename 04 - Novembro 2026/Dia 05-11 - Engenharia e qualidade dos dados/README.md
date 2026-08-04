@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Engenharia e qualidade dos dados.
-- **Pasta/arquivo principal:** `semana-14/dia-067-engenharia-e-qualidade-dos-dados.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-067-engenharia-e-qualidade-dos-dados.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Registre quantidade de linhas alteradas ou removidas e impacto na taxa de churn.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-067-engenharia-e-qualidade-dos-dados.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Engenharia e qualidade dos dados**.
-- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
+- [ ] **Em `01-exercicios/dia-067-engenharia-e-qualidade-dos-dados.ipynb`:** Crie uma linha com NPS=11 e outra com mensalidade=-1 e faça a validação listar os dois erros separadamente.
+- [ ] **Em `01-exercicios/dia-067-engenharia-e-qualidade-dos-dados.ipynb`:** Compare a taxa de churn antes e depois de remover somente registros realmente inválidos e registre quantas linhas mudaram.
 
 ### Perguntas de checagem
 

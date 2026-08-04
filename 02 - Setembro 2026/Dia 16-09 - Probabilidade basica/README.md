@@ -6,27 +6,27 @@
 
 ### Preparação
 - **Assunto central:** Probabilidade básica.
-- **Pasta/arquivo principal:** `semana-07/dia-032-probabilidade-basica.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-032-probabilidade-basica.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
 ### Passo a passo completo
-1. [ ] Resolva 12 problemas de probabilidade: complemento, união, interseção, condicional, independência e Bayes em contexto de churn/fraude.
+1. [ ] Resolva no notebook os 12 problemas completos e numerados de probabilidade; todos os números necessários já aparecem nos enunciados.
 2. [ ] Construa uma tabela 2x2 com 1.000 clientes, 100 churns e um alerta com sensibilidade 80% e falso positivo 20%; calcule `P(churn|alerta)`.
 3. [ ] Simule 10.000 lançamentos de moeda e dados com NumPy; compare frequência observada e probabilidade teórica.
 4. [ ] Crie dois eventos independentes e dois dependentes em dados sintéticos; mostre numericamente a diferença.
 5. [ ] Escreva três erros comuns ao interpretar probabilidade condicional.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-032-probabilidade-basica.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Altere uma condição do estudo de **Probabilidade básica**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
-- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
+- [ ] **Em `01-exercicios/dia-032-probabilidade-basica.ipynb`:** Refaça o problema de Bayes com 2.000 clientes, 160 churns, sensibilidade de 75% e falso positivo de 10%.
+- [ ] **Em `01-exercicios/dia-032-probabilidade-basica.ipynb`:** Simule 100, 1.000 e 10.000 lançamentos da mesma moeda com seed 42 e compare a distância entre frequência e probabilidade teórica.
 
 ### Perguntas de checagem
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. **Referência — atividade 1:** Resolva 12 problemas de probabilidade: complemento, união, interseção, condicional, independência e Bayes em contexto de churn/fraude.
+1. **Referência — atividade 1:** Resolva os 12 problemas completos e numerados no notebook, usando os números fornecidos em cada enunciado.
 
    **Pergunta:** Ao estudar **Probabilidade básica**, por que uma única medida-resumo pode ser insuficiente?
 

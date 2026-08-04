@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Árvore de decisão.
-- **Pasta/arquivo principal:** `semana-12/dia-056-arvore-de-decisao.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-056-arvore-de-decisao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie uma árvore deliberadamente complexa e explique por que não deve ser usada apesar da métrica de treino.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-056-arvore-de-decisao.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Árvore de decisão** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-056-arvore-de-decisao.ipynb`:** Compare profundidade 3 e 10 com min_samples_leaf=20 no mesmo split e registre treino e validação.
+- [ ] **Em `01-exercicios/dia-056-arvore-de-decisao.ipynb`:** Escolha uma previsão errada da árvore profunda e escreva as regras percorridas até a folha.
 
 ### Perguntas de checagem
 

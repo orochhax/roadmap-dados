@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Validação cruzada e tuning.
-- **Pasta/arquivo principal:** `semana-13/dia-062-validacao-cruzada-e-tuning.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-062-validacao-cruzada-e-tuning.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Compare melhor configuração com padrão e avalie se ganho compensa complexidade.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-062-validacao-cruzada-e-tuning.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Validação cruzada e tuning** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-062-validacao-cruzada-e-tuning.ipynb`:** Compare StratifiedKFold com 3 e 5 folds usando a mesma pipeline e registre média, desvio e tempo.
+- [ ] **Em `01-exercicios/dia-062-validacao-cruzada-e-tuning.ipynb`:** Confirme no código que o conjunto de teste final não aparece em fit, busca de parâmetros ou escolha da configuração.
 
 ### Perguntas de checagem
 

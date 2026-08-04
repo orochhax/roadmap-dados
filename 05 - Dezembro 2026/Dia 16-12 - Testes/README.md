@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Testes.
-- **Pasta/arquivo principal:** `semana-19/dia-093-testes.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-093-testes.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Introduza um bug proposital, confirme falha e depois corrija.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-093-testes.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione ao artefato de **Testes** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
-- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
+- [ ] **Em `01-exercicios/dia-093-testes.py`:** Crie um teste para duração negativa e outro para divisão de custo quando total=0 usando fixtures pequenas.
+- [ ] **Em `01-exercicios/dia-093-testes.py`:** Remova temporariamente uma coluna obrigatória da fixture de integração e confirme que o teste falha antes da previsão.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Entrega de experimento.
-- **Pasta/arquivo principal:** `semana-08/dia-040-entrega-de-experimento/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Apresente em oito minutos: problema, desenho, resultado, impacto, riscos e próxima decisão.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Altere uma condição do estudo de **Entrega de experimento**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
-- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Refaça a regra de decisão usando efeito mínimo relevante de 1,0 ponto percentual e compare com a regra de 1,5 ponto.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Remova uma cidade por vez da análise, registre efeito e intervalo e identifique se a decisão depende de um único segmento.
 
 ### Perguntas de checagem
 1. Como decidir uma ação quando o resultado é inconclusivo, mas o negócio exige uma escolha?

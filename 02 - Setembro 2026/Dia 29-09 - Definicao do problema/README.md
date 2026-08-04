@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Definição do problema.
-- **Pasta/arquivo principal:** `semana-09/dia-041-definicao-do-problema.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-041-definicao-do-problema.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva `problem_statement.md` com objetivo, restrições, métrica primária, métricas secundárias e critério de sucesso.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-041-definicao-do-problema.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Definição do problema** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-041-definicao-do-problema.ipynb`:** Altere no problem statement o custo de falso negativo de R$500 para R$800 e revise somente métrica primária e critério de sucesso afetados.
+- [ ] **Em `01-exercicios/dia-041-definicao-do-problema.ipynb`:** Classifique status_atual, data_cancelamento e motivo_cancelamento como leakage e escreva em que momento cada coluna fica disponível.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Recuperação.
-- **Pasta/arquivo principal:** `semana-23/dia-113-recuperacao.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-113-recuperacao.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Faça análise de 10 erros e ajuste chunking ou consulta.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-113-recuperacao.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Recuperação** e verifique recuperação, resposta e rastreabilidade da fonte.
-- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
+- [ ] **Em `01-exercicios/dia-113-recuperacao.py`:** Execute retrieve('luz LOS vermelha', k=1,3,5) e registre posição do documento correto em cada execução.
+- [ ] **Em `01-exercicios/dia-113-recuperacao.py`:** Aplique filtro de metadados para versão 1.0 e teste uma versão inexistente sem retornar documentos indevidos.
 
 ### Perguntas de checagem
 

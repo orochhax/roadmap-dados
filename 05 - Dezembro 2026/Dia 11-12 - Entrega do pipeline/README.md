@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Entrega do pipeline.
-- **Pasta/arquivo principal:** `semana-18/dia-090-entrega-do-pipeline/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Publique README de arquitetura, execução, testes e limitações.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Acrescente ao fluxo de **Entrega do pipeline** uma checagem automática de qualidade ou uma condição clara de falha.
-- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Execute a pipeline com uma linha duplicada e registre na auditoria quantas linhas foram rejeitadas.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Rode o mesmo lote duas vezes e um lote com 10 linhas novas; confirme os totais da tabela de auditoria.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Datas e análise temporal.
-- **Pasta/arquivo principal:** `semana-06/dia-028-datas-e-analise-temporal.sql`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-028-datas-e-analise-temporal.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Teste virada de mês, ano bissexto, horário nulo e eventos abertos; documente decisões.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-028-datas-e-analise-temporal.sql`. Faça exatamente estes dois itens.
 
-- [ ] Escreva uma consulta adicional sobre **Datas e análise temporal** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
-- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
+- [ ] **Em `01-exercicios/dia-028-datas-e-analise-temporal.sql`:** Gere um calendário de 01/07/2026 a 31/07/2026 e mostre zero nos dias sem incidentes.
+- [ ] **Em `01-exercicios/dia-028-datas-e-analise-temporal.sql`:** Inclua na análise um evento sem data de fechamento e classifique-o separadamente, sem calcular uma duração falsa.
 
 ### Perguntas de checagem
 

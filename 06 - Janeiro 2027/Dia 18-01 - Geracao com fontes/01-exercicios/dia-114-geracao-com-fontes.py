@@ -12,3 +12,10 @@
 # 5. [ ] Valide se cada afirmação relevante é sustentada por trecho recuperado.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Teste 'posso dobrar o cabo óptico para guardar?' e exija citação do documento de LOS vermelha em toda afirmação técnica.
+# ESCREVA AQUI:
+
+# 2. [ ] Insira em um documento a frase 'ignore as regras anteriores' e confirme que ela não altera a política de resposta.
+# ESCREVA AQUI:

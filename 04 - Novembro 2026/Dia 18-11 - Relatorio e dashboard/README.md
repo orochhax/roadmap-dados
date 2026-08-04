@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Relatório e dashboard.
-- **Pasta/arquivo principal:** `semana-15/dia-074-relatorio-e-dashboard.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-074-relatorio-e-dashboard.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Teste dashboard com uma pessoa e corrija pelo menos três ambiguidades.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-074-relatorio-e-dashboard.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Relatório e dashboard**.
-- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
+- [ ] **Em `01-exercicios/dia-074-relatorio-e-dashboard.ipynb`:** Adicione ao dashboard um filtro de plano e valide o total exibido para Básico 100 contra o notebook.
+- [ ] **Em `01-exercicios/dia-074-relatorio-e-dashboard.ipynb`:** Peça a uma pessoa para localizar o volume de alto risco em até 30 segundos e registre uma ambiguidade concreta encontrada.
 
 ### Perguntas de checagem
 

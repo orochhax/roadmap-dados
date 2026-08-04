@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Limiar e estratégia de retenção.
-- **Pasta/arquivo principal:** `semana-15/dia-072-limiar-e-estrategia-de-retencao.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-072-limiar-e-estrategia-de-retencao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie regras de exclusão para evitar ofertas inadequadas.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-072-limiar-e-estrategia-de-retencao.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Limiar e estratégia de retenção**.
-- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
+- [ ] **Em `01-exercicios/dia-072-limiar-e-estrategia-de-retencao.ipynb`:** Simule orçamento suficiente para abordar somente 100 clientes e selecione pelo maior benefício esperado.
+- [ ] **Em `01-exercicios/dia-072-limiar-e-estrategia-de-retencao.ipynb`:** Aumente o custo da campanha em 50% e recalcule retorno e ponto de equilíbrio sem alterar probabilidades.
 
 ### Perguntas de checagem
 

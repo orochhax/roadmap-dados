@@ -12,3 +12,10 @@
 # 5. [ ] Escolha estratégia com base em 10 perguntas de avaliação.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Compare chunking por seção e por 300 caracteres nos documentos de LOS vermelha e pagamento não reconhecido.
+# ESCREVA AQUI:
+
+# 2. [ ] Use as duas perguntas desses documentos, registre quantidade/tamanho dos chunks e escolha pela recuperação observada.
+# ESCREVA AQUI:

@@ -12,3 +12,10 @@
 # 5. [ ] Crie uma tabela de testes com oito casos e confirme que nenhuma linha inválida entra silenciosamente no arquivo final.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Adicione uma linha com duracao_min=-10 ao arquivo de teste e faça validar_linha() registrar 'duração negativa' sem interromper as demais linhas.
+# ESCREVA AQUI:
+
+# 2. [ ] Repita um mesmo id em duas linhas válidas e acrescente uma validação que envie a segunda ocorrência para dados_rejeitados.csv.
+# ESCREVA AQUI:

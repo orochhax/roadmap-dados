@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Testes de hipótese.
-- **Pasta/arquivo principal:** `semana-08/dia-037-testes-de-hipotese.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-037-testes-de-hipotese.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva decisão usando significância, efeito, intervalo e custo, sem depender só de p-valor.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-037-testes-de-hipotese.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Altere uma condição do estudo de **Testes de hipótese**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
-- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
+- [ ] **Em `01-exercicios/dia-037-testes-de-hipotese.ipynb`:** Repita o teste de médias usando alpha=0,01 e alpha=0,05 e escreva se a decisão muda sem alterar os dados.
+- [ ] **Em `01-exercicios/dia-037-testes-de-hipotese.ipynb`:** Acrescente um outlier de 1500 minutos a uma cidade, refaça suposições e tamanho de efeito e compare com a análise original.
 
 ### Perguntas de checagem
 

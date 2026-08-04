@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Explicabilidade e segmentos.
-- **Pasta/arquivo principal:** `semana-15/dia-073-explicabilidade-e-segmentos.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-073-explicabilidade-e-segmentos.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva exemplos de mensagens operacionais para o time de retenção sem expor informações sensíveis.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-073-explicabilidade-e-segmentos.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Explicabilidade e segmentos**.
-- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
+- [ ] **Em `01-exercicios/dia-073-explicabilidade-e-segmentos.ipynb`:** Explique três clientes de alto risco e alto valor e três de alto risco e baixo valor com o mesmo método.
+- [ ] **Em `01-exercicios/dia-073-explicabilidade-e-segmentos.ipynb`:** Compare recall e precision entre Salvador e Feira de Santana e informe o número de casos em cada cidade.
 
 ### Perguntas de checagem
 

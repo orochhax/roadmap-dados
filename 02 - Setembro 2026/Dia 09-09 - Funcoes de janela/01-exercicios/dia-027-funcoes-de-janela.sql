@@ -12,3 +12,10 @@
 -- 5. [ ] Compare uma solução com função de janela a outra com `GROUP BY` e explique por que elas respondem perguntas diferentes.
 --
 -- Escreva sua solução abaixo desta linha.
+
+-- EXERCÍCIOS EXTRAS ESPECÍFICOS
+-- 1. [ ] Retorne os dois maiores impactos por cidade com DENSE_RANK e mantenha todos os empates na segunda posição.
+-- ESCREVA AQUI:
+
+-- 2. [ ] Crie três linhas empatadas para uma cidade em uma CTE de valores e compare ROW_NUMBER, RANK e DENSE_RANK nessa entrada.
+-- ESCREVA AQUI:

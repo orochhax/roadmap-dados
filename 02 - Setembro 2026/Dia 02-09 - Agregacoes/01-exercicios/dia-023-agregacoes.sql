@@ -12,3 +12,10 @@
 -- 5. [ ] Crie uma tabela de validação manual para duas cidades e confirme os agregados linha por linha.
 --
 -- Escreva sua solução abaixo desta linha.
+
+-- EXERCÍCIOS EXTRAS ESPECÍFICOS
+-- 1. [ ] Agrupe por cidade e mantenha apenas grupos com pelo menos 10 incidentes e duração média acima de 90 minutos.
+-- ESCREVA AQUI:
+
+-- 2. [ ] Escolha uma cidade do resultado e confira em outra consulta COUNT, SUM(duracao_min) e AVG(duracao_min) sem usar o agrupamento final.
+-- ESCREVA AQUI:

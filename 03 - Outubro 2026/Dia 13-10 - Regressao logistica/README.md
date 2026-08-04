@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Regressão logística.
-- **Pasta/arquivo principal:** `semana-11/dia-051-regressao-logistica.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-051-regressao-logistica.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Teste multicolinearidade e regularização; documente estabilidade dos coeficientes.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-051-regressao-logistica.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Regressão logística** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-051-regressao-logistica.ipynb`:** Treine a logística com C=0,1 e C=10 no mesmo split e compare cinco coeficientes padronizados.
+- [ ] **Em `01-exercicios/dia-051-regressao-logistica.ipynb`:** Avalie probabilidades no grupo chamados_90d>=3 e compare a média com o grupo chamados_90d<3.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Entrega do projeto.
-- **Pasta/arquivo principal:** `semana-17/dia-085-entrega-do-projeto/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/credito.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Registre limitações e plano de monitoramento pós-implantação.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Avalie **Entrega do projeto** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
-- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Inclua no model card a métrica temporal final e o desempenho para contratos de baixa renda, com tamanho do grupo.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Simule aumento de 20% na taxa de default e registre qual regra da política precisaria de revisão.
 
 ### Perguntas de checagem
 1. Como defender uma política de risco para negócio, tecnologia e governança ao mesmo tempo?

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Regressão linear.
-- **Pasta/arquivo principal:** `semana-10/dia-046-regressao-linear.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-046-regressao-linear.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie uma relação não linear e demonstre por que regressão linear simples falha.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-046-regressao-linear.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Regressão linear** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-046-regressao-linear.ipynb`:** Gere uma segunda amostra y=3x+5 com ruído de desvio 25 em vez de 5 e compare coeficiente, intercepto e RMSE.
+- [ ] **Em `01-exercicios/dia-046-regressao-linear.ipynb`:** Separe os pedidos acima do percentil 90 e compare o erro desse grupo com o restante.
 
 ### Perguntas de checagem
 

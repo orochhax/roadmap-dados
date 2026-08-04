@@ -12,3 +12,10 @@
 -- 5. [ ] Teste virada de mês, ano bissexto, horário nulo e eventos abertos; documente decisões.
 --
 -- Escreva sua solução abaixo desta linha.
+
+-- EXERCÍCIOS EXTRAS ESPECÍFICOS
+-- 1. [ ] Gere um calendário de 01/07/2026 a 31/07/2026 e mostre zero nos dias sem incidentes.
+-- ESCREVA AQUI:
+
+-- 2. [ ] Inclua na análise um evento sem data de fechamento e classifique-o separadamente, sem calcular uma duração falsa.
+-- ESCREVA AQUI:

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Dados e cohorts.
-- **Pasta/arquivo principal:** `semana-17/dia-082-dados-e-cohorts.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-082-dados-e-cohorts.ipynb`.
 - **Dados:** `dados/credito.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie dicionário de features e regras de exclusão.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-082-dados-e-cohorts.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Avalie **Dados e cohorts** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
-- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
+- [ ] **Em `01-exercicios/dia-082-dados-e-cohorts.ipynb`:** Compare default para renda abaixo de R$3.000 e acima de R$8.000, informando também o tamanho dos grupos.
+- [ ] **Em `01-exercicios/dia-082-dados-e-cohorts.ipynb`:** Separe os últimos três meses de concessão e compare a distribuição das cinco principais variáveis com o período anterior.
 
 ### Perguntas de checagem
 

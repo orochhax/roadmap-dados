@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Funções e primeiro mini-projeto.
-- **Pasta/arquivo principal:** `semana-01/dia-005-funcoes-e-primeiro-mini-projeto/` (pasta do projeto).
+- **Pasta/arquivo principal:** `projeto-semanal/src/noc_insights.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie `testes_manuais.md` com 10 cenários, entrada usada, resultado obtido e status aprovado/reprovado.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `projeto-semanal/src/noc_insights.py`. Faça exatamente estes dois itens.
 
-- [ ] Amplie um dos programas de **Funções e primeiro mini-projeto** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
+- [ ] **Em `projeto-semanal/src/noc_insights.py`:** Adicione ao menu a opção 'listar somente P1 e P2' e faça essa opção chamar uma função separada que receba a lista de incidentes.
+- [ ] **Em `projeto-semanal/src/noc_insights.py`:** Teste o novo filtro com uma lista que contém um P1 e um P4 e depois com uma lista vazia; registre os dois comportamentos em testes_manuais.md.
 
 ### Perguntas de checagem
 

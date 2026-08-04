@@ -12,3 +12,10 @@
 # 5. [ ] Teste um incidente duplicado e explique quando um `set` ajuda e quando ele destruiria informação importante.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Adicione à lista um incidente de Salvador, causa 'rompimento de fibra', severidade P2 e duração 95; recalcule as frequências e a média da cidade.
+# ESCREVA AQUI:
+
+# 2. [ ] Inclua duas cópias idênticas desse incidente e compare o tamanho da lista com a quantidade de causas únicas, sem remover registros da lista.
+# ESCREVA AQUI:

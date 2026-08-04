@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Ingestão e chunking.
-- **Pasta/arquivo principal:** `semana-23/dia-112-ingestao-e-chunking.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-112-ingestao-e-chunking.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escolha estratégia com base em 10 perguntas de avaliação.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-112-ingestao-e-chunking.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Ingestão e chunking** e verifique recuperação, resposta e rastreabilidade da fonte.
-- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
+- [ ] **Em `01-exercicios/dia-112-ingestao-e-chunking.py`:** Compare chunking por seção e por 300 caracteres nos documentos de LOS vermelha e pagamento não reconhecido.
+- [ ] **Em `01-exercicios/dia-112-ingestao-e-chunking.py`:** Use as duas perguntas desses documentos, registre quantidade/tamanho dos chunks e escolha pela recuperação observada.
 
 ### Perguntas de checagem
 

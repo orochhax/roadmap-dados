@@ -12,3 +12,10 @@
 # 5. [ ] Salve resultado em Parquet e explique quando Spark é desnecessário.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Filtre clientes com chamados_90d>=3, agrupe por cidade e compare o resultado Spark com pandas.
+# ESCREVA AQUI:
+
+# 2. [ ] Remova a coluna cliente_id da entrada e faça a checagem de esquema impedir o processamento.
+# ESCREVA AQUI:

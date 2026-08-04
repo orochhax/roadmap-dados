@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** MLOps introdutório.
-- **Pasta/arquivo principal:** `semana-21/dia-104-mlops-introdutorio.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-104-mlops-introdutorio.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva processo de rollback.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-104-mlops-introdutorio.py`. Faça exatamente estes dois itens.
 
-- [ ] Compare duas opções de arquitetura para **MLOps introdutório** em um cenário pequeno e em outro com crescimento de volume.
-- [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
+- [ ] **Em `01-exercicios/dia-104-mlops-introdutorio.py`:** Defina alerta de drift quando PSI superar 0,20 e registre quem revisa e em quanto tempo.
+- [ ] **Em `01-exercicios/dia-104-mlops-introdutorio.py`:** Simule challenger 2% melhor na métrica, mas 4 vezes mais lento; aplique os critérios do model card para decidir.
 
 ### Perguntas de checagem
 

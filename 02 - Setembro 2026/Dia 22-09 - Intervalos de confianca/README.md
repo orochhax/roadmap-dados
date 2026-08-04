@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Intervalos de confiança.
-- **Pasta/arquivo principal:** `semana-08/dia-036-intervalos-de-confianca.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-036-intervalos-de-confianca.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Explique a interpretação correta de um IC de 95% sem dizer que há 95% de chance do parâmetro estar dentro do intervalo.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-036-intervalos-de-confianca.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Altere uma condição do estudo de **Intervalos de confiança**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
-- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
+- [ ] **Em `01-exercicios/dia-036-intervalos-de-confianca.ipynb`:** Calcule IC de 95% para as primeiras 50 durações por método paramétrico e bootstrap com seed 42; compare as larguras.
+- [ ] **Em `01-exercicios/dia-036-intervalos-de-confianca.ipynb`:** Repita com uma amostra constante [60, 60, 60, 60, 60] e trate explicitamente a ausência de variabilidade.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Avaliação de aplicações LLM.
-- **Pasta/arquivo principal:** `semana-22/dia-109-avaliacao-de-aplicacoes-llm.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-109-avaliacao-de-aplicacoes-llm.py`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie tabela de erros por causa: recuperação, prompt, contexto, modelo ou dados.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-109-avaliacao-de-aplicacoes-llm.py`. Faça exatamente estes dois itens.
 
-- [ ] Teste a solução de **Avaliação de aplicações LLM** com uma solicitação ambígua ou adversarial e registre comportamento esperado e observado.
-- [ ] Compare duas versões de prompt, esquema ou configuração usando exatamente os mesmos casos de teste.
+- [ ] **Em `01-exercicios/dia-109-avaliacao-de-aplicacoes-llm.py`:** Inclua a pergunta 'Posso desconectar o cabo óptico quando a LOS está vermelha?' com a fonte correta no conjunto de avaliação.
+- [ ] **Em `01-exercicios/dia-109-avaliacao-de-aplicacoes-llm.py`:** Compare a mesma avaliação com k=1 e k=5 e registre precision@k, recall@k e erros recuperados.
 
 ### Perguntas de checagem
 

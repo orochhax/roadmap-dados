@@ -12,3 +12,10 @@
 # 5. [ ] Liste riscos de segurança, disponibilidade e lock-in.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Compare a arquitetura para 10 GB por dia e 1 TB por dia, mantendo os mesmos requisitos de segurança.
+# ESCREVA AQUI:
+
+# 2. [ ] Retire a permissão de escrita da API no armazenamento bruto e explique qual operação continua permitida pelo menor privilégio.
+# ESCREVA AQUI:

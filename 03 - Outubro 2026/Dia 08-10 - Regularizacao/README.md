@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Regularização.
-- **Pasta/arquivo principal:** `semana-10/dia-048-regularizacao.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-048-regularizacao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escolha um modelo equilibrando erro, estabilidade e interpretação.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-048-regularizacao.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Regularização** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-048-regularizacao.ipynb`:** Compare Ridge e Lasso com alpha 0,01 e 10, mantendo split e escala iguais, e registre coeficientes e RMSE.
+- [ ] **Em `01-exercicios/dia-048-regularizacao.ipynb`:** Duplique uma feature numérica com ruído mínimo e verifique como os coeficientes mudam nos três modelos.
 
 ### Perguntas de checagem
 

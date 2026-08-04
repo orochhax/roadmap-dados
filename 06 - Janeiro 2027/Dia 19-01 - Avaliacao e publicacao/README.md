@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Avaliação e publicação.
-- **Pasta/arquivo principal:** `semana-23/dia-115-avaliacao-e-publicacao/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `documentos_suporte/` e conjunto de perguntas criado conforme o roteiro.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Publique relatório de limitações, riscos, custo e próximos passos.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione um documento ou pergunta difícil ao conjunto de **Avaliação e publicação** e verifique recuperação, resposta e rastreabilidade da fonte.
-- [ ] Altere uma configuração de chunking ou busca e compare as versões com o mesmo conjunto de perguntas.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Adicione à avaliação a pergunta de pagamento não reconhecido e a pergunta fora do domínio sobre ações.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Compare k=3 e k=5 nas mesmas 30 perguntas e registre ganho de recuperação, latência e respostas sem fonte.
 
 ### Perguntas de checagem
 

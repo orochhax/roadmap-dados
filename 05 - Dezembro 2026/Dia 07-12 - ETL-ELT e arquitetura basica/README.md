@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** ETL/ELT e arquitetura básica.
-- **Pasta/arquivo principal:** `semana-18/dia-086-etl-elt-e-arquitetura-basica.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-086-etl-elt-e-arquitetura-basica.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Liste cinco falhas possíveis e como detectar cada uma.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-086-etl-elt-e-arquitetura-basica.py`. Faça exatamente estes dois itens.
 
-- [ ] Acrescente ao fluxo de **ETL/ELT e arquitetura básica** uma checagem automática de qualidade ou uma condição clara de falha.
-- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
+- [ ] **Em `01-exercicios/dia-086-etl-elt-e-arquitetura-basica.py`:** Adicione à arquitetura uma área quarantine entre raw e processed para linhas sem id ou com tipo inválido.
+- [ ] **Em `01-exercicios/dia-086-etl-elt-e-arquitetura-basica.py`:** Simule ausência da coluna id e uma execução repetida; descreva em qual etapa cada problema deve ser detectado.
 
 ### Perguntas de checagem
 

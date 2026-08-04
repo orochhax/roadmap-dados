@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Exceções e validação.
-- **Pasta/arquivo principal:** `semana-02/dia-008-excecoes-e-validacao.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-008-excecoes-e-validacao.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie uma tabela de testes com oito casos e confirme que nenhuma linha inválida entra silenciosamente no arquivo final.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-008-excecoes-e-validacao.py`. Faça exatamente estes dois itens.
 
-- [ ] Amplie um dos programas de **Exceções e validação** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
+- [ ] **Em `01-exercicios/dia-008-excecoes-e-validacao.py`:** Adicione uma linha com duracao_min=-10 ao arquivo de teste e faça validar_linha() registrar 'duração negativa' sem interromper as demais linhas.
+- [ ] **Em `01-exercicios/dia-008-excecoes-e-validacao.py`:** Repita um mesmo id em duas linhas válidas e acrescente uma validação que envie a segunda ocorrência para dados_rejeitados.csv.
 
 ### Perguntas de checagem
 

@@ -6,27 +6,27 @@
 
 ### Preparação
 - **Assunto central:** Simulado SQL.
-- **Pasta/arquivo principal:** `semana-06/dia-030-simulado-sql/` (pasta do projeto).
+- **Pasta/arquivo principal:** `projeto-semanal/docs/simulado_sql_perguntas.md`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
 ### Passo a passo completo
-1. [ ] Resolva um simulado cronometrado com 20 questões: cinco filtros, quatro agregações, quatro joins, três CTEs, duas janelas e duas datas.
-2. [ ] Use os arquivos `simulado_sql_perguntas.md` e `simulado_sql_respostas.sql`; não abra respostas durante os primeiros 90 minutos.
+1. [ ] Resolva as 20 questões completas já numeradas em `projeto-semanal/docs/simulado_sql_perguntas.md`.
+2. [ ] Escreva as consultas em `projeto-semanal/sql/simulado_sql_respostas.sql`; não consulte anotações durante os primeiros 90 minutos.
 3. [ ] Para cada questão, marque tempo, confiança de 1–5 e se precisou consultar documentação.
 4. [ ] Escolha as cinco piores respostas e reescreva do zero no fim do dia.
 5. [ ] Crie uma folha de erros com categoria, causa, correção e regra que evitará repetição.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `projeto-semanal/docs/simulado_sql_perguntas.md`. Faça exatamente estes dois itens.
 
-- [ ] Escreva uma consulta adicional sobre **Simulado SQL** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
-- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
+- [ ] **Em `projeto-semanal/docs/simulado_sql_perguntas.md`:** Depois do simulado, escreva uma 21ª consulta que encontre os três clientes com maior soma de pagamentos pendentes.
+- [ ] **Em `projeto-semanal/docs/simulado_sql_perguntas.md`:** Valide essa consulta comparando quantidade de pagamentos, clientes distintos e soma antes e depois dos joins usados.
 
 ### Perguntas de checagem
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. **Referência — atividade 1:** Resolva um simulado cronometrado com 20 questões: cinco filtros, quatro agregações, quatro joins, três CTEs, duas janelas e duas datas.
+1. **Referência — atividade 1:** Resolva as 20 questões completas numeradas em `projeto-semanal/docs/simulado_sql_perguntas.md`.
 
    **Pergunta:** Antes de escrever uma consulta de **Simulado SQL**, o que deve ser definido primeiro?
 
@@ -36,7 +36,7 @@
 - [ ] D) O uso obrigatório de todas as colunas disponíveis.
 - [ ] E) A formatação visual da tabela final antes dos cálculos.
 
-2. **Referência — atividade 2:** Use os arquivos `simulado_sql_perguntas.md` e `simulado_sql_respostas.sql`; não abra respostas durante os primeiros 90 minutos.
+2. **Referência — atividade 2:** Escreva as consultas em `projeto-semanal/sql/simulado_sql_respostas.sql` sem consultar anotações nos primeiros 90 minutos.
 
    **Pergunta:** Qual cuidado é essencial ao usar junções em uma atividade de **Simulado SQL**?
 

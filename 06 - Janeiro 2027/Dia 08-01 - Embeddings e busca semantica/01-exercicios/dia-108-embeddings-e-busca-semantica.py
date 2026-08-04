@@ -12,3 +12,10 @@
 # 5. [ ] Registre falsos positivos e falsos negativos da recuperação.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Compare palavra-chave e cosseno para 'a luz LOS ficou vermelha' e registre os três documentos retornados por cada busca.
+# ESCREVA AQUI:
+
+# 2. [ ] Teste 'qual a previsão do tempo amanhã?' e aplique um limiar que permita declarar a consulta fora do domínio.
+# ESCREVA AQUI:

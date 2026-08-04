@@ -11,3 +11,10 @@
 # 5. [ ] Teste coluna faltante e linha inválida durante a transformação.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Adicione validação obrigatória das colunas cliente_id e data_ativacao antes da transformação.
+# ESCREVA AQUI:
+
+# 2. [ ] Execute duas vezes com o mesmo arquivo e depois com uma linha nova; compare contagens para provar idempotência e incremento.
+# ESCREVA AQUI:

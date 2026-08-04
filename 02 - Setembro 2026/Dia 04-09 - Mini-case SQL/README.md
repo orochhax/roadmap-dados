@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Mini-case SQL.
-- **Pasta/arquivo principal:** `semana-05/dia-025-mini-case-sql/` (pasta do projeto).
+- **Pasta/arquivo principal:** `projeto-semanal/docs/case_sql_semana05.md`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Entregue `case_sql_semana05.md` com pergunta, consulta, resultado, interpretação e limitação para cada análise.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `projeto-semanal/docs/case_sql_semana05.md`. Faça exatamente estes dois itens.
 
-- [ ] Escreva uma consulta adicional sobre **Mini-case SQL** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
-- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
+- [ ] **Em `projeto-semanal/docs/case_sql_semana05.md`:** Calcule churn por cidade somente para cidades com pelo menos 30 clientes e ordene pela maior taxa.
+- [ ] **Em `projeto-semanal/docs/case_sql_semana05.md`:** Reproduza em pandas a contagem e a taxa da primeira cidade do ranking usando exatamente o mesmo filtro SQL.
 
 ### Perguntas de checagem
 

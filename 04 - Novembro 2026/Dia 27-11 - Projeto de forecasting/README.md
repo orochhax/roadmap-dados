@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Projeto de forecasting.
-- **Pasta/arquivo principal:** `semana-16/dia-080-projeto-de-forecasting/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/energia.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Grave apresentação de seis minutos e responda perguntas sobre leakage temporal e validação.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Avalie **Projeto de forecasting** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
-- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Execute o backtesting removendo o mês de maior consumo e registre como ranking de modelos e erro mudam.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Aumente em 25% o custo de subestimação no resumo executivo e confira se a decisão operacional permanece.
 
 ### Perguntas de checagem
 

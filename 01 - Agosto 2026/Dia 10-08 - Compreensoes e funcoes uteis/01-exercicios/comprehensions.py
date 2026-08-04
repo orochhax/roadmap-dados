@@ -12,3 +12,10 @@
 # 5. [ ] Crie cinco testes com lista vazia, cidade repetida, duração zero, valor negativo e prioridade inválida.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Inclua o incidente {'cidade': 'Ilhéus', 'prioridade': 'P2', 'duracao_min': 75} e gere novamente o filtro de P1/P2 acima de 60 minutos.
+# ESCREVA AQUI:
+
+# 2. [ ] Faça uma cópia da lista com duracao_min=-5 em um registro e confirme separadamente o valor produzido por all() antes e depois da alteração.
+# ESCREVA AQUI:

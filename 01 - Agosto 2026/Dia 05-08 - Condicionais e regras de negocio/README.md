@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Condicionais e regras de negócio.
-- **Pasta/arquivo principal:** `semana-01/dia-003-condicionais-e-regras-de-negocio.py`.
+- **Pasta/arquivo principal:** `01-exercicios/prioridade_chamados.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Adicione validação para clientes negativos e duração negativa; nesses casos o programa deve parar com mensagem clara.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/prioridade_chamados.py`. Faça exatamente estes dois itens.
 
-- [ ] Amplie um dos programas de **Condicionais e regras de negócio** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
+- [ ] **Em `01-exercicios/prioridade_chamados.py`:** Acrescente um 13º caso com clientes_afetados=101, duracao_min=40, servico_critico=True, cidade_inteira=False e risco_seguranca=False; processe-o pelas seis regras na ordem definida.
+- [ ] **Em `01-exercicios/prioridade_chamados.py`:** Execute um caso com clientes_afetados=-1 e outro com duracao_min=-10; faça a validação interromper somente esses casos com mensagem clara.
 
 ### Perguntas de checagem
 

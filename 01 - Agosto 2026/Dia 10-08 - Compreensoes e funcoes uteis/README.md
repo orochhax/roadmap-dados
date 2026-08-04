@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Compreensões e funções úteis.
-- **Pasta/arquivo principal:** `semana-02/dia-006-compreensoes-e-funcoes-uteis.py`.
+- **Pasta/arquivo principal:** `01-exercicios/comprehensions.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie cinco testes com lista vazia, cidade repetida, duração zero, valor negativo e prioridade inválida.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/comprehensions.py`. Faça exatamente estes dois itens.
 
-- [ ] Amplie um dos programas de **Compreensões e funções úteis** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
+- [ ] **Em `01-exercicios/comprehensions.py`:** Inclua o incidente {'cidade': 'Ilhéus', 'prioridade': 'P2', 'duracao_min': 75} e gere novamente o filtro de P1/P2 acima de 60 minutos.
+- [ ] **Em `01-exercicios/comprehensions.py`:** Faça uma cópia da lista com duracao_min=-5 em um registro e confirme separadamente o valor produzido por all() antes e depois da alteração.
 
 ### Perguntas de checagem
 

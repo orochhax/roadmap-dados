@@ -12,3 +12,10 @@
 # 5. [ ] Adicione validação para clientes negativos e duração negativa; nesses casos o programa deve parar com mensagem clara.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Acrescente um 13º caso com clientes_afetados=101, duracao_min=40, servico_critico=True, cidade_inteira=False e risco_seguranca=False; processe-o pelas seis regras na ordem definida.
+# ESCREVA AQUI:
+
+# 2. [ ] Execute um caso com clientes_afetados=-1 e outro com duracao_min=-10; faça a validação interromper somente esses casos com mensagem clara.
+# ESCREVA AQUI:

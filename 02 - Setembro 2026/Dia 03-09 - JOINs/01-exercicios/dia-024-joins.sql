@@ -12,3 +12,10 @@
 -- 5. [ ] Desenhe em Mermaid ou texto o relacionamento entre as quatro tabelas e anote a granularidade de cada uma.
 --
 -- Escreva sua solução abaixo desta linha.
+
+-- EXERCÍCIOS EXTRAS ESPECÍFICOS
+-- 1. [ ] Liste clientes que possuem plano cadastrado, mas não têm nenhum pagamento, usando LEFT JOIN e filtro de nulo.
+-- ESCREVA AQUI:
+
+-- 2. [ ] Conte linhas e clientes distintos antes e depois do join com pagamentos para revelar qualquer multiplicação de registros.
+-- ESCREVA AQUI:

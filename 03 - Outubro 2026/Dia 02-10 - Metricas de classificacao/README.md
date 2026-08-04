@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Métricas de classificação.
-- **Pasta/arquivo principal:** `semana-09/dia-044-metricas-de-classificacao.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-044-metricas-de-classificacao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escolha uma métrica primária e duas guardrails e registre justificativa.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-044-metricas-de-classificacao.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Métricas de classificação** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-044-metricas-de-classificacao.ipynb`:** Calcule o custo da matriz TN=700, FP=200, FN=30, TP=70 usando FN=R$500 e FP=R$20.
+- [ ] **Em `01-exercicios/dia-044-metricas-de-classificacao.ipynb`:** Compare limiares 0,35 e 0,50 no mesmo conjunto e registre precision, recall e custo para cada um.
 
 ### Perguntas de checagem
 

@@ -10,3 +10,10 @@
 # 5. [ ] Execute do zero e compare métricas com versão anterior.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Mova random_state e caminho dos dados para config.yaml e faça train.py ler ambos sem valores duplicados.
+# ESCREVA AQUI:
+
+# 2. [ ] Execute train.py com um caminho inexistente e mostre uma mensagem que identifique exatamente o arquivo ausente.
+# ESCREVA AQUI:

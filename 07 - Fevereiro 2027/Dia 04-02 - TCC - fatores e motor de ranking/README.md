@@ -4,6 +4,9 @@
 > [!abstract] Resultado concreto do dia
 > Construir fatores auditáveis e um ranking separado para ações, ETFs e FIIs.
 
+### Arquivo para responder
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_tcc.md`.
+
 ### Passo a passo completo
 1. [ ] Calcule retornos, momentum, volatilidade, drawdown, liquidez, consistência e correlações usando somente janelas anteriores à decisão.
 2. [ ] Padronize os fatores dentro de cada classe e trate outliers sem usar o período futuro.
@@ -13,10 +16,10 @@
 6. [ ] Produza explicabilidade global e exemplos de ativos bem/mal classificados.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_tcc.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: fatores e motor de ranking** e defina antes o critério de aceitação.
-- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
+- [ ] **Em `01-exercicios/roteiro_tcc.md`:** Refaça o ranking com pesos iguais entre os fatores e compare Top-K e turnover com os pesos documentados.
+- [ ] **Em `01-exercicios/roteiro_tcc.md`:** Formule a objeção 'o score apenas favorece ativos de uma classe?' e indique a evidência de padronização por classe.
 
 ### Perguntas de checagem
 1. Por que o ranking deve ser separado por classe?

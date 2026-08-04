@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Agrupamento, merge e reshape.
-- **Pasta/arquivo principal:** `semana-03/dia-014-agrupamento-merge-e-reshape.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-014-agrupamento-merge-e-reshape.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Provoque uma chave duplicada em `metas_cidades.csv`, observe o aumento de linhas e crie uma validação para impedir merge muitos-para-muitos acidental.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-014-agrupamento-merge-e-reshape.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Aplique a técnica central de **Agrupamento, merge e reshape** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
-- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
+- [ ] **Em `01-exercicios/dia-014-agrupamento-merge-e-reshape.ipynb`:** Inclua Ilhéus nos incidentes sem criar meta para a cidade e compare quantas linhas aparecem nos merges inner, left e outer.
+- [ ] **Em `01-exercicios/dia-014-agrupamento-merge-e-reshape.ipynb`:** Duplique a meta de Salvador, execute a validação de cardinalidade e impeça o merge enquanto a chave continuar duplicada.
 
 ### Perguntas de checagem
 

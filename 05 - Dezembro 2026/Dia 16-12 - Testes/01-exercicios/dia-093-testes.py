@@ -12,3 +12,10 @@
 # 5. [ ] Introduza um bug proposital, confirme falha e depois corrija.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Crie um teste para duração negativa e outro para divisão de custo quando total=0 usando fixtures pequenas.
+# ESCREVA AQUI:
+
+# 2. [ ] Remova temporariamente uma coluna obrigatória da fixture de integração e confirme que o teste falha antes da previsão.
+# ESCREVA AQUI:

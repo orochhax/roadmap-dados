@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Random Forest.
-- **Pasta/arquivo principal:** `semana-12/dia-057-random-forest.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-057-random-forest.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escolha configuração considerando desempenho, estabilidade e custo de inferência.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-057-random-forest.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Random Forest** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-057-random-forest.ipynb`:** Compare 50 e 300 árvores em cinco seeds, mantendo as demais configurações, e registre média e desvio da métrica.
+- [ ] **Em `01-exercicios/dia-057-random-forest.ipynb`:** Calcule permutation importance para a melhor configuração e compare as cinco primeiras com a importância por impureza.
 
 ### Perguntas de checagem
 

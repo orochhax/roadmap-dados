@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Política e custo.
-- **Pasta/arquivo principal:** `semana-17/dia-084-politica-e-custo.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-084-politica-e-custo.ipynb`.
 - **Dados:** `dados/credito.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie regra para casos sem informação suficiente e revisão humana.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-084-politica-e-custo.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Avalie **Política e custo** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
-- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
+- [ ] **Em `01-exercicios/dia-084-politica-e-custo.ipynb`:** Aumente a perda em caso de default em 30% e recalcule lucro/prejuízo por faixa A–E.
+- [ ] **Em `01-exercicios/dia-084-politica-e-custo.ipynb`:** Envie para revisão humana todos os casos com renda ou tempo de emprego ausente e conte o volume afetado.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Databricks e Spark introdutório.
-- **Pasta/arquivo principal:** `semana-18/dia-089-databricks-e-spark-introdutorio.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-089-databricks-e-spark-introdutorio.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Salve resultado em Parquet e explique quando Spark é desnecessário.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-089-databricks-e-spark-introdutorio.py`. Faça exatamente estes dois itens.
 
-- [ ] Acrescente ao fluxo de **Databricks e Spark introdutório** uma checagem automática de qualidade ou uma condição clara de falha.
-- [ ] Compare o comportamento de uma execução completa com uma execução parcial ou repetida e registre qualquer diferença inesperada.
+- [ ] **Em `01-exercicios/dia-089-databricks-e-spark-introdutorio.py`:** Filtre clientes com chamados_90d>=3, agrupe por cidade e compare o resultado Spark com pandas.
+- [ ] **Em `01-exercicios/dia-089-databricks-e-spark-introdutorio.py`:** Remova a coluna cliente_id da entrada e faça a checagem de esquema impedir o processamento.
 
 ### Perguntas de checagem
 

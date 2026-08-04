@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Definição do case.
-- **Pasta/arquivo principal:** `semana-14/dia-066-definicao-do-case.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-066-definicao-do-case.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Abra issues no GitHub para dados, EDA, SQL, modelagem, dashboard, documentação e apresentação.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-066-definicao-do-case.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **Definição do case**.
-- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
+- [ ] **Em `01-exercicios/dia-066-definicao-do-case.ipynb`:** Acrescente à matriz de decisão uma ação de revisão humana com custo R$15, benefício R$120 e responsável 'analista'.
+- [ ] **Em `01-exercicios/dia-066-definicao-do-case.ipynb`:** Reduza o orçamento de retenção em 30% e marque quais ações do escopo mínimo seriam mantidas ou cortadas.
 
 ### Perguntas de checagem
 

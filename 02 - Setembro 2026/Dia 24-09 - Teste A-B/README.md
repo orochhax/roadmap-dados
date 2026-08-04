@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Teste A/B.
-- **Pasta/arquivo principal:** `semana-08/dia-038-teste-a-b.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-038-teste-a-b.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie relatório de decisão: lançar, repetir ou abandonar, justificando risco e impacto.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-038-teste-a-b.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Altere uma condição do estudo de **Teste A/B**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
-- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
+- [ ] **Em `01-exercicios/dia-038-teste-a-b.ipynb`:** Refaça o cálculo de tamanho de amostra para efeito mínimo de 0,5 ponto percentual em vez de 1,5 ponto.
+- [ ] **Em `01-exercicios/dia-038-teste-a-b.ipynb`:** Execute a simulação de peeking em 30 verificações diárias e conte quantas vezes a regra pararia antes da amostra planejada.
 
 ### Perguntas de checagem
 

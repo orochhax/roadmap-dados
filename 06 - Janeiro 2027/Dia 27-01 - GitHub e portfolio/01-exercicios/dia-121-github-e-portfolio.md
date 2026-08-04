@@ -14,3 +14,17 @@
 ## Desenvolvimento
 
 <!-- Preencha durante a atividade. -->
+
+## Exercícios extras específicos
+
+1. [ ] Clone um dos quatro projetos principais em pasta limpa e cronometre da leitura do README até a primeira execução.
+
+### Desenvolvimento do extra 1
+
+<!-- Escreva aqui. -->
+
+2. [ ] Escolha um README sem número de impacto e acrescente uma métrica real já produzida pelo projeto, sem inventar resultado.
+
+### Desenvolvimento do extra 2
+
+<!-- Escreva aqui. -->

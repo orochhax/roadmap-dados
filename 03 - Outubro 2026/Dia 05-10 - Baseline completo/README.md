@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Baseline completo.
-- **Pasta/arquivo principal:** `semana-09/dia-045-baseline-completo/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Publique notebook executável do início ao fim e um resumo de qual baseline deve ser superado.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Baseline completo** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Avalie Dummy, logística e regra de negócio também no limiar 0,35 usando exatamente o mesmo conjunto de validação.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Separe os erros de Salvador e das demais cidades e compare quantidade de FP e FN nos dois grupos.
 
 ### Perguntas de checagem
 

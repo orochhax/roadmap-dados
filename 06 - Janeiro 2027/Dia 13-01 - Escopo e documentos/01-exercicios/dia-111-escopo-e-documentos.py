@@ -12,3 +12,10 @@
 # 5. [ ] Desenhe arquitetura de ingestão, indexação, recuperação, geração e avaliação.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Inclua no conjunto a pergunta 'O pagamento foi feito ontem e ainda não baixou; o que faço?' apontando para o documento correto.
+# ESCREVA AQUI:
+
+# 2. [ ] Adicione a pergunta fora do domínio 'qual ação devo comprar?' e escreva a frase de recusa exigida pela política.
+# ESCREVA AQUI:

@@ -12,3 +12,10 @@
 # 5. [ ] Crie tabela de erros por causa: recuperação, prompt, contexto, modelo ou dados.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Inclua a pergunta 'Posso desconectar o cabo óptico quando a LOS está vermelha?' com a fonte correta no conjunto de avaliação.
+# ESCREVA AQUI:
+
+# 2. [ ] Compare a mesma avaliação com k=1 e k=5 e registre precision@k, recall@k e erros recuperados.
+# ESCREVA AQUI:

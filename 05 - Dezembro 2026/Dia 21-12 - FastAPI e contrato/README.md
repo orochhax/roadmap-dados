@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** FastAPI e contrato.
-- **Pasta/arquivo principal:** `semana-20/dia-096-fastapi-e-contrato.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-096-fastapi-e-contrato.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Garanta códigos HTTP claros para erro de validação e falha interna.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-096-fastapi-e-contrato.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione ao artefato de **FastAPI e contrato** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
-- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
+- [ ] **Em `01-exercicios/dia-096-fastapi-e-contrato.py`:** Adicione ao exemplo de /predict um cliente com mensalidade 129,90, NPS 4 e chamados_90d 5.
+- [ ] **Em `01-exercicios/dia-096-fastapi-e-contrato.py`:** Teste payload sem nps e payload com mensalidade='texto'; confirme respostas de validação sem erro interno 500.
 
 ### Perguntas de checagem
 

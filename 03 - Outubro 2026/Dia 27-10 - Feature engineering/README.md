@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Feature engineering.
-- **Pasta/arquivo principal:** `semana-13/dia-061-feature-engineering.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-061-feature-engineering.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Elimine features que dependam do futuro ou duplicam o alvo.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-061-feature-engineering.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Feature engineering** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-061-feature-engineering.ipynb`:** Crie a feature chamados_por_mes usando somente chamados anteriores à data de referência e documente a fórmula.
+- [ ] **Em `01-exercicios/dia-061-feature-engineering.ipynb`:** Remova todas as features financeiras e refaça a ablação no mesmo split para medir a perda de desempenho.
 
 ### Perguntas de checagem
 

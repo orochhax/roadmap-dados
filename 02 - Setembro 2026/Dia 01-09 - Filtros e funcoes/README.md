@@ -6,27 +6,27 @@
 
 ### Preparação
 - **Assunto central:** Filtros e funções.
-- **Pasta/arquivo principal:** `semana-05/dia-022-filtros-e-funcoes.sql`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-022-filtros-e-funcoes.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
 ### Passo a passo completo
-1. [ ] Escreva 15 consultas usando `WHERE`: igualdade, diferença, maior/menor, `BETWEEN`, `IN`, `LIKE`, `IS NULL`, `AND`, `OR` e `NOT`.
+1. [ ] Resolva as 15 consultas numeradas com `WHERE` em `01-exercicios/dia-022-filtros-e-funcoes.sql`; cada filtro e seus dados já estão definidos no arquivo.
 2. [ ] Crie filtros de negócio: P1 não resolvido; incidentes acima de 120 minutos; cidades com mais de 100 clientes afetados; causas contendo `fibra`.
 3. [ ] Use funções de texto para padronizar cidade, funções numéricas para arredondar impacto e funções nulas para substituir valores ausentes.
 4. [ ] Construa três consultas logicamente equivalentes com parênteses diferentes e explique por que uma delas retorna linhas erradas.
 5. [ ] Teste limites exatos 50/51, 120/121 e datas de início/fim; registre os casos inclusivos e exclusivos.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-022-filtros-e-funcoes.sql`. Faça exatamente estes dois itens.
 
-- [ ] Escreva uma consulta adicional sobre **Filtros e funções** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
-- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
+- [ ] **Em `01-exercicios/dia-022-filtros-e-funcoes.sql`:** Escreva uma consulta para incidentes de Salvador ou Ilhéus, com duração entre 51 e 120 minutos e causa contendo 'fibra'.
+- [ ] **Em `01-exercicios/dia-022-filtros-e-funcoes.sql`:** Crie uma consulta que conte duração nula, cidade nula e ids duplicados; mantenha cada contagem em uma coluna identificada.
 
 ### Perguntas de checagem
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. **Referência — atividade 1:** Escreva 15 consultas usando `WHERE`: igualdade, diferença, maior/menor, `BETWEEN`, `IN`, `LIKE`, `IS NULL`, `AND`, `OR` e `NOT`.
+1. **Referência — atividade 1:** Resolva as 15 consultas numeradas com `WHERE` em `01-exercicios/dia-022-filtros-e-funcoes.sql`.
 
    **Pergunta:** Antes de escrever uma consulta de **Filtros e funções**, o que deve ser definido primeiro?
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Definição do produto integrador.
-- **Pasta/arquivo principal:** `semana-24/dia-116-definicao-do-produto-integrador.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-116-definicao-do-produto-integrador.ipynb`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Abra issues e marcos no GitHub.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-116-definicao-do-produto-integrador.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Acrescente um cenário de uso ponta a ponta ainda não coberto em **Definição do produto integrador** e acompanhe os dados da entrada até a saída.
-- [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
+- [ ] **Em `01-exercicios/dia-116-definicao-do-produto-integrador.ipynb`:** Acrescente ao backlog um caso de usuário com entrada incompleta e classifique-o como Must, Should, Could ou Won't.
+- [ ] **Em `01-exercicios/dia-116-definicao-do-produto-integrador.ipynb`:** Reduza o prazo de cinco para três dias e registre quais dois itens serão cortados sem remover o valor principal.
 
 ### Perguntas de checagem
 

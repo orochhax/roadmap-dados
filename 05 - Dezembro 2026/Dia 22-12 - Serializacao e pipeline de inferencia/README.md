@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Serialização e pipeline de inferência.
-- **Pasta/arquivo principal:** `semana-20/dia-097-serializacao-e-pipeline-de-inferencia.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-097-serializacao-e-pipeline-de-inferencia.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Teste modelo inexistente, arquivo corrompido e campo extra.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-097-serializacao-e-pipeline-de-inferencia.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione ao artefato de **Serialização e pipeline de inferência** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
-- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
+- [ ] **Em `01-exercicios/dia-097-serializacao-e-pipeline-de-inferencia.py`:** Compare 20 previsões com ids fixos entre notebook e módulo carregado e liste qualquer diferença maior que 0,000001.
+- [ ] **Em `01-exercicios/dia-097-serializacao-e-pipeline-de-inferencia.py`:** Teste caminho de modelo inexistente e uma entrada com coluna extra segredo; trate os dois casos separadamente.
 
 ### Perguntas de checagem
 

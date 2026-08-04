@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Correlação, causalidade e vieses.
-- **Pasta/arquivo principal:** `semana-08/dia-039-correlacao-causalidade-e-vieses.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Reescreva cinco frases causais como associações honestas quando o desenho não sustenta causalidade.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Altere uma condição do estudo de **Correlação, causalidade e vieses**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
-- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
+- [ ] **Em `01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb`:** Construa um exemplo de Simpson com duas cidades em que a associação geral tenha sinal diferente das associações por cidade.
+- [ ] **Em `01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb`:** Escolha uma conclusão causal do rascunho e reescreva-a como associação, citando o confundidor que ainda não foi controlado.
 
 ### Perguntas de checagem
 

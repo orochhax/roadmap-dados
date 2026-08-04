@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Publicação do serviço.
-- **Pasta/arquivo principal:** `semana-20/dia-100-publicacao-do-servico/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Grave demonstração de cinco minutos do dado até resposta.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione ao artefato de **Publicação do serviço** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
-- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Execute um teste ponta a ponta com o cliente de mensalidade 129,90, NPS 4 e chamados_90d 5 e registre status e latência.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Interrompa o serviço do modelo ou use caminho inválido e confirme que a documentação descreve como diagnosticar e recuperar.
 
 ### Perguntas de checagem
 

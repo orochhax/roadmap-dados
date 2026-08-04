@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** SQL do projeto.
-- **Pasta/arquivo principal:** `semana-14/dia-069-sql-do-projeto.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-069-sql-do-projeto.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Exporte `base_modelagem.csv` e compare cinco linhas com cálculo manual.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-069-sql-do-projeto.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Crie um recorte adicional por segmento de cliente e compare métricas, erros ou recomendações de **SQL do projeto**.
-- [ ] Faça uma análise de sensibilidade alterando uma regra, custo ou limiar e registre se a ação recomendada muda.
+- [ ] **Em `01-exercicios/dia-069-sql-do-projeto.ipynb`:** Crie a feature quantidade_chamados_60d e compare cinco clientes com uma contagem manual na tabela de chamados.
+- [ ] **Em `01-exercicios/dia-069-sql-do-projeto.ipynb`:** Duplique um pagamento, execute o teste de unicidade e impeça a exportação da base enquanto o problema existir.
 
 ### Perguntas de checagem
 

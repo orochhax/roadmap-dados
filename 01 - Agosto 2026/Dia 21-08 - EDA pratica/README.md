@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** EDA prática.
-- **Pasta/arquivo principal:** `semana-03/dia-015-eda-pratica/` (pasta do projeto).
+- **Pasta/arquivo principal:** `projeto-semanal/notebooks/eda_clientes.ipynb`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Entregue `eda_clientes.ipynb` e `resumo_executivo.md` com três achados, duas limitações e duas ações sugeridas.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `projeto-semanal/notebooks/eda_clientes.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Aplique a técnica central de **EDA prática** a uma segunda coluna, grupo ou recorte dos dados e compare o que mudou.
-- [ ] Introduza uma cópia dos dados com um problema controlado — valor ausente, duplicado ou outlier — e verifique como ele afeta o resultado.
+- [ ] **Em `projeto-semanal/notebooks/eda_clientes.ipynb`:** Crie um recorte de clientes com menos de 6 meses de empresa e compare churn, NPS mediano e chamados médios com a base completa.
+- [ ] **Em `projeto-semanal/notebooks/eda_clientes.ipynb`:** Em uma cópia, deixe o NPS ausente em cinco linhas e confirme quais tabelas ou gráficos mudam antes de escolher tratamento.
 
 ### Perguntas de checagem
 

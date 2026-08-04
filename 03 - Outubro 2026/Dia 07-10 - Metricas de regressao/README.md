@@ -6,27 +6,27 @@
 
 ### Preparação
 - **Assunto central:** Métricas de regressão.
-- **Pasta/arquivo principal:** `semana-10/dia-047-metricas-de-regressao.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-047-metricas-de-regressao.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
-1. [ ] Calcule MAE, MSE, RMSE, R² e MAPE manualmente para cinco previsões pequenas.
+1. [ ] No notebook, use `y_real = [100, 120, 80, 0, 200]` e `y_previsto = [90, 135, 70, 10, 180]` para calcular MAE, MSE, RMSE, R² e MAPE manualmente e com biblioteca.
 2. [ ] Crie um caso com valor real zero e mostre por que MAPE pode quebrar.
 3. [ ] Compare dois modelos: um com poucos erros grandes e outro com muitos erros pequenos.
 4. [ ] Escolha a métrica mais coerente para previsão de receita e justifique custo dos erros.
 5. [ ] Crie intervalo de erro por faixa de valor e verifique se o modelo piora nos pedidos maiores.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-047-metricas-de-regressao.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Métricas de regressão** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-047-metricas-de-regressao.ipynb`:** Use y_real=[100, 120, 80, 0, 200] e y_pred=[90, 135, 70, 10, 180] para calcular as métricas e tratar MAPE com zero.
+- [ ] **Em `01-exercicios/dia-047-metricas-de-regressao.ipynb`:** Separe os dois maiores valores reais e compare o MAE desse recorte com o MAE dos três menores.
 
 ### Perguntas de checagem
 
 > Nas questões 1–4, marque `[x]` em uma única alternativa. Nas questões 5–6, escreva a sequência correta usando as letras A–E.
 
-1. **Referência — atividade 1:** Calcule MAE, MSE, RMSE, R² e MAPE manualmente para cinco previsões pequenas.
+1. **Referência — atividade 1:** Calcule as métricas usando os vetores `y_real` e `y_previsto` já preparados na primeira célula de código.
 
    **Pergunta:** Qual prática evita vazamento de dados em uma atividade de **Métricas de regressão**?
 

@@ -11,3 +11,10 @@
 # 5. [ ] Teste o programa a partir de outra pasta para comprovar que os caminhos usam `pathlib.Path` e não dependem do diretório atual.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Acrescente ao CSV a linha INC-013,Ilhéus,queda de energia,P2,85,140,true e adicione ao JSON a meta de 90 minutos para Ilhéus; gere novamente o consolidado.
+# ESCREVA AQUI:
+
+# 2. [ ] Execute o programa a partir da raiz do repositório e da pasta do próprio dia; use pathlib para que ambas as execuções encontrem os mesmos arquivos.
+# ESCREVA AQUI:

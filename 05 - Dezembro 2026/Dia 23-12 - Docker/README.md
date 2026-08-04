@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Docker.
-- **Pasta/arquivo principal:** `semana-20/dia-098-docker.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-098-docker.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Registre tamanho da imagem, tempo de build e comandos no README.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-098-docker.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione ao artefato de **Docker** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
-- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
+- [ ] **Em `01-exercicios/dia-098-docker.py`:** Execute o container com MODEL_VERSION=teste e confirme que /model-info mostra a configuração recebida.
+- [ ] **Em `01-exercicios/dia-098-docker.py`:** Tente construir sem o arquivo do modelo e faça a aplicação informar a dependência ausente ao iniciar.
 
 ### Perguntas de checagem
 

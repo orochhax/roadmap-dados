@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Entrega executiva.
-- **Pasta/arquivo principal:** `semana-04/dia-020-entrega-executiva/` (pasta do projeto).
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_atividades.md`.
 - **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Execute uma revisão externa: peça a alguém para explicar o dashboard; corrija pelo menos três pontos de confusão e registre as mudanças.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_atividades.md`. Faça exatamente estes dois itens.
 
-- [ ] Crie uma segunda versão da entrega de **Entrega executiva** para um público diferente e ajuste título, destaque e nível de detalhe.
-- [ ] Escolha uma conclusão do dia e associe a ela a evidência visual ou numérica que a sustenta, além de uma limitação.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Crie uma versão do resumo executivo dirigida ao gerente de operações, destacando duração média, clientes afetados e uma ação para a próxima semana.
+- [ ] **Em `01-exercicios/roteiro_atividades.md`:** Selecione uma recomendação do relatório e acrescente o número que a sustenta e uma limitação que impede generalização automática.
 
 ### Perguntas de checagem
 1. Como explicar método, incerteza e recomendação a uma liderança sem esconder limitações?

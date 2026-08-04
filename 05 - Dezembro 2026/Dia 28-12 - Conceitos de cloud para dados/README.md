@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Conceitos de cloud para dados.
-- **Pasta/arquivo principal:** `semana-21/dia-101-conceitos-de-cloud-para-dados.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-101-conceitos-de-cloud-para-dados.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Liste riscos de segurança, disponibilidade e lock-in.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-101-conceitos-de-cloud-para-dados.py`. Faça exatamente estes dois itens.
 
-- [ ] Compare duas opções de arquitetura para **Conceitos de cloud para dados** em um cenário pequeno e em outro com crescimento de volume.
-- [ ] Estime um trade-off de custo, desempenho ou confiabilidade e documente qual opção escolheria em cada cenário.
+- [ ] **Em `01-exercicios/dia-101-conceitos-de-cloud-para-dados.py`:** Compare a arquitetura para 10 GB por dia e 1 TB por dia, mantendo os mesmos requisitos de segurança.
+- [ ] **Em `01-exercicios/dia-101-conceitos-de-cloud-para-dados.py`:** Retire a permissão de escrita da API no armazenamento bruto e explique qual operação continua permitida pelo menor privilégio.
 
 ### Perguntas de checagem
 

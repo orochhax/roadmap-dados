@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Módulos, pacotes e ambientes.
-- **Pasta/arquivo principal:** `semana-02/dia-009-modulos-pacotes-e-ambientes.py`.
+- **Pasta/arquivo principal:** `01-exercicios/main.py`.
 - **Dados:** Dados pequenos definidos nos próprios exercícios e arquivos criados por você.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Documente no README os comandos exatos para criar, ativar e reproduzir o ambiente no Windows.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/main.py`. Faça exatamente estes dois itens.
 
-- [ ] Amplie um dos programas de **Módulos, pacotes e ambientes** com uma nova entrada e uma nova saída útil, aproveitando o código que você já escreveu.
-- [ ] Crie dois testes inéditos para o código do dia — um uso comum e uma entrada problemática — e registre o comportamento observado em cada um.
+- [ ] **Em `01-exercicios/main.py`:** Crie em noc_utils/metricas.py uma função percentual_resolvido(total, resolvidos) e use-a em main.py sem copiar o cálculo.
+- [ ] **Em `01-exercicios/main.py`:** Teste a função com (100, 82) e (0, 0); o segundo caso deve ser tratado sem divisão por zero.
 
 ### Perguntas de checagem
 

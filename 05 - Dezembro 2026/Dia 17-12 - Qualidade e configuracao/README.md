@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Qualidade e configuração.
-- **Pasta/arquivo principal:** `semana-19/dia-094-qualidade-e-configuracao.py`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-094-qualidade-e-configuracao.py`.
 - **Dados:** Projetos anteriores e todos os arquivos da pasta `dados/`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escreva checklist de segurança: segredos, dados pessoais, caminhos e dependências.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-094-qualidade-e-configuracao.py`. Faça exatamente estes dois itens.
 
-- [ ] Adicione ao artefato de **Qualidade e configuração** um teste automatizado ou uma entrada inválida que ainda não estava coberta.
-- [ ] Simule uma falha de configuração, dependência ou serviço e registre como detectá-la e como recuperar o sistema.
+- [ ] **Em `01-exercicios/dia-094-qualidade-e-configuracao.py`:** Adicione MODEL_VERSION ao .env.example e leia essa configuração sem inserir uma versão real secreta no repositório.
+- [ ] **Em `01-exercicios/dia-094-qualidade-e-configuracao.py`:** Execute uma função com campo obrigatório ausente e registre um log ERROR sem incluir nome ou documento do cliente.
 
 ### Perguntas de checagem
 

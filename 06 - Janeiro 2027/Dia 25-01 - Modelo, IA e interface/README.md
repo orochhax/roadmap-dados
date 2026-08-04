@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Modelo, IA e interface.
-- **Pasta/arquivo principal:** `semana-24/dia-119-modelo-ia-e-interface.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-119-modelo-ia-e-interface.ipynb`.
 - **Dados:** Projetos e dados acumulados durante o roadmap.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Registre métricas, latência, custo e falhas.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-119-modelo-ia-e-interface.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Acrescente um cenário de uso ponta a ponta ainda não coberto em **Modelo, IA e interface** e acompanhe os dados da entrada até a saída.
-- [ ] Escolha uma falha provável do produto e adicione uma validação, mensagem ou teste que a torne visível.
+- [ ] **Em `01-exercicios/dia-119-modelo-ia-e-interface.ipynb`:** Inclua um caso com campos ausentes entre os 20 testes ponta a ponta e faça a interface explicar o que precisa ser corrigido.
+- [ ] **Em `01-exercicios/dia-119-modelo-ia-e-interface.ipynb`:** Simule latência de 2 segundos no componente principal e registre a experiência da interface e o timeout escolhido.
 
 ### Perguntas de checagem
 

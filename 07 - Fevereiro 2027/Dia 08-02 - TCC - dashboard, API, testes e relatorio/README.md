@@ -4,6 +4,9 @@
 > [!abstract] Resultado concreto do dia
 > Transformar o estudo em produto demonstrável e reproduzível.
 
+### Arquivo para responder
+- **Pasta/arquivo principal:** `01-exercicios/roteiro_tcc.md`.
+
 ### Passo a passo completo
 1. [ ] Crie dashboard com filtros por classe, período e perfil de risco; mostre fatores, ranking, carteira e drawdown.
 2. [ ] Crie simulador com número de ativos, frequência, estratégia e custos configuráveis.
@@ -14,10 +17,10 @@
 7. [ ] Inclua seção explícita: vieses, períodos ruins, limitações e por que o resultado não é recomendação de investimento.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/roteiro_tcc.md`. Faça exatamente estes dois itens.
 
-- [ ] Adicione um teste de robustez ou sensibilidade ainda não previsto em **TCC: dashboard, API, testes e relatório** e defina antes o critério de aceitação.
-- [ ] Formule uma objeção técnica forte ao resultado e indique qual artefato ou evidência deverá respondê-la.
+- [ ] **Em `01-exercicios/roteiro_tcc.md`:** Envie à API uma data fora do histórico e um número de ativos igual a zero; defina e teste a resposta para cada entrada.
+- [ ] **Em `01-exercicios/roteiro_tcc.md`:** Formule a objeção 'o dashboard pode parecer recomendação de investimento?' e indique os textos e limites visuais que a respondem.
 
 ### Perguntas de checagem
 1. O produto mostra incerteza e risco ou apenas resultados positivos?

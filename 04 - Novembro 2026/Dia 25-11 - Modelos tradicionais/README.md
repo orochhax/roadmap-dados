@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Modelos tradicionais.
-- **Pasta/arquivo principal:** `semana-16/dia-078-modelos-tradicionais.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-078-modelos-tradicionais.ipynb`.
 - **Dados:** `dados/energia.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Analise resíduos e autocorrelação remanescente.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-078-modelos-tradicionais.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Avalie **Modelos tradicionais** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
-- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
+- [ ] **Em `01-exercicios/dia-078-modelos-tradicionais.ipynb`:** Adicione um quarto corte ao backtesting e compare a estabilidade de Random Forest e Holt-Winters.
+- [ ] **Em `01-exercicios/dia-078-modelos-tradicionais.ipynb`:** Meça autocorrelação dos resíduos nos lags 1 e 7 e registre qual padrão ainda não foi capturado.
 
 ### Perguntas de checagem
 

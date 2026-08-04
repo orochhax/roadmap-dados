@@ -12,3 +12,10 @@
 # 5. [ ] Documente diferenças entre ambiente local e plataforma.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Reexecute o treino com um parâmetro alterado e registre as duas execuções com nomes e métricas diferentes.
+# ESCREVA AQUI:
+
+# 2. [ ] Remova uma coluna obrigatória do DataFrame Spark e faça a validação parar antes da feature table.
+# ESCREVA AQUI:

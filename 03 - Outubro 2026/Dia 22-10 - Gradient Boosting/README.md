@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Gradient Boosting.
-- **Pasta/arquivo principal:** `semana-12/dia-058-gradient-boosting.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-058-gradient-boosting.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/pedidos.csv` e bases derivadas pelo seu pipeline.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Documente por que boosting pode ganhar em dados tabulares e quais riscos de tuning existem.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-058-gradient-boosting.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Faça uma alteração controlada em uma feature, modelo, hiperparâmetro ou limiar de **Gradient Boosting** e compare usando a mesma validação.
-- [ ] Separe alguns erros do modelo por grupo ou tipo de caso e registre onde o desempenho piora e o que investigar.
+- [ ] **Em `01-exercicios/dia-058-gradient-boosting.ipynb`:** Compare learning_rate 0,05 com 0,20 usando 100 e 300 estimadores no mesmo split.
+- [ ] **Em `01-exercicios/dia-058-gradient-boosting.ipynb`:** Calcule a métrica separadamente para clientes com até 6 meses e acima de 24 meses de relacionamento.
 
 ### Perguntas de checagem
 

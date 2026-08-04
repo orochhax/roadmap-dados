@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Agregações.
-- **Pasta/arquivo principal:** `semana-05/dia-023-agregacoes.sql`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-023-agregacoes.sql`.
 - **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Crie uma tabela de validação manual para duas cidades e confirme os agregados linha por linha.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-023-agregacoes.sql`. Faça exatamente estes dois itens.
 
-- [ ] Escreva uma consulta adicional sobre **Agregações** que responda a uma pergunta de negócio diferente usando as mesmas tabelas.
-- [ ] Crie uma consulta de validação para conferir nulos, duplicidades, cardinalidade ou totais antes de aceitar o resultado principal.
+- [ ] **Em `01-exercicios/dia-023-agregacoes.sql`:** Agrupe por cidade e mantenha apenas grupos com pelo menos 10 incidentes e duração média acima de 90 minutos.
+- [ ] **Em `01-exercicios/dia-023-agregacoes.sql`:** Escolha uma cidade do resultado e confira em outra consulta COUNT, SUM(duracao_min) e AVG(duracao_min) sem usar o agrupamento final.
 
 ### Perguntas de checagem
 

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Medidas e distribuições.
-- **Pasta/arquivo principal:** `semana-07/dia-031-medidas-e-distribuicoes.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-031-medidas-e-distribuicoes.ipynb`.
 - **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Explique em linguagem de negócio quando mediana é mais adequada que média.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-031-medidas-e-distribuicoes.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Altere uma condição do estudo de **Medidas e distribuições**, como tamanho da amostra ou parâmetro, e compare estimativa e incerteza.
-- [ ] Monte um cenário em que a medida ou teste usado poderia levar a uma conclusão enganosa e indique qual verificação revelaria o problema.
+- [ ] **Em `01-exercicios/dia-031-medidas-e-distribuicoes.ipynb`:** Acrescente mensalidade 999,90 a uma cópia da coluna e compare média, mediana, desvio e IQR antes e depois.
+- [ ] **Em `01-exercicios/dia-031-medidas-e-distribuicoes.ipynb`:** Calcule as mesmas medidas somente para Salvador e compare o tamanho desse grupo com o total antes de interpretar a diferença.
 
 ### Perguntas de checagem
 

@@ -1,0 +1,601 @@
+﻿cliente_id,cidade,plano_id,canal_aquisicao,data_ativacao,mensalidade
+CLI-0001,Ilhéus,PL03,telefone,2024-01-01,142.9
+CLI-0002,Vitória da Conquista,PL03,indicação,2024-04-08,145.39
+CLI-0003,Ilhéus,PL02,site,2024-06-22,103.78
+CLI-0004,Feira de Santana,PL01,indicação,2023-08-06,76.14
+CLI-0005,Salvador,PL04,telefone,2023-01-14,219.45
+CLI-0006,Eunápolis,PL04,site,2023-09-01,192.51
+CLI-0007,Feira de Santana,PL05,site,2023-12-10,295.58
+CLI-0008,Eunápolis,PL04,site,2024-09-28,200.42
+CLI-0009,Feira de Santana,PL04,indicação,2024-07-26,185.59
+CLI-0010,Salvador,PL04,telefone,2025-07-07,215.41
+CLI-0011,Feira de Santana,PL05,site,2022-09-20,312.55
+CLI-0012,Ilhéus,PL03,telefone,2024-03-03,160.61
+CLI-0013,Eunápolis,PL04,site,2026-03-11,204.43
+CLI-0014,Eunápolis,PL04,telefone,2023-12-27,187.12
+CLI-0015,Eunápolis,PL01,site,2024-03-31,82.13
+CLI-0016,Salvador,PL05,indicação,2025-06-07,298.53
+CLI-0017,Vitória da Conquista,PL02,telefone,2026-05-30,107.6
+CLI-0018,Feira de Santana,PL04,indicação,2023-12-02,190.68
+CLI-0019,Feira de Santana,PL05,site,2025-09-01,313.08
+CLI-0020,Feira de Santana,PL03,loja,2024-05-07,152.92
+CLI-0021,Eunápolis,PL01,telefone,2025-06-14,82.41
+CLI-0022,Ilhéus,PL04,site,2023-03-04,202.21
+CLI-0023,Vitória da Conquista,PL04,site,2025-09-20,194.01
+CLI-0024,Salvador,PL01,indicação,2026-06-11,77.06
+CLI-0025,Eunápolis,PL01,loja,2024-11-04,75.36
+CLI-0026,Vitória da Conquista,PL02,site,2024-06-13,111.16
+CLI-0027,Feira de Santana,PL02,telefone,2023-05-23,107.46
+CLI-0028,Ilhéus,PL02,indicação,2025-04-29,120.03
+CLI-0029,Vitória da Conquista,PL01,loja,2023-12-07,86.22
+CLI-0030,Feira de Santana,PL03,telefone,2022-07-31,157.56
+CLI-0031,Salvador,PL01,telefone,2025-09-19,79.13
+CLI-0032,Salvador,PL01,loja,2023-03-18,77.7
+CLI-0033,Eunápolis,PL01,indicação,2024-08-15,81.88
+CLI-0034,Vitória da Conquista,PL01,indicação,2023-11-23,78.74
+CLI-0035,Ilhéus,PL04,loja,2026-01-10,204.12
+CLI-0036,Ilhéus,PL03,loja,2022-07-20,144.35
+CLI-0037,Ilhéus,PL02,site,2026-04-23,115.34
+CLI-0038,Eunápolis,PL05,indicação,2024-09-12,286.69
+CLI-0039,Eunápolis,PL03,loja,2022-07-21,148.0
+CLI-0040,Salvador,PL03,indicação,2023-12-31,144.19
+CLI-0041,Vitória da Conquista,PL02,loja,2026-03-13,110.51
+CLI-0042,Feira de Santana,PL04,loja,2023-03-13,217.52
+CLI-0043,Salvador,PL01,indicação,2023-05-07,87.37
+CLI-0044,Ilhéus,PL03,loja,2024-03-01,143.54
+CLI-0045,Salvador,PL01,site,2022-09-06,79.46
+CLI-0046,Eunápolis,PL03,indicação,2025-04-12,158.21
+CLI-0047,Vitória da Conquista,PL03,site,2023-08-29,163.11
+CLI-0048,Feira de Santana,PL03,indicação,2022-12-18,156.93
+CLI-0049,Ilhéus,PL03,loja,2023-07-03,155.71
+CLI-0050,Feira de Santana,PL04,loja,2024-08-24,184.42
+CLI-0051,Eunápolis,PL04,site,2023-04-24,208.35
+CLI-0052,Eunápolis,PL02,telefone,2023-09-01,120.22
+CLI-0053,Vitória da Conquista,PL05,telefone,2023-11-07,282.75
+CLI-0054,Ilhéus,PL01,indicação,2024-04-30,81.56
+CLI-0055,Eunápolis,PL05,loja,2024-11-24,307.26
+CLI-0056,Feira de Santana,PL05,site,2023-02-13,293.55
+CLI-0057,Ilhéus,PL02,telefone,2024-03-03,103.13
+CLI-0058,Ilhéus,PL01,telefone,2025-05-07,83.84
+CLI-0059,Vitória da Conquista,PL03,loja,2022-08-28,146.35
+CLI-0060,Feira de Santana,PL02,loja,2022-09-27,107.38
+CLI-0061,Feira de Santana,PL03,indicação,2024-04-20,141.92
+CLI-0062,Eunápolis,PL02,indicação,2023-08-10,119.07
+CLI-0063,Feira de Santana,PL05,loja,2025-08-07,329.34
+CLI-0064,Salvador,PL05,site,2023-03-11,298.59
+CLI-0065,Salvador,PL01,loja,2022-07-11,81.81
+CLI-0066,Salvador,PL04,indicação,2026-01-03,192.77
+CLI-0067,Vitória da Conquista,PL01,indicação,2023-06-03,79.06
+CLI-0068,Salvador,PL02,telefone,2024-11-21,115.92
+CLI-0069,Salvador,PL02,telefone,2023-12-09,108.05
+CLI-0070,Salvador,PL04,telefone,2022-12-21,213.68
+CLI-0071,Vitória da Conquista,PL02,loja,2025-03-09,105.74
+CLI-0072,Ilhéus,PL02,indicação,2026-06-18,105.25
+CLI-0073,Ilhéus,PL04,telefone,2024-12-22,191.42
+CLI-0074,Vitória da Conquista,PL04,site,2022-12-03,198.32
+CLI-0075,Ilhéus,PL02,loja,2022-07-27,103.87
+CLI-0076,Eunápolis,PL05,site,2022-09-02,312.68
+CLI-0077,Feira de Santana,PL03,loja,2026-01-24,140.94
+CLI-0078,Eunápolis,PL02,indicação,2023-06-02,115.56
+CLI-0079,Vitória da Conquista,PL05,loja,2025-09-29,293.92
+CLI-0080,Eunápolis,PL03,telefone,2024-07-20,165.8
+CLI-0081,Salvador,PL02,telefone,2024-08-13,113.67
+CLI-0082,Feira de Santana,PL01,site,2026-03-13,87.39
+CLI-0083,Ilhéus,PL02,indicação,2022-08-06,102.27
+CLI-0084,Feira de Santana,PL02,telefone,2023-04-16,122.44
+CLI-0085,Eunápolis,PL03,telefone,2025-06-21,152.11
+CLI-0086,Vitória da Conquista,PL04,indicação,2025-12-30,211.56
+CLI-0087,Ilhéus,PL02,site,2024-08-15,104.67
+CLI-0088,Ilhéus,PL01,indicação,2022-10-05,78.8
+CLI-0089,Eunápolis,PL05,loja,2024-03-05,295.93
+CLI-0090,Ilhéus,PL01,indicação,2025-05-02,86.28
+CLI-0091,Vitória da Conquista,PL01,site,2023-04-07,78.64
+CLI-0092,Feira de Santana,PL04,loja,2023-04-27,216.41
+CLI-0093,Ilhéus,PL02,telefone,2022-08-11,118.35
+CLI-0094,Ilhéus,PL03,indicação,2024-10-27,165.44
+CLI-0095,Ilhéus,PL04,site,2024-01-23,210.39
+CLI-0096,Eunápolis,PL01,loja,2023-04-01,75.78
+CLI-0097,Vitória da Conquista,PL05,loja,2026-03-19,293.11
+CLI-0098,Vitória da Conquista,PL03,loja,2026-03-13,139.48
+CLI-0099,Ilhéus,PL03,telefone,2022-10-31,151.73
+CLI-0100,Salvador,PL01,loja,2022-07-13,87.19
+CLI-0101,Salvador,PL02,telefone,2024-01-12,122.64
+CLI-0102,Feira de Santana,PL01,loja,2023-06-22,79.65
+CLI-0103,Vitória da Conquista,PL05,telefone,2022-11-23,307.93
+CLI-0104,Salvador,PL04,site,2024-09-06,196.77
+CLI-0105,Eunápolis,PL03,loja,2024-07-20,154.63
+CLI-0106,Eunápolis,PL02,site,2023-01-31,109.62
+CLI-0107,Ilhéus,PL04,telefone,2025-04-15,217.37
+CLI-0108,Eunápolis,PL05,telefone,2026-05-14,322.2
+CLI-0109,Feira de Santana,PL02,loja,2024-08-16,115.37
+CLI-0110,Eunápolis,PL05,indicação,2025-10-05,301.11
+CLI-0111,Salvador,PL02,indicação,2025-11-05,113.74
+CLI-0112,Vitória da Conquista,PL03,site,2023-11-05,161.88
+CLI-0113,Eunápolis,PL04,indicação,2024-06-05,184.4
+CLI-0114,Vitória da Conquista,PL04,telefone,2025-10-21,191.08
+CLI-0115,Feira de Santana,PL01,site,2023-08-15,85.73
+CLI-0116,Eunápolis,PL01,telefone,2026-05-25,74.19
+CLI-0117,Ilhéus,PL05,site,2025-05-08,286.99
+CLI-0118,Ilhéus,PL04,telefone,2025-03-27,195.53
+CLI-0119,Feira de Santana,PL04,site,2023-09-18,185.1
+CLI-0120,Feira de Santana,PL04,indicação,2024-02-01,212.52
+CLI-0121,Eunápolis,PL04,indicação,2023-04-21,206.8
+CLI-0122,Ilhéus,PL03,telefone,2026-02-15,150.71
+CLI-0123,Feira de Santana,PL03,indicação,2024-11-22,158.5
+CLI-0124,Salvador,PL03,telefone,2022-09-26,166.18
+CLI-0125,Ilhéus,PL02,telefone,2025-01-30,107.91
+CLI-0126,Feira de Santana,PL01,site,2025-11-18,81.76
+CLI-0127,Salvador,PL02,site,2026-05-21,121.04
+CLI-0128,Eunápolis,PL04,site,2025-10-09,207.9
+CLI-0129,Eunápolis,PL02,indicação,2023-09-05,120.4
+CLI-0130,Ilhéus,PL05,site,2022-10-13,310.91
+CLI-0131,Vitória da Conquista,PL01,indicação,2022-11-22,86.26
+CLI-0132,Feira de Santana,PL02,telefone,2022-11-14,112.7
+CLI-0133,Salvador,PL03,telefone,2022-09-22,153.93
+CLI-0134,Salvador,PL04,loja,2024-02-19,190.55
+CLI-0135,Salvador,PL02,loja,2022-07-01,110.38
+CLI-0136,Vitória da Conquista,PL05,loja,2025-05-04,315.92
+CLI-0137,Vitória da Conquista,PL01,indicação,2025-08-21,86.6
+CLI-0138,Eunápolis,PL05,telefone,2025-09-05,314.53
+CLI-0139,Salvador,PL04,loja,2023-09-02,217.55
+CLI-0140,Salvador,PL05,site,2023-07-15,303.22
+CLI-0141,Eunápolis,PL04,indicação,2025-03-13,205.54
+CLI-0142,Feira de Santana,PL05,loja,2024-09-04,318.69
+CLI-0143,Vitória da Conquista,PL04,site,2023-01-08,183.93
+CLI-0144,Salvador,PL05,loja,2023-10-31,316.26
+CLI-0145,Vitória da Conquista,PL02,loja,2023-09-25,107.28
+CLI-0146,Eunápolis,PL01,telefone,2024-12-10,78.56
+CLI-0147,Eunápolis,PL01,telefone,2023-12-17,86.21
+CLI-0148,Vitória da Conquista,PL01,site,2024-02-19,89.11
+CLI-0149,Feira de Santana,PL02,site,2024-11-28,120.57
+CLI-0150,Eunápolis,PL05,telefone,2022-08-10,304.32
+CLI-0151,Vitória da Conquista,PL04,telefone,2024-03-17,196.58
+CLI-0152,Feira de Santana,PL04,site,2025-03-23,202.88
+CLI-0153,Vitória da Conquista,PL05,loja,2024-10-27,309.95
+CLI-0154,Feira de Santana,PL04,site,2026-05-09,186.69
+CLI-0155,Ilhéus,PL05,telefone,2025-05-13,292.43
+CLI-0156,Feira de Santana,PL04,indicação,2023-12-22,192.2
+CLI-0157,Salvador,PL05,telefone,2022-11-28,317.31
+CLI-0158,Eunápolis,PL01,indicação,2025-04-11,85.77
+CLI-0159,Eunápolis,PL02,site,2025-08-26,115.22
+CLI-0160,Feira de Santana,PL04,site,2024-10-03,193.7
+CLI-0161,Eunápolis,PL04,telefone,2024-05-29,196.21
+CLI-0162,Ilhéus,PL01,indicação,2022-12-08,86.52
+CLI-0163,Vitória da Conquista,PL04,indicação,2024-08-12,223.87
+CLI-0164,Ilhéus,PL01,site,2023-10-19,77.4
+CLI-0165,Vitória da Conquista,PL02,loja,2025-04-01,107.5
+CLI-0166,Vitória da Conquista,PL04,site,2024-04-21,223.53
+CLI-0167,Salvador,PL02,site,2026-04-24,109.83
+CLI-0168,Eunápolis,PL04,indicação,2023-10-15,206.75
+CLI-0169,Ilhéus,PL03,site,2023-02-07,158.53
+CLI-0170,Salvador,PL01,indicação,2024-08-27,88.04
+CLI-0171,Vitória da Conquista,PL05,loja,2025-03-21,332.74
+CLI-0172,Feira de Santana,PL01,indicação,2024-06-11,88.73
+CLI-0173,Salvador,PL05,telefone,2024-12-28,315.27
+CLI-0174,Eunápolis,PL02,site,2022-10-07,111.52
+CLI-0175,Vitória da Conquista,PL05,indicação,2025-10-09,320.37
+CLI-0176,Salvador,PL04,telefone,2022-12-21,186.61
+CLI-0177,Salvador,PL02,site,2024-11-12,121.81
+CLI-0178,Feira de Santana,PL04,telefone,2024-06-08,187.65
+CLI-0179,Ilhéus,PL01,indicação,2025-12-04,75.15
+CLI-0180,Eunápolis,PL01,indicação,2024-12-24,88.42
+CLI-0181,Ilhéus,PL04,site,2023-07-19,212.02
+CLI-0182,Vitória da Conquista,PL05,site,2023-09-09,301.32
+CLI-0183,Feira de Santana,PL02,loja,2023-05-30,106.39
+CLI-0184,Ilhéus,PL02,indicação,2025-08-07,110.94
+CLI-0185,Eunápolis,PL03,telefone,2026-01-13,145.79
+CLI-0186,Ilhéus,PL03,telefone,2024-07-31,144.28
+CLI-0187,Ilhéus,PL04,site,2026-06-12,187.02
+CLI-0188,Salvador,PL03,telefone,2023-09-08,157.36
+CLI-0189,Eunápolis,PL04,loja,2024-03-09,221.47
+CLI-0190,Feira de Santana,PL02,loja,2025-12-11,114.99
+CLI-0191,Vitória da Conquista,PL02,site,2023-12-16,106.38
+CLI-0192,Vitória da Conquista,PL01,telefone,2024-07-30,89.41
+CLI-0193,Eunápolis,PL04,telefone,2024-01-27,207.75
+CLI-0194,Eunápolis,PL04,indicação,2022-09-04,216.43
+CLI-0195,Feira de Santana,PL01,loja,2026-06-11,89.38
+CLI-0196,Salvador,PL04,site,2022-10-03,207.01
+CLI-0197,Feira de Santana,PL02,loja,2024-04-04,107.21
+CLI-0198,Salvador,PL04,site,2024-04-19,213.25
+CLI-0199,Vitória da Conquista,PL01,indicação,2025-12-10,80.74
+CLI-0200,Ilhéus,PL05,site,2023-12-25,291.82
+CLI-0201,Eunápolis,PL01,indicação,2026-03-16,73.59
+CLI-0202,Eunápolis,PL05,site,2022-12-24,298.46
+CLI-0203,Vitória da Conquista,PL05,loja,2023-10-20,283.19
+CLI-0204,Eunápolis,PL05,loja,2024-01-06,331.45
+CLI-0205,Salvador,PL05,indicação,2024-01-04,333.66
+CLI-0206,Feira de Santana,PL05,indicação,2025-01-18,311.23
+CLI-0207,Eunápolis,PL01,telefone,2022-08-02,75.64
+CLI-0208,Salvador,PL01,site,2023-04-24,86.01
+CLI-0209,Eunápolis,PL03,loja,2026-02-08,164.52
+CLI-0210,Eunápolis,PL02,site,2024-02-03,103.65
+CLI-0211,Eunápolis,PL05,loja,2024-04-09,315.29
+CLI-0212,Eunápolis,PL04,loja,2024-05-06,192.88
+CLI-0213,Eunápolis,PL03,telefone,2025-08-04,160.26
+CLI-0214,Ilhéus,PL02,loja,2025-09-05,106.22
+CLI-0215,Ilhéus,PL05,indicação,2022-06-28,332.29
+CLI-0216,Ilhéus,PL04,site,2022-09-21,208.12
+CLI-0217,Eunápolis,PL04,telefone,2022-12-19,195.47
+CLI-0218,Eunápolis,PL05,site,2024-02-10,325.75
+CLI-0219,Salvador,PL05,telefone,2025-04-20,279.94
+CLI-0220,Feira de Santana,PL03,telefone,2023-08-28,139.73
+CLI-0221,Ilhéus,PL01,loja,2026-05-22,81.52
+CLI-0222,Vitória da Conquista,PL03,site,2023-10-17,149.37
+CLI-0223,Salvador,PL05,site,2025-02-06,300.09
+CLI-0224,Ilhéus,PL05,site,2024-06-01,284.4
+CLI-0225,Ilhéus,PL04,indicação,2024-08-25,222.56
+CLI-0226,Ilhéus,PL04,site,2025-04-21,199.2
+CLI-0227,Eunápolis,PL02,loja,2026-01-14,102.34
+CLI-0228,Vitória da Conquista,PL03,telefone,2025-11-03,154.94
+CLI-0229,Vitória da Conquista,PL02,indicação,2025-07-05,116.44
+CLI-0230,Vitória da Conquista,PL05,loja,2026-04-24,313.66
+CLI-0231,Salvador,PL04,site,2024-10-26,214.42
+CLI-0232,Vitória da Conquista,PL04,site,2025-10-12,199.9
+CLI-0233,Feira de Santana,PL02,telefone,2024-09-17,116.19
+CLI-0234,Salvador,PL01,indicação,2023-02-28,85.2
+CLI-0235,Salvador,PL02,indicação,2022-08-11,113.71
+CLI-0236,Eunápolis,PL04,loja,2025-01-25,210.32
+CLI-0237,Ilhéus,PL03,telefone,2023-09-08,144.66
+CLI-0238,Ilhéus,PL04,telefone,2025-02-16,223.48
+CLI-0239,Vitória da Conquista,PL01,loja,2025-09-07,85.05
+CLI-0240,Eunápolis,PL04,indicação,2022-07-03,190.08
+CLI-0241,Salvador,PL04,indicação,2022-12-28,204.19
+CLI-0242,Eunápolis,PL01,indicação,2025-02-02,81.38
+CLI-0243,Feira de Santana,PL02,site,2024-09-07,117.95
+CLI-0244,Vitória da Conquista,PL02,indicação,2025-05-01,119.41
+CLI-0245,Vitória da Conquista,PL04,indicação,2025-02-15,206.16
+CLI-0246,Eunápolis,PL01,indicação,2022-09-01,80.95
+CLI-0247,Feira de Santana,PL03,site,2024-09-25,143.96
+CLI-0248,Vitória da Conquista,PL04,indicação,2025-12-10,221.72
+CLI-0249,Vitória da Conquista,PL03,loja,2023-01-06,161.39
+CLI-0250,Eunápolis,PL03,indicação,2024-08-28,160.69
+CLI-0251,Ilhéus,PL01,indicação,2025-10-29,75.53
+CLI-0252,Feira de Santana,PL05,indicação,2025-06-01,280.14
+CLI-0253,Salvador,PL03,loja,2024-07-02,140.94
+CLI-0254,Vitória da Conquista,PL01,loja,2022-12-19,78.18
+CLI-0255,Feira de Santana,PL01,indicação,2025-11-16,88.03
+CLI-0256,Eunápolis,PL03,loja,2025-03-29,145.28
+CLI-0257,Feira de Santana,PL05,loja,2023-04-04,334.75
+CLI-0258,Ilhéus,PL05,indicação,2022-09-06,327.65
+CLI-0259,Salvador,PL05,loja,2025-01-21,334.81
+CLI-0260,Feira de Santana,PL02,indicação,2023-02-13,121.72
+CLI-0261,Eunápolis,PL04,telefone,2024-03-27,187.2
+CLI-0262,Salvador,PL01,telefone,2025-04-19,88.69
+CLI-0263,Ilhéus,PL04,loja,2025-01-29,208.96
+CLI-0264,Salvador,PL01,site,2023-04-25,78.96
+CLI-0265,Feira de Santana,PL01,loja,2022-08-31,79.6
+CLI-0266,Eunápolis,PL03,telefone,2025-05-02,164.4
+CLI-0267,Feira de Santana,PL04,site,2023-04-12,200.35
+CLI-0268,Feira de Santana,PL05,site,2025-08-09,300.81
+CLI-0269,Salvador,PL04,site,2025-08-30,222.35
+CLI-0270,Salvador,PL04,indicação,2022-10-21,205.95
+CLI-0271,Feira de Santana,PL03,site,2026-02-19,161.26
+CLI-0272,Feira de Santana,PL01,site,2026-01-21,77.71
+CLI-0273,Salvador,PL01,telefone,2026-02-26,79.01
+CLI-0274,Feira de Santana,PL01,site,2024-01-25,82.98
+CLI-0275,Feira de Santana,PL02,indicação,2024-09-02,115.04
+CLI-0276,Feira de Santana,PL02,loja,2022-11-18,107.61
+CLI-0277,Salvador,PL02,loja,2024-09-09,102.26
+CLI-0278,Vitória da Conquista,PL02,site,2025-11-08,106.37
+CLI-0279,Feira de Santana,PL03,telefone,2023-08-25,144.29
+CLI-0280,Vitória da Conquista,PL02,indicação,2023-03-06,111.3
+CLI-0281,Ilhéus,PL04,indicação,2023-04-02,194.71
+CLI-0282,Eunápolis,PL02,telefone,2022-09-24,109.03
+CLI-0283,Ilhéus,PL05,loja,2026-04-08,310.42
+CLI-0284,Eunápolis,PL02,site,2022-11-29,119.45
+CLI-0285,Ilhéus,PL04,loja,2022-12-10,211.06
+CLI-0286,Eunápolis,PL02,loja,2023-02-12,108.2
+CLI-0287,Feira de Santana,PL01,loja,2022-08-26,76.69
+CLI-0288,Salvador,PL01,site,2023-05-13,76.74
+CLI-0289,Ilhéus,PL01,loja,2023-10-28,82.56
+CLI-0290,Eunápolis,PL03,indicação,2024-12-11,151.83
+CLI-0291,Ilhéus,PL03,telefone,2025-01-08,157.99
+CLI-0292,Ilhéus,PL04,indicação,2023-12-14,204.34
+CLI-0293,Eunápolis,PL05,telefone,2023-02-20,288.71
+CLI-0294,Salvador,PL04,telefone,2022-07-03,206.76
+CLI-0295,Ilhéus,PL05,site,2026-03-18,293.2
+CLI-0296,Vitória da Conquista,PL03,telefone,2023-04-14,145.28
+CLI-0297,Feira de Santana,PL03,site,2024-04-12,138.4
+CLI-0298,Ilhéus,PL02,site,2024-10-05,101.35
+CLI-0299,Eunápolis,PL04,indicação,2024-08-25,189.66
+CLI-0300,Vitória da Conquista,PL05,site,2022-09-04,289.48
+CLI-0301,Vitória da Conquista,PL03,site,2025-11-02,152.49
+CLI-0302,Salvador,PL03,loja,2025-12-10,167.53
+CLI-0303,Ilhéus,PL04,indicação,2024-06-28,195.65
+CLI-0304,Feira de Santana,PL02,indicação,2026-06-17,110.25
+CLI-0305,Feira de Santana,PL02,indicação,2025-04-26,116.06
+CLI-0306,Vitória da Conquista,PL04,loja,2025-01-06,216.56
+CLI-0307,Vitória da Conquista,PL04,site,2026-01-20,221.75
+CLI-0308,Salvador,PL03,telefone,2025-07-01,148.03
+CLI-0309,Eunápolis,PL01,site,2023-08-18,76.19
+CLI-0310,Salvador,PL02,site,2022-07-06,121.58
+CLI-0311,Salvador,PL05,telefone,2026-06-24,278.46
+CLI-0312,Ilhéus,PL04,telefone,2025-01-26,183.97
+CLI-0313,Vitória da Conquista,PL01,telefone,2024-06-07,79.56
+CLI-0314,Feira de Santana,PL05,loja,2022-11-26,291.96
+CLI-0315,Feira de Santana,PL03,indicação,2023-11-10,152.69
+CLI-0316,Ilhéus,PL05,indicação,2025-03-20,275.91
+CLI-0317,Salvador,PL04,site,2024-05-19,198.88
+CLI-0318,Eunápolis,PL05,site,2023-10-25,279.08
+CLI-0319,Eunápolis,PL04,loja,2026-02-06,213.4
+CLI-0320,Salvador,PL05,indicação,2023-01-06,298.67
+CLI-0321,Ilhéus,PL05,site,2022-12-07,283.45
+CLI-0322,Salvador,PL03,telefone,2025-02-02,164.09
+CLI-0323,Ilhéus,PL02,loja,2025-02-24,114.97
+CLI-0324,Vitória da Conquista,PL02,indicação,2024-04-21,104.05
+CLI-0325,Eunápolis,PL01,loja,2025-10-12,88.51
+CLI-0326,Ilhéus,PL05,indicação,2025-04-27,293.33
+CLI-0327,Ilhéus,PL03,telefone,2023-05-28,140.6
+CLI-0328,Eunápolis,PL01,site,2022-11-26,85.48
+CLI-0329,Salvador,PL03,site,2024-03-21,138.36
+CLI-0330,Salvador,PL01,telefone,2026-03-26,81.94
+CLI-0331,Salvador,PL02,loja,2024-07-27,117.5
+CLI-0332,Feira de Santana,PL01,telefone,2025-06-08,74.7
+CLI-0333,Salvador,PL05,site,2025-02-20,308.51
+CLI-0334,Vitória da Conquista,PL02,indicação,2025-03-31,115.92
+CLI-0335,Eunápolis,PL03,telefone,2024-07-22,166.76
+CLI-0336,Eunápolis,PL03,indicação,2024-04-24,158.46
+CLI-0337,Eunápolis,PL02,site,2024-07-29,122.4
+CLI-0338,Eunápolis,PL01,telefone,2025-11-13,76.14
+CLI-0339,Salvador,PL04,loja,2024-09-21,222.28
+CLI-0340,Feira de Santana,PL01,indicação,2026-04-06,79.46
+CLI-0341,Salvador,PL02,indicação,2022-09-05,107.77
+CLI-0342,Ilhéus,PL03,site,2026-05-14,160.9
+CLI-0343,Ilhéus,PL03,indicação,2024-06-19,152.41
+CLI-0344,Feira de Santana,PL03,site,2025-06-25,155.2
+CLI-0345,Eunápolis,PL02,indicação,2025-08-06,106.54
+CLI-0346,Vitória da Conquista,PL02,indicação,2022-08-13,105.17
+CLI-0347,Salvador,PL02,site,2024-04-09,117.19
+CLI-0348,Feira de Santana,PL03,indicação,2025-09-30,149.17
+CLI-0349,Salvador,PL02,indicação,2025-04-24,121.8
+CLI-0350,Vitória da Conquista,PL03,telefone,2024-06-01,163.2
+CLI-0351,Salvador,PL02,telefone,2026-05-13,105.1
+CLI-0352,Feira de Santana,PL04,loja,2024-01-20,198.03
+CLI-0353,Ilhéus,PL04,telefone,2024-04-15,209.45
+CLI-0354,Salvador,PL01,site,2024-03-13,84.07
+CLI-0355,Feira de Santana,PL05,loja,2025-09-22,302.98
+CLI-0356,Ilhéus,PL05,indicação,2023-09-13,323.38
+CLI-0357,Eunápolis,PL03,loja,2023-01-27,145.87
+CLI-0358,Vitória da Conquista,PL05,site,2025-02-09,335.8
+CLI-0359,Vitória da Conquista,PL05,loja,2025-10-16,308.7
+CLI-0360,Salvador,PL03,loja,2024-09-28,141.63
+CLI-0361,Vitória da Conquista,PL03,indicação,2025-09-27,143.27
+CLI-0362,Vitória da Conquista,PL04,loja,2024-08-12,188.24
+CLI-0363,Salvador,PL01,loja,2023-06-29,81.09
+CLI-0364,Vitória da Conquista,PL03,indicação,2024-10-15,157.46
+CLI-0365,Ilhéus,PL03,site,2023-06-12,145.91
+CLI-0366,Salvador,PL04,loja,2025-03-13,218.36
+CLI-0367,Feira de Santana,PL05,site,2023-05-19,284.65
+CLI-0368,Salvador,PL01,telefone,2025-05-22,86.86
+CLI-0369,Feira de Santana,PL05,telefone,2024-03-25,312.31
+CLI-0370,Ilhéus,PL03,site,2023-12-15,149.3
+CLI-0371,Ilhéus,PL03,site,2024-01-23,137.99
+CLI-0372,Feira de Santana,PL01,telefone,2024-09-25,74.8
+CLI-0373,Feira de Santana,PL05,telefone,2023-04-16,296.58
+CLI-0374,Ilhéus,PL03,site,2024-10-27,154.31
+CLI-0375,Vitória da Conquista,PL01,indicação,2025-09-14,84.76
+CLI-0376,Eunápolis,PL05,indicação,2025-01-17,277.83
+CLI-0377,Ilhéus,PL01,indicação,2026-02-05,83.53
+CLI-0378,Ilhéus,PL03,indicação,2024-10-12,163.75
+CLI-0379,Salvador,PL01,loja,2025-08-26,79.64
+CLI-0380,Salvador,PL05,indicação,2023-06-01,310.04
+CLI-0381,Eunápolis,PL03,indicação,2024-12-09,157.54
+CLI-0382,Ilhéus,PL02,site,2023-03-28,103.73
+CLI-0383,Feira de Santana,PL01,indicação,2024-11-04,76.97
+CLI-0384,Feira de Santana,PL03,indicação,2025-02-27,166.31
+CLI-0385,Feira de Santana,PL02,indicação,2026-01-22,107.38
+CLI-0386,Eunápolis,PL02,loja,2025-08-14,107.72
+CLI-0387,Vitória da Conquista,PL05,site,2024-03-13,289.26
+CLI-0388,Salvador,PL05,site,2022-08-15,321.68
+CLI-0389,Feira de Santana,PL05,loja,2023-02-03,293.14
+CLI-0390,Vitória da Conquista,PL04,indicação,2022-07-15,215.07
+CLI-0391,Salvador,PL01,site,2022-10-20,85.89
+CLI-0392,Ilhéus,PL05,site,2024-05-24,311.35
+CLI-0393,Salvador,PL04,telefone,2022-09-19,222.25
+CLI-0394,Eunápolis,PL05,indicação,2022-11-30,304.69
+CLI-0395,Ilhéus,PL03,telefone,2025-09-24,144.59
+CLI-0396,Ilhéus,PL03,indicação,2025-03-26,164.2
+CLI-0397,Vitória da Conquista,PL04,telefone,2024-06-04,215.91
+CLI-0398,Ilhéus,PL04,telefone,2026-06-28,222.72
+CLI-0399,Feira de Santana,PL02,site,2024-11-02,119.33
+CLI-0400,Feira de Santana,PL01,indicação,2025-08-19,88.65
+CLI-0401,Feira de Santana,PL02,site,2026-05-19,106.68
+CLI-0402,Salvador,PL03,site,2025-02-07,146.24
+CLI-0403,Eunápolis,PL03,indicação,2026-03-22,157.09
+CLI-0404,Feira de Santana,PL02,site,2023-10-12,111.03
+CLI-0405,Vitória da Conquista,PL01,site,2024-06-24,75.81
+CLI-0406,Eunápolis,PL03,indicação,2023-01-22,140.05
+CLI-0407,Vitória da Conquista,PL04,indicação,2026-01-28,208.84
+CLI-0408,Salvador,PL03,loja,2026-06-15,153.82
+CLI-0409,Eunápolis,PL04,indicação,2024-12-02,214.9
+CLI-0410,Salvador,PL01,indicação,2026-02-25,88.47
+CLI-0411,Eunápolis,PL02,site,2023-12-09,119.96
+CLI-0412,Feira de Santana,PL01,site,2025-06-09,76.72
+CLI-0413,Ilhéus,PL01,telefone,2024-07-11,82.77
+CLI-0414,Eunápolis,PL05,loja,2024-12-21,321.73
+CLI-0415,Ilhéus,PL05,indicação,2025-06-01,282.66
+CLI-0416,Vitória da Conquista,PL05,loja,2025-01-31,322.1
+CLI-0417,Ilhéus,PL04,indicação,2025-12-06,209.7
+CLI-0418,Vitória da Conquista,PL04,telefone,2024-12-18,206.24
+CLI-0419,Vitória da Conquista,PL03,telefone,2023-09-15,164.91
+CLI-0420,Ilhéus,PL02,indicação,2025-06-27,104.85
+CLI-0421,Ilhéus,PL05,loja,2025-07-09,297.06
+CLI-0422,Feira de Santana,PL01,site,2024-10-05,86.51
+CLI-0423,Eunápolis,PL05,site,2024-06-03,309.56
+CLI-0424,Feira de Santana,PL01,loja,2025-06-24,76.86
+CLI-0425,Feira de Santana,PL04,site,2023-03-22,216.82
+CLI-0426,Salvador,PL03,site,2024-08-30,146.88
+CLI-0427,Feira de Santana,PL05,site,2026-04-06,304.19
+CLI-0428,Salvador,PL04,indicação,2025-04-20,189.61
+CLI-0429,Feira de Santana,PL02,loja,2024-10-16,112.26
+CLI-0430,Salvador,PL01,site,2025-01-12,87.29
+CLI-0431,Feira de Santana,PL04,site,2025-05-09,198.83
+CLI-0432,Salvador,PL03,loja,2023-05-06,161.85
+CLI-0433,Feira de Santana,PL02,loja,2024-06-24,115.35
+CLI-0434,Salvador,PL05,indicação,2022-10-05,333.19
+CLI-0435,Ilhéus,PL04,site,2023-04-20,199.62
+CLI-0436,Ilhéus,PL05,loja,2023-07-31,283.18
+CLI-0437,Salvador,PL02,loja,2024-01-02,112.61
+CLI-0438,Ilhéus,PL01,site,2022-08-22,88.22
+CLI-0439,Vitória da Conquista,PL05,telefone,2026-05-27,282.77
+CLI-0440,Eunápolis,PL03,loja,2024-10-01,167.01
+CLI-0441,Ilhéus,PL04,telefone,2024-03-17,204.32
+CLI-0442,Ilhéus,PL01,telefone,2022-09-28,85.88
+CLI-0443,Feira de Santana,PL04,telefone,2026-06-24,189.6
+CLI-0444,Eunápolis,PL03,indicação,2022-12-08,163.91
+CLI-0445,Eunápolis,PL05,indicação,2023-03-16,304.77
+CLI-0446,Feira de Santana,PL05,indicação,2025-01-20,326.8
+CLI-0447,Vitória da Conquista,PL05,telefone,2024-04-29,318.67
+CLI-0448,Ilhéus,PL01,telefone,2022-09-26,76.08
+CLI-0449,Feira de Santana,PL04,telefone,2022-09-26,185.9
+CLI-0450,Feira de Santana,PL03,site,2023-02-12,164.68
+CLI-0451,Feira de Santana,PL03,telefone,2025-01-27,163.41
+CLI-0452,Salvador,PL04,site,2023-04-05,207.28
+CLI-0453,Feira de Santana,PL02,site,2023-02-10,111.26
+CLI-0454,Feira de Santana,PL05,site,2026-03-29,322.19
+CLI-0455,Feira de Santana,PL02,site,2024-07-19,105.64
+CLI-0456,Salvador,PL02,telefone,2026-02-18,105.11
+CLI-0457,Salvador,PL02,site,2026-05-09,115.61
+CLI-0458,Vitória da Conquista,PL05,indicação,2025-10-16,327.49
+CLI-0459,Feira de Santana,PL05,site,2023-07-12,334.25
+CLI-0460,Vitória da Conquista,PL03,site,2026-01-05,155.72
+CLI-0461,Salvador,PL03,loja,2022-11-15,159.41
+CLI-0462,Feira de Santana,PL04,indicação,2025-07-12,200.85
+CLI-0463,Salvador,PL04,telefone,2026-05-23,208.68
+CLI-0464,Ilhéus,PL03,telefone,2025-05-26,155.07
+CLI-0465,Salvador,PL04,indicação,2023-07-06,210.77
+CLI-0466,Ilhéus,PL04,telefone,2022-11-10,184.72
+CLI-0467,Vitória da Conquista,PL01,loja,2024-09-26,86.99
+CLI-0468,Eunápolis,PL02,loja,2025-03-12,111.16
+CLI-0469,Feira de Santana,PL03,loja,2022-10-23,158.82
+CLI-0470,Salvador,PL01,site,2023-11-01,80.1
+CLI-0471,Eunápolis,PL01,telefone,2025-07-16,79.77
+CLI-0472,Eunápolis,PL03,loja,2025-04-18,155.46
+CLI-0473,Eunápolis,PL02,loja,2025-03-17,109.49
+CLI-0474,Eunápolis,PL05,telefone,2023-10-29,318.5
+CLI-0475,Vitória da Conquista,PL03,site,2026-06-09,139.58
+CLI-0476,Ilhéus,PL04,loja,2025-10-19,209.86
+CLI-0477,Eunápolis,PL02,indicação,2026-02-02,102.47
+CLI-0478,Eunápolis,PL03,site,2025-12-31,166.72
+CLI-0479,Salvador,PL04,indicação,2026-06-27,184.36
+CLI-0480,Vitória da Conquista,PL05,loja,2024-04-06,315.5
+CLI-0481,Salvador,PL03,loja,2025-04-03,143.89
+CLI-0482,Salvador,PL03,indicação,2024-04-24,159.77
+CLI-0483,Salvador,PL03,indicação,2025-09-28,148.07
+CLI-0484,Vitória da Conquista,PL02,indicação,2026-04-04,117.53
+CLI-0485,Eunápolis,PL03,telefone,2022-07-31,138.27
+CLI-0486,Salvador,PL03,site,2024-10-22,145.26
+CLI-0487,Ilhéus,PL04,indicação,2026-01-02,193.68
+CLI-0488,Ilhéus,PL04,site,2023-01-15,194.23
+CLI-0489,Vitória da Conquista,PL03,site,2024-12-29,164.79
+CLI-0490,Eunápolis,PL01,loja,2025-03-02,78.86
+CLI-0491,Eunápolis,PL01,site,2025-02-16,86.37
+CLI-0492,Ilhéus,PL05,telefone,2022-07-17,277.97
+CLI-0493,Feira de Santana,PL05,indicação,2024-08-06,276.88
+CLI-0494,Ilhéus,PL05,site,2026-03-03,300.93
+CLI-0495,Salvador,PL03,indicação,2022-09-02,140.05
+CLI-0496,Feira de Santana,PL03,indicação,2026-02-11,157.93
+CLI-0497,Feira de Santana,PL03,indicação,2025-11-20,149.58
+CLI-0498,Eunápolis,PL05,site,2026-05-28,326.55
+CLI-0499,Vitória da Conquista,PL04,telefone,2026-04-30,212.55
+CLI-0500,Feira de Santana,PL02,telefone,2025-03-07,117.04
+CLI-0501,Ilhéus,PL03,telefone,2024-06-06,142.93
+CLI-0502,Eunápolis,PL01,loja,2022-11-12,88.14
+CLI-0503,Ilhéus,PL05,site,2024-03-07,335.68
+CLI-0504,Ilhéus,PL03,site,2023-08-25,141.05
+CLI-0505,Salvador,PL03,telefone,2026-05-19,144.44
+CLI-0506,Eunápolis,PL02,site,2022-10-15,103.4
+CLI-0507,Ilhéus,PL03,indicação,2022-12-16,154.24
+CLI-0508,Ilhéus,PL04,telefone,2025-10-23,223.49
+CLI-0509,Vitória da Conquista,PL01,loja,2024-12-18,83.36
+CLI-0510,Feira de Santana,PL03,site,2023-11-15,139.89
+CLI-0511,Salvador,PL04,telefone,2025-12-15,209.13
+CLI-0512,Salvador,PL05,loja,2025-09-15,334.87
+CLI-0513,Eunápolis,PL02,loja,2023-08-09,118.62
+CLI-0514,Vitória da Conquista,PL04,telefone,2025-03-14,217.28
+CLI-0515,Eunápolis,PL03,indicação,2024-04-17,157.9
+CLI-0516,Ilhéus,PL03,indicação,2024-03-13,152.9
+CLI-0517,Eunápolis,PL05,telefone,2023-01-23,333.42
+CLI-0518,Salvador,PL03,loja,2023-09-01,143.35
+CLI-0519,Feira de Santana,PL02,indicação,2025-03-26,122.47
+CLI-0520,Vitória da Conquista,PL03,indicação,2023-09-09,154.5
+CLI-0521,Feira de Santana,PL01,telefone,2025-10-31,87.11
+CLI-0522,Salvador,PL02,telefone,2024-04-28,113.15
+CLI-0523,Eunápolis,PL01,telefone,2026-06-25,82.16
+CLI-0524,Feira de Santana,PL04,loja,2025-07-22,188.77
+CLI-0525,Feira de Santana,PL05,loja,2023-03-08,323.38
+CLI-0526,Feira de Santana,PL02,telefone,2025-12-15,106.62
+CLI-0527,Ilhéus,PL01,loja,2024-10-28,75.75
+CLI-0528,Vitória da Conquista,PL05,indicação,2025-11-23,294.82
+CLI-0529,Salvador,PL01,site,2024-12-07,83.18
+CLI-0530,Ilhéus,PL01,loja,2022-09-26,75.21
+CLI-0531,Salvador,PL02,loja,2024-01-05,114.62
+CLI-0532,Feira de Santana,PL03,site,2025-02-14,143.86
+CLI-0533,Feira de Santana,PL05,telefone,2025-05-01,321.19
+CLI-0534,Ilhéus,PL05,telefone,2024-11-08,285.49
+CLI-0535,Salvador,PL03,site,2025-09-22,155.16
+CLI-0536,Feira de Santana,PL02,telefone,2022-09-27,105.51
+CLI-0537,Ilhéus,PL02,indicação,2026-05-14,121.27
+CLI-0538,Salvador,PL05,site,2024-08-05,325.91
+CLI-0539,Eunápolis,PL03,telefone,2023-08-11,167.32
+CLI-0540,Eunápolis,PL05,telefone,2024-12-31,308.78
+CLI-0541,Vitória da Conquista,PL02,site,2022-06-26,105.36
+CLI-0542,Ilhéus,PL01,indicação,2026-05-28,75.94
+CLI-0543,Feira de Santana,PL04,site,2023-01-01,188.99
+CLI-0544,Vitória da Conquista,PL02,site,2024-09-18,108.98
+CLI-0545,Salvador,PL01,site,2026-04-13,73.84
+CLI-0546,Salvador,PL01,loja,2026-03-08,81.92
+CLI-0547,Vitória da Conquista,PL05,indicação,2026-02-16,322.68
+CLI-0548,Feira de Santana,PL02,telefone,2024-03-17,113.08
+CLI-0549,Vitória da Conquista,PL02,telefone,2024-09-08,111.66
+CLI-0550,Feira de Santana,PL01,indicação,2023-02-13,77.82
+CLI-0551,Eunápolis,PL03,indicação,2024-10-16,164.93
+CLI-0552,Eunápolis,PL02,site,2024-03-02,110.65
+CLI-0553,Eunápolis,PL04,site,2025-03-24,217.67
+CLI-0554,Eunápolis,PL02,indicação,2025-03-31,105.24
+CLI-0555,Feira de Santana,PL01,indicação,2023-03-23,75.01
+CLI-0556,Eunápolis,PL01,telefone,2023-08-21,76.06
+CLI-0557,Ilhéus,PL01,indicação,2024-10-09,87.09
+CLI-0558,Salvador,PL03,loja,2025-03-29,158.46
+CLI-0559,Feira de Santana,PL05,loja,2025-08-18,311.52
+CLI-0560,Salvador,PL02,indicação,2022-11-12,101.3
+CLI-0561,Feira de Santana,PL03,loja,2025-03-06,161.02
+CLI-0562,Ilhéus,PL01,indicação,2022-11-01,75.17
+CLI-0563,Eunápolis,PL03,site,2024-06-18,151.66
+CLI-0564,Vitória da Conquista,PL03,telefone,2024-04-28,154.06
+CLI-0565,Salvador,PL02,telefone,2023-10-18,108.36
+CLI-0566,Vitória da Conquista,PL03,loja,2024-02-28,154.48
+CLI-0567,Feira de Santana,PL04,loja,2025-10-29,202.71
+CLI-0568,Feira de Santana,PL05,indicação,2024-04-14,297.38
+CLI-0569,Ilhéus,PL03,site,2025-12-22,162.21
+CLI-0570,Eunápolis,PL05,telefone,2024-10-10,296.96
+CLI-0571,Eunápolis,PL04,telefone,2024-05-11,207.22
+CLI-0572,Vitória da Conquista,PL05,indicação,2024-01-24,286.45
+CLI-0573,Salvador,PL03,site,2023-12-08,138.04
+CLI-0574,Eunápolis,PL05,loja,2025-01-15,296.1
+CLI-0575,Feira de Santana,PL03,indicação,2026-04-25,139.58
+CLI-0576,Feira de Santana,PL01,loja,2023-01-29,85.64
+CLI-0577,Vitória da Conquista,PL03,telefone,2024-12-06,151.75
+CLI-0578,Feira de Santana,PL03,site,2023-11-11,139.69
+CLI-0579,Vitória da Conquista,PL01,telefone,2026-04-18,73.97
+CLI-0580,Eunápolis,PL01,telefone,2024-12-05,79.9
+CLI-0581,Feira de Santana,PL05,site,2024-02-19,279.93
+CLI-0582,Vitória da Conquista,PL04,telefone,2024-03-07,203.06
+CLI-0583,Feira de Santana,PL05,site,2025-07-03,332.44
+CLI-0584,Ilhéus,PL03,indicação,2023-01-22,157.8
+CLI-0585,Salvador,PL02,telefone,2025-08-25,108.93
+CLI-0586,Ilhéus,PL04,indicação,2025-01-01,208.52
+CLI-0587,Feira de Santana,PL03,site,2024-01-31,153.34
+CLI-0588,Vitória da Conquista,PL03,indicação,2025-10-27,159.79
+CLI-0589,Vitória da Conquista,PL05,telefone,2024-03-07,317.22
+CLI-0590,Vitória da Conquista,PL03,telefone,2023-04-13,147.94
+CLI-0591,Salvador,PL02,site,2026-06-16,108.82
+CLI-0592,Eunápolis,PL04,loja,2024-05-12,206.61
+CLI-0593,Vitória da Conquista,PL01,site,2024-07-01,82.41
+CLI-0594,Vitória da Conquista,PL01,site,2024-02-04,81.82
+CLI-0595,Vitória da Conquista,PL01,telefone,2022-10-21,75.64
+CLI-0596,Eunápolis,PL01,site,2025-06-01,77.32
+CLI-0597,Vitória da Conquista,PL04,telefone,2024-11-29,185.39
+CLI-0598,Feira de Santana,PL05,indicação,2023-06-26,322.64
+CLI-0599,Vitória da Conquista,PL04,loja,2023-03-10,189.56
+CLI-0600,Ilhéus,PL05,site,2025-12-09,302.57

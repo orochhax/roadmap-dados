@@ -10,3 +10,10 @@
 # 4. [ ] Cadastre manualmente 10 incidentes e confirme: contagem por cidade, média de duração, prioridade mais frequente e total de clientes afetados.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Adicione ao menu a opção 'listar somente P1 e P2' e faça essa opção chamar uma função separada que receba a lista de incidentes.
+# ESCREVA AQUI:
+
+# 2. [ ] Teste o novo filtro com uma lista que contém um P1 e um P4 e depois com uma lista vazia; registre os dois comportamentos em testes_manuais.md.
+# ESCREVA AQUI:

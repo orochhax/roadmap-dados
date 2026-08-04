@@ -12,3 +12,10 @@
 # 5. [ ] Teste modelo inexistente, arquivo corrompido e campo extra.
 #
 # Escreva sua solução abaixo desta linha.
+
+# EXERCÍCIOS EXTRAS ESPECÍFICOS
+# 1. [ ] Compare 20 previsões com ids fixos entre notebook e módulo carregado e liste qualquer diferença maior que 0,000001.
+# ESCREVA AQUI:
+
+# 2. [ ] Teste caminho de modelo inexistente e uma entrada com coluna extra segredo; trate os dois casos separadamente.
+# ESCREVA AQUI:

@@ -6,7 +6,7 @@
 
 ### Preparação
 - **Assunto central:** Baselines temporais.
-- **Pasta/arquivo principal:** `semana-16/dia-077-baselines-temporais.ipynb`.
+- **Pasta/arquivo principal:** `01-exercicios/dia-077-baselines-temporais.ipynb`.
 - **Dados:** `dados/energia.csv`.
 
 ### Passo a passo completo
@@ -17,10 +17,10 @@
 5. [ ] Escolha baseline oficial que qualquer modelo deve superar.
 
 ### Exercícios extras
-> Você pode consultar suas anotações e o código já feito; o objetivo é avançar com uma variação nova, não refazer a atividade.
+> Os enunciados também estão preparados em `01-exercicios/dia-077-baselines-temporais.ipynb`. Faça exatamente estes dois itens.
 
-- [ ] Avalie **Baselines temporais** em uma janela temporal ou horizonte adicional, mantendo a ordem das datas.
-- [ ] Crie um teste de estresse com mudança de regime, período ausente ou custo maior e registre se a conclusão permanece útil.
+- [ ] **Em `01-exercicios/dia-077-baselines-temporais.ipynb`:** Compare horizonte de 7 e 14 dias nas mesmas três janelas walk-forward e registre MAE por horizonte.
+- [ ] **Em `01-exercicios/dia-077-baselines-temporais.ipynb`:** Avalie o baseline oficial separadamente em dias úteis e fins de semana.
 
 ### Perguntas de checagem
 
