@@ -43,7 +43,6 @@
 - [ ] Todos os exercícios obrigatórios foram executados; nenhum item foi marcado apenas por leitura.
 - [ ] O artefato executa do início ao fim sem edição manual oculta.
 - [ ] Há pelo menos um caso normal, um caso de borda e um caso inválido documentados.
-- [ ] O diário registra erro principal, correção, aprendizado e próxima lacuna.
 - [ ] Commit realizado com mensagem no formato `dia-120: teste-apresentacao-e-retrospectiva`.
 
 **Autoavaliação do dia:** `__/5`  

@@ -3,7 +3,6 @@
 > Estrutura preparada a partir do roadmap original. Os arquivos contêm somente enunciados, checklists e espaços vazios; nenhuma atividade foi resolvida.
 
 - [Roadmap completo](<roadmap_cientista_dados_6_meses_v3_investimentos.md>)
-- [Diário de estudos](<diario-de-estudos.md>)
 - [Mapa dos arquivos preparados](<00 - Recursos Compartilhados/mapa-de-arquivos.md>)
 
 ## 01 - Agosto 2026
