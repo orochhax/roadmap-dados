@@ -31,9 +31,10 @@ print(type(z))
 preco_ex01 = 249.90
 desconto_percentual_ex01 = 15
 # ESCREVA AQUI:
-desconto = preco_ex01 * 0.15
+desconto = preco_ex01 * desconto_percentual_ex01 / 100
 valor_final = preco_ex01 - desconto
-print(valor_final)
+print(f"Valor do desconto R${desconto:.2f}")
+print(f"Preço total: R${valor_final:.2f}")
 
 # 2. [ ] IMC
 # Uma pessoa pesa 78,4 kg e mede 1,75 m. Calcule o IMC e mostre o resultado
@@ -58,7 +59,7 @@ velocidade_kmh_ex04 = 90
 # ESCREVA AQUI:
 converte = 3.6
 conversao = velocidade_kmh_ex04 / converte
-print(conversao, "m/s")
+print(f"{conversao:.2f} m/s")
 
 
 # 5. [ ] JUROS SIMPLES
@@ -71,6 +72,7 @@ meses_ex05 = 8
 rendimento = capital_ex05 * (taxa_mensal_percentual_ex05 / 100)
 redimento_total = rendimento * meses_ex05
 valor_final_bruto = capital_ex05 + redimento_total
+print(f"Juros R${redimento_total:.2f}")
 print(f"R$ {valor_final_bruto:.2f}")
 
 # 6. [ ] COMISSÃO
@@ -92,8 +94,9 @@ gorjeta_percentual_ex07 = 10
 # ESCREVA AQUI:
 gorjeta = conta_ex07 * (gorjeta_percentual_ex07 / 100)
 total_com_gorjeta = conta_ex07 + gorjeta
-valor_individual_com_gorjeta = total_com_gorjeta / 4 
+valor_individual_com_gorjeta = total_com_gorjeta / pessoas_ex07
 print(f"Total: R${total_com_gorjeta:.2f}, ficando R${valor_individual_com_gorjeta:.2f} pra cada.")
+print(f"Valor da gorjeta R${gorjeta:.2f}")
 
 # 8. [ ] CONSUMO MÉDIO
 # Um carro percorreu 540 km usando 45 litros. Calcule o consumo médio em km/l.
@@ -145,8 +148,8 @@ print(f"Duração media foi de {duracao_media:.0f} minutos")
 preco_unitario_ex13 = 19.987
 quantidade_ex13 = 7
 # ESCREVA AQUI:
-valor_unidade = preco_unitario_ex13 / quantidade_ex13
-print(f"Valor da unidade R${valor_unidade:.2f}")
+valor_total = preco_unitario_ex13 * quantidade_ex13
+print(f"Valor total R${valor_total:.2f}")
 
 # 14. [ ] COMPARAÇÃO DE METAS
 # A meta era resolver 420 chamados e a equipe resolveu 438. Informe se a meta
@@ -154,7 +157,13 @@ print(f"Valor da unidade R${valor_unidade:.2f}")
 meta_ex14 = 420
 realizado_ex14 = 438
 # ESCREVA AQUI:
+diferença_chamados = realizado_ex14 - meta_ex14
+percentual_meta = realizado_ex14 / meta_ex14 * 100
 
+if realizado_ex14 >= meta_ex14:
+    print(f"Meta batida!! Chamados resolvidos {realizado_ex14}, ({percentual_meta:.2f}%). Passamos {diferença_chamados} chamados")
+else:
+    print(f"Meta não foi alcançada, faltou {diferença_chamados} chamados")
 
 # 15. [ ] FRASE COM F-STRING
 # Usando somente os dados abaixo, produza esta informação em uma frase:
@@ -164,15 +173,7 @@ cidade_ex15 = "Salvador"
 chamados_ex15 = 8
 duracao_media_ex15 = 42.5
 # ESCREVA AQUI:
-
-
-# PARTE C — ENTRADAS E VALIDAÇÃO
-# [ ] Depois de concluir os 15 exercícios com os dados fornecidos, adapte cada
-#     seção para usar input() e converter os valores para int ou float.
-# [ ] Em exercícios com divisão, impeça divisor igual a zero.
-# [ ] Quando for digitado texto no lugar de número, mostre uma mensagem clara
-#     em vez de deixar o programa encerrar com erro sem explicação.
-
+print(f"{analista_ex15} mora em {cidade_ex15}, tem {chamados_ex15} chamados com duração media de {duracao_media_ex15} minutos")
 
 # EXERCÍCIO EXTRA ESPECÍFICO
 # 16. [ ] PLANO COM CONSUMO EXCEDENTE
@@ -182,3 +183,6 @@ mensalidade_ex16 = 129.90
 gb_adicionais_ex16 = 7
 preco_por_gb_ex16 = 4.50
 # ESCREVA AQUI:
+gb_add = preco_por_gb_ex16 * gb_adicionais_ex16
+total = mensalidade_ex16 + gb_add
+print(f"O valor de GB adicionais é de R${gb_add:.2f}, ficando um valor total de R${total:.2f}")
