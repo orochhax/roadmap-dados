@@ -16,3 +16,8 @@ Todos foram gerados com seed `42` por
 `../00 - Recursos Compartilhados/gerar_dados.py`. Os CSVs desta pasta são as
 entradas imutáveis. Use `raw/` apenas para snapshots adicionais e grave versões
 tratadas em `processed/` ou na pasta do projeto quando o enunciado solicitar.
+
+Os resultados obtidos com este kit demonstram o funcionamento do método no
+cenário simulado. Eles não medem impacto em clientes, empresas ou redes reais.
+Toda publicação deve manter essa limitação visível e nunca transformar uma
+métrica sintética em alegação de resultado profissional.

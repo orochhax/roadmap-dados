@@ -2,6 +2,8 @@
 
 - [LinkedIn e evidências do roadmap](linkedin-e-evidencias.md)
 - [LinkedIn — perfil atual e próximas mudanças](linkedin-perfil-atual.md)
+- [Vagas para análise do roadmap](VAGAS.md)
+- [Análise das vagas e decisões do currículo](analise-vagas-e-decisoes.md)
 - [Decisões de Carlos](PERGUNTAS-PARA-CARLOS.md)
 
 Materiais usados por mais de uma sessão:
@@ -38,3 +40,11 @@ Mantenha a pasta inteira do projeto unida. Os caminhos são relativos para que e
 3. Grave versões tratadas em `dados/processed/` ou dentro da pasta do projeto.
 4. Use seed `42` sempre que gerar dados aleatórios, salvo quando o exercício pedir teste de estabilidade.
 5. O script `gerar_dados.py` recria o kit caso algum arquivo seja perdido.
+
+### Como apresentar dados sintéticos
+
+- Informe no data card e no README que os registros são simulados e não representam pessoas ou empresas reais.
+- Registre gerador, seed, esquema e regras usadas para produzir os dados.
+- Use os resultados para demonstrar método, código, testes e tomada de decisão; não os apresente como impacto real de negócio.
+- Uma simulação causal comprova que a análise foi implementada corretamente dentro das hipóteses simuladas, não que a mesma intervenção funcionaria numa operadora real.
+- Em imagens, prefira dados públicos licenciados quando precisar estimar desempenho de campo; imagens artificiais isoladas servem apenas para validar o fluxo técnico.

@@ -1,6 +1,6 @@
 # Curso em Vídeo — cobertura de Python
 
-Esta página registra o conteúdo gratuito usado nas sessões de agosto. A agenda executável fica no [README principal](<../README.md>); cada pasta diária contém toda a prática necessária naquele encontro.
+Esta página registra o conteúdo gratuito usado nas sessões de Python. A agenda executável fica no [README principal](<../README.md>); cada pasta diária contém toda a prática necessária naquele encontro.
 
 ## Fontes oficiais
 
@@ -27,14 +27,10 @@ Use a resolução como diagnóstico: compare-a quando houver dúvida ou diferen�
 | 13/08 | #09 — Manipulando Texto; #12 — Condições Aninhadas | #022 e #038 | Normalização de descrição e comparação de impacto |
 | 14/08 | #13 — Estrutura de repetição `for` | #046, #048 e #050 | Contador, acumulador e filtro |
 | 17/08 | #14 — Estrutura de repetição `while` | #057, #059 e #064 | Validação e menu |
-| 18/08 | #15 — Interrompendo repetições `while` | #066, #069 e #070 | Sentinela, `break` e média segura |
-| 19/08 | #16 — Tuplas | #072, #075 e #077 | Dados de referência imutáveis |
-| 20/08 | #17 — Listas, parte 1 | #078, #079 e #081 | Inclusão, busca, cópia e ordenação |
-| 21/08 | #18 — Listas, parte 2 | #084 e #086 | Registros aninhados e matriz |
-| 24/08 | #19 — Dicionários | #090 | Lista de dicionários, contagem, `set` e agregação |
-| 25/08 | #20 — Funções, parte 1 | #096, #098 e #100 | Função com parâmetros |
-| 26/08 | #21 — Funções, parte 2 | #104 e #105 | Validação, retorno e dicionário |
-| 27/08 | #22 — Módulos e Pacotes | #107 e #111 | Pacote pequeno e ponto de entrada |
+| 24/08 | #15 — Interrompendo repetições `while`; #16 — Tuplas | #066, #069, #070, #072, #075 e #077 | Sentinela, `break`, média segura e dados imutáveis |
+| 25/08 | #17 — Listas, parte 1; #18 — Listas, parte 2 | #078, #079, #081, #084 e #086 | Inclusão, cópia, ordenação, registros aninhados e matriz |
+| 26/08 | #19 — Dicionários; #20 — Funções, parte 1 | #090, #096, #098 e #100 | Dicionários, `set`, agregação e parâmetros |
+| 27/08 | #21 — Funções, parte 2; #22 — Módulos e Pacotes | #104, #105, #107 e #111 | Retorno, validação, pacote e ponto de entrada |
 | 28/08 | #23 — Tratamento de Erros e Exceções | #113 e #115a | Entrada segura e menu |
 | 31/08 | Projeto final | #115b e #115c | Persistência e teste de aceitação |
 
@@ -44,12 +40,12 @@ O curso cobre `for`; não é necessário procurar outra aula para aprendê-lo. O
 
 | Conceito | Primeira aplicação |
 |---|---|
-| `set()`, `.add()` e pertencimento | 24/08 — causas únicas de incidentes |
-| Cópia de lista e diferença entre `sort()` e `sorted()` | 20/08 — ordenação sem destruir a entrada |
+| `set()`, `.add()` e pertencimento | 26/08 — causas únicas de incidentes |
+| Cópia de lista e diferença entre `sort()` e `sorted()` | 25/08 — ordenação sem destruir a entrada |
 | `if __name__ == "__main__"` | 27/08 — ponto de entrada do pacote |
 | `pathlib.Path` e `encoding="utf-8"` | 31/08 — persistência independente da pasta de execução |
-| Comprehensions, `enumerate`, `zip`, `any` e `all` | 02/09 — transformação e validação de coleções |
-| CSV, JSON e caminhos estruturados | 03/09 — leitura e escrita de dados |
-| Ambiente virtual, dependências e testes | 07/09 — projeto reproduzível |
+| Comprehensions, `enumerate`, `zip`, `any` e `all` | 01/09 — transformação e validação de coleções |
+| CSV, JSON e caminhos estruturados | 02/09 — leitura e escrita de dados |
+| Ambiente virtual, dependências e testes | 03/09 — projeto reproduzível |
 
 Cada complemento vem com exemplo mínimo no README da própria data; não exige outro curso.

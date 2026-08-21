@@ -8,19 +8,80 @@ import hashlib
 import json
 import re
 import sys
+import unicodedata
 from collections import Counter
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 from urllib.parse import unquote
+
+try:
+    from gerar_indices import (
+        FILE_MAP,
+        ROOT_README,
+        generate_map,
+        generate_root,
+        sessions as generated_sessions,
+    )
+except ModuleNotFoundError:  # Permite importar como scripts.validar_roadmap em testes.
+    from scripts.gerar_indices import (
+        FILE_MAP,
+        ROOT_README,
+        generate_map,
+        generate_root,
+        sessions as generated_sessions,
+    )
 
 
 ROOT = Path(__file__).resolve().parents[1]
 MONTH_RE = re.compile(
-    r"^(?P<complete>OK - )?(?P<order>\d{2}) - .+ (?P<year>\d{4}) "
+    r"^(?P<complete>OK - )?(?P<order>\d{2}) - (?P<label>.+?) (?P<year>\d{4}) "
     r"\[(?P<done>\d+)-(?P<total>\d+)\]$"
 )
 DAY_RE = re.compile(r"^(?:OK - )?Dia (?P<day>\d{2})-(?P<month>\d{2}) - .+$")
+DAY_CANDIDATE_RE = re.compile(r"^(?:OK - )?Dia")
 LINK_RE = re.compile(r"!?\[[^\]]*\]\((?P<target><[^>]+>|[^)\s]+)(?:\s+['\"][^)]*['\"])?\)")
+
+ROADMAP_START = date(2026, 8, 3)
+ROADMAP_END = ROADMAP_START.replace(year=ROADMAP_START.year + 1) - timedelta(days=1)
+LINKEDIN_POST_DATES = {
+    "2026-08-28",
+    "2026-09-04",
+    "2026-09-11",
+    "2026-09-18",
+    "2026-09-25",
+    "2026-09-30",
+    "2026-10-08",
+    "2026-10-16",
+    "2026-10-23",
+    "2026-10-28",
+    "2026-11-06",
+    "2026-11-12",
+    "2026-11-18",
+    "2026-11-25",
+    "2026-12-04",
+    "2026-12-11",
+    "2026-12-18",
+    "2026-12-23",
+    "2026-12-30",
+    "2027-01-06",
+    "2027-01-13",
+    "2027-01-22",
+    "2027-01-25",
+}
+MONTH_NUMBERS = {
+    "janeiro": 1,
+    "fevereiro": 2,
+    "marco": 3,
+    "abril": 4,
+    "maio": 5,
+    "junho": 6,
+    "julho": 7,
+    "agosto": 8,
+    "setembro": 9,
+    "outubro": 10,
+    "novembro": 11,
+    "dezembro": 12,
+}
 
 # A agenda vive no README raiz. Uma sessao diaria nunca depende de reabrir outra.
 FORBIDDEN_DAILY_PATTERNS = {
@@ -156,6 +217,47 @@ def local_link_target(source: Path, raw_target: str) -> Path | None:
     return (source.parent / target).resolve()
 
 
+def month_number(label: str) -> int | None:
+    normalized = "".join(
+        character
+        for character in unicodedata.normalize("NFKD", label)
+        if not unicodedata.combining(character)
+    ).casefold()
+    return MONTH_NUMBERS.get(normalized)
+
+
+def validate_generated_indices(errors: list[str]) -> None:
+    """Confere os indices gerados sem alterar o repositorio."""
+    try:
+        items = generated_sessions()
+        expected = {
+            ROOT_README: generate_root(items),
+            FILE_MAP: generate_map(items),
+        }
+    except (OSError, UnicodeError) as exc:
+        errors.append(f"Nao foi possivel gerar indices em memoria: {exc}")
+        return
+
+    labels = {
+        ROOT_README: "Agenda principal desatualizada",
+        FILE_MAP: "Mapa de arquivos desatualizado",
+    }
+    for path, expected_text in expected.items():
+        if not path.is_file():
+            errors.append(f"Indice gerado ausente: {path.relative_to(ROOT)}")
+            continue
+        try:
+            observed_text = path.read_text(encoding="utf-8")
+        except (OSError, UnicodeError) as exc:
+            errors.append(f"Indice gerado invalido: {path.relative_to(ROOT)} ({exc})")
+            continue
+        if observed_text != expected_text:
+            errors.append(
+                f"{labels[path]}: {path.relative_to(ROOT)} "
+                "(execute python scripts/gerar_indices.py)"
+            )
+
+
 def validate_ai_project(errors: list[str]) -> None:
     required = [
         AI_PROJECT / "README.md",
@@ -248,6 +350,89 @@ def validate_ai_project(errors: list[str]) -> None:
             errors.append(f"Configuracao do projeto de IA invalida: {exc}")
 
 
+def validate_market_modules_and_projects(errors: list[str]) -> None:
+    """Protege os módulos adicionados pela análise de vagas e seus produtos."""
+
+    observed_modules: dict[str, Path] = {}
+    module_name_re = re.compile(r"^\d{2}-(?P<ref>n\d{2})$")
+    for month in ROOT.iterdir():
+        if not month.is_dir() or not MONTH_RE.match(month.name):
+            continue
+        for module in month.glob("Dia */modulos/*"):
+            match = module_name_re.match(module.name) if module.is_dir() else None
+            if not match:
+                continue
+            ref = match.group("ref").upper()
+            if ref in observed_modules:
+                errors.append(
+                    f"Modulo de mercado duplicado: {ref} "
+                    f"({observed_modules[ref].relative_to(ROOT)} e {module.relative_to(ROOT)})"
+                )
+            observed_modules[ref] = module
+            required = [
+                module / "README.md",
+                module / "01-exercicios" / "ENUNCIADO.md",
+                module / "03-evidencias" / "README.md",
+            ]
+            for path in required:
+                if not path.is_file():
+                    errors.append(
+                        f"Artefato de modulo novo ausente: {path.relative_to(ROOT)}"
+                    )
+            exercise_dir = module / "01-exercicios"
+            starters = (
+                [
+                    path
+                    for path in exercise_dir.iterdir()
+                    if path.is_file() and path.name != "ENUNCIADO.md"
+                ]
+                if exercise_dir.is_dir()
+                else []
+            )
+            if not starters:
+                errors.append(
+                    f"Arquivo inicial do exercicio ausente: {module.relative_to(ROOT)}"
+                )
+
+    expected_modules = {f"N{index:02d}" for index in range(1, 26)}
+    if set(observed_modules) != expected_modules:
+        missing = sorted(expected_modules - set(observed_modules))
+        extra = sorted(set(observed_modules) - expected_modules)
+        errors.append(
+            f"Inventario de modulos novos incorreto: ausentes={missing}, extras={extra}"
+        )
+
+    project_roots = [
+        ROOT / "projetos" / "telecom-customer-intelligence",
+        ROOT / "projetos" / "energy-forecastops",
+        ROOT / "projetos" / "entity-matching-lab",
+        ROOT / "projetos" / "assistente-suporte-ia" / "extensao-visao-computacional",
+        ROOT / "projetos" / "telecom-customer-intelligence" / "entrega-tcc",
+    ]
+    common = [
+        Path("README.md"),
+        Path("README.en.md"),
+        Path("data_card.md"),
+        Path("backlog.md"),
+        Path("docs") / "presentation-en.md",
+    ]
+    for project in project_roots:
+        for relative in common:
+            path = project / relative
+            if not path.is_file():
+                errors.append(
+                    f"Artefato de projeto de portfolio ausente: {path.relative_to(ROOT)}"
+                )
+
+    for project in project_roots[:-1]:
+        for folder in ("src", "tests", "data"):
+            path = project / folder
+            if not path.is_dir():
+                errors.append(
+                    f"Diretorio de projeto de portfolio ausente: {path.relative_to(ROOT)}"
+                )
+
+
 def main() -> int:
     errors: list[str] = []
     dates: list[str] = []
@@ -260,14 +445,40 @@ def main() -> int:
         and not re.match(r"^(?:OK - )?00 - ", path.name)
     )
     for month in month_candidates:
+        child_dirs = [path for path in month.iterdir() if path.is_dir()]
+        for child in child_dirs:
+            if DAY_CANDIDATE_RE.match(child.name) and not DAY_RE.match(child.name):
+                errors.append(
+                    f"Diretorio de dia malformado: {child.relative_to(ROOT)}"
+                )
+
         month_match = MONTH_RE.match(month.name)
         if not month_match:
             errors.append(f"Contador mensal ausente ou invalido: {month.name}")
             continue
+
+        expected_month = month_number(month_match.group("label"))
+        if expected_month is None:
+            errors.append(
+                f"Nome de mes desconhecido: {month.name} "
+                f"({month_match.group('label')})"
+            )
+
         day_dirs = [
-            path for path in month.iterdir()
-            if path.is_dir() and DAY_RE.match(path.name)
+            path for path in child_dirs if DAY_RE.match(path.name)
         ]
+        for day_dir in day_dirs:
+            day_match = DAY_RE.match(day_dir.name)
+            assert day_match
+            observed_month = int(day_match.group("month"))
+            if expected_month is not None and observed_month != expected_month:
+                errors.append(
+                    "Data diaria incoerente com a pasta mensal: "
+                    f"{day_dir.relative_to(ROOT)} "
+                    f"(mes esperado {expected_month:02d}, observado {observed_month:02d}; "
+                    f"ano {month_match.group('year')})"
+                )
+
         actual_done = sum(path.name.startswith("OK - ") for path in day_dirs)
         stated_done = int(month_match.group("done"))
         stated_total = int(month_match.group("total"))
@@ -292,9 +503,16 @@ def main() -> int:
         )
         dates.append(date_key)
         try:
-            date.fromisoformat(date_key)
+            session_date = date.fromisoformat(date_key)
         except ValueError:
             errors.append(f"Data invalida: {readme.parent.relative_to(ROOT)}")
+        else:
+            if not ROADMAP_START <= session_date <= ROADMAP_END:
+                errors.append(
+                    "Data fora do limite de um ano: "
+                    f"{readme.parent.relative_to(ROOT)} "
+                    f"({ROADMAP_START.isoformat()} a {ROADMAP_END.isoformat()})"
+                )
         if not readme.is_file():
             errors.append(f"README ausente: {readme.relative_to(ROOT)}")
             continue
@@ -318,6 +536,20 @@ def main() -> int:
                 "Criterio de conclusao deve ter tres provas: "
                 f"{readme.relative_to(ROOT)} ({completion_count})"
             )
+        if (
+            not readme.parent.name.startswith("OK - ")
+            and "## Assuntos para pesquisar" not in text
+        ):
+            errors.append(
+                f"Assuntos para pesquisar ausentes: {readme.relative_to(ROOT)}"
+            )
+        if date_key in LINKEDIN_POST_DATES:
+            heading = "## Publicação da semana no LinkedIn"
+            if text.count(heading) != 1:
+                errors.append(
+                    "Publicacao semanal do LinkedIn ausente ou duplicada: "
+                    f"{readme.relative_to(ROOT)}"
+                )
         for artifact_line in PRIMARY_ARTIFACT_RE.finditer(text):
             for raw_path in CODE_SPAN_RE.findall(artifact_line.group("body")):
                 local_candidate = (readme.parent / raw_path).resolve()
@@ -380,6 +612,8 @@ def main() -> int:
 
     validate_optional_activity_markers(errors)
     validate_ai_project(errors)
+    validate_market_modules_and_projects(errors)
+    validate_generated_indices(errors)
 
     if errors:
         print(f"FALHOU: {len(errors)} problema(s).")

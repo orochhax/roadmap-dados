@@ -6,27 +6,31 @@ O roadmap não depende de curso pago. Vídeos entram somente quando ajudam a exe
 
 | Fonte gratuita | Uso no roadmap | Seleção |
 |---|---|---|
-| [Python — Curso em Vídeo](<trilha-curso-em-video-python.md>) | 13–31/08 | Aulas #09 e #12–#23; exercícios escolhidos até #115c |
-| [Linux — Curso em Vídeo](https://www.cursoemvideo.com/curso/linux/) | 03 e 07/09 | Terminal #07.1/#07.2; referência global #08; arquivos #09 |
-| [MySQL — Curso em Vídeo](https://www.cursoemvideo.com/curso/mysql/) | 23–29/09 | Banco/estrutura #01/#03/#04 e consultas #11–#16 |
-| [Segurança da Informação — Curso em Vídeo](https://www.cursoemvideo.com/curso-categoria/seguranca-da-informacao/) | 22/09, 30/11 e 23/12 | Divulgação, manipulação e proteção de dados; LGPD |
-| [Git e GitHub — Curso em Vídeo](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) | 06/01 | Git, repositório, restauração, branches, issues, segurança e Markdown |
-| [Inteligência Artificial — Curso em Vídeo](https://www.cursoemvideo.com/curso/curso-gratis-de-inteligencia-artificial/) | 22/10, 23/12 e 29/01–10/02 | ML conceitual, viés, LLM, tokens, prompts, fontes e ataques a prompt |
+| [Python — Curso em Vídeo](<trilha-curso-em-video-python.md>) | 24/08–04/09 | Aulas #12–#23; exercícios escolhidos até #115c |
+| [Linux — Curso em Vídeo](https://www.cursoemvideo.com/curso/linux/) | 02–03/09 | Terminal #07.1/#07.2; referência global #08; arquivos #09 |
+| [MySQL — Curso em Vídeo](https://www.cursoemvideo.com/curso/mysql/) | 17–25/09 | Banco/estrutura #01/#03/#04 e consultas #11–#16 |
+| [Segurança da Informação — Curso em Vídeo](https://www.cursoemvideo.com/curso-categoria/seguranca-da-informacao/) | 15/09, 26/11 e 24/12 | Divulgação, manipulação e proteção de dados; LGPD |
+| [Git e GitHub — Curso em Vídeo](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) | 07/12 e 13/01 | Git, repositório, restauração, branches, issues, segurança e Markdown |
+| [Inteligência Artificial — Curso em Vídeo](https://www.cursoemvideo.com/curso/curso-gratis-de-inteligencia-artificial/) | 24/12–06/01 | ML conceitual, viés, LLM, tokens, prompts, fontes e ataques a prompt |
 
 O curso de MySQL fornece conceitos transferíveis, mas a prática continua em DuckDB ou PostgreSQL. Não é necessário instalar WAMP, XAMPP ou PHPMyAdmin. Para Linux, use PowerShell, WSL ou Git Bash já disponível; não reinstale o computador.
 
 ## Assuntos em que uma boa aula pode ajudar
 
-As sessões já têm explicação local e prática, portanto estes vídeos são opcionais. Se você encontrar uma playlist gratuita clara, envie primeiro os assuntos desta lista:
+As sessões já têm explicação local, nomes exatos para pesquisar e prática. Você escolhe se aprende por vídeo, documentação, site ou IA; o conteúdo e o exercício da sessão continuam obrigatórios. Se encontrar uma playlist gratuita clara, envie primeiro os assuntos desta lista:
 
 | Prioridade | Período de uso | Assuntos desejados |
 |---:|---|---|
-| 1 | 09–16/09 | NumPy, pandas, limpeza, `groupby`, `merge` e EDA |
-| 2 | 17–22/09 | Matplotlib, escolha de gráfico, storytelling e Power BI básico |
-| 3 | 08–21/10 | Estatística descritiva, probabilidade, intervalo de confiança, testes e A/B |
-| 4 | 22/10–26/11 | scikit-learn, split, pipeline, métricas, regressão, classificação e árvores |
-| 5 | 16–22/12 | Séries temporais, walk-forward, baseline, Holt-Winters e ARIMA |
-| 6 | 13–19/01 | FastAPI, serialização, Docker e execução local de um serviço |
+| 1 | 08–11/09 | NumPy, pandas, limpeza, `groupby`, `merge`, EDA e visualização |
+| 2 | 14–16/09 | Power BI, DAX, Product Analytics, tracking plan, funil e retenção |
+| 3 | 17–25/09 | SQL analítico, modelo estrela, EXPLAIN, índices e partições |
+| 4 | 28/09–08/10 | Estatística, A/B, DAG, matching, diferenças em diferenças e controle sintético |
+| 5 | 09/10–12/11 | scikit-learn, pipeline, métricas, XGBoost, explicabilidade e clusters |
+| 6 | 13–18/11 | PyTorch, training loop, transfer learning e visão computacional |
+| 7 | 19–30/11 | Séries temporais, backtest, forecasting, risco e governança |
+| 8 | 01–18/12 | Airflow, Spark, testes, FastAPI, Docker, GCP, BigQuery e MLflow |
+| 9 | 22–30/12 | NLP, TF-IDF, NER, entity matching, embeddings e ranking |
+| 10 | 31/12–06/01 | LLMs, recuperação, RAG, avaliação, latência e custo |
 
 Não procure todos ao mesmo tempo. O melhor próximo material é sempre o da primeira sessão ainda não concluída.
 

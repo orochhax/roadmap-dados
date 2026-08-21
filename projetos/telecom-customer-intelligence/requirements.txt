@@ -1,0 +1,8 @@
+# Instale somente quando a etapa correspondente começar.
+pandas
+numpy
+scikit-learn
+statsmodels
+duckdb
+pytest
+

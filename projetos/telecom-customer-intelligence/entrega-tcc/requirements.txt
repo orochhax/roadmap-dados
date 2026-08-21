@@ -1,0 +1,9 @@
+# Instale somente quando iniciar a etapa correspondente.
+pandas
+numpy
+scikit-learn
+xgboost
+statsmodels
+mlflow
+pytest
+

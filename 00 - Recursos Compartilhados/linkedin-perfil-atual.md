@@ -33,12 +33,13 @@ O texto diz que as tecnologias estão sendo estudadas; ele ainda não afirma dom
 
 ## Quando mudar novamente
 
-- **08/09:** depois do mini-projeto executado, adicione **Python** em Competências.
-- **22/09:** depois da primeira análise executiva reproduzível, acrescente **pandas** e **Análise de Dados** e substitua no Sobre a frase genérica de estudos por uma frase sobre essa entrega.
-- **07/10:** depois do projeto e simulado, adicione **SQL**.
-- **26/11:** depois do pipeline auditado, revise a headline para destacar a candidatura e duas ou três competências comprovadas; nunca transforme projeto educacional em experiência profissional.
-- **04/03:** faça a revisão final usando os quatro melhores projetos e remova qualquer item que não consiga explicar com uma evidência.
+- **04/09:** depois do mini-projeto executado, adicione **Python** em Competências.
+- **25/09:** depois do modelo dimensional, otimização e simulado, adicione **SQL**.
+- **30/09:** depois da primeira versão reproduzível do Telecom Customer Intelligence, acrescente **pandas**, **Análise de Dados** e **Product Analytics** e substitua no Sobre a frase genérica de estudos por uma frase sobre essa entrega.
+- **28/10:** depois do benchmark com XGBoost, adicione as competências de Machine Learning realmente comprovadas.
+- **18/12:** depois do serviço, pipeline e ciclo de MLOps, revise a headline para destacar duas ou três competências comprovadas; nunca transforme projeto educacional em experiência profissional.
+- **25/01:** faça a revisão final usando os quatro melhores produtos e remova qualquer item que não consiga explicar com uma evidência.
 
 ## Inglês
 
-Duolingo e filmes desenvolvem base, vocabulário e escuta. O roadmap não repete esse estudo: ele exige aplicar o idioma em quatro projetos, escrevendo um resumo técnico e apresentando o próprio trabalho. Só informe um nível de inglês ou **Comunicação técnica em inglês** depois de avaliar honestamente sua capacidade de conversar e responder perguntas, não apenas de ler um roteiro.
+Duolingo e filmes desenvolvem base, vocabulário e escuta. O roadmap não repete esse estudo: ele exige aplicar o idioma nas entregas reais, com README em inglês, apresentação curta e perguntas sobre o próprio trabalho. Só informe um nível de inglês ou **Comunicação técnica em inglês** depois de avaliar honestamente sua capacidade de conversar e responder perguntas, não apenas de ler um roteiro.

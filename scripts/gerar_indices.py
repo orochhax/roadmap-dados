@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import os
 import re
+import tempfile
 from pathlib import Path
 
 
@@ -13,9 +15,6 @@ MONTH_RE = re.compile(
     r"^(?:OK - )?(?P<order>\d{2}) - (?P<label>.+?) (?P<year>\d{4})(?: \[\d+-\d+\])?$"
 )
 DAY_RE = re.compile(r"^(?:OK - )?Dia (?P<day>\d{2})-(?P<month>\d{2}) - (?P<topic>.+)$")
-CHECK_RE = re.compile(
-    r"^- \[(?P<done>[ xX])\].*\]\(<(?P<link>[^>]+/README\.md)>\)", re.MULTILINE
-)
 MONTH_LABELS = {"Marco": "Março"}
 
 
@@ -64,18 +63,7 @@ def sessions() -> list[dict[str, object]]:
     return sorted(result, key=lambda item: (item["year"], item["month"], item["day"]))
 
 
-def previous_checks() -> dict[str, bool]:
-    if not ROOT_README.is_file():
-        return {}
-    text = ROOT_README.read_text(encoding="utf-8")
-    return {
-        match.group("link"): match.group("done").lower() == "x"
-        for match in CHECK_RE.finditer(text)
-    }
-
-
 def generate_root(items: list[dict[str, object]]) -> str:
-    checked = previous_checks()
     lines = [
         "# Roadmap Data Science",
         "",
@@ -89,6 +77,9 @@ def generate_root(items: list[dict[str, object]]) -> str:
         "- [Dados e recursos compartilhados](<00 - Recursos Compartilhados/README.md>)",
         "- [LinkedIn e evidências](<00 - Recursos Compartilhados/linkedin-e-evidencias.md>)",
         "- [LinkedIn — perfil atual](<00 - Recursos Compartilhados/linkedin-perfil-atual.md>)",
+        "- [Vagas para análise do roadmap](<00 - Recursos Compartilhados/VAGAS.md>)",
+        "- [Análise das vagas e decisões do currículo](<00 - Recursos Compartilhados/analise-vagas-e-decisoes.md>)",
+        "- [Projetos compartilhados](projetos/README.md)",
         "- [Decisões de Carlos](<00 - Recursos Compartilhados/PERGUNTAS-PARA-CARLOS.md>)",
         "- [Mapa de arquivos](<00 - Recursos Compartilhados/mapa-de-arquivos.md>)",
         "",
@@ -118,7 +109,7 @@ def generate_root(items: list[dict[str, object]]) -> str:
             lines.extend([f"### {item['month_label']}", ""])
             current_month = month_order
         link = relative(item["readme"])
-        mark = "x" if checked.get(link, False) else " "
+        mark = "x" if item["dir"].name.startswith("OK - ") else " "
         date = f"{item['day']:02d}/{item['month']:02d}/{item['year']}"
         lines.append(f"- [{mark}] **{date}** — [{item['title']}](<{link}>)")
     lines.append("")
@@ -175,10 +166,32 @@ def generate_map(items: list[dict[str, object]]) -> str:
     return "\n".join(lines)
 
 
+def atomic_write(path: Path, text: str) -> None:
+    """Substitui um indice completo sem expor um arquivo parcialmente gravado."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    descriptor, temporary_name = tempfile.mkstemp(
+        dir=path.parent,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+    )
+    temporary = Path(temporary_name)
+    try:
+        with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as target:
+            target.write(text)
+            target.flush()
+            os.fsync(target.fileno())
+        os.replace(temporary, path)
+    except BaseException:
+        temporary.unlink(missing_ok=True)
+        raise
+
+
 def main() -> None:
     items = sessions()
-    ROOT_README.write_text(generate_root(items), encoding="utf-8")
-    FILE_MAP.write_text(generate_map(items), encoding="utf-8")
+    root_text = generate_root(items)
+    map_text = generate_map(items)
+    atomic_write(ROOT_README, root_text)
+    atomic_write(FILE_MAP, map_text)
     print(f"Indices gerados para {len(items)} sessoes.")
 
 

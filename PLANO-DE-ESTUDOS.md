@@ -1,6 +1,6 @@
 # Plano de estudos — Cientista de Dados Júnior
 
-Este plano organiza **144 sessões práticas**, de 03/08/2026 a 04/03/2027. São cerca de sete meses de estudo, portanto o percurso permanece bem abaixo do limite máximo de um ano. Ele foi desenhado para ser suficiente sem curso pago: usa conteúdo gratuito, documentação oficial, explicações locais, exercícios, projetos e critérios objetivos de domínio.
+Este plano organiza **111 sessões práticas**, de 03/08/2026 a 25/01/2027: seis sessões já concluídas e preservadas, mais 105 sessões a partir de 24/08. As novas sessões reúnem 138 módulos existentes e 25 módulos adicionados após a análise das vagas. O percurso permanece abaixo do limite máximo de um ano e pode ser feito sem curso pago: você escolhe vídeo, documentação, site ou IA a partir dos nomes exatos de cada assunto.
 
 O roadmap não promete contratação automática. O resultado depende de executar as atividades, buscar feedback e conseguir explicar o que foi construído. A meta realista é terminar com base técnica, portfólio e preparo para disputar vagas júnior.
 
@@ -51,7 +51,8 @@ A meta é **3 ou mais**. Se ainda não chegou a 3, continue trabalhando na sess�
 | Tipo de sessão | Tempo sugerido |
 |---|---:|
 | Aula curta de Python + prática | 1h30–3h |
-| Sessão técnica comum | 2h30–3h30 |
+| Sessão com um bloco técnico | 2–4h |
+| Sessão com dois blocos | 4–5h, com pausa entre eles |
 | Projeto ou entrega | 4–5h |
 
 O tempo é um limite de escopo, não uma corrida. Se travar por mais de 20 minutos:
@@ -89,43 +90,44 @@ Não é necessário acumular certificados nem concluir playlists inteiras. O arq
 
 | Período | Foco | Evidência principal |
 |---|---|---|
-| 03/08–08/09 | Python e resolução de problemas | Scripts, arquivos e mini-projeto executável |
-| 09/09–22/09 | NumPy, pandas e visualização | Análise executiva de dados de telecom |
-| 23/09–07/10 | SQL analítico | Consultas reproduzíveis e simulado |
-| 08/10–21/10 | Estatística e experimentação | Análise de experimento com incerteza |
-| 22/10–26/11 | Machine Learning tradicional | Baseline auditável e decisão por custo |
-| 27/11–14/12 | Projeto de churn e aprendizado não supervisionado | Pipeline, segmentação, política de retenção e apresentação |
-| 16/12–22/12 | Séries temporais | Backtest temporal e previsão operacional |
-| 23/12–29/12 | Risco e governança | Política de decisão e model card |
-| 30/12–19/01 | Engenharia, testes e deploy | Pipeline versionado, API e container |
-| 20/01–28/01 | Cloud e ciclo de vida | Arquitetura explicável e monitoramento |
-| 29/01–11/02 | IA generativa e RAG | Aplicação com recuperação, fontes e avaliação |
-| 12/02–18/02 | Produto integrador | Produto pequeno com teste de aceitação |
-| 19/02–25/02 | Portfólio, entrevistas e candidaturas | Repositórios, currículo, primeira candidatura e banca zero |
-| 26/02–04/03 | TCC financeiro | Ranking, backtest, relatório e defesa |
+| 03/08–17/08 | Fundamentos de Python já concluídos | Seis dias preservados com status OK |
+| 24/08–04/09 | Python, arquivos, pacotes e código profissional | Scripts, testes e mini-projeto reproduzível |
+| 08/09–16/09 | NumPy, pandas, visualização, Power BI e Product Analytics | Primeira versão do Telecom Customer Intelligence |
+| 17/09–25/09 | SQL analítico, modelagem dimensional e performance | Consultas, modelo estrela, planos de execução e simulado |
+| 28/09–08/10 | Estatística, teste A/B e inferência causal | Experimento, diferenças em diferenças e controle sintético |
+| 09/10–12/11 | Machine Learning tabular, XGBoost, clusters e churn | Benchmark e política de retenção com análise de erros |
+| 13/11–18/11 | PyTorch e visão computacional | Triagem visual com baseline, transfer learning e métricas |
+| 19/11–30/11 | Séries temporais, forecasting, risco e governança | Energy ForecastOps e projeto de risco |
+| 01/12–21/12 | Dados, Airflow, Spark, testes, API, Docker, GCP, BigQuery e MLOps | Pipeline e serviço com retreino e rollback |
+| 22/12–30/12 | NLP, entity matching, embeddings, ranking e recomendação | Entity Matching Lab e recomendador com métricas Top-K |
+| 31/12–06/01 | LLMs e RAG | Assistente com fontes, recusa e avaliação |
+| 07/01–12/01 | Produto integrador | Produto demonstrável com testes e retrospectiva |
+| 13/01–18/01 | Portfólio, LinkedIn, simulados e banca zero | Narrativa profissional e diagnóstico final |
+| 19/01–25/01 | TCC de retenção em telecom | Política sob capacidade limitada, risco de churn, efeito incremental simulado, custo, monitoramento, relatório e defesa |
 
 Na fase de IA generativa, a aplicação LLM/RAG é obrigatória. Se Python, SQL, estatística ou ML ainda estiverem abaixo do nível 3, mantenha a sessão aberta, corrija a dificuldade concreta e depois conclua a mesma atividade de IA. Só registre IA Generativa/RAG no LinkedIn quando a aplicação tiver sido realmente executada e avaliada.
 
 ## Inglês no roadmap
 
-O roadmap não cria um curso paralelo de gramática ou vocabulário geral. O inglês é aplicado em quatro entregas: experimento em 21/10, churn em 14/12, forecasting em 22/12 e TCC em 04/03. Em cada uma, escreva um resumo técnico de 150–250 palavras e prepare uma apresentação de 2–3 minutos sobre o próprio projeto.
+O roadmap não cria um curso paralelo de gramática ou vocabulário geral. O inglês é aplicado nas entregas reais por meio de README em inglês, apresentação de 2–3 minutos e perguntas sobre o próprio projeto. Isso acontece principalmente nas entregas de 30/09, 08/10, 28/10, 12/11, 18/11, 25/11, 18/12, 30/12, 06/01 e 25/01.
 
 Duolingo e filmes continuam como hábitos externos de base, vocabulário e escuta. Eles complementam o roadmap; não viram novos checkboxes nem substituem a escrita, a fala e as perguntas técnicas dos projetos.
 
 ## Portfólio mínimo
 
-Ao concluir, escolha os **quatro melhores** trabalhos para apresentar; quantidade não substitui acabamento:
+O aprendizado está concentrado em cinco produtos, em vez de dezenas de repositórios rasos. Ao concluir, escolha os **quatro melhores** para apresentar:
 
-1. análise executiva ou experimento;
-2. projeto completo de Machine Learning;
-3. forecasting, risco ou produto de dados;
-4. TCC — Portfolio Intelligence Lab.
+1. **Telecom Customer Intelligence** — Product Analytics, causalidade, churn, engenharia, MLOps e o TCC de priorização de retenção;
+2. **Energy ForecastOps** — previsão operacional e backtest temporal;
+3. **Entity Matching Lab** — NLP, deduplicação, embeddings e ranking;
+4. **Intelligent Support Operations** — RAG avaliado e triagem visual;
+5. **Portfolio Intelligence Lab** — projeto financeiro independente de ranking quantitativo e backtest.
 
 Um projeto forte precisa ter problema claro, dados identificados, execução reproduzível, validação correta, decisão ou recomendação, limitações honestas e README compreensível. Os quatro projetos definidos como evidência de portfólio também exigem um `README.en.md` de 150–250 palavras e uma apresentação de 2–3 minutos em inglês.
 
 ## Marcos profissionais
 
-LinkedIn só aparece nas sessões em que existe uma mudança concreta: nova entrega publicável, nova competência demonstrável ou atualização real do posicionamento. Não altere o perfil para registrar apenas que assistiu a uma aula. Consulte o [Guia de LinkedIn e evidências](<00 - Recursos Compartilhados/linkedin-e-evidencias.md>) para saber exatamente o que atualizar em cada marco.
+Cada semana termina com uma publicação baseada no artefato realmente produzido. As instruções ficam no README do próprio dia de postagem, sem calendário paralelo. Uma publicação de progresso não libera automaticamente Competências, Projetos, Destaques ou mudança de headline: essas alterações continuam reservadas aos marcos com evidência completa. Consulte o [Guia de LinkedIn e evidências](<00 - Recursos Compartilhados/linkedin-e-evidencias.md>) para saber exatamente o que atualizar em cada marco.
 
 Antes de candidatar-se, confirme:
 
@@ -139,12 +141,6 @@ Antes de candidatar-se, confirme:
 
 ## Manutenção do roadmap
 
-Depois de adicionar ou mover qualquer sessão, execute:
+Depois de adicionar ou mover qualquer sessão, regenere os índices e execute o validador com os comandos descritos no README principal. O normalizador deve ser aplicado somente a conteúdo futuro revisado; as pastas com status OK permanecem congeladas.
 
-```powershell
-python scripts/gerar_indices.py
-python scripts/normalizar_metadados.py --write
-python scripts/validar_roadmap.py
-```
-
-O primeiro comando regenera agenda e mapa; o segundo remove cabeçalhos antigos; o validador detecta datas duplicadas, contadores mensais incorretos, estrutura diária incompleta, atividades opcionais reintroduzidas, artefatos principais ausentes, links locais quebrados, notebooks inválidos, erros de sintaxe em Python e instruções retroativas.
+O validador detecta datas duplicadas, mês incompatível, limite de um ano, contadores incorretos, agenda ou mapa desatualizado, estrutura diária incompleta, atividades opcionais reintroduzidas, artefatos principais ausentes, links quebrados, notebooks inválidos e erros de sintaxe em Python.

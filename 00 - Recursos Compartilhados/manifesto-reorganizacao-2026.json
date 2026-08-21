@@ -1,0 +1,624 @@
+{
+  "source_modules": 138,
+  "added_modules": 25,
+  "sessions": 105,
+  "first_session": "2026-08-24",
+  "last_session": "2027-01-25",
+  "completed_days_preserved": {
+    "OK - Dia 03-08 - Preparacao e diagnostico": {
+      "02-pratica-sem-consulta/diagnostico.py": "b4a75a43fc51f45973a48aaa348e096a5afcd3150e3f03567b2db5254556b212",
+      "03-evidencias/versoes.txt": "50a3b7bc9bc791b668236eb9d4467cc07097fa8de9bb49033cd2b652c56b920c",
+      "README.md": "99dffcca9f78f1fb0afcf84cb3b97bb854bb2a2257811ef5ea9b40788bbffe8a"
+    },
+    "OK - Dia 04-08 - Variaveis, tipos e operadores": {
+      "01-exercicios/metricas_atendimento.py": "0e13ba424d186f08387d72f23b5342379c4463279d0875037713b21e5e9936d1",
+      "01-exercicios/tipos_operadores.py": "11ee86b9946f6a4ad1e2089d4d2bc86ee2924d5797770e77f05e4870a87e10bc",
+      "README.md": "b7310d551edbbd1b5dbdbb70b5ed784e089e690c107789f9f8315369c39cc60c"
+    },
+    "OK - Dia 12-08 - Condicionais e regras de negocio": {
+      "01-exercicios/prioridade_chamados.py": "2527249ea495b0f25a79297e38944e3683449e30de1c07c27d1072310458c7b8",
+      "README.md": "2ead64f76ed9a6243d245744923c4c891554fc45f2e333fb5d67f45eec4d15ba"
+    },
+    "OK - Dia 13-08 - Textos e condicoes aninhadas": {
+      "01-exercicios/aula09.py": "f229b115d7091dedd89b7948cd7a5bf578b3a93a6008de14776fb7689758973b",
+      "01-exercicios/DESAFIO38.py": "d64c986f5a3d195702a567d701fecbddb7be5a4422c8909a546cd328547f532e",
+      "01-exercicios/texto_e_condicoes.py": "47a9345191a692cf6cdcde37d5cb3e3de9923675fbc1a95838e59f74817ba6ce",
+      "README.md": "0c7c41608e54246d5cef9e633a32b588eafb2bd46bd81847fdb992f33339df3a"
+    },
+    "OK - Dia 14-08 - Repeticao com for": {
+      "01-exercicios/DESAFIO46.PY": "2157338fe1b34d791c4e42a273ed28b61fd1b780be582c9e6d3ae716c870982a",
+      "01-exercicios/DESAFIO48.PY": "498ce9840a9cb553b53729bad1f93f27a04f5cdc09283d90dc69b864d19514c4",
+      "01-exercicios/DESAFIO50.PY": "0441dae38a272c6cc79519e648d0bdabb4533db5985b4e660df346b01cd72aa6",
+      "01-exercicios/resumo_com_for.py": "008971aafdf6d3d80ae39d72d3845ac457428a37f29747055ddacbfe76754836",
+      "README.md": "c9778e01b4b4afbc866ea7b1b7fe82805191153716c845d3559c6f418c28f23c"
+    },
+    "OK - Dia 17-08 - Validacao com while": {
+      "01-exercicios/Desafio57.py": "c256a2357c8ddd89a785fb80782e52923e913ab7e5cbefff5e234a04f3b7d6fa",
+      "01-exercicios/Desafio59.py": "7749ed276db7768f1f684a17dc9562b4cad8ad33bd0c200f6a7cc71a597a2be3",
+      "01-exercicios/Desafio64.py": "7e519979704b3dfc0a73cb3f4b3010cd9977003fbf9cfb48e84de5ff344e2382",
+      "01-exercicios/validacao_com_while.py": "286c2a7ba306ec0b4709eb6e7508451cb1cb9498cb8b988f25ca6712927bb737",
+      "README.md": "e839f43d4b022f9d12778e8df56d66cc63f5a1f401f6a9c4cb4d48c6b3a7f1e0"
+    }
+  },
+  "old_to_new": {
+    "E01": {
+      "old": "01 - Agosto 2026 [6-16]/Dia 18-08 - Break e sentinelas",
+      "new": "01 - Agosto 2026 [6-12]/Dia 24-08 - Break, sentinelas e tuplas/modulos/01-e01"
+    },
+    "E02": {
+      "old": "01 - Agosto 2026 [6-16]/Dia 19-08 - Tuplas",
+      "new": "01 - Agosto 2026 [6-12]/Dia 24-08 - Break, sentinelas e tuplas/modulos/02-e02"
+    },
+    "E03": {
+      "old": "01 - Agosto 2026 [6-16]/Dia 20-08 - Listas",
+      "new": "01 - Agosto 2026 [6-12]/Dia 25-08 - Listas e matrizes/modulos/01-e03"
+    },
+    "E04": {
+      "old": "01 - Agosto 2026 [6-16]/Dia 21-08 - Listas compostas e matrizes",
+      "new": "01 - Agosto 2026 [6-12]/Dia 25-08 - Listas e matrizes/modulos/02-e04"
+    },
+    "E05": {
+      "old": "01 - Agosto 2026 [6-16]/Dia 24-08 - Dicionarios e set",
+      "new": "01 - Agosto 2026 [6-12]/Dia 26-08 - Dicionarios, sets e funcoes com parametros/modulos/01-e05"
+    },
+    "E06": {
+      "old": "01 - Agosto 2026 [6-16]/Dia 25-08 - Funcoes com parametros",
+      "new": "01 - Agosto 2026 [6-12]/Dia 26-08 - Dicionarios, sets e funcoes com parametros/modulos/02-e06"
+    },
+    "E07": {
+      "old": "01 - Agosto 2026 [6-16]/Dia 26-08 - Funcoes com retorno",
+      "new": "01 - Agosto 2026 [6-12]/Dia 27-08 - Retorno, modulos e pacotes/modulos/01-e07"
+    },
+    "E08": {
+      "old": "01 - Agosto 2026 [6-16]/Dia 27-08 - Modulos e pacotes",
+      "new": "01 - Agosto 2026 [6-12]/Dia 27-08 - Retorno, modulos e pacotes/modulos/02-e08"
+    },
+    "E09": {
+      "old": "01 - Agosto 2026 [6-16]/Dia 28-08 - Excecoes e menu",
+      "new": "01 - Agosto 2026 [6-12]/Dia 28-08 - Excecoes e menu/modulos/01-e09"
+    },
+    "E10": {
+      "old": "01 - Agosto 2026 [6-16]/Dia 31-08 - Arquivos e projeto final",
+      "new": "01 - Agosto 2026 [6-12]/Dia 31-08 - Arquivos e projeto final de Python basico/modulos/01-e10"
+    },
+    "E100": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 07-01 - Refatoracao de notebook",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 07-12 - Git profissional e refatoracao/modulos/02-e100"
+    },
+    "E101": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 08-01 - Testes",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 08-12 - Testes, qualidade e configuracao/modulos/01-e101"
+    },
+    "E102": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 11-01 - Qualidade e configuracao",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 08-12 - Testes, qualidade e configuracao/modulos/02-e102"
+    },
+    "E103": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 12-01 - CI e versao estavel",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 09-12 - CI, release, FastAPI e contrato/modulos/01-e103"
+    },
+    "E104": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 13-01 - FastAPI e contrato",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 09-12 - CI, release, FastAPI e contrato/modulos/02-e104"
+    },
+    "E105": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 14-01 - Serializacao e pipeline de inferencia",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 10-12 - Serializacao, inferencia e Docker/modulos/01-e105"
+    },
+    "E106": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 15-01 - Docker",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 10-12 - Serializacao, inferencia e Docker/modulos/02-e106"
+    },
+    "E107": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 18-01 - Logs e monitoramento basico",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 11-12 - Logs e monitoramento/modulos/01-e107"
+    },
+    "E108": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao do servico/modulos/01-e108"
+    },
+    "E109": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 20-01 - Conceitos de cloud para dados",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 15-12 - Cloud e GCP pratico/modulos/01-e109"
+    },
+    "E11": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes e primeiro mini-projeto",
+      "new": "02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes, mini-projeto e compreensoes/modulos/01-e11"
+    },
+    "E110": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 21-01 - Armazenamento e processamento",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 16-12 - Storage, processamento e BigQuery/modulos/01-e110"
+    },
+    "E111": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 22-01 - Databricks aplicado",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 17-12 - Databricks aplicado e MLflow/modulos/01-e111"
+    },
+    "E112": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 27-01 - MLOps introdutorio",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 18-12 - MLOps, retreino e rollback/modulos/01-e112"
+    },
+    "E113": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 21-12 - Arquitetura e entrevista/modulos/01-e113"
+    },
+    "E114": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 29-01 - Fundamentos de LLMs",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 24-12 - LLMs, APIs e prompts estruturados/modulos/01-e114"
+    },
+    "E115": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 01-02 - APIs e prompts estruturados",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 24-12 - LLMs, APIs e prompts estruturados/modulos/02-e115"
+    },
+    "E116": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 02-02 - Embeddings e busca semantica",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 28-12 - Embeddings e entity matching semantico/modulos/01-e116"
+    },
+    "E117": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 03-02 - Avaliacao de aplicacoes LLM",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 29-12 - Avaliacao LLM e ranking/modulos/01-e117"
+    },
+    "E118": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 04-02 - Miniaplicacao de IA",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 31-12 - Miniaplicacao de IA/modulos/01-e118"
+    },
+    "E119": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 05-02 - Escopo e documentos",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 04-01 - RAG, escopo, documentos, ingestao e chunking/modulos/01-e119"
+    },
+    "E12": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 02-09 - Compreensoes e funcoes uteis",
+      "new": "02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes, mini-projeto e compreensoes/modulos/02-e12"
+    },
+    "E120": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 08-02 - Ingestao e chunking",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 04-01 - RAG, escopo, documentos, ingestao e chunking/modulos/02-e120"
+    },
+    "E121": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 09-02 - Recuperacao",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 05-01 - RAG, recuperacao e geracao com fontes/modulos/01-e121"
+    },
+    "E122": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 10-02 - Geracao com fontes",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 05-01 - RAG, recuperacao e geracao com fontes/modulos/02-e122"
+    },
+    "E123": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 11-02 - Avaliacao e publicacao",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 06-01 - Avaliacao e publicacao de RAG/modulos/01-e123"
+    },
+    "E124": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 12-02 - Definicao do produto integrador",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 07-01 - Produto integrador, definicao, dados e arquitetura/modulos/01-e124"
+    },
+    "E125": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 15-02 - Dados, SQL e arquitetura",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 07-01 - Produto integrador, definicao, dados e arquitetura/modulos/02-e125"
+    },
+    "E126": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 16-02 - EDA, baseline e decisao",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 08-01 - EDA, baseline e decisao do produto/modulos/01-e126"
+    },
+    "E127": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 17-02 - Modelo, IA e interface",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 11-01 - Modelo, IA e interface do produto/modulos/01-e127"
+    },
+    "E128": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 18-02 - Teste, apresentacao e retrospectiva",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 12-01 - Testes, apresentacao e retrospectiva do produto/modulos/01-e128"
+    },
+    "E129": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 19-02 - GitHub e portfolio",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 13-01 - GitHub, portfolio, curriculo e LinkedIn/modulos/01-e129"
+    },
+    "E13": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 03-09 - Arquivos CSV, JSON e caminhos",
+      "new": "02 - Setembro 2026 [0-21]/Dia 02-09 - CSV, JSON, caminhos e validacao/modulos/01-e13"
+    },
+    "E130": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 22-02 - Curriculo, LinkedIn e narrativa",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 13-01 - GitHub, portfolio, curriculo e LinkedIn/modulos/02-e130"
+    },
+    "E131": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 23-02 - Simulado de Python e SQL",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 14-01 - Simulado de Python e SQL/modulos/01-e131"
+    },
+    "E132": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 24-02 - Simulado de Estatistica, ML e comportamento",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 15-01 - Simulado de Estatistica, ML e comportamento/modulos/01-e132"
+    },
+    "E133": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 25-02 - Pre-projeto e banca zero do TCC",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 18-01 - Pre-projeto e banca zero do TCC/modulos/01-e133"
+    },
+    "E134": {
+      "old": "07 - Fevereiro 2027 [0-20]/Dia 26-02 - TCC - universo, dados e protocolo financeiro",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 19-01 - TCC, problema, dados e protocolo de retencao/modulos/01-e134"
+    },
+    "E135": {
+      "old": "08 - Marco 2027 [0-4]/Dia 01-03 - TCC - fatores e motor de ranking",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 20-01 - TCC, baselines, modelos e calibracao/modulos/01-e135"
+    },
+    "E136": {
+      "old": "08 - Marco 2027 [0-4]/Dia 02-03 - TCC - carteiras e backtest walk-forward",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 21-01 - TCC, politica, efeito incremental e custo/modulos/01-e136"
+    },
+    "E137": {
+      "old": "08 - Marco 2027 [0-4]/Dia 03-03 - TCC - dashboard, testes e relatorio",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 22-01 - TCC, monitoramento, testes e relatorio/modulos/01-e137"
+    },
+    "E138": {
+      "old": "08 - Marco 2027 [0-4]/Dia 04-03 - TCC - publicacao, banca e candidaturas",
+      "new": "06 - Janeiro 2027 [0-16]/Dia 25-01 - TCC, publicacao, banca e candidaturas/modulos/01-e138"
+    },
+    "E14": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 04-09 - Excecoes e validacao",
+      "new": "02 - Setembro 2026 [0-21]/Dia 02-09 - CSV, JSON, caminhos e validacao/modulos/02-e14"
+    },
+    "E15": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 07-09 - Modulos, pacotes e ambientes",
+      "new": "02 - Setembro 2026 [0-21]/Dia 03-09 - Ambientes e Python profissional/modulos/01-e15"
+    },
+    "E16": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 08-09 - Mini-projeto de consolidacao",
+      "new": "02 - Setembro 2026 [0-21]/Dia 04-09 - Mini-projeto de consolidacao/modulos/01-e16"
+    },
+    "E17": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 09-09 - NumPy essencial",
+      "new": "02 - Setembro 2026 [0-21]/Dia 08-09 - NumPy e pandas/modulos/01-e17"
+    },
+    "E18": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 10-09 - pandas - Series e DataFrame",
+      "new": "02 - Setembro 2026 [0-21]/Dia 08-09 - NumPy e pandas/modulos/02-e18"
+    },
+    "E19": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 11-09 - Limpeza de dados",
+      "new": "02 - Setembro 2026 [0-21]/Dia 09-09 - Limpeza, agrupamento, merge e reshape/modulos/01-e19"
+    },
+    "E20": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 14-09 - Agrupamento, merge e reshape",
+      "new": "02 - Setembro 2026 [0-21]/Dia 09-09 - Limpeza, agrupamento, merge e reshape/modulos/02-e20"
+    },
+    "E21": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 15-09 - EDA pratica",
+      "new": "02 - Setembro 2026 [0-21]/Dia 10-09 - EDA e fundamentos de visualizacao/modulos/01-e21"
+    },
+    "E22": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 16-09 - Fundamentos de visualizacao",
+      "new": "02 - Setembro 2026 [0-21]/Dia 10-09 - EDA e fundamentos de visualizacao/modulos/02-e22"
+    },
+    "E23": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 17-09 - Visualizacao com pandas e Matplotlib",
+      "new": "02 - Setembro 2026 [0-21]/Dia 11-09 - Matplotlib, storytelling e recomendacao/modulos/01-e23"
+    },
+    "E24": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 18-09 - Storytelling e recomendacao",
+      "new": "02 - Setembro 2026 [0-21]/Dia 11-09 - Matplotlib, storytelling e recomendacao/modulos/02-e24"
+    },
+    "E25": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 21-09 - Dashboard introdutorio",
+      "new": "02 - Setembro 2026 [0-21]/Dia 14-09 - Dashboard e Power BI avancado/modulos/01-e25"
+    },
+    "E26": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva",
+      "new": "02 - Setembro 2026 [0-21]/Dia 15-09 - Entrega executiva/modulos/01-e26"
+    },
+    "E27": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 23-09 - Banco relacional e SELECT",
+      "new": "02 - Setembro 2026 [0-21]/Dia 17-09 - SQL SELECT, filtros e funcoes/modulos/01-e27"
+    },
+    "E28": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 24-09 - Filtros e funcoes",
+      "new": "02 - Setembro 2026 [0-21]/Dia 17-09 - SQL SELECT, filtros e funcoes/modulos/02-e28"
+    },
+    "E29": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 25-09 - Agregacoes",
+      "new": "02 - Setembro 2026 [0-21]/Dia 18-09 - SQL agregacoes e JOINs/modulos/01-e29"
+    },
+    "E30": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 28-09 - JOINs",
+      "new": "02 - Setembro 2026 [0-21]/Dia 18-09 - SQL agregacoes e JOINs/modulos/02-e30"
+    },
+    "E31": {
+      "old": "02 - Setembro 2026 [0-21]/Dia 29-09 - Mini-case SQL",
+      "new": "02 - Setembro 2026 [0-21]/Dia 22-09 - Mini-case SQL/modulos/01-e31"
+    },
+    "E32": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 01-10 - Subqueries e CTEs",
+      "new": "02 - Setembro 2026 [0-21]/Dia 23-09 - CTEs, subqueries e funcoes de janela/modulos/01-e32"
+    },
+    "E33": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 02-10 - Funcoes de janela",
+      "new": "02 - Setembro 2026 [0-21]/Dia 23-09 - CTEs, subqueries e funcoes de janela/modulos/02-e33"
+    },
+    "E34": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 05-10 - Datas e analise temporal",
+      "new": "02 - Setembro 2026 [0-21]/Dia 24-09 - Datas SQL, cohorts e retencao/modulos/01-e34"
+    },
+    "E35": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 06-10 - Cohorts e retencao",
+      "new": "02 - Setembro 2026 [0-21]/Dia 24-09 - Datas SQL, cohorts e retencao/modulos/02-e35"
+    },
+    "E36": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL",
+      "new": "02 - Setembro 2026 [0-21]/Dia 25-09 - Simulado SQL/modulos/01-e36"
+    },
+    "E37": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 08-10 - Medidas e distribuicoes",
+      "new": "02 - Setembro 2026 [0-21]/Dia 28-09 - Medidas, distribuicoes e probabilidade/modulos/01-e37"
+    },
+    "E38": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 09-10 - Probabilidade basica",
+      "new": "02 - Setembro 2026 [0-21]/Dia 28-09 - Medidas, distribuicoes e probabilidade/modulos/02-e38"
+    },
+    "E39": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 12-10 - Distribuicoes importantes",
+      "new": "02 - Setembro 2026 [0-21]/Dia 29-09 - Distribuicoes, amostragem e LGN/modulos/01-e39"
+    },
+    "E40": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 13-10 - Amostragem e Lei dos Grandes Numeros",
+      "new": "02 - Setembro 2026 [0-21]/Dia 29-09 - Distribuicoes, amostragem e LGN/modulos/02-e40"
+    },
+    "E41": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 14-10 - Case estatistico",
+      "new": "02 - Setembro 2026 [0-21]/Dia 30-09 - Case estatistico e entrega de Product Analytics/modulos/01-e41"
+    },
+    "E42": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 15-10 - Intervalos de confianca",
+      "new": "03 - Outubro 2026 [0-21]/Dia 01-10 - Intervalos de confianca e testes de hipotese/modulos/01-e42"
+    },
+    "E43": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 16-10 - Testes de hipotese",
+      "new": "03 - Outubro 2026 [0-21]/Dia 01-10 - Intervalos de confianca e testes de hipotese/modulos/02-e43"
+    },
+    "E44": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 19-10 - Teste A-B",
+      "new": "03 - Outubro 2026 [0-21]/Dia 02-10 - Teste A-B e experimentacao avancada/modulos/01-e44"
+    },
+    "E45": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 20-10 - Correlacao, causalidade e vieses",
+      "new": "03 - Outubro 2026 [0-21]/Dia 05-10 - Correlacao, vieses e causalidade/modulos/01-e45"
+    },
+    "E46": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento",
+      "new": "03 - Outubro 2026 [0-21]/Dia 08-10 - Entrega de experimento causal/modulos/01-e46"
+    },
+    "E47": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 22-10 - Definicao do problema",
+      "new": "03 - Outubro 2026 [0-21]/Dia 09-10 - Problema de ML, split e leakage/modulos/01-e47"
+    },
+    "E48": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 23-10 - Separacao e vazamento",
+      "new": "03 - Outubro 2026 [0-21]/Dia 09-10 - Problema de ML, split e leakage/modulos/02-e48"
+    },
+    "E49": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 26-10 - Pre-processamento com Pipeline",
+      "new": "03 - Outubro 2026 [0-21]/Dia 13-10 - Pre-processamento e metricas de classificacao/modulos/01-e49"
+    },
+    "E50": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 27-10 - Metricas de classificacao",
+      "new": "03 - Outubro 2026 [0-21]/Dia 13-10 - Pre-processamento e metricas de classificacao/modulos/02-e50"
+    },
+    "E51": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 28-10 - Baseline completo",
+      "new": "03 - Outubro 2026 [0-21]/Dia 14-10 - Baseline completo de ML/modulos/01-e51"
+    },
+    "E52": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 29-10 - Regressao linear",
+      "new": "03 - Outubro 2026 [0-21]/Dia 15-10 - Regressao linear e metricas/modulos/01-e52"
+    },
+    "E53": {
+      "old": "03 - Outubro 2026 [0-22]/Dia 30-10 - Metricas de regressao",
+      "new": "03 - Outubro 2026 [0-21]/Dia 15-10 - Regressao linear e metricas/modulos/02-e53"
+    },
+    "E54": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 02-11 - Regularizacao",
+      "new": "03 - Outubro 2026 [0-21]/Dia 16-10 - Regularizacao e feature engineering/modulos/01-e54"
+    },
+    "E55": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 03-11 - Feature engineering para regressao",
+      "new": "03 - Outubro 2026 [0-21]/Dia 16-10 - Regularizacao e feature engineering/modulos/02-e55"
+    },
+    "E56": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 04-11 - Mini-projeto de regressao",
+      "new": "03 - Outubro 2026 [0-21]/Dia 19-10 - Mini-projeto de regressao/modulos/01-e56"
+    },
+    "E57": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 05-11 - Regressao logistica",
+      "new": "03 - Outubro 2026 [0-21]/Dia 20-10 - Regressao logistica, limiar e custo/modulos/01-e57"
+    },
+    "E58": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 06-11 - Limiar e custo",
+      "new": "03 - Outubro 2026 [0-21]/Dia 20-10 - Regressao logistica, limiar e custo/modulos/02-e58"
+    },
+    "E59": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 09-11 - Calibracao e probabilidades",
+      "new": "03 - Outubro 2026 [0-21]/Dia 21-10 - Calibracao e classes desbalanceadas/modulos/01-e59"
+    },
+    "E60": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 10-11 - Classes desbalanceadas",
+      "new": "03 - Outubro 2026 [0-21]/Dia 21-10 - Calibracao e classes desbalanceadas/modulos/02-e60"
+    },
+    "E61": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 11-11 - Case de decisao",
+      "new": "03 - Outubro 2026 [0-21]/Dia 22-10 - Case de decisao/modulos/01-e61"
+    },
+    "E62": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 12-11 - Arvore de decisao",
+      "new": "03 - Outubro 2026 [0-21]/Dia 23-10 - Arvore de decisao e Random Forest/modulos/01-e62"
+    },
+    "E63": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 13-11 - Random Forest",
+      "new": "03 - Outubro 2026 [0-21]/Dia 23-10 - Arvore de decisao e Random Forest/modulos/02-e63"
+    },
+    "E64": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 16-11 - Gradient Boosting",
+      "new": "03 - Outubro 2026 [0-21]/Dia 26-10 - Gradient Boosting e XGBoost/modulos/01-e64"
+    },
+    "E65": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 17-11 - Selecao de modelo",
+      "new": "03 - Outubro 2026 [0-21]/Dia 27-10 - Selecao de modelo/modulos/01-e65"
+    },
+    "E66": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 18-11 - Benchmark publicado",
+      "new": "03 - Outubro 2026 [0-21]/Dia 28-10 - Benchmark publicado/modulos/01-e66"
+    },
+    "E67": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 19-11 - Feature engineering",
+      "new": "03 - Outubro 2026 [0-21]/Dia 29-10 - Feature engineering, validacao cruzada e tuning/modulos/01-e67"
+    },
+    "E68": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 20-11 - Validacao cruzada e tuning",
+      "new": "03 - Outubro 2026 [0-21]/Dia 29-10 - Feature engineering, validacao cruzada e tuning/modulos/02-e68"
+    },
+    "E69": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 23-11 - Selecao de variaveis",
+      "new": "03 - Outubro 2026 [0-21]/Dia 30-10 - Selecao de variaveis e explicabilidade/modulos/01-e69"
+    },
+    "E70": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 24-11 - Explicabilidade",
+      "new": "03 - Outubro 2026 [0-21]/Dia 30-10 - Selecao de variaveis e explicabilidade/modulos/02-e70"
+    },
+    "E71": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline",
+      "new": "04 - Novembro 2026 [0-19]/Dia 03-11 - Auditoria do pipeline/modulos/01-e71"
+    },
+    "E72": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 27-11 - Definicao do case",
+      "new": "04 - Novembro 2026 [0-19]/Dia 04-11 - Churn, problema e qualidade dos dados/modulos/01-e72"
+    },
+    "E73": {
+      "old": "04 - Novembro 2026 [0-20]/Dia 30-11 - Engenharia e qualidade dos dados",
+      "new": "04 - Novembro 2026 [0-19]/Dia 04-11 - Churn, problema e qualidade dos dados/modulos/02-e73"
+    },
+    "E74": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 01-12 - EDA orientada a churn",
+      "new": "04 - Novembro 2026 [0-19]/Dia 05-11 - EDA e SQL do projeto de churn/modulos/01-e74"
+    },
+    "E75": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 02-12 - SQL do projeto",
+      "new": "04 - Novembro 2026 [0-19]/Dia 05-11 - EDA e SQL do projeto de churn/modulos/02-e75"
+    },
+    "E76": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 03-12 - Preparacao para modelagem",
+      "new": "04 - Novembro 2026 [0-19]/Dia 06-11 - Preparacao, baselines e modelos de churn/modulos/01-e76"
+    },
+    "E77": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 04-12 - Baselines e modelos",
+      "new": "04 - Novembro 2026 [0-19]/Dia 06-11 - Preparacao, baselines e modelos de churn/modulos/02-e77"
+    },
+    "E78": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 07-12 - K-Means e PCA",
+      "new": "04 - Novembro 2026 [0-19]/Dia 09-11 - K-Means, PCA e DBSCAN/modulos/01-e78"
+    },
+    "E79": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 08-12 - DBSCAN e avaliacao de clusters",
+      "new": "04 - Novembro 2026 [0-19]/Dia 09-11 - K-Means, PCA e DBSCAN/modulos/02-e79"
+    },
+    "E80": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 09-12 - Limiar e estrategia de retencao",
+      "new": "04 - Novembro 2026 [0-19]/Dia 10-11 - Retencao, limiar, explicabilidade e segmentos/modulos/01-e80"
+    },
+    "E81": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 10-12 - Explicabilidade e segmentos",
+      "new": "04 - Novembro 2026 [0-19]/Dia 10-11 - Retencao, limiar, explicabilidade e segmentos/modulos/02-e81"
+    },
+    "E82": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 11-12 - Relatorio e dashboard",
+      "new": "04 - Novembro 2026 [0-19]/Dia 11-11 - Relatorio e dashboard de churn/modulos/01-e82"
+    },
+    "E83": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao",
+      "new": "04 - Novembro 2026 [0-19]/Dia 12-11 - Publicacao e apresentacao de churn/modulos/01-e83"
+    },
+    "E84": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 16-12 - Fundamentos temporais",
+      "new": "04 - Novembro 2026 [0-19]/Dia 19-11 - Series temporais e baselines/modulos/01-e84"
+    },
+    "E85": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 17-12 - Baselines temporais",
+      "new": "04 - Novembro 2026 [0-19]/Dia 19-11 - Series temporais e baselines/modulos/02-e85"
+    },
+    "E86": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 18-12 - Modelos tradicionais",
+      "new": "04 - Novembro 2026 [0-19]/Dia 23-11 - Modelos temporais tradicionais/modulos/01-e86"
+    },
+    "E87": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 21-12 - Previsao e decisao",
+      "new": "04 - Novembro 2026 [0-19]/Dia 24-11 - Previsao e decisao/modulos/01-e87"
+    },
+    "E88": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting",
+      "new": "04 - Novembro 2026 [0-19]/Dia 25-11 - Projeto de forecasting/modulos/01-e88"
+    },
+    "E89": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 23-12 - Problema e governanca",
+      "new": "04 - Novembro 2026 [0-19]/Dia 26-11 - Risco, problema, governanca e cohorts/modulos/01-e89"
+    },
+    "E90": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 24-12 - Dados e cohorts",
+      "new": "04 - Novembro 2026 [0-19]/Dia 26-11 - Risco, problema, governanca e cohorts/modulos/02-e90"
+    },
+    "E91": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 25-12 - Modelagem de risco",
+      "new": "04 - Novembro 2026 [0-19]/Dia 27-11 - Modelagem de risco, politica e custo/modulos/01-e91"
+    },
+    "E92": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 28-12 - Politica e custo",
+      "new": "04 - Novembro 2026 [0-19]/Dia 27-11 - Modelagem de risco, politica e custo/modulos/02-e92"
+    },
+    "E93": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto",
+      "new": "04 - Novembro 2026 [0-19]/Dia 30-11 - Entrega do projeto de risco/modulos/01-e93"
+    },
+    "E94": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 30-12 - ETL-ELT e arquitetura basica",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 01-12 - ETL, ELT e pipeline em Python/modulos/01-e94"
+    },
+    "E95": {
+      "old": "05 - Dezembro 2026 [0-22]/Dia 31-12 - Pipeline em Python",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 01-12 - ETL, ELT e pipeline em Python/modulos/02-e95"
+    },
+    "E96": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 01-01 - Orquestracao conceitual",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 02-12 - Orquestracao e Airflow real/modulos/01-e96"
+    },
+    "E97": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 04-01 - Databricks e Spark introdutorio",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 03-12 - Spark e Databricks/modulos/01-e97"
+    },
+    "E98": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 05-01 - Entrega do pipeline",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 04-12 - Entrega do pipeline de dados/modulos/01-e98"
+    },
+    "E99": {
+      "old": "06 - Janeiro 2027 [0-19]/Dia 06-01 - Git profissional basico",
+      "new": "05 - Dezembro 2026 [0-22]/Dia 07-12 - Git profissional e refatoracao/modulos/01-e99"
+    }
+  },
+  "new_module_destinations": {
+    "N01": "02 - Setembro 2026 [0-21]/Dia 03-09 - Ambientes e Python profissional/modulos/02-n01",
+    "N02": "02 - Setembro 2026 [0-21]/Dia 21-09 - Modelagem dimensional e performance SQL/modulos/01-n02",
+    "N03": "02 - Setembro 2026 [0-21]/Dia 21-09 - Modelagem dimensional e performance SQL/modulos/02-n03",
+    "N04": "02 - Setembro 2026 [0-21]/Dia 14-09 - Dashboard e Power BI avancado/modulos/02-n04",
+    "N05": "02 - Setembro 2026 [0-21]/Dia 16-09 - Product Analytics, eventos e metricas/modulos/01-n05",
+    "N06": "02 - Setembro 2026 [0-21]/Dia 16-09 - Product Analytics, eventos e metricas/modulos/02-n06",
+    "N07": "03 - Outubro 2026 [0-21]/Dia 02-10 - Teste A-B e experimentacao avancada/modulos/02-n07",
+    "N08": "03 - Outubro 2026 [0-21]/Dia 05-10 - Correlacao, vieses e causalidade/modulos/02-n08",
+    "N09": "03 - Outubro 2026 [0-21]/Dia 06-10 - Propensity score e diferencas em diferencas/modulos/01-n09",
+    "N10": "03 - Outubro 2026 [0-21]/Dia 06-10 - Propensity score e diferencas em diferencas/modulos/02-n10",
+    "N11": "03 - Outubro 2026 [0-21]/Dia 07-10 - Controle sintetico/modulos/01-n11",
+    "N12": "05 - Dezembro 2026 [0-22]/Dia 22-12 - NLP, TF-IDF, classificacao, NER e multilingue/modulos/01-n12",
+    "N13": "05 - Dezembro 2026 [0-22]/Dia 22-12 - NLP, TF-IDF, classificacao, NER e multilingue/modulos/02-n13",
+    "N14": "05 - Dezembro 2026 [0-22]/Dia 23-12 - Entity matching, baselines e candidatos/modulos/01-n14",
+    "N15": "05 - Dezembro 2026 [0-22]/Dia 23-12 - Entity matching, baselines e candidatos/modulos/02-n15",
+    "N16": "05 - Dezembro 2026 [0-22]/Dia 28-12 - Embeddings e entity matching semantico/modulos/02-n16",
+    "N17": "05 - Dezembro 2026 [0-22]/Dia 29-12 - Avaliacao LLM e ranking/modulos/02-n17",
+    "N18": "05 - Dezembro 2026 [0-22]/Dia 30-12 - Projeto de entity matching/modulos/01-n18",
+    "N19": "04 - Novembro 2026 [0-19]/Dia 13-11 - PyTorch, tensores e training loop/modulos/01-n19",
+    "N20": "04 - Novembro 2026 [0-19]/Dia 16-11 - PyTorch, MLP e regularizacao/modulos/01-n20",
+    "N21": "04 - Novembro 2026 [0-19]/Dia 17-11 - Visao computacional e transfer learning/modulos/01-n21",
+    "N22": "04 - Novembro 2026 [0-19]/Dia 18-11 - Deteccao, segmentacao e avaliacao de imagens/modulos/01-n22",
+    "N23": "05 - Dezembro 2026 [0-22]/Dia 15-12 - Cloud e GCP pratico/modulos/02-n23",
+    "N24": "05 - Dezembro 2026 [0-22]/Dia 16-12 - Storage, processamento e BigQuery/modulos/02-n24",
+    "N25": "05 - Dezembro 2026 [0-22]/Dia 02-12 - Orquestracao e Airflow real/modulos/02-n25"
+  }
+}
