@@ -8,6 +8,7 @@ com seed 42 para que os resultados possam ser reproduzidos.
 from __future__ import annotations
 
 import csv
+import hashlib
 import math
 import random
 from datetime import date, datetime, timedelta
@@ -17,7 +18,7 @@ from pathlib import Path
 SEED = 42
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "dados"
-DOCS_DIR = ROOT / "documentos_suporte"
+DOCS_DIR = ROOT / "projetos" / "assistente-suporte-ia" / "data" / "corpus"
 
 CIDADES = [
     "Salvador",
@@ -397,7 +398,7 @@ def gerar_energia(rng: random.Random) -> None:
     )
 
 
-def gerar_documentos_suporte() -> None:
+def gerar_corpus_suporte() -> None:
     documentos = [
         ("reinicio-roteador", "Reinício seguro do roteador", "Desligue o roteador da tomada por 30 segundos. Religue, aguarde três minutos e confirme se as luzes de energia e internet ficaram estáveis."),
         ("sem-conexao", "Diagnóstico de ausência de conexão", "Verifique cabos, luz de internet e teste dois dispositivos. Se todos falharem e a luz de internet estiver vermelha, registre chamado de conectividade."),
@@ -430,18 +431,21 @@ def gerar_documentos_suporte() -> None:
             "## Limite de atendimento\n\n"
             "Se o procedimento não resolver ou houver risco, registre o caso e encaminhe para revisão humana.\n"
         )
-        (DOCS_DIR / nome).write_text(texto, encoding="utf-8")
+        caminho_documento = DOCS_DIR / nome
+        caminho_documento.write_text(texto, encoding="utf-8")
         catalogo.append(
             {
-                "documento_id": f"DOC-{indice:02d}",
+                "doc_id": f"DOC-{indice:02d}",
                 "arquivo": nome,
                 "titulo": titulo,
-                "versao": "1.0",
+                "origem": "gerar_dados.py",
                 "licenca": "conteúdo sintético para estudo",
+                "versao": "1.0",
+                "sha256": hashlib.sha256(caminho_documento.read_bytes()).hexdigest(),
             }
         )
 
-    caminho_catalogo = DOCS_DIR / "catalogo.csv"
+    caminho_catalogo = DOCS_DIR / "corpus_manifest.csv"
     with caminho_catalogo.open("w", encoding="utf-8-sig", newline="") as arquivo:
         escritor = csv.DictWriter(arquivo, fieldnames=list(catalogo[0]))
         escritor.writeheader()
@@ -456,7 +460,7 @@ def main() -> None:
     gerar_pedidos(rng)
     gerar_credito(rng)
     gerar_energia(rng)
-    gerar_documentos_suporte()
+    gerar_corpus_suporte()
     print("Kit de dados criado com seed 42.")
 
 

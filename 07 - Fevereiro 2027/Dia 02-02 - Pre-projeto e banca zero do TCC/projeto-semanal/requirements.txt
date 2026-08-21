@@ -1,9 +1,0 @@
-# Dia 125 — Pré-projeto e banca zero do TCC — 22/01/2027
-#
-# Arquivo preparado a partir do roadmap.
-# Nenhuma atividade foi resolvida neste arquivo.
-#
-# ENUNCIADOS
-# Adicione somente as dependências realmente utilizadas pelo projeto.
-#
-# Escreva sua solução abaixo desta linha.

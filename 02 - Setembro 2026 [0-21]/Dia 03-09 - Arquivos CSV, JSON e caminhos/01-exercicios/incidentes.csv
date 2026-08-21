@@ -1,0 +1,5 @@
+id,cidade,causa,severidade,duracao_min,clientes_afetados,resolvido
+INC-001,Salvador,fibra rompida,P1,110,120,true
+INC-002,Recife,wifi lento,P3,45,51,false
+INC-003,Salvador,equipamento aquecendo,P2,70,40,true
+INC-004,Fortaleza,sem conexão,P1,95,200,false

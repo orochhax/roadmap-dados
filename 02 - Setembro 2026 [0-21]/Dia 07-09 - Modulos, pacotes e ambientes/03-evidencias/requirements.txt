@@ -1,0 +1,10 @@
+# Módulos, pacotes e ambientes
+#
+# Arquivo preparado a partir do roadmap.
+# Nenhuma atividade foi resolvida neste arquivo.
+#
+# ENUNCIADOS
+# 2. [ ] Crie e ative o ambiente virtual fora do OneDrive; instale apenas uma
+#          dependência de demonstração e registre aqui o resultado de `pip freeze`.
+#
+# Escreva sua solução abaixo desta linha.

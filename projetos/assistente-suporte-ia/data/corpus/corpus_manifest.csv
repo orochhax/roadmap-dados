@@ -1,0 +1,16 @@
+doc_id,arquivo,titulo,origem,licenca,versao,sha256
+DOC-01,DOC-01-reinicio-roteador.md,Reinício seguro do roteador,gerar_dados.py,conteúdo sintético para estudo,1.0,0333fd9b3fd67c67d3190d4f686a6bf17d30291b1a9d9fb17bc076de3c7dc2b0
+DOC-02,DOC-02-sem-conexao.md,Diagnóstico de ausência de conexão,gerar_dados.py,conteúdo sintético para estudo,1.0,5303835378ebc5592d19538e5c570b43fcdb29f71ac9cf5a7f1f236a6c8a1ffc
+DOC-03,DOC-03-wifi-lento.md,Wi-Fi com baixa velocidade,gerar_dados.py,conteúdo sintético para estudo,1.0,9c5a8edf623e706883956fd97ad26b58c42efa9599e7fc4d2adba024b485016b
+DOC-04,DOC-04-troca-senha-wifi.md,Troca de senha do Wi-Fi,gerar_dados.py,conteúdo sintético para estudo,1.0,250e3b82dccafb143430124f4c92714f5baa318241166bcd5e8ce85f64aefcde
+DOC-05,DOC-05-segunda-via.md,Segunda via da fatura,gerar_dados.py,conteúdo sintético para estudo,1.0,fd49151ee4bc202dd351e1e56432d62a5727b56029105ee355f64f213bb2642e
+DOC-06,DOC-06-pagamento-nao-baixado.md,Pagamento ainda não reconhecido,gerar_dados.py,conteúdo sintético para estudo,1.0,b660c86522a5b53567fbebde2b081f0f1fd1f91ad94ca2dbf8c6a2f00811c842
+DOC-07,DOC-07-mudanca-endereco.md,Mudança de endereço,gerar_dados.py,conteúdo sintético para estudo,1.0,f79153b80c89e273e372cec88ba8e00c3958b37c95ab562bd3c2d2b02d922939
+DOC-08,DOC-08-equipamento-aquecendo.md,Equipamento aquecendo,gerar_dados.py,conteúdo sintético para estudo,1.0,671d9be8aec71ae0a231c441a62f35c3670f23eeb45cc8a751d160743d2a37d7
+DOC-09,DOC-09-luz-los-vermelha.md,Luz LOS vermelha,gerar_dados.py,conteúdo sintético para estudo,1.0,cccfdc048a535ae33be42c8dbacc739a4cb72ad826b8f46bff93ad66e5078c0e
+DOC-10,DOC-10-instabilidade-chuva.md,Instabilidade durante chuva,gerar_dados.py,conteúdo sintético para estudo,1.0,b1fa410b5215818b263279b5390a05dd9982184aed81c6214ebf000c82422e33
+DOC-11,DOC-11-cancelamento.md,Solicitação de cancelamento,gerar_dados.py,conteúdo sintético para estudo,1.0,e60d2c564de95f1ccbe6642907e1618c742491b6359474be7d985011471574ac
+DOC-12,DOC-12-visita-tecnica.md,Preparação para visita técnica,gerar_dados.py,conteúdo sintético para estudo,1.0,00b4732b9102438f4204a990f35f356dc707c95c7b1b5acea6b097c9c6da7576
+DOC-13,DOC-13-dados-pessoais.md,Proteção de dados pessoais,gerar_dados.py,conteúdo sintético para estudo,1.0,d0542d4c4664acce5ab33d30f7ba6c10eac2b4188b5136ee4f01aea63a53c27b
+DOC-14,DOC-14-fora-de-escopo.md,Solicitações fora do escopo,gerar_dados.py,conteúdo sintético para estudo,1.0,11c86e1f72c1a42ce0179ed86fc19354ba5ce2fc4a3ca30ab5099361a88efe70
+DOC-15,DOC-15-escalonamento-p1.md,Escalonamento de incidente P1,gerar_dados.py,conteúdo sintético para estudo,1.0,2aa3cbe6ee23fdce9e1ddf07f58ad0c0d61a16c3c31541cef919fb57f3aad730

@@ -1,0 +1,5 @@
+# Dependências mínimas. Depois de concluir o projeto, gere uma versão fixada
+# com `python -m pip freeze > requirements-lock.txt`.
+numpy
+pydantic
+scikit-learn

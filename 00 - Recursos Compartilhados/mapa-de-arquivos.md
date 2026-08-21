@@ -1,813 +1,856 @@
-# Mapa dos arquivos preparados
+# Mapa de arquivos
 
-> Cada dia possui um único README de orientação. Os demais arquivos são artefatos específicos das atividades e dos projetos.
+> Gerado por `python scripts/gerar_indices.py`. Edite os arquivos de origem, não esta lista.
 
-## Dia 001 — Preparação e diagnóstico
+## Sessões
 
-- [02-pratica-sem-consulta/diagnostico.py](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/02-pratica-sem-consulta/diagnostico.py>)
-- [03-evidencias/versoes.txt](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/03-evidencias/versoes.txt>)
-- [README.md](<../01 - Agosto 2026/Dia 001 - Preparacao e diagnostico/README.md>)
+### Agosto 2026
 
-## Dia 002 — Variáveis, tipos e operadores
+#### 03/08/2026 — [Preparação e diagnóstico](<../01 - Agosto 2026 [6-16]/OK - Dia 03-08 - Preparacao e diagnostico/README.md>)
 
-- [01-exercicios/metricas_atendimento.py](<../01 - Agosto 2026/Dia 002 - Variaveis, tipos e operadores/01-exercicios/metricas_atendimento.py>)
-- [01-exercicios/tipos_operadores.py](<../01 - Agosto 2026/Dia 002 - Variaveis, tipos e operadores/01-exercicios/tipos_operadores.py>)
-- [README.md](<../01 - Agosto 2026/Dia 002 - Variaveis, tipos e operadores/README.md>)
+- [02-pratica-sem-consulta/diagnostico.py](<../01 - Agosto 2026 [6-16]/OK - Dia 03-08 - Preparacao e diagnostico/02-pratica-sem-consulta/diagnostico.py>)
+- [03-evidencias/versoes.txt](<../01 - Agosto 2026 [6-16]/OK - Dia 03-08 - Preparacao e diagnostico/03-evidencias/versoes.txt>)
 
-## Dia 003 — Condicionais e regras de negócio
+#### 04/08/2026 — [Variáveis, tipos e operadores](<../01 - Agosto 2026 [6-16]/OK - Dia 04-08 - Variaveis, tipos e operadores/README.md>)
 
-- [01-exercicios/prioridade_chamados.py](<../01 - Agosto 2026/Dia 003 - Condicionais e regras de negocio/01-exercicios/prioridade_chamados.py>)
-- [README.md](<../01 - Agosto 2026/Dia 003 - Condicionais e regras de negocio/README.md>)
+- [01-exercicios/metricas_atendimento.py](<../01 - Agosto 2026 [6-16]/OK - Dia 04-08 - Variaveis, tipos e operadores/01-exercicios/metricas_atendimento.py>)
+- [01-exercicios/tipos_operadores.py](<../01 - Agosto 2026 [6-16]/OK - Dia 04-08 - Variaveis, tipos e operadores/01-exercicios/tipos_operadores.py>)
 
-## Dia 004 — Laços e coleções
+#### 12/08/2026 — [Condicionais e regras de negócio](<../01 - Agosto 2026 [6-16]/OK - Dia 12-08 - Condicionais e regras de negocio/README.md>)
 
-- [01-exercicios/dia-004-lacos-e-colecoes.py](<../01 - Agosto 2026/Dia 004 - Lacos e colecoes/01-exercicios/dia-004-lacos-e-colecoes.py>)
-- [README.md](<../01 - Agosto 2026/Dia 004 - Lacos e colecoes/README.md>)
+- [01-exercicios/prioridade_chamados.py](<../01 - Agosto 2026 [6-16]/OK - Dia 12-08 - Condicionais e regras de negocio/01-exercicios/prioridade_chamados.py>)
 
-## Dia 005 — Funções e primeiro mini-projeto
+#### 13/08/2026 — [Textos e condições aninhadas](<../01 - Agosto 2026 [6-16]/OK - Dia 13-08 - Textos e condicoes aninhadas/README.md>)
 
-- [README.md](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/README.md>)
-- [projeto-semanal/README.md](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/relatorio.md](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/projeto-semanal/requirements.txt>)
-- [projeto-semanal/src/noc_insights.py](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/projeto-semanal/src/noc_insights.py>)
-- [projeto-semanal/tests/testes_manuais.md](<../01 - Agosto 2026/Dia 005 - Funcoes e primeiro mini-projeto/projeto-semanal/tests/testes_manuais.md>)
+- [01-exercicios/aula09.py](<../01 - Agosto 2026 [6-16]/OK - Dia 13-08 - Textos e condicoes aninhadas/01-exercicios/aula09.py>)
+- [01-exercicios/DESAFIO38.py](<../01 - Agosto 2026 [6-16]/OK - Dia 13-08 - Textos e condicoes aninhadas/01-exercicios/DESAFIO38.py>)
+- [01-exercicios/texto_e_condicoes.py](<../01 - Agosto 2026 [6-16]/OK - Dia 13-08 - Textos e condicoes aninhadas/01-exercicios/texto_e_condicoes.py>)
 
-## Dia 006 — Compreensões e funções úteis
+#### 14/08/2026 — [Repetição com `for`](<../01 - Agosto 2026 [6-16]/OK - Dia 14-08 - Repeticao com for/README.md>)
 
-- [01-exercicios/comprehensions.py](<../01 - Agosto 2026/Dia 006 - Compreensoes e funcoes uteis/01-exercicios/comprehensions.py>)
-- [README.md](<../01 - Agosto 2026/Dia 006 - Compreensoes e funcoes uteis/README.md>)
+- [01-exercicios/DESAFIO46.PY](<../01 - Agosto 2026 [6-16]/OK - Dia 14-08 - Repeticao com for/01-exercicios/DESAFIO46.PY>)
+- [01-exercicios/DESAFIO48.PY](<../01 - Agosto 2026 [6-16]/OK - Dia 14-08 - Repeticao com for/01-exercicios/DESAFIO48.PY>)
+- [01-exercicios/DESAFIO50.PY](<../01 - Agosto 2026 [6-16]/OK - Dia 14-08 - Repeticao com for/01-exercicios/DESAFIO50.PY>)
+- [01-exercicios/resumo_com_for.py](<../01 - Agosto 2026 [6-16]/OK - Dia 14-08 - Repeticao com for/01-exercicios/resumo_com_for.py>)
 
-## Dia 007 — Arquivos CSV, JSON e caminhos
+#### 17/08/2026 — [Validação com `while`](<../01 - Agosto 2026 [6-16]/OK - Dia 17-08 - Validacao com while/README.md>)
 
-- [01-exercicios/dia-007-arquivos-csv-json-e-caminhos.py](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/01-exercicios/dia-007-arquivos-csv-json-e-caminhos.py>)
-- [01-exercicios/incidentes.csv](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/01-exercicios/incidentes.csv>)
-- [01-exercicios/metas.json](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/01-exercicios/metas.json>)
-- [03-evidencias/relatorio_consolidado.csv](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/03-evidencias/relatorio_consolidado.csv>)
-- [README.md](<../01 - Agosto 2026/Dia 007 - Arquivos CSV, JSON e caminhos/README.md>)
+- [01-exercicios/Desafio57.py](<../01 - Agosto 2026 [6-16]/OK - Dia 17-08 - Validacao com while/01-exercicios/Desafio57.py>)
+- [01-exercicios/Desafio59.py](<../01 - Agosto 2026 [6-16]/OK - Dia 17-08 - Validacao com while/01-exercicios/Desafio59.py>)
+- [01-exercicios/Desafio64.py](<../01 - Agosto 2026 [6-16]/OK - Dia 17-08 - Validacao com while/01-exercicios/Desafio64.py>)
+- [01-exercicios/validacao_com_while.py](<../01 - Agosto 2026 [6-16]/OK - Dia 17-08 - Validacao com while/01-exercicios/validacao_com_while.py>)
 
-## Dia 008 — Exceções e validação
+#### 18/08/2026 — [`break` e sentinelas](<../01 - Agosto 2026 [6-16]/Dia 18-08 - Break e sentinelas/README.md>)
 
-- [01-exercicios/dia-008-excecoes-e-validacao.py](<../01 - Agosto 2026/Dia 008 - Excecoes e validacao/01-exercicios/dia-008-excecoes-e-validacao.py>)
-- [03-evidencias/dados_rejeitados.csv](<../01 - Agosto 2026/Dia 008 - Excecoes e validacao/03-evidencias/dados_rejeitados.csv>)
-- [03-evidencias/dados_validos.csv](<../01 - Agosto 2026/Dia 008 - Excecoes e validacao/03-evidencias/dados_validos.csv>)
-- [README.md](<../01 - Agosto 2026/Dia 008 - Excecoes e validacao/README.md>)
+- [01-exercicios/duracoes_com_sentinela.py](<../01 - Agosto 2026 [6-16]/Dia 18-08 - Break e sentinelas/01-exercicios/duracoes_com_sentinela.py>)
 
-## Dia 009 — Módulos, pacotes e ambientes
+#### 19/08/2026 — [Tuplas](<../01 - Agosto 2026 [6-16]/Dia 19-08 - Tuplas/README.md>)
 
-- [01-exercicios/main.py](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/01-exercicios/main.py>)
-- [01-exercicios/noc_utils/__init__.py](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/__init__.py>)
-- [01-exercicios/noc_utils/io.py](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/io.py>)
-- [01-exercicios/noc_utils/metricas.py](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/metricas.py>)
-- [01-exercicios/noc_utils/validacao.py](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/validacao.py>)
-- [03-evidencias/requirements.txt](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/03-evidencias/requirements.txt>)
-- [README.md](<../01 - Agosto 2026/Dia 009 - Modulos, pacotes e ambientes/README.md>)
+- [01-exercicios/tuplas_referencia.py](<../01 - Agosto 2026 [6-16]/Dia 19-08 - Tuplas/01-exercicios/tuplas_referencia.py>)
 
-## Dia 010 — Mini-projeto de consolidação
+#### 20/08/2026 — [Listas](<../01 - Agosto 2026 [6-16]/Dia 20-08 - Listas/README.md>)
 
-- [README.md](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/README.md>)
-- [projeto-semanal/README.md](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/relatorio.md](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/outputs/tabelas/relatorio.csv](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/projeto-semanal/outputs/tabelas/relatorio.csv>)
-- [projeto-semanal/outputs/tabelas/resumo.json](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/projeto-semanal/outputs/tabelas/resumo.json>)
-- [projeto-semanal/requirements.txt](<../01 - Agosto 2026/Dia 010 - Mini-projeto de consolidacao/projeto-semanal/requirements.txt>)
+- [01-exercicios/listas_incidentes.py](<../01 - Agosto 2026 [6-16]/Dia 20-08 - Listas/01-exercicios/listas_incidentes.py>)
 
-## Dia 011 — NumPy essencial
+#### 21/08/2026 — [Listas compostas e matrizes](<../01 - Agosto 2026 [6-16]/Dia 21-08 - Listas compostas e matrizes/README.md>)
 
-- [01-exercicios/numpy_essencial.ipynb](<../01 - Agosto 2026/Dia 011 - NumPy essencial/01-exercicios/numpy_essencial.ipynb>)
-- [README.md](<../01 - Agosto 2026/Dia 011 - NumPy essencial/README.md>)
+- [01-exercicios/matriz_incidentes.py](<../01 - Agosto 2026 [6-16]/Dia 21-08 - Listas compostas e matrizes/01-exercicios/matriz_incidentes.py>)
 
-## Dia 012 — pandas: Series e DataFrame
+#### 24/08/2026 — [Dicionários e `set`](<../01 - Agosto 2026 [6-16]/Dia 24-08 - Dicionarios e set/README.md>)
 
-- [01-exercicios/pandas_basico.ipynb](<../01 - Agosto 2026/Dia 012 - pandas - Series e DataFrame/01-exercicios/pandas_basico.ipynb>)
-- [README.md](<../01 - Agosto 2026/Dia 012 - pandas - Series e DataFrame/README.md>)
+- [01-exercicios/resumo_incidentes.py](<../01 - Agosto 2026 [6-16]/Dia 24-08 - Dicionarios e set/01-exercicios/resumo_incidentes.py>)
 
-## Dia 013 — Limpeza de dados
+#### 25/08/2026 — [Funções com parâmetros](<../01 - Agosto 2026 [6-16]/Dia 25-08 - Funcoes com parametros/README.md>)
 
-- [01-exercicios/dia-013-limpeza-de-dados.ipynb](<../01 - Agosto 2026/Dia 013 - Limpeza de dados/01-exercicios/dia-013-limpeza-de-dados.ipynb>)
-- [03-evidencias/dados_limpos.csv](<../01 - Agosto 2026/Dia 013 - Limpeza de dados/03-evidencias/dados_limpos.csv>)
-- [03-evidencias/relatorio_limpeza.md](<../01 - Agosto 2026/Dia 013 - Limpeza de dados/03-evidencias/relatorio_limpeza.md>)
-- [README.md](<../01 - Agosto 2026/Dia 013 - Limpeza de dados/README.md>)
+- [01-exercicios/funcoes_relatorio.py](<../01 - Agosto 2026 [6-16]/Dia 25-08 - Funcoes com parametros/01-exercicios/funcoes_relatorio.py>)
 
-## Dia 014 — Agrupamento, merge e reshape
+#### 26/08/2026 — [Funções com retorno](<../01 - Agosto 2026 [6-16]/Dia 26-08 - Funcoes com retorno/README.md>)
 
-- [01-exercicios/dia-014-agrupamento-merge-e-reshape.ipynb](<../01 - Agosto 2026/Dia 014 - Agrupamento, merge e reshape/01-exercicios/dia-014-agrupamento-merge-e-reshape.ipynb>)
-- [README.md](<../01 - Agosto 2026/Dia 014 - Agrupamento, merge e reshape/README.md>)
+- [01-exercicios/funcoes_com_retorno.py](<../01 - Agosto 2026 [6-16]/Dia 26-08 - Funcoes com retorno/01-exercicios/funcoes_com_retorno.py>)
 
-## Dia 015 — EDA prática
+#### 27/08/2026 — [Módulos e pacotes](<../01 - Agosto 2026 [6-16]/Dia 27-08 - Modulos e pacotes/README.md>)
 
-- [README.md](<../01 - Agosto 2026/Dia 015 - EDA pratica/README.md>)
-- [projeto-semanal/README.md](<../01 - Agosto 2026/Dia 015 - EDA pratica/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../01 - Agosto 2026/Dia 015 - EDA pratica/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/relatorio.md](<../01 - Agosto 2026/Dia 015 - EDA pratica/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/docs/resumo_executivo.md](<../01 - Agosto 2026/Dia 015 - EDA pratica/projeto-semanal/docs/resumo_executivo.md>)
-- [projeto-semanal/notebooks/eda_clientes.ipynb](<../01 - Agosto 2026/Dia 015 - EDA pratica/projeto-semanal/notebooks/eda_clientes.ipynb>)
-- [projeto-semanal/requirements.txt](<../01 - Agosto 2026/Dia 015 - EDA pratica/projeto-semanal/requirements.txt>)
+- [01-exercicios/main.py](<../01 - Agosto 2026 [6-16]/Dia 27-08 - Modulos e pacotes/01-exercicios/main.py>)
+- [01-exercicios/noc_utils/__init__.py](<../01 - Agosto 2026 [6-16]/Dia 27-08 - Modulos e pacotes/01-exercicios/noc_utils/__init__.py>)
+- [01-exercicios/noc_utils/metricas.py](<../01 - Agosto 2026 [6-16]/Dia 27-08 - Modulos e pacotes/01-exercicios/noc_utils/metricas.py>)
 
-## Dia 016 — Fundamentos de visualização
+#### 28/08/2026 — [Exceções e menu](<../01 - Agosto 2026 [6-16]/Dia 28-08 - Excecoes e menu/README.md>)
 
-- [01-exercicios/visualizacao_fundamentos.ipynb](<../01 - Agosto 2026/Dia 016 - Fundamentos de visualizacao/01-exercicios/visualizacao_fundamentos.ipynb>)
-- [README.md](<../01 - Agosto 2026/Dia 016 - Fundamentos de visualizacao/README.md>)
+- [01-exercicios/entrada_segura.py](<../01 - Agosto 2026 [6-16]/Dia 28-08 - Excecoes e menu/01-exercicios/entrada_segura.py>)
+- [01-exercicios/projeto_cadastro/interface.py](<../01 - Agosto 2026 [6-16]/Dia 28-08 - Excecoes e menu/01-exercicios/projeto_cadastro/interface.py>)
+- [01-exercicios/projeto_cadastro/main.py](<../01 - Agosto 2026 [6-16]/Dia 28-08 - Excecoes e menu/01-exercicios/projeto_cadastro/main.py>)
 
-## Dia 017 — Visualização com pandas e Matplotlib
+#### 31/08/2026 — [Arquivos e projeto final](<../01 - Agosto 2026 [6-16]/Dia 31-08 - Arquivos e projeto final/README.md>)
 
-- [01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb](<../01 - Agosto 2026/Dia 017 - Visualizacao com pandas e Matplotlib/01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb>)
-- [README.md](<../01 - Agosto 2026/Dia 017 - Visualizacao com pandas e Matplotlib/README.md>)
+- [01-exercicios/projeto_cadastro/arquivo.py](<../01 - Agosto 2026 [6-16]/Dia 31-08 - Arquivos e projeto final/01-exercicios/projeto_cadastro/arquivo.py>)
+- [01-exercicios/projeto_cadastro/interface.py](<../01 - Agosto 2026 [6-16]/Dia 31-08 - Arquivos e projeto final/01-exercicios/projeto_cadastro/interface.py>)
+- [01-exercicios/projeto_cadastro/main.py](<../01 - Agosto 2026 [6-16]/Dia 31-08 - Arquivos e projeto final/01-exercicios/projeto_cadastro/main.py>)
+- [03-evidencias/teste_aceitacao.md](<../01 - Agosto 2026 [6-16]/Dia 31-08 - Arquivos e projeto final/03-evidencias/teste_aceitacao.md>)
 
-## Dia 018 — Storytelling e recomendação
+### Setembro 2026
 
-- [01-exercicios/dia-018-storytelling-e-recomendacao.ipynb](<../01 - Agosto 2026/Dia 018 - Storytelling e recomendacao/01-exercicios/dia-018-storytelling-e-recomendacao.ipynb>)
-- [README.md](<../01 - Agosto 2026/Dia 018 - Storytelling e recomendacao/README.md>)
+#### 01/09/2026 — [Funções e primeiro mini-projeto](<../02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes e primeiro mini-projeto/README.md>)
 
-## Dia 019 — Dashboard introdutório
+- [projeto-semanal/docs/apresentacao.md](<../02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes e primeiro mini-projeto/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes e primeiro mini-projeto/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes e primeiro mini-projeto/projeto-semanal/requirements.txt>)
+- [projeto-semanal/src/noc_insights.py](<../02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes e primeiro mini-projeto/projeto-semanal/src/noc_insights.py>)
+- [projeto-semanal/tests/testes_manuais.md](<../02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes e primeiro mini-projeto/projeto-semanal/tests/testes_manuais.md>)
 
-- [01-exercicios/dia-019-dashboard-introdutorio.ipynb](<../01 - Agosto 2026/Dia 019 - Dashboard introdutorio/01-exercicios/dia-019-dashboard-introdutorio.ipynb>)
-- [01-exercicios/dicionario_metricas.md](<../01 - Agosto 2026/Dia 019 - Dashboard introdutorio/01-exercicios/dicionario_metricas.md>)
-- [README.md](<../01 - Agosto 2026/Dia 019 - Dashboard introdutorio/README.md>)
+#### 02/09/2026 — [Compreensões e funções úteis](<../02 - Setembro 2026 [0-21]/Dia 02-09 - Compreensoes e funcoes uteis/README.md>)
 
-## Dia 020 — Entrega executiva
+- [01-exercicios/comprehensions.py](<../02 - Setembro 2026 [0-21]/Dia 02-09 - Compreensoes e funcoes uteis/01-exercicios/comprehensions.py>)
 
-- [README.md](<../01 - Agosto 2026/Dia 020 - Entrega executiva/README.md>)
-- [projeto-mensal/README.md](<../01 - Agosto 2026/Dia 020 - Entrega executiva/projeto-mensal/README.md>)
-- [projeto-mensal/docs/apresentacao.md](<../01 - Agosto 2026/Dia 020 - Entrega executiva/projeto-mensal/docs/apresentacao.md>)
-- [projeto-mensal/docs/criterios-de-aceitacao.md](<../01 - Agosto 2026/Dia 020 - Entrega executiva/projeto-mensal/docs/criterios-de-aceitacao.md>)
-- [projeto-mensal/docs/relatorio.md](<../01 - Agosto 2026/Dia 020 - Entrega executiva/projeto-mensal/docs/relatorio.md>)
-- [projeto-mensal/docs/resumo-executivo.md](<../01 - Agosto 2026/Dia 020 - Entrega executiva/projeto-mensal/docs/resumo-executivo.md>)
-- [projeto-mensal/docs/retrospectiva.md](<../01 - Agosto 2026/Dia 020 - Entrega executiva/projeto-mensal/docs/retrospectiva.md>)
-- [projeto-mensal/requirements.txt](<../01 - Agosto 2026/Dia 020 - Entrega executiva/projeto-mensal/requirements.txt>)
+#### 03/09/2026 — [Arquivos CSV, JSON e caminhos](<../02 - Setembro 2026 [0-21]/Dia 03-09 - Arquivos CSV, JSON e caminhos/README.md>)
 
-## Dia 021 — Banco relacional e SELECT
+- [01-exercicios/dia-007-arquivos-csv-json-e-caminhos.py](<../02 - Setembro 2026 [0-21]/Dia 03-09 - Arquivos CSV, JSON e caminhos/01-exercicios/dia-007-arquivos-csv-json-e-caminhos.py>)
+- [01-exercicios/incidentes.csv](<../02 - Setembro 2026 [0-21]/Dia 03-09 - Arquivos CSV, JSON e caminhos/01-exercicios/incidentes.csv>)
+- [01-exercicios/metas.json](<../02 - Setembro 2026 [0-21]/Dia 03-09 - Arquivos CSV, JSON e caminhos/01-exercicios/metas.json>)
+- [03-evidencias/relatorio_consolidado.csv](<../02 - Setembro 2026 [0-21]/Dia 03-09 - Arquivos CSV, JSON e caminhos/03-evidencias/relatorio_consolidado.csv>)
 
-- [01-exercicios/select_basico.sql](<../01 - Agosto 2026/Dia 021 - Banco relacional e SELECT/01-exercicios/select_basico.sql>)
-- [README.md](<../01 - Agosto 2026/Dia 021 - Banco relacional e SELECT/README.md>)
+#### 04/09/2026 — [Exceções e validação](<../02 - Setembro 2026 [0-21]/Dia 04-09 - Excecoes e validacao/README.md>)
 
-## Dia 022 — Filtros e funções
+- [01-exercicios/dia-008-excecoes-e-validacao.py](<../02 - Setembro 2026 [0-21]/Dia 04-09 - Excecoes e validacao/01-exercicios/dia-008-excecoes-e-validacao.py>)
+- [03-evidencias/dados_rejeitados.csv](<../02 - Setembro 2026 [0-21]/Dia 04-09 - Excecoes e validacao/03-evidencias/dados_rejeitados.csv>)
+- [03-evidencias/dados_validos.csv](<../02 - Setembro 2026 [0-21]/Dia 04-09 - Excecoes e validacao/03-evidencias/dados_validos.csv>)
 
-- [01-exercicios/dia-022-filtros-e-funcoes.sql](<../02 - Setembro 2026/Dia 022 - Filtros e funcoes/01-exercicios/dia-022-filtros-e-funcoes.sql>)
-- [README.md](<../02 - Setembro 2026/Dia 022 - Filtros e funcoes/README.md>)
+#### 07/09/2026 — [Módulos, pacotes e ambientes](<../02 - Setembro 2026 [0-21]/Dia 07-09 - Modulos, pacotes e ambientes/README.md>)
 
-## Dia 023 — Agregações
+- [01-exercicios/main.py](<../02 - Setembro 2026 [0-21]/Dia 07-09 - Modulos, pacotes e ambientes/01-exercicios/main.py>)
+- [01-exercicios/noc_utils/__init__.py](<../02 - Setembro 2026 [0-21]/Dia 07-09 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/__init__.py>)
+- [01-exercicios/noc_utils/io.py](<../02 - Setembro 2026 [0-21]/Dia 07-09 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/io.py>)
+- [01-exercicios/noc_utils/metricas.py](<../02 - Setembro 2026 [0-21]/Dia 07-09 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/metricas.py>)
+- [01-exercicios/noc_utils/validacao.py](<../02 - Setembro 2026 [0-21]/Dia 07-09 - Modulos, pacotes e ambientes/01-exercicios/noc_utils/validacao.py>)
+- [03-evidencias/requirements.txt](<../02 - Setembro 2026 [0-21]/Dia 07-09 - Modulos, pacotes e ambientes/03-evidencias/requirements.txt>)
 
-- [01-exercicios/dia-023-agregacoes.sql](<../02 - Setembro 2026/Dia 023 - Agregacoes/01-exercicios/dia-023-agregacoes.sql>)
-- [README.md](<../02 - Setembro 2026/Dia 023 - Agregacoes/README.md>)
+#### 08/09/2026 — [Mini-projeto de consolidação](<../02 - Setembro 2026 [0-21]/Dia 08-09 - Mini-projeto de consolidacao/README.md>)
 
-## Dia 024 — JOINs
+- [01-exercicios/roteiro_atividades.md](<../02 - Setembro 2026 [0-21]/Dia 08-09 - Mini-projeto de consolidacao/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../02 - Setembro 2026 [0-21]/Dia 08-09 - Mini-projeto de consolidacao/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../02 - Setembro 2026 [0-21]/Dia 08-09 - Mini-projeto de consolidacao/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/outputs/tabelas/relatorio.csv](<../02 - Setembro 2026 [0-21]/Dia 08-09 - Mini-projeto de consolidacao/projeto-semanal/outputs/tabelas/relatorio.csv>)
+- [projeto-semanal/outputs/tabelas/resumo.json](<../02 - Setembro 2026 [0-21]/Dia 08-09 - Mini-projeto de consolidacao/projeto-semanal/outputs/tabelas/resumo.json>)
+- [projeto-semanal/requirements.txt](<../02 - Setembro 2026 [0-21]/Dia 08-09 - Mini-projeto de consolidacao/projeto-semanal/requirements.txt>)
 
-- [01-exercicios/dia-024-joins.sql](<../02 - Setembro 2026/Dia 024 - JOINs/01-exercicios/dia-024-joins.sql>)
-- [README.md](<../02 - Setembro 2026/Dia 024 - JOINs/README.md>)
+#### 09/09/2026 — [NumPy essencial](<../02 - Setembro 2026 [0-21]/Dia 09-09 - NumPy essencial/README.md>)
 
-## Dia 025 — Mini-case SQL
+- [01-exercicios/numpy_essencial.ipynb](<../02 - Setembro 2026 [0-21]/Dia 09-09 - NumPy essencial/01-exercicios/numpy_essencial.ipynb>)
 
-- [README.md](<../02 - Setembro 2026/Dia 025 - Mini-case SQL/README.md>)
-- [projeto-semanal/README.md](<../02 - Setembro 2026/Dia 025 - Mini-case SQL/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../02 - Setembro 2026/Dia 025 - Mini-case SQL/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/case_sql_semana05.md](<../02 - Setembro 2026/Dia 025 - Mini-case SQL/projeto-semanal/docs/case_sql_semana05.md>)
-- [projeto-semanal/docs/relatorio.md](<../02 - Setembro 2026/Dia 025 - Mini-case SQL/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../02 - Setembro 2026/Dia 025 - Mini-case SQL/projeto-semanal/requirements.txt>)
+#### 10/09/2026 — [pandas: Series e DataFrame](<../02 - Setembro 2026 [0-21]/Dia 10-09 - pandas - Series e DataFrame/README.md>)
 
-## Dia 026 — Subqueries e CTEs
+- [01-exercicios/pandas_basico.ipynb](<../02 - Setembro 2026 [0-21]/Dia 10-09 - pandas - Series e DataFrame/01-exercicios/pandas_basico.ipynb>)
 
-- [01-exercicios/dia-026-subqueries-e-ctes.sql](<../02 - Setembro 2026/Dia 026 - Subqueries e CTEs/01-exercicios/dia-026-subqueries-e-ctes.sql>)
-- [README.md](<../02 - Setembro 2026/Dia 026 - Subqueries e CTEs/README.md>)
+#### 11/09/2026 — [Limpeza de dados](<../02 - Setembro 2026 [0-21]/Dia 11-09 - Limpeza de dados/README.md>)
 
-## Dia 027 — Funções de janela
+- [01-exercicios/dia-013-limpeza-de-dados.ipynb](<../02 - Setembro 2026 [0-21]/Dia 11-09 - Limpeza de dados/01-exercicios/dia-013-limpeza-de-dados.ipynb>)
+- [03-evidencias/dados_limpos.csv](<../02 - Setembro 2026 [0-21]/Dia 11-09 - Limpeza de dados/03-evidencias/dados_limpos.csv>)
+- [03-evidencias/relatorio_limpeza.md](<../02 - Setembro 2026 [0-21]/Dia 11-09 - Limpeza de dados/03-evidencias/relatorio_limpeza.md>)
 
-- [01-exercicios/dia-027-funcoes-de-janela.sql](<../02 - Setembro 2026/Dia 027 - Funcoes de janela/01-exercicios/dia-027-funcoes-de-janela.sql>)
-- [README.md](<../02 - Setembro 2026/Dia 027 - Funcoes de janela/README.md>)
+#### 14/09/2026 — [Agrupamento, merge e reshape](<../02 - Setembro 2026 [0-21]/Dia 14-09 - Agrupamento, merge e reshape/README.md>)
 
-## Dia 028 — Datas e análise temporal
+- [01-exercicios/dia-014-agrupamento-merge-e-reshape.ipynb](<../02 - Setembro 2026 [0-21]/Dia 14-09 - Agrupamento, merge e reshape/01-exercicios/dia-014-agrupamento-merge-e-reshape.ipynb>)
 
-- [01-exercicios/dia-028-datas-e-analise-temporal.sql](<../02 - Setembro 2026/Dia 028 - Datas e analise temporal/01-exercicios/dia-028-datas-e-analise-temporal.sql>)
-- [README.md](<../02 - Setembro 2026/Dia 028 - Datas e analise temporal/README.md>)
+#### 15/09/2026 — [EDA prática](<../02 - Setembro 2026 [0-21]/Dia 15-09 - EDA pratica/README.md>)
 
-## Dia 029 — Cohorts e retenção
+- [projeto-semanal/docs/apresentacao.md](<../02 - Setembro 2026 [0-21]/Dia 15-09 - EDA pratica/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../02 - Setembro 2026 [0-21]/Dia 15-09 - EDA pratica/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/docs/resumo_executivo.md](<../02 - Setembro 2026 [0-21]/Dia 15-09 - EDA pratica/projeto-semanal/docs/resumo_executivo.md>)
+- [projeto-semanal/notebooks/eda_clientes.ipynb](<../02 - Setembro 2026 [0-21]/Dia 15-09 - EDA pratica/projeto-semanal/notebooks/eda_clientes.ipynb>)
+- [projeto-semanal/requirements.txt](<../02 - Setembro 2026 [0-21]/Dia 15-09 - EDA pratica/projeto-semanal/requirements.txt>)
 
-- [01-exercicios/dia-029-cohorts-e-retencao.sql](<../02 - Setembro 2026/Dia 029 - Cohorts e retencao/01-exercicios/dia-029-cohorts-e-retencao.sql>)
-- [README.md](<../02 - Setembro 2026/Dia 029 - Cohorts e retencao/README.md>)
+#### 16/09/2026 — [Fundamentos de visualização](<../02 - Setembro 2026 [0-21]/Dia 16-09 - Fundamentos de visualizacao/README.md>)
 
-## Dia 030 — Simulado SQL
+- [01-exercicios/visualizacao_fundamentos.ipynb](<../02 - Setembro 2026 [0-21]/Dia 16-09 - Fundamentos de visualizacao/01-exercicios/visualizacao_fundamentos.ipynb>)
 
-- [README.md](<../02 - Setembro 2026/Dia 030 - Simulado SQL/README.md>)
-- [projeto-semanal/README.md](<../02 - Setembro 2026/Dia 030 - Simulado SQL/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../02 - Setembro 2026/Dia 030 - Simulado SQL/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../02 - Setembro 2026/Dia 030 - Simulado SQL/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
-- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../02 - Setembro 2026/Dia 030 - Simulado SQL/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
-- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../02 - Setembro 2026/Dia 030 - Simulado SQL/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
-- [projeto-semanal/docs/linkedin/roteiro-post.md](<../02 - Setembro 2026/Dia 030 - Simulado SQL/projeto-semanal/docs/linkedin/roteiro-post.md>)
-- [projeto-semanal/docs/relatorio.md](<../02 - Setembro 2026/Dia 030 - Simulado SQL/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/docs/simulado_sql_perguntas.md](<../02 - Setembro 2026/Dia 030 - Simulado SQL/projeto-semanal/docs/simulado_sql_perguntas.md>)
-- [projeto-semanal/requirements.txt](<../02 - Setembro 2026/Dia 030 - Simulado SQL/projeto-semanal/requirements.txt>)
-- [projeto-semanal/sql/simulado_sql_respostas.sql](<../02 - Setembro 2026/Dia 030 - Simulado SQL/projeto-semanal/sql/simulado_sql_respostas.sql>)
+#### 17/09/2026 — [Visualização com pandas e Matplotlib](<../02 - Setembro 2026 [0-21]/Dia 17-09 - Visualizacao com pandas e Matplotlib/README.md>)
 
-## Dia 031 — Medidas e distribuições
+- [01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb](<../02 - Setembro 2026 [0-21]/Dia 17-09 - Visualizacao com pandas e Matplotlib/01-exercicios/dia-017-visualizacao-com-pandas-e-matplotlib.ipynb>)
 
-- [01-exercicios/dia-031-medidas-e-distribuicoes.ipynb](<../02 - Setembro 2026/Dia 031 - Medidas e distribuicoes/01-exercicios/dia-031-medidas-e-distribuicoes.ipynb>)
-- [README.md](<../02 - Setembro 2026/Dia 031 - Medidas e distribuicoes/README.md>)
+#### 18/09/2026 — [Storytelling e recomendação](<../02 - Setembro 2026 [0-21]/Dia 18-09 - Storytelling e recomendacao/README.md>)
 
-## Dia 032 — Probabilidade básica
+- [01-exercicios/dia-018-storytelling-e-recomendacao.ipynb](<../02 - Setembro 2026 [0-21]/Dia 18-09 - Storytelling e recomendacao/01-exercicios/dia-018-storytelling-e-recomendacao.ipynb>)
 
-- [01-exercicios/dia-032-probabilidade-basica.ipynb](<../02 - Setembro 2026/Dia 032 - Probabilidade basica/01-exercicios/dia-032-probabilidade-basica.ipynb>)
-- [README.md](<../02 - Setembro 2026/Dia 032 - Probabilidade basica/README.md>)
+#### 21/09/2026 — [Dashboard introdutório](<../02 - Setembro 2026 [0-21]/Dia 21-09 - Dashboard introdutorio/README.md>)
 
-## Dia 033 — Distribuições importantes
+- [01-exercicios/dia-019-dashboard-introdutorio.ipynb](<../02 - Setembro 2026 [0-21]/Dia 21-09 - Dashboard introdutorio/01-exercicios/dia-019-dashboard-introdutorio.ipynb>)
+- [01-exercicios/dicionario_metricas.md](<../02 - Setembro 2026 [0-21]/Dia 21-09 - Dashboard introdutorio/01-exercicios/dicionario_metricas.md>)
 
-- [01-exercicios/dia-033-distribuicoes-importantes.ipynb](<../02 - Setembro 2026/Dia 033 - Distribuicoes importantes/01-exercicios/dia-033-distribuicoes-importantes.ipynb>)
-- [README.md](<../02 - Setembro 2026/Dia 033 - Distribuicoes importantes/README.md>)
+#### 22/09/2026 — [Entrega executiva](<../02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva/README.md>)
 
-## Dia 034 — Amostragem e Lei dos Grandes Números
+- [01-exercicios/roteiro_atividades.md](<../02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva/01-exercicios/roteiro_atividades.md>)
+- [projeto-mensal/docs/apresentacao.md](<../02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva/projeto-mensal/docs/apresentacao.md>)
+- [projeto-mensal/docs/criterios-de-aceitacao.md](<../02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva/projeto-mensal/docs/criterios-de-aceitacao.md>)
+- [projeto-mensal/docs/relatorio.md](<../02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva/projeto-mensal/docs/relatorio.md>)
+- [projeto-mensal/docs/resumo-executivo.md](<../02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva/projeto-mensal/docs/resumo-executivo.md>)
+- [projeto-mensal/docs/retrospectiva.md](<../02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva/projeto-mensal/docs/retrospectiva.md>)
+- [projeto-mensal/requirements.txt](<../02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva/projeto-mensal/requirements.txt>)
 
-- [01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb](<../02 - Setembro 2026/Dia 034 - Amostragem e Lei dos Grandes Numeros/01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb>)
-- [README.md](<../02 - Setembro 2026/Dia 034 - Amostragem e Lei dos Grandes Numeros/README.md>)
+#### 23/09/2026 — [Banco relacional e SELECT](<../02 - Setembro 2026 [0-21]/Dia 23-09 - Banco relacional e SELECT/README.md>)
 
-## Dia 035 — Case estatístico
+- [01-exercicios/select_basico.sql](<../02 - Setembro 2026 [0-21]/Dia 23-09 - Banco relacional e SELECT/01-exercicios/select_basico.sql>)
 
-- [README.md](<../02 - Setembro 2026/Dia 035 - Case estatistico/README.md>)
-- [projeto-semanal/README.md](<../02 - Setembro 2026/Dia 035 - Case estatistico/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../02 - Setembro 2026/Dia 035 - Case estatistico/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../02 - Setembro 2026/Dia 035 - Case estatistico/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
-- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../02 - Setembro 2026/Dia 035 - Case estatistico/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
-- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../02 - Setembro 2026/Dia 035 - Case estatistico/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
-- [projeto-semanal/docs/linkedin/roteiro-post.md](<../02 - Setembro 2026/Dia 035 - Case estatistico/projeto-semanal/docs/linkedin/roteiro-post.md>)
-- [projeto-semanal/docs/relatorio.md](<../02 - Setembro 2026/Dia 035 - Case estatistico/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../02 - Setembro 2026/Dia 035 - Case estatistico/projeto-semanal/requirements.txt>)
+#### 24/09/2026 — [Filtros e funções](<../02 - Setembro 2026 [0-21]/Dia 24-09 - Filtros e funcoes/README.md>)
 
-## Dia 036 — Intervalos de confiança
+- [01-exercicios/dia-022-filtros-e-funcoes.sql](<../02 - Setembro 2026 [0-21]/Dia 24-09 - Filtros e funcoes/01-exercicios/dia-022-filtros-e-funcoes.sql>)
 
-- [01-exercicios/dia-036-intervalos-de-confianca.ipynb](<../02 - Setembro 2026/Dia 036 - Intervalos de confianca/01-exercicios/dia-036-intervalos-de-confianca.ipynb>)
-- [README.md](<../02 - Setembro 2026/Dia 036 - Intervalos de confianca/README.md>)
+#### 25/09/2026 — [Agregações](<../02 - Setembro 2026 [0-21]/Dia 25-09 - Agregacoes/README.md>)
 
-## Dia 037 — Testes de hipótese
+- [01-exercicios/dia-023-agregacoes.sql](<../02 - Setembro 2026 [0-21]/Dia 25-09 - Agregacoes/01-exercicios/dia-023-agregacoes.sql>)
 
-- [01-exercicios/dia-037-testes-de-hipotese.ipynb](<../02 - Setembro 2026/Dia 037 - Testes de hipotese/01-exercicios/dia-037-testes-de-hipotese.ipynb>)
-- [README.md](<../02 - Setembro 2026/Dia 037 - Testes de hipotese/README.md>)
+#### 28/09/2026 — [JOINs](<../02 - Setembro 2026 [0-21]/Dia 28-09 - JOINs/README.md>)
 
-## Dia 038 — Teste A/B
+- [01-exercicios/dia-024-joins.sql](<../02 - Setembro 2026 [0-21]/Dia 28-09 - JOINs/01-exercicios/dia-024-joins.sql>)
 
-- [01-exercicios/dia-038-teste-a-b.ipynb](<../02 - Setembro 2026/Dia 038 - Teste A-B/01-exercicios/dia-038-teste-a-b.ipynb>)
-- [README.md](<../02 - Setembro 2026/Dia 038 - Teste A-B/README.md>)
+#### 29/09/2026 — [Mini-case SQL](<../02 - Setembro 2026 [0-21]/Dia 29-09 - Mini-case SQL/README.md>)
 
-## Dia 039 — Correlação, causalidade e vieses
+- [projeto-semanal/docs/apresentacao.md](<../02 - Setembro 2026 [0-21]/Dia 29-09 - Mini-case SQL/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/case_sql_semana05.md](<../02 - Setembro 2026 [0-21]/Dia 29-09 - Mini-case SQL/projeto-semanal/docs/case_sql_semana05.md>)
+- [projeto-semanal/docs/relatorio.md](<../02 - Setembro 2026 [0-21]/Dia 29-09 - Mini-case SQL/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../02 - Setembro 2026 [0-21]/Dia 29-09 - Mini-case SQL/projeto-semanal/requirements.txt>)
 
-- [01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb](<../02 - Setembro 2026/Dia 039 - Correlacao, causalidade e vieses/01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb>)
-- [README.md](<../02 - Setembro 2026/Dia 039 - Correlacao, causalidade e vieses/README.md>)
+### Outubro 2026
 
-## Dia 040 — Entrega de experimento
+#### 01/10/2026 — [Subqueries e CTEs](<../03 - Outubro 2026 [0-22]/Dia 01-10 - Subqueries e CTEs/README.md>)
 
-- [README.md](<../02 - Setembro 2026/Dia 040 - Entrega de experimento/README.md>)
-- [projeto-mensal/README.md](<../02 - Setembro 2026/Dia 040 - Entrega de experimento/projeto-mensal/README.md>)
-- [projeto-mensal/docs/apresentacao.md](<../02 - Setembro 2026/Dia 040 - Entrega de experimento/projeto-mensal/docs/apresentacao.md>)
-- [projeto-mensal/docs/criterios-de-aceitacao.md](<../02 - Setembro 2026/Dia 040 - Entrega de experimento/projeto-mensal/docs/criterios-de-aceitacao.md>)
-- [projeto-mensal/docs/relatorio.md](<../02 - Setembro 2026/Dia 040 - Entrega de experimento/projeto-mensal/docs/relatorio.md>)
-- [projeto-mensal/docs/resumo-executivo.md](<../02 - Setembro 2026/Dia 040 - Entrega de experimento/projeto-mensal/docs/resumo-executivo.md>)
-- [projeto-mensal/docs/retrospectiva.md](<../02 - Setembro 2026/Dia 040 - Entrega de experimento/projeto-mensal/docs/retrospectiva.md>)
-- [projeto-mensal/requirements.txt](<../02 - Setembro 2026/Dia 040 - Entrega de experimento/projeto-mensal/requirements.txt>)
+- [01-exercicios/dia-026-subqueries-e-ctes.sql](<../03 - Outubro 2026 [0-22]/Dia 01-10 - Subqueries e CTEs/01-exercicios/dia-026-subqueries-e-ctes.sql>)
 
-## Dia 041 — Definição do problema
+#### 02/10/2026 — [Funções de janela](<../03 - Outubro 2026 [0-22]/Dia 02-10 - Funcoes de janela/README.md>)
 
-- [01-exercicios/dia-041-definicao-do-problema.ipynb](<../02 - Setembro 2026/Dia 041 - Definicao do problema/01-exercicios/dia-041-definicao-do-problema.ipynb>)
-- [01-exercicios/problem_statement.md](<../02 - Setembro 2026/Dia 041 - Definicao do problema/01-exercicios/problem_statement.md>)
-- [README.md](<../02 - Setembro 2026/Dia 041 - Definicao do problema/README.md>)
+- [01-exercicios/dia-027-funcoes-de-janela.sql](<../03 - Outubro 2026 [0-22]/Dia 02-10 - Funcoes de janela/01-exercicios/dia-027-funcoes-de-janela.sql>)
 
-## Dia 042 — Separação e vazamento
+#### 05/10/2026 — [Datas e análise temporal](<../03 - Outubro 2026 [0-22]/Dia 05-10 - Datas e analise temporal/README.md>)
 
-- [01-exercicios/dia-042-separacao-e-vazamento.ipynb](<../02 - Setembro 2026/Dia 042 - Separacao e vazamento/01-exercicios/dia-042-separacao-e-vazamento.ipynb>)
-- [README.md](<../02 - Setembro 2026/Dia 042 - Separacao e vazamento/README.md>)
+- [01-exercicios/dia-028-datas-e-analise-temporal.sql](<../03 - Outubro 2026 [0-22]/Dia 05-10 - Datas e analise temporal/01-exercicios/dia-028-datas-e-analise-temporal.sql>)
 
-## Dia 043 — Pré-processamento com Pipeline
+#### 06/10/2026 — [Cohorts e retenção](<../03 - Outubro 2026 [0-22]/Dia 06-10 - Cohorts e retencao/README.md>)
 
-- [01-exercicios/dia-043-pre-processamento-com-pipeline.ipynb](<../02 - Setembro 2026/Dia 043 - Pre-processamento com Pipeline/01-exercicios/dia-043-pre-processamento-com-pipeline.ipynb>)
-- [README.md](<../02 - Setembro 2026/Dia 043 - Pre-processamento com Pipeline/README.md>)
+- [01-exercicios/dia-029-cohorts-e-retencao.sql](<../03 - Outubro 2026 [0-22]/Dia 06-10 - Cohorts e retencao/01-exercicios/dia-029-cohorts-e-retencao.sql>)
 
-## Dia 044 — Métricas de classificação
+#### 07/10/2026 — [Simulado SQL](<../03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL/README.md>)
 
-- [01-exercicios/dia-044-metricas-de-classificacao.ipynb](<../03 - Outubro 2026/Dia 044 - Metricas de classificacao/01-exercicios/dia-044-metricas-de-classificacao.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 044 - Metricas de classificacao/README.md>)
+- [projeto-semanal/docs/apresentacao.md](<../03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
+- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
+- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
+- [projeto-semanal/docs/linkedin/roteiro-post.md](<../03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL/projeto-semanal/docs/linkedin/roteiro-post.md>)
+- [projeto-semanal/docs/relatorio.md](<../03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/docs/simulado_sql_perguntas.md](<../03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL/projeto-semanal/docs/simulado_sql_perguntas.md>)
+- [projeto-semanal/requirements.txt](<../03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL/projeto-semanal/requirements.txt>)
+- [projeto-semanal/sql/simulado_sql_respostas.sql](<../03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL/projeto-semanal/sql/simulado_sql_respostas.sql>)
 
-## Dia 045 — Baseline completo
+#### 08/10/2026 — [Medidas e distribuições](<../03 - Outubro 2026 [0-22]/Dia 08-10 - Medidas e distribuicoes/README.md>)
 
-- [README.md](<../03 - Outubro 2026/Dia 045 - Baseline completo/README.md>)
-- [projeto-semanal/README.md](<../03 - Outubro 2026/Dia 045 - Baseline completo/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../03 - Outubro 2026/Dia 045 - Baseline completo/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../03 - Outubro 2026/Dia 045 - Baseline completo/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
-- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../03 - Outubro 2026/Dia 045 - Baseline completo/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
-- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../03 - Outubro 2026/Dia 045 - Baseline completo/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
-- [projeto-semanal/docs/linkedin/roteiro-post.md](<../03 - Outubro 2026/Dia 045 - Baseline completo/projeto-semanal/docs/linkedin/roteiro-post.md>)
-- [projeto-semanal/docs/relatorio.md](<../03 - Outubro 2026/Dia 045 - Baseline completo/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../03 - Outubro 2026/Dia 045 - Baseline completo/projeto-semanal/requirements.txt>)
+- [01-exercicios/dia-031-medidas-e-distribuicoes.ipynb](<../03 - Outubro 2026 [0-22]/Dia 08-10 - Medidas e distribuicoes/01-exercicios/dia-031-medidas-e-distribuicoes.ipynb>)
 
-## Dia 046 — Regressão linear
+#### 09/10/2026 — [Probabilidade básica](<../03 - Outubro 2026 [0-22]/Dia 09-10 - Probabilidade basica/README.md>)
 
-- [01-exercicios/dia-046-regressao-linear.ipynb](<../03 - Outubro 2026/Dia 046 - Regressao linear/01-exercicios/dia-046-regressao-linear.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 046 - Regressao linear/README.md>)
+- [01-exercicios/dia-032-probabilidade-basica.ipynb](<../03 - Outubro 2026 [0-22]/Dia 09-10 - Probabilidade basica/01-exercicios/dia-032-probabilidade-basica.ipynb>)
 
-## Dia 047 — Métricas de regressão
+#### 12/10/2026 — [Distribuições importantes](<../03 - Outubro 2026 [0-22]/Dia 12-10 - Distribuicoes importantes/README.md>)
 
-- [01-exercicios/dia-047-metricas-de-regressao.ipynb](<../03 - Outubro 2026/Dia 047 - Metricas de regressao/01-exercicios/dia-047-metricas-de-regressao.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 047 - Metricas de regressao/README.md>)
+- [01-exercicios/dia-033-distribuicoes-importantes.ipynb](<../03 - Outubro 2026 [0-22]/Dia 12-10 - Distribuicoes importantes/01-exercicios/dia-033-distribuicoes-importantes.ipynb>)
 
-## Dia 048 — Regularização
+#### 13/10/2026 — [Amostragem e Lei dos Grandes Números](<../03 - Outubro 2026 [0-22]/Dia 13-10 - Amostragem e Lei dos Grandes Numeros/README.md>)
 
-- [01-exercicios/dia-048-regularizacao.ipynb](<../03 - Outubro 2026/Dia 048 - Regularizacao/01-exercicios/dia-048-regularizacao.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 048 - Regularizacao/README.md>)
+- [01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb](<../03 - Outubro 2026 [0-22]/Dia 13-10 - Amostragem e Lei dos Grandes Numeros/01-exercicios/dia-034-amostragem-e-lei-dos-grandes-numeros.ipynb>)
 
-## Dia 049 — Feature engineering para regressão
+#### 14/10/2026 — [Case estatístico](<../03 - Outubro 2026 [0-22]/Dia 14-10 - Case estatistico/README.md>)
 
-- [01-exercicios/dia-049-feature-engineering-para-regressao.ipynb](<../03 - Outubro 2026/Dia 049 - Feature engineering para regressao/01-exercicios/dia-049-feature-engineering-para-regressao.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 049 - Feature engineering para regressao/README.md>)
+- [01-exercicios/roteiro_atividades.md](<../03 - Outubro 2026 [0-22]/Dia 14-10 - Case estatistico/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../03 - Outubro 2026 [0-22]/Dia 14-10 - Case estatistico/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../03 - Outubro 2026 [0-22]/Dia 14-10 - Case estatistico/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../03 - Outubro 2026 [0-22]/Dia 14-10 - Case estatistico/projeto-semanal/requirements.txt>)
 
-## Dia 050 — Mini-projeto de regressão
+#### 15/10/2026 — [Intervalos de confiança](<../03 - Outubro 2026 [0-22]/Dia 15-10 - Intervalos de confianca/README.md>)
 
-- [README.md](<../03 - Outubro 2026/Dia 050 - Mini-projeto de regressao/README.md>)
-- [projeto-semanal/README.md](<../03 - Outubro 2026/Dia 050 - Mini-projeto de regressao/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../03 - Outubro 2026/Dia 050 - Mini-projeto de regressao/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/relatorio.md](<../03 - Outubro 2026/Dia 050 - Mini-projeto de regressao/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../03 - Outubro 2026/Dia 050 - Mini-projeto de regressao/projeto-semanal/requirements.txt>)
+- [01-exercicios/dia-036-intervalos-de-confianca.ipynb](<../03 - Outubro 2026 [0-22]/Dia 15-10 - Intervalos de confianca/01-exercicios/dia-036-intervalos-de-confianca.ipynb>)
 
-## Dia 051 — Regressão logística
+#### 16/10/2026 — [Testes de hipótese](<../03 - Outubro 2026 [0-22]/Dia 16-10 - Testes de hipotese/README.md>)
 
-- [01-exercicios/dia-051-regressao-logistica.ipynb](<../03 - Outubro 2026/Dia 051 - Regressao logistica/01-exercicios/dia-051-regressao-logistica.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 051 - Regressao logistica/README.md>)
+- [01-exercicios/dia-037-testes-de-hipotese.ipynb](<../03 - Outubro 2026 [0-22]/Dia 16-10 - Testes de hipotese/01-exercicios/dia-037-testes-de-hipotese.ipynb>)
 
-## Dia 052 — Limiar e custo
+#### 19/10/2026 — [Teste A/B](<../03 - Outubro 2026 [0-22]/Dia 19-10 - Teste A-B/README.md>)
 
-- [01-exercicios/dia-052-limiar-e-custo.ipynb](<../03 - Outubro 2026/Dia 052 - Limiar e custo/01-exercicios/dia-052-limiar-e-custo.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 052 - Limiar e custo/README.md>)
+- [01-exercicios/dia-038-teste-a-b.ipynb](<../03 - Outubro 2026 [0-22]/Dia 19-10 - Teste A-B/01-exercicios/dia-038-teste-a-b.ipynb>)
 
-## Dia 053 — Calibração e probabilidades
+#### 20/10/2026 — [Correlação, causalidade e vieses](<../03 - Outubro 2026 [0-22]/Dia 20-10 - Correlacao, causalidade e vieses/README.md>)
 
-- [01-exercicios/dia-053-calibracao-e-probabilidades.ipynb](<../03 - Outubro 2026/Dia 053 - Calibracao e probabilidades/01-exercicios/dia-053-calibracao-e-probabilidades.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 053 - Calibracao e probabilidades/README.md>)
+- [01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb](<../03 - Outubro 2026 [0-22]/Dia 20-10 - Correlacao, causalidade e vieses/01-exercicios/dia-039-correlacao-causalidade-e-vieses.ipynb>)
 
-## Dia 054 — Classes desbalanceadas
+#### 21/10/2026 — [Entrega de experimento](<../03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento/README.md>)
 
-- [01-exercicios/dia-054-classes-desbalanceadas.ipynb](<../03 - Outubro 2026/Dia 054 - Classes desbalanceadas/01-exercicios/dia-054-classes-desbalanceadas.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 054 - Classes desbalanceadas/README.md>)
+- [01-exercicios/roteiro_atividades.md](<../03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento/01-exercicios/roteiro_atividades.md>)
+- [projeto-mensal/docs/apresentacao.md](<../03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento/projeto-mensal/docs/apresentacao.md>)
+- [projeto-mensal/docs/criterios-de-aceitacao.md](<../03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento/projeto-mensal/docs/criterios-de-aceitacao.md>)
+- [projeto-mensal/docs/presentation-en.md](<../03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento/projeto-mensal/docs/presentation-en.md>)
+- [projeto-mensal/docs/relatorio.md](<../03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento/projeto-mensal/docs/relatorio.md>)
+- [projeto-mensal/docs/resumo-executivo.md](<../03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento/projeto-mensal/docs/resumo-executivo.md>)
+- [projeto-mensal/docs/retrospectiva.md](<../03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento/projeto-mensal/docs/retrospectiva.md>)
+- [projeto-mensal/README.en.md](<../03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento/projeto-mensal/README.en.md>)
+- [projeto-mensal/requirements.txt](<../03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento/projeto-mensal/requirements.txt>)
 
-## Dia 055 — Case de decisão
+#### 22/10/2026 — [Definição do problema](<../03 - Outubro 2026 [0-22]/Dia 22-10 - Definicao do problema/README.md>)
 
-- [README.md](<../03 - Outubro 2026/Dia 055 - Case de decisao/README.md>)
-- [projeto-semanal/README.md](<../03 - Outubro 2026/Dia 055 - Case de decisao/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../03 - Outubro 2026/Dia 055 - Case de decisao/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../03 - Outubro 2026/Dia 055 - Case de decisao/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
-- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../03 - Outubro 2026/Dia 055 - Case de decisao/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
-- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../03 - Outubro 2026/Dia 055 - Case de decisao/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
-- [projeto-semanal/docs/linkedin/roteiro-post.md](<../03 - Outubro 2026/Dia 055 - Case de decisao/projeto-semanal/docs/linkedin/roteiro-post.md>)
-- [projeto-semanal/docs/relatorio.md](<../03 - Outubro 2026/Dia 055 - Case de decisao/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../03 - Outubro 2026/Dia 055 - Case de decisao/projeto-semanal/requirements.txt>)
+- [01-exercicios/dia-041-definicao-do-problema.ipynb](<../03 - Outubro 2026 [0-22]/Dia 22-10 - Definicao do problema/01-exercicios/dia-041-definicao-do-problema.ipynb>)
+- [01-exercicios/problem_statement.md](<../03 - Outubro 2026 [0-22]/Dia 22-10 - Definicao do problema/01-exercicios/problem_statement.md>)
 
-## Dia 056 — Árvore de decisão
+#### 23/10/2026 — [Separação e vazamento](<../03 - Outubro 2026 [0-22]/Dia 23-10 - Separacao e vazamento/README.md>)
 
-- [01-exercicios/dia-056-arvore-de-decisao.ipynb](<../03 - Outubro 2026/Dia 056 - Arvore de decisao/01-exercicios/dia-056-arvore-de-decisao.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 056 - Arvore de decisao/README.md>)
+- [01-exercicios/dia-042-separacao-e-vazamento.ipynb](<../03 - Outubro 2026 [0-22]/Dia 23-10 - Separacao e vazamento/01-exercicios/dia-042-separacao-e-vazamento.ipynb>)
 
-## Dia 057 — Random Forest
+#### 26/10/2026 — [Pré-processamento com Pipeline](<../03 - Outubro 2026 [0-22]/Dia 26-10 - Pre-processamento com Pipeline/README.md>)
 
-- [01-exercicios/dia-057-random-forest.ipynb](<../03 - Outubro 2026/Dia 057 - Random Forest/01-exercicios/dia-057-random-forest.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 057 - Random Forest/README.md>)
+- [01-exercicios/dia-043-pre-processamento-com-pipeline.ipynb](<../03 - Outubro 2026 [0-22]/Dia 26-10 - Pre-processamento com Pipeline/01-exercicios/dia-043-pre-processamento-com-pipeline.ipynb>)
 
-## Dia 058 — Gradient Boosting
+#### 27/10/2026 — [Métricas de classificação](<../03 - Outubro 2026 [0-22]/Dia 27-10 - Metricas de classificacao/README.md>)
 
-- [01-exercicios/dia-058-gradient-boosting.ipynb](<../03 - Outubro 2026/Dia 058 - Gradient Boosting/01-exercicios/dia-058-gradient-boosting.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 058 - Gradient Boosting/README.md>)
+- [01-exercicios/dia-044-metricas-de-classificacao.ipynb](<../03 - Outubro 2026 [0-22]/Dia 27-10 - Metricas de classificacao/01-exercicios/dia-044-metricas-de-classificacao.ipynb>)
 
-## Dia 059 — Seleção de modelo
+#### 28/10/2026 — [Baseline completo](<../03 - Outubro 2026 [0-22]/Dia 28-10 - Baseline completo/README.md>)
 
-- [01-exercicios/dia-059-selecao-de-modelo.ipynb](<../03 - Outubro 2026/Dia 059 - Selecao de modelo/01-exercicios/dia-059-selecao-de-modelo.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 059 - Selecao de modelo/README.md>)
+- [01-exercicios/roteiro_atividades.md](<../03 - Outubro 2026 [0-22]/Dia 28-10 - Baseline completo/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../03 - Outubro 2026 [0-22]/Dia 28-10 - Baseline completo/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../03 - Outubro 2026 [0-22]/Dia 28-10 - Baseline completo/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../03 - Outubro 2026 [0-22]/Dia 28-10 - Baseline completo/projeto-semanal/requirements.txt>)
 
-## Dia 060 — Benchmark publicado
+#### 29/10/2026 — [Regressão linear](<../03 - Outubro 2026 [0-22]/Dia 29-10 - Regressao linear/README.md>)
 
-- [README.md](<../03 - Outubro 2026/Dia 060 - Benchmark publicado/README.md>)
-- [projeto-semanal/README.md](<../03 - Outubro 2026/Dia 060 - Benchmark publicado/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../03 - Outubro 2026/Dia 060 - Benchmark publicado/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/relatorio.md](<../03 - Outubro 2026/Dia 060 - Benchmark publicado/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../03 - Outubro 2026/Dia 060 - Benchmark publicado/projeto-semanal/requirements.txt>)
+- [01-exercicios/dia-046-regressao-linear.ipynb](<../03 - Outubro 2026 [0-22]/Dia 29-10 - Regressao linear/01-exercicios/dia-046-regressao-linear.ipynb>)
 
-## Dia 061 — Feature engineering
+#### 30/10/2026 — [Métricas de regressão](<../03 - Outubro 2026 [0-22]/Dia 30-10 - Metricas de regressao/README.md>)
 
-- [01-exercicios/dia-061-feature-engineering.ipynb](<../03 - Outubro 2026/Dia 061 - Feature engineering/01-exercicios/dia-061-feature-engineering.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 061 - Feature engineering/README.md>)
+- [01-exercicios/dia-047-metricas-de-regressao.ipynb](<../03 - Outubro 2026 [0-22]/Dia 30-10 - Metricas de regressao/01-exercicios/dia-047-metricas-de-regressao.ipynb>)
 
-## Dia 062 — Validação cruzada e tuning
+### Novembro 2026
 
-- [01-exercicios/dia-062-validacao-cruzada-e-tuning.ipynb](<../03 - Outubro 2026/Dia 062 - Validacao cruzada e tuning/01-exercicios/dia-062-validacao-cruzada-e-tuning.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 062 - Validacao cruzada e tuning/README.md>)
+#### 02/11/2026 — [Regularização](<../04 - Novembro 2026 [0-20]/Dia 02-11 - Regularizacao/README.md>)
 
-## Dia 063 — Seleção de variáveis
+- [01-exercicios/dia-048-regularizacao.ipynb](<../04 - Novembro 2026 [0-20]/Dia 02-11 - Regularizacao/01-exercicios/dia-048-regularizacao.ipynb>)
 
-- [01-exercicios/dia-063-selecao-de-variaveis.ipynb](<../03 - Outubro 2026/Dia 063 - Selecao de variaveis/01-exercicios/dia-063-selecao-de-variaveis.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 063 - Selecao de variaveis/README.md>)
+#### 03/11/2026 — [Feature engineering para regressão](<../04 - Novembro 2026 [0-20]/Dia 03-11 - Feature engineering para regressao/README.md>)
 
-## Dia 064 — Explicabilidade
+- [01-exercicios/dia-049-feature-engineering-para-regressao.ipynb](<../04 - Novembro 2026 [0-20]/Dia 03-11 - Feature engineering para regressao/01-exercicios/dia-049-feature-engineering-para-regressao.ipynb>)
 
-- [01-exercicios/dia-064-explicabilidade.ipynb](<../03 - Outubro 2026/Dia 064 - Explicabilidade/01-exercicios/dia-064-explicabilidade.ipynb>)
-- [README.md](<../03 - Outubro 2026/Dia 064 - Explicabilidade/README.md>)
+#### 04/11/2026 — [Mini-projeto de regressão](<../04 - Novembro 2026 [0-20]/Dia 04-11 - Mini-projeto de regressao/README.md>)
 
-## Dia 065 — Auditoria do pipeline
+- [01-exercicios/roteiro_atividades.md](<../04 - Novembro 2026 [0-20]/Dia 04-11 - Mini-projeto de regressao/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../04 - Novembro 2026 [0-20]/Dia 04-11 - Mini-projeto de regressao/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../04 - Novembro 2026 [0-20]/Dia 04-11 - Mini-projeto de regressao/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../04 - Novembro 2026 [0-20]/Dia 04-11 - Mini-projeto de regressao/projeto-semanal/requirements.txt>)
 
-- [README.md](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/README.md>)
-- [projeto-mensal/README.md](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/README.md>)
-- [projeto-mensal/docs/apresentacao.md](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/docs/apresentacao.md>)
-- [projeto-mensal/docs/auditoria_modelo.md](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/docs/auditoria_modelo.md>)
-- [projeto-mensal/docs/criterios-de-aceitacao.md](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/docs/criterios-de-aceitacao.md>)
-- [projeto-mensal/docs/relatorio.md](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/docs/relatorio.md>)
-- [projeto-mensal/docs/resumo-executivo.md](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/docs/resumo-executivo.md>)
-- [projeto-mensal/docs/retrospectiva.md](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/docs/retrospectiva.md>)
-- [projeto-mensal/requirements.txt](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/requirements.txt>)
-- [projeto-mensal/src/evaluate.py](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/src/evaluate.py>)
-- [projeto-mensal/src/features.py](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/src/features.py>)
-- [projeto-mensal/src/train.py](<../03 - Outubro 2026/Dia 065 - Auditoria do pipeline/projeto-mensal/src/train.py>)
+#### 05/11/2026 — [Regressão logística](<../04 - Novembro 2026 [0-20]/Dia 05-11 - Regressao logistica/README.md>)
 
-## Dia 066 — Definição do case
+- [01-exercicios/dia-051-regressao-logistica.ipynb](<../04 - Novembro 2026 [0-20]/Dia 05-11 - Regressao logistica/01-exercicios/dia-051-regressao-logistica.ipynb>)
 
-- [01-exercicios/dia-066-definicao-do-case.ipynb](<../04 - Novembro 2026/Dia 066 - Definicao do case/01-exercicios/dia-066-definicao-do-case.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 066 - Definicao do case/README.md>)
+#### 06/11/2026 — [Limiar e custo](<../04 - Novembro 2026 [0-20]/Dia 06-11 - Limiar e custo/README.md>)
 
-## Dia 067 — Engenharia e qualidade dos dados
+- [01-exercicios/dia-052-limiar-e-custo.ipynb](<../04 - Novembro 2026 [0-20]/Dia 06-11 - Limiar e custo/01-exercicios/dia-052-limiar-e-custo.ipynb>)
 
-- [01-exercicios/dia-067-engenharia-e-qualidade-dos-dados.ipynb](<../04 - Novembro 2026/Dia 067 - Engenharia e qualidade dos dados/01-exercicios/dia-067-engenharia-e-qualidade-dos-dados.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 067 - Engenharia e qualidade dos dados/README.md>)
+#### 09/11/2026 — [Calibração e probabilidades](<../04 - Novembro 2026 [0-20]/Dia 09-11 - Calibracao e probabilidades/README.md>)
 
-## Dia 068 — EDA orientada a churn
+- [01-exercicios/dia-053-calibracao-e-probabilidades.ipynb](<../04 - Novembro 2026 [0-20]/Dia 09-11 - Calibracao e probabilidades/01-exercicios/dia-053-calibracao-e-probabilidades.ipynb>)
 
-- [01-exercicios/dia-068-eda-orientada-a-churn.ipynb](<../04 - Novembro 2026/Dia 068 - EDA orientada a churn/01-exercicios/dia-068-eda-orientada-a-churn.ipynb>)
-- [03-evidencias/insights_eda.md](<../04 - Novembro 2026/Dia 068 - EDA orientada a churn/03-evidencias/insights_eda.md>)
-- [README.md](<../04 - Novembro 2026/Dia 068 - EDA orientada a churn/README.md>)
+#### 10/11/2026 — [Classes desbalanceadas](<../04 - Novembro 2026 [0-20]/Dia 10-11 - Classes desbalanceadas/README.md>)
 
-## Dia 069 — SQL do projeto
+- [01-exercicios/dia-054-classes-desbalanceadas.ipynb](<../04 - Novembro 2026 [0-20]/Dia 10-11 - Classes desbalanceadas/01-exercicios/dia-054-classes-desbalanceadas.ipynb>)
 
-- [01-exercicios/dia-069-sql-do-projeto.ipynb](<../04 - Novembro 2026/Dia 069 - SQL do projeto/01-exercicios/dia-069-sql-do-projeto.ipynb>)
-- [03-evidencias/base_modelagem.csv](<../04 - Novembro 2026/Dia 069 - SQL do projeto/03-evidencias/base_modelagem.csv>)
-- [README.md](<../04 - Novembro 2026/Dia 069 - SQL do projeto/README.md>)
+#### 11/11/2026 — [Case de decisão](<../04 - Novembro 2026 [0-20]/Dia 11-11 - Case de decisao/README.md>)
 
-## Dia 070 — Preparação para modelagem
+- [01-exercicios/roteiro_atividades.md](<../04 - Novembro 2026 [0-20]/Dia 11-11 - Case de decisao/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../04 - Novembro 2026 [0-20]/Dia 11-11 - Case de decisao/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../04 - Novembro 2026 [0-20]/Dia 11-11 - Case de decisao/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../04 - Novembro 2026 [0-20]/Dia 11-11 - Case de decisao/projeto-semanal/requirements.txt>)
 
-- [README.md](<../04 - Novembro 2026/Dia 070 - Preparacao para modelagem/README.md>)
-- [projeto-semanal/README.md](<../04 - Novembro 2026/Dia 070 - Preparacao para modelagem/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../04 - Novembro 2026/Dia 070 - Preparacao para modelagem/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/data_card.md](<../04 - Novembro 2026/Dia 070 - Preparacao para modelagem/projeto-semanal/docs/data_card.md>)
-- [projeto-semanal/docs/relatorio.md](<../04 - Novembro 2026/Dia 070 - Preparacao para modelagem/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../04 - Novembro 2026/Dia 070 - Preparacao para modelagem/projeto-semanal/requirements.txt>)
+#### 12/11/2026 — [Árvore de decisão](<../04 - Novembro 2026 [0-20]/Dia 12-11 - Arvore de decisao/README.md>)
 
-## Dia 071 — Baselines e modelos
+- [01-exercicios/dia-056-arvore-de-decisao.ipynb](<../04 - Novembro 2026 [0-20]/Dia 12-11 - Arvore de decisao/01-exercicios/dia-056-arvore-de-decisao.ipynb>)
 
-- [01-exercicios/dia-071-baselines-e-modelos.ipynb](<../04 - Novembro 2026/Dia 071 - Baselines e modelos/01-exercicios/dia-071-baselines-e-modelos.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 071 - Baselines e modelos/README.md>)
+#### 13/11/2026 — [Random Forest](<../04 - Novembro 2026 [0-20]/Dia 13-11 - Random Forest/README.md>)
 
-## Dia 072 — Limiar e estratégia de retenção
+- [01-exercicios/dia-057-random-forest.ipynb](<../04 - Novembro 2026 [0-20]/Dia 13-11 - Random Forest/01-exercicios/dia-057-random-forest.ipynb>)
 
-- [01-exercicios/dia-072-limiar-e-estrategia-de-retencao.ipynb](<../04 - Novembro 2026/Dia 072 - Limiar e estrategia de retencao/01-exercicios/dia-072-limiar-e-estrategia-de-retencao.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 072 - Limiar e estrategia de retencao/README.md>)
+#### 16/11/2026 — [Gradient Boosting](<../04 - Novembro 2026 [0-20]/Dia 16-11 - Gradient Boosting/README.md>)
 
-## Dia 073 — Explicabilidade e segmentos
+- [01-exercicios/dia-058-gradient-boosting.ipynb](<../04 - Novembro 2026 [0-20]/Dia 16-11 - Gradient Boosting/01-exercicios/dia-058-gradient-boosting.ipynb>)
+- [01-exercicios/requirements.txt](<../04 - Novembro 2026 [0-20]/Dia 16-11 - Gradient Boosting/01-exercicios/requirements.txt>)
 
-- [01-exercicios/dia-073-explicabilidade-e-segmentos.ipynb](<../04 - Novembro 2026/Dia 073 - Explicabilidade e segmentos/01-exercicios/dia-073-explicabilidade-e-segmentos.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 073 - Explicabilidade e segmentos/README.md>)
+#### 17/11/2026 — [Seleção de modelo](<../04 - Novembro 2026 [0-20]/Dia 17-11 - Selecao de modelo/README.md>)
 
-## Dia 074 — Relatório e dashboard
+- [01-exercicios/dia-059-selecao-de-modelo.ipynb](<../04 - Novembro 2026 [0-20]/Dia 17-11 - Selecao de modelo/01-exercicios/dia-059-selecao-de-modelo.ipynb>)
 
-- [01-exercicios/dia-074-relatorio-e-dashboard.ipynb](<../04 - Novembro 2026/Dia 074 - Relatorio e dashboard/01-exercicios/dia-074-relatorio-e-dashboard.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 074 - Relatorio e dashboard/README.md>)
+#### 18/11/2026 — [Benchmark publicado](<../04 - Novembro 2026 [0-20]/Dia 18-11 - Benchmark publicado/README.md>)
 
-## Dia 075 — Publicação e apresentação
+- [01-exercicios/roteiro_atividades.md](<../04 - Novembro 2026 [0-20]/Dia 18-11 - Benchmark publicado/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../04 - Novembro 2026 [0-20]/Dia 18-11 - Benchmark publicado/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../04 - Novembro 2026 [0-20]/Dia 18-11 - Benchmark publicado/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../04 - Novembro 2026 [0-20]/Dia 18-11 - Benchmark publicado/projeto-semanal/requirements.txt>)
 
-- [README.md](<../04 - Novembro 2026/Dia 075 - Publicacao e apresentacao/README.md>)
-- [projeto-semanal/README.md](<../04 - Novembro 2026/Dia 075 - Publicacao e apresentacao/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../04 - Novembro 2026/Dia 075 - Publicacao e apresentacao/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../04 - Novembro 2026/Dia 075 - Publicacao e apresentacao/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
-- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../04 - Novembro 2026/Dia 075 - Publicacao e apresentacao/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
-- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../04 - Novembro 2026/Dia 075 - Publicacao e apresentacao/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
-- [projeto-semanal/docs/linkedin/roteiro-post.md](<../04 - Novembro 2026/Dia 075 - Publicacao e apresentacao/projeto-semanal/docs/linkedin/roteiro-post.md>)
-- [projeto-semanal/docs/relatorio.md](<../04 - Novembro 2026/Dia 075 - Publicacao e apresentacao/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../04 - Novembro 2026/Dia 075 - Publicacao e apresentacao/projeto-semanal/requirements.txt>)
+#### 19/11/2026 — [Feature engineering](<../04 - Novembro 2026 [0-20]/Dia 19-11 - Feature engineering/README.md>)
 
-## Dia 076 — Fundamentos temporais
+- [01-exercicios/dia-061-feature-engineering.ipynb](<../04 - Novembro 2026 [0-20]/Dia 19-11 - Feature engineering/01-exercicios/dia-061-feature-engineering.ipynb>)
 
-- [01-exercicios/dia-076-fundamentos-temporais.ipynb](<../04 - Novembro 2026/Dia 076 - Fundamentos temporais/01-exercicios/dia-076-fundamentos-temporais.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 076 - Fundamentos temporais/README.md>)
+#### 20/11/2026 — [Validação cruzada e tuning](<../04 - Novembro 2026 [0-20]/Dia 20-11 - Validacao cruzada e tuning/README.md>)
 
-## Dia 077 — Baselines temporais
+- [01-exercicios/dia-062-validacao-cruzada-e-tuning.ipynb](<../04 - Novembro 2026 [0-20]/Dia 20-11 - Validacao cruzada e tuning/01-exercicios/dia-062-validacao-cruzada-e-tuning.ipynb>)
 
-- [01-exercicios/dia-077-baselines-temporais.ipynb](<../04 - Novembro 2026/Dia 077 - Baselines temporais/01-exercicios/dia-077-baselines-temporais.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 077 - Baselines temporais/README.md>)
+#### 23/11/2026 — [Seleção de variáveis](<../04 - Novembro 2026 [0-20]/Dia 23-11 - Selecao de variaveis/README.md>)
 
-## Dia 078 — Modelos tradicionais
+- [01-exercicios/dia-063-selecao-de-variaveis.ipynb](<../04 - Novembro 2026 [0-20]/Dia 23-11 - Selecao de variaveis/01-exercicios/dia-063-selecao-de-variaveis.ipynb>)
 
-- [01-exercicios/dia-078-modelos-tradicionais.ipynb](<../04 - Novembro 2026/Dia 078 - Modelos tradicionais/01-exercicios/dia-078-modelos-tradicionais.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 078 - Modelos tradicionais/README.md>)
+#### 24/11/2026 — [Explicabilidade](<../04 - Novembro 2026 [0-20]/Dia 24-11 - Explicabilidade/README.md>)
 
-## Dia 079 — Previsão e decisão
+- [01-exercicios/dia-064-explicabilidade.ipynb](<../04 - Novembro 2026 [0-20]/Dia 24-11 - Explicabilidade/01-exercicios/dia-064-explicabilidade.ipynb>)
 
-- [01-exercicios/dia-079-previsao-e-decisao.ipynb](<../04 - Novembro 2026/Dia 079 - Previsao e decisao/01-exercicios/dia-079-previsao-e-decisao.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 079 - Previsao e decisao/README.md>)
+#### 26/11/2026 — [Auditoria do pipeline](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/README.md>)
 
-## Dia 080 — Projeto de forecasting
+- [projeto-mensal/docs/apresentacao.md](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/projeto-mensal/docs/apresentacao.md>)
+- [projeto-mensal/docs/auditoria_modelo.md](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/projeto-mensal/docs/auditoria_modelo.md>)
+- [projeto-mensal/docs/criterios-de-aceitacao.md](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/projeto-mensal/docs/criterios-de-aceitacao.md>)
+- [projeto-mensal/docs/relatorio.md](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/projeto-mensal/docs/relatorio.md>)
+- [projeto-mensal/docs/resumo-executivo.md](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/projeto-mensal/docs/resumo-executivo.md>)
+- [projeto-mensal/docs/retrospectiva.md](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/projeto-mensal/docs/retrospectiva.md>)
+- [projeto-mensal/requirements.txt](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/projeto-mensal/requirements.txt>)
+- [projeto-mensal/src/evaluate.py](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/projeto-mensal/src/evaluate.py>)
+- [projeto-mensal/src/features.py](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/projeto-mensal/src/features.py>)
+- [projeto-mensal/src/train.py](<../04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline/projeto-mensal/src/train.py>)
 
-- [README.md](<../04 - Novembro 2026/Dia 080 - Projeto de forecasting/README.md>)
-- [projeto-semanal/README.md](<../04 - Novembro 2026/Dia 080 - Projeto de forecasting/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../04 - Novembro 2026/Dia 080 - Projeto de forecasting/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../04 - Novembro 2026/Dia 080 - Projeto de forecasting/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
-- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../04 - Novembro 2026/Dia 080 - Projeto de forecasting/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
-- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../04 - Novembro 2026/Dia 080 - Projeto de forecasting/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
-- [projeto-semanal/docs/linkedin/roteiro-post.md](<../04 - Novembro 2026/Dia 080 - Projeto de forecasting/projeto-semanal/docs/linkedin/roteiro-post.md>)
-- [projeto-semanal/docs/relatorio.md](<../04 - Novembro 2026/Dia 080 - Projeto de forecasting/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../04 - Novembro 2026/Dia 080 - Projeto de forecasting/projeto-semanal/requirements.txt>)
+#### 27/11/2026 — [Definição do case](<../04 - Novembro 2026 [0-20]/Dia 27-11 - Definicao do case/README.md>)
 
-## Dia 081 — Problema e governança
+- [01-exercicios/dia-066-definicao-do-case.ipynb](<../04 - Novembro 2026 [0-20]/Dia 27-11 - Definicao do case/01-exercicios/dia-066-definicao-do-case.ipynb>)
 
-- [01-exercicios/dia-081-problema-e-governanca.ipynb](<../04 - Novembro 2026/Dia 081 - Problema e governanca/01-exercicios/dia-081-problema-e-governanca.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 081 - Problema e governanca/README.md>)
+#### 30/11/2026 — [Engenharia e qualidade dos dados](<../04 - Novembro 2026 [0-20]/Dia 30-11 - Engenharia e qualidade dos dados/README.md>)
 
-## Dia 082 — Dados e cohorts
+- [01-exercicios/dia-067-engenharia-e-qualidade-dos-dados.ipynb](<../04 - Novembro 2026 [0-20]/Dia 30-11 - Engenharia e qualidade dos dados/01-exercicios/dia-067-engenharia-e-qualidade-dos-dados.ipynb>)
 
-- [01-exercicios/dia-082-dados-e-cohorts.ipynb](<../04 - Novembro 2026/Dia 082 - Dados e cohorts/01-exercicios/dia-082-dados-e-cohorts.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 082 - Dados e cohorts/README.md>)
+### Dezembro 2026
 
-## Dia 083 — Modelagem de risco
+#### 01/12/2026 — [EDA orientada a churn](<../05 - Dezembro 2026 [0-22]/Dia 01-12 - EDA orientada a churn/README.md>)
 
-- [01-exercicios/dia-083-modelagem-de-risco.ipynb](<../04 - Novembro 2026/Dia 083 - Modelagem de risco/01-exercicios/dia-083-modelagem-de-risco.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 083 - Modelagem de risco/README.md>)
+- [01-exercicios/dia-068-eda-orientada-a-churn.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 01-12 - EDA orientada a churn/01-exercicios/dia-068-eda-orientada-a-churn.ipynb>)
+- [03-evidencias/insights_eda.md](<../05 - Dezembro 2026 [0-22]/Dia 01-12 - EDA orientada a churn/03-evidencias/insights_eda.md>)
 
-## Dia 084 — Política e custo
+#### 02/12/2026 — [SQL do projeto](<../05 - Dezembro 2026 [0-22]/Dia 02-12 - SQL do projeto/README.md>)
 
-- [01-exercicios/dia-084-politica-e-custo.ipynb](<../04 - Novembro 2026/Dia 084 - Politica e custo/01-exercicios/dia-084-politica-e-custo.ipynb>)
-- [README.md](<../04 - Novembro 2026/Dia 084 - Politica e custo/README.md>)
+- [01-exercicios/dia-069-sql-do-projeto.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 02-12 - SQL do projeto/01-exercicios/dia-069-sql-do-projeto.ipynb>)
+- [03-evidencias/base_modelagem.csv](<../05 - Dezembro 2026 [0-22]/Dia 02-12 - SQL do projeto/03-evidencias/base_modelagem.csv>)
 
-## Dia 085 — Entrega do projeto
+#### 03/12/2026 — [Preparação para modelagem](<../05 - Dezembro 2026 [0-22]/Dia 03-12 - Preparacao para modelagem/README.md>)
 
-- [README.md](<../04 - Novembro 2026/Dia 085 - Entrega do projeto/README.md>)
-- [projeto-mensal/README.md](<../04 - Novembro 2026/Dia 085 - Entrega do projeto/projeto-mensal/README.md>)
-- [projeto-mensal/docs/apresentacao.md](<../04 - Novembro 2026/Dia 085 - Entrega do projeto/projeto-mensal/docs/apresentacao.md>)
-- [projeto-mensal/docs/criterios-de-aceitacao.md](<../04 - Novembro 2026/Dia 085 - Entrega do projeto/projeto-mensal/docs/criterios-de-aceitacao.md>)
-- [projeto-mensal/docs/relatorio.md](<../04 - Novembro 2026/Dia 085 - Entrega do projeto/projeto-mensal/docs/relatorio.md>)
-- [projeto-mensal/docs/resumo-executivo.md](<../04 - Novembro 2026/Dia 085 - Entrega do projeto/projeto-mensal/docs/resumo-executivo.md>)
-- [projeto-mensal/docs/retrospectiva.md](<../04 - Novembro 2026/Dia 085 - Entrega do projeto/projeto-mensal/docs/retrospectiva.md>)
-- [projeto-mensal/requirements.txt](<../04 - Novembro 2026/Dia 085 - Entrega do projeto/projeto-mensal/requirements.txt>)
+- [01-exercicios/roteiro_atividades.md](<../05 - Dezembro 2026 [0-22]/Dia 03-12 - Preparacao para modelagem/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../05 - Dezembro 2026 [0-22]/Dia 03-12 - Preparacao para modelagem/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/data_card.md](<../05 - Dezembro 2026 [0-22]/Dia 03-12 - Preparacao para modelagem/projeto-semanal/docs/data_card.md>)
+- [projeto-semanal/docs/relatorio.md](<../05 - Dezembro 2026 [0-22]/Dia 03-12 - Preparacao para modelagem/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../05 - Dezembro 2026 [0-22]/Dia 03-12 - Preparacao para modelagem/projeto-semanal/requirements.txt>)
 
-## Dia 086 — ETL/ELT e arquitetura básica
+#### 04/12/2026 — [Baselines e modelos](<../05 - Dezembro 2026 [0-22]/Dia 04-12 - Baselines e modelos/README.md>)
 
-- [01-exercicios/dia-086-etl-elt-e-arquitetura-basica.py](<../04 - Novembro 2026/Dia 086 - ETL-ELT e arquitetura basica/01-exercicios/dia-086-etl-elt-e-arquitetura-basica.py>)
-- [README.md](<../04 - Novembro 2026/Dia 086 - ETL-ELT e arquitetura basica/README.md>)
+- [01-exercicios/dia-071-baselines-e-modelos.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 04-12 - Baselines e modelos/01-exercicios/dia-071-baselines-e-modelos.ipynb>)
 
-## Dia 087 — Pipeline em Python
+#### 07/12/2026 — [K-Means e PCA](<../05 - Dezembro 2026 [0-22]/Dia 07-12 - K-Means e PCA/README.md>)
 
-- [01-exercicios/extract.py](<../05 - Dezembro 2026/Dia 087 - Pipeline em Python/01-exercicios/extract.py>)
-- [01-exercicios/load.py](<../05 - Dezembro 2026/Dia 087 - Pipeline em Python/01-exercicios/load.py>)
-- [01-exercicios/transform.py](<../05 - Dezembro 2026/Dia 087 - Pipeline em Python/01-exercicios/transform.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 087 - Pipeline em Python/README.md>)
+- [01-exercicios/kmeans_e_pca.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 07-12 - K-Means e PCA/01-exercicios/kmeans_e_pca.ipynb>)
+- [01-exercicios/requirements.txt](<../05 - Dezembro 2026 [0-22]/Dia 07-12 - K-Means e PCA/01-exercicios/requirements.txt>)
 
-## Dia 088 — Orquestração conceitual
+#### 08/12/2026 — [DBSCAN e avaliação de clusters](<../05 - Dezembro 2026 [0-22]/Dia 08-12 - DBSCAN e avaliacao de clusters/README.md>)
 
-- [01-exercicios/dia-088-orquestracao-conceitual.py](<../05 - Dezembro 2026/Dia 088 - Orquestracao conceitual/01-exercicios/dia-088-orquestracao-conceitual.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 088 - Orquestracao conceitual/README.md>)
+- [01-exercicios/dbscan_e_avaliacao_de_clusters.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 08-12 - DBSCAN e avaliacao de clusters/01-exercicios/dbscan_e_avaliacao_de_clusters.ipynb>)
+- [01-exercicios/requirements.txt](<../05 - Dezembro 2026 [0-22]/Dia 08-12 - DBSCAN e avaliacao de clusters/01-exercicios/requirements.txt>)
+- [03-evidencias/recomendacao_clusterizacao.md](<../05 - Dezembro 2026 [0-22]/Dia 08-12 - DBSCAN e avaliacao de clusters/03-evidencias/recomendacao_clusterizacao.md>)
 
-## Dia 089 — Databricks e Spark introdutório
+#### 09/12/2026 — [Limiar e estratégia de retenção](<../05 - Dezembro 2026 [0-22]/Dia 09-12 - Limiar e estrategia de retencao/README.md>)
 
-- [01-exercicios/dia-089-databricks-e-spark-introdutorio.py](<../05 - Dezembro 2026/Dia 089 - Databricks e Spark introdutorio/01-exercicios/dia-089-databricks-e-spark-introdutorio.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 089 - Databricks e Spark introdutorio/README.md>)
+- [01-exercicios/dia-072-limiar-e-estrategia-de-retencao.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 09-12 - Limiar e estrategia de retencao/01-exercicios/dia-072-limiar-e-estrategia-de-retencao.ipynb>)
 
-## Dia 090 — Entrega do pipeline
+#### 10/12/2026 — [Explicabilidade e segmentos](<../05 - Dezembro 2026 [0-22]/Dia 10-12 - Explicabilidade e segmentos/README.md>)
 
-- [README.md](<../05 - Dezembro 2026/Dia 090 - Entrega do pipeline/README.md>)
-- [projeto-semanal/README.md](<../05 - Dezembro 2026/Dia 090 - Entrega do pipeline/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../05 - Dezembro 2026/Dia 090 - Entrega do pipeline/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/relatorio.md](<../05 - Dezembro 2026/Dia 090 - Entrega do pipeline/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../05 - Dezembro 2026/Dia 090 - Entrega do pipeline/projeto-semanal/requirements.txt>)
+- [01-exercicios/dia-073-explicabilidade-e-segmentos.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 10-12 - Explicabilidade e segmentos/01-exercicios/dia-073-explicabilidade-e-segmentos.ipynb>)
 
-## Dia 091 — Git profissional básico
+#### 11/12/2026 — [Relatório e dashboard](<../05 - Dezembro 2026 [0-22]/Dia 11-12 - Relatorio e dashboard/README.md>)
 
-- [01-exercicios/dia-091-git-profissional-basico.py](<../05 - Dezembro 2026/Dia 091 - Git profissional basico/01-exercicios/dia-091-git-profissional-basico.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 091 - Git profissional basico/README.md>)
+- [01-exercicios/dia-074-relatorio-e-dashboard.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 11-12 - Relatorio e dashboard/01-exercicios/dia-074-relatorio-e-dashboard.ipynb>)
 
-## Dia 092 — Refatoração de notebook
+#### 14/12/2026 — [Publicação e apresentação](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/README.md>)
 
-- [01-exercicios/config.yaml](<../05 - Dezembro 2026/Dia 092 - Refatoracao de notebook/01-exercicios/config.yaml>)
-- [01-exercicios/requirements.txt](<../05 - Dezembro 2026/Dia 092 - Refatoracao de notebook/01-exercicios/requirements.txt>)
-- [01-exercicios/train.py](<../05 - Dezembro 2026/Dia 092 - Refatoracao de notebook/01-exercicios/train.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 092 - Refatoracao de notebook/README.md>)
+- [01-exercicios/roteiro_atividades.md](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
+- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
+- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
+- [projeto-semanal/docs/linkedin/roteiro-post.md](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/projeto-semanal/docs/linkedin/roteiro-post.md>)
+- [projeto-semanal/docs/presentation-en.md](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/projeto-semanal/docs/presentation-en.md>)
+- [projeto-semanal/docs/relatorio.md](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/README.en.md](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/projeto-semanal/README.en.md>)
+- [projeto-semanal/requirements.txt](<../05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao/projeto-semanal/requirements.txt>)
 
-## Dia 093 — Testes
+#### 16/12/2026 — [Fundamentos temporais](<../05 - Dezembro 2026 [0-22]/Dia 16-12 - Fundamentos temporais/README.md>)
 
-- [01-exercicios/dia-093-testes.py](<../05 - Dezembro 2026/Dia 093 - Testes/01-exercicios/dia-093-testes.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 093 - Testes/README.md>)
+- [01-exercicios/dia-076-fundamentos-temporais.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 16-12 - Fundamentos temporais/01-exercicios/dia-076-fundamentos-temporais.ipynb>)
 
-## Dia 094 — Qualidade e configuração
+#### 17/12/2026 — [Baselines temporais](<../05 - Dezembro 2026 [0-22]/Dia 17-12 - Baselines temporais/README.md>)
 
-- [01-exercicios/.env.example](<../05 - Dezembro 2026/Dia 094 - Qualidade e configuracao/01-exercicios/.env.example>)
-- [01-exercicios/dia-094-qualidade-e-configuracao.py](<../05 - Dezembro 2026/Dia 094 - Qualidade e configuracao/01-exercicios/dia-094-qualidade-e-configuracao.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 094 - Qualidade e configuracao/README.md>)
+- [01-exercicios/dia-077-baselines-temporais.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 17-12 - Baselines temporais/01-exercicios/dia-077-baselines-temporais.ipynb>)
 
-## Dia 095 — CI e versão estável
+#### 18/12/2026 — [Modelos tradicionais](<../05 - Dezembro 2026 [0-22]/Dia 18-12 - Modelos tradicionais/README.md>)
 
-- [README.md](<../05 - Dezembro 2026/Dia 095 - CI e versao estavel/README.md>)
-- [projeto-semanal/README.md](<../05 - Dezembro 2026/Dia 095 - CI e versao estavel/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../05 - Dezembro 2026/Dia 095 - CI e versao estavel/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/relatorio.md](<../05 - Dezembro 2026/Dia 095 - CI e versao estavel/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../05 - Dezembro 2026/Dia 095 - CI e versao estavel/projeto-semanal/requirements.txt>)
+- [01-exercicios/dia-078-modelos-tradicionais.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 18-12 - Modelos tradicionais/01-exercicios/dia-078-modelos-tradicionais.ipynb>)
 
-## Dia 096 — FastAPI e contrato
+#### 21/12/2026 — [Previsão e decisão](<../05 - Dezembro 2026 [0-22]/Dia 21-12 - Previsao e decisao/README.md>)
 
-- [01-exercicios/dia-096-fastapi-e-contrato.py](<../05 - Dezembro 2026/Dia 096 - FastAPI e contrato/01-exercicios/dia-096-fastapi-e-contrato.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 096 - FastAPI e contrato/README.md>)
+- [01-exercicios/dia-079-previsao-e-decisao.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 21-12 - Previsao e decisao/01-exercicios/dia-079-previsao-e-decisao.ipynb>)
 
-## Dia 097 — Serialização e pipeline de inferência
+#### 22/12/2026 — [Projeto de forecasting](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/README.md>)
 
-- [01-exercicios/dia-097-serializacao-e-pipeline-de-inferencia.py](<../05 - Dezembro 2026/Dia 097 - Serializacao e pipeline de inferencia/01-exercicios/dia-097-serializacao-e-pipeline-de-inferencia.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 097 - Serializacao e pipeline de inferencia/README.md>)
+- [01-exercicios/roteiro_atividades.md](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
+- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
+- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
+- [projeto-semanal/docs/linkedin/roteiro-post.md](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/projeto-semanal/docs/linkedin/roteiro-post.md>)
+- [projeto-semanal/docs/presentation-en.md](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/projeto-semanal/docs/presentation-en.md>)
+- [projeto-semanal/docs/relatorio.md](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/README.en.md](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/projeto-semanal/README.en.md>)
+- [projeto-semanal/requirements.txt](<../05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting/projeto-semanal/requirements.txt>)
 
-## Dia 098 — Docker
+#### 23/12/2026 — [Problema e governança](<../05 - Dezembro 2026 [0-22]/Dia 23-12 - Problema e governanca/README.md>)
 
-- [01-exercicios/Dockerfile](<../05 - Dezembro 2026/Dia 098 - Docker/01-exercicios/Dockerfile>)
-- [01-exercicios/dia-098-docker.py](<../05 - Dezembro 2026/Dia 098 - Docker/01-exercicios/dia-098-docker.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 098 - Docker/README.md>)
+- [01-exercicios/dia-081-problema-e-governanca.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 23-12 - Problema e governanca/01-exercicios/dia-081-problema-e-governanca.ipynb>)
 
-## Dia 099 — Logs e monitoramento básico
+#### 24/12/2026 — [Dados e cohorts](<../05 - Dezembro 2026 [0-22]/Dia 24-12 - Dados e cohorts/README.md>)
 
-- [01-exercicios/dia-099-logs-e-monitoramento-basico.py](<../05 - Dezembro 2026/Dia 099 - Logs e monitoramento basico/01-exercicios/dia-099-logs-e-monitoramento-basico.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 099 - Logs e monitoramento basico/README.md>)
+- [01-exercicios/dia-082-dados-e-cohorts.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 24-12 - Dados e cohorts/01-exercicios/dia-082-dados-e-cohorts.ipynb>)
 
-## Dia 100 — Publicação do serviço
+#### 25/12/2026 — [Modelagem de risco](<../05 - Dezembro 2026 [0-22]/Dia 25-12 - Modelagem de risco/README.md>)
 
-- [README.md](<../05 - Dezembro 2026/Dia 100 - Publicacao do servico/README.md>)
-- [projeto-semanal/README.md](<../05 - Dezembro 2026/Dia 100 - Publicacao do servico/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../05 - Dezembro 2026/Dia 100 - Publicacao do servico/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../05 - Dezembro 2026/Dia 100 - Publicacao do servico/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
-- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../05 - Dezembro 2026/Dia 100 - Publicacao do servico/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
-- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../05 - Dezembro 2026/Dia 100 - Publicacao do servico/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
-- [projeto-semanal/docs/linkedin/roteiro-post.md](<../05 - Dezembro 2026/Dia 100 - Publicacao do servico/projeto-semanal/docs/linkedin/roteiro-post.md>)
-- [projeto-semanal/docs/relatorio.md](<../05 - Dezembro 2026/Dia 100 - Publicacao do servico/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../05 - Dezembro 2026/Dia 100 - Publicacao do servico/projeto-semanal/requirements.txt>)
+- [01-exercicios/dia-083-modelagem-de-risco.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 25-12 - Modelagem de risco/01-exercicios/dia-083-modelagem-de-risco.ipynb>)
 
-## Dia 101 — Conceitos de cloud para dados
+#### 28/12/2026 — [Política e custo](<../05 - Dezembro 2026 [0-22]/Dia 28-12 - Politica e custo/README.md>)
 
-- [01-exercicios/dia-101-conceitos-de-cloud-para-dados.py](<../05 - Dezembro 2026/Dia 101 - Conceitos de cloud para dados/01-exercicios/dia-101-conceitos-de-cloud-para-dados.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 101 - Conceitos de cloud para dados/README.md>)
+- [01-exercicios/dia-084-politica-e-custo.ipynb](<../05 - Dezembro 2026 [0-22]/Dia 28-12 - Politica e custo/01-exercicios/dia-084-politica-e-custo.ipynb>)
 
-## Dia 102 — Armazenamento e processamento
+#### 29/12/2026 — [Entrega do projeto](<../05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto/README.md>)
 
-- [01-exercicios/dia-102-armazenamento-e-processamento.py](<../05 - Dezembro 2026/Dia 102 - Armazenamento e processamento/01-exercicios/dia-102-armazenamento-e-processamento.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 102 - Armazenamento e processamento/README.md>)
+- [01-exercicios/roteiro_atividades.md](<../05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto/01-exercicios/roteiro_atividades.md>)
+- [projeto-mensal/docs/apresentacao.md](<../05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto/projeto-mensal/docs/apresentacao.md>)
+- [projeto-mensal/docs/criterios-de-aceitacao.md](<../05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto/projeto-mensal/docs/criterios-de-aceitacao.md>)
+- [projeto-mensal/docs/relatorio.md](<../05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto/projeto-mensal/docs/relatorio.md>)
+- [projeto-mensal/docs/resumo-executivo.md](<../05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto/projeto-mensal/docs/resumo-executivo.md>)
+- [projeto-mensal/docs/retrospectiva.md](<../05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto/projeto-mensal/docs/retrospectiva.md>)
+- [projeto-mensal/requirements.txt](<../05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto/projeto-mensal/requirements.txt>)
 
-## Dia 103 — Databricks aplicado
+#### 30/12/2026 — [ETL/ELT e arquitetura básica](<../05 - Dezembro 2026 [0-22]/Dia 30-12 - ETL-ELT e arquitetura basica/README.md>)
 
-- [01-exercicios/dia-103-databricks-aplicado.py](<../05 - Dezembro 2026/Dia 103 - Databricks aplicado/01-exercicios/dia-103-databricks-aplicado.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 103 - Databricks aplicado/README.md>)
+- [01-exercicios/dia-086-etl-elt-e-arquitetura-basica.py](<../05 - Dezembro 2026 [0-22]/Dia 30-12 - ETL-ELT e arquitetura basica/01-exercicios/dia-086-etl-elt-e-arquitetura-basica.py>)
 
-## Dia 104 — MLOps introdutório
+#### 31/12/2026 — [Pipeline em Python](<../05 - Dezembro 2026 [0-22]/Dia 31-12 - Pipeline em Python/README.md>)
 
-- [01-exercicios/dia-104-mlops-introdutorio.py](<../05 - Dezembro 2026/Dia 104 - MLOps introdutorio/01-exercicios/dia-104-mlops-introdutorio.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 104 - MLOps introdutorio/README.md>)
+- [01-exercicios/extract.py](<../05 - Dezembro 2026 [0-22]/Dia 31-12 - Pipeline em Python/01-exercicios/extract.py>)
+- [01-exercicios/load.py](<../05 - Dezembro 2026 [0-22]/Dia 31-12 - Pipeline em Python/01-exercicios/load.py>)
+- [01-exercicios/transform.py](<../05 - Dezembro 2026 [0-22]/Dia 31-12 - Pipeline em Python/01-exercicios/transform.py>)
 
-## Dia 105 — Arquitetura e entrevista
+### Janeiro 2027
 
-- [README.md](<../05 - Dezembro 2026/Dia 105 - Arquitetura e entrevista/README.md>)
-- [projeto-mensal/README.md](<../05 - Dezembro 2026/Dia 105 - Arquitetura e entrevista/projeto-mensal/README.md>)
-- [projeto-mensal/docs/apresentacao.md](<../05 - Dezembro 2026/Dia 105 - Arquitetura e entrevista/projeto-mensal/docs/apresentacao.md>)
-- [projeto-mensal/docs/criterios-de-aceitacao.md](<../05 - Dezembro 2026/Dia 105 - Arquitetura e entrevista/projeto-mensal/docs/criterios-de-aceitacao.md>)
-- [projeto-mensal/docs/relatorio.md](<../05 - Dezembro 2026/Dia 105 - Arquitetura e entrevista/projeto-mensal/docs/relatorio.md>)
-- [projeto-mensal/docs/resumo-executivo.md](<../05 - Dezembro 2026/Dia 105 - Arquitetura e entrevista/projeto-mensal/docs/resumo-executivo.md>)
-- [projeto-mensal/docs/retrospectiva.md](<../05 - Dezembro 2026/Dia 105 - Arquitetura e entrevista/projeto-mensal/docs/retrospectiva.md>)
-- [projeto-mensal/requirements.txt](<../05 - Dezembro 2026/Dia 105 - Arquitetura e entrevista/projeto-mensal/requirements.txt>)
+#### 01/01/2027 — [Orquestração conceitual](<../06 - Janeiro 2027 [0-19]/Dia 01-01 - Orquestracao conceitual/README.md>)
 
-## Dia 106 — Fundamentos de LLMs
+- [01-exercicios/dia-088-orquestracao-conceitual.py](<../06 - Janeiro 2027 [0-19]/Dia 01-01 - Orquestracao conceitual/01-exercicios/dia-088-orquestracao-conceitual.py>)
 
-- [01-exercicios/dia-106-fundamentos-de-llms.py](<../05 - Dezembro 2026/Dia 106 - Fundamentos de LLMs/01-exercicios/dia-106-fundamentos-de-llms.py>)
-- [01-exercicios/llm_fundamentos.md](<../05 - Dezembro 2026/Dia 106 - Fundamentos de LLMs/01-exercicios/llm_fundamentos.md>)
-- [README.md](<../05 - Dezembro 2026/Dia 106 - Fundamentos de LLMs/README.md>)
+#### 04/01/2027 — [Databricks e Spark introdutório](<../06 - Janeiro 2027 [0-19]/Dia 04-01 - Databricks e Spark introdutorio/README.md>)
 
-## Dia 107 — APIs e prompts estruturados
+- [01-exercicios/dia-089-databricks-e-spark-introdutorio.py](<../06 - Janeiro 2027 [0-19]/Dia 04-01 - Databricks e Spark introdutorio/01-exercicios/dia-089-databricks-e-spark-introdutorio.py>)
 
-- [01-exercicios/dia-107-apis-e-prompts-estruturados.py](<../05 - Dezembro 2026/Dia 107 - APIs e prompts estruturados/01-exercicios/dia-107-apis-e-prompts-estruturados.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 107 - APIs e prompts estruturados/README.md>)
+#### 05/01/2027 — [Entrega do pipeline](<../06 - Janeiro 2027 [0-19]/Dia 05-01 - Entrega do pipeline/README.md>)
 
-## Dia 108 — Embeddings e busca semântica
+- [01-exercicios/roteiro_atividades.md](<../06 - Janeiro 2027 [0-19]/Dia 05-01 - Entrega do pipeline/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../06 - Janeiro 2027 [0-19]/Dia 05-01 - Entrega do pipeline/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../06 - Janeiro 2027 [0-19]/Dia 05-01 - Entrega do pipeline/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../06 - Janeiro 2027 [0-19]/Dia 05-01 - Entrega do pipeline/projeto-semanal/requirements.txt>)
 
-- [01-exercicios/dia-108-embeddings-e-busca-semantica.py](<../05 - Dezembro 2026/Dia 108 - Embeddings e busca semantica/01-exercicios/dia-108-embeddings-e-busca-semantica.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 108 - Embeddings e busca semantica/README.md>)
+#### 06/01/2027 — [Git profissional básico](<../06 - Janeiro 2027 [0-19]/Dia 06-01 - Git profissional basico/README.md>)
 
-## Dia 109 — Avaliação de aplicações LLM
+- [01-exercicios/dia-091-git-profissional-basico.py](<../06 - Janeiro 2027 [0-19]/Dia 06-01 - Git profissional basico/01-exercicios/dia-091-git-profissional-basico.py>)
 
-- [01-exercicios/dia-109-avaliacao-de-aplicacoes-llm.py](<../05 - Dezembro 2026/Dia 109 - Avaliacao de aplicacoes LLM/01-exercicios/dia-109-avaliacao-de-aplicacoes-llm.py>)
-- [README.md](<../05 - Dezembro 2026/Dia 109 - Avaliacao de aplicacoes LLM/README.md>)
+#### 07/01/2027 — [Refatoração de notebook](<../06 - Janeiro 2027 [0-19]/Dia 07-01 - Refatoracao de notebook/README.md>)
 
-## Dia 110 — Miniaplicação de IA
+- [01-exercicios/config.yaml](<../06 - Janeiro 2027 [0-19]/Dia 07-01 - Refatoracao de notebook/01-exercicios/config.yaml>)
+- [01-exercicios/requirements.txt](<../06 - Janeiro 2027 [0-19]/Dia 07-01 - Refatoracao de notebook/01-exercicios/requirements.txt>)
+- [01-exercicios/train.py](<../06 - Janeiro 2027 [0-19]/Dia 07-01 - Refatoracao de notebook/01-exercicios/train.py>)
 
-- [README.md](<../06 - Janeiro 2027/Dia 110 - Miniaplicacao de IA/README.md>)
-- [projeto-semanal/README.md](<../06 - Janeiro 2027/Dia 110 - Miniaplicacao de IA/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../06 - Janeiro 2027/Dia 110 - Miniaplicacao de IA/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../06 - Janeiro 2027/Dia 110 - Miniaplicacao de IA/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
-- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../06 - Janeiro 2027/Dia 110 - Miniaplicacao de IA/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
-- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../06 - Janeiro 2027/Dia 110 - Miniaplicacao de IA/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
-- [projeto-semanal/docs/linkedin/roteiro-post.md](<../06 - Janeiro 2027/Dia 110 - Miniaplicacao de IA/projeto-semanal/docs/linkedin/roteiro-post.md>)
-- [projeto-semanal/docs/relatorio.md](<../06 - Janeiro 2027/Dia 110 - Miniaplicacao de IA/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../06 - Janeiro 2027/Dia 110 - Miniaplicacao de IA/projeto-semanal/requirements.txt>)
+#### 08/01/2027 — [Testes](<../06 - Janeiro 2027 [0-19]/Dia 08-01 - Testes/README.md>)
 
-## Dia 111 — Escopo e documentos
+- [01-exercicios/dia-093-testes.py](<../06 - Janeiro 2027 [0-19]/Dia 08-01 - Testes/01-exercicios/dia-093-testes.py>)
 
-- [01-exercicios/dia-111-escopo-e-documentos.py](<../06 - Janeiro 2027/Dia 111 - Escopo e documentos/01-exercicios/dia-111-escopo-e-documentos.py>)
-- [README.md](<../06 - Janeiro 2027/Dia 111 - Escopo e documentos/README.md>)
+#### 11/01/2027 — [Qualidade e configuração](<../06 - Janeiro 2027 [0-19]/Dia 11-01 - Qualidade e configuracao/README.md>)
 
-## Dia 112 — Ingestão e chunking
+- [01-exercicios/.env.example](<../06 - Janeiro 2027 [0-19]/Dia 11-01 - Qualidade e configuracao/01-exercicios/.env.example>)
+- [01-exercicios/dia-094-qualidade-e-configuracao.py](<../06 - Janeiro 2027 [0-19]/Dia 11-01 - Qualidade e configuracao/01-exercicios/dia-094-qualidade-e-configuracao.py>)
 
-- [01-exercicios/dia-112-ingestao-e-chunking.py](<../06 - Janeiro 2027/Dia 112 - Ingestao e chunking/01-exercicios/dia-112-ingestao-e-chunking.py>)
-- [README.md](<../06 - Janeiro 2027/Dia 112 - Ingestao e chunking/README.md>)
+#### 12/01/2027 — [CI e versão estável](<../06 - Janeiro 2027 [0-19]/Dia 12-01 - CI e versao estavel/README.md>)
 
-## Dia 113 — Recuperação
+- [01-exercicios/roteiro_atividades.md](<../06 - Janeiro 2027 [0-19]/Dia 12-01 - CI e versao estavel/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../06 - Janeiro 2027 [0-19]/Dia 12-01 - CI e versao estavel/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../06 - Janeiro 2027 [0-19]/Dia 12-01 - CI e versao estavel/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../06 - Janeiro 2027 [0-19]/Dia 12-01 - CI e versao estavel/projeto-semanal/requirements.txt>)
 
-- [01-exercicios/dia-113-recuperacao.py](<../06 - Janeiro 2027/Dia 113 - Recuperacao/01-exercicios/dia-113-recuperacao.py>)
-- [README.md](<../06 - Janeiro 2027/Dia 113 - Recuperacao/README.md>)
+#### 13/01/2027 — [FastAPI e contrato](<../06 - Janeiro 2027 [0-19]/Dia 13-01 - FastAPI e contrato/README.md>)
 
-## Dia 114 — Geração com fontes
+- [01-exercicios/dia-096-fastapi-e-contrato.py](<../06 - Janeiro 2027 [0-19]/Dia 13-01 - FastAPI e contrato/01-exercicios/dia-096-fastapi-e-contrato.py>)
 
-- [01-exercicios/dia-114-geracao-com-fontes.py](<../06 - Janeiro 2027/Dia 114 - Geracao com fontes/01-exercicios/dia-114-geracao-com-fontes.py>)
-- [README.md](<../06 - Janeiro 2027/Dia 114 - Geracao com fontes/README.md>)
+#### 14/01/2027 — [Serialização e pipeline de inferência](<../06 - Janeiro 2027 [0-19]/Dia 14-01 - Serializacao e pipeline de inferencia/README.md>)
 
-## Dia 115 — Avaliação e publicação
+- [01-exercicios/dia-097-serializacao-e-pipeline-de-inferencia.py](<../06 - Janeiro 2027 [0-19]/Dia 14-01 - Serializacao e pipeline de inferencia/01-exercicios/dia-097-serializacao-e-pipeline-de-inferencia.py>)
 
-- [README.md](<../06 - Janeiro 2027/Dia 115 - Avaliacao e publicacao/README.md>)
-- [projeto-semanal/README.md](<../06 - Janeiro 2027/Dia 115 - Avaliacao e publicacao/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../06 - Janeiro 2027/Dia 115 - Avaliacao e publicacao/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../06 - Janeiro 2027/Dia 115 - Avaliacao e publicacao/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
-- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../06 - Janeiro 2027/Dia 115 - Avaliacao e publicacao/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
-- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../06 - Janeiro 2027/Dia 115 - Avaliacao e publicacao/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
-- [projeto-semanal/docs/linkedin/roteiro-post.md](<../06 - Janeiro 2027/Dia 115 - Avaliacao e publicacao/projeto-semanal/docs/linkedin/roteiro-post.md>)
-- [projeto-semanal/docs/relatorio.md](<../06 - Janeiro 2027/Dia 115 - Avaliacao e publicacao/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../06 - Janeiro 2027/Dia 115 - Avaliacao e publicacao/projeto-semanal/requirements.txt>)
+#### 15/01/2027 — [Docker](<../06 - Janeiro 2027 [0-19]/Dia 15-01 - Docker/README.md>)
 
-## Dia 116 — Definição do produto integrador
+- [01-exercicios/dia-098-docker.py](<../06 - Janeiro 2027 [0-19]/Dia 15-01 - Docker/01-exercicios/dia-098-docker.py>)
+- [01-exercicios/Dockerfile](<../06 - Janeiro 2027 [0-19]/Dia 15-01 - Docker/01-exercicios/Dockerfile>)
 
-- [01-exercicios/dia-116-definicao-do-produto-integrador.ipynb](<../06 - Janeiro 2027/Dia 116 - Definicao do produto integrador/01-exercicios/dia-116-definicao-do-produto-integrador.ipynb>)
-- [README.md](<../06 - Janeiro 2027/Dia 116 - Definicao do produto integrador/README.md>)
+#### 18/01/2027 — [Logs e monitoramento básico](<../06 - Janeiro 2027 [0-19]/Dia 18-01 - Logs e monitoramento basico/README.md>)
 
-## Dia 117 — Dados, SQL e arquitetura
+- [01-exercicios/dia-099-logs-e-monitoramento-basico.py](<../06 - Janeiro 2027 [0-19]/Dia 18-01 - Logs e monitoramento basico/01-exercicios/dia-099-logs-e-monitoramento-basico.py>)
 
-- [01-exercicios/dia-117-dados-sql-e-arquitetura.ipynb](<../06 - Janeiro 2027/Dia 117 - Dados, SQL e arquitetura/01-exercicios/dia-117-dados-sql-e-arquitetura.ipynb>)
-- [README.md](<../06 - Janeiro 2027/Dia 117 - Dados, SQL e arquitetura/README.md>)
+#### 19/01/2027 — [Publicação do serviço](<../06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico/README.md>)
 
-## Dia 118 — EDA, baseline e decisão
+- [01-exercicios/roteiro_atividades.md](<../06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/linkedin/checklist-publicacao.md](<../06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico/projeto-semanal/docs/linkedin/checklist-publicacao.md>)
+- [projeto-semanal/docs/linkedin/explicacao-tecnica.md](<../06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico/projeto-semanal/docs/linkedin/explicacao-tecnica.md>)
+- [projeto-semanal/docs/linkedin/perguntas-entrevista.md](<../06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico/projeto-semanal/docs/linkedin/perguntas-entrevista.md>)
+- [projeto-semanal/docs/linkedin/roteiro-post.md](<../06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico/projeto-semanal/docs/linkedin/roteiro-post.md>)
+- [projeto-semanal/docs/relatorio.md](<../06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico/projeto-semanal/requirements.txt>)
 
-- [01-exercicios/dia-118-eda-baseline-e-decisao.ipynb](<../06 - Janeiro 2027/Dia 118 - EDA, baseline e decisao/01-exercicios/dia-118-eda-baseline-e-decisao.ipynb>)
-- [README.md](<../06 - Janeiro 2027/Dia 118 - EDA, baseline e decisao/README.md>)
+#### 20/01/2027 — [Conceitos de cloud para dados](<../06 - Janeiro 2027 [0-19]/Dia 20-01 - Conceitos de cloud para dados/README.md>)
 
-## Dia 119 — Modelo, IA e interface
+- [01-exercicios/dia-101-conceitos-de-cloud-para-dados.py](<../06 - Janeiro 2027 [0-19]/Dia 20-01 - Conceitos de cloud para dados/01-exercicios/dia-101-conceitos-de-cloud-para-dados.py>)
 
-- [01-exercicios/dia-119-modelo-ia-e-interface.ipynb](<../06 - Janeiro 2027/Dia 119 - Modelo, IA e interface/01-exercicios/dia-119-modelo-ia-e-interface.ipynb>)
-- [README.md](<../06 - Janeiro 2027/Dia 119 - Modelo, IA e interface/README.md>)
+#### 21/01/2027 — [Armazenamento e processamento](<../06 - Janeiro 2027 [0-19]/Dia 21-01 - Armazenamento e processamento/README.md>)
 
-## Dia 120 — Teste, apresentação e retrospectiva
+- [01-exercicios/dia-102-armazenamento-e-processamento.py](<../06 - Janeiro 2027 [0-19]/Dia 21-01 - Armazenamento e processamento/01-exercicios/dia-102-armazenamento-e-processamento.py>)
 
-- [README.md](<../06 - Janeiro 2027/Dia 120 - Teste, apresentacao e retrospectiva/README.md>)
-- [projeto-semanal/README.md](<../06 - Janeiro 2027/Dia 120 - Teste, apresentacao e retrospectiva/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../06 - Janeiro 2027/Dia 120 - Teste, apresentacao e retrospectiva/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/relatorio.md](<../06 - Janeiro 2027/Dia 120 - Teste, apresentacao e retrospectiva/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../06 - Janeiro 2027/Dia 120 - Teste, apresentacao e retrospectiva/projeto-semanal/requirements.txt>)
+#### 22/01/2027 — [Databricks aplicado](<../06 - Janeiro 2027 [0-19]/Dia 22-01 - Databricks aplicado/README.md>)
 
-## Dia 121 — GitHub e portfólio
+- [01-exercicios/dia-103-databricks-aplicado.py](<../06 - Janeiro 2027 [0-19]/Dia 22-01 - Databricks aplicado/01-exercicios/dia-103-databricks-aplicado.py>)
+- [01-exercicios/requirements.txt](<../06 - Janeiro 2027 [0-19]/Dia 22-01 - Databricks aplicado/01-exercicios/requirements.txt>)
 
-- [01-exercicios/dia-121-github-e-portfolio.md](<../06 - Janeiro 2027/Dia 121 - GitHub e portfolio/01-exercicios/dia-121-github-e-portfolio.md>)
-- [README.md](<../06 - Janeiro 2027/Dia 121 - GitHub e portfolio/README.md>)
+#### 27/01/2027 — [MLOps introdutório](<../06 - Janeiro 2027 [0-19]/Dia 27-01 - MLOps introdutorio/README.md>)
 
-## Dia 122 — Currículo, LinkedIn e narrativa
+- [01-exercicios/dia-104-mlops-introdutorio.py](<../06 - Janeiro 2027 [0-19]/Dia 27-01 - MLOps introdutorio/01-exercicios/dia-104-mlops-introdutorio.py>)
+- [01-exercicios/model_card.md](<../06 - Janeiro 2027 [0-19]/Dia 27-01 - MLOps introdutorio/01-exercicios/model_card.md>)
+- [01-exercicios/politica_promocao.md](<../06 - Janeiro 2027 [0-19]/Dia 27-01 - MLOps introdutorio/01-exercicios/politica_promocao.md>)
+- [01-exercicios/requirements.txt](<../06 - Janeiro 2027 [0-19]/Dia 27-01 - MLOps introdutorio/01-exercicios/requirements.txt>)
 
-- [01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md](<../06 - Janeiro 2027/Dia 122 - Curriculo, LinkedIn e narrativa/01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md>)
-- [README.md](<../06 - Janeiro 2027/Dia 122 - Curriculo, LinkedIn e narrativa/README.md>)
+#### 28/01/2027 — [Arquitetura e entrevista](<../06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista/README.md>)
 
-## Dia 123 — Simulado de Python e SQL
+- [01-exercicios/perguntas_entrevista.md](<../06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista/01-exercicios/perguntas_entrevista.md>)
+- [projeto-mensal/docs/apresentacao.md](<../06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista/projeto-mensal/docs/apresentacao.md>)
+- [projeto-mensal/docs/criterios-de-aceitacao.md](<../06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista/projeto-mensal/docs/criterios-de-aceitacao.md>)
+- [projeto-mensal/docs/relatorio.md](<../06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista/projeto-mensal/docs/relatorio.md>)
+- [projeto-mensal/docs/resumo-executivo.md](<../06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista/projeto-mensal/docs/resumo-executivo.md>)
+- [projeto-mensal/docs/retrospectiva.md](<../06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista/projeto-mensal/docs/retrospectiva.md>)
+- [projeto-mensal/requirements.txt](<../06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista/projeto-mensal/requirements.txt>)
 
-- [01-exercicios/dia-123-simulado-de-python-e-sql.md](<../06 - Janeiro 2027/Dia 123 - Simulado de Python e SQL/01-exercicios/dia-123-simulado-de-python-e-sql.md>)
-- [README.md](<../06 - Janeiro 2027/Dia 123 - Simulado de Python e SQL/README.md>)
+#### 29/01/2027 — [Fundamentos de LLMs](<../06 - Janeiro 2027 [0-19]/Dia 29-01 - Fundamentos de LLMs/README.md>)
 
-## Dia 124 — Simulado de Estatística, ML e comportamento
+- Nenhum arquivo adicional.
 
-- [01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md](<../06 - Janeiro 2027/Dia 124 - Simulado de Estatistica, ML e comportamento/01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md>)
-- [README.md](<../06 - Janeiro 2027/Dia 124 - Simulado de Estatistica, ML e comportamento/README.md>)
+### Fevereiro 2027
 
-## Dia 125 — Pré-projeto e banca zero do TCC
+#### 01/02/2027 — [APIs e prompts estruturados](<../07 - Fevereiro 2027 [0-20]/Dia 01-02 - APIs e prompts estruturados/README.md>)
 
-- [README.md](<../06 - Janeiro 2027/Dia 125 - Pre-projeto e banca zero do TCC/README.md>)
-- [projeto-semanal/README.md](<../06 - Janeiro 2027/Dia 125 - Pre-projeto e banca zero do TCC/projeto-semanal/README.md>)
-- [projeto-semanal/docs/apresentacao.md](<../06 - Janeiro 2027/Dia 125 - Pre-projeto e banca zero do TCC/projeto-semanal/docs/apresentacao.md>)
-- [projeto-semanal/docs/relatorio.md](<../06 - Janeiro 2027/Dia 125 - Pre-projeto e banca zero do TCC/projeto-semanal/docs/relatorio.md>)
-- [projeto-semanal/requirements.txt](<../06 - Janeiro 2027/Dia 125 - Pre-projeto e banca zero do TCC/projeto-semanal/requirements.txt>)
+- Nenhum arquivo adicional.
 
-## Dia 126 — TCC: universo, dados e protocolo financeiro
+#### 02/02/2027 — [Embeddings e busca semântica](<../07 - Fevereiro 2027 [0-20]/Dia 02-02 - Embeddings e busca semantica/README.md>)
 
-- [README.md](<../06 - Janeiro 2027/Dia 126 - TCC - universo, dados e protocolo financeiro/README.md>)
+- Nenhum arquivo adicional.
 
-## Dia 127 — TCC: fatores e motor de ranking
+#### 03/02/2027 — [Avaliação de aplicações LLM](<../07 - Fevereiro 2027 [0-20]/Dia 03-02 - Avaliacao de aplicacoes LLM/README.md>)
 
-- [README.md](<../06 - Janeiro 2027/Dia 127 - TCC - fatores e motor de ranking/README.md>)
+- Nenhum arquivo adicional.
 
-## Dia 128 — TCC: carteiras e backtest walk-forward
+#### 04/02/2027 — [Miniaplicação de IA](<../07 - Fevereiro 2027 [0-20]/Dia 04-02 - Miniaplicacao de IA/README.md>)
 
-- [README.md](<../06 - Janeiro 2027/Dia 128 - TCC - carteiras e backtest walk-forward/README.md>)
+- Nenhum arquivo adicional.
 
-## Dia 129 — TCC: dashboard, API, testes e relatório
+#### 05/02/2027 — [Escopo e documentos](<../07 - Fevereiro 2027 [0-20]/Dia 05-02 - Escopo e documentos/README.md>)
 
-- [README.md](<../06 - Janeiro 2027/Dia 129 - TCC - dashboard, API, testes e relatorio/README.md>)
+- Nenhum arquivo adicional.
 
-## Dia 130 — TCC: publicação, banca e candidaturas
+#### 08/02/2027 — [Ingestão e chunking](<../07 - Fevereiro 2027 [0-20]/Dia 08-02 - Ingestao e chunking/README.md>)
 
-- [README.md](<../06 - Janeiro 2027/Dia 130 - TCC - publicacao, banca e candidaturas/README.md>)
+- Nenhum arquivo adicional.
+
+#### 09/02/2027 — [Recuperação](<../07 - Fevereiro 2027 [0-20]/Dia 09-02 - Recuperacao/README.md>)
+
+- Nenhum arquivo adicional.
+
+#### 10/02/2027 — [Geração com fontes](<../07 - Fevereiro 2027 [0-20]/Dia 10-02 - Geracao com fontes/README.md>)
+
+- Nenhum arquivo adicional.
+
+#### 11/02/2027 — [Avaliação e publicação](<../07 - Fevereiro 2027 [0-20]/Dia 11-02 - Avaliacao e publicacao/README.md>)
+
+- Nenhum arquivo adicional.
+
+#### 12/02/2027 — [Definição do produto integrador](<../07 - Fevereiro 2027 [0-20]/Dia 12-02 - Definicao do produto integrador/README.md>)
+
+- [01-exercicios/dia-116-definicao-do-produto-integrador.ipynb](<../07 - Fevereiro 2027 [0-20]/Dia 12-02 - Definicao do produto integrador/01-exercicios/dia-116-definicao-do-produto-integrador.ipynb>)
+
+#### 15/02/2027 — [Dados, SQL e arquitetura](<../07 - Fevereiro 2027 [0-20]/Dia 15-02 - Dados, SQL e arquitetura/README.md>)
+
+- [01-exercicios/dia-117-dados-sql-e-arquitetura.ipynb](<../07 - Fevereiro 2027 [0-20]/Dia 15-02 - Dados, SQL e arquitetura/01-exercicios/dia-117-dados-sql-e-arquitetura.ipynb>)
+
+#### 16/02/2027 — [EDA, baseline e decisão](<../07 - Fevereiro 2027 [0-20]/Dia 16-02 - EDA, baseline e decisao/README.md>)
+
+- [01-exercicios/dia-118-eda-baseline-e-decisao.ipynb](<../07 - Fevereiro 2027 [0-20]/Dia 16-02 - EDA, baseline e decisao/01-exercicios/dia-118-eda-baseline-e-decisao.ipynb>)
+
+#### 17/02/2027 — [Modelo, IA e interface](<../07 - Fevereiro 2027 [0-20]/Dia 17-02 - Modelo, IA e interface/README.md>)
+
+- [01-exercicios/dia-119-modelo-ia-e-interface.ipynb](<../07 - Fevereiro 2027 [0-20]/Dia 17-02 - Modelo, IA e interface/01-exercicios/dia-119-modelo-ia-e-interface.ipynb>)
+
+#### 18/02/2027 — [Teste, apresentação e retrospectiva](<../07 - Fevereiro 2027 [0-20]/Dia 18-02 - Teste, apresentacao e retrospectiva/README.md>)
+
+- [01-exercicios/roteiro_atividades.md](<../07 - Fevereiro 2027 [0-20]/Dia 18-02 - Teste, apresentacao e retrospectiva/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../07 - Fevereiro 2027 [0-20]/Dia 18-02 - Teste, apresentacao e retrospectiva/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../07 - Fevereiro 2027 [0-20]/Dia 18-02 - Teste, apresentacao e retrospectiva/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../07 - Fevereiro 2027 [0-20]/Dia 18-02 - Teste, apresentacao e retrospectiva/projeto-semanal/requirements.txt>)
+
+#### 19/02/2027 — [GitHub e portfólio](<../07 - Fevereiro 2027 [0-20]/Dia 19-02 - GitHub e portfolio/README.md>)
+
+- [01-exercicios/dia-121-github-e-portfolio.md](<../07 - Fevereiro 2027 [0-20]/Dia 19-02 - GitHub e portfolio/01-exercicios/dia-121-github-e-portfolio.md>)
+
+#### 22/02/2027 — [Currículo, LinkedIn e narrativa](<../07 - Fevereiro 2027 [0-20]/Dia 22-02 - Curriculo, LinkedIn e narrativa/README.md>)
+
+- [01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md](<../07 - Fevereiro 2027 [0-20]/Dia 22-02 - Curriculo, LinkedIn e narrativa/01-exercicios/dia-122-curriculo-linkedin-e-narrativa.md>)
+
+#### 23/02/2027 — [Simulado de Python e SQL](<../07 - Fevereiro 2027 [0-20]/Dia 23-02 - Simulado de Python e SQL/README.md>)
+
+- [01-exercicios/dia-123-simulado-de-python-e-sql.md](<../07 - Fevereiro 2027 [0-20]/Dia 23-02 - Simulado de Python e SQL/01-exercicios/dia-123-simulado-de-python-e-sql.md>)
+- [01-exercicios/respostas_python.py](<../07 - Fevereiro 2027 [0-20]/Dia 23-02 - Simulado de Python e SQL/01-exercicios/respostas_python.py>)
+- [01-exercicios/respostas_sql.sql](<../07 - Fevereiro 2027 [0-20]/Dia 23-02 - Simulado de Python e SQL/01-exercicios/respostas_sql.sql>)
+
+#### 24/02/2027 — [Simulado de Estatística, ML e comportamento](<../07 - Fevereiro 2027 [0-20]/Dia 24-02 - Simulado de Estatistica, ML e comportamento/README.md>)
+
+- [01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md](<../07 - Fevereiro 2027 [0-20]/Dia 24-02 - Simulado de Estatistica, ML e comportamento/01-exercicios/dia-124-simulado-de-estatistica-ml-e-comportamento.md>)
+
+#### 25/02/2027 — [Pré-projeto e banca zero do TCC](<../07 - Fevereiro 2027 [0-20]/Dia 25-02 - Pre-projeto e banca zero do TCC/README.md>)
+
+- [01-exercicios/roteiro_atividades.md](<../07 - Fevereiro 2027 [0-20]/Dia 25-02 - Pre-projeto e banca zero do TCC/01-exercicios/roteiro_atividades.md>)
+- [projeto-semanal/docs/apresentacao.md](<../07 - Fevereiro 2027 [0-20]/Dia 25-02 - Pre-projeto e banca zero do TCC/projeto-semanal/docs/apresentacao.md>)
+- [projeto-semanal/docs/relatorio.md](<../07 - Fevereiro 2027 [0-20]/Dia 25-02 - Pre-projeto e banca zero do TCC/projeto-semanal/docs/relatorio.md>)
+- [projeto-semanal/requirements.txt](<../07 - Fevereiro 2027 [0-20]/Dia 25-02 - Pre-projeto e banca zero do TCC/projeto-semanal/requirements.txt>)
+
+#### 26/02/2027 — [TCC: universo, dados e protocolo financeiro](<../07 - Fevereiro 2027 [0-20]/Dia 26-02 - TCC - universo, dados e protocolo financeiro/README.md>)
+
+- [01-exercicios/roteiro_tcc.md](<../07 - Fevereiro 2027 [0-20]/Dia 26-02 - TCC - universo, dados e protocolo financeiro/01-exercicios/roteiro_tcc.md>)
+
+### Março 2027
+
+#### 01/03/2027 — [TCC: fatores e motor de ranking](<../08 - Marco 2027 [0-4]/Dia 01-03 - TCC - fatores e motor de ranking/README.md>)
+
+- [01-exercicios/roteiro_tcc.md](<../08 - Marco 2027 [0-4]/Dia 01-03 - TCC - fatores e motor de ranking/01-exercicios/roteiro_tcc.md>)
+
+#### 02/03/2027 — [TCC: carteiras e backtest walk-forward](<../08 - Marco 2027 [0-4]/Dia 02-03 - TCC - carteiras e backtest walk-forward/README.md>)
+
+- [01-exercicios/roteiro_tcc.md](<../08 - Marco 2027 [0-4]/Dia 02-03 - TCC - carteiras e backtest walk-forward/01-exercicios/roteiro_tcc.md>)
+
+#### 03/03/2027 — [TCC: dashboard, testes e relatório](<../08 - Marco 2027 [0-4]/Dia 03-03 - TCC - dashboard, testes e relatorio/README.md>)
+
+- [01-exercicios/roteiro_tcc.md](<../08 - Marco 2027 [0-4]/Dia 03-03 - TCC - dashboard, testes e relatorio/01-exercicios/roteiro_tcc.md>)
+
+#### 04/03/2027 — [TCC: publicação, banca e candidaturas](<../08 - Marco 2027 [0-4]/Dia 04-03 - TCC - publicacao, banca e candidaturas/README.md>)
+
+- [01-exercicios/roteiro_tcc.md](<../08 - Marco 2027 [0-4]/Dia 04-03 - TCC - publicacao, banca e candidaturas/01-exercicios/roteiro_tcc.md>)
+
+## Recursos compartilhados
+
+### dados
+
+- [chamados.csv](<../dados/chamados.csv>)
+- [clientes.csv](<../dados/clientes.csv>)
+- [clientes_telecom.csv](<../dados/clientes_telecom.csv>)
+- [credito.csv](<../dados/credito.csv>)
+- [energia.csv](<../dados/energia.csv>)
+- [incidentes.csv](<../dados/incidentes.csv>)
+- [metas_cidades.csv](<../dados/metas_cidades.csv>)
+- [pagamentos.csv](<../dados/pagamentos.csv>)
+- [pedidos.csv](<../dados/pedidos.csv>)
+- [planos.csv](<../dados/planos.csv>)
+- [README.md](<../dados/README.md>)
+
+### projetos
+
+- [assistente-suporte-ia/config/configuracao.json](<../projetos/assistente-suporte-ia/config/configuracao.json>)
+- [assistente-suporte-ia/data/chamados_teste.json](<../projetos/assistente-suporte-ia/data/chamados_teste.json>)
+- [assistente-suporte-ia/data/corpus/corpus_manifest.csv](<../projetos/assistente-suporte-ia/data/corpus/corpus_manifest.csv>)
+- [assistente-suporte-ia/data/corpus/DOC-01-reinicio-roteador.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-01-reinicio-roteador.md>)
+- [assistente-suporte-ia/data/corpus/DOC-02-sem-conexao.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-02-sem-conexao.md>)
+- [assistente-suporte-ia/data/corpus/DOC-03-wifi-lento.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-03-wifi-lento.md>)
+- [assistente-suporte-ia/data/corpus/DOC-04-troca-senha-wifi.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-04-troca-senha-wifi.md>)
+- [assistente-suporte-ia/data/corpus/DOC-05-segunda-via.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-05-segunda-via.md>)
+- [assistente-suporte-ia/data/corpus/DOC-06-pagamento-nao-baixado.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-06-pagamento-nao-baixado.md>)
+- [assistente-suporte-ia/data/corpus/DOC-07-mudanca-endereco.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-07-mudanca-endereco.md>)
+- [assistente-suporte-ia/data/corpus/DOC-08-equipamento-aquecendo.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-08-equipamento-aquecendo.md>)
+- [assistente-suporte-ia/data/corpus/DOC-09-luz-los-vermelha.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-09-luz-los-vermelha.md>)
+- [assistente-suporte-ia/data/corpus/DOC-10-instabilidade-chuva.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-10-instabilidade-chuva.md>)
+- [assistente-suporte-ia/data/corpus/DOC-11-cancelamento.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-11-cancelamento.md>)
+- [assistente-suporte-ia/data/corpus/DOC-12-visita-tecnica.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-12-visita-tecnica.md>)
+- [assistente-suporte-ia/data/corpus/DOC-13-dados-pessoais.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-13-dados-pessoais.md>)
+- [assistente-suporte-ia/data/corpus/DOC-14-fora-de-escopo.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-14-fora-de-escopo.md>)
+- [assistente-suporte-ia/data/corpus/DOC-15-escalonamento-p1.md](<../projetos/assistente-suporte-ia/data/corpus/DOC-15-escalonamento-p1.md>)
+- [assistente-suporte-ia/data/corpus/README.md](<../projetos/assistente-suporte-ia/data/corpus/README.md>)
+- [assistente-suporte-ia/data/perguntas_avaliacao.csv](<../projetos/assistente-suporte-ia/data/perguntas_avaliacao.csv>)
+- [assistente-suporte-ia/docs/apresentacao-miniapp.md](<../projetos/assistente-suporte-ia/docs/apresentacao-miniapp.md>)
+- [assistente-suporte-ia/docs/apresentacao.md](<../projetos/assistente-suporte-ia/docs/apresentacao.md>)
+- [assistente-suporte-ia/docs/criterios-miniaplicacao.md](<../projetos/assistente-suporte-ia/docs/criterios-miniaplicacao.md>)
+- [assistente-suporte-ia/docs/fundamentos-llm.md](<../projetos/assistente-suporte-ia/docs/fundamentos-llm.md>)
+- [assistente-suporte-ia/docs/linkedin/checklist-publicacao.md](<../projetos/assistente-suporte-ia/docs/linkedin/checklist-publicacao.md>)
+- [assistente-suporte-ia/docs/linkedin/explicacao-tecnica.md](<../projetos/assistente-suporte-ia/docs/linkedin/explicacao-tecnica.md>)
+- [assistente-suporte-ia/docs/linkedin/perguntas-entrevista.md](<../projetos/assistente-suporte-ia/docs/linkedin/perguntas-entrevista.md>)
+- [assistente-suporte-ia/docs/linkedin/roteiro-post.md](<../projetos/assistente-suporte-ia/docs/linkedin/roteiro-post.md>)
+- [assistente-suporte-ia/docs/relatorio-avaliacao.md](<../projetos/assistente-suporte-ia/docs/relatorio-avaliacao.md>)
+- [assistente-suporte-ia/docs/relatorio-miniapp.md](<../projetos/assistente-suporte-ia/docs/relatorio-miniapp.md>)
+- [assistente-suporte-ia/docs/roteiro-avaliacao-publicacao.md](<../projetos/assistente-suporte-ia/docs/roteiro-avaliacao-publicacao.md>)
+- [assistente-suporte-ia/docs/roteiro-miniaplicacao.md](<../projetos/assistente-suporte-ia/docs/roteiro-miniaplicacao.md>)
+- [assistente-suporte-ia/governanca/gate-fundamentos.md](<../projetos/assistente-suporte-ia/governanca/gate-fundamentos.md>)
+- [assistente-suporte-ia/governanca/reforco-fundamentos.md](<../projetos/assistente-suporte-ia/governanca/reforco-fundamentos.md>)
+- [assistente-suporte-ia/outputs/avaliacao/avaliacao_rag.csv](<../projetos/assistente-suporte-ia/outputs/avaliacao/avaliacao_rag.csv>)
+- [assistente-suporte-ia/pyproject.toml](<../projetos/assistente-suporte-ia/pyproject.toml>)
+- [assistente-suporte-ia/README.md](<../projetos/assistente-suporte-ia/README.md>)
+- [assistente-suporte-ia/requirements.txt](<../projetos/assistente-suporte-ia/requirements.txt>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/__init__.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/__init__.py>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/assistente.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/assistente.py>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/avaliar_rag.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/avaliar_rag.py>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/busca_semantica.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/busca_semantica.py>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/escopo_corpus.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/escopo_corpus.py>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/fundamentos_llm.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/fundamentos_llm.py>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/geracao_com_fontes.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/geracao_com_fontes.py>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/ingestao_chunking.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/ingestao_chunking.py>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/metricas_avaliacao.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/metricas_avaliacao.py>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/prompts_estruturados.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/prompts_estruturados.py>)
+- [assistente-suporte-ia/src/assistente_suporte_ia/recuperacao.py](<../projetos/assistente-suporte-ia/src/assistente_suporte_ia/recuperacao.py>)
+- [portfolio-intelligence-lab/.gitignore](<../projetos/portfolio-intelligence-lab/.gitignore>)
+- [portfolio-intelligence-lab/dashboard/app.py](<../projetos/portfolio-intelligence-lab/dashboard/app.py>)
+- [portfolio-intelligence-lab/docs/apresentacao.md](<../projetos/portfolio-intelligence-lab/docs/apresentacao.md>)
+- [portfolio-intelligence-lab/docs/dicionario-de-dados.md](<../projetos/portfolio-intelligence-lab/docs/dicionario-de-dados.md>)
+- [portfolio-intelligence-lab/docs/linkedin/checklist-publicacao.md](<../projetos/portfolio-intelligence-lab/docs/linkedin/checklist-publicacao.md>)
+- [portfolio-intelligence-lab/docs/linkedin/explicacao-tecnica.md](<../projetos/portfolio-intelligence-lab/docs/linkedin/explicacao-tecnica.md>)
+- [portfolio-intelligence-lab/docs/linkedin/perguntas-entrevista.md](<../projetos/portfolio-intelligence-lab/docs/linkedin/perguntas-entrevista.md>)
+- [portfolio-intelligence-lab/docs/linkedin/roteiro-post.md](<../projetos/portfolio-intelligence-lab/docs/linkedin/roteiro-post.md>)
+- [portfolio-intelligence-lab/docs/metodologia-score.md](<../projetos/portfolio-intelligence-lab/docs/metodologia-score.md>)
+- [portfolio-intelligence-lab/docs/pre-projeto.md](<../projetos/portfolio-intelligence-lab/docs/pre-projeto.md>)
+- [portfolio-intelligence-lab/docs/presentation-en.md](<../projetos/portfolio-intelligence-lab/docs/presentation-en.md>)
+- [portfolio-intelligence-lab/docs/protocolo-financeiro.md](<../projetos/portfolio-intelligence-lab/docs/protocolo-financeiro.md>)
+- [portfolio-intelligence-lab/docs/relatorio-final.md](<../projetos/portfolio-intelligence-lab/docs/relatorio-final.md>)
+- [portfolio-intelligence-lab/docs/roteiro-defesa.md](<../projetos/portfolio-intelligence-lab/docs/roteiro-defesa.md>)
+- [portfolio-intelligence-lab/README.en.md](<../projetos/portfolio-intelligence-lab/README.en.md>)
+- [portfolio-intelligence-lab/README.md](<../projetos/portfolio-intelligence-lab/README.md>)
+- [portfolio-intelligence-lab/requirements.txt](<../projetos/portfolio-intelligence-lab/requirements.txt>)
+- [portfolio-intelligence-lab/sql/schema.sql](<../projetos/portfolio-intelligence-lab/sql/schema.sql>)
+- [portfolio-intelligence-lab/src/backtest/walk_forward.py](<../projetos/portfolio-intelligence-lab/src/backtest/walk_forward.py>)
+- [portfolio-intelligence-lab/src/data/pipeline.py](<../projetos/portfolio-intelligence-lab/src/data/pipeline.py>)
+- [portfolio-intelligence-lab/src/features/fatores.py](<../projetos/portfolio-intelligence-lab/src/features/fatores.py>)
+- [portfolio-intelligence-lab/src/portfolio/carteiras.py](<../projetos/portfolio-intelligence-lab/src/portfolio/carteiras.py>)
+- [portfolio-intelligence-lab/src/ranking/motor_ranking.py](<../projetos/portfolio-intelligence-lab/src/ranking/motor_ranking.py>)
+- [portfolio-intelligence-lab/tests/test_backtest.py](<../projetos/portfolio-intelligence-lab/tests/test_backtest.py>)
+- [portfolio-intelligence-lab/tests/test_qualidade_dados.py](<../projetos/portfolio-intelligence-lab/tests/test_qualidade_dados.py>)
+- [portfolio-intelligence-lab/tests/test_ranking.py](<../projetos/portfolio-intelligence-lab/tests/test_ranking.py>)
+- [README.md](<../projetos/README.md>)

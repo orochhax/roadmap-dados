@@ -1,0 +1,20 @@
+-- COMEÇO GUIADO
+-- Dados de partida: Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
+-- Use as tabelas já carregadas. Escreva e execute uma consulta por vez; confira as
+-- colunas e as linhas retornadas antes de seguir.
+
+-- Subqueries e CTEs
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- NÚCLEO ESSENCIAL
+-- 1. [ ] Escreva uma subquery escalar para comparar cada incidente à duração média geral.
+-- 2. [ ] Escreva uma subquery correlacionada para identificar incidentes acima da média de sua própria cidade.
+-- 3. [ ] Reescreva ambas usando CTEs e compare legibilidade.
+-- PRÁTICA OBRIGATÓRIA
+-- 4. [ ] Crie uma sequência de três CTEs: dados válidos → métricas por cidade → ranking final.
+-- 5. [ ] Introduza um filtro em posição errada e demonstre como ele altera o denominador de uma taxa.
+--
+-- Escreva sua solução abaixo desta linha.

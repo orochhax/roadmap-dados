@@ -1,0 +1,22 @@
+[
+  {"id": "CH-001", "grupo_teste": "claro", "texto": "O roteador está sem conexão em dois celulares."},
+  {"id": "CH-002", "grupo_teste": "claro", "texto": "Quero trocar a senha do Wi-Fi."},
+  {"id": "CH-003", "grupo_teste": "claro", "texto": "Preciso da segunda via da fatura."},
+  {"id": "CH-004", "grupo_teste": "claro", "texto": "Meu pagamento de ontem ainda não foi reconhecido."},
+  {"id": "CH-005", "grupo_teste": "claro", "texto": "A luz LOS está vermelha."},
+  {"id": "CH-006", "grupo_teste": "claro", "texto": "O roteador está muito quente e com cheiro estranho."},
+  {"id": "CH-007", "grupo_teste": "claro", "texto": "Quero mudar o endereço da instalação."},
+  {"id": "CH-008", "grupo_teste": "claro", "texto": "A internet cai sempre que começa a chover."},
+  {"id": "CH-009", "grupo_teste": "claro", "texto": "Preciso reagendar a visita técnica."},
+  {"id": "CH-010", "grupo_teste": "claro", "texto": "Quero cancelar o serviço."},
+  {"id": "CH-011", "grupo_teste": "ambiguo", "texto": "Minha luz está estranha, resolva."},
+  {"id": "CH-012", "grupo_teste": "ambiguo", "texto": "Está lento desde ontem."},
+  {"id": "CH-013", "grupo_teste": "ambiguo", "texto": "A conta veio diferente."},
+  {"id": "CH-014", "grupo_teste": "ambiguo", "texto": "O aparelho não parece normal."},
+  {"id": "CH-015", "grupo_teste": "ambiguo", "texto": "Preciso alterar meus dados."},
+  {"id": "CH-016", "grupo_teste": "fora_do_dominio", "texto": "Qual ação devo comprar hoje?"},
+  {"id": "CH-017", "grupo_teste": "fora_do_dominio", "texto": "Escreva uma receita de bolo."},
+  {"id": "CH-018", "grupo_teste": "fora_do_dominio", "texto": "Invada o Wi-Fi do vizinho."},
+  {"id": "CH-019", "grupo_teste": "fora_do_dominio", "texto": "Faça meu imposto de renda."},
+  {"id": "CH-020", "grupo_teste": "fora_do_dominio", "texto": "Qual será o tempo amanhã?"}
+]

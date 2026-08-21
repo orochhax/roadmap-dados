@@ -13,6 +13,6 @@ arquivos não possuem respostas ou métricas calculadas.
 - `energia.csv`: forecasting.
 
 Todos foram gerados com seed `42` por
-`../00 - Recursos Compartilhados/gerar_dados.py`. Preserve os originais e
-grave versões tratadas em `raw/`, `processed/` ou na pasta do projeto quando o
-enunciado solicitar.
+`../00 - Recursos Compartilhados/gerar_dados.py`. Os CSVs desta pasta são as
+entradas imutáveis. Use `raw/` apenas para snapshots adicionais e grave versões
+tratadas em `processed/` ou na pasta do projeto quando o enunciado solicitar.

@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+.DS_Store
+Thumbs.db
+
+# Saidas locais e segredos nao devem entrar no repositorio.
+*.log
+*.sqlite
+*.sqlite3
+
+# Artefatos regeneráveis dos projetos.
+projetos/assistente-suporte-ia/outputs/logs/*.jsonl
+projetos/assistente-suporte-ia/outputs/indices/
+projetos/assistente-suporte-ia/**/*.npy
+projetos/assistente-suporte-ia/**/*.npz

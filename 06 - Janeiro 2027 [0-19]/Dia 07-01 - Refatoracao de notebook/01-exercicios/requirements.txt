@@ -1,0 +1,9 @@
+# Refatoração de notebook
+#
+# Arquivo preparado a partir do roadmap.
+# Nenhuma atividade foi resolvida neste arquivo.
+#
+# ENUNCIADOS
+# 2. [ ] Extraia funções para `src/`, parâmetros para `config.yaml` ou módulo e dependências para `requirements.txt`.
+#
+# Escreva sua solução abaixo desta linha.

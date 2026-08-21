@@ -1,9 +1,0 @@
-# Dia 085 — Entrega do projeto — 27/11/2026
-#
-# Arquivo preparado a partir do roadmap.
-# Nenhuma atividade foi resolvida neste arquivo.
-#
-# ENUNCIADOS
-# Adicione somente as dependências realmente utilizadas pelo projeto.
-#
-# Escreva sua solução abaixo desta linha.

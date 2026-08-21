@@ -1,9 +1,0 @@
-# Dia 129 — TCC: dashboard, API, testes e relatório — 28/01/2027
-#
-# Arquivo preparado a partir do roadmap.
-# Nenhuma atividade foi resolvida neste arquivo.
-#
-# ENUNCIADOS
-# Adicione somente as dependências realmente usadas pelo TCC.
-#
-# Escreva sua solução abaixo desta linha.

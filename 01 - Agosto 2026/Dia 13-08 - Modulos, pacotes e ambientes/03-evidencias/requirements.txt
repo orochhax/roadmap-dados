@@ -1,9 +1,0 @@
-# Dia 009 — Módulos, pacotes e ambientes — 13/08/2026
-#
-# Arquivo preparado a partir do roadmap.
-# Nenhuma atividade foi resolvida neste arquivo.
-#
-# ENUNCIADOS
-# 2. [ ] Crie e ative um ambiente virtual `.venv`; instale apenas uma dependência de demonstração e gere `requirements.txt`.
-#
-# Escreva sua solução abaixo desta linha.

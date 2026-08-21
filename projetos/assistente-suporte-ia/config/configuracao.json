@@ -1,0 +1,24 @@
+{
+  "config_id": "preencher",
+  "seed": 42,
+  "chunking": {
+    "estrategia": "preencher",
+    "tamanho": null,
+    "overlap": null
+  },
+  "recuperacao": {
+    "metodo": "preencher",
+    "k": null,
+    "limiar": null
+  },
+  "geracao": {
+    "modo": "mock_local",
+    "modelo_ou_regra": "preencher"
+  },
+  "criterios_aceite": {
+    "precision_at_k_minima": null,
+    "recall_at_k_minimo": null,
+    "exigir_fonte": true,
+    "recusar_sem_suporte": true
+  }
+}
