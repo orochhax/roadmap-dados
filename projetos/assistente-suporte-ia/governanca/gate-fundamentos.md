@@ -11,9 +11,9 @@ Use uma evidência executável para cada fundamento. A nota mede autonomia: 0 se
 
 ## Plano de revisão
 
-- [ ] Registre quais fundamentos já têm evidência executável.
-- [ ] Para cada nota menor que 3 ou evidência ausente, defina uma revisão posterior em `reforco-fundamentos.md`.
-- [ ] Confirme que o diagnóstico não substitui a execução obrigatória de LLM/RAG.
+- Registre quais fundamentos já têm evidência executável.
+- Para cada nota menor que 3 ou evidência ausente, defina uma revisão posterior em `reforco-fundamentos.md`.
+- Confirme que o diagnóstico não substitui a execução obrigatória de LLM/RAG.
 
 **Plano e justificativa:**
 

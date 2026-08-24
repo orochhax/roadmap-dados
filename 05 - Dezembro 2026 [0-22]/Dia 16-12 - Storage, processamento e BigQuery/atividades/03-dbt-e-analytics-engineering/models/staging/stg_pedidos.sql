@@ -1,0 +1,4 @@
+-- TODO: leia pedidos pela função source().
+-- TODO: converta datas e valores para tipos adequados.
+-- TODO: padronize status e trate duplicidades sem esconder o critério.
+-- TODO: preserve um grão claro para o modelo.

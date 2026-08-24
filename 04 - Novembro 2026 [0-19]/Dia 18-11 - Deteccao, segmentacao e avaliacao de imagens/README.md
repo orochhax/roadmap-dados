@@ -3,27 +3,48 @@
 **Data de estudo:** 18/11/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Visão computacional II: detecção, segmentação, IoU, mAP e Dice
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Visão computacional II: detecção, segmentação, IoU, mAP e Dice
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `object detection vs segmentation`
 - `IoU`
 - `mAP`
 - `Dice coefficient`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-n22/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-visao-computacional-ii-deteccao`](<atividades/01-visao-computacional-ii-deteccao/>)
 
-## Integração
+#### Objetivo
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+Ir além da classe global produzida na atividade de visão computacional e transfer learning e localizar a região danificada. Você comparará caixas delimitadoras e máscaras em um cenário de inspeção de ativos, implementará métricas geométricas e aprenderá a avaliar corretamente imagens sem objeto, múltiplas ocorrências e diferentes limiares de confiança.
 
+#### Termos complementares para pesquisar
+
+1. `object detection versus semantic instance segmentation`
+2. `COCO bounding box annotation format xywh category_id`
+3. `intersection over union bounding boxes implementation`
+4. `COCO mean average precision mAP 50 95`
+5. `Dice coefficient binary segmentation masks`
+6. `empty mask IoU Dice edge case`
+7. `precision recall confidence threshold object detection`
+8. `torchvision object detection finetuning tutorial`
+
+#### O que você precisa entender
+
+- **Detecção:** prevê classe e caixa para cada objeto.
+- **Segmentação:** atribui pixels à região de interesse.
+- **IoU:** mede a interseção dividida pela união.
+- **mAP:** resume precisão/recall em limiares e classes.
+- **Dice:** mede sobreposição de máscaras e precisa de regra explícita para máscaras vazias.
+
+#### O que fazer
+
+Implemente e teste o avaliador solicitado no [enunciado](<atividades/01-visao-computacional-ii-deteccao/ENUNCIADO.md>) usando `atividades/01-visao-computacional-ii-deteccao/avaliar_segmentacao.py`. Documente dados, convenções e resultados no próprio artefato.
+
+#### LinkedIn
+
+Depois de concluir, adicione: **Detecção de objetos**, **Segmentação de imagens** e **Avaliação de visão computacional**.
 
 ## Entrega real de portfólio
 
@@ -36,7 +57,7 @@ Siga o [brief do projeto](<../../projetos/assistente-suporte-ia/extensao-visao-c
 - **Tema específico:** avaliação de uma triagem visual que localiza defeitos em ativos, comparando baseline, detecção e segmentação sem esconder erros.
 - **Tipo:** entrega.
 - **Formato:** carrossel visual com sobreposições de verdade e previsão, acompanhado de uma tabela curta de métricas.
-- **Artefato/evidência exigida:** `modulos/01-n22/01-exercicios/avaliar_segmentacao.py` executado, evidências preenchidas, teste manual de IoU/Dice, resultados por classe/tamanho, latência em CPU e imagens cuja licença permita publicação.
+- **Artefato/evidência exigida:** `atividades/01-visao-computacional-ii-deteccao/avaliar_segmentacao.py` executado, evidências preenchidas, teste manual de IoU/Dice, resultados por classe/tamanho, latência em CPU e imagens cuja licença permita publicação.
 
 ### Roteiro para preencher
 
@@ -66,8 +87,6 @@ Não chame um experimento com dados públicos ou proxy de sistema implantado em 
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

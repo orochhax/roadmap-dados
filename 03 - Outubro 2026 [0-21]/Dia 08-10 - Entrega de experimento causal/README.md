@@ -3,25 +3,46 @@
 **Data de estudo:** 08/10/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Entrega de experimento
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Entrega de experimento
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Entrega de experimento estatística para data science explicado passo a passo`
 - `Entrega de experimento estatística para data science exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e46/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-entrega-de-experimento`](<atividades/01-entrega-de-experimento/>)
 
-## Integração
+#### Conquista para o LinkedIn
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Competências:** depois de executar o experimento e defender sua conclusão, adicione **Análise estatística** e **Teste A/B**.
+- **Projetos ou Destaques:** inclua a entrega somente se o relatório estiver reproduzível, revisado e acessível por link.
+- **Sobre:** você pode mencionar sua primeira análise de experimento com incerteza e limitações. Não altere a headline somente por esta sessão.
+- Siga o [Guia de LinkedIn e evidências](<../../00 - Recursos Compartilhados/linkedin-e-evidencias.md>).
 
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/01-entrega-de-experimento/roteiro_atividades.md`.
+- **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
+- **Entradas concretas:** uma tabela A/B com grupo e resultado, a definição da métrica primária e uma consulta SQL de validação.
+- **Fallback local:** gere 500 observações por grupo com seed 42 e probabilidades de sucesso 0,10 e 0,12; grave grupo e resultado em um DataFrame e use-o em toda a entrega.
+
+#### O que fazer
+
+- [ ] Integre as três entradas listadas em Preparação; use a base sintética local se alguma entrada estiver ausente.
+- [ ] Registre métrica primária, efeito mínimo e regra de decisão antes de olhar o resultado final.
+- [ ] Valide equilíbrio dos grupos e estime efeito com intervalo.
+- [ ] Entregue README e relatório de decisão de até duas páginas com resultado, risco e próxima ação.
+- [ ] Escreva `atividades/01-entrega-de-experimento/projeto-mensal/README.en.md` em inglês, com 150–250 palavras, cobrindo problema, dados, método, resultados, limitações e reprodução.
+- [ ] Prepare `atividades/01-entrega-de-experimento/projeto-mensal/docs/presentation-en.md` como roteiro em inglês para uma apresentação falada de 2–3 minutos.
+
+- [ ] **Em `atividades/01-entrega-de-experimento/roteiro_atividades.md`:** Refaça a regra de decisão usando efeito mínimo relevante de 1,0 ponto percentual e compare com a regra de 1,5 ponto.
+- [ ] **Em `atividades/01-entrega-de-experimento/roteiro_atividades.md`:** Remova a cidade com mais observações, registre efeito e intervalo e identifique se a decisão depende desse segmento.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
 
 ## Entrega real de portfólio
 
@@ -34,7 +55,7 @@ Siga o [brief do projeto](<../../projetos/telecom-customer-intelligence/README.m
 - **Tema específico:** avaliar se um contato proativo reduz churn usando hipótese pré-definida, DAG, balanceamento, diferenças em diferenças, controle sintético e placebos.
 - **Tipo:** entrega.
 - **Formato:** carrossel técnico com DAG, estimativa principal, diagnóstico de premissas, placebo e decisão.
-- **Artefato/evidência exigida:** protocolo causal congelado, evidências N08–N11, grupos/métricas formados por SQL, estimativa com incerteza, balanceamento ou pré-tendências, placebos, relatório reproduzível e conclusão que aceite resultado negativo.
+- **Artefato/evidência exigida:** protocolo causal congelado, resultados das atividades de contrafactual, propensity score, diferenças em diferenças e controle sintético, grupos/métricas formados por SQL, estimativa com incerteza, balanceamento ou pré-tendências, placebos, relatório reproduzível e conclusão que aceite resultado negativo.
 
 ### Roteiro para preencher
 
@@ -64,8 +85,6 @@ Não use `causou` quando identificação, overlap, pré-tendências ou placebos 
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

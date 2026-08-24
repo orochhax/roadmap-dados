@@ -1,0 +1,2 @@
+-- Um teste singular deve retornar zero linhas quando a regra é respeitada.
+-- TODO: escreva uma regra temporal ou de consistência entre colunas.

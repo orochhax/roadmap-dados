@@ -3,36 +3,78 @@
 **Data de estudo:** 05/11/2026  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — EDA orientada a churn
 
-## Assuntos para pesquisar
-
-### Bloco 1 — EDA orientada a churn
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `EDA orientada a churn machine learning com Python explicado passo a passo`
 - `EDA orientada a churn machine learning com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e74/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-eda-orientada-a-churn`](<atividades/01-eda-orientada-a-churn/>)
 
-### Bloco 2 — SQL do projeto
+#### Arquivos e dados
 
-Pesquise exatamente:
+- **Pasta/arquivo principal:** `atividades/01-eda-orientada-a-churn/dia-068-eda-orientada-a-churn.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv` e `dados/pedidos.csv`; crie resultados derivados somente nos passos indicados.
 
+#### O que você precisa entender
+
+- **Definição:** hipótese liga mecanismo, variável, direção e teste; interação ocorre quando um efeito depende de outra variável. Associação não prova causa.
+- **Exemplo mínimo:** “contrato mensal associa-se a maior churn, sobretudo entre clientes novos”; teste com tabela por segmento e intervalo.
+- **Erro comum:** formular a hipótese após ver o gráfico e apresentá-la como causal.
+
+#### O que fazer
+
+- [ ] Escreva quatro hipóteses de churn antes de gerar gráficos.
+- [ ] Teste cada hipótese com tabela, métrica e visualização apropriada, sempre mostrando o tamanho dos grupos.
+- [ ] Produza `insights_eda.md` com evidência, impacto, cautela e próxima análise para as duas hipóteses mais úteis.
+
+- [ ] **Em `atividades/01-eda-orientada-a-churn/dia-068-eda-orientada-a-churn.ipynb`:** Teste a hipótese 'clientes com três ou mais chamados têm maior churn' com tabela, gráfico e tamanho dos dois grupos.
+- [ ] **Em `atividades/01-eda-orientada-a-churn/dia-068-eda-orientada-a-churn.ipynb`:** Repita a análise somente em Salvador e registre se a direção da associação permanece.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+### Atividade 2 — SQL do projeto
+
+#### O que pesquisar
 - `SQL do projeto SQL para análise de dados explicado passo a passo`
 - `SQL do projeto SQL para análise de dados exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-e75/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-sql-do-projeto`](<atividades/02-sql-do-projeto/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/02-sql-do-projeto/dia-069-sql-do-projeto.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv` e `dados/pedidos.csv`; crie resultados derivados somente nos passos indicados.
 
-## Concluído quando
+#### O que você precisa entender
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- **Definição:** granularidade é o que uma linha representa; janela calcula valores relacionados sem colapsar linhas; point-in-time limita dados à data de corte.
+- **Exemplo mínimo:** `ROW_NUMBER() OVER (PARTITION BY cliente_id ORDER BY data_evento DESC)` seleciona o último evento permitido.
+- **Erro comum:** join muitos-para-muitos que duplica clientes ou inclui eventos posteriores à decisão.
+
+#### O que fazer
+
+- [ ] Crie esquema SQL com tabelas de clientes, planos, chamados e pagamentos.
+- [ ] Escreva consultas para formar features agregadas em janelas de 30, 60 e 90 dias.
+- [ ] Valide granularidade: uma linha por cliente na data de referência.
+
+- [ ] Crie testes de unicidade, ausência de chaves e totais antes/depois dos joins.
+- [ ] Exporte `base_modelagem.csv` e compare cinco linhas com cálculo manual.
+
+
+- [ ] **Em `atividades/02-sql-do-projeto/dia-069-sql-do-projeto.ipynb`:** Crie a feature quantidade_chamados_60d e compare cinco clientes com uma contagem manual na tabela de chamados.
+- [ ] **Em `atividades/02-sql-do-projeto/dia-069-sql-do-projeto.ipynb`:** Duplique um pagamento, execute o teste de unicidade e impeça a exportação da base enquanto o problema existir.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

@@ -1,0 +1,8 @@
+cliente_id,cliente,segmento,regiao,data_atualizacao
+CLI-001,Clínica Horizonte,Saúde,Salvador,2026-07-31
+CLI-002,Mercado Bom Preço,Varejo,Feira de Santana,2026-07-28
+CLI-003,Escola Futuro,Educação,Ilhéus,2026-06-15
+CLI-003,Escola Futuro,Educação,Ilhéus,2026-08-30
+CLI-004,Hotel Mar Azul,Turismo, Porto Seguro ,2026-07-20
+CLI-005,Oficina Central,Serviços,Camaçari,2026-08-02
+CLI-006,Fazenda Boa Terra,Agronegócio,Barreiras,2026-08-25

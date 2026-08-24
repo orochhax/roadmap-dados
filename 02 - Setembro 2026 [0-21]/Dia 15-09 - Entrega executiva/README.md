@@ -3,27 +3,50 @@
 **Data de estudo:** 15/09/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Entrega executiva
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Entrega executiva
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Entrega executiva Python explicado passo a passo`
 - `Entrega executiva Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e26/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-entrega-executiva`](<atividades/01-entrega-executiva/>)
 
-## Integração
+#### Conquista para o LinkedIn
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Ação concreta:** após concluir e revisar a entrega, adicione-a a Projetos ou Destaques e inclua **Análise de Dados para Tomada de Decisão** nas Competências.
+- **Novo título:** `Engenharia de Software | Análise de Dados | Python e Power BI`.
 
-## Concluído quando
+#### Aulas complementares — segurança da informação
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Módulo 0 — **Os pilares da Segurança da Informação** (18:03).
+- [ ] Módulo 2 — **Cuidados ao divulgar informações** (15:28).
+- Antes de publicar o projeto, verifique confidencialidade, integridade e disponibilidade e confirme que nenhuma evidência expõe dado pessoal ou segredo.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/01-entrega-executiva/roteiro_atividades.md`.
+- **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
+- **Entradas concretas:** tabelas de indicadores, gráficos, `dicionario_metricas.md`, README e resumo executivo dentro de `atividades/01-entrega-executiva/projeto-mensal`.
+- **Fallback local:** se algum artefato não existir, gere no próprio projeto os quatro indicadores a partir de `dados/incidentes.csv` e crie um gráfico de duração média por cidade; isso basta para concluir a entrega.
+
+#### O que fazer
+
+- [ ] Organize em `projeto_mensal_01` as entradas listadas em Preparação, usando o fallback quando necessário.
+- [ ] Garanta uma execução reproduzível do dado bruto até as tabelas usadas pelo dashboard.
+- [ ] Valide os quatro indicadores principais contra pandas ou uma consulta.
+- [ ] Entregue README e resumo executivo de uma página com três achados, duas decisões e duas limitações.
+
+- [ ] **Em `atividades/01-entrega-executiva/roteiro_atividades.md`:** Crie uma versão do resumo executivo dirigida ao gerente de operações, destacando duração média, clientes afetados e uma ação para a próxima semana.
+- [ ] **Em `atividades/01-entrega-executiva/roteiro_atividades.md`:** Selecione uma recomendação do relatório e acrescente o número que a sustenta e uma limitação que impede generalização automática.
+- [ ] Apresente a entrega em até três minutos usando `atividades/01-entrega-executiva/projeto-mensal/docs/apresentacao.md` e registre uma dúvida que precisou esclarecer.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

@@ -3,25 +3,50 @@
 **Data de estudo:** 25/11/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Projeto de forecasting
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Projeto de forecasting
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Projeto de forecasting Python explicado passo a passo`
 - `Projeto de forecasting Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e88/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-projeto-de-forecasting`](<atividades/01-projeto-de-forecasting/>)
 
-## Integração
+#### Conquista para o LinkedIn
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Competências:** depois de executar o backtesting e defender a validação temporal, adicione **Análise de séries temporais** e **Forecasting**.
+- **Projetos ou Destaques:** inclua o projeto com horizonte, baseline, métrica, decisão e limitação.
+- O material em inglês comprova prática técnica, não um nível avançado do idioma. Siga o [Guia de LinkedIn e evidências](<../../00 - Recursos Compartilhados/linkedin-e-evidencias.md>).
 
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/01-projeto-de-forecasting/roteiro_atividades.md`.
+- **Dados:** `dados/energia.csv`.
+
+#### O que você precisa entender
+
+- **Definição:** um projeto temporal reproduzível fixa frequência, horizonte, cortes, baselines, métricas e regra de decisão.
+- **Exemplo mínimo:** manifesto com `data_corte, horizonte, coluna_alvo, frequência, métricas, seed`; todos os modelos usam o mesmo manifesto.
+- **Erro comum:** alterar cortes entre tabelas ou escolher a melhor janela após olhar toda a série.
+
+#### O que fazer
+
+- [ ] Organize o projeto com dados, notebook ou script, resultados e README.
+- [ ] Compare o baseline oficial com um único modelo em backtesting walk-forward.
+- [ ] Salve métricas em CSV e crie um gráfico de previsão com intervalo ou faixa de incerteza.
+- [ ] Produza resumo executivo de uma página com decisão, horizonte, risco e limitação.
+- [ ] Escreva `atividades/01-projeto-de-forecasting/projeto-semanal/README.en.md` em inglês, com 150–250 palavras, cobrindo problema, dados, método, resultados, limitações e reprodução.
+- [ ] Prepare `atividades/01-projeto-de-forecasting/projeto-semanal/docs/presentation-en.md` como roteiro em inglês para uma apresentação falada de 2–3 minutos.
+
+- [ ] **Em `atividades/01-projeto-de-forecasting/roteiro_atividades.md`:** Execute o backtesting removendo o mês de maior consumo e registre como ranking de modelos e erro mudam.
+- [ ] **Em `atividades/01-projeto-de-forecasting/roteiro_atividades.md`:** Aumente em 25% o custo de subestimação no resumo executivo e confira se a decisão operacional permanece.
+
+#### Como validar
+
+- O projeto foi executado, incluindo `README.en.md` e `docs/presentation-en.md`, e o roteiro contém todas as saídas obrigatórias.
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
 
 ## Entrega real de portfólio
 
@@ -34,7 +59,7 @@ Siga o [brief do projeto](<../../projetos/energy-forecastops/README.md>). A entr
 - **Tema específico:** Energy ForecastOps — escolha de uma previsão por horizonte com backtest temporal e custo de subprevisão.
 - **Tipo:** entrega.
 - **Formato:** gráfico de previsão com faixa de incerteza e carrossel curto com protocolo, benchmark e decisão.
-- **Artefato/evidência exigida:** backtesting walk-forward executado, baseline e modelo no mesmo corte, CSV de métricas, gráfico de previsão, teste sem o mês de maior consumo e resumo executivo em `modulos/01-e88/projeto-semanal/`.
+- **Artefato/evidência exigida:** backtesting walk-forward executado, baseline e modelo no mesmo corte, CSV de métricas, gráfico de previsão, teste sem o mês de maior consumo e resumo executivo em `atividades/01-projeto-de-forecasting/projeto-semanal/`.
 
 ### Roteiro para preencher
 
@@ -64,8 +89,6 @@ Não apresente a previsão como certeza, não escolha somente a melhor janela e 
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

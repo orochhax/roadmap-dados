@@ -57,10 +57,10 @@ métricas e reprodução das previsões.
 
 ## Concluído quando
 
-- [ ] Um comando reproduz todos os folds e artefatos.
-- [ ] Nenhuma feature acessa o futuro.
-- [ ] Todos os candidatos são comparados com o sazonal ingênuo.
-- [ ] A estabilidade por horizonte é discutida.
-- [ ] Se o modelo avançado perder, o baseline é recomendado honestamente.
-- [ ] Os testes passam e resultados do relatório reconciliam com os CSVs.
-- [ ] README.en.md e docs/presentation-en.md contêm resultados executados.
+- Um comando reproduz todos os folds e artefatos.
+- Nenhuma feature acessa o futuro.
+- Todos os candidatos são comparados com o sazonal ingênuo.
+- A estabilidade por horizonte é discutida.
+- Se o modelo avançado perder, o baseline é recomendado honestamente.
+- Os testes passam e resultados do relatório reconciliam com os CSVs.
+- README.en.md e docs/presentation-en.md contêm resultados executados.

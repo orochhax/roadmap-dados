@@ -15,11 +15,11 @@ Defender a pesquisa em 8–10 minutos com evidências reproduzíveis e sem suger
 
 ## Evidências obrigatórias
 
-- [ ] tabela de universo e qualidade;
-- [ ] exemplo auditável de um score;
-- [ ] curva ou tabela das duas carteiras líquidas de custos;
-- [ ] uma falha ou período ruim;
-- [ ] comando de reprodução.
+- tabela de universo e qualidade;
+- exemplo auditável de um score;
+- curva ou tabela das duas carteiras líquidas de custos;
+- uma falha ou período ruim;
+- comando de reprodução.
 
 ## Versão curta
 

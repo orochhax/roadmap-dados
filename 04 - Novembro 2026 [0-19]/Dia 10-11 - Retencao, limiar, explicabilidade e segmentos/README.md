@@ -3,36 +3,82 @@
 **Data de estudo:** 10/11/2026  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Limiar e estrategia de retencao
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Limiar e estrategia de retencao
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Limiar e estrategia de retencao Python explicado passo a passo`
 - `Limiar e estrategia de retencao Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e80/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-limiar-e-estrategia`](<atividades/01-limiar-e-estrategia/>)
 
-### Bloco 2 — Explicabilidade e segmentos
+#### Arquivos e dados
 
-Pesquise exatamente:
+- **Pasta/arquivo principal:** `atividades/01-limiar-e-estrategia/dia-072-limiar-e-estrategia-de-retencao.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv` e `dados/pedidos.csv`; crie resultados derivados somente nos passos indicados.
 
+#### O que você precisa entender
+
+- **Definição:** limiar transforma probabilidade em ação; benefício esperado desconta ação e erros; break-even iguala ganho e custo.
+- **Exemplo mínimo:** `valor = VP×benefício - FP×custo_contato - FN×perda`; calcule em cada limiar.
+- **Erro comum:** usar 0,5 automaticamente ou otimizar F1 sem representar a decisão.
+
+#### O que fazer
+
+- [ ] Calcule custo e volume de campanhas para 20 limiares entre 0.05 e 0.95.
+- [ ] Defina três estratégias de retenção por risco e valor do cliente.
+- [ ] Simule orçamento limitado e selecione os clientes com maior benefício esperado.
+
+- [ ] Calcule retorno estimado e ponto de equilíbrio.
+- [ ] Crie regras de exclusão para evitar ofertas inadequadas.
+
+
+- [ ] **Em `atividades/01-limiar-e-estrategia/dia-072-limiar-e-estrategia-de-retencao.ipynb`:** Simule orçamento suficiente para abordar somente 100 clientes e selecione pelo maior benefício esperado.
+- [ ] **Em `atividades/01-limiar-e-estrategia/dia-072-limiar-e-estrategia-de-retencao.ipynb`:** Aumente o custo da campanha em 50% e recalcule retorno e ponto de equilíbrio sem alterar probabilidades.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+### Atividade 2 — Explicabilidade e segmentos
+
+#### O que pesquisar
 - `Explicabilidade e segmentos Python explicado passo a passo`
 - `Explicabilidade e segmentos Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-e81/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-explicabilidade-e-segmentos`](<atividades/02-explicabilidade-e-segmentos/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/02-explicabilidade-e-segmentos/dia-073-explicabilidade-e-segmentos.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv` e `dados/pedidos.csv`; crie resultados derivados somente nos passos indicados.
 
-## Concluído quando
+#### O que você precisa entender
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- **Definição:** suporte é o número de casos do segmento; métricas com pouco suporte são instáveis.
+- **Exemplo mínimo:** publique `segmento, n, taxa_real, taxa_prevista, erro` e sinalize `n < 30`.
+- **Erro comum:** concluir diferença relevante com grupos raros sem intervalo ou alerta.
+
+#### O que fazer
+
+- [ ] Produza importância global e explicações individuais para 12 clientes.
+- [ ] Crie segmentos acionáveis combinando risco, valor e motivo provável.
+- [ ] Verifique desempenho por cidade e plano.
+
+- [ ] Identifique possíveis vieses e grupos com baixo suporte.
+- [ ] Escreva exemplos de mensagens operacionais para o time de retenção sem expor informações sensíveis.
+
+
+- [ ] **Em `atividades/02-explicabilidade-e-segmentos/dia-073-explicabilidade-e-segmentos.ipynb`:** Explique três clientes de alto risco e alto valor e três de alto risco e baixo valor com o mesmo método.
+- [ ] **Em `atividades/02-explicabilidade-e-segmentos/dia-073-explicabilidade-e-segmentos.ipynb`:** Compare recall e precision entre Salvador e Feira de Santana e informe o número de casos em cada cidade.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

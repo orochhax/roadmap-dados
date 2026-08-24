@@ -3,36 +3,89 @@
 **Data de estudo:** 10/09/2026  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — EDA pratica
 
-## Assuntos para pesquisar
-
-### Bloco 1 — EDA pratica
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `EDA pratica análise de dados com Python explicado passo a passo`
 - `EDA pratica análise de dados com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e21/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-eda-pratica`](<atividades/01-eda-pratica/>)
 
-### Bloco 2 — Fundamentos de visualizacao
+#### O que você precisa entender
 
-Pesquise exatamente:
+EDA é uma investigação orientada por perguntas: confira estrutura e qualidade, descreva o alvo, segmente e só então produza achados.
 
+```python
+pergunta = "Clientes com mais chamados apresentam mais churn?"
+resumo = df.groupby("churn")["chamados_90d"].agg(["count", "mean", "median"])
+print(pergunta, resumo)
+```
+
+**Erro comum:** gerar muitos gráficos sem registrar qual pergunta cada um responde ou quais limitações impedem uma conclusão.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/01-eda-pratica/projeto-semanal/notebooks/eda_clientes.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv` e os demais arquivos listados no projeto.
+
+#### O que fazer
+
+- [ ] Escreva três perguntas de negócio sobre churn antes de iniciar a análise.
+- [ ] Faça inspeção estrutural, qualidade básica e distribuição do alvo.
+- [ ] Crie três análises segmentadas diretamente ligadas às perguntas escolhidas.
+- [ ] Produza dois gráficos e um resumo com três achados, uma limitação e uma próxima análise.
+
+- [ ] Escreva uma recomendação limitada ao que uma evidência numérica da análise permite concluir.
+- [ ] Compare churn, NPS mediano e chamados médios dos clientes com menos de seis meses com a base completa.
+- [ ] Em uma cópia, deixe o NPS ausente em cinco linhas e confirme quais tabelas ou gráficos mudam antes de escolher tratamento.
+- [ ] Preencha `atividades/01-eda-pratica/projeto-semanal/docs/apresentacao.md` e apresente perguntas, achados e limitação em até três minutos.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
+
+### Atividade 2 — Fundamentos de visualizacao
+
+#### O que pesquisar
 - `Fundamentos de visualizacao análise de dados com Python explicado passo a passo`
 - `Fundamentos de visualizacao análise de dados com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-e22/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-fundamentos-de-visualizacao`](<atividades/02-fundamentos-de-visualizacao/>)
 
-## Integração
+#### O que você precisa entender
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+Barras comparam categorias, linhas mostram evolução temporal, histogramas mostram distribuição e dispersões mostram relação entre duas variáveis.
 
-## Concluído quando
+```python
+ax = df.groupby("cidade")["duracao_min"].mean().sort_values().plot.bar()
+ax.set(title="Duração média por cidade", xlabel="Cidade", ylabel="Minutos")
+ax.set_ylim(bottom=0)
+```
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+**Erro comum:** truncar o eixo de barras e ampliar visualmente diferenças pequenas.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/02-fundamentos-de-visualizacao/visualizacao_fundamentos.ipynb`.
+- **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
+
+#### O que fazer
+
+- [ ] Crie um gráfico de barras, linha, histograma e dispersão usando o mesmo conjunto de dados.
+- [ ] Para cada gráfico, escreva qual pergunta ele responde e por que outro tipo seria pior.
+- [ ] Corrija quatro erros intencionais: eixo truncado, categorias desordenadas, título genérico e excesso de casas decimais.
+
+- [ ] Crie uma versão acessível sem depender apenas de cor: use rótulos, marcadores e legenda clara.
+- [ ] Exporte em PNG com tamanho legível e verifique se o gráfico continua compreensível fora do notebook.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

@@ -30,6 +30,6 @@ python -m pip install -e projetos/assistente-suporte-ia
 
 ## Critérios do projeto
 
-- [ ] A miniaplicação valida 20 chamados e recusa ou solicita revisão humana quando necessário.
-- [ ] O RAG responde às dez perguntas fixas com fonte ou recusa e registra as métricas completas.
-- [ ] Uma execução local reproduz configuração, resultados e limitações documentadas.
+- A miniaplicação valida 20 chamados e recusa ou solicita revisão humana quando necessário.
+- O RAG responde às dez perguntas fixas com fonte ou recusa e registra as métricas completas.
+- Uma execução local reproduz configuração, resultados e limitações documentadas.

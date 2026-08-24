@@ -1,0 +1,10 @@
+cliente_id,nome,cidade,segmento,atualizado_em
+C001,Ana Lima,Salvador,PME,2026-11-01 09:00:00
+C002,Bruno Souza,Recife,Enterprise,2026-11-02 10:30:00
+C003,Carla Reis,São Paulo,pme,2026-11-03 11:20:00
+C004, Diego Alves ,Fortaleza,STARTUP,2026-11-04 14:10:00
+C005,Elaine Rocha,Rio de Janeiro,Enterprise,2026-11-05 16:45:00
+C006,Felipe Nunes,Belo Horizonte,Startup,2026-11-06 08:15:00
+C007,Gabi Costa,Salvador,PME,2026-11-07 12:00:00
+C007,Gabi Costa,Feira de Santana,PME,2026-12-10 13:30:00
+C008,Hugo Melo,Recife, enterprise ,2026-12-11 09:40:00

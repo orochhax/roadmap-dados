@@ -102,8 +102,11 @@ FORBIDDEN_README_PATTERNS = {
     ),
     "link interno do VS Code": re.compile(r"file\+\.vscode-resource", re.IGNORECASE),
 }
-COMPLETION_RE = re.compile(
+LEGACY_COMPLETION_RE = re.compile(
     r"(?ms)^## Conclu[ií]do quando\s*\n(?P<body>.*?)(?=^##\s|\Z)"
+)
+FINALIZATION_RE = re.compile(
+    r"(?ms)^## Finaliza[cç][aã]o\s*\n(?P<body>.*?)(?=^##\s|\Z)"
 )
 CHECKBOX_RE = re.compile(r"(?m)^\s*-\s+\[[ xX]\]")
 PRIMARY_ARTIFACT_RE = re.compile(
@@ -113,6 +116,70 @@ PRIMARY_ARTIFACT_RE = re.compile(
 CODE_SPAN_RE = re.compile(r"`([^`]+)`")
 AI_PROJECT = ROOT / "projetos" / "assistente-suporte-ia"
 CORPUS_DIR = AI_PROJECT / "data" / "corpus"
+ACTIVITY_MANIFEST = ROOT / "00 - Recursos Compartilhados" / "manifesto-reorganizacao-2026.json"
+ACTIVITY_DIR_RE = re.compile(
+    r"^(?P<order>\d{2})-(?P<slug>[a-z0-9]+(?:-[a-z0-9]+)*)$"
+)
+INTERNAL_ACTIVITY_ID_RE = re.compile(
+    r"\b(?:E(?:0[1-9]|[1-9][0-9]|1[0-2][0-9]|13[0-8])|"
+    r"N(?:0[1-9]|1[0-9]|2[0-9]))\b"
+)
+LEGACY_ACTIVITY_DIR_RE = re.compile(
+    r"(?:^|-)(?:e\d{2,3}|n\d{2})(?:-|$)", re.IGNORECASE
+)
+LEGACY_GENERIC_DIR_NAMES = {
+    "modulos",
+    "01-exercicios",
+    "02-pratica",
+    "02-pratica-sem-consulta",
+    "03-evidencias",
+}
+FORBIDDEN_FUTURE_HEADINGS = {
+    "como estudar",
+    "assuntos para pesquisar",
+    "preparacao",
+    "aprenda agora",
+    "nucleo essencial",
+    "nucleo obrigatorio",
+    "pratica",
+    "pratica obrigatoria",
+    "trabalho obrigatorio",
+    "entrega obrigatoria",
+    "sequencia didatica",
+    "atividades obrigatorias",
+    "roteiro obrigatorio",
+    "checklist do bloco",
+    "checklist final",
+    "criterio de aceite",
+    "criterios de aceite",
+    "resultado esperado",
+    "integracao",
+    "concluido quando",
+}
+CURSO_EM_VIDEO_CHALLENGES = {
+    "Dia 24-08 - Break, sentinelas e tuplas": {
+        "01-break-e-sentinelas": ("066", "069", "070"),
+        "02-tuplas": ("072", "075", "077"),
+    },
+    "Dia 25-08 - Listas e matrizes": {
+        "01-listas": ("078", "079", "081"),
+        "02-listas-compostas-e-matrizes": ("084", "086"),
+    },
+    "Dia 26-08 - Dicionarios, sets e funcoes com parametros": {
+        "01-dicionarios-e-set": ("090",),
+        "02-funcoes-com-parametros": ("096", "098", "100"),
+    },
+    "Dia 27-08 - Retorno, modulos e pacotes": {
+        "01-funcoes-com-retorno": ("104", "105"),
+        "02-modulos-e-pacotes": ("107", "111"),
+    },
+    "Dia 28-08 - Excecoes e menu": {
+        "01-excecoes-e-menu": ("113", "115a"),
+    },
+    "Dia 31-08 - Arquivos e projeto final de Python basico": {
+        "01-arquivos-e-projeto-final": ("115b", "115c"),
+    },
+}
 
 # Restringe a regra a rotulos de atividade. Assim, expressoes tecnicas como
 # "dependencia opcional" continuam permitidas quando nao nomeiam uma tarefa.
@@ -195,6 +262,54 @@ def validate_optional_activity_markers(errors: list[str]) -> None:
             errors.append(
                 "Marcador de atividade opcional: "
                 f"{source.relative_to(ROOT)} -> {marker}"
+            )
+
+
+def validate_internal_activity_ids(errors: list[str]) -> None:
+    """Impede que IDs de migracao vazem para materiais destinados ao aluno."""
+
+    excluded = {ACTIVITY_MANIFEST.resolve(), FILE_MAP.resolve()}
+    text_extensions = ACTIVITY_TEXT_EXTENSIONS | {".json", ".txt", ".yaml", ".yml"}
+    for source in sorted(ROOT.rglob("*")):
+        if (
+            not source.is_file()
+            or source.suffix.lower() not in text_extensions
+            or source.resolve() in excluded
+            or "scripts" in source.relative_to(ROOT).parts
+            or ".git" in source.parts
+            or ".ipynb_checkpoints" in source.parts
+            or "__pycache__" in source.parts
+            or any(part in {".venv", "venv", "env"} for part in source.parts)
+        ):
+            continue
+        try:
+            text = activity_text(source)
+        except (OSError, UnicodeError, json.JSONDecodeError, TypeError):
+            continue
+        internal_ids = sorted(set(INTERNAL_ACTIVITY_ID_RE.findall(text)))
+        if internal_ids:
+            errors.append(
+                "ID interno fora do manifesto: "
+                f"{source.relative_to(ROOT)} -> {', '.join(internal_ids)}"
+            )
+
+
+def validate_project_markdown_checkboxes(errors: list[str]) -> None:
+    """Centraliza o controle de progresso fora dos documentos de projeto."""
+
+    projects = ROOT / "projetos"
+    if not projects.is_dir():
+        return
+    for source in sorted(projects.rglob("*.md")):
+        try:
+            text = source.read_text(encoding="utf-8")
+        except (OSError, UnicodeError):
+            continue
+        checkbox_count = len(CHECKBOX_RE.findall(text))
+        if checkbox_count:
+            errors.append(
+                "Checkbox paralelo em documentacao de projeto: "
+                f"{source.relative_to(ROOT)} ({checkbox_count})"
             )
 
 
@@ -350,57 +465,290 @@ def validate_ai_project(errors: list[str]) -> None:
             errors.append(f"Configuracao do projeto de IA invalida: {exc}")
 
 
-def validate_market_modules_and_projects(errors: list[str]) -> None:
-    """Protege os módulos adicionados pela análise de vagas e seus produtos."""
+def normalized_heading(value: str) -> str:
+    """Normaliza um titulo para comparar secoes sem depender de acentos."""
 
-    observed_modules: dict[str, Path] = {}
-    module_name_re = re.compile(r"^\d{2}-(?P<ref>n\d{2})$")
+    return "".join(
+        character
+        for character in unicodedata.normalize("NFKD", value)
+        if not unicodedata.combining(character)
+    ).casefold().strip()
+
+
+def study_days_by_date(errors: list[str]) -> dict[str, Path]:
+    """Indexa dias pela data, independentemente do prefixo mutavel ``OK -``."""
+
+    observed: dict[str, Path] = {}
     for month in ROOT.iterdir():
-        if not month.is_dir() or not MONTH_RE.match(month.name):
+        month_match = MONTH_RE.match(month.name) if month.is_dir() else None
+        if not month_match:
             continue
-        for module in month.glob("Dia */modulos/*"):
-            match = module_name_re.match(module.name) if module.is_dir() else None
-            if not match:
+        for day_dir in month.iterdir():
+            day_match = DAY_RE.match(day_dir.name) if day_dir.is_dir() else None
+            if not day_match:
                 continue
-            ref = match.group("ref").upper()
-            if ref in observed_modules:
+            try:
+                key = date(
+                    int(month_match.group("year")),
+                    int(day_match.group("month")),
+                    int(day_match.group("day")),
+                ).isoformat()
+            except ValueError:
+                continue
+            previous = observed.get(key)
+            if previous is not None:
                 errors.append(
-                    f"Modulo de mercado duplicado: {ref} "
-                    f"({observed_modules[ref].relative_to(ROOT)} e {module.relative_to(ROOT)})"
+                    "Data de atividade duplicada: "
+                    f"{key} ({previous.relative_to(ROOT)} e {day_dir.relative_to(ROOT)})"
                 )
-            observed_modules[ref] = module
-            required = [
-                module / "README.md",
-                module / "01-exercicios" / "ENUNCIADO.md",
-                module / "03-evidencias" / "README.md",
-            ]
-            for path in required:
-                if not path.is_file():
-                    errors.append(
-                        f"Artefato de modulo novo ausente: {path.relative_to(ROOT)}"
-                    )
-            exercise_dir = module / "01-exercicios"
-            starters = (
-                [
-                    path
-                    for path in exercise_dir.iterdir()
-                    if path.is_file() and path.name != "ENUNCIADO.md"
-                ]
-                if exercise_dir.is_dir()
-                else []
+                continue
+            observed[key] = day_dir
+    return observed
+
+
+def validate_activity_manifest(errors: list[str]) -> None:
+    """Valida o inventario E/N sem expor IDs nos nomes das atividades."""
+
+    try:
+        manifest = json.loads(ACTIVITY_MANIFEST.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        errors.append(f"Manifesto de atividades ausente: {ACTIVITY_MANIFEST.relative_to(ROOT)}")
+        return
+    except (json.JSONDecodeError, UnicodeError, OSError) as exc:
+        errors.append(f"Manifesto de atividades invalido: {exc}")
+        return
+
+    if not isinstance(manifest, dict):
+        errors.append("Manifesto de atividades deve ser um objeto JSON")
+        return
+    activities = manifest.get("activities")
+    if not isinstance(activities, dict):
+        errors.append("Manifesto de atividades sem o objeto 'activities'")
+        return
+
+    expected_legacy = {f"E{index:02d}" for index in range(1, 139)}
+    expected_market = {f"N{index:02d}" for index in range(1, 30)}
+    expected_ids = expected_legacy | expected_market
+    observed_ids = {key for key in activities if isinstance(key, str)}
+    if observed_ids != expected_ids:
+        missing = sorted(expected_ids - observed_ids)
+        extra = sorted(observed_ids - expected_ids)
+        errors.append(
+            f"Inventario E/N incorreto no manifesto: ausentes={missing}, extras={extra}"
+        )
+    if manifest.get("source_modules") != len(expected_legacy):
+        errors.append("Contagem source_modules incorreta no manifesto")
+    if manifest.get("added_modules") != len(expected_market):
+        errors.append("Contagem added_modules incorreta no manifesto")
+    if manifest.get("schema_version") != 2:
+        errors.append("Versao do schema do manifesto deve ser 2")
+
+    days = study_days_by_date(errors)
+    if manifest.get("total_study_days") != len(days):
+        errors.append(
+            "Contagem total_study_days incorreta no manifesto "
+            f"(esperado {len(days)})"
+        )
+    expected_local: dict[Path, str] = {}
+    occupied_slots: dict[tuple[str, int], str] = {}
+    checked_workspaces: set[Path] = set()
+    manifest_study_dates: set[str] = set()
+
+    for activity_id in sorted(expected_ids):
+        entry = activities.get(activity_id)
+        if not isinstance(entry, dict):
+            errors.append(f"Entrada de atividade invalida no manifesto: {activity_id}")
+            continue
+
+        expected_origin = "legacy" if activity_id.startswith("E") else "market"
+        if entry.get("origin") != expected_origin:
+            errors.append(
+                f"Origem incorreta no manifesto: {activity_id} "
+                f"(esperado {expected_origin})"
             )
-            if not starters:
+        if activity_id.startswith("E") and not isinstance(entry.get("legacy_path"), str):
+            errors.append(f"Caminho legado ausente no manifesto: {activity_id}")
+
+        raw_date = entry.get("study_date")
+        order = entry.get("order")
+        slug = entry.get("slug")
+        title = entry.get("title")
+        try:
+            study_date = date.fromisoformat(raw_date) if isinstance(raw_date, str) else None
+        except ValueError:
+            study_date = None
+        if study_date is None:
+            errors.append(f"Data invalida no manifesto: {activity_id} -> {raw_date!r}")
+            continue
+        manifest_study_dates.add(study_date.isoformat())
+        if type(order) is not int or not 1 <= order <= 99:
+            errors.append(f"Ordem invalida no manifesto: {activity_id} -> {order!r}")
+            continue
+        if not isinstance(slug, str) or not re.fullmatch(
+            r"[a-z0-9]+(?:-[a-z0-9]+)*", slug
+        ):
+            errors.append(f"Slug invalido no manifesto: {activity_id} -> {slug!r}")
+            continue
+        if not isinstance(title, str) or not title.strip():
+            errors.append(f"Titulo ausente no manifesto: {activity_id}")
+            continue
+
+        slot = (study_date.isoformat(), order)
+        previous_id = occupied_slots.get(slot)
+        if previous_id is not None:
+            errors.append(
+                f"Posicao de atividade duplicada: {slot} ({previous_id} e {activity_id})"
+            )
+        else:
+            occupied_slots[slot] = activity_id
+
+        day_dir = days.get(study_date.isoformat())
+        if day_dir is None:
+            errors.append(
+                f"Dia do manifesto ausente: {activity_id} -> {study_date.isoformat()}"
+            )
+            continue
+        day_readme = day_dir / "README.md"
+        try:
+            day_text = day_readme.read_text(encoding="utf-8")
+        except (OSError, UnicodeError):
+            day_text = ""
+
+        block_re = re.compile(
+            rf"(?m)^### (?:Atividade {order}|Bloco {order}|Conteúdo e atividades)"
+            rf"\s+[\u2014-]\s+{re.escape(title.strip())}\s*$"
+        )
+        if not block_re.search(day_text):
+            errors.append(
+                f"Bloco do manifesto ausente no README: {activity_id} -> "
+                f"{day_readme.relative_to(ROOT)}"
+            )
+
+        workspace_value = entry.get("workspace")
+        if workspace_value is not None:
+            if not isinstance(workspace_value, str) or not workspace_value.strip():
+                errors.append(f"Workspace invalido no manifesto: {activity_id}")
+                continue
+            workspace_relative = Path(workspace_value)
+            workspace = (ROOT / workspace_relative).resolve()
+            if (
+                workspace_relative.is_absolute()
+                or ".." in workspace_relative.parts
+                or not workspace.is_relative_to(ROOT.resolve())
+            ):
+                errors.append(f"Workspace inseguro no manifesto: {activity_id}")
+                continue
+            if workspace not in checked_workspaces:
+                checked_workspaces.add(workspace)
+                if not workspace.is_dir():
+                    errors.append(
+                        f"Workspace central ausente: {workspace.relative_to(ROOT)}"
+                    )
+                elif not (workspace / "README.md").is_file():
+                    errors.append(
+                        f"README do workspace central ausente: {workspace.relative_to(ROOT)}"
+                    )
+            workspace_reference = workspace_relative.as_posix()
+            if workspace_reference not in day_text:
                 errors.append(
-                    f"Arquivo inicial do exercicio ausente: {module.relative_to(ROOT)}"
+                    f"Workspace nao referenciado no README: {activity_id} -> "
+                    f"{day_readme.relative_to(ROOT)}"
+                )
+            local_duplicate = (
+                day_dir / "atividades" / f"{order:02d}-{slug}"
+            )
+            if local_duplicate.exists():
+                errors.append(
+                    "Atividade central duplicada na pasta do dia: "
+                    f"{local_duplicate.relative_to(ROOT)}"
+                )
+            continue
+
+        activity_dir = day_dir / "atividades" / f"{order:02d}-{slug}"
+        resolved_activity = activity_dir.resolve()
+        previous_activity_id = expected_local.get(resolved_activity)
+        if previous_activity_id is not None:
+            errors.append(
+                f"Destino de atividade duplicado: {previous_activity_id} e {activity_id}"
+            )
+        else:
+            expected_local[resolved_activity] = activity_id
+
+        folder_reference = f"atividades/{activity_dir.name}/"
+        if folder_reference not in day_text:
+            errors.append(
+                f"Atividade ausente no README diario: {activity_id} -> "
+                f"{day_readme.relative_to(ROOT)}"
+            )
+        if not activity_dir.is_dir():
+            errors.append(
+                f"Pasta de atividade ausente: {activity_id} -> "
+                f"{activity_dir.relative_to(ROOT)}"
+            )
+            continue
+        if not any(path.is_file() for path in activity_dir.rglob("*")):
+            errors.append(
+                f"Atividade sem arquivo pratico: {activity_dir.relative_to(ROOT)}"
+            )
+        if (activity_dir / "README.md").exists():
+            errors.append(
+                f"README interno redundante: {(activity_dir / 'README.md').relative_to(ROOT)}"
+            )
+
+    if manifest_study_dates:
+        first_session = min(manifest_study_dates)
+        last_session = max(manifest_study_dates)
+        if manifest.get("first_future_session") != first_session:
+            errors.append(
+                "first_future_session incorreta no manifesto "
+                f"(esperado {first_session})"
+            )
+        if manifest.get("last_session") != last_session:
+            errors.append(
+                f"last_session incorreta no manifesto (esperado {last_session})"
+            )
+        if manifest.get("future_sessions_reorganized") != len(manifest_study_dates):
+            errors.append(
+                "future_sessions_reorganized incorreto no manifesto "
+                f"(esperado {len(manifest_study_dates)})"
+            )
+
+    actual_local: set[Path] = set()
+    for day_dir in days.values():
+        if not day_dir.name.startswith("OK - "):
+            for directory in day_dir.rglob("*"):
+                if directory.is_dir() and directory.name in LEGACY_GENERIC_DIR_NAMES:
+                    errors.append(
+                        f"Pasta generica antiga: {directory.relative_to(ROOT)}"
+                    )
+
+        activities_dir = day_dir / "atividades"
+        if not activities_dir.is_dir():
+            continue
+        for loose_file in activities_dir.iterdir():
+            if loose_file.is_file():
+                errors.append(
+                    f"Arquivo solto na raiz de atividades: {loose_file.relative_to(ROOT)}"
+                )
+        for activity_dir in activities_dir.iterdir():
+            if not activity_dir.is_dir():
+                continue
+            actual_local.add(activity_dir.resolve())
+            if LEGACY_ACTIVITY_DIR_RE.search(activity_dir.name):
+                errors.append(
+                    f"Nome de atividade contem ID interno: {activity_dir.relative_to(ROOT)}"
+                )
+            if not ACTIVITY_DIR_RE.fullmatch(activity_dir.name):
+                errors.append(
+                    f"Nome de atividade invalido: {activity_dir.relative_to(ROOT)}"
                 )
 
-    expected_modules = {f"N{index:02d}" for index in range(1, 26)}
-    if set(observed_modules) != expected_modules:
-        missing = sorted(expected_modules - set(observed_modules))
-        extra = sorted(set(observed_modules) - expected_modules)
-        errors.append(
-            f"Inventario de modulos novos incorreto: ausentes={missing}, extras={extra}"
-        )
+    for orphan in sorted(actual_local - set(expected_local), key=str):
+        errors.append(f"Atividade orfa: {orphan.relative_to(ROOT)}")
+
+
+def validate_portfolio_projects_and_credentials(errors: list[str]) -> None:
+    """Protege apenas evidencias reais de portfolio e credenciais."""
 
     project_roots = [
         ROOT / "projetos" / "telecom-customer-intelligence",
@@ -431,6 +779,147 @@ def validate_market_modules_and_projects(errors: list[str]) -> None:
                 errors.append(
                     f"Diretorio de projeto de portfolio ausente: {path.relative_to(ROOT)}"
                 )
+
+    credential_root = ROOT / "00 - Recursos Compartilhados"
+    credential_files = [
+        credential_root / "credenciais-gratuitas-e-simulados.md",
+        credential_root / "simulados-credenciais" / "simulado-microsoft-power-bi.md",
+        credential_root / "simulados-credenciais" / "simulado-dbt-fundamentals.md",
+        credential_root / "simulados-credenciais" / "simulado-google-skills-bigquery.md",
+        credential_root / "simulados-credenciais" / "simulado-databricks-fundamentals.md",
+        credential_root / "simulados-credenciais" / "simulado-ef-set.md",
+        credential_root / "simulados-credenciais" / "roteiros-listening-ef-set.md",
+        credential_root / "simulados-credenciais" / "registro-de-tentativas.md",
+    ]
+    for path in credential_files:
+        if not path.is_file():
+            errors.append(
+                f"Preparacao de credencial ausente: {path.relative_to(ROOT)}"
+            )
+
+
+def validate_future_readmes_and_video_challenges(errors: list[str]) -> None:
+    """Protege o formato limpo dos dias futuros e os starters de Python."""
+
+    for month in ROOT.iterdir():
+        if not month.is_dir() or not MONTH_RE.match(month.name):
+            continue
+        for day in month.iterdir():
+            if not day.is_dir() or not DAY_RE.match(day.name):
+                continue
+            day_readme = day / "README.md"
+            if not day_readme.is_file():
+                continue
+            if day.name.startswith("OK - "):
+                continue
+            try:
+                text = day_readme.read_text(encoding="utf-8")
+            except (OSError, UnicodeError):
+                continue
+
+            activities_headings = len(
+                re.findall(r"(?m)^## Atividades do dia\s*$", text)
+            )
+            if activities_headings != 1:
+                errors.append(
+                    "README futuro deve ter uma secao 'Atividades do dia': "
+                    f"{day_readme.relative_to(ROOT)} ({activities_headings})"
+                )
+
+            finalizations = list(FINALIZATION_RE.finditer(text))
+            if len(finalizations) != 1:
+                errors.append(
+                    "README futuro deve ter uma secao 'Finalizacao': "
+                    f"{day_readme.relative_to(ROOT)} ({len(finalizations)})"
+                )
+            else:
+                completion_count = len(
+                    CHECKBOX_RE.findall(finalizations[0].group("body"))
+                )
+                if completion_count != 1:
+                    errors.append(
+                        "Finalizacao deve ter um unico checkbox: "
+                        f"{day_readme.relative_to(ROOT)} ({completion_count})"
+                    )
+
+            h2_titles = re.findall(r"(?m)^## ([^#].*?)\s*$", text)
+            if h2_titles and normalized_heading(h2_titles[-1]) != "finalizacao":
+                errors.append(
+                    f"Finalizacao deve ser a ultima secao: {day_readme.relative_to(ROOT)}"
+                )
+            for heading in re.findall(r"(?m)^#{2,6} ([^#].*?)\s*$", text):
+                clean_heading = re.sub(r"\s+#+$", "", heading).strip()
+                if normalized_heading(clean_heading) in FORBIDDEN_FUTURE_HEADINGS:
+                    errors.append(
+                        "Secao antiga ou redundante: "
+                        f"{day_readme.relative_to(ROOT)} -> {clean_heading}"
+                    )
+
+            activities_dir = day / "atividades"
+            if activities_dir.is_dir():
+                for nested_markdown in activities_dir.rglob("*.md"):
+                    try:
+                        nested_text = nested_markdown.read_text(encoding="utf-8")
+                    except (OSError, UnicodeError):
+                        continue
+                    nested_checkboxes = len(CHECKBOX_RE.findall(nested_text))
+                    if nested_checkboxes:
+                        errors.append(
+                            "Checkbox deve existir somente no README diario: "
+                            f"{nested_markdown.relative_to(ROOT)} "
+                            f"({nested_checkboxes})"
+                        )
+                    for nested_heading in re.findall(
+                        r"(?m)^#{1,6} ([^#].*?)\s*$", nested_text
+                    ):
+                        clean_nested_heading = re.sub(
+                            r"\s+#+$", "", nested_heading
+                        ).strip()
+                        normalized_nested_heading = normalized_heading(
+                            clean_nested_heading
+                        )
+                        if (
+                            normalized_nested_heading == "pratica obrigatoria"
+                            or normalized_nested_heading.startswith(
+                                "pratica obrigatoria "
+                            )
+                            or "nucleo essencial" in normalized_nested_heading
+                        ):
+                            errors.append(
+                                "Heading pedagogico antigo em atividade: "
+                                f"{nested_markdown.relative_to(ROOT)} -> "
+                                f"{clean_nested_heading}"
+                            )
+                    if re.search(
+                        r"n[aã]o faz parte do n[uú]cleo obrigat[oó]rio",
+                        nested_text,
+                        re.IGNORECASE,
+                    ):
+                        errors.append(
+                            "Frase pedagogica antiga em atividade: "
+                            f"{nested_markdown.relative_to(ROOT)} -> "
+                            "nao faz parte do nucleo obrigatorio"
+                        )
+
+    august = ROOT / "01 - Agosto 2026 [6-12]"
+    for day_name, activities in CURSO_EM_VIDEO_CHALLENGES.items():
+        candidates = (august / day_name, august / f"OK - {day_name}")
+        day = next((candidate for candidate in candidates if candidate.is_dir()), candidates[0])
+        readme = day / "README.md"
+        text = readme.read_text(encoding="utf-8") if readme.is_file() else ""
+        for activity_name, numbers in activities.items():
+            for number in numbers:
+                relative = f"atividades/{activity_name}/DESAFIO{number}.py"
+                challenge = day / relative
+                if not challenge.is_file():
+                    errors.append(
+                        f"Starter do Curso em Video ausente: {challenge.relative_to(ROOT)}"
+                    )
+                if relative not in text:
+                    errors.append(
+                        "Link do desafio ausente no README diario: "
+                        f"{readme.relative_to(ROOT)} -> {relative}"
+                    )
 
 
 def main() -> int:
@@ -529,20 +1018,18 @@ def main() -> int:
         elif re.search(r"\bDia\s+#?\d+\b|\b\d{2}/\d{2}/20\d{2}\b", headings[0]):
             errors.append(f"Titulo diario com numero/data: {readme.relative_to(ROOT)}")
 
-        completion = COMPLETION_RE.search(text)
-        completion_count = len(CHECKBOX_RE.findall(completion.group("body"))) if completion else 0
-        if completion_count != 3:
-            errors.append(
-                "Criterio de conclusao deve ter tres provas: "
-                f"{readme.relative_to(ROOT)} ({completion_count})"
+        if readme.parent.name.startswith("OK - "):
+            completion = LEGACY_COMPLETION_RE.search(text)
+            completion_count = (
+                len(CHECKBOX_RE.findall(completion.group("body")))
+                if completion
+                else 0
             )
-        if (
-            not readme.parent.name.startswith("OK - ")
-            and "## Assuntos para pesquisar" not in text
-        ):
-            errors.append(
-                f"Assuntos para pesquisar ausentes: {readme.relative_to(ROOT)}"
-            )
+            if completion_count != 3:
+                errors.append(
+                    "Criterio legado de conclusao deve ter tres provas: "
+                    f"{readme.relative_to(ROOT)} ({completion_count})"
+                )
         if date_key in LINKEDIN_POST_DATES:
             heading = "## Publicação da semana no LinkedIn"
             if text.count(heading) != 1:
@@ -611,8 +1098,12 @@ def main() -> int:
             errors.append(f"Notebook invalido: {source.relative_to(ROOT)} ({exc})")
 
     validate_optional_activity_markers(errors)
+    validate_internal_activity_ids(errors)
+    validate_project_markdown_checkboxes(errors)
     validate_ai_project(errors)
-    validate_market_modules_and_projects(errors)
+    validate_future_readmes_and_video_challenges(errors)
+    validate_activity_manifest(errors)
+    validate_portfolio_projects_and_credentials(errors)
     validate_generated_indices(errors)
 
     if errors:

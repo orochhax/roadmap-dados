@@ -3,40 +3,81 @@
 **Data de estudo:** 13/01/2027  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — GitHub e portfolio
 
-## Assuntos para pesquisar
-
-### Bloco 1 — GitHub e portfolio
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `GitHub e portfolio Python explicado passo a passo`
 - `GitHub e portfolio Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e129/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-github-e-portfolio`](<atividades/01-github-e-portfolio/>)
 
-### Bloco 2 — Curriculo, LinkedIn e narrativa
+#### Arquivos e dados
 
-Pesquise exatamente:
+- **Pasta/arquivo principal:** `atividades/01-github-e-portfolio/dia-121-github-e-portfolio.md`.
+- **Entradas:** quatro repositórios locais, READMEs, licenças e imagens. **Fallback local:** clones e capturas sem publicar.
 
+#### O que você precisa entender
+
+- **Definição:** portfólio forte privilegia evidência, reprodução, licença e narrativa; arquivar reduz ruído sem apagar histórico.
+- **Exemplo mínimo:** pontue quatro projetos em problema, execução limpa, resultado, limitação e clareza; mantenha os três ou quatro mais fortes.
+- **Erro comum:** publicar dados sem permissão ou selecionar projeto pela quantidade de ferramentas.
+
+#### O que fazer
+
+- [ ] Audite todos os repositórios: nome, descrição, README, licença, dependências, dados e execução.
+- [ ] Escolha quatro projetos principais e arquive ou oculte os fracos.
+- [ ] Padronize capas, estrutura e seção de resultados.
+
+- [ ] **Em `atividades/01-github-e-portfolio/dia-121-github-e-portfolio.md`:** Clone um dos quatro projetos principais em pasta limpa e cronometre da leitura do README até a primeira execução.
+- [ ] **Em `atividades/01-github-e-portfolio/dia-121-github-e-portfolio.md`:** Escolha um README sem número de impacto e acrescente uma métrica real já produzida pelo projeto, sem inventar resultado.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+### Atividade 2 — Curriculo, LinkedIn e narrativa
+
+#### O que pesquisar
 - `Curriculo, LinkedIn e narrativa Python explicado passo a passo`
 - `Curriculo, LinkedIn e narrativa Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-e130/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-curriculo-linkedin-e-narrativa`](<atividades/02-curriculo-linkedin-e-narrativa/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/02-curriculo-linkedin-e-narrativa/dia-122-curriculo-linkedin-e-narrativa.md`.
+- **Entradas:** `00 - Recursos Compartilhados/linkedin-perfil-atual.md`, inventário de projetos, resultados e vaga-alvo. **Fallback local:** vaga-modelo em Markdown.
+
+#### O que você precisa entender
+
+- **Definição:** bullet de impacto usa ação, contexto, evidência e resultado; narrativa liga experiência anterior ao trabalho demonstrável.
+- **Exemplo mínimo:** “automatizei validação de 12 regras, reduzi falhas manuais no teste local e documentei limites”; remova ferramenta sem exemplo.
+- **Erro comum:** inventar impacto, listar buzzwords ou usar métrica sem origem.
+
+#### O que fazer
+
+- [ ] Crie currículo de uma página orientado a vagas júnior.
+- [ ] Escreva quatro bullets de projeto no formato ação + técnica + resultado + impacto.
+- [ ] Atualize headline, sobre, competências e projetos do LinkedIn.
+- [ ] Escolha três vagas júnior reais, adapte o currículo para uma delas e envie a primeira candidatura; registre requisitos atendidos e lacunas sem acrescentar competências que você não domina.
+
+- [ ] **Em `atividades/02-curriculo-linkedin-e-narrativa/dia-122-curriculo-linkedin-e-narrativa.md`:** escreva uma narrativa honesta que conecte sua experiência como Analista de Redes em telecom e seus estudos de Engenharia de Software ao objetivo de Cientista de Dados Júnior, sem inventar impacto.
+- [ ] **No mesmo arquivo:** adapte um bullet para uma vaga que exige Python e SQL usando somente técnica e resultado comprováveis; grave uma apresentação de 30 segundos e remova qualquer ferramenta que não consiga explicar com um exemplo real.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
 
 ## Publicação da semana no LinkedIn
 
 - **Tema específico:** demonstração do produto integrador e o que uma reprodução em ambiente limpo revelou sobre sua qualidade.
 - **Tipo:** entrega.
 - **Formato:** vídeo técnico de 2–3 minutos acompanhado de texto curto e link para o projeto escolhido.
-- **Artefato/evidência exigida:** produto integrador concluído, testes funcionais/de dados/de decisão, execução em clone ou pasta limpa, métrica real, retrospectiva, README conferido e auditoria registrada em `modulos/01-e129/01-exercicios/dia-121-github-e-portfolio.md`.
+- **Artefato/evidência exigida:** produto integrador concluído, testes funcionais/de dados/de decisão, execução em clone ou pasta limpa, métrica real, retrospectiva, README conferido e auditoria registrada em `atividades/01-github-e-portfolio/dia-121-github-e-portfolio.md`.
 
 ### Roteiro para preencher
 
@@ -66,8 +107,6 @@ Não transforme o projeto em experiência profissional nem invente impacto. Não
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

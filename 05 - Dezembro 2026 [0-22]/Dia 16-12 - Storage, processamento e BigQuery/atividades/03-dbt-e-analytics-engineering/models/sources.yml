@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  # TODO: declare a fonte que representa as seeds carregadas no DuckDB.
+  # Inclua nome, schema, tabelas, descrições e testes apropriados.
+  []

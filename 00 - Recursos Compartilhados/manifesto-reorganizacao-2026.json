@@ -1,8 +1,10 @@
 {
+  "schema_version": 2,
   "source_modules": 138,
-  "added_modules": 25,
-  "sessions": 105,
-  "first_session": "2026-08-24",
+  "added_modules": 29,
+  "total_study_days": 111,
+  "future_sessions_reorganized": 105,
+  "first_future_session": "2026-08-24",
   "last_session": "2027-01-25",
   "completed_days_preserved": {
     "OK - Dia 03-08 - Preparacao e diagnostico": {
@@ -40,585 +42,1323 @@
       "README.md": "e839f43d4b022f9d12778e8df56d66cc63f5a1f401f6a9c4cb4d48c6b3a7f1e0"
     }
   },
-  "old_to_new": {
+  "activities": {
     "E01": {
-      "old": "01 - Agosto 2026 [6-16]/Dia 18-08 - Break e sentinelas",
-      "new": "01 - Agosto 2026 [6-12]/Dia 24-08 - Break, sentinelas e tuplas/modulos/01-e01"
+      "origin": "legacy",
+      "study_date": "2026-08-24",
+      "order": 1,
+      "slug": "break-e-sentinelas",
+      "title": "Break e sentinelas",
+      "legacy_path": "01 - Agosto 2026 [6-16]/Dia 18-08 - Break e sentinelas"
     },
     "E02": {
-      "old": "01 - Agosto 2026 [6-16]/Dia 19-08 - Tuplas",
-      "new": "01 - Agosto 2026 [6-12]/Dia 24-08 - Break, sentinelas e tuplas/modulos/02-e02"
+      "origin": "legacy",
+      "study_date": "2026-08-24",
+      "order": 2,
+      "slug": "tuplas",
+      "title": "Tuplas",
+      "legacy_path": "01 - Agosto 2026 [6-16]/Dia 19-08 - Tuplas"
     },
     "E03": {
-      "old": "01 - Agosto 2026 [6-16]/Dia 20-08 - Listas",
-      "new": "01 - Agosto 2026 [6-12]/Dia 25-08 - Listas e matrizes/modulos/01-e03"
+      "origin": "legacy",
+      "study_date": "2026-08-25",
+      "order": 1,
+      "slug": "listas",
+      "title": "Listas",
+      "legacy_path": "01 - Agosto 2026 [6-16]/Dia 20-08 - Listas"
     },
     "E04": {
-      "old": "01 - Agosto 2026 [6-16]/Dia 21-08 - Listas compostas e matrizes",
-      "new": "01 - Agosto 2026 [6-12]/Dia 25-08 - Listas e matrizes/modulos/02-e04"
+      "origin": "legacy",
+      "study_date": "2026-08-25",
+      "order": 2,
+      "slug": "listas-compostas-e-matrizes",
+      "title": "Listas compostas e matrizes",
+      "legacy_path": "01 - Agosto 2026 [6-16]/Dia 21-08 - Listas compostas e matrizes"
     },
     "E05": {
-      "old": "01 - Agosto 2026 [6-16]/Dia 24-08 - Dicionarios e set",
-      "new": "01 - Agosto 2026 [6-12]/Dia 26-08 - Dicionarios, sets e funcoes com parametros/modulos/01-e05"
+      "origin": "legacy",
+      "study_date": "2026-08-26",
+      "order": 1,
+      "slug": "dicionarios-e-set",
+      "title": "Dicionarios e set",
+      "legacy_path": "01 - Agosto 2026 [6-16]/Dia 24-08 - Dicionarios e set"
     },
     "E06": {
-      "old": "01 - Agosto 2026 [6-16]/Dia 25-08 - Funcoes com parametros",
-      "new": "01 - Agosto 2026 [6-12]/Dia 26-08 - Dicionarios, sets e funcoes com parametros/modulos/02-e06"
+      "origin": "legacy",
+      "study_date": "2026-08-26",
+      "order": 2,
+      "slug": "funcoes-com-parametros",
+      "title": "Funcoes com parametros",
+      "legacy_path": "01 - Agosto 2026 [6-16]/Dia 25-08 - Funcoes com parametros"
     },
     "E07": {
-      "old": "01 - Agosto 2026 [6-16]/Dia 26-08 - Funcoes com retorno",
-      "new": "01 - Agosto 2026 [6-12]/Dia 27-08 - Retorno, modulos e pacotes/modulos/01-e07"
+      "origin": "legacy",
+      "study_date": "2026-08-27",
+      "order": 1,
+      "slug": "funcoes-com-retorno",
+      "title": "Funcoes com retorno",
+      "legacy_path": "01 - Agosto 2026 [6-16]/Dia 26-08 - Funcoes com retorno"
     },
     "E08": {
-      "old": "01 - Agosto 2026 [6-16]/Dia 27-08 - Modulos e pacotes",
-      "new": "01 - Agosto 2026 [6-12]/Dia 27-08 - Retorno, modulos e pacotes/modulos/02-e08"
+      "origin": "legacy",
+      "study_date": "2026-08-27",
+      "order": 2,
+      "slug": "modulos-e-pacotes",
+      "title": "Modulos e pacotes",
+      "legacy_path": "01 - Agosto 2026 [6-16]/Dia 27-08 - Modulos e pacotes"
     },
     "E09": {
-      "old": "01 - Agosto 2026 [6-16]/Dia 28-08 - Excecoes e menu",
-      "new": "01 - Agosto 2026 [6-12]/Dia 28-08 - Excecoes e menu/modulos/01-e09"
+      "origin": "legacy",
+      "study_date": "2026-08-28",
+      "order": 1,
+      "slug": "excecoes-e-menu",
+      "title": "Excecoes e menu",
+      "legacy_path": "01 - Agosto 2026 [6-16]/Dia 28-08 - Excecoes e menu"
     },
     "E10": {
-      "old": "01 - Agosto 2026 [6-16]/Dia 31-08 - Arquivos e projeto final",
-      "new": "01 - Agosto 2026 [6-12]/Dia 31-08 - Arquivos e projeto final de Python basico/modulos/01-e10"
+      "origin": "legacy",
+      "study_date": "2026-08-31",
+      "order": 1,
+      "slug": "arquivos-e-projeto-final",
+      "title": "Arquivos e projeto final",
+      "legacy_path": "01 - Agosto 2026 [6-16]/Dia 31-08 - Arquivos e projeto final"
     },
     "E100": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 07-01 - Refatoracao de notebook",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 07-12 - Git profissional e refatoracao/modulos/02-e100"
+      "origin": "legacy",
+      "study_date": "2026-12-07",
+      "order": 2,
+      "slug": "refatoracao-de-notebook",
+      "title": "Refatoracao de notebook",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 07-01 - Refatoracao de notebook"
     },
     "E101": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 08-01 - Testes",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 08-12 - Testes, qualidade e configuracao/modulos/01-e101"
+      "origin": "legacy",
+      "study_date": "2026-12-08",
+      "order": 1,
+      "slug": "testes",
+      "title": "Testes",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 08-01 - Testes"
     },
     "E102": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 11-01 - Qualidade e configuracao",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 08-12 - Testes, qualidade e configuracao/modulos/02-e102"
+      "origin": "legacy",
+      "study_date": "2026-12-08",
+      "order": 2,
+      "slug": "qualidade-e-configuracao",
+      "title": "Qualidade e configuracao",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 11-01 - Qualidade e configuracao"
     },
     "E103": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 12-01 - CI e versao estavel",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 09-12 - CI, release, FastAPI e contrato/modulos/01-e103"
+      "origin": "legacy",
+      "study_date": "2026-12-09",
+      "order": 1,
+      "slug": "ci-e-versao-estavel",
+      "title": "CI e versao estavel",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 12-01 - CI e versao estavel"
     },
     "E104": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 13-01 - FastAPI e contrato",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 09-12 - CI, release, FastAPI e contrato/modulos/02-e104"
+      "origin": "legacy",
+      "study_date": "2026-12-09",
+      "order": 2,
+      "slug": "fastapi-e-contrato",
+      "title": "FastAPI e contrato",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 13-01 - FastAPI e contrato"
     },
     "E105": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 14-01 - Serializacao e pipeline de inferencia",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 10-12 - Serializacao, inferencia e Docker/modulos/01-e105"
+      "origin": "legacy",
+      "study_date": "2026-12-10",
+      "order": 1,
+      "slug": "serializacao-e-pipeline-de-inferencia",
+      "title": "Serializacao e pipeline de inferencia",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 14-01 - Serializacao e pipeline de inferencia"
     },
     "E106": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 15-01 - Docker",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 10-12 - Serializacao, inferencia e Docker/modulos/02-e106"
+      "origin": "legacy",
+      "study_date": "2026-12-10",
+      "order": 2,
+      "slug": "docker",
+      "title": "Docker",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 15-01 - Docker"
     },
     "E107": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 18-01 - Logs e monitoramento basico",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 11-12 - Logs e monitoramento/modulos/01-e107"
+      "origin": "legacy",
+      "study_date": "2026-12-11",
+      "order": 1,
+      "slug": "logs-e-monitoramento-basico",
+      "title": "Logs e monitoramento basico",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 18-01 - Logs e monitoramento basico"
     },
     "E108": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao do servico/modulos/01-e108"
+      "origin": "legacy",
+      "study_date": "2026-12-14",
+      "order": 1,
+      "slug": "publicacao-do-servico",
+      "title": "Publicacao do servico",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 19-01 - Publicacao do servico"
     },
     "E109": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 20-01 - Conceitos de cloud para dados",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 15-12 - Cloud e GCP pratico/modulos/01-e109"
+      "origin": "legacy",
+      "study_date": "2026-12-15",
+      "order": 1,
+      "slug": "conceitos-de-cloud-para-dados",
+      "title": "Conceitos de cloud para dados",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 20-01 - Conceitos de cloud para dados"
     },
     "E11": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes e primeiro mini-projeto",
-      "new": "02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes, mini-projeto e compreensoes/modulos/01-e11"
+      "origin": "legacy",
+      "study_date": "2026-09-01",
+      "order": 1,
+      "slug": "funcoes-e-primeiro-mini-projeto",
+      "title": "Funcoes e primeiro mini-projeto",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes e primeiro mini-projeto"
     },
     "E110": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 21-01 - Armazenamento e processamento",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 16-12 - Storage, processamento e BigQuery/modulos/01-e110"
+      "origin": "legacy",
+      "study_date": "2026-12-16",
+      "order": 1,
+      "slug": "armazenamento-e-processamento",
+      "title": "Armazenamento e processamento",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 21-01 - Armazenamento e processamento"
     },
     "E111": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 22-01 - Databricks aplicado",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 17-12 - Databricks aplicado e MLflow/modulos/01-e111"
+      "origin": "legacy",
+      "study_date": "2026-12-17",
+      "order": 1,
+      "slug": "databricks-aplicado",
+      "title": "Databricks aplicado",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 22-01 - Databricks aplicado"
     },
     "E112": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 27-01 - MLOps introdutorio",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 18-12 - MLOps, retreino e rollback/modulos/01-e112"
+      "origin": "legacy",
+      "study_date": "2026-12-18",
+      "order": 1,
+      "slug": "mlops-introdutorio",
+      "title": "MLOps introdutorio",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 27-01 - MLOps introdutorio"
     },
     "E113": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 21-12 - Arquitetura e entrevista/modulos/01-e113"
+      "origin": "legacy",
+      "study_date": "2026-12-21",
+      "order": 1,
+      "slug": "arquitetura-e-entrevista",
+      "title": "Arquitetura e entrevista",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 28-01 - Arquitetura e entrevista"
     },
     "E114": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 29-01 - Fundamentos de LLMs",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 24-12 - LLMs, APIs e prompts estruturados/modulos/01-e114"
+      "origin": "legacy",
+      "study_date": "2026-12-24",
+      "order": 1,
+      "slug": "fundamentos-de-llms",
+      "title": "Fundamentos de LLMs",
+      "workspace": "projetos/assistente-suporte-ia",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 29-01 - Fundamentos de LLMs"
     },
     "E115": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 01-02 - APIs e prompts estruturados",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 24-12 - LLMs, APIs e prompts estruturados/modulos/02-e115"
+      "origin": "legacy",
+      "study_date": "2026-12-24",
+      "order": 2,
+      "slug": "apis-e-prompts-estruturados",
+      "title": "APIs e prompts estruturados",
+      "workspace": "projetos/assistente-suporte-ia",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 01-02 - APIs e prompts estruturados"
     },
     "E116": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 02-02 - Embeddings e busca semantica",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 28-12 - Embeddings e entity matching semantico/modulos/01-e116"
+      "origin": "legacy",
+      "study_date": "2026-12-28",
+      "order": 1,
+      "slug": "embeddings-e-busca-semantica",
+      "title": "Embeddings e busca semantica",
+      "workspace": "projetos/assistente-suporte-ia",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 02-02 - Embeddings e busca semantica"
     },
     "E117": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 03-02 - Avaliacao de aplicacoes LLM",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 29-12 - Avaliacao LLM e ranking/modulos/01-e117"
+      "origin": "legacy",
+      "study_date": "2026-12-29",
+      "order": 1,
+      "slug": "avaliacao-de-aplicacoes-llm",
+      "title": "Avaliacao de aplicacoes LLM",
+      "workspace": "projetos/assistente-suporte-ia",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 03-02 - Avaliacao de aplicacoes LLM"
     },
     "E118": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 04-02 - Miniaplicacao de IA",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 31-12 - Miniaplicacao de IA/modulos/01-e118"
+      "origin": "legacy",
+      "study_date": "2026-12-31",
+      "order": 1,
+      "slug": "miniaplicacao-de-ia",
+      "title": "Miniaplicacao de IA",
+      "workspace": "projetos/assistente-suporte-ia",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 04-02 - Miniaplicacao de IA"
     },
     "E119": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 05-02 - Escopo e documentos",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 04-01 - RAG, escopo, documentos, ingestao e chunking/modulos/01-e119"
+      "origin": "legacy",
+      "study_date": "2027-01-04",
+      "order": 1,
+      "slug": "escopo-e-documentos",
+      "title": "Escopo e documentos",
+      "workspace": "projetos/assistente-suporte-ia",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 05-02 - Escopo e documentos"
     },
     "E12": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 02-09 - Compreensoes e funcoes uteis",
-      "new": "02 - Setembro 2026 [0-21]/Dia 01-09 - Funcoes, mini-projeto e compreensoes/modulos/02-e12"
+      "origin": "legacy",
+      "study_date": "2026-09-01",
+      "order": 2,
+      "slug": "compreensoes-e-funcoes-uteis",
+      "title": "Compreensoes e funcoes uteis",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 02-09 - Compreensoes e funcoes uteis"
     },
     "E120": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 08-02 - Ingestao e chunking",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 04-01 - RAG, escopo, documentos, ingestao e chunking/modulos/02-e120"
+      "origin": "legacy",
+      "study_date": "2027-01-04",
+      "order": 2,
+      "slug": "ingestao-e-chunking",
+      "title": "Ingestao e chunking",
+      "workspace": "projetos/assistente-suporte-ia",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 08-02 - Ingestao e chunking"
     },
     "E121": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 09-02 - Recuperacao",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 05-01 - RAG, recuperacao e geracao com fontes/modulos/01-e121"
+      "origin": "legacy",
+      "study_date": "2027-01-05",
+      "order": 1,
+      "slug": "recuperacao",
+      "title": "Recuperacao",
+      "workspace": "projetos/assistente-suporte-ia",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 09-02 - Recuperacao"
     },
     "E122": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 10-02 - Geracao com fontes",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 05-01 - RAG, recuperacao e geracao com fontes/modulos/02-e122"
+      "origin": "legacy",
+      "study_date": "2027-01-05",
+      "order": 2,
+      "slug": "geracao-com-fontes",
+      "title": "Geracao com fontes",
+      "workspace": "projetos/assistente-suporte-ia",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 10-02 - Geracao com fontes"
     },
     "E123": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 11-02 - Avaliacao e publicacao",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 06-01 - Avaliacao e publicacao de RAG/modulos/01-e123"
+      "origin": "legacy",
+      "study_date": "2027-01-06",
+      "order": 1,
+      "slug": "avaliacao-e-publicacao",
+      "title": "Avaliacao e publicacao",
+      "workspace": "projetos/assistente-suporte-ia",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 11-02 - Avaliacao e publicacao"
     },
     "E124": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 12-02 - Definicao do produto integrador",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 07-01 - Produto integrador, definicao, dados e arquitetura/modulos/01-e124"
+      "origin": "legacy",
+      "study_date": "2027-01-07",
+      "order": 1,
+      "slug": "definicao-do-produto",
+      "title": "Definicao do produto integrador",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 12-02 - Definicao do produto integrador"
     },
     "E125": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 15-02 - Dados, SQL e arquitetura",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 07-01 - Produto integrador, definicao, dados e arquitetura/modulos/02-e125"
+      "origin": "legacy",
+      "study_date": "2027-01-07",
+      "order": 2,
+      "slug": "dados-sql-e-arquitetura",
+      "title": "Dados, SQL e arquitetura",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 15-02 - Dados, SQL e arquitetura"
     },
     "E126": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 16-02 - EDA, baseline e decisao",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 08-01 - EDA, baseline e decisao do produto/modulos/01-e126"
+      "origin": "legacy",
+      "study_date": "2027-01-08",
+      "order": 1,
+      "slug": "eda-baseline-e-decisao",
+      "title": "EDA, baseline e decisao",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 16-02 - EDA, baseline e decisao"
     },
     "E127": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 17-02 - Modelo, IA e interface",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 11-01 - Modelo, IA e interface do produto/modulos/01-e127"
+      "origin": "legacy",
+      "study_date": "2027-01-11",
+      "order": 1,
+      "slug": "modelo-ia-e-interface",
+      "title": "Modelo, IA e interface",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 17-02 - Modelo, IA e interface"
     },
     "E128": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 18-02 - Teste, apresentacao e retrospectiva",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 12-01 - Testes, apresentacao e retrospectiva do produto/modulos/01-e128"
+      "origin": "legacy",
+      "study_date": "2027-01-12",
+      "order": 1,
+      "slug": "teste-apresentacao-e-retrospectiva",
+      "title": "Teste, apresentacao e retrospectiva",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 18-02 - Teste, apresentacao e retrospectiva"
     },
     "E129": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 19-02 - GitHub e portfolio",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 13-01 - GitHub, portfolio, curriculo e LinkedIn/modulos/01-e129"
+      "origin": "legacy",
+      "study_date": "2027-01-13",
+      "order": 1,
+      "slug": "github-e-portfolio",
+      "title": "GitHub e portfolio",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 19-02 - GitHub e portfolio"
     },
     "E13": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 03-09 - Arquivos CSV, JSON e caminhos",
-      "new": "02 - Setembro 2026 [0-21]/Dia 02-09 - CSV, JSON, caminhos e validacao/modulos/01-e13"
+      "origin": "legacy",
+      "study_date": "2026-09-02",
+      "order": 1,
+      "slug": "arquivos-csv-json-e-caminhos",
+      "title": "Arquivos CSV, JSON e caminhos",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 03-09 - Arquivos CSV, JSON e caminhos"
     },
     "E130": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 22-02 - Curriculo, LinkedIn e narrativa",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 13-01 - GitHub, portfolio, curriculo e LinkedIn/modulos/02-e130"
+      "origin": "legacy",
+      "study_date": "2027-01-13",
+      "order": 2,
+      "slug": "curriculo-linkedin-e-narrativa",
+      "title": "Curriculo, LinkedIn e narrativa",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 22-02 - Curriculo, LinkedIn e narrativa"
     },
     "E131": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 23-02 - Simulado de Python e SQL",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 14-01 - Simulado de Python e SQL/modulos/01-e131"
+      "origin": "legacy",
+      "study_date": "2027-01-14",
+      "order": 1,
+      "slug": "simulado-de-python-e-sql",
+      "title": "Simulado de Python e SQL",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 23-02 - Simulado de Python e SQL"
     },
     "E132": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 24-02 - Simulado de Estatistica, ML e comportamento",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 15-01 - Simulado de Estatistica, ML e comportamento/modulos/01-e132"
+      "origin": "legacy",
+      "study_date": "2027-01-15",
+      "order": 1,
+      "slug": "simulado-de-estatistica",
+      "title": "Simulado de Estatística, ML e comportamento",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 24-02 - Simulado de Estatistica, ML e comportamento"
     },
     "E133": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 25-02 - Pre-projeto e banca zero do TCC",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 18-01 - Pre-projeto e banca zero do TCC/modulos/01-e133"
+      "origin": "legacy",
+      "study_date": "2027-01-18",
+      "order": 1,
+      "slug": "pre-projeto-e-banca-zero-churn-e-efeito",
+      "title": "Pré-projeto e banca zero — churn e efeito incremental",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 25-02 - Pre-projeto e banca zero do TCC"
     },
     "E134": {
-      "old": "07 - Fevereiro 2027 [0-20]/Dia 26-02 - TCC - universo, dados e protocolo financeiro",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 19-01 - TCC, problema, dados e protocolo de retencao/modulos/01-e134"
+      "origin": "legacy",
+      "study_date": "2027-01-19",
+      "order": 1,
+      "slug": "tcc-dados-schema-leakage-e-protocolo",
+      "title": "TCC — dados, schema, leakage e protocolo experimental",
+      "legacy_path": "07 - Fevereiro 2027 [0-20]/Dia 26-02 - TCC - universo, dados e protocolo financeiro"
     },
     "E135": {
-      "old": "08 - Marco 2027 [0-4]/Dia 01-03 - TCC - fatores e motor de ranking",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 20-01 - TCC, baselines, modelos e calibracao/modulos/01-e135"
+      "origin": "legacy",
+      "study_date": "2027-01-20",
+      "order": 1,
+      "slug": "tcc-benchmark-preditivo-e-ranking-de-risco",
+      "title": "TCC — benchmark preditivo e ranking de risco",
+      "legacy_path": "08 - Marco 2027 [0-4]/Dia 01-03 - TCC - fatores e motor de ranking"
     },
     "E136": {
-      "old": "08 - Marco 2027 [0-4]/Dia 02-03 - TCC - carteiras e backtest walk-forward",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 21-01 - TCC, politica, efeito incremental e custo/modulos/01-e136"
+      "origin": "legacy",
+      "study_date": "2027-01-21",
+      "order": 1,
+      "slug": "tcc-efeito-incremental-e-politica",
+      "title": "TCC — efeito incremental e política de retenção",
+      "legacy_path": "08 - Marco 2027 [0-4]/Dia 02-03 - TCC - carteiras e backtest walk-forward"
     },
     "E137": {
-      "old": "08 - Marco 2027 [0-4]/Dia 03-03 - TCC - dashboard, testes e relatorio",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 22-01 - TCC, monitoramento, testes e relatorio/modulos/01-e137"
+      "origin": "legacy",
+      "study_date": "2027-01-22",
+      "order": 1,
+      "slug": "tcc-testes-observabilidade-e-ciclo-de-vida",
+      "title": "TCC — testes, observabilidade e ciclo de vida",
+      "legacy_path": "08 - Marco 2027 [0-4]/Dia 03-03 - TCC - dashboard, testes e relatorio"
     },
     "E138": {
-      "old": "08 - Marco 2027 [0-4]/Dia 04-03 - TCC - publicacao, banca e candidaturas",
-      "new": "06 - Janeiro 2027 [0-16]/Dia 25-01 - TCC, publicacao, banca e candidaturas/modulos/01-e138"
+      "origin": "legacy",
+      "study_date": "2027-01-25",
+      "order": 1,
+      "slug": "tcc-release-banca-e-comunicacao",
+      "title": "TCC — release, banca e comunicação profissional",
+      "legacy_path": "08 - Marco 2027 [0-4]/Dia 04-03 - TCC - publicacao, banca e candidaturas"
     },
     "E14": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 04-09 - Excecoes e validacao",
-      "new": "02 - Setembro 2026 [0-21]/Dia 02-09 - CSV, JSON, caminhos e validacao/modulos/02-e14"
+      "origin": "legacy",
+      "study_date": "2026-09-02",
+      "order": 2,
+      "slug": "excecoes-e-validacao",
+      "title": "Excecoes e validacao",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 04-09 - Excecoes e validacao"
     },
     "E15": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 07-09 - Modulos, pacotes e ambientes",
-      "new": "02 - Setembro 2026 [0-21]/Dia 03-09 - Ambientes e Python profissional/modulos/01-e15"
+      "origin": "legacy",
+      "study_date": "2026-09-03",
+      "order": 1,
+      "slug": "modulos-pacotes-e-ambientes",
+      "title": "Modulos, pacotes e ambientes",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 07-09 - Modulos, pacotes e ambientes"
     },
     "E16": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 08-09 - Mini-projeto de consolidacao",
-      "new": "02 - Setembro 2026 [0-21]/Dia 04-09 - Mini-projeto de consolidacao/modulos/01-e16"
+      "origin": "legacy",
+      "study_date": "2026-09-04",
+      "order": 1,
+      "slug": "mini-projeto-de-consolidacao",
+      "title": "Mini-projeto de consolidacao",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 08-09 - Mini-projeto de consolidacao"
     },
     "E17": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 09-09 - NumPy essencial",
-      "new": "02 - Setembro 2026 [0-21]/Dia 08-09 - NumPy e pandas/modulos/01-e17"
+      "origin": "legacy",
+      "study_date": "2026-09-08",
+      "order": 1,
+      "slug": "numpy-essencial",
+      "title": "NumPy essencial",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 09-09 - NumPy essencial"
     },
     "E18": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 10-09 - pandas - Series e DataFrame",
-      "new": "02 - Setembro 2026 [0-21]/Dia 08-09 - NumPy e pandas/modulos/02-e18"
+      "origin": "legacy",
+      "study_date": "2026-09-08",
+      "order": 2,
+      "slug": "pandas-series-e-dataframe",
+      "title": "pandas - Series e DataFrame",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 10-09 - pandas - Series e DataFrame"
     },
     "E19": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 11-09 - Limpeza de dados",
-      "new": "02 - Setembro 2026 [0-21]/Dia 09-09 - Limpeza, agrupamento, merge e reshape/modulos/01-e19"
+      "origin": "legacy",
+      "study_date": "2026-09-09",
+      "order": 1,
+      "slug": "limpeza-de-dados",
+      "title": "Limpeza de dados",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 11-09 - Limpeza de dados"
     },
     "E20": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 14-09 - Agrupamento, merge e reshape",
-      "new": "02 - Setembro 2026 [0-21]/Dia 09-09 - Limpeza, agrupamento, merge e reshape/modulos/02-e20"
+      "origin": "legacy",
+      "study_date": "2026-09-09",
+      "order": 2,
+      "slug": "agrupamento-merge-e-reshape",
+      "title": "Agrupamento, merge e reshape",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 14-09 - Agrupamento, merge e reshape"
     },
     "E21": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 15-09 - EDA pratica",
-      "new": "02 - Setembro 2026 [0-21]/Dia 10-09 - EDA e fundamentos de visualizacao/modulos/01-e21"
+      "origin": "legacy",
+      "study_date": "2026-09-10",
+      "order": 1,
+      "slug": "eda-pratica",
+      "title": "EDA pratica",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 15-09 - EDA pratica"
     },
     "E22": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 16-09 - Fundamentos de visualizacao",
-      "new": "02 - Setembro 2026 [0-21]/Dia 10-09 - EDA e fundamentos de visualizacao/modulos/02-e22"
+      "origin": "legacy",
+      "study_date": "2026-09-10",
+      "order": 2,
+      "slug": "fundamentos-de-visualizacao",
+      "title": "Fundamentos de visualizacao",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 16-09 - Fundamentos de visualizacao"
     },
     "E23": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 17-09 - Visualizacao com pandas e Matplotlib",
-      "new": "02 - Setembro 2026 [0-21]/Dia 11-09 - Matplotlib, storytelling e recomendacao/modulos/01-e23"
+      "origin": "legacy",
+      "study_date": "2026-09-11",
+      "order": 1,
+      "slug": "visualizacao-com-pandas",
+      "title": "Visualizacao com pandas e Matplotlib",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 17-09 - Visualizacao com pandas e Matplotlib"
     },
     "E24": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 18-09 - Storytelling e recomendacao",
-      "new": "02 - Setembro 2026 [0-21]/Dia 11-09 - Matplotlib, storytelling e recomendacao/modulos/02-e24"
+      "origin": "legacy",
+      "study_date": "2026-09-11",
+      "order": 2,
+      "slug": "storytelling-e-recomendacao",
+      "title": "Storytelling e recomendacao",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 18-09 - Storytelling e recomendacao"
     },
     "E25": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 21-09 - Dashboard introdutorio",
-      "new": "02 - Setembro 2026 [0-21]/Dia 14-09 - Dashboard e Power BI avancado/modulos/01-e25"
+      "origin": "legacy",
+      "study_date": "2026-09-14",
+      "order": 1,
+      "slug": "dashboard-introdutorio",
+      "title": "Dashboard introdutorio",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 21-09 - Dashboard introdutorio"
     },
     "E26": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva",
-      "new": "02 - Setembro 2026 [0-21]/Dia 15-09 - Entrega executiva/modulos/01-e26"
+      "origin": "legacy",
+      "study_date": "2026-09-15",
+      "order": 1,
+      "slug": "entrega-executiva",
+      "title": "Entrega executiva",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 22-09 - Entrega executiva"
     },
     "E27": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 23-09 - Banco relacional e SELECT",
-      "new": "02 - Setembro 2026 [0-21]/Dia 17-09 - SQL SELECT, filtros e funcoes/modulos/01-e27"
+      "origin": "legacy",
+      "study_date": "2026-09-17",
+      "order": 1,
+      "slug": "banco-relacional-e-select",
+      "title": "Banco relacional e SELECT",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 23-09 - Banco relacional e SELECT"
     },
     "E28": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 24-09 - Filtros e funcoes",
-      "new": "02 - Setembro 2026 [0-21]/Dia 17-09 - SQL SELECT, filtros e funcoes/modulos/02-e28"
+      "origin": "legacy",
+      "study_date": "2026-09-17",
+      "order": 2,
+      "slug": "filtros-e-funcoes",
+      "title": "Filtros e funcoes",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 24-09 - Filtros e funcoes"
     },
     "E29": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 25-09 - Agregacoes",
-      "new": "02 - Setembro 2026 [0-21]/Dia 18-09 - SQL agregacoes e JOINs/modulos/01-e29"
+      "origin": "legacy",
+      "study_date": "2026-09-18",
+      "order": 1,
+      "slug": "agregacoes",
+      "title": "Agregacoes",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 25-09 - Agregacoes"
     },
     "E30": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 28-09 - JOINs",
-      "new": "02 - Setembro 2026 [0-21]/Dia 18-09 - SQL agregacoes e JOINs/modulos/02-e30"
+      "origin": "legacy",
+      "study_date": "2026-09-18",
+      "order": 2,
+      "slug": "joins",
+      "title": "JOINs",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 28-09 - JOINs"
     },
     "E31": {
-      "old": "02 - Setembro 2026 [0-21]/Dia 29-09 - Mini-case SQL",
-      "new": "02 - Setembro 2026 [0-21]/Dia 22-09 - Mini-case SQL/modulos/01-e31"
+      "origin": "legacy",
+      "study_date": "2026-09-22",
+      "order": 1,
+      "slug": "mini-case-sql",
+      "title": "Mini-case SQL",
+      "legacy_path": "02 - Setembro 2026 [0-21]/Dia 29-09 - Mini-case SQL"
     },
     "E32": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 01-10 - Subqueries e CTEs",
-      "new": "02 - Setembro 2026 [0-21]/Dia 23-09 - CTEs, subqueries e funcoes de janela/modulos/01-e32"
+      "origin": "legacy",
+      "study_date": "2026-09-23",
+      "order": 1,
+      "slug": "subqueries-e-ctes",
+      "title": "Subqueries e CTEs",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 01-10 - Subqueries e CTEs"
     },
     "E33": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 02-10 - Funcoes de janela",
-      "new": "02 - Setembro 2026 [0-21]/Dia 23-09 - CTEs, subqueries e funcoes de janela/modulos/02-e33"
+      "origin": "legacy",
+      "study_date": "2026-09-23",
+      "order": 2,
+      "slug": "funcoes-de-janela",
+      "title": "Funcoes de janela",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 02-10 - Funcoes de janela"
     },
     "E34": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 05-10 - Datas e analise temporal",
-      "new": "02 - Setembro 2026 [0-21]/Dia 24-09 - Datas SQL, cohorts e retencao/modulos/01-e34"
+      "origin": "legacy",
+      "study_date": "2026-09-24",
+      "order": 1,
+      "slug": "datas-e-analise-temporal",
+      "title": "Datas e analise temporal",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 05-10 - Datas e analise temporal"
     },
     "E35": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 06-10 - Cohorts e retencao",
-      "new": "02 - Setembro 2026 [0-21]/Dia 24-09 - Datas SQL, cohorts e retencao/modulos/02-e35"
+      "origin": "legacy",
+      "study_date": "2026-09-24",
+      "order": 2,
+      "slug": "cohorts-e-retencao",
+      "title": "Cohorts e retencao",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 06-10 - Cohorts e retencao"
     },
     "E36": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL",
-      "new": "02 - Setembro 2026 [0-21]/Dia 25-09 - Simulado SQL/modulos/01-e36"
+      "origin": "legacy",
+      "study_date": "2026-09-25",
+      "order": 1,
+      "slug": "simulado-sql",
+      "title": "Simulado SQL",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 07-10 - Simulado SQL"
     },
     "E37": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 08-10 - Medidas e distribuicoes",
-      "new": "02 - Setembro 2026 [0-21]/Dia 28-09 - Medidas, distribuicoes e probabilidade/modulos/01-e37"
+      "origin": "legacy",
+      "study_date": "2026-09-28",
+      "order": 1,
+      "slug": "medidas-e-distribuicoes",
+      "title": "Medidas e distribuicoes",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 08-10 - Medidas e distribuicoes"
     },
     "E38": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 09-10 - Probabilidade basica",
-      "new": "02 - Setembro 2026 [0-21]/Dia 28-09 - Medidas, distribuicoes e probabilidade/modulos/02-e38"
+      "origin": "legacy",
+      "study_date": "2026-09-28",
+      "order": 2,
+      "slug": "probabilidade-basica",
+      "title": "Probabilidade basica",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 09-10 - Probabilidade basica"
     },
     "E39": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 12-10 - Distribuicoes importantes",
-      "new": "02 - Setembro 2026 [0-21]/Dia 29-09 - Distribuicoes, amostragem e LGN/modulos/01-e39"
+      "origin": "legacy",
+      "study_date": "2026-09-29",
+      "order": 1,
+      "slug": "distribuicoes-importantes",
+      "title": "Distribuicoes importantes",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 12-10 - Distribuicoes importantes"
     },
     "E40": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 13-10 - Amostragem e Lei dos Grandes Numeros",
-      "new": "02 - Setembro 2026 [0-21]/Dia 29-09 - Distribuicoes, amostragem e LGN/modulos/02-e40"
+      "origin": "legacy",
+      "study_date": "2026-09-29",
+      "order": 2,
+      "slug": "amostragem-e-lei-dos-grandes-numeros",
+      "title": "Amostragem e Lei dos Grandes Numeros",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 13-10 - Amostragem e Lei dos Grandes Numeros"
     },
     "E41": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 14-10 - Case estatistico",
-      "new": "02 - Setembro 2026 [0-21]/Dia 30-09 - Case estatistico e entrega de Product Analytics/modulos/01-e41"
+      "origin": "legacy",
+      "study_date": "2026-09-30",
+      "order": 1,
+      "slug": "case-estatistico",
+      "title": "Case estatistico",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 14-10 - Case estatistico"
     },
     "E42": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 15-10 - Intervalos de confianca",
-      "new": "03 - Outubro 2026 [0-21]/Dia 01-10 - Intervalos de confianca e testes de hipotese/modulos/01-e42"
+      "origin": "legacy",
+      "study_date": "2026-10-01",
+      "order": 1,
+      "slug": "intervalos-de-confianca",
+      "title": "Intervalos de confianca",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 15-10 - Intervalos de confianca"
     },
     "E43": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 16-10 - Testes de hipotese",
-      "new": "03 - Outubro 2026 [0-21]/Dia 01-10 - Intervalos de confianca e testes de hipotese/modulos/02-e43"
+      "origin": "legacy",
+      "study_date": "2026-10-01",
+      "order": 2,
+      "slug": "testes-de-hipotese",
+      "title": "Testes de hipotese",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 16-10 - Testes de hipotese"
     },
     "E44": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 19-10 - Teste A-B",
-      "new": "03 - Outubro 2026 [0-21]/Dia 02-10 - Teste A-B e experimentacao avancada/modulos/01-e44"
+      "origin": "legacy",
+      "study_date": "2026-10-02",
+      "order": 1,
+      "slug": "teste-a-b",
+      "title": "Teste A-B",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 19-10 - Teste A-B"
     },
     "E45": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 20-10 - Correlacao, causalidade e vieses",
-      "new": "03 - Outubro 2026 [0-21]/Dia 05-10 - Correlacao, vieses e causalidade/modulos/01-e45"
+      "origin": "legacy",
+      "study_date": "2026-10-05",
+      "order": 1,
+      "slug": "correlacao-causalidade-e-vieses",
+      "title": "Correlacao, causalidade e vieses",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 20-10 - Correlacao, causalidade e vieses"
     },
     "E46": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento",
-      "new": "03 - Outubro 2026 [0-21]/Dia 08-10 - Entrega de experimento causal/modulos/01-e46"
+      "origin": "legacy",
+      "study_date": "2026-10-08",
+      "order": 1,
+      "slug": "entrega-de-experimento",
+      "title": "Entrega de experimento",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 21-10 - Entrega de experimento"
     },
     "E47": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 22-10 - Definicao do problema",
-      "new": "03 - Outubro 2026 [0-21]/Dia 09-10 - Problema de ML, split e leakage/modulos/01-e47"
+      "origin": "legacy",
+      "study_date": "2026-10-09",
+      "order": 1,
+      "slug": "definicao-do-problema",
+      "title": "Definicao do problema",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 22-10 - Definicao do problema"
     },
     "E48": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 23-10 - Separacao e vazamento",
-      "new": "03 - Outubro 2026 [0-21]/Dia 09-10 - Problema de ML, split e leakage/modulos/02-e48"
+      "origin": "legacy",
+      "study_date": "2026-10-09",
+      "order": 2,
+      "slug": "separacao-e-vazamento",
+      "title": "Separacao e vazamento",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 23-10 - Separacao e vazamento"
     },
     "E49": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 26-10 - Pre-processamento com Pipeline",
-      "new": "03 - Outubro 2026 [0-21]/Dia 13-10 - Pre-processamento e metricas de classificacao/modulos/01-e49"
+      "origin": "legacy",
+      "study_date": "2026-10-13",
+      "order": 1,
+      "slug": "pre-processamento-com-pipeline",
+      "title": "Pre-processamento com Pipeline",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 26-10 - Pre-processamento com Pipeline"
     },
     "E50": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 27-10 - Metricas de classificacao",
-      "new": "03 - Outubro 2026 [0-21]/Dia 13-10 - Pre-processamento e metricas de classificacao/modulos/02-e50"
+      "origin": "legacy",
+      "study_date": "2026-10-13",
+      "order": 2,
+      "slug": "metricas-de-classificacao",
+      "title": "Metricas de classificacao",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 27-10 - Metricas de classificacao"
     },
     "E51": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 28-10 - Baseline completo",
-      "new": "03 - Outubro 2026 [0-21]/Dia 14-10 - Baseline completo de ML/modulos/01-e51"
+      "origin": "legacy",
+      "study_date": "2026-10-14",
+      "order": 1,
+      "slug": "baseline-completo",
+      "title": "Baseline completo",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 28-10 - Baseline completo"
     },
     "E52": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 29-10 - Regressao linear",
-      "new": "03 - Outubro 2026 [0-21]/Dia 15-10 - Regressao linear e metricas/modulos/01-e52"
+      "origin": "legacy",
+      "study_date": "2026-10-15",
+      "order": 1,
+      "slug": "regressao-linear",
+      "title": "Regressao linear",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 29-10 - Regressao linear"
     },
     "E53": {
-      "old": "03 - Outubro 2026 [0-22]/Dia 30-10 - Metricas de regressao",
-      "new": "03 - Outubro 2026 [0-21]/Dia 15-10 - Regressao linear e metricas/modulos/02-e53"
+      "origin": "legacy",
+      "study_date": "2026-10-15",
+      "order": 2,
+      "slug": "metricas-de-regressao",
+      "title": "Metricas de regressao",
+      "legacy_path": "03 - Outubro 2026 [0-22]/Dia 30-10 - Metricas de regressao"
     },
     "E54": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 02-11 - Regularizacao",
-      "new": "03 - Outubro 2026 [0-21]/Dia 16-10 - Regularizacao e feature engineering/modulos/01-e54"
+      "origin": "legacy",
+      "study_date": "2026-10-16",
+      "order": 1,
+      "slug": "regularizacao",
+      "title": "Regularizacao",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 02-11 - Regularizacao"
     },
     "E55": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 03-11 - Feature engineering para regressao",
-      "new": "03 - Outubro 2026 [0-21]/Dia 16-10 - Regularizacao e feature engineering/modulos/02-e55"
+      "origin": "legacy",
+      "study_date": "2026-10-16",
+      "order": 2,
+      "slug": "feature-engineering-para-regressao",
+      "title": "Feature engineering para regressao",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 03-11 - Feature engineering para regressao"
     },
     "E56": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 04-11 - Mini-projeto de regressao",
-      "new": "03 - Outubro 2026 [0-21]/Dia 19-10 - Mini-projeto de regressao/modulos/01-e56"
+      "origin": "legacy",
+      "study_date": "2026-10-19",
+      "order": 1,
+      "slug": "mini-projeto-de-regressao",
+      "title": "Mini-projeto de regressao",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 04-11 - Mini-projeto de regressao"
     },
     "E57": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 05-11 - Regressao logistica",
-      "new": "03 - Outubro 2026 [0-21]/Dia 20-10 - Regressao logistica, limiar e custo/modulos/01-e57"
+      "origin": "legacy",
+      "study_date": "2026-10-20",
+      "order": 1,
+      "slug": "regressao-logistica",
+      "title": "Regressao logistica",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 05-11 - Regressao logistica"
     },
     "E58": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 06-11 - Limiar e custo",
-      "new": "03 - Outubro 2026 [0-21]/Dia 20-10 - Regressao logistica, limiar e custo/modulos/02-e58"
+      "origin": "legacy",
+      "study_date": "2026-10-20",
+      "order": 2,
+      "slug": "limiar-e-custo",
+      "title": "Limiar e custo",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 06-11 - Limiar e custo"
     },
     "E59": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 09-11 - Calibracao e probabilidades",
-      "new": "03 - Outubro 2026 [0-21]/Dia 21-10 - Calibracao e classes desbalanceadas/modulos/01-e59"
+      "origin": "legacy",
+      "study_date": "2026-10-21",
+      "order": 1,
+      "slug": "calibracao-e-probabilidades",
+      "title": "Calibracao e probabilidades",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 09-11 - Calibracao e probabilidades"
     },
     "E60": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 10-11 - Classes desbalanceadas",
-      "new": "03 - Outubro 2026 [0-21]/Dia 21-10 - Calibracao e classes desbalanceadas/modulos/02-e60"
+      "origin": "legacy",
+      "study_date": "2026-10-21",
+      "order": 2,
+      "slug": "classes-desbalanceadas",
+      "title": "Classes desbalanceadas",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 10-11 - Classes desbalanceadas"
     },
     "E61": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 11-11 - Case de decisao",
-      "new": "03 - Outubro 2026 [0-21]/Dia 22-10 - Case de decisao/modulos/01-e61"
+      "origin": "legacy",
+      "study_date": "2026-10-22",
+      "order": 1,
+      "slug": "case-de-decisao",
+      "title": "Case de decisao",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 11-11 - Case de decisao"
     },
     "E62": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 12-11 - Arvore de decisao",
-      "new": "03 - Outubro 2026 [0-21]/Dia 23-10 - Arvore de decisao e Random Forest/modulos/01-e62"
+      "origin": "legacy",
+      "study_date": "2026-10-23",
+      "order": 1,
+      "slug": "arvore-de-decisao",
+      "title": "Arvore de decisao",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 12-11 - Arvore de decisao"
     },
     "E63": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 13-11 - Random Forest",
-      "new": "03 - Outubro 2026 [0-21]/Dia 23-10 - Arvore de decisao e Random Forest/modulos/02-e63"
+      "origin": "legacy",
+      "study_date": "2026-10-23",
+      "order": 2,
+      "slug": "random-forest",
+      "title": "Random Forest",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 13-11 - Random Forest"
     },
     "E64": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 16-11 - Gradient Boosting",
-      "new": "03 - Outubro 2026 [0-21]/Dia 26-10 - Gradient Boosting e XGBoost/modulos/01-e64"
+      "origin": "legacy",
+      "study_date": "2026-10-26",
+      "order": 1,
+      "slug": "gradient-boosting",
+      "title": "Gradient Boosting",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 16-11 - Gradient Boosting"
     },
     "E65": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 17-11 - Selecao de modelo",
-      "new": "03 - Outubro 2026 [0-21]/Dia 27-10 - Selecao de modelo/modulos/01-e65"
+      "origin": "legacy",
+      "study_date": "2026-10-27",
+      "order": 1,
+      "slug": "selecao-de-modelo",
+      "title": "Selecao de modelo",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 17-11 - Selecao de modelo"
     },
     "E66": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 18-11 - Benchmark publicado",
-      "new": "03 - Outubro 2026 [0-21]/Dia 28-10 - Benchmark publicado/modulos/01-e66"
+      "origin": "legacy",
+      "study_date": "2026-10-28",
+      "order": 1,
+      "slug": "benchmark-publicado",
+      "title": "Benchmark publicado",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 18-11 - Benchmark publicado"
     },
     "E67": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 19-11 - Feature engineering",
-      "new": "03 - Outubro 2026 [0-21]/Dia 29-10 - Feature engineering, validacao cruzada e tuning/modulos/01-e67"
+      "origin": "legacy",
+      "study_date": "2026-10-29",
+      "order": 1,
+      "slug": "feature-engineering",
+      "title": "Feature engineering",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 19-11 - Feature engineering"
     },
     "E68": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 20-11 - Validacao cruzada e tuning",
-      "new": "03 - Outubro 2026 [0-21]/Dia 29-10 - Feature engineering, validacao cruzada e tuning/modulos/02-e68"
+      "origin": "legacy",
+      "study_date": "2026-10-29",
+      "order": 2,
+      "slug": "validacao-cruzada-e-tuning",
+      "title": "Validacao cruzada e tuning",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 20-11 - Validacao cruzada e tuning"
     },
     "E69": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 23-11 - Selecao de variaveis",
-      "new": "03 - Outubro 2026 [0-21]/Dia 30-10 - Selecao de variaveis e explicabilidade/modulos/01-e69"
+      "origin": "legacy",
+      "study_date": "2026-10-30",
+      "order": 1,
+      "slug": "selecao-de-variaveis",
+      "title": "Selecao de variaveis",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 23-11 - Selecao de variaveis"
     },
     "E70": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 24-11 - Explicabilidade",
-      "new": "03 - Outubro 2026 [0-21]/Dia 30-10 - Selecao de variaveis e explicabilidade/modulos/02-e70"
+      "origin": "legacy",
+      "study_date": "2026-10-30",
+      "order": 2,
+      "slug": "explicabilidade",
+      "title": "Explicabilidade",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 24-11 - Explicabilidade"
     },
     "E71": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline",
-      "new": "04 - Novembro 2026 [0-19]/Dia 03-11 - Auditoria do pipeline/modulos/01-e71"
+      "origin": "legacy",
+      "study_date": "2026-11-03",
+      "order": 1,
+      "slug": "auditoria-do-pipeline",
+      "title": "Auditoria do pipeline",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 26-11 - Auditoria do pipeline"
     },
     "E72": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 27-11 - Definicao do case",
-      "new": "04 - Novembro 2026 [0-19]/Dia 04-11 - Churn, problema e qualidade dos dados/modulos/01-e72"
+      "origin": "legacy",
+      "study_date": "2026-11-04",
+      "order": 1,
+      "slug": "definicao-do-case",
+      "title": "Definicao do case",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 27-11 - Definicao do case"
     },
     "E73": {
-      "old": "04 - Novembro 2026 [0-20]/Dia 30-11 - Engenharia e qualidade dos dados",
-      "new": "04 - Novembro 2026 [0-19]/Dia 04-11 - Churn, problema e qualidade dos dados/modulos/02-e73"
+      "origin": "legacy",
+      "study_date": "2026-11-04",
+      "order": 2,
+      "slug": "engenharia-e-qualidade-dos-dados",
+      "title": "Engenharia e qualidade dos dados",
+      "legacy_path": "04 - Novembro 2026 [0-20]/Dia 30-11 - Engenharia e qualidade dos dados"
     },
     "E74": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 01-12 - EDA orientada a churn",
-      "new": "04 - Novembro 2026 [0-19]/Dia 05-11 - EDA e SQL do projeto de churn/modulos/01-e74"
+      "origin": "legacy",
+      "study_date": "2026-11-05",
+      "order": 1,
+      "slug": "eda-orientada-a-churn",
+      "title": "EDA orientada a churn",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 01-12 - EDA orientada a churn"
     },
     "E75": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 02-12 - SQL do projeto",
-      "new": "04 - Novembro 2026 [0-19]/Dia 05-11 - EDA e SQL do projeto de churn/modulos/02-e75"
+      "origin": "legacy",
+      "study_date": "2026-11-05",
+      "order": 2,
+      "slug": "sql-do-projeto",
+      "title": "SQL do projeto",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 02-12 - SQL do projeto"
     },
     "E76": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 03-12 - Preparacao para modelagem",
-      "new": "04 - Novembro 2026 [0-19]/Dia 06-11 - Preparacao, baselines e modelos de churn/modulos/01-e76"
+      "origin": "legacy",
+      "study_date": "2026-11-06",
+      "order": 1,
+      "slug": "preparacao-para-modelagem",
+      "title": "Preparacao para modelagem",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 03-12 - Preparacao para modelagem"
     },
     "E77": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 04-12 - Baselines e modelos",
-      "new": "04 - Novembro 2026 [0-19]/Dia 06-11 - Preparacao, baselines e modelos de churn/modulos/02-e77"
+      "origin": "legacy",
+      "study_date": "2026-11-06",
+      "order": 2,
+      "slug": "baselines-e-modelos",
+      "title": "Baselines e modelos",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 04-12 - Baselines e modelos"
     },
     "E78": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 07-12 - K-Means e PCA",
-      "new": "04 - Novembro 2026 [0-19]/Dia 09-11 - K-Means, PCA e DBSCAN/modulos/01-e78"
+      "origin": "legacy",
+      "study_date": "2026-11-09",
+      "order": 1,
+      "slug": "k-means-e-pca",
+      "title": "K-Means e PCA",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 07-12 - K-Means e PCA"
     },
     "E79": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 08-12 - DBSCAN e avaliacao de clusters",
-      "new": "04 - Novembro 2026 [0-19]/Dia 09-11 - K-Means, PCA e DBSCAN/modulos/02-e79"
+      "origin": "legacy",
+      "study_date": "2026-11-09",
+      "order": 2,
+      "slug": "dbscan-e-avaliacao-de-clusters",
+      "title": "DBSCAN e avaliacao de clusters",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 08-12 - DBSCAN e avaliacao de clusters"
     },
     "E80": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 09-12 - Limiar e estrategia de retencao",
-      "new": "04 - Novembro 2026 [0-19]/Dia 10-11 - Retencao, limiar, explicabilidade e segmentos/modulos/01-e80"
+      "origin": "legacy",
+      "study_date": "2026-11-10",
+      "order": 1,
+      "slug": "limiar-e-estrategia",
+      "title": "Limiar e estrategia de retencao",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 09-12 - Limiar e estrategia de retencao"
     },
     "E81": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 10-12 - Explicabilidade e segmentos",
-      "new": "04 - Novembro 2026 [0-19]/Dia 10-11 - Retencao, limiar, explicabilidade e segmentos/modulos/02-e81"
+      "origin": "legacy",
+      "study_date": "2026-11-10",
+      "order": 2,
+      "slug": "explicabilidade-e-segmentos",
+      "title": "Explicabilidade e segmentos",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 10-12 - Explicabilidade e segmentos"
     },
     "E82": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 11-12 - Relatorio e dashboard",
-      "new": "04 - Novembro 2026 [0-19]/Dia 11-11 - Relatorio e dashboard de churn/modulos/01-e82"
+      "origin": "legacy",
+      "study_date": "2026-11-11",
+      "order": 1,
+      "slug": "relatorio-e-dashboard",
+      "title": "Relatorio e dashboard",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 11-12 - Relatorio e dashboard"
     },
     "E83": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao",
-      "new": "04 - Novembro 2026 [0-19]/Dia 12-11 - Publicacao e apresentacao de churn/modulos/01-e83"
+      "origin": "legacy",
+      "study_date": "2026-11-12",
+      "order": 1,
+      "slug": "publicacao-e-apresentacao",
+      "title": "Publicacao e apresentacao",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 14-12 - Publicacao e apresentacao"
     },
     "E84": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 16-12 - Fundamentos temporais",
-      "new": "04 - Novembro 2026 [0-19]/Dia 19-11 - Series temporais e baselines/modulos/01-e84"
+      "origin": "legacy",
+      "study_date": "2026-11-19",
+      "order": 1,
+      "slug": "fundamentos-temporais",
+      "title": "Fundamentos temporais",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 16-12 - Fundamentos temporais"
     },
     "E85": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 17-12 - Baselines temporais",
-      "new": "04 - Novembro 2026 [0-19]/Dia 19-11 - Series temporais e baselines/modulos/02-e85"
+      "origin": "legacy",
+      "study_date": "2026-11-19",
+      "order": 2,
+      "slug": "baselines-temporais",
+      "title": "Baselines temporais",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 17-12 - Baselines temporais"
     },
     "E86": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 18-12 - Modelos tradicionais",
-      "new": "04 - Novembro 2026 [0-19]/Dia 23-11 - Modelos temporais tradicionais/modulos/01-e86"
+      "origin": "legacy",
+      "study_date": "2026-11-23",
+      "order": 1,
+      "slug": "modelos-tradicionais",
+      "title": "Modelos tradicionais",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 18-12 - Modelos tradicionais"
     },
     "E87": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 21-12 - Previsao e decisao",
-      "new": "04 - Novembro 2026 [0-19]/Dia 24-11 - Previsao e decisao/modulos/01-e87"
+      "origin": "legacy",
+      "study_date": "2026-11-24",
+      "order": 1,
+      "slug": "previsao-e-decisao",
+      "title": "Previsao e decisao",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 21-12 - Previsao e decisao"
     },
     "E88": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting",
-      "new": "04 - Novembro 2026 [0-19]/Dia 25-11 - Projeto de forecasting/modulos/01-e88"
+      "origin": "legacy",
+      "study_date": "2026-11-25",
+      "order": 1,
+      "slug": "projeto-de-forecasting",
+      "title": "Projeto de forecasting",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 22-12 - Projeto de forecasting"
     },
     "E89": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 23-12 - Problema e governanca",
-      "new": "04 - Novembro 2026 [0-19]/Dia 26-11 - Risco, problema, governanca e cohorts/modulos/01-e89"
+      "origin": "legacy",
+      "study_date": "2026-11-26",
+      "order": 1,
+      "slug": "problema-e-governanca",
+      "title": "Problema e governanca",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 23-12 - Problema e governanca"
     },
     "E90": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 24-12 - Dados e cohorts",
-      "new": "04 - Novembro 2026 [0-19]/Dia 26-11 - Risco, problema, governanca e cohorts/modulos/02-e90"
+      "origin": "legacy",
+      "study_date": "2026-11-26",
+      "order": 2,
+      "slug": "dados-e-cohorts",
+      "title": "Dados e cohorts",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 24-12 - Dados e cohorts"
     },
     "E91": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 25-12 - Modelagem de risco",
-      "new": "04 - Novembro 2026 [0-19]/Dia 27-11 - Modelagem de risco, politica e custo/modulos/01-e91"
+      "origin": "legacy",
+      "study_date": "2026-11-27",
+      "order": 1,
+      "slug": "modelagem-de-risco",
+      "title": "Modelagem de risco",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 25-12 - Modelagem de risco"
     },
     "E92": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 28-12 - Politica e custo",
-      "new": "04 - Novembro 2026 [0-19]/Dia 27-11 - Modelagem de risco, politica e custo/modulos/02-e92"
+      "origin": "legacy",
+      "study_date": "2026-11-27",
+      "order": 2,
+      "slug": "politica-e-custo",
+      "title": "Politica e custo",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 28-12 - Politica e custo"
     },
     "E93": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto",
-      "new": "04 - Novembro 2026 [0-19]/Dia 30-11 - Entrega do projeto de risco/modulos/01-e93"
+      "origin": "legacy",
+      "study_date": "2026-11-30",
+      "order": 1,
+      "slug": "entrega-do-projeto",
+      "title": "Entrega do projeto",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 29-12 - Entrega do projeto"
     },
     "E94": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 30-12 - ETL-ELT e arquitetura basica",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 01-12 - ETL, ELT e pipeline em Python/modulos/01-e94"
+      "origin": "legacy",
+      "study_date": "2026-12-01",
+      "order": 1,
+      "slug": "etl-elt-e-arquitetura-basica",
+      "title": "ETL-ELT e arquitetura basica",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 30-12 - ETL-ELT e arquitetura basica"
     },
     "E95": {
-      "old": "05 - Dezembro 2026 [0-22]/Dia 31-12 - Pipeline em Python",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 01-12 - ETL, ELT e pipeline em Python/modulos/02-e95"
+      "origin": "legacy",
+      "study_date": "2026-12-01",
+      "order": 2,
+      "slug": "pipeline-em-python",
+      "title": "Pipeline em Python",
+      "legacy_path": "05 - Dezembro 2026 [0-22]/Dia 31-12 - Pipeline em Python"
     },
     "E96": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 01-01 - Orquestracao conceitual",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 02-12 - Orquestracao e Airflow real/modulos/01-e96"
+      "origin": "legacy",
+      "study_date": "2026-12-02",
+      "order": 1,
+      "slug": "orquestracao-conceitual",
+      "title": "Orquestracao conceitual",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 01-01 - Orquestracao conceitual"
     },
     "E97": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 04-01 - Databricks e Spark introdutorio",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 03-12 - Spark e Databricks/modulos/01-e97"
+      "origin": "legacy",
+      "study_date": "2026-12-03",
+      "order": 1,
+      "slug": "databricks-e-spark-introdutorio",
+      "title": "Databricks e Spark introdutorio",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 04-01 - Databricks e Spark introdutorio"
     },
     "E98": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 05-01 - Entrega do pipeline",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 04-12 - Entrega do pipeline de dados/modulos/01-e98"
+      "origin": "legacy",
+      "study_date": "2026-12-04",
+      "order": 1,
+      "slug": "entrega-do-pipeline",
+      "title": "Entrega do pipeline",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 05-01 - Entrega do pipeline"
     },
     "E99": {
-      "old": "06 - Janeiro 2027 [0-19]/Dia 06-01 - Git profissional basico",
-      "new": "05 - Dezembro 2026 [0-22]/Dia 07-12 - Git profissional e refatoracao/modulos/01-e99"
+      "origin": "legacy",
+      "study_date": "2026-12-07",
+      "order": 1,
+      "slug": "git-profissional-basico",
+      "title": "Git profissional basico",
+      "legacy_path": "06 - Janeiro 2027 [0-19]/Dia 06-01 - Git profissional basico"
+    },
+    "N01": {
+      "origin": "market",
+      "study_date": "2026-09-03",
+      "order": 2,
+      "slug": "python-profissional-oop-dataclasses-tipos",
+      "title": "Python profissional: OOP, dataclasses, tipos e módulos"
+    },
+    "N02": {
+      "origin": "market",
+      "study_date": "2026-09-21",
+      "order": 1,
+      "slug": "modelagem-dimensional-fatos-dimensoes",
+      "title": "Modelagem dimensional: fatos, dimensões, grão e SCD"
+    },
+    "N03": {
+      "origin": "market",
+      "study_date": "2026-09-21",
+      "order": 2,
+      "slug": "performance-sql-explain-indices-particoes",
+      "title": "Performance SQL: EXPLAIN, índices, partições e custo"
+    },
+    "N04": {
+      "origin": "market",
+      "study_date": "2026-09-14",
+      "order": 2,
+      "slug": "power-bi-avancado-modelo-estrela-dax",
+      "title": "Power BI avançado: modelo estrela, DAX e contexto de filtro"
+    },
+    "N05": {
+      "origin": "market",
+      "study_date": "2026-09-16",
+      "order": 1,
+      "slug": "product-analytics-i-tracking-plan-eventos",
+      "title": "Product Analytics I: tracking plan, eventos e árvore de métricas"
+    },
+    "N06": {
+      "origin": "market",
+      "study_date": "2026-09-16",
+      "order": 2,
+      "slug": "product-analytics-ii-funil-ativacao",
+      "title": "Product Analytics II: funil, ativação, retenção, cohorts e LTV"
+    },
+    "N07": {
+      "origin": "market",
+      "study_date": "2026-10-02",
+      "order": 2,
+      "slug": "experimentacao-avancada-testes-multiplos",
+      "title": "Experimentação avançada: testes múltiplos, CUPED e desenho sequencial"
+    },
+    "N08": {
+      "origin": "market",
+      "study_date": "2026-10-05",
+      "order": 2,
+      "slug": "causalidade-i-contrafactual-dag",
+      "title": "Causalidade I: contrafactual, DAG, identificação e backdoor"
+    },
+    "N09": {
+      "origin": "market",
+      "study_date": "2026-10-06",
+      "order": 1,
+      "slug": "causalidade-ii-propensity-score-matching",
+      "title": "Causalidade II: propensity score, matching, IPW e balanceamento"
+    },
+    "N10": {
+      "origin": "market",
+      "study_date": "2026-10-06",
+      "order": 2,
+      "slug": "causalidade-iii-diferencas-em-diferencas",
+      "title": "Causalidade III: diferenças em diferenças e estudo de evento"
+    },
+    "N11": {
+      "origin": "market",
+      "study_date": "2026-10-07",
+      "order": 1,
+      "slug": "causalidade-iv-controle-sintetico",
+      "title": "Causalidade IV: controle sintético e placebos"
+    },
+    "N12": {
+      "origin": "market",
+      "study_date": "2026-12-22",
+      "order": 1,
+      "slug": "nlp-classico-normalizacao-tf-idf",
+      "title": "NLP clássico: normalização, TF-IDF e classificação de texto"
+    },
+    "N13": {
+      "origin": "market",
+      "study_date": "2026-12-22",
+      "order": 2,
+      "slug": "nlp-aplicado-ner-dados-multilingues",
+      "title": "NLP aplicado: NER, dados multilíngues e análise de erros"
+    },
+    "N14": {
+      "origin": "market",
+      "study_date": "2026-12-23",
+      "order": 1,
+      "slug": "entity-matching-i-normalizacao",
+      "title": "Entity matching I: normalização e baselines exato, fuzzy e TF-IDF"
+    },
+    "N15": {
+      "origin": "market",
+      "study_date": "2026-12-23",
+      "order": 2,
+      "slug": "entity-matching-ii-blocking-deduplicacao",
+      "title": "Entity matching II: blocking, deduplicação e geração de candidatos"
+    },
+    "N16": {
+      "origin": "market",
+      "study_date": "2026-12-28",
+      "order": 2,
+      "slug": "entity-matching-iii-embeddings-hard",
+      "title": "Entity matching III: embeddings, hard negatives e multilinguismo"
+    },
+    "N17": {
+      "origin": "market",
+      "study_date": "2026-12-29",
+      "order": 2,
+      "slug": "ranking-de-candidatos-e-introducao",
+      "title": "Ranking de candidatos e introdução a sistemas de recomendação"
+    },
+    "N18": {
+      "origin": "market",
+      "study_date": "2026-12-30",
+      "order": 1,
+      "slug": "entrega-real-entity-matching-lab",
+      "title": "Entrega real: Entity Matching Lab"
+    },
+    "N19": {
+      "origin": "market",
+      "study_date": "2026-11-13",
+      "order": 1,
+      "slug": "pytorch-i-tensores-dataset-dataloader",
+      "title": "PyTorch I: tensores, Dataset, DataLoader, autograd e training loop"
+    },
+    "N20": {
+      "origin": "market",
+      "study_date": "2026-11-16",
+      "order": 1,
+      "slug": "pytorch-ii-mlp-regularizacao",
+      "title": "PyTorch II: MLP, regularização, desbalanceamento e tracking"
+    },
+    "N21": {
+      "origin": "market",
+      "study_date": "2026-11-17",
+      "order": 1,
+      "slug": "visao-computacional-i-classificacao",
+      "title": "Visão computacional I: classificação e transfer learning"
+    },
+    "N22": {
+      "origin": "market",
+      "study_date": "2026-11-18",
+      "order": 1,
+      "slug": "visao-computacional-ii-deteccao",
+      "title": "Visão computacional II: detecção, segmentação, IoU, mAP e Dice"
+    },
+    "N23": {
+      "origin": "market",
+      "study_date": "2026-12-15",
+      "order": 2,
+      "slug": "gcp-pratico-iam-service-accounts-e-cloud",
+      "title": "GCP prático: IAM, service accounts e Cloud Storage"
+    },
+    "N24": {
+      "origin": "market",
+      "study_date": "2026-12-16",
+      "order": 2,
+      "slug": "bigquery-warehouse-particoes-custo",
+      "title": "BigQuery: warehouse, partições, custo e consultas reais"
+    },
+    "N25": {
+      "origin": "market",
+      "study_date": "2026-12-02",
+      "order": 2,
+      "slug": "airflow-real-dag-retries-backfill",
+      "title": "Airflow real: DAG, retries, backfill e observabilidade"
+    },
+    "N26": {
+      "origin": "market",
+      "study_date": "2026-09-02",
+      "order": 3,
+      "slug": "consumo-seguro-e-confiavel-de-apis-rest",
+      "title": "Consumo seguro e confiável de APIs REST com Python"
+    },
+    "N27": {
+      "origin": "market",
+      "study_date": "2026-09-14",
+      "order": 3,
+      "slug": "excel-analitico-e-power-query",
+      "title": "Excel analítico e Power Query"
+    },
+    "N28": {
+      "origin": "market",
+      "study_date": "2026-12-16",
+      "order": 3,
+      "slug": "dbt-e-analytics-engineering",
+      "title": "dbt e Analytics Engineering"
+    },
+    "N29": {
+      "origin": "market",
+      "study_date": "2027-01-14",
+      "order": 2,
+      "slug": "case-tecnico-cronometrado-com-excel-sql",
+      "title": "Case técnico cronometrado com Excel, SQL, Python e Power BI"
     }
-  },
-  "new_module_destinations": {
-    "N01": "02 - Setembro 2026 [0-21]/Dia 03-09 - Ambientes e Python profissional/modulos/02-n01",
-    "N02": "02 - Setembro 2026 [0-21]/Dia 21-09 - Modelagem dimensional e performance SQL/modulos/01-n02",
-    "N03": "02 - Setembro 2026 [0-21]/Dia 21-09 - Modelagem dimensional e performance SQL/modulos/02-n03",
-    "N04": "02 - Setembro 2026 [0-21]/Dia 14-09 - Dashboard e Power BI avancado/modulos/02-n04",
-    "N05": "02 - Setembro 2026 [0-21]/Dia 16-09 - Product Analytics, eventos e metricas/modulos/01-n05",
-    "N06": "02 - Setembro 2026 [0-21]/Dia 16-09 - Product Analytics, eventos e metricas/modulos/02-n06",
-    "N07": "03 - Outubro 2026 [0-21]/Dia 02-10 - Teste A-B e experimentacao avancada/modulos/02-n07",
-    "N08": "03 - Outubro 2026 [0-21]/Dia 05-10 - Correlacao, vieses e causalidade/modulos/02-n08",
-    "N09": "03 - Outubro 2026 [0-21]/Dia 06-10 - Propensity score e diferencas em diferencas/modulos/01-n09",
-    "N10": "03 - Outubro 2026 [0-21]/Dia 06-10 - Propensity score e diferencas em diferencas/modulos/02-n10",
-    "N11": "03 - Outubro 2026 [0-21]/Dia 07-10 - Controle sintetico/modulos/01-n11",
-    "N12": "05 - Dezembro 2026 [0-22]/Dia 22-12 - NLP, TF-IDF, classificacao, NER e multilingue/modulos/01-n12",
-    "N13": "05 - Dezembro 2026 [0-22]/Dia 22-12 - NLP, TF-IDF, classificacao, NER e multilingue/modulos/02-n13",
-    "N14": "05 - Dezembro 2026 [0-22]/Dia 23-12 - Entity matching, baselines e candidatos/modulos/01-n14",
-    "N15": "05 - Dezembro 2026 [0-22]/Dia 23-12 - Entity matching, baselines e candidatos/modulos/02-n15",
-    "N16": "05 - Dezembro 2026 [0-22]/Dia 28-12 - Embeddings e entity matching semantico/modulos/02-n16",
-    "N17": "05 - Dezembro 2026 [0-22]/Dia 29-12 - Avaliacao LLM e ranking/modulos/02-n17",
-    "N18": "05 - Dezembro 2026 [0-22]/Dia 30-12 - Projeto de entity matching/modulos/01-n18",
-    "N19": "04 - Novembro 2026 [0-19]/Dia 13-11 - PyTorch, tensores e training loop/modulos/01-n19",
-    "N20": "04 - Novembro 2026 [0-19]/Dia 16-11 - PyTorch, MLP e regularizacao/modulos/01-n20",
-    "N21": "04 - Novembro 2026 [0-19]/Dia 17-11 - Visao computacional e transfer learning/modulos/01-n21",
-    "N22": "04 - Novembro 2026 [0-19]/Dia 18-11 - Deteccao, segmentacao e avaliacao de imagens/modulos/01-n22",
-    "N23": "05 - Dezembro 2026 [0-22]/Dia 15-12 - Cloud e GCP pratico/modulos/02-n23",
-    "N24": "05 - Dezembro 2026 [0-22]/Dia 16-12 - Storage, processamento e BigQuery/modulos/02-n24",
-    "N25": "05 - Dezembro 2026 [0-22]/Dia 02-12 - Orquestracao e Airflow real/modulos/02-n25"
   }
 }

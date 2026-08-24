@@ -3,36 +3,91 @@
 **Data de estudo:** 15/10/2026  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Regressao linear
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Regressao linear
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Regressao linear machine learning com Python explicado passo a passo`
 - `Regressao linear machine learning com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e52/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-regressao-linear`](<atividades/01-regressao-linear/>)
 
-### Bloco 2 — Metricas de regressao
+#### O que você precisa entender
 
-Pesquise exatamente:
+Regressão linear estima `y = intercepto + soma(coeficiente × variável)`. Resíduo é `y_real - y_previsto`; padrões nos resíduos indicam limitações do modelo.
 
+```python
+from sklearn.linear_model import LinearRegression
+
+modelo = LinearRegression().fit(X_treino, y_treino)
+predicao = modelo.predict(X_validacao)
+residuos = y_validacao - predicao
+```
+
+**Erro comum:** interpretar coeficiente como efeito causal sem controlar desenho, confundidores e suposições.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/01-regressao-linear/dia-046-regressao-linear.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv` e `dados/pedidos.csv`; crie resultados derivados somente nos passos indicados.
+
+#### O que fazer
+
+- [ ] Crie dados sintéticos lineares `y = 3x + 5 + ruído` e ajuste regressão linear.
+- [ ] Recupere coeficiente e intercepto; compare com valores reais usados na geração.
+- [ ] Use `pedidos.csv` para prever valor do pedido com variáveis permitidas.
+
+- [ ] Plote resíduos versus predição e distribuição dos resíduos.
+- [ ] Crie uma relação não linear e demonstre por que regressão linear simples falha.
+- [ ] **Em `atividades/01-regressao-linear/dia-046-regressao-linear.ipynb`:** Separe os pedidos acima do percentil 90 e compare o erro desse grupo com o restante.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
+
+### Atividade 2 — Metricas de regressao
+
+#### O que pesquisar
 - `Metricas de regressao machine learning com Python explicado passo a passo`
 - `Metricas de regressao machine learning com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-e53/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-metricas-de-regressao`](<atividades/02-metricas-de-regressao/>)
 
-## Integração
+#### O que você precisa entender
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+MAE é o erro absoluto médio; RMSE dá peso maior a erros grandes; `R²` compara com a previsão pela média; MAPE divide pelo valor real e falha quando ele é zero.
 
-## Concluído quando
+```python
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+mae = mean_absolute_error(y_real, y_previsto)
+rmse = mean_squared_error(y_real, y_previsto) ** 0.5
+r2 = r2_score(y_real, y_previsto)
+```
+
+**Erro comum:** comparar métricas calculadas em conjuntos ou escalas diferentes.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/02-metricas-de-regressao/dia-047-metricas-de-regressao.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv` e `dados/pedidos.csv`; crie resultados derivados somente nos passos indicados.
+
+#### O que fazer
+
+- [ ] No notebook, use `y_real = [100, 120, 80, 0, 200]` e `y_previsto = [90, 135, 70, 10, 180]` para calcular MAE, MSE, RMSE, R² e MAPE manualmente e com biblioteca.
+- [ ] Crie um caso com valor real zero e mostre por que MAPE pode quebrar.
+- [ ] Compare dois modelos: um com poucos erros grandes e outro com muitos erros pequenos.
+
+- [ ] Escolha a métrica mais coerente para previsão de receita e justifique custo dos erros.
+- [ ] Crie intervalo de erro por faixa de valor e verifique se o modelo piora nos pedidos maiores.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

@@ -3,27 +3,44 @@
 **Data de estudo:** 30/12/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Entrega real: Entity Matching Lab
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Entrega real: Entity Matching Lab
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `entity resolution benchmark`
 - `model card`
 - `error taxonomy`
 - `human review threshold`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-n18/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-entrega-real-entity-matching-lab`](<atividades/01-entrega-real-entity-matching-lab/>)
 
-## Integração
+#### Objetivo
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+Transformar os experimentos de normalização, baseline, geração de candidatos, embeddings e ranking em um produto de portfólio auditável. A entrega deve receber registros bagunçados, recuperar e ordenar candidatos, tomar decisões com abstenção e produzir um relatório que permita a uma pessoa técnica ou de negócio entender qualidade, custo, limites e riscos.
 
+Esta sessão não serve para criar um quarto modelo. Ela serve para congelar contratos, reproduzir o melhor pipeline e demonstrar maturidade de avaliação.
+
+#### Termos complementares para pesquisar
+
+1. `entity resolution benchmark dataset train validation test`
+2. `machine learning model card intended use limitations`
+3. `data card dataset documentation schema provenance`
+4. `entity resolution error taxonomy false merge false split`
+5. `human in the loop confidence thresholds review queue`
+6. `selective classification risk coverage curve`
+7. `ML inference latency throughput cost benchmark`
+8. `reproducible machine learning project README structure`
+
+#### O que fazer
+
+Use [o checklist e o enunciado](<atividades/01-entrega-real-entity-matching-lab/ENUNCIADO.md>) para integrar o que você construiu. Preencha `atividades/01-entrega-real-entity-matching-lab/checklist_entrega.md` sem apagar pendências e registre a auditoria final no próprio artefato.
+
+O projeto precisa incluir também um README executivo curto em inglês; isso pratica comunicação profissional, não substitui seu estudo geral de inglês.
+
+#### LinkedIn
+
+Depois da publicação e somente se conseguir demonstrar cada etapa, adicione: **Entity Resolution**, **Machine Learning aplicado** e **Avaliação de modelos**. Use o projeto como evidência na seção “Projetos”.
 
 ## Entrega real de portfólio
 
@@ -36,7 +53,7 @@ Siga o [brief do projeto](<../../projetos/entity-matching-lab/README.md>). A ent
 - **Tema específico:** Entity Matching Lab — comparação completa entre regras, fuzzy matching, TF-IDF, embeddings e ranking com revisão humana.
 - **Tipo:** entrega.
 - **Formato:** carrossel de benchmark acompanhado de uma demonstração de até 90 segundos e link do repositório.
-- **Artefato/evidência exigida:** pipeline reproduzido por um comando, baseline e abordagem final no mesmo teste, Recall@5/MRR/precisão/taxa de revisão, latência/custo, taxonomia de erros, data card, model card e checklist N18 preenchido.
+- **Artefato/evidência exigida:** pipeline reproduzido por um comando, baseline e abordagem final no mesmo teste, Recall@5/MRR/precisão/taxa de revisão, latência/custo, taxonomia de erros, data card, model card e checklist final da entrega preenchido.
 
 ### Roteiro para preencher
 
@@ -66,8 +83,6 @@ Não afirme automação em produção, escala empresarial ou economia observada.
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

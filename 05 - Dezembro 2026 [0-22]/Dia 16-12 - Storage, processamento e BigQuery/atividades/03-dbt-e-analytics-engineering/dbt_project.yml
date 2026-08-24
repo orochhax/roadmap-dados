@@ -1,0 +1,28 @@
+name: viva_commerce
+version: "1.0.0"
+config-version: 2
+
+profile: viva_commerce
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - target
+  - dbt_packages
+
+models:
+  viva_commerce:
+    staging:
+      +materialized: view
+    marts:
+      # TODO: decida se todos os marts devem usar a mesma materialização.
+      +materialized: table
+
+seeds:
+  viva_commerce:
+    +quote_columns: false

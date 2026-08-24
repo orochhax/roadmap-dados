@@ -1,0 +1,7 @@
+pedido_id,data,cliente_id,produto,quantidade,preco_unitario,desconto_pct,vendedor
+PED-1008,2026-09-02,CLI-001,Plano empresarial,1,950.00,0.05,Ana
+PED-1009,04/09/2026,CLI-003,Access point,4,410.00,0.10,Carla
+PED-1010,07/09/2026,CLI-004,Switch 24 portas,1,620.00,0,Bruno
+PED-1011,10/09/2026,CLI-006,Cabo de rede 50m,10,85.50,0.03,Ana
+PED-1012,2026-09-12,CLI-005,Roteador Wi-Fi,2,180.00,,Carla
+PED-1013,14/09/2026,CLI-002,Plano empresarial,2,950.00,0.15,Bruno

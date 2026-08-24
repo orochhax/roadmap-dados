@@ -1,0 +1,3 @@
+-- TODO: construa a fato usando ref() para as dependências.
+-- TODO: defina quais status entram em cada métrica sem apagar o histórico bruto.
+-- TODO: documente o grão e implemente uma estratégia incremental justificável.

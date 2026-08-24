@@ -4,8 +4,8 @@
 
 ## Checklist
 
-- [ ] A aplicação publicada corresponde à entrega obrigatória de LLM/RAG.
-- [ ] A avaliação e as fontes estão visíveis.
-- [ ] As limitações e recusas estão documentadas.
-- [ ] O link foi conferido.
-- [ ] Nenhuma capacidade ou métrica foi inventada.
+- A aplicação publicada corresponde à entrega obrigatória de LLM/RAG.
+- A avaliação e as fontes estão visíveis.
+- As limitações e recusas estão documentadas.
+- O link foi conferido.
+- Nenhuma capacidade ou métrica foi inventada.

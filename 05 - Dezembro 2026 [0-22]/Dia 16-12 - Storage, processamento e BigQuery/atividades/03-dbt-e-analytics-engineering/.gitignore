@@ -1,0 +1,9 @@
+.venv/
+dbt_packages/
+logs/
+target/
+*.duckdb
+profiles.yml
+.env
+*service-account*.json
+*credentials*.json

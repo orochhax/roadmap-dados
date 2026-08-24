@@ -3,33 +3,96 @@
 **Data de estudo:** 23/10/2026  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Arvore de decisao
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Arvore de decisao
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Arvore de decisao Python explicado passo a passo`
 - `Arvore de decisao Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e62/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-arvore-de-decisao`](<atividades/01-arvore-de-decisao/>)
 
-### Bloco 2 — Random Forest
+#### O que você precisa entender
 
-Pesquise exatamente:
+Uma árvore divide os dados por regras até chegar a folhas. Profundidade e `min_samples_leaf` controlam complexidade e risco de overfitting.
 
+```python
+from sklearn.tree import DecisionTreeClassifier
+
+arvore = DecisionTreeClassifier(max_depth=3, min_samples_leaf=20, random_state=42)
+arvore.fit(X_treino, y_treino)
+```
+
+**Erro comum:** escolher a árvore pela métrica de treino e ignorar a queda na validação.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/01-arvore-de-decisao/dia-056-arvore-de-decisao.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv` e `dados/pedidos.csv`; crie resultados derivados somente nos passos indicados.
+
+#### O que fazer
+
+- [ ] Treine árvore de decisão com profundidades 1, 3, 5, 10 e sem limite.
+- [ ] Visualize uma árvore pequena e traduza cinco divisões em regras de negócio.
+- [ ] Compare desempenho de treino e validação para identificar overfitting.
+
+- [ ] Varie `min_samples_leaf` e registre estabilidade.
+- [ ] Crie uma árvore deliberadamente complexa e explique por que não deve ser usada apesar da métrica de treino.
+
+
+- [ ] **Em `atividades/01-arvore-de-decisao/dia-056-arvore-de-decisao.ipynb`:** Compare profundidade 3 e 10 com min_samples_leaf=20 no mesmo split e registre treino e validação.
+- [ ] **Em `atividades/01-arvore-de-decisao/dia-056-arvore-de-decisao.ipynb`:** Escolha uma previsão errada da árvore profunda e escreva as regras percorridas até a folha.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
+
+### Atividade 2 — Random Forest
+
+#### O que pesquisar
 - `Random Forest machine learning com Python explicado passo a passo`
 - `Random Forest machine learning com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-e63/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-random-forest`](<atividades/02-random-forest/>)
 
-## Integração
+#### O que você precisa entender
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+Random Forest combina muitas árvores treinadas com amostras e subconjuntos de features. Permutation importance mede a queda da métrica ao embaralhar uma feature.
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.inspection import permutation_importance
+
+floresta = RandomForestClassifier(n_estimators=200, max_depth=8, random_state=42).fit(X_treino, y_treino)
+importancia = permutation_importance(floresta, X_validacao, y_validacao, random_state=42)
+```
+
+**Erro comum:** interpretar importância como causalidade ou compará-la entre conjuntos de validação diferentes.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/02-random-forest/dia-057-random-forest.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv` e `dados/pedidos.csv`; crie resultados derivados somente nos passos indicados.
+
+#### O que fazer
+
+- [ ] Treine Random Forest variando número de árvores, profundidade e número de features.
+- [ ] Compare variância de uma árvore única com a floresta em cinco seeds.
+- [ ] Calcule importância por impureza e permutation importance; compare rankings.
+
+- [ ] Meça tempo e tamanho do modelo.
+- [ ] Escolha configuração considerando desempenho, estabilidade e custo de inferência.
+
+
+- [ ] **Em `atividades/02-random-forest/dia-057-random-forest.ipynb`:** Compare 50 e 300 árvores em cinco seeds, mantendo as demais configurações, e registre média e desvio da métrica.
+- [ ] **Em `atividades/02-random-forest/dia-057-random-forest.ipynb`:** Calcule permutation importance para a melhor configuração e compare as cinco primeiras com a importância por impureza.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
 
 ## Publicação da semana no LinkedIn
 
@@ -66,8 +129,6 @@ Não use acurácia isolada para justificar ação nem trate probabilidade como c
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

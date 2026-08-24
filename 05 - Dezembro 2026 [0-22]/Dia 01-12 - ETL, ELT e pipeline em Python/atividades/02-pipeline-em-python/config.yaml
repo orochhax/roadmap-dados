@@ -1,0 +1,16 @@
+# Configuração inicial do exercício de pipeline.
+# Preencha os TODOs depois de estudar o contrato; não registre credenciais.
+
+entrada:
+  caminho: "dados/pedidos.csv"
+  formato: "csv"
+
+saida:
+  # TODO: escolha parquet ou DuckDB e justifique no artefato.
+  formato: "TODO"
+  caminho: "TODO"
+
+qualidade:
+  # TODO: defina limites antes de observar a execução final.
+  percentual_maximo_nulos: null
+  chave_unica: "pedido_id"

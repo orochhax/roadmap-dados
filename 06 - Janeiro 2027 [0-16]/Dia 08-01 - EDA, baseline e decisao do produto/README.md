@@ -3,27 +3,46 @@
 **Data de estudo:** 08/01/2027  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — EDA, baseline e decisao
 
-## Assuntos para pesquisar
-
-### Bloco 1 — EDA, baseline e decisao
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `EDA, baseline e decisao análise de dados com Python explicado passo a passo`
 - `EDA, baseline e decisao análise de dados com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e126/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-eda-baseline-e-decisao`](<atividades/01-eda-baseline-e-decisao/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/01-eda-baseline-e-decisao/dia-118-eda-baseline-e-decisao.ipynb`.
+- **Entradas:** `product_brief.md`, dataset validado, corte e métrica. **Fallback local:** amostra determinística.
 
-## Concluído quando
+#### Manifesto de entradas
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- **Obrigatórias:** dataset validado, split/corte, baseline e métrica declarada.
+- **Fallback local:** gere amostra determinística com seed fixa apenas para testar o fluxo.
+
+#### O que você precisa entender
+
+- **Definição:** baseline é a alternativa simples que o produto deve justificar; a métrica precisa refletir a decisão.
+- **Exemplo mínimo:** churn usa Dummy e custo; forecasting usa último valor e MAE; analítico usa regra atual e tempo/erro; RAG usa busca lexical e precision@k.
+- **Erro comum:** escolher baseline fraco ou métrica que não muda a ação.
+
+#### O que fazer
+
+- [ ] Faça EDA focada nas hipóteses do produto.
+- [ ] Implemente baseline de negócio e técnico.
+- [ ] Defina limiar/regra de decisão.
+
+- [ ] **Em `atividades/01-eda-baseline-e-decisao/dia-118-eda-baseline-e-decisao.ipynb`:** refaça a decisão aumentando o custo do pior erro em 50% e registre se limiar ou ação recomendada muda.
+- [ ] **No mesmo notebook:** produza um memorando de uma página com impacto esperado, pior cenário, decisão e limitação.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

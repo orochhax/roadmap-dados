@@ -34,8 +34,8 @@ Discuta vieses, sensibilidade, mudança de regime, validade externa e resultados
 
 ## Checklist editorial
 
-- [ ] números reconciliam com `outputs/metrics/`;
-- [ ] gráficos possuem fonte, período e unidade;
-- [ ] afirmações citam evidência;
-- [ ] reprodução segue o README;
-- [ ] texto permanece entre 4 e 6 páginas.
+- números reconciliam com `outputs/metrics/`;
+- gráficos possuem fonte, período e unidade;
+- afirmações citam evidência;
+- reprodução segue o README;
+- texto permanece entre 4 e 6 páginas.

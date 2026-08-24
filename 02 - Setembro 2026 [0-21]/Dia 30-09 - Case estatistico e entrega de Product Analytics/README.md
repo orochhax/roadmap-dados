@@ -3,25 +3,49 @@
 **Data de estudo:** 30/09/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Case estatistico
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Case estatistico
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Case estatistico estatística para data science explicado passo a passo`
 - `Case estatistico estatística para data science exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e41/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-case-estatistico`](<atividades/01-case-estatistico/>)
 
-## Integração
+#### O que você precisa entender
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+Diferença absoluta mede unidades originais; diferença percentual usa uma base; tamanho de efeito padroniza a diferença: `d = (média_depois - média_antes) / desvio_combinado`.
 
+```python
+diferenca = depois.mean() - antes.mean()
+efeito = diferenca / np.sqrt((antes.var(ddof=1) + depois.var(ddof=1)) / 2)
+```
+
+**Erro comum:** atribuir a mudança ao processo sem verificar se a composição de cidades ou perfis também mudou.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/01-case-estatistico/roteiro_atividades.md`.
+- **Starter executável:** `atividades/01-case-estatistico/case_estatistico.py`. Execute-o para validar as entradas e depois implemente os `TODOs`; ele não contém os cálculos do case.
+- **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
+- **Entrada congelada do case:** considere a mudança em `2026-05-01`; não ajuste a data depois de observar os resultados.
+
+#### O que fazer
+
+- [ ] Receba um case: a empresa afirma que duração média caiu após mudança de processo; defina população, amostra, variável e hipótese.
+- [ ] Faça EDA antes/depois, calcule diferença absoluta, percentual e tamanho de efeito simples.
+- [ ] Crie duas análises: uma com média e outra com mediana; explique divergências.
+- [ ] Simule um resultado estatisticamente aparente causado por composição diferente de cidades.
+
+- [ ] Entregue nota técnica de uma página dizendo o que pode e não pode ser concluído.
+- [ ] **Em `atividades/01-case-estatistico/case_estatistico.py`:** repita a comparação antes/depois usando somente a cidade com maior número de observações; registre o confronto com a conclusão geral em `roteiro_atividades.md`.
+- [ ] **Em `atividades/01-case-estatistico/case_estatistico.py`:** inclua uma duração de 2000 minutos no período depois e compare o efeito sobre média, mediana e tamanho de efeito; registre as medidas no roteiro.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
 
 ## Entrega real de portfólio
 
@@ -64,8 +88,6 @@ Não atribua receita, retenção ou melhoria real a uma empresa. Não trate o da
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

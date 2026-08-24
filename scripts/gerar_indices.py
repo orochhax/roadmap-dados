@@ -74,6 +74,7 @@ def generate_root(items: list[dict[str, object]]) -> str:
         "- [Plano e método de estudo](PLANO-DE-ESTUDOS.md)",
         "- [Curso em Vídeo — cobertura de Python](<00 - Recursos Compartilhados/trilha-curso-em-video-python.md>)",
         "- [Cursos gratuitos e lacunas](<00 - Recursos Compartilhados/cursos-complementares-selecionados.md>)",
+        "- [Credenciais gratuitas e simulados](<00 - Recursos Compartilhados/credenciais-gratuitas-e-simulados.md>)",
         "- [Dados e recursos compartilhados](<00 - Recursos Compartilhados/README.md>)",
         "- [LinkedIn e evidências](<00 - Recursos Compartilhados/linkedin-e-evidencias.md>)",
         "- [LinkedIn — perfil atual](<00 - Recursos Compartilhados/linkedin-perfil-atual.md>)",

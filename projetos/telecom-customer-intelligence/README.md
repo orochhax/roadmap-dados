@@ -95,14 +95,14 @@ o baseline e documente o resultado negativo.
 
 ## Concluído quando
 
-- [ ] Um ambiente limpo reproduz dados processados, métricas e artefatos.
-- [ ] SQL, Python, dashboard e relatório apresentam totais reconciliados.
-- [ ] Nenhuma feature utiliza informação posterior à decisão.
-- [ ] Baselines, modelos, limiar e custos estão comparados.
-- [ ] Há análise de erros e desempenho por pelo menos dois segmentos.
-- [ ] Testes de dados, pipeline, métricas e contrato passam.
-- [ ] Retreinamento e rollback foram simulados e registrados.
-- [ ] README.en.md e docs/presentation-en.md refletem resultados reais.
+- Um ambiente limpo reproduz dados processados, métricas e artefatos.
+- SQL, Python, dashboard e relatório apresentam totais reconciliados.
+- Nenhuma feature utiliza informação posterior à decisão.
+- Baselines, modelos, limiar e custos estão comparados.
+- Há análise de erros e desempenho por pelo menos dois segmentos.
+- Testes de dados, pipeline, métricas e contrato passam.
+- Retreinamento e rollback foram simulados e registrados.
+- README.en.md e docs/presentation-en.md refletem resultados reais.
 
 ## Limites
 

@@ -1,0 +1,12 @@
+viva_commerce:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "TODO/caminho/local/viva_commerce.duckdb"
+      schema: main
+      threads: 4
+
+# Não escreva credenciais do BigQuery neste arquivo versionado.
+# Depois da prática local, documente nas evidências quais campos seriam
+# necessários em outro target e como os segredos seriam fornecidos.

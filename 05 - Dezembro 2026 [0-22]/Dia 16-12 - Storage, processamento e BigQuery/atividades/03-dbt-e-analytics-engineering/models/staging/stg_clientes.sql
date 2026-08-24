@@ -1,0 +1,4 @@
+-- TODO: leia clientes pela função source().
+-- TODO: padronize textos e tipos.
+-- TODO: trate versões repetidas segundo uma regra explícita e determinística.
+-- TODO: preserve somente as colunas necessárias e explique o grão.

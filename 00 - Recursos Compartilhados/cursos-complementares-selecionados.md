@@ -13,6 +13,20 @@ O roadmap não depende de curso pago. Vídeos entram somente quando ajudam a exe
 | [Git e GitHub — Curso em Vídeo](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) | 07/12 e 13/01 | Git, repositório, restauração, branches, issues, segurança e Markdown |
 | [Inteligência Artificial — Curso em Vídeo](https://www.cursoemvideo.com/curso/curso-gratis-de-inteligencia-artificial/) | 24/12–06/01 | ML conceitual, viés, LLM, tokens, prompts, fontes e ataques a prompt |
 
+## Trilhas oficiais e evidências externas obrigatórias
+
+As cinco trilhas abaixo passam a acompanhar as práticas do roadmap. Preparação, simulados autorais, critérios de prontidão e regras de LinkedIn estão em [Credenciais gratuitas, preparação e simulados](<credenciais-gratuitas-e-simulados.md>).
+
+| Fonte oficial gratuita | Evidência planejada | Distinção obrigatória |
+|---|---|---|
+| [Microsoft Learn — Prepare data for analysis with Power BI](https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi/) | Achievements dos módulos e trophy da learning path | Não é a certificação PL-300, cuja prova profissional é paga |
+| [dbt Fundamentals (VS Code)](https://learn.getdbt.com/learn/course/dbt-fundamentals-vs-code) | Conclusão do curso no perfil da plataforma | Não é `dbt Analytics Engineering Certification Exam`, que exige avaliação separada e paga |
+| [Google Cloud for students](https://cloud.google.com/edu/students) | Skill badge [Derive Insights from BigQuery Data](https://www.skills.google/paths/18/course_templates/623?locale=en), usando créditos estudantis se aprovados | Skill badge não é Google Cloud Certification profissional |
+| [Databricks Fundamentals](https://customer-academy.databricks.com/learn/courses/2206/databricks-fundamentals) | `Databricks Fundamentals Accreditation` e badge verificável | Acreditação introdutória não supervisionada não é certificação profissional |
+| [EF SET four-skill](https://www.efset.org/4-skill/?lang=en) | Certificado gratuito de reading, listening, writing e speaking com nível CEFR | Teste online não supervisionado; não é TOEFL ou IELTS |
+
+Curso ou badge não substitui o artefato. A conclusão só libera uma atualização de LinkedIn quando a prática correspondente executar, for conferida e puder ser explicada.
+
 O curso de MySQL fornece conceitos transferíveis, mas a prática continua em DuckDB ou PostgreSQL. Não é necessário instalar WAMP, XAMPP ou PHPMyAdmin. Para Linux, use PowerShell, WSL ou Git Bash já disponível; não reinstale o computador.
 
 ## Assuntos em que uma boa aula pode ajudar

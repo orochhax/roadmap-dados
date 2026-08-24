@@ -10,15 +10,15 @@
 
 ## Regras congeladas
 
-- [ ] preços ajustados e camada bruta preservada;
-- [ ] elegibilidade definida antes da análise;
-- [ ] rebalanceamento mensal;
-- [ ] janelas de momentum e volatilidade declaradas;
-- [ ] score `z_momentum - z_volatilidade`;
-- [ ] pesos iguais como baseline e Top-K como candidata;
-- [ ] walk-forward com cortes crescentes;
-- [ ] custo em pontos-base aplicado ao turnover;
-- [ ] retorno, volatilidade, Sharpe, drawdown e turnover como métricas.
+- preços ajustados e camada bruta preservada;
+- elegibilidade definida antes da análise;
+- rebalanceamento mensal;
+- janelas de momentum e volatilidade declaradas;
+- score `z_momentum - z_volatilidade`;
+- pesos iguais como baseline e Top-K como candidata;
+- walk-forward com cortes crescentes;
+- custo em pontos-base aplicado ao turnover;
+- retorno, volatilidade, Sharpe, drawdown e turnover como métricas.
 
 ## Disponibilidade temporal
 

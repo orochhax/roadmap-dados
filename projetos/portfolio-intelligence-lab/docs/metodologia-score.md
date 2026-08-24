@@ -28,6 +28,6 @@ Registre no protocolo o tamanho das janelas, tratamento de ausentes e regra de d
 
 ## Evidências
 
-- [ ] cálculo manual de dois ativos em duas datas;
-- [ ] teste que altera dados posteriores sem mudar score já calculado;
-- [ ] tabela com momentum, volatilidade, score e posição.
+- cálculo manual de dois ativos em duas datas;
+- teste que altera dados posteriores sem mudar score já calculado;
+- tabela com momentum, volatilidade, score e posição.

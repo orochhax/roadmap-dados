@@ -3,40 +3,79 @@
 **Data de estudo:** 16/09/2026  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Product Analytics I: tracking plan, eventos e árvore de métricas
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Product Analytics I: tracking plan, eventos e árvore de métricas
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `tracking plan de eventos`
 - `North Star Metric`
 - `árvore de métricas`
 - `guardrail metrics`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-n05/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-product-analytics-i-tracking-plan-eventos`](<atividades/01-product-analytics-i-tracking-plan-eventos/>)
 
-### Bloco 2 — Product Analytics II: funil, ativação, retenção, cohorts e LTV
+#### Objetivo
 
-Pesquise exatamente:
+Desenhar e validar a instrumentação do aplicativo de autoatendimento de uma operadora. Antes de calcular funis, você deverá provar que os eventos têm significado, schema, identidade e privacidade controlados.
 
+#### Termos complementares para pesquisar
+
+- `product analytics tracking plan event taxonomy`
+- `event naming convention analytics`
+- `user id anonymous id identity resolution analytics`
+- `North Star metric input metrics guardrail metrics`
+- `data contract schema evolution events`
+- `event deduplication idempotency`
+- `LGPD data minimization analytics events`
+
+#### O que fazer
+
+Leia o [enunciado](<atividades/01-product-analytics-i-tracking-plan-eventos/ENUNCIADO.md>), complete [validar_tracking_plan.py](<atividades/01-product-analytics-i-tracking-plan-eventos/validar_tracking_plan.py>) e registre o contrato e os testes no próprio artefato.
+
+#### Como validar
+
+- o tracking plan descreve evento, gatilho, propriedades, dono e versão;
+- o validador separa eventos aceitos e rejeitados com motivo;
+- duplicidade, ordem, identidade e PII são testadas;
+- a North Star e suas guardrails são ligadas a uma decisão real.
+
+### Atividade 2 — Product Analytics II: funil, ativação, retenção, cohorts e LTV
+
+#### O que pesquisar
 - `funil de conversão`
 - `ativação de produto`
 - `cohort retention`
 - `customer lifetime value`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-n06/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-product-analytics-ii-funil-ativacao`](<atividades/02-product-analytics-ii-funil-ativacao/>)
 
-## Integração
+#### Objetivo
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+Transformar eventos validados em decisões sobre onboarding e autoatendimento. Você implementará funil, ativação, cohorts, retenção e LTV sem misturar usuários, sessões e eventos.
 
-## Concluído quando
+#### Termos complementares para pesquisar
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- `product analytics conversion funnel SQL`
+- `activation metric time to value`
+- `cohort retention SQL date difference`
+- `D1 D7 D30 retention`
+- `customer lifetime value historical method`
+- `revenue refunds net revenue analytics`
+- `survivorship bias retention analysis`
+
+#### O que fazer
+
+Leia o [enunciado](<atividades/02-product-analytics-ii-funil-ativacao/ENUNCIADO.md>), implemente as consultas em [product_analytics.sql](<atividades/02-product-analytics-ii-funil-ativacao/product_analytics.sql>) e registre reconciliações e decisão no próprio artefato.
+
+#### Como validar
+
+- cada métrica declara unidade, janela, denominador e timezone;
+- funil não conta repetição como conversão adicional;
+- retenção usa a própria coorte como denominador;
+- receita líquida trata estorno;
+- a recomendação cita impacto, segmento e limitação.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

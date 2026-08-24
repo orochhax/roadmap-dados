@@ -3,44 +3,100 @@
 **Data de estudo:** 23/12/2026  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Entity matching I: normalização e baselines exato, fuzzy e TF-IDF
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Entity matching I: normalização e baselines exato, fuzzy e TF-IDF
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `entity resolution`
 - `record linkage`
 - `Levenshtein company names`
 - `TF-IDF character n-grams`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-n14/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-entity-matching-i-normalizacao`](<atividades/01-entity-matching-i-normalizacao/>)
 
-### Bloco 2 — Entity matching II: blocking, deduplicação e geração de candidatos
+#### Objetivo
 
-Pesquise exatamente:
+Iniciar o **Entity Matching Lab** ligando registros empresariais bagunçados a um cadastro canônico. Você comparará três níveis de solução — igualdade exata, similaridade fuzzy e TF-IDF de caracteres — para medir o ganho real de complexidade e entender os dois erros centrais: unir empresas diferentes e separar registros da mesma empresa.
 
+#### Termos complementares para pesquisar
+
+1. `entity resolution record linkage deduplication difference`
+2. `company name normalization legal suffix unicode accents`
+3. `Python urllib parse normalize domain punycode`
+4. `RapidFuzz fuzz ratio token set ratio process extract`
+5. `TfidfVectorizer character n grams company name matching`
+6. `cosine similarity sparse matrix nearest neighbors`
+7. `record linkage false match false non match precision recall`
+8. `entity resolution threshold validation set error analysis`
+
+#### O que você precisa entender
+
+- **Registro canônico:** versão confiável que representa uma entidade.
+- **Par verdadeiro:** dois registros que realmente representam a mesma empresa.
+- **Falso merge:** empresas diferentes unidas; costuma ter alto custo de negócio.
+- **Falso split:** mesma empresa mantida como duas entidades.
+- **Limiar:** score mínimo para aceitar automaticamente um vínculo.
+
+#### O que fazer
+
+Implemente as comparações descritas no [enunciado](<atividades/01-entity-matching-i-normalizacao/ENUNCIADO.md>) em `atividades/01-entity-matching-i-normalizacao/normalizacao_baseline.py` e registre a trilha de decisão no próprio artefato.
+
+Não transforme o melhor resultado em busca contra todos os registros ainda; a redução eficiente de candidatos será o foco da Atividade 2 — blocking e geração de candidatos.
+
+#### LinkedIn
+
+Após validar a entrega, adicione: **Entity Resolution**, **Record Linkage** e **Similaridade de texto**.
+
+### Atividade 2 — Entity matching II: blocking, deduplicação e geração de candidatos
+
+#### O que pesquisar
 - `record linkage blocking`
 - `candidate generation`
 - `blocking recall`
 - `reduction ratio`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-n15/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-entity-matching-ii-blocking-deduplicacao`](<atividades/02-entity-matching-ii-blocking-deduplicacao/>)
 
-## Integração
+#### Objetivo
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+Evitar a comparação cartesiana entre cada registro recebido e todo o cadastro. Você construirá um gerador de candidatos em múltiplas passagens, medindo quanto trabalho ele elimina sem descartar a entidade verdadeira. Essa etapa transforma os baselines da atividade de normalização em um desenho capaz de crescer para milhões de empresas.
+
+#### Termos complementares para pesquisar
+
+1. `record linkage blocking candidate generation explained`
+2. `blocking keys exact match multiple passes record linkage`
+3. `sorted neighbourhood indexing record linkage`
+4. `TF-IDF nearest neighbors candidate generation sparse matrix`
+5. `blocking pair completeness pairs quality reduction ratio`
+6. `candidate recall at k entity resolution`
+7. `deduplication connected components transitive closure risk`
+8. `entity resolution blocking missing values common names`
+
+#### O que você precisa entender
+
+- **Blocking:** restringe quais pares podem ser comparados com regras baratas.
+- **Passagens múltiplas:** unem candidatos produzidos por chaves diferentes.
+- **Pair completeness:** proporção dos pares verdadeiros preservados pelo blocking.
+- **Reduction ratio:** proporção do produto cartesiano que deixou de ser avaliada.
+- **Recall@k de candidatos:** frequência com que a entidade correta aparece entre os primeiros `k` candidatos.
+
+#### O que fazer
+
+Use os dados e funções da Atividade 1 — normalização e baseline. Siga [o enunciado](<atividades/02-entity-matching-ii-blocking-deduplicacao/ENUNCIADO.md>) em `atividades/02-entity-matching-ii-blocking-deduplicacao/gerar_candidatos.py` e registre os experimentos no próprio artefato.
+
+O arquivo de candidatos aprovado será a entrada da atividade de embeddings e, depois, da atividade de reranking.
+
+#### LinkedIn
+
+Após concluir, adicione: **Entity Resolution**, **Geração de candidatos** e **Otimização de algoritmos**.
 
 ## Publicação da semana no LinkedIn
 
 - **Tema específico:** primeiros baselines de entity matching para nomes e domínios bagunçados — normalização, correspondência exata, fuzzy, TF-IDF e blocking.
 - **Tipo:** progresso.
 - **Formato:** carrossel com pares anonimizados, etapas do pipeline e dois erros que orientam os próximos experimentos.
-- **Artefato/evidência exigida:** `normalizacao_baseline.py` e `gerar_candidatos.py` executados, evidências N14/N15 preenchidas, teste congelado, métricas do baseline e exemplos sem dados pessoais.
+- **Artefato/evidência exigida:** `normalizacao_baseline.py` e `gerar_candidatos.py` executados, resultados das duas atividades registrados, teste congelado, métricas do baseline e exemplos sem dados pessoais.
 
 ### Roteiro para preencher
 
@@ -70,8 +126,6 @@ Não chame os baselines de produto concluído nem declare deduplicação automá
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

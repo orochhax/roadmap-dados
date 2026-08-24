@@ -1,0 +1,9 @@
+produto_id,produto,categoria,custo_unitario
+PR01,Mouse sem fio,Acessórios,42.00
+PR02,Teclado mecânico,Acessórios,115.00
+PR03,Monitor 24,Monitores,610.00
+PR04,Webcam HD,Periféricos,95.00
+PR05,Headset USB,Periféricos,88.00
+PR06,Notebook Start,Computadores,1850.00
+PR07,Notebook Pro,Computadores,3150.00
+PR08,Suporte ergonômico,Acessórios,55.00

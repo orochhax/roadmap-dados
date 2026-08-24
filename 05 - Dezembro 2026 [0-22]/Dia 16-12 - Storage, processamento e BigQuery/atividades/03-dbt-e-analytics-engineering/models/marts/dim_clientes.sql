@@ -1,0 +1,3 @@
+-- TODO: construa a dimensão a partir de um modelo referenciado com ref().
+-- TODO: assegure uma linha por cliente no estado atual.
+-- TODO: selecione atributos úteis para análise e documente o grão.

@@ -3,38 +3,81 @@
 **Data de estudo:** 02/10/2026  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Teste A-B
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Teste A-B
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Teste A-B Python explicado passo a passo`
 - `Teste A-B Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e44/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-teste-a-b`](<atividades/01-teste-a-b/>)
 
-### Bloco 2 — Experimentação avançada: testes múltiplos, CUPED e desenho sequencial
+#### O que você precisa entender
 
-Pesquise exatamente:
+Defina antes da coleta: unidade de randomização, métrica primária, guardrail, efeito mínimo relevante e tamanho da amostra. *Peeking* é testar repetidamente e parar ao primeiro resultado favorável.
 
+```python
+efeito_observado = conversao_b - conversao_a
+decisao = "lançar" if limite_inferior_ic > efeito_minimo else "não lançar"
+```
+
+**Erro comum:** escolher métrica, segmento ou duração depois de olhar o resultado.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/01-teste-a-b/dia-038-teste-a-b.ipynb`.
+- **Dados:** `dados/clientes_telecom.csv`, `dados/incidentes.csv` e dados sintéticos gerados no notebook com seed 42.
+
+#### O que fazer
+
+- [ ] Defina um experimento A/B com unidade, população, métrica primária, guardrail e duração.
+- [ ] Analise uma amostra sintética com diferença, intervalo de confiança e teste de hipótese.
+- [ ] Escreva uma decisão entre lançar, repetir ou abandonar, citando efeito, incerteza e risco.
+
+- [ ] Calcule o tamanho de amostra para efeitos mínimos de 1,5 e 0,5 ponto percentual e explique por que o segundo exige mais observações.
+- [ ] **Em `atividades/01-teste-a-b/dia-038-teste-a-b.ipynb`:** Execute a simulação de peeking em 30 verificações diárias e conte quantas vezes a regra pararia antes da amostra planejada.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
+
+### Atividade 2 — Experimentação avançada: testes múltiplos, CUPED e desenho sequencial
+
+#### O que pesquisar
 - `multiple hypothesis testing`
 - `CUPED`
 - `sequential testing`
 - `sample ratio mismatch`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-n07/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-experimentacao-avancada-testes-multiplos`](<atividades/02-experimentacao-avancada-testes-multiplos/>)
 
-## Integração
+#### Objetivo
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+Analisar um experimento de autoatendimento sem cair em três armadilhas comuns: grupos desbalanceados, escolha entre muitas métricas e interrupção antecipada. Você também usará CUPED para reduzir variância sem alterar a unidade randomizada.
 
-## Concluído quando
+#### Termos complementares para pesquisar
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- `sample ratio mismatch chi square test`
+- `Holm Bonferroni multiple testing`
+- `false discovery rate Benjamini Hochberg`
+- `CUPED controlled experiments using pre experiment data`
+- `variance reduction CUPED theta covariance`
+- `sequential testing alpha spending`
+- `peeking inflated false positive rate A/B test`
+
+#### O que fazer
+
+Leia o [enunciado](<atividades/02-experimentacao-avancada-testes-multiplos/ENUNCIADO.md>), implemente [analisar_experimento.py](<atividades/02-experimentacao-avancada-testes-multiplos/analisar_experimento.py>) e registre protocolo e decisão no próprio artefato.
+
+#### Como validar
+
+- hipóteses, MDE e regra de parada estão congeladas antes da análise;
+- SRM, multiplicidade, CUPED e peeking foram medidos;
+- a análise diferencia significância de relevância prática;
+- lançar, repetir ou abandonar é decidido por critérios anteriores ao resultado.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

@@ -22,6 +22,6 @@
 
 ## Ensaio
 
-- [ ] responda em até 60 segundos por pergunta;
-- [ ] abra diretamente a tabela, teste ou gráfico citado;
-- [ ] declare quando os dados não permitem concluir.
+- responda em até 60 segundos por pergunta;
+- abra diretamente a tabela, teste ou gráfico citado;
+- declare quando os dados não permitem concluir.

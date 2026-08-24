@@ -3,27 +3,51 @@
 **Data de estudo:** 11/01/2027  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Modelo, IA e interface
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Modelo, IA e interface
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Modelo, IA e interface machine learning com Python explicado passo a passo`
 - `Modelo, IA e interface machine learning com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e127/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-modelo-ia-e-interface`](<atividades/01-modelo-ia-e-interface/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/01-modelo-ia-e-interface/dia-119-modelo-ia-e-interface.ipynb`.
+- **Entradas:** contrato e artefato local do componente. **Fallback local:** modelo, regra ou mock sem serviço externo.
 
-## Concluído quando
+#### Manifesto de entradas
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- **Obrigatórias:** contrato de entrada/saída e artefato do componente escolhido.
+- **Fallback local:** use modelo serializado, regra determinística ou mock local; serviço externo não é requisito.
+
+#### O que você precisa entender
+
+- **Definição:** interface mínima pode ser CLI, notebook ou API; contrato define entrada, saída, erro e comando de execução.
+- **Exemplo mínimo:** ao integrar RAG, use `projetos/assistente-suporte-ia/data/corpus/corpus_manifest.csv` e `projetos/assistente-suporte-ia/outputs/avaliacao/avaliacao_rag.csv` válidos; o diagnóstico de fundamentos não substitui esses artefatos.
+- **Erro comum:** escolher RAG pelo rótulo do projeto sem evidência de recuperação e recusa.
+
+#### Integração do componente
+
+- [ ] Integre o componente definido no produto. Se for RAG, valide o manifesto com 15 caminhos e hashes e a avaliação das dez perguntas essenciais segundo `projetos/assistente-suporte-ia/config/configuracao.json`.
+
+#### O que fazer
+
+- [ ] Integre um único componente principal: modelo preditivo, fluxo analítico ou o RAG já executado e avaliado.
+- [ ] Crie uma interface mínima entre API, dashboard ou aplicação simples; escolha apenas uma.
+- [ ] Teste o fluxo ponta a ponta com oito casos variados.
+- [ ] Registre métrica principal, latência aproximada, custo e duas falhas conhecidas.
+
+- [ ] **Em `atividades/01-modelo-ia-e-interface/dia-119-modelo-ia-e-interface.ipynb`:** inclua um caso com campos ausentes nos testes ponta a ponta e faça a interface explicar o que precisa ser corrigido.
+- [ ] **Em `atividades/01-modelo-ia-e-interface/dia-119-modelo-ia-e-interface.ipynb`:** Simule latência de 2 segundos no componente principal e registre a experiência da interface e o timeout escolhido.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

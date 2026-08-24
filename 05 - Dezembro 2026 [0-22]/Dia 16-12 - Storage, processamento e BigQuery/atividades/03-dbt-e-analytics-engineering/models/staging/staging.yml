@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  # TODO: documente stg_clientes e stg_pedidos.
+  # Inclua descrições de colunas e testes genéricos justificáveis.
+  []

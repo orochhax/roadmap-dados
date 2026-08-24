@@ -3,31 +3,47 @@
 **Data de estudo:** 11/12/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Logs e monitoramento basico
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Logs e monitoramento basico
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Logs e monitoramento basico Python explicado passo a passo`
 - `Logs e monitoramento basico Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e107/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-logs-e-monitoramento-basico`](<atividades/01-logs-e-monitoramento-basico/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/01-logs-e-monitoramento-basico/dia-099-logs-e-monitoramento-basico.py`.
+- **Entradas:** 20 requisições locais e schema de log. **Fallback local:** latências determinísticas em `baseline_monitoramento.json`.
+
+#### O que você precisa entender
+
+- **Definição:** log estruturado usa campos; p50 é a mediana e p95 cobre 95% das latências; drift é mudança da distribuição de entrada, previsão ou desempenho.
+- **Exemplo mínimo:** grave `timestamp, request_id, status, latency_ms, model_version`; salve em `baseline_monitoramento.json` probabilidades, volume e janela de referência.
+- **Erro comum:** registrar dados pessoais ou alertar sem baseline, janela e limite definidos.
+
+#### O que fazer
+
+- [ ] Adicione logs de requisição com tempo, status e versão sem registrar dados sensíveis.
+- [ ] Meça contagem, latência e erros em 20 requisições válidas e cinco inválidas.
+- [ ] Defina um alerta conceitual e escreva um runbook curto para investigá-lo.
+
+- [ ] Gere `baseline_monitoramento.json`, compare uma amostra alterada e registre o sinal de drift junto das métricas operacionais.
+- [ ] **Em `atividades/01-logs-e-monitoramento-basico/dia-099-logs-e-monitoramento-basico.py`:** simule 50 requisições com 200 ms adicionais, compare p50 e p95 e confirme que dez payloads inválidos são contados sem conteúdo sensível nos logs.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
 
 ## Publicação da semana no LinkedIn
 
 - **Tema específico:** evolução de um notebook para um componente testado e observável, com CI, contrato de API, Docker e logs estruturados.
 - **Tipo:** progresso.
 - **Formato:** carrossel de arquitetura e engenharia com capturas do teste, CI, documentação OpenAPI, container local e um log útil.
-- **Artefato/evidência exigida:** pacote refatorado, testes executados, run de CI, contrato da API, build/execução do container e `modulos/01-e107/01-exercicios/dia-099-logs-e-monitoramento-basico.py` com caso normal e falha diagnosticável.
+- **Artefato/evidência exigida:** pacote refatorado, testes executados, run de CI, contrato da API, build/execução do container e `atividades/01-logs-e-monitoramento-basico/dia-099-logs-e-monitoramento-basico.py` com caso normal e falha diagnosticável.
 
 ### Roteiro para preencher
 
@@ -57,8 +73,6 @@ Use `protótipo local`, `pipeline de CI` ou `container testado` conforme a evid�
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

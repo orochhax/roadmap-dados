@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  # TODO: documente dim_clientes e fct_vendas.
+  # Inclua grão, chaves, métricas e testes de contrato.
+  []

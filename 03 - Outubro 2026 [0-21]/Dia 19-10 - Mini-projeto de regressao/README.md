@@ -3,27 +3,39 @@
 **Data de estudo:** 19/10/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Mini-projeto de regressao
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Mini-projeto de regressao
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Mini-projeto de regressao machine learning com Python explicado passo a passo`
 - `Mini-projeto de regressao machine learning com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e56/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-mini-projeto-de-regressao`](<atividades/01-mini-projeto-de-regressao/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/01-mini-projeto-de-regressao/roteiro_atividades.md`.
+- **Dados:** `dados/clientes_telecom.csv` e `dados/pedidos.csv`; crie resultados derivados somente nos passos indicados.
 
-## Concluído quando
+#### O que fazer
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Escolha um problema de regressão: prever receita diária ou duração de incidente.
+- [ ] Faça EDA orientada, split adequado, baseline pela média e pelo último valor quando temporal.
+- [ ] Treine regressão linear e pelo menos um modelo regularizado, Ridge ou Lasso; compare MAE/RMSE.
+- [ ] Analise os 10 maiores erros e proponha duas novas features candidatas.
+
+- [ ] Entregue README com pergunta, dados, validação, resultado, decisão e limitações.
+
+
+- [ ] **Em `atividades/01-mini-projeto-de-regressao/roteiro_atividades.md`:** Use duração de incidente como alvo, compare baseline da média com Ridge e mantenha o mesmo split em toda a análise.
+- [ ] **Em `atividades/01-mini-projeto-de-regressao/roteiro_atividades.md`:** Nos 10 maiores erros, conte quantos são P1/P2 e compare com a proporção dessas classes na base.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

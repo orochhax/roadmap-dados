@@ -3,31 +3,47 @@
 **Data de estudo:** 25/09/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Simulado SQL
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Simulado SQL
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Simulado SQL SQL para análise de dados explicado passo a passo`
 - `Simulado SQL SQL para análise de dados exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e36/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-simulado-sql`](<atividades/01-simulado-sql/>)
 
-## Integração
+#### Conquista para o LinkedIn
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Ação concreta:** após concluir o simulado e revisar as respostas, adicione o projeto a Projetos ou Destaques e inclua **SQL analítico** nas Competências.
+- **Novo título:** `Engenharia de Software | Análise de Dados | Python, SQL e Power BI`.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/01-simulado-sql/projeto-semanal/docs/simulado_sql_perguntas.md`.
+- **Dados:** Tabelas importadas de `dados/clientes.csv`, `planos.csv`, `chamados.csv`, `pagamentos.csv`, `incidentes.csv` e `pedidos.csv`.
+
+#### O que fazer
+
+- [ ] Resolva as questões 1–10 do simulado SQL em até 60 minutos, sem consulta na primeira tentativa.
+- [ ] Marque tempo, confiança e necessidade de documentação em cada questão.
+- [ ] Escolha as três respostas mais fracas, estude a lacuna específica e reescreva somente essas três.
+
+- [ ] Crie uma folha curta de erros com categoria, causa e regra de prevenção.
+- [ ] **Em `atividades/01-simulado-sql/projeto-semanal/docs/simulado_sql_perguntas.md`:** Depois do simulado, escreva uma 21ª consulta que encontre os três clientes com maior soma de pagamentos pendentes.
+- [ ] **Em `atividades/01-simulado-sql/projeto-semanal/docs/simulado_sql_perguntas.md`:** Valide essa consulta comparando quantidade de pagamentos, clientes distintos e soma antes e depois dos joins usados.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
 
 ## Publicação da semana no LinkedIn
 
 - **Tema específico:** simulado SQL cronometrado — consultas resolvidas, três lacunas encontradas e como as respostas foram validadas.
 - **Tipo:** entrega.
 - **Formato:** documento ou carrossel de quatro a seis páginas, com link para a evidência SQL revisada.
-- **Artefato/evidência exigida:** simulado de 60 minutos concluído, `simulado_sql_respostas.sql`, consulta extra, resultado esperado/observado, relatório das três lacunas e kit em `modulos/01-e36/projeto-semanal/docs/linkedin/` preenchido.
+- **Artefato/evidência exigida:** simulado de 60 minutos concluído, `simulado_sql_respostas.sql`, consulta extra, resultado esperado/observado, relatório das três lacunas e kit em `atividades/01-simulado-sql/projeto-semanal/docs/linkedin/` preenchido.
 
 ### Roteiro para preencher
 
@@ -57,8 +73,6 @@ Não publique respostas sem executá-las nem converta o resultado em nível `ava
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

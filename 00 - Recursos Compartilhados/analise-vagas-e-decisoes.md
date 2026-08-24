@@ -25,6 +25,10 @@ Nas vagas de entrada, os sinais mais frequentes foram Python, Machine Learning, 
 - PyTorch e visão computacional;
 - execução prática em GCP, Cloud Storage e BigQuery;
 - DAG real em Apache Airflow.
+- Excel analítico e Power Query para reconciliação, transformação e atualização reproduzível;
+- consumo de APIs REST com paginação, autenticação segura, timeout, retry, rate limit, cache e carga incremental;
+- dbt e Analytics Engineering com camadas de transformação, testes, documentação e linhagem;
+- case técnico cronometrado integrando Excel, SQL, Python e Power BI.
 
 ## Conteúdos aprofundados
 
@@ -49,6 +53,20 @@ O roadmap escolhe uma ferramenta principal por categoria para permitir profundid
 - boosting tabular: XGBoost.
 
 Não foram adicionadas trilhas paralelas de TensorFlow, AWS, Azure, Snowflake, SAS ou R. Essas ferramentas podem ser aprendidas depois por transferência de conceito, quando uma vaga específica exigir.
+
+## Direção estratégica
+
+O crescimento de Engenharia de IA e Big Data reforça a direção do roadmap, mas não justifica começar por agentes ou modelos sem dominar a base. Python e SQL permanecem profundos o suficiente para uma candidatura júnior porque avançam de lógica e manipulação de dados até APIs, testes, modelagem, consultas analíticas e desempenho. Estatística e Machine Learning cobrem desenho de avaliação, baselines, incerteza, análise de erros e decisão por custo. Só depois entram Spark, cloud, MLOps, NLP, embeddings, LLMs e RAG.
+
+O risco principal não é falta de assuntos, e sim atravessar as sessões rápido demais sem conseguir alterar e explicar os artefatos. A nota mínima 3 e os cases sem gabarito funcionam como controle de profundidade: concluir o calendário não vale como domínio se a evidência ainda depender de cópia.
+
+A estratégia de candidatura usa um funil, não um único título. Analista de Dados/BI, auxiliar de dados, Cientista de Dados Júnior e funções iniciais de ML são portas de entrada coerentes com a base construída. Engenharia de IA permanece como direção de crescimento: os projetos de entity matching, RAG, APIs e MLOps criam evidência para essa transição, sem fingir que um título que costuma exigir experiência anterior virou vaga de entrada.
+
+## Credenciais e evidência
+
+Foram selecionadas cinco conquistas gratuitas alinhadas ao conteúdo: trilhas do Microsoft Learn, dbt Fundamentals, Google Skills, Databricks Fundamentals Accreditation e EF SET de quatro habilidades. O roadmap registra o nome exato de cada conquista, mas não chama curso ou badge de certificação profissional. As provas profissionais PL-300, dbt Analytics Engineering Certification Exam e Databricks Certified continuam pagas e não são exigidas.
+
+Cada conquista gratuita terá preparação prática e simulado sem respostas. Ela só será adicionada ao LinkedIn após a conclusão real e com a categoria correta; o projeto produzido permanece como evidência mais importante do que o badge isolado.
 
 ## Produtos de portfólio
 

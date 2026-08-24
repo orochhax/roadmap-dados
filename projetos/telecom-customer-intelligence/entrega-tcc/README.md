@@ -163,15 +163,15 @@ marcação `skip` somente depois de implementar o comportamento correspondente.
 
 ## Concluído quando
 
-- [ ] Pergunta, hipótese, horizonte, capacidade, custos e métrica primária foram congelados.
-- [ ] Toda origem sintética está marcada nos dados, metadados e relatório.
-- [ ] Nenhuma feature usa informação posterior à data de decisão.
-- [ ] Os splits são temporais e a janela de monitoramento permanece intocada durante o desenvolvimento.
-- [ ] Regra, regressão logística, XGBoost e estimador incremental foram comparados honestamente.
-- [ ] As quatro políticas respeitam exatamente a mesma capacidade e população elegível.
-- [ ] Incerteza, calibração, custo e pelo menos dois segmentos foram avaliados.
-- [ ] Experimentos, dados e modelos possuem versões reproduzíveis.
-- [ ] Retreinamento e rollback foram simulados com uma regra pré-definida.
-- [ ] Código, testes, tabelas, texto e apresentação reconciliam entre si.
-- [ ] As conclusões não extrapolam os limites dos dados sintéticos.
+- Pergunta, hipótese, horizonte, capacidade, custos e métrica primária foram congelados.
+- Toda origem sintética está marcada nos dados, metadados e relatório.
+- Nenhuma feature usa informação posterior à data de decisão.
+- Os splits são temporais e a janela de monitoramento permanece intocada durante o desenvolvimento.
+- Regra, regressão logística, XGBoost e estimador incremental foram comparados honestamente.
+- As quatro políticas respeitam exatamente a mesma capacidade e população elegível.
+- Incerteza, calibração, custo e pelo menos dois segmentos foram avaliados.
+- Experimentos, dados e modelos possuem versões reproduzíveis.
+- Retreinamento e rollback foram simulados com uma regra pré-definida.
+- Código, testes, tabelas, texto e apresentação reconciliam entre si.
+- As conclusões não extrapolam os limites dos dados sintéticos.
 

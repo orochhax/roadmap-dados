@@ -3,31 +3,66 @@
 **Data de estudo:** 28/08/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Excecoes e menu
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Excecoes e menu
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Excecoes e menu Python explicado passo a passo`
 - `Excecoes e menu Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e09/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-excecoes-e-menu`](<atividades/01-excecoes-e-menu/>)
 
-## Integração
+#### Objetivo
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+Tratar erros de entrada esperados e construir um menu funcional em um projeto organizado.
+
+#### Conteúdo gratuito
+
+- [Python 3 — Mundo 3](https://www.cursoemvideo.com/curso/python-3-mundo-3/): Aula #23 — Tratamento de Erros e Exceções; exercícios #113 — Funções aprofundadas em Python e #115a — Criando um menu.
+
+Em cada exercício, leia o enunciado, pause e tente resolver antes de assistir à resolução.
+
+#### O que você precisa entender
+
+- Coloque no `try` somente a conversão que pode falhar e capture a exceção específica.
+- Evite `except:` genérico; apresente uma mensagem que permita corrigir a entrada.
+
+#### O que fazer
+
+- [ ] Resolva os exercícios #113 e #115a em arquivos próprios.
+- [ ] Complete `atividades/01-excecoes-e-menu/entrada_segura.py`.
+- [ ] Complete o checkpoint local:
+
+```text
+atividades/01-excecoes-e-menu/projeto_cadastro/
+├── main.py
+└── interface.py
+```
+
+- [ ] Teste o menu com uma opção inválida e com a opção de saída.
+
+#### Como validar
+
+Texto vazio, texto não numérico e número negativo não encerram o programa; o menu permanece ativo e encerra pela opção definida.
+
+- Os exercícios #113 e #115a foram tentados antes das resoluções.
+- A leitura segura aceita somente inteiro não negativo.
+- O menu local abre, recusa opção inválida e encerra corretamente.
+
+#### Arquivos vazios dos desafios do Curso em Vídeo
+
+Cole o enunciado em cada arquivo e escreva sua própria tentativa antes de assistir à resolução:
+
+- [#113 — `DESAFIO113.py`](<atividades/01-excecoes-e-menu/DESAFIO113.py>)
+- [#115a — `DESAFIO115a.py`](<atividades/01-excecoes-e-menu/DESAFIO115a.py>)
 
 ## Publicação da semana no LinkedIn
 
 - **Tema específico:** como validação e exceções impedem que uma entrada inválida derrube um menu em Python.
 - **Tipo:** progresso.
 - **Formato:** texto curto com duas capturas do terminal: uma entrada inválida tratada e uma execução concluída.
-- **Artefato/evidência exigida:** `modulos/01-e09/01-exercicios/entrada_segura.py` e o `projeto_cadastro` executados com caso comum, texto onde se espera número, opção fora do menu e saída registrada.
+- **Artefato/evidência exigida:** `atividades/01-excecoes-e-menu/entrada_segura.py` e o `projeto_cadastro` executados com caso comum, texto onde se espera número, opção fora do menu e saída registrada.
 
 ### Roteiro para preencher
 
@@ -56,8 +91,6 @@ Não use `sistema robusto`, `pronto para produção` ou `domínio de Python`. De
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

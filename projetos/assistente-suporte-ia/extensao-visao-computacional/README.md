@@ -66,11 +66,11 @@ revisão.
 
 ## Concluído quando
 
-- [ ] Baseline e modelo usam exatamente o mesmo teste.
-- [ ] O split impede duplicatas ou imagens relacionadas em lados diferentes.
-- [ ] A inferência funciona em CPU com comando documentado.
-- [ ] Limiares e revisão humana refletem o custo dos erros.
-- [ ] A galeria mostra erros, não somente acertos.
-- [ ] A interface deixa claro que texto e imagem são tarefas independentes.
-- [ ] Testes passam e métricas reconciliam com artefatos.
-- [ ] README.en.md e docs/presentation-en.md contêm resultados reais.
+- Baseline e modelo usam exatamente o mesmo teste.
+- O split impede duplicatas ou imagens relacionadas em lados diferentes.
+- A inferência funciona em CPU com comando documentado.
+- Limiares e revisão humana refletem o custo dos erros.
+- A galeria mostra erros, não somente acertos.
+- A interface deixa claro que texto e imagem são tarefas independentes.
+- Testes passam e métricas reconciliam com artefatos.
+- README.en.md e docs/presentation-en.md contêm resultados reais.

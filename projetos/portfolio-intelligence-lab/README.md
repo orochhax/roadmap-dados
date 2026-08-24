@@ -54,6 +54,6 @@ Várias classes, fatores adicionais, modelos preditivos, simulador, serviço web
 
 ## Concluído quando
 
-- [ ] Outra pessoa reproduz fatores, ranking e backtest pelo README.
-- [ ] Testes provam disponibilidade temporal, fatores e uma métrica de carteira.
-- [ ] Dashboard e relatório reconciliam custos, períodos ruins, resultado e limitações.
+- Outra pessoa reproduz fatores, ranking e backtest pelo README.
+- Testes provam disponibilidade temporal, fatores e uma métrica de carteira.
+- Dashboard e relatório reconciliam custos, períodos ruins, resultado e limitações.

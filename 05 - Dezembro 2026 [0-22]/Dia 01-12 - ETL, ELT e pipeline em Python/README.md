@@ -3,36 +3,81 @@
 **Data de estudo:** 01/12/2026  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — ETL-ELT e arquitetura basica
 
-## Assuntos para pesquisar
-
-### Bloco 1 — ETL-ELT e arquitetura basica
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `ETL-ELT e arquitetura basica engenharia de dados e MLOps explicado passo a passo`
 - `ETL-ELT e arquitetura basica engenharia de dados e MLOps exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e94/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-etl-elt-e-arquitetura-basica`](<atividades/01-etl-elt-e-arquitetura-basica/>)
 
-### Bloco 2 — Pipeline em Python
+#### Arquivos e dados
 
-Pesquise exatamente:
+- **Pasta/arquivo principal:** `atividades/01-etl-elt-e-arquitetura-basica/dia-086-etl-elt-e-arquitetura-basica.py`.
+- **Entradas:** `dados/pedidos.csv` e schema criado nesta sessão. **Fallback local:** amostra fixa de 50 linhas.
 
+#### O que você precisa entender
+
+- **Definição:** ETL transforma antes de carregar; ELT transforma no destino. Camadas raw, processed e curated separam original, limpeza e produto analítico.
+- **Exemplo mínimo:** `raw/pedidos.csv → processed/pedidos.parquet → curated/vendas_mensais.parquet`, cada etapa com schema.
+- **Erro comum:** sobrescrever o dado bruto ou não declarar a granularidade de cada camada.
+
+#### O que fazer
+
+- [ ] Desenhe arquitetura simples: fontes CSV/API → camada raw → transformação → camada curated → consumo por BI/modelo.
+- [ ] Explique ETL versus ELT com o mesmo exemplo e escolha uma abordagem.
+- [ ] Defina contratos de dados para incidentes e clientes: campos, tipos, chave e frequência.
+
+- [ ] Crie estrutura de pastas `raw`, `processed`, `curated` e regras de nomenclatura.
+- [ ] Liste cinco falhas possíveis e como detectar cada uma.
+
+
+- [ ] **Em `atividades/01-etl-elt-e-arquitetura-basica/dia-086-etl-elt-e-arquitetura-basica.py`:** Adicione à arquitetura uma área quarantine entre raw e processed para linhas sem id ou com tipo inválido.
+- [ ] **Em `atividades/01-etl-elt-e-arquitetura-basica/dia-086-etl-elt-e-arquitetura-basica.py`:** Simule ausência da coluna id e uma execução repetida; descreva em qual etapa cada problema deve ser detectado.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+### Atividade 2 — Pipeline em Python
+
+#### O que pesquisar
 - `Pipeline em Python engenharia de dados e MLOps explicado passo a passo`
 - `Pipeline em Python engenharia de dados e MLOps exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-e95/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-pipeline-em-python`](<atividades/02-pipeline-em-python/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/02-pipeline-em-python/transform.py`.
+- **Entradas:** `dados/pedidos.csv`, schema e `atividades/02-pipeline-em-python/config.yaml`. **Fallback local:** Parquet ou DuckDB.
 
-## Concluído quando
+#### O que você precisa entender
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- **Definição:** idempotência significa que a mesma entrada produz o mesmo estado; configuração separa parâmetros; log registra evento, tempo e contexto.
+- **Exemplo mínimo:** leia CSV, valide schema, grave Parquet/DuckDB e execute duas vezes; contagem e chaves não podem duplicar.
+- **Erro comum:** usar append sem chave de execução ou esconder caminhos dentro do código.
+
+#### O que fazer
+
+- [ ] Implemente `extract.py` para ler CSV/JSON, `transform.py` para limpar e criar features, e `load.py` para gravar Parquet ou DuckDB.
+- [ ] Use arquivo de configuração para caminhos, sem valores fixos no código.
+- [ ] Adicione logs com quantidade lida, rejeitada e gravada.
+
+- [ ] Teste arquivo ausente, coluna faltante e linha inválida; registre a falha esperada e a observada.
+
+
+- [ ] **Em `atividades/02-pipeline-em-python/transform.py`:** Adicione validação obrigatória das colunas cliente_id e data_ativacao antes da transformação.
+- [ ] **Em `atividades/02-pipeline-em-python/transform.py`:** Execute duas vezes com o mesmo arquivo e depois com uma linha nova; compare contagens para provar idempotência e incremento.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

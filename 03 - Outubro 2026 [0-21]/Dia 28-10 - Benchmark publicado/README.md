@@ -3,25 +3,49 @@
 **Data de estudo:** 28/10/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Benchmark publicado
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Benchmark publicado
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Benchmark publicado Python explicado passo a passo`
 - `Benchmark publicado Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e66/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-benchmark-publicado`](<atividades/01-benchmark-publicado/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/01-benchmark-publicado/roteiro_atividades.md`.
+- **Dados:** `dados/clientes_telecom.csv` e `dados/pedidos.csv`; crie resultados derivados somente nos passos indicados.
 
+#### O que você precisa entender
+
+- **Definição:** benchmark é um protocolo de comparação: mesmos dados, divisão, pré-processamento e métricas para todos os modelos; o Dummy mostra o mínimo que um modelo útil precisa superar.
+- **Exemplo mínimo:** fixe `random_state=42`, treine todos no mesmo `X_train, y_train` e salve `modelo, métrica, tempo_ms` em uma única tabela.
+- **Erro comum:** mudar o split ou ajustar o pré-processamento com todos os dados; isso torna as métricas incomparáveis e pode vazar informação da avaliação.
+
+#### O que fazer
+
+- [ ] Compare obrigatoriamente Dummy, regressão logística, Random Forest e XGBoost usando o mesmo split, pré-processamento e protocolo.
+- [ ] Registre biblioteca, versão, seed, métricas primária e secundária, tempo de treino e tempo de inferência de cada modelo.
+- [ ] Salve os resultados em `benchmark.csv` e os hiperparâmetros em `parametros.json`.
+- [ ] Escolha champion e challenger e defenda a decisão com qualidade, custo, latência, explicabilidade e três trade-offs.
+
+- [ ] **Em `atividades/01-benchmark-publicado/roteiro_atividades.md`:** Reexecute o benchmark com random_state=17 além de 42 e acrescente as métricas à mesma tabela, sem sobrescrever a primeira rodada.
+- [ ] **Em `atividades/01-benchmark-publicado/roteiro_atividades.md`:** Compare tamanho em disco e tempo de inferência de logística e Random Forest em 100 previsões.
+
+#### Atualização do LinkedIn — após concluir
+
+- **Evidência exigida:** `benchmark.csv` reproduzível com uma linha executada de XGBoost e comparação justa entre os quatro modelos.
+- **Competências:** adicione **XGBoost** e **Avaliação de modelos**.
+- **Sobre e headline:** não altere ainda; a revisão de posicionamento ocorrerá após a auditoria completa do pipeline.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+---
 
 ## Entrega real de portfólio
 
@@ -64,8 +88,6 @@ Não selecione hiperparâmetros no teste, não omita modelo perdedor e não afir
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

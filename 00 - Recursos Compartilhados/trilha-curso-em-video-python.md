@@ -20,6 +20,8 @@ As aulas são gratuitas. Certificado não é requisito do roadmap.
 
 Use a resolução como diagnóstico: compare-a quando houver dúvida ou diferença relevante; quando sua solução estiver correta, testada e explicável, registre a evidência e avance.
 
+Os arquivos `DESAFIO*.py` das sessões futuras já ficam criados e vazios. O README da própria data contém os links: cole o enunciado no arquivo correspondente e desenvolva sua tentativa sem resposta pronta.
+
 ## Sessões selecionadas
 
 | Data | Aula gratuita | Exercícios do curso | Prática local |

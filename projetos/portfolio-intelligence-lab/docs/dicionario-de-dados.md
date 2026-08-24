@@ -25,8 +25,8 @@ Uma classe com 10–20 ativos e preços ajustados. Todo campo usado no score pre
 
 ## Validações
 
-- [ ] ticker/data são únicos nos preços;
-- [ ] preços são positivos;
-- [ ] `disponivel_em <= data_rebalanceamento` para toda observação usada;
-- [ ] o universo contém entre 10 e 20 tickers;
-- [ ] fonte, período e hash do snapshot estão registrados.
+- ticker/data são únicos nos preços;
+- preços são positivos;
+- `disponivel_em <= data_rebalanceamento` para toda observação usada;
+- o universo contém entre 10 e 20 tickers;
+- fonte, período e hash do snapshot estão registrados.

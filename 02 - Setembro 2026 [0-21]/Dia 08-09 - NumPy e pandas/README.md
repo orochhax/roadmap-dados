@@ -3,36 +3,92 @@
 **Data de estudo:** 08/09/2026  
 **Carga planejada:** 4 a 5 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — NumPy essencial
 
-## Assuntos para pesquisar
-
-### Bloco 1 — NumPy essencial
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `NumPy essencial análise de dados com Python explicado passo a passo`
 - `NumPy essencial análise de dados com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e17/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-numpy-essencial`](<atividades/01-numpy-essencial/>)
 
-### Bloco 2 — pandas - Series e DataFrame
+#### O que você precisa entender
 
-Pesquise exatamente:
+Um `ndarray` armazena valores do mesmo tipo e aplica operações a todos eles sem laço explícito.
 
+```python
+import numpy as np
+
+duracoes = np.array([30, 60, 120, 180])
+acima_da_meta = duracoes > 90
+ajustadas = np.where(acima_da_meta, duracoes * 0.9, duracoes)
+print(np.median(ajustadas), np.percentile(ajustadas, [25, 75]))
+```
+
+**Erro comum:** usar `and`/`or` com arrays; combine máscaras com `&`/`|` e parênteses.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/01-numpy-essencial/numpy_essencial.ipynb`.
+- **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
+
+#### O que fazer
+
+- [ ] Crie o array fornecido e calcule média, mediana, mínimo, máximo e percentis 25/75.
+- [ ] Crie uma matriz 4x3 e pratique seleção de linhas, colunas e fatias.
+- [ ] Use uma operação vetorizada para modificar valores acima de um limite e compare o resultado com um laço, sem medir desempenho ainda.
+
+- [ ] Normalize uma coluna pelo método min-max e confira manualmente os valores mínimo e máximo produzidos.
+- [ ] Teste `NaN`, array vazio e desvio zero e registre o comportamento de cada caso.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
+
+### Atividade 2 — pandas - Series e DataFrame
+
+#### O que pesquisar
 - `pandas - Series e DataFrame análise de dados com Python explicado passo a passo`
 - `pandas - Series e DataFrame análise de dados com Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/02-e18/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `02-pandas-series-e-dataframe`](<atividades/02-pandas-series-e-dataframe/>)
 
-## Integração
+#### O que você precisa entender
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+`Series` é uma coluna rotulada; `DataFrame` é uma tabela. Selecione linhas por rótulo com `.loc` e por posição com `.iloc`.
 
-## Concluído quando
+```python
+import pandas as pd
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+df = pd.DataFrame({"cidade": ["Salvador", "Feira"], "duracao": [80, 30]})
+filtro = df.loc[df["duracao"] > 60, ["cidade", "duracao"]]
+primeira_linha = df.iloc[0]
+```
+
+**Erro comum:** encadear filtros e atribuições; crie uma cópia explícita antes de alterar um recorte.
+
+#### Arquivos e dados
+
+- **Pasta/arquivo principal:** `atividades/02-pandas-series-e-dataframe/pandas_basico.ipynb`.
+- **Dados:** `dados/incidentes.csv`, `dados/clientes_telecom.csv`, `dados/pedidos.csv` e `dados/metas_cidades.csv`.
+
+#### O que fazer
+
+- [ ] Monte um DataFrame de 12 incidentes a partir de um dicionário.
+- [ ] Inspecione `shape`, `columns`, `dtypes`, `head`, `tail`, `info` e `describe`; escreva uma interpretação de cada saída.
+- [ ] Selecione colunas com `[]`, linhas com `loc` e posições com `iloc`; crie cinco filtros combinando cidade, severidade e duração.
+
+- [ ] Crie colunas `duracao_horas` e `impacto = duracao_min * clientes_afetados` sem usar laço.
+- [ ] Ordene pelos maiores impactos, selecione os três principais e confirme manualmente os cálculos.
+- [ ] Em uma cópia, substitua uma duração por valor ausente e registre o efeito em `dtypes`, `describe()` e no cálculo de impacto.
+
+#### Como validar
+
+- Registrei as saídas pedidas e conferi pelo menos um resultado.
+- Testei uma variação ou caso de borda e documentei o efeito.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

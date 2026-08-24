@@ -68,10 +68,10 @@ de pares do teste no treino, ordenação, determinismo e política de revisão.
 
 ## Concluído quando
 
-- [ ] Os splits são por entidade, não por linha aleatória.
-- [ ] O baseline está implementado e preservado no benchmark.
-- [ ] Candidate recall e ranking são avaliados separadamente.
-- [ ] Há slices e análise manual dos erros mais caros.
-- [ ] O sistema pode devolver revisão, sem forçar todo registro a casar.
-- [ ] Comando, testes e artefatos são reproduzíveis.
-- [ ] README.en.md e docs/presentation-en.md contêm resultados reais.
+- Os splits são por entidade, não por linha aleatória.
+- O baseline está implementado e preservado no benchmark.
+- Candidate recall e ranking são avaliados separadamente.
+- Há slices e análise manual dos erros mais caros.
+- O sistema pode devolver revisão, sem forçar todo registro a casar.
+- Comando, testes e artefatos são reproduzíveis.
+- README.en.md e docs/presentation-en.md contêm resultados reais.

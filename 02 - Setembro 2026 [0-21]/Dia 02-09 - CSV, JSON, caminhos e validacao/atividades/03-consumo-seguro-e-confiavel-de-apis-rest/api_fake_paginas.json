@@ -1,0 +1,138 @@
+{
+  "contrato": {
+    "lista": "items",
+    "proximo_cursor": "next_cursor",
+    "chave_unica": "id",
+    "marca_incremental": "updated_at"
+  },
+  "paginas": {
+    "inicio": {
+      "status": 200,
+      "headers": {},
+      "json": {
+        "items": [
+          {
+            "id": "CH-1001",
+            "cidade": "Salvador",
+            "categoria": "fibra",
+            "status": "aberto",
+            "updated_at": "2026-09-01T08:15:00Z"
+          },
+          {
+            "id": "CH-1002",
+            "cidade": "Feira de Santana",
+            "categoria": "energia",
+            "status": "resolvido",
+            "updated_at": "2026-09-01T09:40:00Z"
+          }
+        ],
+        "next_cursor": "cursor-2"
+      }
+    },
+    "cursor-2": {
+      "status": 200,
+      "headers": {},
+      "json": {
+        "items": [
+          {
+            "id": "CH-1002",
+            "cidade": "Feira de Santana",
+            "categoria": "energia",
+            "status": "resolvido",
+            "updated_at": "2026-09-01T09:40:00Z"
+          },
+          {
+            "id": "CH-1003",
+            "cidade": "Ilhéus",
+            "categoria": "roteador",
+            "status": "aberto",
+            "updated_at": "2026-09-01T11:05:00Z"
+          }
+        ],
+        "next_cursor": null
+      }
+    },
+    "vazia": {
+      "status": 200,
+      "headers": {},
+      "json": {
+        "items": [],
+        "next_cursor": null
+      }
+    },
+    "cursor-repetido": {
+      "status": 200,
+      "headers": {},
+      "json": {
+        "items": [],
+        "next_cursor": "cursor-repetido"
+      }
+    },
+    "json-sem-items": {
+      "status": 200,
+      "headers": {},
+      "json": {
+        "next_cursor": null
+      }
+    }
+  },
+  "sequencias": {
+    "rate_limit_depois_sucesso": [
+      {
+        "status": 429,
+        "headers": {
+          "Retry-After": "1"
+        },
+        "json": {
+          "erro": "limite temporário"
+        }
+      },
+      {
+        "status": 200,
+        "headers": {},
+        "json": {
+          "items": [
+            {
+              "id": "CH-1004",
+              "cidade": "Camaçari",
+              "categoria": "fibra",
+              "status": "aberto",
+              "updated_at": "2026-09-01T13:20:00Z"
+            }
+          ],
+          "next_cursor": null
+        }
+      }
+    ],
+    "servidor_indisponivel": [
+      {
+        "status": 503,
+        "headers": {},
+        "json": {
+          "erro": "indisponível"
+        }
+      },
+      {
+        "status": 503,
+        "headers": {},
+        "json": {
+          "erro": "indisponível"
+        }
+      },
+      {
+        "status": 503,
+        "headers": {},
+        "json": {
+          "erro": "indisponível"
+        }
+      },
+      {
+        "status": 503,
+        "headers": {},
+        "json": {
+          "erro": "indisponível"
+        }
+      }
+    ]
+  }
+}

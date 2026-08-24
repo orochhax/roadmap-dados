@@ -1,0 +1,17 @@
+-- Simulado SQL
+--
+-- Arquivo preparado a partir do roadmap.
+-- Nenhuma atividade foi resolvida neste arquivo.
+--
+-- ENUNCIADOS
+-- ### Passo a passo completo
+-- NÚCLEO ESSENCIAL
+-- Escreva aqui as respostas das questões 1–10 de `../docs/simulado_sql_perguntas.md`.
+-- 2. Use os dois arquivos do simulado sem consulta durante os primeiros 60 minutos.
+-- 3. Para cada questão, marque tempo, confiança de 1–5 e se precisou consultar documentação.
+-- 4. Escolha as três respostas mais fracas e reescreva somente essas três.
+--
+-- PRÁTICA OBRIGATÓRIA
+-- Crie uma folha de erros com categoria, causa, correção e regra de prevenção.
+--
+-- Escreva sua solução abaixo desta linha.

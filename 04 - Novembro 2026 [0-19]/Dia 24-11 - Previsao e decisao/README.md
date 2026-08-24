@@ -3,27 +3,45 @@
 **Data de estudo:** 24/11/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Previsao e decisao
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Previsao e decisao
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Previsao e decisao Python explicado passo a passo`
 - `Previsao e decisao Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e87/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-previsao-e-decisao`](<atividades/01-previsao-e-decisao/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/01-previsao-e-decisao/dia-079-previsao-e-decisao.ipynb`.
+- **Dados:** `dados/energia.csv`.
 
-## Concluído quando
+#### O que você precisa entender
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- **Definição:** previsão pontual estima um valor; intervalo expressa incerteza; custo assimétrico dá pesos diferentes a excesso e falta.
+- **Exemplo mínimo:** `custo = 2*max(y-y_hat,0) + 1*max(y_hat-y,0)`; publique cenário baixo, central e alto.
+- **Erro comum:** tratar intervalo de 95% como garantia ou decidir apenas pela média.
+
+#### O que fazer
+
+- [ ] Converta previsões em decisão: dimensionamento de equipe, compra de energia ou capacidade.
+- [ ] Crie cenários otimista, base e pessimista usando intervalos.
+- [ ] Calcule custo de subestimar versus superestimar.
+
+- [ ] Escolha métrica e modelo alinhados ao custo.
+- [ ] Escreva recomendação para a próxima semana com nível de confiança.
+
+
+- [ ] **Em `atividades/01-previsao-e-decisao/dia-079-previsao-e-decisao.ipynb`:** Atribua custo 3 vezes maior para subestimar do que para superestimar e recalcule a escolha entre os modelos.
+- [ ] **Em `atividades/01-previsao-e-decisao/dia-079-previsao-e-decisao.ipynb`:** Produza recomendação para horizonte de 14 dias e compare o nível de incerteza com a recomendação de 7 dias.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
+
+## Finalização
+
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

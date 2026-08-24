@@ -8,12 +8,12 @@
 
 ## Critérios da miniaplicação
 
-1. [ ] Valide a entrada e produza saída estruturada para 20 chamados, incluindo cinco ambíguos e cinco fora do domínio.
-2. [ ] Separe classificação, resumo e regra de encaminhamento.
-3. [ ] Teste entrada vazia, caso ambíguo e recusa segura.
+1. Valide a entrada e produza saída estruturada para 20 chamados, incluindo cinco ambíguos e cinco fora do domínio.
+2. Separe classificação, resumo e regra de encaminhamento.
+3. Teste entrada vazia, caso ambíguo e recusa segura.
 
 ## Concluído quando
 
-- [ ] Os 20 casos possuem resultado esperado e observado.
-- [ ] O schema passa na validação e casos inseguros pedem revisão.
-- [ ] O relatório descreve uma falha e sua mitigação.
+- Os 20 casos possuem resultado esperado e observado.
+- O schema passa na validação e casos inseguros pedem revisão.
+- O relatório descreve uma falha e sua mitigação.

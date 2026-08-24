@@ -3,25 +3,45 @@
 **Data de estudo:** 12/01/2027  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — Teste, apresentacao e retrospectiva
 
-## Assuntos para pesquisar
-
-### Bloco 1 — Teste, apresentacao e retrospectiva
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `Teste, apresentacao e retrospectiva Python explicado passo a passo`
 - `Teste, apresentacao e retrospectiva Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e128/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-teste-apresentacao-e-retrospectiva`](<atividades/01-teste-apresentacao-e-retrospectiva/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/01-teste-apresentacao-e-retrospectiva/roteiro_atividades.md`.
+- **Entradas:** código, fixture, testes, métricas e README. **Fallback local:** fluxo completo sem API externa.
 
+#### Manifesto de entradas
+
+- **Obrigatórias:** código estável, fixture, testes, métricas e README do produto.
+- **Fallback local:** execute todo o fluxo com fixture versionada e sem API externa.
+
+#### O que você precisa entender
+
+- **Definição:** teste funcional verifica fluxo, teste de dados verifica contrato e teste de decisão confere se a saída sustenta a ação; retrospectiva transforma resultado em insumo.
+- **Exemplo mínimo:** grave `insumos_tcc.md` com três aprendizados, uma restrição de escopo, um risco e a evidência de cada item.
+- **Erro comum:** apresentar apenas o caminho feliz ou transformar a retrospectiva em uma especificação maior que a entrega.
+
+#### O que fazer
+
+- [ ] Execute testes funcionais, de dados e de decisão sobre o fluxo essencial.
+- [ ] Corrija os problemas críticos e gere uma versão estável.
+- [ ] Apresente o produto em até cinco minutos com problema, decisão, evidência e limitação.
+- [ ] Crie `insumos_tcc.md` com três aprendizados, uma restrição de escopo, um risco e a evidência de cada item.
+
+- [ ] **Em `atividades/01-teste-apresentacao-e-retrospectiva/roteiro_atividades.md`:** apresente em uma frase a limitação mais grave e confirme que ela aparece tanto na explicação técnica quanto na executiva.
+
+#### Como validar
+
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
 
 ## Entrega real de portfólio
 
@@ -29,8 +49,6 @@ Explique com suas palavras como os blocos se conectam em um fluxo de dados ou de
 
 Siga o [brief do projeto](<../../projetos/telecom-customer-intelligence/README.md>). A entrega precisa ter problema e usuário definidos, data card, dados reproduzíveis, baseline, métricas escolhidas antes do resultado, análise de erros, testes, README em português e inglês e apresentação de 2–3 minutos em inglês. Documente também resultados negativos.
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.

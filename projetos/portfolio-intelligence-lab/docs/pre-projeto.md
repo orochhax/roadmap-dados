@@ -6,13 +6,13 @@ O score transparente de momentum e volatilidade produz uma carteira Top-K com re
 
 ## Escopo a congelar
 
-- [ ] escolha uma classe e 10–20 ativos;
-- [ ] registre fonte, licença, snapshot, período e hash;
-- [ ] fixe janelas de momentum e volatilidade;
-- [ ] fixe rebalanceamento, Top-K e custo em pontos-base;
-- [ ] fixe métricas e critérios de sucesso;
-- [ ] escolha o dashboard como entrega visual;
-- [ ] limite o relatório a 4–6 páginas.
+- escolha uma classe e 10–20 ativos;
+- registre fonte, licença, snapshot, período e hash;
+- fixe janelas de momentum e volatilidade;
+- fixe rebalanceamento, Top-K e custo em pontos-base;
+- fixe métricas e critérios de sucesso;
+- escolha o dashboard como entrega visual;
+- limite o relatório a 4–6 páginas.
 
 ## Entregáveis
 
@@ -33,6 +33,6 @@ Registre três objeções, severidade, decisão e evidência exigida. Corte qual
 
 ## Concluído quando
 
-- [ ] O documento cabe em duas páginas.
-- [ ] Nenhuma decisão estrutural permanece aberta.
-- [ ] Fonte e amostra local permitem iniciar o protocolo.
+- O documento cabe em duas páginas.
+- Nenhuma decisão estrutural permanece aberta.
+- Fonte e amostra local permitem iniciar o protocolo.

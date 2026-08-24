@@ -3,25 +3,55 @@
 **Data de estudo:** 18/12/2026  
 **Carga planejada:** 2 a 4 horas
 
-## Como estudar
+## Atividades do dia
 
-Você pode escolher vídeo, documentação, site ou IA. Pesquise os nomes abaixo, faça uma primeira tentativa sem solução pronta e guarde evidência executável.
+### Atividade 1 — MLOps introdutorio
 
-## Assuntos para pesquisar
-
-### Bloco 1 — MLOps introdutorio
-
-Pesquise exatamente:
-
+#### O que pesquisar
 - `MLOps introdutorio Python explicado passo a passo`
 - `MLOps introdutorio Python exercícios práticos`
 
-Depois siga o [guia e os enunciados deste bloco](<modulos/01-e112/README.md>). Tente os exercícios antes de procurar uma implementação completa.
+**Arquivos da atividade:** [abrir a pasta `01-mlops-introdutorio`](<atividades/01-mlops-introdutorio/>)
 
-## Integração
+#### Arquivos e dados
 
-Explique com suas palavras como os blocos se conectam em um fluxo de dados ou decisão. Execute um caso comum e um caso de borda de cada bloco e registre comandos, saídas e dúvidas nas evidências.
+- **Pasta/arquivo principal:** `atividades/01-mlops-introdutorio/dia-104-mlops-introdutorio.py`.
+- **Entradas:** `dados/clientes_telecom.csv`, run IDs do MLflow, `atividades/01-mlops-introdutorio/politica_promocao.md` e `atividades/01-mlops-introdutorio/model_card.md`.
+- **Saídas obrigatórias:** modelo inicial, modelo retreinado, histórico de promoção e `deployment_events.jsonl` com rollback.
 
+#### O que você precisa entender
+
+- **Definição:** drift de dados muda entradas; de previsão muda scores; de conceito muda a relação com o alvo. PSI compara proporções: `Σ(a-e)ln(a/e)`.
+- **Exemplo mínimo:** leia `baseline_monitoramento.json`; sem ele, gere baseline local da amostra. Defina alerta, responsável e ação de rollback.
+- **Erro comum:** retreinar automaticamente por qualquer PSI sem confirmar qualidade, impacto e atraso do rótulo.
+- **Retreinamento real:** exige executar novamente `.fit()` com um lote diferente; apenas descrever o processo não atende.
+- **Rollback comprovado:** exige restaurar a versão anterior, recarregá-la e executar uma previsão de verificação.
+
+#### O que fazer
+
+- [ ] Treine e registre no MLflow um modelo inicial como champion, incluindo versão dos dados, seed, métricas, latência e artefato.
+- [ ] Crie um novo lote rotulado, execute um novo `.fit()` e registre o modelo retreinado como challenger em outra run.
+- [ ] Antes de comparar, preencha um gate de promoção com métrica mínima, tolerância de degradação e limite de latência; não altere esses limites depois de ver os resultados.
+- [ ] Registre champion e challenger e controle o modelo ativo por alias ou ponteiro versionado.
+- [ ] Aponte temporariamente para o challenger, injete uma queda controlada de performance e execute rollback para o champion anterior.
+- [ ] Recarregue o modelo restaurado, faça uma previsão de verificação e grave `deployment_events.jsonl` com versões, motivo, decisão e resultado.
+- [ ] Complete o model card com uso, métricas, gatilho de retreinamento, limitações, aprovação e responsável.
+
+- [ ] **Em `atividades/01-mlops-introdutorio/dia-104-mlops-introdutorio.py`:** Defina alerta de drift quando PSI superar 0,20 e registre quem revisa e em quanto tempo.
+- [ ] **Em `atividades/01-mlops-introdutorio/dia-104-mlops-introdutorio.py`:** Simule challenger 2% melhor na métrica, mas 4 vezes mais lento; aplique os critérios do model card para decidir.
+
+#### Atualização do LinkedIn — após concluir
+
+- **Evidência exigida:** duas runs reais, novo `.fit()`, gate preenchido, promoção simulada, rollback e recarga da versão anterior.
+- **Competências:** adicione **MLOps** e **Monitoramento de modelos**.
+- **Sobre:** acrescente uma frase concreta sobre pipelines reproduzíveis com rastreamento, monitoramento, retreinamento e rollback usando MLflow.
+- **Headline:** mantenha a atual até o marco de currículo e narrativa.
+
+#### Como validar
+
+- Retreinamento, gate, promoção e rollback foram executados e registrados com identificadores de versão.
+- Uma verificação controlada registra entrada, resultado esperado e resultado observado.
+- A entrega documenta a decisão tomada, a evidência que a sustenta e uma limitação concreta.
 
 ## Entrega real de portfólio
 
@@ -64,8 +94,6 @@ Não diga que houve deploy produtivo, drift real de clientes ou rollback em sist
 - [ ] **URL publicada:**
 - [ ] **Data da publicação:**
 
-## Concluído quando
+## Finalização
 
-- [ ] Estudei todos os assuntos e concluí os enunciados dos blocos sem copiar uma solução completa.
-- [ ] Executei os artefatos, testei casos de borda e registrei resultados verificáveis.
-- [ ] Expliquei a conexão entre os blocos, a decisão tomada e pelo menos uma limitação concreta.
+- [ ] Dia concluído: atividades executadas, critérios atendidos e conteúdo explicado com minhas palavras.
