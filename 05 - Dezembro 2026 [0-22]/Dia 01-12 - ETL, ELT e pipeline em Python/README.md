@@ -11,6 +11,12 @@
 - `ETL-ELT e arquitetura basica engenharia de dados e MLOps explicado passo a passo`
 - `ETL-ELT e arquitetura basica engenharia de dados e MLOps exercícios práticos`
 
+#### Aula guiada — projeto de engenharia de dados (parte 1)
+
+- [ ] Assista a [**Engenharia de Dados para INICIANTES | Projeto Completo Explicado do ZERO**](https://www.youtube.com/watch?v=I8qPqbXQBDU), de `00:00:00` a `00:47:31` (47min31s).
+- Nesta primeira parte, acompanhe requisitos, estrutura do projeto, variáveis de ambiente, extração, transformação, carga e o primeiro teste do ETL.
+- Use a aula para reconhecer o fluxo completo; a entrega obrigatória continua sendo o pipeline próprio abaixo, com dados locais, validação, logs e prova de idempotência.
+
 **Arquivos da atividade:** [abrir a pasta `01-etl-elt-e-arquitetura-basica`](<atividades/01-etl-elt-e-arquitetura-basica/>)
 
 #### Arquivos e dados

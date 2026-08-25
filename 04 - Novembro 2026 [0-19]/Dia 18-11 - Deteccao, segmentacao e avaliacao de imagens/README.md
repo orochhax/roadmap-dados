@@ -3,6 +3,16 @@
 **Data de estudo:** 18/11/2026  
 **Carga planejada:** 2 a 4 horas
 
+## Continuação da aula selecionada
+
+- [ ] **Redes Neurais Convolucionais com PyTorch | Visão Computacional | Deep Learning #2** — [abrir no YouTube a partir de 1:50:06](https://www.youtube.com/watch?v=doT7koXt9vw&t=6606s).
+
+**Recorte deste dia:** de 1:50:06 até o fim, cobrindo intuição de convolução, criação, treino, avaliação e uso da CNN em imagens próprias.
+
+**Carga de vídeo selecionada:** aproximadamente 1h01.
+
+**Limite da aula:** este recorte ensina CNN para classificação, mas não cobre todo o conteúdo de detecção e segmentação. A prática local com bounding boxes, IoU, mAP, máscaras e Dice continua integralmente obrigatória.
+
 ## Atividades do dia
 
 ### Atividade 1 — Visão computacional II: detecção, segmentação, IoU, mAP e Dice

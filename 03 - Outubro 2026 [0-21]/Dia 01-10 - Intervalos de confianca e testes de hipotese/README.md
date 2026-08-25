@@ -3,6 +3,17 @@
 **Data de estudo:** 01/10/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+Use os títulos exatamente como estão escritos para localizar as aulas:
+
+- [ ] **GRINGS - Estimação por  Intervalo de Confiança da Média aula 16** (50:44) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=GRINGS+Estimacao+por+Intervalo+de+Confianca+da+Media+aula+16).
+- [ ] **Grings - Teste de Hipótese para Média aula 20** (38:49) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Grings+Teste+de+Hipotese+para+Media+aula+20).
+
+**Carga de vídeo selecionada:** aproximadamente 1h30.
+
+**Prática obrigatória:** reproduza os cálculos e interprete cobertura, valor-p, erros e decisão nos notebooks do dia. Assistir às aulas não substitui a execução dos experimentos.
+
 ## Atividades do dia
 
 ### Atividade 1 — Intervalos de confianca

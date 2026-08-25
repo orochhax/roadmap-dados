@@ -3,6 +3,12 @@
 **Data de estudo:** 10/11/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aula selecionada no YouTube
+
+- [ ] **Machine Learning 22: Projeto Churn - Assess** (40:32), da trilha **Machine Learning — Téo Me Why** — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+22+Projeto+Churn+Assess+Teo+Me+Why).
+
+**Prática obrigatória:** avalie seu próprio modelo por limiar e segmento, explique erros e conecte o score à capacidade da operação de retenção.
+
 ## Atividades do dia
 
 ### Atividade 1 — Limiar e estrategia de retencao

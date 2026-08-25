@@ -11,6 +11,12 @@
 - `Orquestracao conceitual Python explicado passo a passo`
 - `Orquestracao conceitual Python exercícios práticos`
 
+#### Aula guiada — projeto de engenharia de dados (parte 2)
+
+- [ ] Continue [**Engenharia de Dados para INICIANTES | Projeto Completo Explicado do ZERO**](https://www.youtube.com/watch?v=I8qPqbXQBDU), de `00:47:31` a `01:10:55` (23min24s).
+- Nesta segunda parte, acompanhe os conceitos de Docker e Airflow, o setup, a criação e a execução da DAG e a publicação do projeto.
+- Compare a demonstração com sua DAG: identifique explicitamente dependências, política de retry, data interval, backfill, observabilidade e idempotência que a atividade exige.
+
 **Arquivos da atividade:** [abrir a pasta `01-orquestracao-conceitual`](<atividades/01-orquestracao-conceitual/>)
 
 #### Arquivos e dados

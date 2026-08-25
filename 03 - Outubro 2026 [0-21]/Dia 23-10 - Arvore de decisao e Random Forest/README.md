@@ -3,6 +3,15 @@
 **Data de estudo:** 23/10/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+- [ ] **O que é ENTROPIA? | Data Science Descomplicado** (6:24) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=O+que+e+ENTROPIA+Data+Science+Descomplicado).
+- [ ] **Machine Learning 11: Árvore de Decisão (Classificação)** (25:36), da trilha **Machine Learning — Téo Me Why** — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+11+Arvore+de+Decisao+Classificacao+Teo+Me+Why).
+
+**Carga de vídeo selecionada:** 32 minutos.
+
+**Prática obrigatória:** use as aulas para entender impureza e divisões. O treino com várias profundidades, a análise de overfitting e a comparação com Random Forest continuam obrigatórios.
+
 ## Atividades do dia
 
 ### Atividade 1 — Arvore de decisao

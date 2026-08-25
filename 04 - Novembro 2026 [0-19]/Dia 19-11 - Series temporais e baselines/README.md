@@ -3,6 +3,24 @@
 **Data de estudo:** 19/11/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+Sequência do **Professor Vinicius Lima**:
+
+- [ ] **Séries Temporais: Conceitos Básicos 01** (14:36) — [abrir no YouTube](https://www.youtube.com/watch?v=rexHHx6Nwec).
+- [ ] **Séries Temporais: Conceitos Básicos 02** (11:37) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Series+Temporais+Conceitos+Basicos+02+Professor+Vinicius+Lima).
+- [ ] **Séries Temporais: Conceitos Básicos 03** (7:01) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Series+Temporais+Conceitos+Basicos+03+Professor+Vinicius+Lima).
+- [ ] **Séries Temporais: Conceitos Básicos 04** (24:03) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Series+Temporais+Conceitos+Basicos+04+Professor+Vinicius+Lima).
+- [ ] **Séries Temporais: Conceitos Básicos 05** (10:18) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Series+Temporais+Conceitos+Basicos+05+Professor+Vinicius+Lima).
+- [ ] **Séries Temporais: Conceitos Básicos 06** (2:51) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Series+Temporais+Conceitos+Basicos+06+Professor+Vinicius+Lima).
+- [ ] **Componentes de uma série temporal** (19:48) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Componentes+de+uma+serie+temporal+Professor+Vinicius+Lima).
+- [ ] **Estacionariedade 1** (10:00) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Estacionariedade+1+Professor+Vinicius+Lima).
+- [ ] **Função autocorrelação amostral 01** (18:50) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Funcao+autocorrelacao+amostral+01+Professor+Vinicius+Lima).
+
+**Carga de vídeo selecionada:** aproximadamente 1h59.
+
+**Prática obrigatória:** verifique frequência e lacunas, crie lags sem futuro, implemente baselines e faça walk-forward nos notebooks. A teoria não substitui o backtesting.
+
 ## Atividades do dia
 
 ### Atividade 1 — Fundamentos temporais

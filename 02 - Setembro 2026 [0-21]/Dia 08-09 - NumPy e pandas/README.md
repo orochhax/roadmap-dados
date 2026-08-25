@@ -55,6 +55,11 @@ print(np.median(ajustadas), np.percentile(ajustadas, [25, 75]))
 
 **Arquivos da atividade:** [abrir a pasta `02-pandas-series-e-dataframe`](<atividades/02-pandas-series-e-dataframe/>)
 
+#### Aula guiada — pandas, parte 1
+
+- [ ] Assista de **00:00 a 01:14:10** de **Tudo de Pandas para Python (DIDÁTICA SUPREMA)**. [Abrir no YouTube](https://www.youtube.com/watch?v=TMfMkgLkeBQ)
+- Nesta primeira parte, concentre-se em criação e inspeção de DataFrames, limpeza inicial, criação de colunas e métricas. A continuação será feita em 09/09; não assista às duas partes no mesmo dia.
+
 #### O que você precisa entender
 
 `Series` é uma coluna rotulada; `DataFrame` é uma tabela. Selecione linhas por rótulo com `.loc` e por posição com `.iloc`.

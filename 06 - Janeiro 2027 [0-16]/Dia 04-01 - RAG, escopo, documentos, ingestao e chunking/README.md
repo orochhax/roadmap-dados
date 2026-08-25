@@ -11,6 +11,12 @@
 - `Escopo e documentos Python explicado passo a passo`
 - `Escopo e documentos Python exercícios práticos`
 
+#### Aula guiada — RAG com LangChain (parte 1)
+
+- [ ] Assista a [**Agente de IA completo com Python - Projeto RAG com Langchain**](https://www.youtube.com/watch?v=0M8iO5ykY-E), de `00:00` a `33:43` (33min43s).
+- Nesta parte, concentre-se na arquitetura RAG, preparação da base, estrutura do projeto, carregamento, chunking, embeddings e criação do banco vetorial.
+- Não copie a chave nem use o PDF do vídeo como entrega. Aplique os conceitos ao corpus governado do projeto, preservando manifesto, metadados, hashes e perguntas com gabarito.
+
 **Arquivos da atividade:** [abrir a pasta `projeto-assistente-suporte-ia`](<../../projetos/assistente-suporte-ia/>)
 
 #### Arquivos e dados

@@ -286,7 +286,15 @@ def validate_internal_activity_ids(errors: list[str]) -> None:
             text = activity_text(source)
         except (OSError, UnicodeError, json.JSONDecodeError, TypeError):
             continue
-        internal_ids = sorted(set(INTERNAL_ACTIVITY_ID_RE.findall(text)))
+        # Títulos públicos de cursos podem usar rótulos como ``S1 E10``
+        # (temporada/episódio). Eles não são IDs internos da antiga estrutura
+        # do roadmap e precisam permanecer literais para o aluno copiá-los.
+        text_without_episode_labels = re.sub(
+            r"\bS\d+\s+E\d+\b", "", text, flags=re.IGNORECASE
+        )
+        internal_ids = sorted(
+            set(INTERNAL_ACTIVITY_ID_RE.findall(text_without_episode_labels))
+        )
         if internal_ids:
             errors.append(
                 "ID interno fora do manifesto: "

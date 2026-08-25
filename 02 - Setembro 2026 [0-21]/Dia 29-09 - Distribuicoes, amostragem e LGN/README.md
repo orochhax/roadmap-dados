@@ -3,6 +3,19 @@
 **Data de estudo:** 29/09/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+Use os títulos exatamente como estão escritos para localizar as aulas:
+
+- [ ] **GRINGS - Probabilidade aula 10** (26:00) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=GRINGS+Probabilidade+aula+10).
+- [ ] **GRINGS - Probabilidade Condicional aula 12** (10:39) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=GRINGS+Probabilidade+Condicional+aula+12).
+- [ ] **GRINGS - Tabela de Distribuição Normal de Duas Folhas aula 13** (22:16) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=GRINGS+Tabela+de+Distribuicao+Normal+de+Duas+Folhas+aula+13).
+- [ ] **GRINGS - Amostragem com Distribuição Normal aula 15** (22:47) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=GRINGS+Amostragem+com+Distribuicao+Normal+aula+15).
+
+**Carga de vídeo selecionada:** aproximadamente 1h22.
+
+**Prática obrigatória:** use as aulas para entender os conceitos e os notebooks para simulá-los, comparar teoria e amostra e explicar os resultados. Assistir aos vídeos, sozinho, não conclui a sessão.
+
 ## Atividades do dia
 
 ### Atividade 1 — Distribuicoes importantes

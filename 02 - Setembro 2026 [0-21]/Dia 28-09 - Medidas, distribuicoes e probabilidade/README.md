@@ -3,6 +3,19 @@
 **Data de estudo:** 28/09/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+Use os títulos exatamente como estão escritos para localizar as aulas:
+
+- [ ] **GRINGS - Classificação de Variáveis - Aula 1** (8:56) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=GRINGS+Classificacao+de+Variaveis+Aula+1).
+- [ ] **GRINGS - Frequências Absoluta, Relativa, Acumulada  aula 3** (12:11) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=GRINGS+Frequencias+Absoluta+Relativa+Acumulada+aula+3).
+- [ ] **Grings - Moda, Média e Mediana aula 4** (29:10) — [abrir no YouTube](https://www.youtube.com/watch?v=UfupcG1ax6U).
+- [ ] **GRINGS - Cálculo do desvio padrão e da variância aula 6** (11:34) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=GRINGS+Calculo+do+desvio+padrao+e+da+variancia+aula+6).
+
+**Carga de vídeo selecionada:** aproximadamente 1h02.
+
+**Prática obrigatória:** as aulas apresentam a base matemática; os dois notebooks do dia continuam obrigatórios. Assistir aos vídeos, sozinho, não conclui a sessão.
+
 ## Atividades do dia
 
 ### Atividade 1 — Medidas e distribuicoes

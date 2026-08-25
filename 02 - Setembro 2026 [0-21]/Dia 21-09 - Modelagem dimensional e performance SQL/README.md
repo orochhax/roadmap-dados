@@ -15,6 +15,13 @@
 
 **Arquivos da atividade:** [abrir a pasta `01-modelagem-dimensional-fatos-dimensoes`](<atividades/01-modelagem-dimensional-fatos-dimensoes/>)
 
+#### Aulas guiadas — do modelo conceitual ao físico
+
+- [ ] Assista **Série Projeto de Modelagem de Banco de Dados - Aula 2 - Modelo Conceitual**. [Abrir no YouTube](https://www.youtube.com/watch?v=vxG-H5InZvw)
+- [ ] Assista **Série Projeto de Modelagem de Banco de Dados - Aula 3 - Modelo Lógico**. [Abrir no YouTube](https://www.youtube.com/watch?v=lCQZa_OvpzM)
+- [ ] Assista **Série Projeto de Modelagem de Banco de Dados - Aula 4 - Modelo Físico e Projeto**. [Abrir no YouTube](https://www.youtube.com/watch?v=Ix0fwZRyBe8)
+- A série apresenta a passagem do problema para um banco relacional. Depois, use o enunciado local para distinguir esse modelo de um modelo dimensional e justificar fatos, dimensões, grão, chaves substitutas e histórico SCD.
+
 #### Objetivo
 
 Projetar um modelo estrela auditável para responder perguntas de incidentes, clientes e planos sem multiplicar métricas em joins. Você praticará grão, chaves substitutas, dimensões conformadas e histórico SCD tipo 2.

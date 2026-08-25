@@ -3,6 +3,16 @@
 **Data de estudo:** 16/11/2026  
 **Carga planejada:** 2 a 4 horas
 
+## Continuação da aula selecionada
+
+- [ ] **Introdução ao PyTorch | Redes Neurais | Primeiros passos com Pytorch | Deep Learning #1** — [abrir no YouTube](https://www.youtube.com/watch?v=cGxv8tOaA7I&t=6606s).
+
+**Recorte deste dia:** de 1:50:06 até 2:31:06, cobrindo regressão com rede neural, hiperparâmetros, overfitting e uma rede mais profunda. Pare antes do tutorial de Fashion MNIST.
+
+**Carga de vídeo selecionada:** aproximadamente 41 minutos.
+
+**Prática obrigatória:** treine e compare a MLP definida no enunciado, aplique regularização e analise curvas de treino e validação. O recorte não substitui o experimento local.
+
 ## Atividades do dia
 
 ### Atividade 1 — PyTorch II: MLP, regularização, desbalanceamento e tracking

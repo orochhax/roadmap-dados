@@ -3,6 +3,17 @@
 **Data de estudo:** 06/11/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+Trilha **Machine Learning — Téo Me Why**:
+
+- [ ] **Machine Learning 20: Projeto Churn - Modify (Python)** (27:33) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+20+Projeto+Churn+Modify+Python+Teo+Me+Why).
+- [ ] **Machine Learning 21: Projeto Churn - Pipeline** (32:54) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+21+Projeto+Churn+Pipeline+Teo+Me+Why).
+
+**Carga de vídeo selecionada:** aproximadamente 1h.
+
+**Prática obrigatória:** prepare os dados sem leakage, crie baseline de negócio e pipeline reproduzível e compare modelos nos artefatos locais.
+
 ## Atividades do dia
 
 ### Atividade 1 — Preparacao para modelagem

@@ -3,6 +3,12 @@
 **Data de estudo:** 24/11/2026  
 **Carga planejada:** 2 a 4 horas
 
+## Aula selecionada no YouTube
+
+- [ ] **Passeio aleatório** (9:14), da sequência do **Professor Vinicius Lima** — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Passeio+aleatorio+Professor+Vinicius+Lima).
+
+Use o passeio aleatório para entender por que o último valor observado é um baseline temporal forte. Compare-o com suas previsões antes de defender um modelo mais complexo.
+
 ## Atividades do dia
 
 ### Atividade 1 — Previsao e decisao

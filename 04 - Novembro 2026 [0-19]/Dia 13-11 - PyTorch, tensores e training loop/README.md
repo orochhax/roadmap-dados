@@ -3,6 +3,16 @@
 **Data de estudo:** 13/11/2026  
 **Carga planejada:** 2 a 4 horas
 
+## Aula selecionada no YouTube
+
+- [ ] **Introdução ao PyTorch | Redes Neurais | Primeiros passos com Pytorch | Deep Learning #1** — [abrir no YouTube](https://www.youtube.com/watch?v=cGxv8tOaA7I).
+
+**Recorte deste dia:** de 00:00 até 1:50:06, passando por rede neural, perceptron, PyTorch, Dataset, DataLoader, aprendizagem, função de perda, gradiente descendente e treinamento. Não assista ao restante hoje.
+
+**Carga de vídeo selecionada:** aproximadamente 1h50.
+
+**Prática obrigatória:** implemente o enunciado local sem esconder o loop de treino. Você precisa conseguir explicar tensor, lote, loss, zero de gradientes, backpropagation e atualização dos pesos.
+
 ## Atividades do dia
 
 ### Atividade 1 — PyTorch I: tensores, Dataset, DataLoader, autograd e training loop

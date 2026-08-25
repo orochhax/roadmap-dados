@@ -11,6 +11,11 @@
 - `Armazenamento e processamento Python explicado passo a passo`
 - `Armazenamento e processamento Python exercícios práticos`
 
+#### Aula guiada — formatos de armazenamento
+
+- [ ] Assista a [**Melhores Formatos para Salvar seus Dados csv x parquet x feather**](https://www.youtube.com/watch?v=pTwDOKfB9QA) (42min).
+- Durante a atividade, verifique no seu próprio conjunto de dados as afirmações sobre tamanho, preservação de tipos e velocidade; não trate o resultado do vídeo como regra universal.
+
 **Arquivos da atividade:** [abrir a pasta `01-armazenamento-e-processamento`](<atividades/01-armazenamento-e-processamento/>)
 
 #### Arquivos e dados
@@ -45,6 +50,12 @@
 - `partitioned clustered tables`
 - `dry run bytes processed`
 - `query optimization`
+
+#### Aulas guiadas — partição e clustering no BigQuery
+
+- [ ] Assista a [**☁️ GOOGLE BIGQUERY PARTITION TABLE | COMO E PARA QUE PARTICIONAR UMA TABELA NO GOOGLE BIGQUERY?**](https://www.youtube.com/watch?v=Yakwvd1fgWk) (13min02s).
+- [ ] Procure no YouTube e assista a **☁️ GOOGLE BIGQUERY CLUSTERED TABLES | COMO E PARA QUE CLUSTERIZAR TABELAS NO GOOGLE BIGQUERY?** (7min36s).
+- Os vídeos usam uma interface antiga. Aprenda os conceitos e execute a atividade na interface e documentação atuais; valide a decisão comparando bytes processados e custo estimado.
 
 **Arquivos da atividade:** [abrir a pasta `02-bigquery-warehouse-particoes-custo`](<atividades/02-bigquery-warehouse-particoes-custo/>)
 

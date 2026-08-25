@@ -3,6 +3,12 @@
 **Data de estudo:** 14/10/2026  
 **Carga planejada:** 2 a 4 horas
 
+## Aula selecionada no YouTube
+
+- [ ] **Machine Learning 13: Prática no Python (Classificação)** (22:37), da trilha **Machine Learning — Téo Me Why** — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+13+Pratica+no+Python+Classificacao+Teo+Me+Why).
+
+Use a aula como demonstração. O baseline completo, o relatório e a comparação reproduzível do projeto semanal continuam sendo a prática obrigatória.
+
 ## Atividades do dia
 
 ### Atividade 1 — Baseline completo

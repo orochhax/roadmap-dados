@@ -11,6 +11,15 @@
 - `Embeddings e busca semantica IA generativa aplicada explicado passo a passo`
 - `Embeddings e busca semantica IA generativa aplicada exercícios práticos`
 
+#### Aulas guiadas — embeddings e multilinguismo com Codebasics
+
+- [ ] Assista a [**Text Representation Using Word Embeddings: NLP Tutorial For Beginners - S2 E7**](https://www.youtube.com/watch?v=Do8cVbx-HOs) (8min11s).
+- [ ] Assista a [**Word vectors in Spacy overview: NLP Tutorial For Beginners - S2 E8**](https://www.youtube.com/watch?v=vyohzuTkty8) (13min44s).
+- [ ] Assista a [**News classification using Spacy word vectors: NLP Tutorial For Beginners - S2 E9**](https://www.youtube.com/watch?v=ibi5hvw6f3g) (13min43s).
+- [ ] Assista a [**fastText Tutorial | Train Custom Word Vectors in fastText | NLP Tutorial For Beginners - S2 E12**](https://www.youtube.com/watch?v=Br-Ozg9D4mc) (36min08s).
+- [ ] Assista a [**fastText tutorial | Text Classification Using fastText | NLP Tutorial For Beginners - S2 E13**](https://www.youtube.com/watch?v=Cq_pbQYO3M8) (20min59s).
+- Carga total de vídeo: 1h32min45s. Use os exemplos para comparar representação lexical e vetorial; a entrega obrigatória continua sendo o benchmark próprio de entity matching, com hard negatives, métricas, latência e custo.
+
 **Arquivos da atividade:** [abrir a pasta `projeto-assistente-suporte-ia`](<../../projetos/assistente-suporte-ia/>)
 
 #### Arquivos e dados

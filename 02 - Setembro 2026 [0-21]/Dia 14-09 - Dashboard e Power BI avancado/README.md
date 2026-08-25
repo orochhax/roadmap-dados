@@ -51,6 +51,11 @@ Antes de montar páginas, registre para cada métrica: fórmula, granularidade, 
 
 **Arquivos da atividade:** [abrir a pasta `02-power-bi-avancado-modelo-estrela-dax`](<atividades/02-power-bi-avancado-modelo-estrela-dax/>)
 
+#### Aula guiada — primeiras fórmulas DAX
+
+- [ ] Assista **Curso Básico de Power BI - Aula 3 - Introdução às Fórmulas do Power BI**. [Abrir no YouTube](https://www.youtube.com/watch?v=xx3uYFmsqG4)
+- Use a aula como introdução. Na prática, avance para medidas explícitas, contexto de filtro, `CALCULATE`, `DIVIDE`, tabela de datas e validação externa dos resultados.
+
 #### Objetivo
 
 Construir um dashboard que continue correto sob filtros, usando modelo estrela, medidas explícitas e validação externa. O resultado deve ajudar um gerente do NOC a decidir onde atuar, não apenas exibir gráficos.
@@ -91,6 +96,15 @@ Leia o [enunciado](<atividades/02-power-bi-avancado-modelo-estrela-dax/ENUNCIADO
 - `Power Pivot modelo de dados relacionamentos`
 
 **Arquivos da atividade:** [abrir a pasta `03-excel-analitico-e-power-query`](<atividades/03-excel-analitico-e-power-query/>)
+
+#### Aulas guiadas — fórmulas, tabelas e segmentação
+
+- [ ] Assista **Curso Excel #09 - Fórmulas Básicas** (13:18).
+- [ ] Assista **Curso Excel #10 - Funções do Excel (Parte 1)** (17:35).
+- [ ] Assista **Curso Excel #11 - Funções do Excel (Parte 2)** (14:06).
+- [ ] Em [**Curso de Excel - Aula 2 [Formatação, Tabela Dinâmica e Segmentação de Dados]**](https://www.youtube.com/watch?v=jwENtgi8ics), assista de `00:27:15` a `00:56:08`: formatar como tabela, criar tabela dinâmica e usar segmentação de dados.
+- **Carga total de vídeo do dia:** aproximadamente 1h50, incluindo a aula de Power BI e as quatro seleções de Excel.
+- Use os nomes completos acima para localizar as aulas no YouTube. As aulas fornecem a base; o enunciado local exige reconciliação, Power Query, `Append`, `Merge`, atualização e Modelo de Dados.
 
 #### Objetivo
 

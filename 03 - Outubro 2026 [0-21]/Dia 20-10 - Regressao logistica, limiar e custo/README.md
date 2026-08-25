@@ -3,6 +3,12 @@
 **Data de estudo:** 20/10/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aula selecionada no YouTube
+
+- [ ] **Machine Learning 10: Regressão Logística** (22:19), da trilha **Machine Learning — Téo Me Why** — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+10+Regressao+Logistica+Teo+Me+Why).
+
+**Prática obrigatória:** depois da aula, use probabilidades, limiares, capacidade operacional e custo dos erros nos dois notebooks. A aula apresenta o algoritmo, mas a decisão de negócio deve ser construída localmente.
+
 ## Atividades do dia
 
 ### Atividade 1 — Regressao logistica

@@ -3,6 +3,17 @@
 **Data de estudo:** 05/11/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+Trilha **Machine Learning — Téo Me Why**:
+
+- [ ] **Machine Learning 18: Projeto Churn - Explore** (35:59) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+18+Projeto+Churn+Explore+Teo+Me+Why).
+- [ ] **Machine Learning 19: Projeto Churn - Modify** (57:31) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+19+Projeto+Churn+Modify+Teo+Me+Why).
+
+**Carga de vídeo selecionada:** aproximadamente 1h34.
+
+**Prática obrigatória:** faça sua própria EDA orientada à decisão, produza consultas SQL e registre hipóteses e limitações nos arquivos existentes. Não copie conclusões do vídeo para uma base diferente.
+
 ## Atividades do dia
 
 ### Atividade 1 — EDA orientada a churn

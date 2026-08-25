@@ -3,6 +3,18 @@
 **Data de estudo:** 09/10/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+Trilha **Machine Learning — Téo Me Why**:
+
+- [ ] **Machine Learning 01: Sobre o curso e dados** (39:25) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+01+Sobre+o+curso+e+dados+Teo+Me+Why).
+- [ ] **Machine Learning 02: Construindo Modelo** (30:12) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+02+Construindo+Modelo+Teo+Me+Why).
+- [ ] **Machine Learning 06: Ciclo Analítico** (14:36) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+06+Ciclo+Analitico+Teo+Me+Why).
+
+**Carga desta seleção:** aproximadamente 1h24. Com a aula curta do Curso em Vídeo IA indicada abaixo, o total guiado permanece abaixo de 1h40.
+
+**Prática obrigatória:** use os vídeos para organizar o raciocínio; a definição do problema, os baselines, a auditoria de leakage e os splits devem ser produzidos nos arquivos locais.
+
 ## Atividades do dia
 
 ### Atividade 1 — Definicao do problema

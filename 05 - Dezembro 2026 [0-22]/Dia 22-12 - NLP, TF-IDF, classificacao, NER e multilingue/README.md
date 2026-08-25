@@ -13,6 +13,14 @@
 - `TfidfVectorizer Pipeline`
 - `text classification error analysis`
 
+#### Aulas guiadas — NLP clássico com Codebasics
+
+- [ ] Assista a [**NLP Pipeline: NLP Tutorial For Beginners In Python - S1 E6**](https://www.youtube.com/watch?v=S3EId9uatxI) (26min02s).
+- [ ] Assista a [**Stemming and Lemmatization: NLP Tutorial For Beginners - S1 E10**](https://www.youtube.com/watch?v=HHAilAC3cXw) (16min46s).
+- [ ] Assista a [**Named Entity Recognition (NER): NLP Tutorial For Beginners - S1 E12**](https://www.youtube.com/watch?v=2XUhKpH0p4M) (22min34s).
+- [ ] Assista a [**Text Representation Using TF-IDF: NLP Tutorial For Beginners - S2 E6**](https://www.youtube.com/watch?v=ATK6fm3cYfI) (36min18s).
+- Carga total de vídeo: 1h41min40s. A prática abaixo acrescenta classificação, análise multilíngue, métricas e análise de erros; não é necessário assistir ao restante da playlist neste dia.
+
 **Arquivos da atividade:** [abrir a pasta `01-nlp-classico-normalizacao-tf-idf`](<atividades/01-nlp-classico-normalizacao-tf-idf/>)
 
 #### Objetivo

@@ -3,6 +3,12 @@
 **Data de estudo:** 04/11/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aula selecionada no YouTube
+
+- [ ] **Machine Learning 17: Projeto Churn - Sample** (52:23), da trilha **Machine Learning — Téo Me Why** — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+17+Projeto+Churn+Sample+Teo+Me+Why).
+
+Use a aula para observar o início de um projeto real. A definição temporal de churn, o contrato de dados e as verificações de qualidade nos notebooks locais são obrigatórios.
+
 ## Atividades do dia
 
 ### Atividade 1 — Definicao do case

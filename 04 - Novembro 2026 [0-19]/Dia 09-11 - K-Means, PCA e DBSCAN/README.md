@@ -3,6 +3,15 @@
 **Data de estudo:** 09/11/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+- [ ] **O Aprendizado Não Supervisionado e a Base Teórica do K Means** (23:11) — [abrir no YouTube](https://www.youtube.com/watch?v=q05qbU8FYKU).
+- [ ] **Projeto de Dados em 1 aula - Clusterização com Python [Completo]** (22:40) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Projeto+de+Dados+em+1+aula+Clusterizacao+com+Python+Completo).
+
+**Carga de vídeo selecionada:** aproximadamente 46 minutos.
+
+**Prática obrigatória:** as aulas introduzem K-Means e uma aplicação. Os notebooks locais aprofundam padronização, escolha de k, PCA, DBSCAN, silhouette, ruído, estabilidade e a possibilidade de recomendar nenhum método.
+
 ## Atividades do dia
 
 ### Atividade 1 — K-Means e PCA

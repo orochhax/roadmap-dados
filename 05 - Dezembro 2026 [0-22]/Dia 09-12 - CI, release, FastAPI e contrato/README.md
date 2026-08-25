@@ -45,6 +45,12 @@
 - `FastAPI e contrato engenharia de dados e MLOps explicado passo a passo`
 - `FastAPI e contrato engenharia de dados e MLOps exercícios práticos`
 
+#### Aulas guiadas — Pydantic e FastAPI
+
+- [ ] Procure no YouTube e assista a **Pydantic - Resolvendo um problemão do Python - Validação de Tipo de Dados** (11min22s).
+- [ ] Procure no YouTube e assista a **Curso de FastAPI - Rest API com Python (Backend Completo) - Aula 02: Requisições e Roteamento da API** (33min21s).
+- Total de vídeo deste bloco: 44min43s. Depois das aulas, aplique os conceitos ao contrato de inferência do roadmap, sem copiar o projeto de comércio eletrônico mostrado no curso.
+
 **Arquivos da atividade:** [abrir a pasta `02-fastapi-e-contrato`](<atividades/02-fastapi-e-contrato/>)
 
 #### Arquivos e dados

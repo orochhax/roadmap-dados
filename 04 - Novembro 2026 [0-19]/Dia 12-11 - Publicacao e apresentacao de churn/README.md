@@ -3,6 +3,12 @@
 **Data de estudo:** 12/11/2026  
 **Carga planejada:** 2 a 4 horas
 
+## Aula selecionada no YouTube
+
+- [ ] **Machine Learning 24: Projeto Churn - Novas predições** (44:50), da trilha **Machine Learning — Téo Me Why** — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+24+Projeto+Churn+Novas+predicoes+Teo+Me+Why).
+
+**Prática obrigatória:** execute a inferência nos dados definidos pelo projeto, confira o contrato das entradas e publique apenas resultados verificáveis, com limitações e instruções de reprodução.
+
 ## Atividades do dia
 
 ### Atividade 1 — Publicacao e apresentacao

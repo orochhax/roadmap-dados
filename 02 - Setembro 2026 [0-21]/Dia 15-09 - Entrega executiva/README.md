@@ -13,6 +13,11 @@
 
 **Arquivos da atividade:** [abrir a pasta `01-entrega-executiva`](<atividades/01-entrega-executiva/>)
 
+#### Aula guiada — construção e revisão do dashboard
+
+- [ ] Assista **Curso Básico de Power BI - Aula 5 - Construindo o Dashboard**. [Abrir no YouTube](https://www.youtube.com/watch?v=fvqEHuRmyYw)
+- Aplique a organização visual ao dashboard já validado em 14/09. Não copie números ou decisões do exemplo da aula: a entrega deve usar os dados, métricas e recomendações do projeto mensal.
+
 #### Conquista para o LinkedIn
 
 - **Ação concreta:** após concluir e revisar a entrega, adicione-a a Projetos ou Destaques e inclua **Análise de Dados para Tomada de Decisão** nas Competências.

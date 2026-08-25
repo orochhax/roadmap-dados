@@ -3,6 +3,17 @@
 **Data de estudo:** 13/10/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+Trilha **Machine Learning — Téo Me Why**:
+
+- [ ] **Machine Learning 14: Métricas de ajuste - Introdução** (28:04) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+14+Metricas+de+ajuste+Introducao+Teo+Me+Why).
+- [ ] **Machine Learning 15: Métricas de ajuste (Matriz de Confusão)** (1:04:49) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+15+Metricas+de+ajuste+Matriz+de+Confusao+Teo+Me+Why).
+
+**Carga de vídeo selecionada:** aproximadamente 1h33.
+
+**Prática obrigatória:** calcule e interprete as métricas nos mesmos dados e splits dos notebooks. Não escolha modelo apenas pela métrica mostrada em aula.
+
 ## Atividades do dia
 
 ### Atividade 1 — Pre-processamento com Pipeline

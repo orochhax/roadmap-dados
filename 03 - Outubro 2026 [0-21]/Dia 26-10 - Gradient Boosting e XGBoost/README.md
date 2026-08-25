@@ -3,6 +3,17 @@
 **Data de estudo:** 26/10/2026  
 **Carga planejada:** 2 a 4 horas
 
+## Aulas selecionadas no YouTube
+
+Assista nesta ordem:
+
+- [ ] **XGBoost na Prática | Aula 1** (13:33) — [abrir no YouTube](https://www.youtube.com/watch?v=fG8H-0rb0mY).
+- [ ] **XGBoost na Prática | Aula 2** (30:23) — [abrir no YouTube](https://www.youtube.com/watch?v=vp7sAKlf7FU).
+
+**Carga de vídeo selecionada:** aproximadamente 44 minutos.
+
+**Prática obrigatória:** execute o benchmark real com XGBoost, registre versões, parâmetros, métricas, tempo e erros por segmento. Assistir às aulas não substitui o notebook.
+
 ## Atividades do dia
 
 ### Atividade 1 — Gradient Boosting

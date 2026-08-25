@@ -71,6 +71,7 @@ def generate_root(items: list[dict[str, object]]) -> str:
         "Cada pasta datada traz as instruções e os caminhos necessários: conclua a sessão, marque aqui e siga o "
         "primeiro item ainda aberto.",
         "",
+        "- [Agenda Geral — Ciência de Dados e NOC](../AGENDA-GERAL.md)",
         "- [Plano e método de estudo](PLANO-DE-ESTUDOS.md)",
         "- [Curso em Vídeo — cobertura de Python](<00 - Recursos Compartilhados/trilha-curso-em-video-python.md>)",
         "- [Cursos gratuitos e lacunas](<00 - Recursos Compartilhados/cursos-complementares-selecionados.md>)",

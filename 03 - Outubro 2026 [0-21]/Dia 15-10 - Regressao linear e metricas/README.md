@@ -3,6 +3,17 @@
 **Data de estudo:** 15/10/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aulas selecionadas no YouTube
+
+Trilha **Machine Learning — Téo Me Why**:
+
+- [ ] **Machine Learning 07: Regressão Linear** (31:45) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+07+Regressao+Linear+Teo+Me+Why).
+- [ ] **Machine Learning 09: Prática no Python (Reg. Linear e Árvore)** (28:20) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+09+Pratica+no+Python+Reg+Linear+e+Arvore+Teo+Me+Why).
+
+**Carga de vídeo selecionada:** aproximadamente 1h.
+
+**Prática obrigatória:** ajuste, diagnostique e compare os modelos nos notebooks do dia; reproduzir apenas o código do vídeo não conclui a sessão.
+
 ## Atividades do dia
 
 ### Atividade 1 — Regressao linear

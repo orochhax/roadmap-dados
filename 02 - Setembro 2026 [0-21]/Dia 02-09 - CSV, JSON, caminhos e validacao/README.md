@@ -113,6 +113,11 @@ def validar_linha(linha):
 
 **Arquivos da atividade:** [abrir a pasta `03-consumo-seguro-e-confiavel-de-apis-rest`](<atividades/03-consumo-seguro-e-confiavel-de-apis-rest/>)
 
+#### Aula complementar — primeiro contato com APIs
+
+- [ ] Assista **Aprenda de vez o que é uma API com esse exemplo simples em Python** (25:06). [Abrir no YouTube](https://www.youtube.com/watch?v=ZTz0xlCaIuw)
+- Use a aula para reconhecer requisição, endpoint, parâmetros, status HTTP e resposta JSON. Paginação, autenticação segura, `timeout`, retry, rate limit, cache e carga incremental serão comprovados na prática abaixo.
+
 #### Objetivo
 
 Construir um coletor de chamados que funcione tanto com uma API real quanto com dados locais simulados. O coletor precisa atravessar páginas, sobreviver a falhas temporárias sem repetir chamadas indefinidamente, evitar segredos no Git e baixar apenas registros novos ou alterados nas execuções seguintes.

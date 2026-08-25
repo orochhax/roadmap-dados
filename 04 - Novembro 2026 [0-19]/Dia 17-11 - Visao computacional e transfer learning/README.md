@@ -3,6 +3,16 @@
 **Data de estudo:** 17/11/2026  
 **Carga planejada:** 2 a 4 horas
 
+## Aula selecionada no YouTube
+
+- [ ] **Redes Neurais Convolucionais com PyTorch | Visão Computacional | Deep Learning #2** — [abrir no YouTube](https://www.youtube.com/watch?v=doT7koXt9vw).
+
+**Recorte deste dia:** de 00:00 até 1:50:06, passando por imagens, CIFAR-10, pré-processamento, DataLoader, MLP, GPU, CrossEntropyLoss, treinamento e avaliação. Não assista ao restante hoje.
+
+**Carga de vídeo selecionada:** aproximadamente 1h50.
+
+**Prática obrigatória:** execute o enunciado local de classificação e transfer learning. O vídeo usa classificação no CIFAR-10 e não substitui a comparação entre modelo congelado, fine-tuning e baseline exigida na atividade.
+
 ## Atividades do dia
 
 ### Atividade 1 — Visão computacional I: classificação e transfer learning

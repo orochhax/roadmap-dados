@@ -3,6 +3,12 @@
 **Data de estudo:** 11/11/2026  
 **Carga planejada:** 2 a 4 horas
 
+## Aula selecionada no YouTube
+
+- [ ] **Machine Learning 23: Projeto Churn - Tuning** (45:24), da trilha **Machine Learning — Téo Me Why** — [pesquisar no YouTube](https://www.youtube.com/results?search_query=Machine+Learning+23+Projeto+Churn+Tuning+Teo+Me+Why).
+
+**Prática obrigatória:** registre o espaço de busca, mantenha o conjunto de teste protegido e leve ao relatório somente ganhos reproduzíveis. O dashboard deve comunicar decisão e limitações, não apenas a melhor métrica.
+
 ## Atividades do dia
 
 ### Atividade 1 — Relatorio e dashboard

@@ -30,9 +30,11 @@ Em cada exercício, leia o enunciado, pause e tente resolver antes de assistir �
 
 #### O que fazer
 
-- [ ] Resolva os exercícios #066, #069 e #070 em arquivos próprios.
-- [ ] Complete `atividades/01-break-e-sentinelas/duracoes_com_sentinela.py`.
-- [ ] Teste uma sequência comum e outra iniciada por `-1`.
+- [x] Resolva o exercício #066 em arquivo próprio.
+- [x] Resolva o exercício #069 em arquivo próprio.
+- [x] Resolva o exercício #070 em arquivo próprio.
+- [x] Complete `atividades/01-break-e-sentinelas/duracoes_com_sentinela.py`.
+- [x] Teste uma sequência comum e outra iniciada por `-1`.
 
 #### Como validar
 
@@ -75,7 +77,9 @@ Em cada exercício, leia o enunciado, pause e tente resolver antes de assistir �
 
 #### O que fazer
 
-- [ ] Resolva os exercícios #072, #075 e #077 em arquivos próprios.
+- [x] Resolva o exercício #072 em arquivo próprio.
+- [ ] Resolva o exercício #075 em arquivo próprio.
+- [ ] Resolva o exercício #077 em arquivo próprio.
 - [ ] Complete `atividades/02-tuplas/tuplas_referencia.py`.
 - [ ] Confira os resultados usando apenas a tupla fornecida.
 

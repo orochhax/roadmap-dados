@@ -13,6 +13,11 @@
 
 **Arquivos da atividade:** [abrir a pasta `01-limpeza-de-dados`](<atividades/01-limpeza-de-dados/>)
 
+#### Aula guiada — pandas, parte 2
+
+- [ ] Assista de **01:14:10 a 02:29:13** de **Tudo de Pandas para Python (DIDÁTICA SUPREMA)**. [Abrir no YouTube](https://www.youtube.com/watch?v=TMfMkgLkeBQ)
+- Revise filtros, `groupby`, ordenação, `merge`, joins, inconsistências, datas e gráficos. Reproduza somente os trechos que ajudam nas duas atividades do dia.
+
 #### O que você precisa entender
 
 Limpeza torna regras explícitas: detectar ausentes e duplicados, padronizar categorias e converter tipos sem apagar casos suspeitos automaticamente.
@@ -52,6 +57,11 @@ relatorio = {"ausentes": df.isna().sum(), "duplicados": int(df.duplicated().sum(
 - `Agrupamento, merge e reshape Python exercícios práticos`
 
 **Arquivos da atividade:** [abrir a pasta `02-agrupamento-merge-e-reshape`](<atividades/02-agrupamento-merge-e-reshape/>)
+
+#### Aula complementar — formatos largo e longo
+
+- [ ] Assista **🐼 Reshaping no Pandas [Pivot, Pivot Table, Stack e Unstack]** (44:22).
+- Durante o vídeo, anote o que representa uma linha antes e depois de cada transformação. Depois, use os dados do roadmap na prática abaixo em vez de copiar apenas o exemplo da aula.
 
 #### O que você precisa entender
 

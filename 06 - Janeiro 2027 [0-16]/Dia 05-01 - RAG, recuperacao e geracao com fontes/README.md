@@ -11,6 +11,12 @@
 - `Recuperacao Python explicado passo a passo`
 - `Recuperacao Python exercícios práticos`
 
+#### Aula guiada — RAG com LangChain (parte 2)
+
+- [ ] Continue [**Agente de IA completo com Python - Projeto RAG com Langchain**](https://www.youtube.com/watch?v=0M8iO5ykY-E), de `33:43` a `01:01:23` (27min40s).
+- Nesta parte, concentre-se na busca por similaridade, montagem do contexto, criação do prompt, chamada do modelo e teste ponta a ponta.
+- O vídeo demonstra o fluxo, mas a sua entrega precisa ir além: medir recuperação, citar fontes verificáveis, recusar sem evidência e resistir a prompt injection.
+
 **Arquivos da atividade:** [abrir a pasta `projeto-assistente-suporte-ia`](<../../projetos/assistente-suporte-ia/>)
 
 #### Arquivos e dados

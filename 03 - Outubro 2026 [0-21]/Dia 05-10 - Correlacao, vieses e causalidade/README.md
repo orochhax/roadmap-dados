@@ -3,6 +3,12 @@
 **Data de estudo:** 05/10/2026  
 **Carga planejada:** 4 a 5 horas
 
+## Aula selecionada no YouTube
+
+- [ ] **GRINGS - Correlação e Regressão linear  - aula 22** (37:24) — [pesquisar no YouTube](https://www.youtube.com/results?search_query=GRINGS+Correlacao+e+Regressao+linear+aula+22).
+
+Use a aula para compreender a associação linear. Na prática obrigatória, investigue vieses e deixe explícito por que correlação e regressão isoladas não demonstram causalidade.
+
 ## Atividades do dia
 
 ### Atividade 1 — Correlacao, causalidade e vieses

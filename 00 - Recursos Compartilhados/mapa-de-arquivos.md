@@ -700,6 +700,7 @@
 
 #### 11/01/2027 — [Modelo, IA e interface](<../06 - Janeiro 2027 [0-16]/Dia 11-01 - Modelo, IA e interface do produto/README.md>)
 
+- [atividades/01-modelo-ia-e-interface/app.py](<../06 - Janeiro 2027 [0-16]/Dia 11-01 - Modelo, IA e interface do produto/atividades/01-modelo-ia-e-interface/app.py>)
 - [atividades/01-modelo-ia-e-interface/dia-119-modelo-ia-e-interface.ipynb](<../06 - Janeiro 2027 [0-16]/Dia 11-01 - Modelo, IA e interface do produto/atividades/01-modelo-ia-e-interface/dia-119-modelo-ia-e-interface.ipynb>)
 
 #### 12/01/2027 — [Teste, apresentacao e retrospectiva](<../06 - Janeiro 2027 [0-16]/Dia 12-01 - Testes, apresentacao e retrospectiva do produto/README.md>)

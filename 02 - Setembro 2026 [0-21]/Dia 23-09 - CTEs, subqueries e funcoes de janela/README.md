@@ -13,6 +13,11 @@
 
 **Arquivos da atividade:** [abrir a pasta `01-subqueries-e-ctes`](<atividades/01-subqueries-e-ctes/>)
 
+#### Aula guiada — CTE
+
+- [ ] Assista **Usando CTE no MySQL para criar Consultas Mais Organizadas e Poderosas** (16:58).
+- Reproduza a ideia em DuckDB ou PostgreSQL e compare a mesma consulta escrita como subquery e como CTE. Use o nome completo acima para localizar a aula no YouTube.
+
 #### O que você precisa entender
 
 Uma subquery produz um valor ou tabela dentro de outra consulta; uma CTE nomeia uma etapa para tornar o fluxo legível.
@@ -55,6 +60,16 @@ WHERE i.duracao_min > m.media;
 - `Funcoes de janela Python exercícios práticos`
 
 **Arquivos da atividade:** [abrir a pasta `02-funcoes-de-janela`](<atividades/02-funcoes-de-janela/>)
+
+#### Aulas guiadas — funções de janela
+
+- [ ] Assista **Série Funções de Janela no SQL para Análise de Dados - Aula 1 - Rankings com RANK() e DENSE_RANK()** (13:10).
+- [ ] Assista **Série Funções de Janela no SQL para Análise de Dados - Aula 2 - Enésimo maior valor com ROW_NUMBER()** (10:53).
+- [ ] Assista **Série Funções de Janela no SQL para Análise de Dados - Aula 3 - Médias móveis com AVG()** (14:16).
+- [ ] Assista **Série Funções de Janela no SQL para Análise de Dados - Aula 4 - Comparar Valores com LAG() e LEAD()** (15:21).
+- [ ] Assista **Série Funções de Janela no SQL para Análise de Dados - Aula 5 - Somas acumuladas com SUM** (9:09).
+- [ ] Assista **Série Funções de Janela no SQL para Análise de Dados - Aula 10 - Análises segmentadas: PARTITION BY** (7:31).
+- **Carga em vídeo da sequência:** 1h10. Use os nomes completos acima para localizar as aulas no YouTube e, depois de cada conceito, aplique-o em `dia-027-funcoes-de-janela.sql` com os dados do roadmap.
 
 #### O que você precisa entender
 

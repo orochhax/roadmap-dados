@@ -11,6 +11,11 @@
 - `Testes Python explicado passo a passo`
 - `Testes Python exercícios práticos`
 
+#### Aula guiada — PyTest
+
+- [ ] Procure no YouTube e assista a **PyTest - testes profissionais para seus códigos Python** (59min47s).
+- Enquanto assiste, relacione cada exemplo aos conceitos de teste unitário, fixture, parametrização, exceção e organização AAA. A comprovação do aprendizado será feita nos testes próprios da atividade abaixo.
+
 **Arquivos da atividade:** [abrir a pasta `01-testes`](<atividades/01-testes/>)
 
 #### Arquivos e dados

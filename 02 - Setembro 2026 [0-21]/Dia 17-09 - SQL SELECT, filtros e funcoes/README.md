@@ -29,13 +29,11 @@ LIMIT 5;
 
 **Erro comum:** misturar comandos de importação ou funções de MySQL, PostgreSQL e DuckDB na mesma solução.
 
-#### Aulas guiadas — Curso MySQL
+#### Aulas guiadas — SELECT e DuckDB
 
-- [ ] #01 — **O que é um Banco de Dados?** (22:28).
-- [ ] #03 — **Criando o primeiro Banco de Dados** (27:55).
-- [ ] #04 — **Melhorando a Estrutura do Banco de Dados** (27:09).
-- [ ] #11 — **SELECT, parte 1** (34:31).
-- **Carga:** 1h52. O curso usa MySQL como exemplo, mas a prática do roadmap continua em DuckDB ou PostgreSQL. Não instale WAMP/XAMPP nem troque de banco para acompanhar os vídeos.
+- [ ] Assista [**Curso MySQL #11 - SELECT (Parte 1)**](https://www.youtube.com/watch?v=GaOlyL3Uv9M) (34:31).
+- [ ] Assista **DuckDB - Analise Qualquer Volume de Dados com Python** (26:47). [Abrir no YouTube](https://www.youtube.com/watch?v=hIvUE-P6Ep4)
+- **Carga em vídeo:** 1h01. O curso de MySQL demonstra a linguagem; o vídeo de DuckDB mostra consultas diretamente sobre CSV, JSON, Parquet e DataFrames. A prática do roadmap continua em DuckDB ou PostgreSQL. Não instale WAMP/XAMPP nem troque de banco para acompanhar os vídeos.
 
 #### Arquivos e dados
 
@@ -66,7 +64,8 @@ LIMIT 5;
 
 #### Aula guiada — Curso MySQL
 
-- [ ] #12 — **SELECT, parte 2** (38:14).
+- [ ] Assista [**Curso MySQL #12 - SELECT (Parte 2)**](https://www.youtube.com/watch?v=q4hPo83-Buo) (38:14).
+- **Carga total de vídeo do dia:** 1h39min32s, incluindo a introdução ao DuckDB.
 - Use a aula como demonstração e execute as consultas selecionadas abaixo com os dados de incidentes do roadmap.
 
 #### Arquivos e dados
