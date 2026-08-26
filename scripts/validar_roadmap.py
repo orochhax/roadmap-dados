@@ -44,29 +44,29 @@ LINK_RE = re.compile(r"!?\[[^\]]*\]\((?P<target><[^>]+>|[^)\s]+)(?:\s+['\"][^)]*
 ROADMAP_START = date(2026, 8, 3)
 ROADMAP_END = ROADMAP_START.replace(year=ROADMAP_START.year + 1) - timedelta(days=1)
 LINKEDIN_POST_DATES = {
-    "2026-08-28",
-    "2026-09-04",
-    "2026-09-11",
-    "2026-09-18",
-    "2026-09-25",
-    "2026-09-30",
-    "2026-10-08",
-    "2026-10-16",
-    "2026-10-23",
-    "2026-10-28",
-    "2026-11-06",
-    "2026-11-12",
-    "2026-11-18",
-    "2026-11-25",
-    "2026-12-04",
-    "2026-12-11",
-    "2026-12-18",
-    "2026-12-23",
-    "2026-12-30",
-    "2027-01-06",
-    "2027-01-13",
-    "2027-01-22",
-    "2027-01-25",
+    "2026-09-03",
+    "2026-09-15",
+    "2026-09-24",
+    "2026-10-06",
+    "2026-10-19",
+    "2026-10-26",
+    "2026-11-09",
+    "2026-11-19",
+    "2026-12-01",
+    "2026-12-08",
+    "2026-12-22",
+    "2026-12-31",
+    "2027-01-11",
+    "2027-01-19",
+    "2027-02-04",
+    "2027-02-16",
+    "2027-03-01",
+    "2027-03-08",
+    "2027-03-16",
+    "2027-03-25",
+    "2027-04-06",
+    "2027-04-22",
+    "2027-04-26",
 }
 MONTH_NUMBERS = {
     "janeiro": 1,
@@ -161,22 +161,22 @@ CURSO_EM_VIDEO_CHALLENGES = {
         "01-break-e-sentinelas": ("066", "069", "070"),
         "02-tuplas": ("072", "075", "077"),
     },
-    "Dia 25-08 - Listas e matrizes": {
+    "Dia 27-08 - Listas e matrizes": {
         "01-listas": ("078", "079", "081"),
         "02-listas-compostas-e-matrizes": ("084", "086"),
     },
-    "Dia 26-08 - Dicionarios, sets e funcoes com parametros": {
+    "Dia 31-08 - Dicionarios, sets e funcoes com parametros": {
         "01-dicionarios-e-set": ("090",),
         "02-funcoes-com-parametros": ("096", "098", "100"),
     },
-    "Dia 27-08 - Retorno, modulos e pacotes": {
+    "Dia 01-09 - Retorno, modulos e pacotes": {
         "01-funcoes-com-retorno": ("104", "105"),
         "02-modulos-e-pacotes": ("107", "111"),
     },
-    "Dia 28-08 - Excecoes e menu": {
+    "Dia 03-09 - Excecoes e menu": {
         "01-excecoes-e-menu": ("113", "115a"),
     },
-    "Dia 31-08 - Arquivos e projeto final de Python basico": {
+    "Dia 07-09 - Arquivos e projeto final de Python basico": {
         "01-arquivos-e-projeto-final": ("115b", "115c"),
     },
 }
@@ -909,10 +909,18 @@ def validate_future_readmes_and_video_challenges(errors: list[str]) -> None:
                             "nao faz parte do nucleo obrigatorio"
                         )
 
-    august = ROOT / "01 - Agosto 2026 [6-12]"
+    month_dirs = [
+        path
+        for path in ROOT.iterdir()
+        if path.is_dir() and MONTH_RE.match(path.name)
+    ]
     for day_name, activities in CURSO_EM_VIDEO_CHALLENGES.items():
-        candidates = (august / day_name, august / f"OK - {day_name}")
-        day = next((candidate for candidate in candidates if candidate.is_dir()), candidates[0])
+        candidates = tuple(
+            candidate
+            for month in month_dirs
+            for candidate in (month / day_name, month / f"OK - {day_name}")
+        )
+        day = next((candidate for candidate in candidates if candidate.is_dir()), ROOT / day_name)
         readme = day / "README.md"
         text = readme.read_text(encoding="utf-8") if readme.is_file() else ""
         for activity_name, numbers in activities.items():

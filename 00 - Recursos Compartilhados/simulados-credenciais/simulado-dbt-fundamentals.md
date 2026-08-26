@@ -39,7 +39,7 @@ Um time mantém transformações de pedidos, pagamentos e clientes. Alterações
 
 ## Parte B — projeto aplicado já existente
 
-Use o trabalho concluído em [dbt e Analytics Engineering](<../../05 - Dezembro 2026 [0-22]/Dia 16-12 - Storage, processamento e BigQuery/atividades/03-dbt-e-analytics-engineering/>). Não recrie o projeto.
+Use o trabalho concluído em [dbt e Analytics Engineering](<../../07 - Fevereiro 2027 [0-12]/Dia 23-02 - Storage, processamento e BigQuery/atividades/03-dbt-e-analytics-engineering/>). Não recrie o projeto.
 
 Antes do diagnóstico, confirme uma execução verde que possua:
 

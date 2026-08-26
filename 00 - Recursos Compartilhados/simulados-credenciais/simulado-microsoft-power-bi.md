@@ -42,7 +42,7 @@ Uma empresa recebe arquivos mensais de vendas, uma planilha de metas e um cadast
 
 ## Parte B — artefato aplicado já existente
 
-Use o trabalho concluído em [Excel analítico e Power Query](<../../02 - Setembro 2026 [0-21]/Dia 14-09 - Dashboard e Power BI avancado/atividades/03-excel-analitico-e-power-query/>). Não refaça o projeto.
+Use o trabalho concluído em [Excel analítico e Power Query](<../../02 - Setembro 2026 [0-13]/Dia 28-09 - Dashboard e Power BI avancado/atividades/03-excel-analitico-e-power-query/>). Não refaça o projeto.
 
 Apresente para correção:
 

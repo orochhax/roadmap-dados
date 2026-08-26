@@ -35,7 +35,7 @@ Uma empresa carrega eventos de atendimento no BigQuery. A tabela cresce diariame
 
 ## Parte B — laboratório existente como pré-requisito
 
-Use o SQL e as conferências produzidos em [BigQuery, partições e custo](<../../05 - Dezembro 2026 [0-22]/Dia 16-12 - Storage, processamento e BigQuery/atividades/02-bigquery-warehouse-particoes-custo/>). Não repita o laboratório completo.
+Use o SQL e as conferências produzidos em [BigQuery, partições e custo](<../../07 - Fevereiro 2027 [0-12]/Dia 23-02 - Storage, processamento e BigQuery/atividades/02-bigquery-warehouse-particoes-custo/>). Não repita o laboratório completo.
 
 Antes da variante, confirme que já possui:
 

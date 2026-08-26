@@ -200,7 +200,7 @@ Após concluir a avaliação gratuita, qual afirmação é correta?
 
 ## Parte B — comprovação aplicada existente
 
-Use o arquivo já produzido em [Databricks e Spark introdutório — dia 03/12](<../../05 - Dezembro 2026 [0-22]/Dia 03-12 - Spark e Databricks/atividades/01-databricks-e-spark-introdutorio/dia-089-databricks-e-spark-introdutorio.py>). Não crie um novo laboratório.
+Use o arquivo já produzido em [Databricks e Spark introdutório — dia 03/12](<../../07 - Fevereiro 2027 [0-12]/Dia 02-02 - Spark e Databricks/atividades/01-databricks-e-spark-introdutorio/dia-089-databricks-e-spark-introdutorio.py>). Não crie um novo laboratório.
 
 Apresente para correção a execução que já comprova:
 

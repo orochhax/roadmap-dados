@@ -174,22 +174,22 @@ Nossa missão é melhorar o bem-estar financeiro de trabalhadores brasileiros se
 
 O que você vai fazer
 
-Apoiar o desenvolvimento e a manutenção de modelos e políticas de crédito — score, behavior, elegibilidade, pricing, limites 
-Construir e validar features a partir de dados transacionais, bureaus de crédito e comportamento de pagamento 
-Analisar performance de safras/cohorts (default P1/P2/P3, Over15, TOV) e propor ajustes de política junto ao time de Risco 
-Colaborar com Risco, Produto e Engenharia para colocar modelos em produção 
-Aprender rapidamente sobre o negócio de crédito para trabalhadores de baixa renda 
+Apoiar o desenvolvimento e a manutenção de modelos e políticas de crédito — score, behavior, elegibilidade, pricing, limites
+Construir e validar features a partir de dados transacionais, bureaus de crédito e comportamento de pagamento
+Analisar performance de safras/cohorts (default P1/P2/P3, Over15, TOV) e propor ajustes de política junto ao time de Risco
+Colaborar com Risco, Produto e Engenharia para colocar modelos em produção
+Aprender rapidamente sobre o negócio de crédito para trabalhadores de baixa renda
 
 Você é a pessoa certa se
 
-Tem de 1 a 3 anos de experiência em ciência de dados, analytics ou área quantitativa (experiência em crédito é um baita diferencial) 
-Domina Python/SQL e fundamentos de estatística e modelagem (regressão logística, árvores de decisão, etc.) 
-Tem curiosidade genuína para entender o negócio por trás dos números 
-Quer crescer e aprender rápido junto de um time sênior 
+Tem de 1 a 3 anos de experiência em ciência de dados, analytics ou área quantitativa (experiência em crédito é um baita diferencial)
+Domina Python/SQL e fundamentos de estatística e modelagem (regressão logística, árvores de decisão, etc.)
+Tem curiosidade genuína para entender o negócio por trás dos números
+Quer crescer e aprender rápido junto de um time sênior
 
 Diferenciais
 
-Experiência com modelos de crédito/score, cohort analysis ou dados de bureau (Serasa, Boa Vista, Quod) 
+Experiência com modelos de crédito/score, cohort analysis ou dados de bureau (Serasa, Boa Vista, Quod)
 Uso ativo de ferramentas de IA (Claude Code, Cursor, ChatGPT) no dia a dia
 
 Sobre a vaga
@@ -343,16 +343,16 @@ Realizar estudos e análises com grande volume de dados para embasar decisões e
 Desenvolver uma variedade de modelos de aprendizagem de máquina para resolver problemas específicos e otimizar processos;
 Participar e conduzir reuniões com stakeholders para alinhar expectativas e comunicar resultados;
 Trabalhar em conjunto com equipes de diferentes áreas (como engenharia, marketing e produto) para entender as necessidades do negócio e traduzir essas necessidades em soluções baseadas em dados.
-Realizar testes e validações rigorosas dos modelos e soluções implementadas, assegurando a qualidade e a confiabilidade dos resultados. 
+Realizar testes e validações rigorosas dos modelos e soluções implementadas, assegurando a qualidade e a confiabilidade dos resultados.
 
 Pré-requisitos Para Candidatura
 
-Ter a nossa cultura 
+Ter a nossa cultura
 Conhecimento prático em Python, com experiência na construção, treinamento e avaliação de modelos de machine learning.;
 Conhecimentos em estatística, probabilidade, técnicas de modelagem estatística, aprendizado de máquina, otimização e sistemas de recomendação;
 Capacidade de analisar problemas complexos e desenvolver soluções baseadas em dados, abordando questões de negócios com uma mentalidade analítica;
 Paixão por tecnologia e inovação, com interesse ativo em acompanhar tendências e as melhores práticas da área de ML;
-Habilidade de comunicação para interagir com diferentes áreas, stakeholders e cientistas de dados; 
+Habilidade de comunicação para interagir com diferentes áreas, stakeholders e cientistas de dados;
 Residir em São Paulo e possuir disponibilidade para atuar no modelo híbrido (3x na semana);
 
 Diferencial
@@ -360,13 +360,13 @@ Diferencial
 Experiência prática em Databricks
 Conhecimento e vivência na manipulação e análise de dados financeiros, com a capacidade de extrair insights relevantes para o setor;
 Conhecimento prático do framework Kedro, com experiência em sua aplicação para estruturar e gerenciar projetos de ciência de dados de forma eficiente;
-Experiência com modelos de otimização linear 
+Experiência com modelos de otimização linear
 
 Se identificou com a XP Inc. e com a oportunidade?
 
 Inscreva-se e venha conquistar o impossível com a gente!
 
-Benefícios: 
+Benefícios:
 
 Saúde e Bem-estar
 
@@ -384,11 +384,11 @@ Auxílio Creche
 Vida Financeira
 
 Fundos de Investimentos Exclusivos
-Assessoria de Investimentos 
-Cartão XP Visa Infinite sem anuidade 
-Crédito (consignado, home equity, CCB Imobiliário, etc.) 
+Assessoria de Investimentos
+Cartão XP Visa Infinite sem anuidade
+Crédito (consignado, home equity, CCB Imobiliário, etc.)
 
-Modelo de Trabalho Presencial Flexível 
+Modelo de Trabalho Presencial Flexível
 
 O nosso modelo de trabalho varia de acordo com a função, podendo ser totalmente presencial para frentes de negócio e mais flexível para outras equipes.
 
@@ -444,13 +444,13 @@ Talvez você nos conheça por maquininhas ou comerciais que ficam na memória, m
 
 Todos os dias desenvolvemos produtos e soluções inspiradas pelo nosso propósito: facilitar a vida financeira das pessoas e negócios.
 
-Trabalhamos para transformar a forma como as pessoas lidam com dinheiro abrindo novas possibilidades para alcançarem seus sonhos. Como fazemos tudo isso? 
+Trabalhamos para transformar a forma como as pessoas lidam com dinheiro abrindo novas possibilidades para alcançarem seus sonhos. Como fazemos tudo isso?
 
-💛 Com gente 
+💛 Com gente
 
 Somos um time que joga junto! Aqui valorizamos todas as diversidades, seja de raça/etnia, gênero, idade, origem, pessoa com deficiência, orientação afetivo-sexual, constituição familiar e estética.
 
-💛 Com tecnologia 
+💛 Com tecnologia
 
 O espírito disruptivo e inovador está no nosso DNA: somos parte do Grupo UOL, empresa 100% brasileira, foi pioneira na internet e transforma a vida das pessoas desde 1996.
 
@@ -614,7 +614,7 @@ Plano Odontológico;
 Wellhub e TotalPass;
 Academia Bio Ritmo exclusiva para Colaboradores: no Complexo Matriz;
 Participação nos Lucros - PLR;
-Programa de Ações: Porto em Ação complementar à PLR até 2025; 
+Programa de Ações: Porto em Ação complementar à PLR até 2025;
 Quadras de Areia e Poliesportiva: no Complexo Matriz;
 Vale-Transporte;
 Serviços de Transporte de Vans; disponibilizadas nas principais estações de acesso à Porto (Luz, Barra Funda, Santa Cecília e Júlio Prestes);
@@ -624,12 +624,12 @@ Ambulatório Médico com Especialidades: no Complexo Matriz e Barra Funda;
 Auxílio creche ou babá;
 Seguro de Vida;
 Previdência Privada: PortoPrev;
-Desconto em Produtos e Serviços; 
+Desconto em Produtos e Serviços;
 Bolsa de estudos: Reembolso para graduação, pós ou MBA;
 Corridas mensais: subsídio para as principais corridas de ruas de São Paulo;
 Reembolso para idiomas (inglês ou espanhol);
 Teatro Porto: sessões exclusivas para Colaboradores;
-Biblioteca; 
+Biblioteca;
 Sala de descanso: no completo Matriz;
 Salão de jogos: no completo Matriz;
 Serviços de massagem e podologia: no completo Matriz.
@@ -652,7 +652,7 @@ Na Porto, valorizamos a diversidade e acreditamos que um time plural é essencia
 Juntos, trabalhamos diariamente para construir um espaço seguro, livre e respeitoso. Por isso, incentivamos fortemente a candidatura de mulheres, pessoas negras e indígenas, pessoas com deficiência e pessoas LGBTQIA+ em todas as nossas vagas.
 
 Sobre a vaga
-Olá, nós somos o CESAR! 
+Olá, nós somos o CESAR!
 
 Somos um centro de inovação e de educação que há quase 30 anos forma pessoas e impulsiona organizações, potencializando suas estratégias digitais. Resolvemos problemas complexos e desafiadores em um ambiente de trabalho descontraído, descentralizado e repleto de benefícios para nossos colaboradores, que atuam como protagonistas, interagindo diretamente com clientes de escala global.
 
@@ -804,7 +804,7 @@ Seguro de Vida;
 
 Previdência Privada - PortoPrev;
 
-Desconto em Produtos e Serviços; 
+Desconto em Produtos e Serviços;
 
 Bolsa de estudos: Reembolso para graduação, pós ou MBA;
 
@@ -1018,7 +1018,7 @@ Risk & Churn Predictive Modeling: Develop and monitor Credit Scoring and Churn m
 AI-Driven Credit Automation: Implement Generative AI and advanced algorithms to automate the credit analysis process, ensuring scalability while maintaining strict compliance with eligibility criteria and internal validation rules.
 Portfolio Strategy & Backtesting: Conduct quantitative studies and backtesting on portfolio behavior (Vintages, Roll Rates) to optimize credit limits, interest rate pricing, and proactive retention strategies.
 Collection Efficiency & Recovery: Analyze debt recovery performance and build propensity-to-pay models to segment the external collection strategy, including the financial feasibility analysis for judicial actions.
-Financial Performance Reporting: Design real-time dashboards to track critical KPIs such as First Payment Default (FPD), Provision for Doubtful Accounts (PDD), and the effectiveness of debt renegotiations. 
+Financial Performance Reporting: Design real-time dashboards to track critical KPIs such as First Payment Default (FPD), Provision for Doubtful Accounts (PDD), and the effectiveness of debt renegotiations.
 Live the mission: inspire and empower others by genuinely caring for your own wellbeing and your colleagues. Bring wellbeing to the forefront of work, and create a supportive environment where everyone feels comfortable taking care of themselves, taking time off, and finding work-life wellness.
 
 Who You Are
@@ -1057,7 +1057,7 @@ PAID PARENTAL LEAVE: Welcoming a new child is one of the most special moments in
 
 CAREER GROWTH: Access world-class platforms, participate in interactive sessions, build your personalized development roadmap, and explore internal opportunities. We focus on continuous learning and feedback to support your journey toward personal and professional success.
 
-CULTURE: You’ll join a team of passionate people who come together to break boundaries, support each other, and create a meaningful impact in workplace wellness. We win together, building trust through open communication and a culture where every perspective matters. Learn more about our shared culture and values here. 
+CULTURE: You’ll join a team of passionate people who come together to break boundaries, support each other, and create a meaningful impact in workplace wellness. We win together, building trust through open communication and a culture where every perspective matters. Learn more about our shared culture and values here.
 
 And to get a glimpse of life at Wellhub… Follow us on Instagram @lifeatwellhub and LinkedIn!
 
@@ -1143,7 +1143,7 @@ Associate’s degree, bootcamp certification, or practical work experience in a 
 
 
 
-Nice To Have 
+Nice To Have
 
 
 Bachelor’s degree or higher in a quantitative field
@@ -1277,7 +1277,7 @@ Bachelor’s degree in computer science, Information Technology, or a related fi
 Academic experience with data-related projects (data analysis, database design, or similar).
 Strong knowledge of SQL (must-have).
 Basic understanding of data structures, algorithms, and relational databases.
-Good problem-solving skills and attention to detail. 
+Good problem-solving skills and attention to detail.
 
 Preferred Skills
 
@@ -1407,7 +1407,7 @@ Wayfair is looking for candidates who are passionate about programming, and have
 What You’ll Do
 
 Build scalable analytics products in SQL, Python, and G-Suite visualization platforms (LookerStudio, Looker) that enable leadership and other internal customers to understand and manage performance, including forward looking models that evaluate the impact of our strategy on fulfillment activities, resourcing, and costs
-Build automated infrastructure in Google Cloud Composer to load and transform data, run models or analytical frameworks, and update front end dashboards. 
+Build automated infrastructure in Google Cloud Composer to load and transform data, run models or analytical frameworks, and update front end dashboards.
 Perform statistical analysis across large data sets to develop performance insights and forward looking projections of business outcomes
 Make demand forecasting model enhancements to account for new business strategies that drive specific demand patterns
 Build segment level performance projections to develop holistic views which indicate company wide trajectory across various operational KPI
@@ -1630,7 +1630,7 @@ Strong communication skills with the ability to follow requirements and translat
 Ability to manage multiple tasks and work in a team-oriented, deadline-driven environment
 Willingness to learn new tools, datasets, and analytical approaches in a rapidly evolving domain
 
-Please note that the location listed for this role is temporary. The position’s work location will transition to 1445 Ross Ave, Dallas, TX 75202 at a future date. In-Person interviews will be required for the role. 
+Please note that the location listed for this role is temporary. The position’s work location will transition to 1445 Ross Ave, Dallas, TX 75202 at a future date. In-Person interviews will be required for the role.
 
 What You Can Expect From Morgan Stanley
 
@@ -1751,22 +1751,22 @@ Nossa missão é melhorar o bem-estar financeiro de trabalhadores brasileiros se
 
 O que você vai fazer
 
-Apoiar o desenvolvimento e a manutenção de modelos e políticas de crédito — score, behavior, elegibilidade, pricing, limites 
-Construir e validar features a partir de dados transacionais, bureaus de crédito e comportamento de pagamento 
-Analisar performance de safras/cohorts (default P1/P2/P3, Over15, TOV) e propor ajustes de política junto ao time de Risco 
-Colaborar com Risco, Produto e Engenharia para colocar modelos em produção 
-Aprender rapidamente sobre o negócio de crédito para trabalhadores de baixa renda 
+Apoiar o desenvolvimento e a manutenção de modelos e políticas de crédito — score, behavior, elegibilidade, pricing, limites
+Construir e validar features a partir de dados transacionais, bureaus de crédito e comportamento de pagamento
+Analisar performance de safras/cohorts (default P1/P2/P3, Over15, TOV) e propor ajustes de política junto ao time de Risco
+Colaborar com Risco, Produto e Engenharia para colocar modelos em produção
+Aprender rapidamente sobre o negócio de crédito para trabalhadores de baixa renda
 
 Você é a pessoa certa se
 
-Tem de 1 a 3 anos de experiência em ciência de dados, analytics ou área quantitativa (experiência em crédito é um baita diferencial) 
-Domina Python/SQL e fundamentos de estatística e modelagem (regressão logística, árvores de decisão, etc.) 
-Tem curiosidade genuína para entender o negócio por trás dos números 
-Quer crescer e aprender rápido junto de um time sênior 
+Tem de 1 a 3 anos de experiência em ciência de dados, analytics ou área quantitativa (experiência em crédito é um baita diferencial)
+Domina Python/SQL e fundamentos de estatística e modelagem (regressão logística, árvores de decisão, etc.)
+Tem curiosidade genuína para entender o negócio por trás dos números
+Quer crescer e aprender rápido junto de um time sênior
 
 Diferenciais
 
-Experiência com modelos de crédito/score, cohort analysis ou dados de bureau (Serasa, Boa Vista, Quod) 
+Experiência com modelos de crédito/score, cohort analysis ou dados de bureau (Serasa, Boa Vista, Quod)
 Uso ativo de ferramentas de IA (Claude Code, Cursor, ChatGPT) no dia a dia
 
 Sobre a vaga
@@ -1814,7 +1814,7 @@ Plano Odontológico;
 Wellhub e TotalPass;
 Academia Bio Ritmo exclusiva para Colaboradores: no Complexo Matriz;
 Participação nos Lucros - PLR;
-Programa de Ações: Porto em Ação complementar à PLR até 2025; 
+Programa de Ações: Porto em Ação complementar à PLR até 2025;
 Quadras de Areia e Poliesportiva: no Complexo Matriz;
 Vale-Transporte;
 Serviços de Transporte de Vans; disponibilizadas nas principais estações de acesso à Porto (Luz, Barra Funda, Santa Cecília e Júlio Prestes);
@@ -1824,12 +1824,12 @@ Ambulatório Médico com Especialidades: no Complexo Matriz e Barra Funda;
 Auxílio creche ou babá;
 Seguro de Vida;
 Previdência Privada: PortoPrev;
-Desconto em Produtos e Serviços; 
+Desconto em Produtos e Serviços;
 Bolsa de estudos: Reembolso para graduação, pós ou MBA;
 Corridas mensais: subsídio para as principais corridas de ruas de São Paulo;
 Reembolso para idiomas (inglês ou espanhol);
 Teatro Porto: sessões exclusivas para Colaboradores;
-Biblioteca; 
+Biblioteca;
 Sala de descanso: no completo Matriz;
 Salão de jogos: no completo Matriz;
 Serviços de massagem e podologia: no completo Matriz.
@@ -2177,7 +2177,7 @@ Xcelerate – Free Mentoring Career Platform
 At TATA Consultancy Services we promote an inclusive culture, we always work for equity. This applies to Gender, People with Disabilities, LGBTQIA+, Religion, Race, Ethnicity. All our opportunities are based on these principles. We think of different actions of inclusion and social responsibility, in order to build a TCS that respects individuality. Come to be a TCSer!
 
 Sobre a vaga
-Olá, nós somos o CESAR! 
+Olá, nós somos o CESAR!
 
 Somos um centro de inovação e de educação que há quase 30 anos forma pessoas e impulsiona organizações, potencializando suas estratégias digitais. Resolvemos problemas complexos e desafiadores em um ambiente de trabalho descontraído, descentralizado e repleto de benefícios para nossos colaboradores, que atuam como protagonistas, interagindo diretamente com clientes de escala global.
 
@@ -2408,32 +2408,32 @@ Inglês básico a intermediário
 
 Benefícios:
 
-Assistência Médica Nacional (para o titular e dependentes, com quarto privativo) 
-Assistência odontológica nacional (para o titular e dependentes) 
-Vale refeição / alimentação flexível 
-Auxílio home office 
-Day off (no mês do aniversário) 
-Wellhub (antigo Gympass) 
-Licença Maternidade (6 meses) e Paternidade (20 dias) estendidas 
-Auxílio creche para filhos de até 3 anos (por filho) 
-Apoio em saúde mental com a Wellz 
-Clube de Vantagens com descontos em diversos parceiros 
-Convênio com instituições de ensino e cursos de idioma 
-Desenvolvimento Profissional (Universidade Corporativa) 
-Parceria com empresa de coworkings no Brasil 
-Programa de Qualidade de Vida e Bem-Estar 
-Médico consultor para acompanhamento de radixers 
-Planos de incentivos 
+Assistência Médica Nacional (para o titular e dependentes, com quarto privativo)
+Assistência odontológica nacional (para o titular e dependentes)
+Vale refeição / alimentação flexível
+Auxílio home office
+Day off (no mês do aniversário)
+Wellhub (antigo Gympass)
+Licença Maternidade (6 meses) e Paternidade (20 dias) estendidas
+Auxílio creche para filhos de até 3 anos (por filho)
+Apoio em saúde mental com a Wellz
+Clube de Vantagens com descontos em diversos parceiros
+Convênio com instituições de ensino e cursos de idioma
+Desenvolvimento Profissional (Universidade Corporativa)
+Parceria com empresa de coworkings no Brasil
+Programa de Qualidade de Vida e Bem-Estar
+Médico consultor para acompanhamento de radixers
+Planos de incentivos
 
 A Radix está sempre no topo das Melhores Empresas para se trabalhar porque:
 
-Temos profissionais comprometidos, dedicados, curiosos e inovadores. 
-O espírito de equipe é a nossa maior força. Trabalhamos de forma cooperativa e sabemos que estamos juntos, remando na mesma direção. 
-Temos um ambiente diverso, que valoriza equidade e inclusão. 
-Nossa jornada de trabalho é flexível e em quase todos os projetos é possível trabalhar de qualquer lugar do Brasil. 
+Temos profissionais comprometidos, dedicados, curiosos e inovadores.
+O espírito de equipe é a nossa maior força. Trabalhamos de forma cooperativa e sabemos que estamos juntos, remando na mesma direção.
+Temos um ambiente diverso, que valoriza equidade e inclusão.
+Nossa jornada de trabalho é flexível e em quase todos os projetos é possível trabalhar de qualquer lugar do Brasil.
 Valorizamos o bem-estar e o cuidado com as nossas pessoas, com programas de apoio à saúde mental, psiquiatra e médico consultor disponíveis.
 
-Curtiu? 
+Curtiu?
 
 #VemPraRadix
 
@@ -2527,26 +2527,26 @@ Nossa missão é melhorar o bem-estar financeiro de trabalhadores brasileiros se
 
 O que você vai fazer
 
-Apoiar o desenvolvimento e a manutenção de modelos e políticas de crédito — score, behavior, elegibilidade, pricing, limites 
-Construir e validar features a partir de dados transacionais, bureaus de crédito e comportamento de pagamento 
-Analisar performance de safras/cohorts (default P1/P2/P3, Over15, TOV) e propor ajustes de política junto ao time de Risco 
-Colaborar com Risco, Produto e Engenharia para colocar modelos em produção 
-Aprender rapidamente sobre o negócio de crédito para trabalhadores de baixa renda 
+Apoiar o desenvolvimento e a manutenção de modelos e políticas de crédito — score, behavior, elegibilidade, pricing, limites
+Construir e validar features a partir de dados transacionais, bureaus de crédito e comportamento de pagamento
+Analisar performance de safras/cohorts (default P1/P2/P3, Over15, TOV) e propor ajustes de política junto ao time de Risco
+Colaborar com Risco, Produto e Engenharia para colocar modelos em produção
+Aprender rapidamente sobre o negócio de crédito para trabalhadores de baixa renda
 
 Você é a pessoa certa se
 
-Tem de 1 a 3 anos de experiência em ciência de dados, analytics ou área quantitativa (experiência em crédito é um baita diferencial) 
-Domina Python/SQL e fundamentos de estatística e modelagem (regressão logística, árvores de decisão, etc.) 
-Tem curiosidade genuína para entender o negócio por trás dos números 
-Quer crescer e aprender rápido junto de um time sênior 
+Tem de 1 a 3 anos de experiência em ciência de dados, analytics ou área quantitativa (experiência em crédito é um baita diferencial)
+Domina Python/SQL e fundamentos de estatística e modelagem (regressão logística, árvores de decisão, etc.)
+Tem curiosidade genuína para entender o negócio por trás dos números
+Quer crescer e aprender rápido junto de um time sênior
 
 Diferenciais
 
-Experiência com modelos de crédito/score, cohort analysis ou dados de bureau (Serasa, Boa Vista, Quod) 
+Experiência com modelos de crédito/score, cohort analysis ou dados de bureau (Serasa, Boa Vista, Quod)
 Uso ativo de ferramentas de IA (Claude Code, Cursor, ChatGPT) no dia a dia
 
 Sobre a vaga
-A abertura atual é para a Artefact do Brasil, estamos em modelo Free Office. 
+A abertura atual é para a Artefact do Brasil, estamos em modelo Free Office.
 
 Quem nós somos
 
@@ -2583,14 +2583,14 @@ O que oferecemos
 VR/VT
 Free office (trabalhe de casa ou de onde quiser!)
 Gympass
-Seguros: Vida, saúde e odontológico 
+Seguros: Vida, saúde e odontológico
 Encontros Bimestrais (Famoso “Get Together” onde nos encontramos para estarmos juntos, com oficinas, palestras, treinamentos e aquele happy hour!)
 Woba (pode marcar para trabalhar em coworking onde quiser!)
 Avaliações semestrais (com oportunidade de promoção)
 
 Por que você deveria se juntar a nós
 
-Artefact é o lugar para estar: venha e construa o futuro da área de dados 
+Artefact é o lugar para estar: venha e construa o futuro da área de dados
 Progresso: cada dia oferece novos desafios e novas oportunidades de aprender
 Cultura: Empatia e Colaboração está no nosso DNA
 Empreendedorismo: você se juntará a uma equipe de empreendedores motivados. Não desistiremos até que façamos uma grande diferença nesta indústria!
@@ -2602,7 +2602,7 @@ A primeira coisa que você precisa saber é que aqui você não vai cair na roti
 
 Quer fazer parte dessa história e transformar ideias e sonhos em realidade?
 
-Como Profissional de Ciência de Dados você vai: 
+Como Profissional de Ciência de Dados você vai:
 
 Coletar, limpar e organizar dados de fontes diversas para análises.
 Desenvolver modelos básicos de machine learning sob a supervisão de cientistas de dados mais experientes.
@@ -2634,36 +2634,36 @@ Conhecimento em GCP.
 
 Benefícios:
 
-Assistência Médica Nacional (para o titular e dependentes, com quarto privativo) 
-Assistência odontológica nacional (para o titular e dependentes) 
-Vale refeição / alimentação flexível 
-Auxílio home office 
-Day off (no mês do aniversário) 
-Wellhub (antigo Gympass) 
-Licença Maternidade (6 meses) e Paternidade (20 dias) estendidas 
-Auxílio creche para filhos de até 3 anos (por filho) 
-Apoio em saúde mental com a Wellz 
-Clube de Vantagens com descontos em diversos parceiros 
-Convênio com instituições de ensino e cursos de idioma 
-Desenvolvimento Profissional (Universidade Corporativa) 
-Parceria com empresa de coworkings no Brasil 
-Programa de Qualidade de Vida e Bem-Estar 
-Médico consultor para acompanhamento de radixers 
-Planos de incentivos 
+Assistência Médica Nacional (para o titular e dependentes, com quarto privativo)
+Assistência odontológica nacional (para o titular e dependentes)
+Vale refeição / alimentação flexível
+Auxílio home office
+Day off (no mês do aniversário)
+Wellhub (antigo Gympass)
+Licença Maternidade (6 meses) e Paternidade (20 dias) estendidas
+Auxílio creche para filhos de até 3 anos (por filho)
+Apoio em saúde mental com a Wellz
+Clube de Vantagens com descontos em diversos parceiros
+Convênio com instituições de ensino e cursos de idioma
+Desenvolvimento Profissional (Universidade Corporativa)
+Parceria com empresa de coworkings no Brasil
+Programa de Qualidade de Vida e Bem-Estar
+Médico consultor para acompanhamento de radixers
+Planos de incentivos
 
 A Radix está sempre no topo das Melhores Empresas para se trabalhar porque:
 
-Temos profissionais comprometidos, dedicados, curiosos e inovadores. 
-O espírito de equipe é a nossa maior força. Trabalhamos de forma cooperativa e sabemos que estamos juntos, remando na mesma direção. 
-Temos um ambiente diverso, que valoriza equidade e inclusão. 
-Nossa jornada de trabalho é flexível e em quase todos os projetos é possível trabalhar de qualquer lugar do Brasil. 
+Temos profissionais comprometidos, dedicados, curiosos e inovadores.
+O espírito de equipe é a nossa maior força. Trabalhamos de forma cooperativa e sabemos que estamos juntos, remando na mesma direção.
+Temos um ambiente diverso, que valoriza equidade e inclusão.
+Nossa jornada de trabalho é flexível e em quase todos os projetos é possível trabalhar de qualquer lugar do Brasil.
 Valorizamos o bem-estar e o cuidado com as nossas pessoas, com programas de apoio à saúde mental, psiquiatra e médico consultor disponíveis.
 
-Curtiu? 
+Curtiu?
 
 código: 4dd1
 
-#VemPraRadix 
+#VemPraRadix
 
 About The Company
 
@@ -2763,10 +2763,10 @@ Applaudo is a place for people who want to learn fast, take ownership, and work 
 Sobre a vaga
 Trabalhar na Azos é ter autonomia de verdade e gente boa do seu lado. Aqui, todo mundo tem espaço pra fazer acontecer e ver o resultado do próprio trabalho chegando na vida de milhares de famílias brasileiras. Acreditamos em um ambiente leve, diverso e colaborativo, onde a troca é constante e o crescimento vem junto com o time.Temos escritórios em São Paulo e Belo Horizonte, mas nosso time está espalhado por todos os cantos do Brasil - e é justamente essa mistura de histórias e perspectivas que fortalece tudo o que construímos juntos.Somos a maior insurtech do Brasil, e nossos valores guiam cada passo da nossa jornada:
 
-O melhor para os nossos clientes, sempre: colocamos clientes e parceiros(as) no centro de tudo, buscando entregar a melhor experiência. 
-Somos tão bons quanto as nossas pessoas: valorizamos um ambiente de confiança, onde todo mundo rema junto e tem espaço pra evoluir. 
-Inconformistas por natureza: não nos contentamos com o básico. Questionamos, testamos e criamos o novo. 
-A postos e dispostos: encaramos desafios com atitude, resiliência, disciplina e leveza, sem nos acomodar. 
+O melhor para os nossos clientes, sempre: colocamos clientes e parceiros(as) no centro de tudo, buscando entregar a melhor experiência.
+Somos tão bons quanto as nossas pessoas: valorizamos um ambiente de confiança, onde todo mundo rema junto e tem espaço pra evoluir.
+Inconformistas por natureza: não nos contentamos com o básico. Questionamos, testamos e criamos o novo.
+A postos e dispostos: encaramos desafios com atitude, resiliência, disciplina e leveza, sem nos acomodar.
 
 Se você busca propósito, liberdade pra criar e um time que joga junto, seu lugar pode ser aqui.
 
@@ -2780,54 +2780,54 @@ Você vai trabalhar com autonomia em problemas que vão do dado bruto ao modelo 
 
 Como Data Scientist você será responsável por:
 
-Construir e validar modelos supervisionados e não supervisionados aplicados a problemas variados do negócio: classificação de risco, segmentação de parceiros, detecção de padrões e modelos de engajamento; 
-Desenvolver motores de decisão automatizada, traduzindo regras de negócio e outputs de modelos em fluxos de aprovação, recusa e parametrização de risco; 
-Contribuir para o desenvolvimento de modelos de visão computacional aplicados à análise e classificação de imagens; 
-Colaborar com engenharia na integração de modelos e soluções em produtos internos de subscrição e automação; 
-Comunicar resultados e recomendações de modelos de forma clara para times de produto e negócio. 
+Construir e validar modelos supervisionados e não supervisionados aplicados a problemas variados do negócio: classificação de risco, segmentação de parceiros, detecção de padrões e modelos de engajamento;
+Desenvolver motores de decisão automatizada, traduzindo regras de negócio e outputs de modelos em fluxos de aprovação, recusa e parametrização de risco;
+Contribuir para o desenvolvimento de modelos de visão computacional aplicados à análise e classificação de imagens;
+Colaborar com engenharia na integração de modelos e soluções em produtos internos de subscrição e automação;
+Comunicar resultados e recomendações de modelos de forma clara para times de produto e negócio.
 
 Importante você saber/ter:
 
-Experiência na construção e validação de modelos supervisionados (classificação, regressão) e não supervisionados (clustering, detecção de anomalias), com foco em problemas reais de negócio; 
-Vivência com motores de decisão automatizada aplicados a risco, crédito, subscrição ou contextos similares; 
-Fundamentos sólidos de visão computacional: pré-processamento de imagem, segmentação e classificação visual (OpenCV ou similares); 
-Python sólido para modelagem e construção de pipelines (pandas, scikit-learn, Hugging Face); 
-Capacidade de conduzir análises exploratórias e comunicar resultados de forma clara para áreas de negócio; 
-Git e familiaridade com ambientes cloud (GCP ou AWS); 
-Formação em Ciência da Computação, Engenharia ou área correlata. 
+Experiência na construção e validação de modelos supervisionados (classificação, regressão) e não supervisionados (clustering, detecção de anomalias), com foco em problemas reais de negócio;
+Vivência com motores de decisão automatizada aplicados a risco, crédito, subscrição ou contextos similares;
+Fundamentos sólidos de visão computacional: pré-processamento de imagem, segmentação e classificação visual (OpenCV ou similares);
+Python sólido para modelagem e construção de pipelines (pandas, scikit-learn, Hugging Face);
+Capacidade de conduzir análises exploratórias e comunicar resultados de forma clara para áreas de negócio;
+Git e familiaridade com ambientes cloud (GCP ou AWS);
+Formação em Ciência da Computação, Engenharia ou área correlata.
 
 Seria legal se você tivesse:
 
-Experiência prática com OCR (Tesseract, PaddleOCR, Google Document AI ou AWS Textract); 
-Experiência com modelos multimodais (vision-language) como LayoutLMv3, Donut ou similares; 
-Vivência com deep learning aplicado a imagens (CNNs, detecção de objetos, segmentação semântica); 
-Experiência com frameworks de pipeline como Kedro ou similares; 
-Vivência em insurtech, fintech ou contextos com dados regulatórios e documentais. 
+Experiência prática com OCR (Tesseract, PaddleOCR, Google Document AI ou AWS Textract);
+Experiência com modelos multimodais (vision-language) como LayoutLMv3, Donut ou similares;
+Vivência com deep learning aplicado a imagens (CNNs, detecção de objetos, segmentação semântica);
+Experiência com frameworks de pipeline como Kedro ou similares;
+Vivência em insurtech, fintech ou contextos com dados regulatórios e documentais.
 
 Benefícios que fazem parte da jornada na Azos
 
 Saúde e bem-estar
 
- Plano de saúde nacional (apartamento), com opção de incluir dependentes — tudo com o suporte da Pipo. 
- Plano odontológico. 
- TotalPass e Wellhub, para equilibrar corpo e mente. 
- Seguro de vida, trazendo mais tranquilidade para você e sua família. 
+ Plano de saúde nacional (apartamento), com opção de incluir dependentes — tudo com o suporte da Pipo.
+ Plano odontológico.
+ TotalPass e Wellhub, para equilibrar corpo e mente.
+ Seguro de vida, trazendo mais tranquilidade para você e sua família.
 
 Família em primeiro lugar
 
- Licença-maternidade estendida. 
- Licença-paternidade estendida. 
- Auxílio-creche para apoiar quem tem filhos. 
+ Licença-maternidade estendida.
+ Licença-paternidade estendida.
+ Auxílio-creche para apoiar quem tem filhos.
 
  Desenvolvimento e carreira
 
- Educazos: apoio para o desenvolvimento dos nossos Azonautas. 
- Stock Options como forma de reconhecimento — concedido conforme elegibilidade. 
+ Educazos: apoio para o desenvolvimento dos nossos Azonautas.
+ Stock Options como forma de reconhecimento — concedido conforme elegibilidade.
 
 Dia a dia mais prático
 
- iFood Benefícios: Vale-refeição e alimentação e Clube Ifood 
- Auxílio-setup para ajudar na estrutura do seu espaço de trabalho. 
+ iFood Benefícios: Vale-refeição e alimentação e Clube Ifood
+ Auxílio-setup para ajudar na estrutura do seu espaço de trabalho.
  Descontos em Farmácias.
 
  Sobre a vaga
@@ -2844,7 +2844,7 @@ Desenvolver casos de uso, business cases e soluções que gerem ganhos de efici�
 Conduzir análises avançadas e diagnósticos para suporte à tomada de decisão e evolução dos indicadores da diretoria.
 Liderar projetos de melhoria contínua, simplificação de processos e aumento de produtividade.
 Atuar de forma transversal entre áreas de negócio e tecnologia, garantindo a implantação e mensuração dos resultados das iniciativas.
-Apoiar a evolução das operações de Telecom, transformando desafios operacionais em soluções digitais e analíticas. 
+Apoiar a evolução das operações de Telecom, transformando desafios operacionais em soluções digitais e analíticas.
 
 Perfil Comportamental
 
@@ -2953,7 +2953,7 @@ Prestar suporte técnico às integrações de APIs REST, apoiando clientes e par
 Atuar na investigação e tratamento de incidentes relacionados a bases de dados, cargas automatizadas, servidores e integrações.
 Apoiar os processos analíticos de faturamento, garantindo consistência das informações e conformidade dos registros.
 Documentar processos, rotinas, procedimentos técnicos e soluções desenvolvidas.
-Realizar estudos analíticos e backtesting de modelos de crédito, fraude e scoring. 
+Realizar estudos analíticos e backtesting de modelos de crédito, fraude e scoring.
 
 Experiência desejável
 
@@ -3313,12 +3313,12 @@ Data: PostgreSQL, ClickHouse, Redis, Kafka, Python
 Core Application: Ruby on Rails, React, TypeScript
 SDKs: iOS, Android, Web, Flutter, React Native
 
-In this role, you will 
+In this role, you will
 
-Sit within product engineering and help drive product decisions using data and causal reasoning 
+Sit within product engineering and help drive product decisions using data and causal reasoning
 Design, implement, execute experiments and analyze results
 Help level-up all of engineering, encouraging data driven decisions and a deep understanding of the important metrics that drive our business forward
-Use rigorous statistical thinking and hands-on modeling to turn our rich marketplace data into tools that directly shape product decisions and key insights 
+Use rigorous statistical thinking and hands-on modeling to turn our rich marketplace data into tools that directly shape product decisions and key insights
 
 You might be a fit if
 
@@ -3400,11 +3400,11 @@ About The Job
 
 Create dashboards and track KPIs, adoption, and business impact of A/B tests.
 Partner with product team members on planning, goal setting and product prioritization.
-Proactively identify data driven opportunities to improve shopper experience and partner with cross functional teams on implementation. 
+Proactively identify data driven opportunities to improve shopper experience and partner with cross functional teams on implementation.
 Able to detect frustration, abandon, or engagement. Highlight exits or bounces in a consumer’s navigation.
-Provide pre/post guidance and analytics review to test owners based on KPIs. 
-Communicate findings and recommendations in a way that is clear and actionable for employees at all levels. 
-Make recommendations and provide launch strategies based on their analyses to increase the feature’s profitability. 
+Provide pre/post guidance and analytics review to test owners based on KPIs.
+Communicate findings and recommendations in a way that is clear and actionable for employees at all levels.
+Make recommendations and provide launch strategies based on their analyses to increase the feature’s profitability.
 Promote a culture of excellence, data driven discussions, healthy skepticism, knowledge sharing, expanding team’s skill set, teamwork, and focus on Levi’s growth.
 
 Key Responsibilities
@@ -3477,13 +3477,13 @@ Construção de métricas que resistem ao escrutínio: histórico de definir OEC
 AI-powered workflows como referência organizacional: não apenas usar GenAI como ferramenta pessoal — mas ter construído workflows de AI que o time e a organização adotam, transformando a prática de Data Science com automação que amplifica rigor sem substituí-lo.
 Convergência com engenharia em escala: capacidade de criar bridges entre Data Science e Engineering, estabelecendo patterns que viram convenção organizacional para code quality, reprodutibilidade e production-readiness em trabalhos analíticos.
 Consciência de custos e eficiência analítica: referência em eliminar waste em experimentação em nível organizacional, com desenhos experimentais eficientes, amostragem inteligente e eliminação de re-trabalho analítico.
-Influência técnica sem autoridade formal: capacidade de alinhar times de engenharia, produto e negócio em torno de abordagens analíticas rigorosas, mesmo quando isso desafia o caminho mais rápido ou mais conveniente. 
+Influência técnica sem autoridade formal: capacidade de alinhar times de engenharia, produto e negócio em torno de abordagens analíticas rigorosas, mesmo quando isso desafia o caminho mais rápido ou mais conveniente.
 
 Para Realçar o Sabor
 
 Impacto em escala cross-company: não apenas valida dentro de um domínio: cria capabilities analíticas que múltiplos domínios e áreas da empresa consomem, com flywheels de aprendizado que influenciam o roadmap organizacional.
 Visão de futuro que influencia estratégia: antecipa novas capabilities e influencia a estratégia de Data Science da organização com base nessa antecipação.
-Multiplicação técnica escalável: mentora múltiplas pessoas com crescimento mensurável, cria learning materials que escalam além de interações 1:1, e introduz novas metodologias que mudam como a organização opera. 
+Multiplicação técnica escalável: mentora múltiplas pessoas com crescimento mensurável, cria learning materials que escalam além de interações 1:1, e introduz novas metodologias que mudam como a organização opera.
 
 Sobre nós
 
@@ -3498,15 +3498,15 @@ Nós, FoodLovers, temos fome de inovação e resultado. Buscamos sempre fazer o 
 Ref. 3215
 
 Sobre a vaga
-Sobre o Bradesco 
+Sobre o Bradesco
 
 A gente acredita no poder da confiança. Confiança que aproxima, orienta e transforma a vida das pessoas no dia a dia. Entrar no Bradesco é fazer parte de um momento real de transformação. Um ambiente que combina a solidez de uma história construída ao longo de décadas com a evolução constante de quem está sempre olhando para frente. Aqui, você encontra espaço para aprender, crescer e assumir protagonismo na sua trajetória, com apoio, estrutura e oportunidades que acompanham o seu desenvolvimento. Mais do que trabalhar em uma grande instituição, é sobre fazer parte de um time que impacta milhões de pessoas, contribui para o desenvolvimento do país e constrói, todos os dias, um futuro mais acessível e sustentável para a sociedade.
 
- Sobre a área 
+ Sobre a área
 
 CRM: Gerencia estratégias de relacionamento com clientes por meio do uso de dados e inteligência analítica. Atua na segmentação de públicos e na personalização de ofertas, comunicações e jornadas, maximizando relevância e engajamento. Contribui para aquisição, fidelização e crescimento, apoiando decisões comerciais e a evolução da experiência do cliente.
 
- Como será seu dia a dia? 
+ Como será seu dia a dia?
 
 Como Data Scientist II, você atuará na área de Modelagem e suas principais atividades serão:
 
@@ -3520,17 +3520,17 @@ Como Data Scientist II, você atuará na área de Modelagem e suas principais at
  Contribuir para a evolução dos ativos analíticos da área.
 
 
- Modelo de trabalho 
+ Modelo de trabalho
 
 Híbrido - 1x Presencial
 
 Unidade: Osasco - SP
 
- Perfil que buscamos 
+ Perfil que buscamos
 
 Valorizamos quem entende o cliente em profundidade, trabalha em parceria e transforma conhecimento em entregas com impacto. Profissionais com senso de dono, consistência na execução e foco em resultado, que evoluem continuamente, compartilham aprendizados e usam tecnologia para transformar desafios em soluções relevantes para o negócio.
 
- Requisitos 
+ Requisitos
 
 
  Graduação ou Pós-Graduação em Ciência de Dados, Estatística, Matemática, Economia, Engenharia, Computação, Sistemas de Informação ou áreas correlatas;
@@ -3548,9 +3548,9 @@ Será um diferencial se você tiver:
  Certificações ou especializações na área de Data Science e Analytics.
 
 
- O que você encontra aqui 
+ O que você encontra aqui
 
- Cuidar de você 
+ Cuidar de você
 
 
  Plano de saúde e odontológico
@@ -3559,14 +3559,14 @@ Será um diferencial se você tiver:
  TotalPass
 
 
- Crescer com você 
+ Crescer com você
 
 
  Universidade corporativa Bradesco (Unibrad)
  Parcerias educacionais
 
 
- Segurança para o seu futuro 
+ Segurança para o seu futuro
 
 
  Participação nos lucros ou Bônus (conforme a elegibilidade de cargo)
@@ -3575,7 +3575,7 @@ Será um diferencial se você tiver:
  Isenção de Tarifas: condições especiais em diversos produtos e serviços
 
 
- Apoio à sua vida e à sua família 
+ Apoio à sua vida e à sua família
 
 
  Vale alimentação e refeição
@@ -3588,7 +3588,7 @@ Será um diferencial se você tiver:
 
 Tudo pensado para apoiar sua jornada de crescimento com equilíbrio, segurança e oportunidade.
 
- Diversidade 
+ Diversidade
 
 No Bradesco, diversidade é valor e estratégia. Trabalhamos para construir um ambiente inclusivo e um quadro de colaboradores que reflita a diversidade da sociedade brasileira. Por isso, valorizamos pessoas com diferentes histórias e características, como gênero, raça, orientação sexual, deficiência, idade e outras dimensões da diversidade.
 
@@ -3673,7 +3673,7 @@ Location: State of São Paulo, San José, Santo Domingo, Buenos Aires, Santiago,
 Your partner for AI, consulting, software development, and nearshore staffing.
 
 Sobre a vaga
-Sobre a vaga 
+Sobre a vaga
 
 Responsabilidades e atribuições
 
@@ -3703,7 +3703,7 @@ Cultura e Idiomas:
 Experiência prática trabalhando com metodologias Ágeis (Agile).
 Inglês Avançado (leitura, escrita e conversação técnica).
 
-Cultura na BRQ 
+Cultura na BRQ
 
 Chamamos de BRQ Way o nosso jeito de cuidar das pessoas, com iniciativas de carreira e desenvolvimento, saúde e bem-estar, e comunicação e conexão. Trabalhamos com flexibilidade de acordo com o contexto do projeto (anywhere office, híbrido ou presencial) e investimos em desenvolvimento contínuo com BRQ Academy, mentoria, incentivo a certificações e programas de idiomas, entre outras frentes.
 
@@ -3741,12 +3741,12 @@ Data: PostgreSQL, ClickHouse, Redis, Kafka, Python
 Core Application: Ruby on Rails, React, TypeScript
 SDKs: iOS, Android, Web, Flutter, React Native
 
-In this role, you will 
+In this role, you will
 
-Sit within product engineering and help drive product decisions using data and causal reasoning 
+Sit within product engineering and help drive product decisions using data and causal reasoning
 Design, implement, execute experiments and analyze results
 Help level-up all of engineering, encouraging data driven decisions and a deep understanding of the important metrics that drive our business forward
-Use rigorous statistical thinking and hands-on modeling to turn our rich marketplace data into tools that directly shape product decisions and key insights 
+Use rigorous statistical thinking and hands-on modeling to turn our rich marketplace data into tools that directly shape product decisions and key insights
 
 You might be a fit if
 

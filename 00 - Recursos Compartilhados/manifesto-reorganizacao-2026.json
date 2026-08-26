@@ -5,7 +5,7 @@
   "total_study_days": 111,
   "future_sessions_reorganized": 105,
   "first_future_session": "2026-08-24",
-  "last_session": "2027-01-25",
+  "last_session": "2027-04-26",
   "completed_days_preserved": {
     "OK - Dia 03-08 - Preparacao e diagnostico": {
       "02-pratica-sem-consulta/diagnostico.py": "b4a75a43fc51f45973a48aaa348e096a5afcd3150e3f03567b2db5254556b212",
@@ -61,7 +61,7 @@
     },
     "E03": {
       "origin": "legacy",
-      "study_date": "2026-08-25",
+      "study_date": "2026-08-27",
       "order": 1,
       "slug": "listas",
       "title": "Listas",
@@ -69,7 +69,7 @@
     },
     "E04": {
       "origin": "legacy",
-      "study_date": "2026-08-25",
+      "study_date": "2026-08-27",
       "order": 2,
       "slug": "listas-compostas-e-matrizes",
       "title": "Listas compostas e matrizes",
@@ -77,7 +77,7 @@
     },
     "E05": {
       "origin": "legacy",
-      "study_date": "2026-08-26",
+      "study_date": "2026-08-31",
       "order": 1,
       "slug": "dicionarios-e-set",
       "title": "Dicionarios e set",
@@ -85,7 +85,7 @@
     },
     "E06": {
       "origin": "legacy",
-      "study_date": "2026-08-26",
+      "study_date": "2026-08-31",
       "order": 2,
       "slug": "funcoes-com-parametros",
       "title": "Funcoes com parametros",
@@ -93,7 +93,7 @@
     },
     "E07": {
       "origin": "legacy",
-      "study_date": "2026-08-27",
+      "study_date": "2026-09-01",
       "order": 1,
       "slug": "funcoes-com-retorno",
       "title": "Funcoes com retorno",
@@ -101,7 +101,7 @@
     },
     "E08": {
       "origin": "legacy",
-      "study_date": "2026-08-27",
+      "study_date": "2026-09-01",
       "order": 2,
       "slug": "modulos-e-pacotes",
       "title": "Modulos e pacotes",
@@ -109,7 +109,7 @@
     },
     "E09": {
       "origin": "legacy",
-      "study_date": "2026-08-28",
+      "study_date": "2026-09-03",
       "order": 1,
       "slug": "excecoes-e-menu",
       "title": "Excecoes e menu",
@@ -117,7 +117,7 @@
     },
     "E10": {
       "origin": "legacy",
-      "study_date": "2026-08-31",
+      "study_date": "2026-09-07",
       "order": 1,
       "slug": "arquivos-e-projeto-final",
       "title": "Arquivos e projeto final",
@@ -125,7 +125,7 @@
     },
     "E100": {
       "origin": "legacy",
-      "study_date": "2026-12-07",
+      "study_date": "2027-02-08",
       "order": 2,
       "slug": "refatoracao-de-notebook",
       "title": "Refatoracao de notebook",
@@ -133,7 +133,7 @@
     },
     "E101": {
       "origin": "legacy",
-      "study_date": "2026-12-08",
+      "study_date": "2027-02-09",
       "order": 1,
       "slug": "testes",
       "title": "Testes",
@@ -141,7 +141,7 @@
     },
     "E102": {
       "origin": "legacy",
-      "study_date": "2026-12-08",
+      "study_date": "2027-02-09",
       "order": 2,
       "slug": "qualidade-e-configuracao",
       "title": "Qualidade e configuracao",
@@ -149,7 +149,7 @@
     },
     "E103": {
       "origin": "legacy",
-      "study_date": "2026-12-09",
+      "study_date": "2027-02-11",
       "order": 1,
       "slug": "ci-e-versao-estavel",
       "title": "CI e versao estavel",
@@ -157,7 +157,7 @@
     },
     "E104": {
       "origin": "legacy",
-      "study_date": "2026-12-09",
+      "study_date": "2027-02-11",
       "order": 2,
       "slug": "fastapi-e-contrato",
       "title": "FastAPI e contrato",
@@ -165,7 +165,7 @@
     },
     "E105": {
       "origin": "legacy",
-      "study_date": "2026-12-10",
+      "study_date": "2027-02-15",
       "order": 1,
       "slug": "serializacao-e-pipeline-de-inferencia",
       "title": "Serializacao e pipeline de inferencia",
@@ -173,7 +173,7 @@
     },
     "E106": {
       "origin": "legacy",
-      "study_date": "2026-12-10",
+      "study_date": "2027-02-15",
       "order": 2,
       "slug": "docker",
       "title": "Docker",
@@ -181,7 +181,7 @@
     },
     "E107": {
       "origin": "legacy",
-      "study_date": "2026-12-11",
+      "study_date": "2027-02-16",
       "order": 1,
       "slug": "logs-e-monitoramento-basico",
       "title": "Logs e monitoramento basico",
@@ -189,7 +189,7 @@
     },
     "E108": {
       "origin": "legacy",
-      "study_date": "2026-12-14",
+      "study_date": "2027-02-18",
       "order": 1,
       "slug": "publicacao-do-servico",
       "title": "Publicacao do servico",
@@ -197,7 +197,7 @@
     },
     "E109": {
       "origin": "legacy",
-      "study_date": "2026-12-15",
+      "study_date": "2027-02-22",
       "order": 1,
       "slug": "conceitos-de-cloud-para-dados",
       "title": "Conceitos de cloud para dados",
@@ -205,7 +205,7 @@
     },
     "E11": {
       "origin": "legacy",
-      "study_date": "2026-09-01",
+      "study_date": "2026-09-08",
       "order": 1,
       "slug": "funcoes-e-primeiro-mini-projeto",
       "title": "Funcoes e primeiro mini-projeto",
@@ -213,7 +213,7 @@
     },
     "E110": {
       "origin": "legacy",
-      "study_date": "2026-12-16",
+      "study_date": "2027-02-23",
       "order": 1,
       "slug": "armazenamento-e-processamento",
       "title": "Armazenamento e processamento",
@@ -221,7 +221,7 @@
     },
     "E111": {
       "origin": "legacy",
-      "study_date": "2026-12-17",
+      "study_date": "2027-02-25",
       "order": 1,
       "slug": "databricks-aplicado",
       "title": "Databricks aplicado",
@@ -229,7 +229,7 @@
     },
     "E112": {
       "origin": "legacy",
-      "study_date": "2026-12-18",
+      "study_date": "2027-03-01",
       "order": 1,
       "slug": "mlops-introdutorio",
       "title": "MLOps introdutorio",
@@ -237,7 +237,7 @@
     },
     "E113": {
       "origin": "legacy",
-      "study_date": "2026-12-21",
+      "study_date": "2027-03-02",
       "order": 1,
       "slug": "arquitetura-e-entrevista",
       "title": "Arquitetura e entrevista",
@@ -245,7 +245,7 @@
     },
     "E114": {
       "origin": "legacy",
-      "study_date": "2026-12-24",
+      "study_date": "2027-03-09",
       "order": 1,
       "slug": "fundamentos-de-llms",
       "title": "Fundamentos de LLMs",
@@ -254,7 +254,7 @@
     },
     "E115": {
       "origin": "legacy",
-      "study_date": "2026-12-24",
+      "study_date": "2027-03-09",
       "order": 2,
       "slug": "apis-e-prompts-estruturados",
       "title": "APIs e prompts estruturados",
@@ -263,7 +263,7 @@
     },
     "E116": {
       "origin": "legacy",
-      "study_date": "2026-12-28",
+      "study_date": "2027-03-11",
       "order": 1,
       "slug": "embeddings-e-busca-semantica",
       "title": "Embeddings e busca semantica",
@@ -272,7 +272,7 @@
     },
     "E117": {
       "origin": "legacy",
-      "study_date": "2026-12-29",
+      "study_date": "2027-03-15",
       "order": 1,
       "slug": "avaliacao-de-aplicacoes-llm",
       "title": "Avaliacao de aplicacoes LLM",
@@ -281,7 +281,7 @@
     },
     "E118": {
       "origin": "legacy",
-      "study_date": "2026-12-31",
+      "study_date": "2027-03-18",
       "order": 1,
       "slug": "miniaplicacao-de-ia",
       "title": "Miniaplicacao de IA",
@@ -290,7 +290,7 @@
     },
     "E119": {
       "origin": "legacy",
-      "study_date": "2027-01-04",
+      "study_date": "2027-03-22",
       "order": 1,
       "slug": "escopo-e-documentos",
       "title": "Escopo e documentos",
@@ -299,7 +299,7 @@
     },
     "E12": {
       "origin": "legacy",
-      "study_date": "2026-09-01",
+      "study_date": "2026-09-08",
       "order": 2,
       "slug": "compreensoes-e-funcoes-uteis",
       "title": "Compreensoes e funcoes uteis",
@@ -307,7 +307,7 @@
     },
     "E120": {
       "origin": "legacy",
-      "study_date": "2027-01-04",
+      "study_date": "2027-03-22",
       "order": 2,
       "slug": "ingestao-e-chunking",
       "title": "Ingestao e chunking",
@@ -316,7 +316,7 @@
     },
     "E121": {
       "origin": "legacy",
-      "study_date": "2027-01-05",
+      "study_date": "2027-03-23",
       "order": 1,
       "slug": "recuperacao",
       "title": "Recuperacao",
@@ -325,7 +325,7 @@
     },
     "E122": {
       "origin": "legacy",
-      "study_date": "2027-01-05",
+      "study_date": "2027-03-23",
       "order": 2,
       "slug": "geracao-com-fontes",
       "title": "Geracao com fontes",
@@ -334,7 +334,7 @@
     },
     "E123": {
       "origin": "legacy",
-      "study_date": "2027-01-06",
+      "study_date": "2027-03-25",
       "order": 1,
       "slug": "avaliacao-e-publicacao",
       "title": "Avaliacao e publicacao",
@@ -343,7 +343,7 @@
     },
     "E124": {
       "origin": "legacy",
-      "study_date": "2027-01-07",
+      "study_date": "2027-03-29",
       "order": 1,
       "slug": "definicao-do-produto",
       "title": "Definicao do produto integrador",
@@ -351,7 +351,7 @@
     },
     "E125": {
       "origin": "legacy",
-      "study_date": "2027-01-07",
+      "study_date": "2027-03-29",
       "order": 2,
       "slug": "dados-sql-e-arquitetura",
       "title": "Dados, SQL e arquitetura",
@@ -359,7 +359,7 @@
     },
     "E126": {
       "origin": "legacy",
-      "study_date": "2027-01-08",
+      "study_date": "2027-03-30",
       "order": 1,
       "slug": "eda-baseline-e-decisao",
       "title": "EDA, baseline e decisao",
@@ -367,7 +367,7 @@
     },
     "E127": {
       "origin": "legacy",
-      "study_date": "2027-01-11",
+      "study_date": "2027-04-01",
       "order": 1,
       "slug": "modelo-ia-e-interface",
       "title": "Modelo, IA e interface",
@@ -375,7 +375,7 @@
     },
     "E128": {
       "origin": "legacy",
-      "study_date": "2027-01-12",
+      "study_date": "2027-04-05",
       "order": 1,
       "slug": "teste-apresentacao-e-retrospectiva",
       "title": "Teste, apresentacao e retrospectiva",
@@ -383,7 +383,7 @@
     },
     "E129": {
       "origin": "legacy",
-      "study_date": "2027-01-13",
+      "study_date": "2027-04-06",
       "order": 1,
       "slug": "github-e-portfolio",
       "title": "GitHub e portfolio",
@@ -391,7 +391,7 @@
     },
     "E13": {
       "origin": "legacy",
-      "study_date": "2026-09-02",
+      "study_date": "2026-09-10",
       "order": 1,
       "slug": "arquivos-csv-json-e-caminhos",
       "title": "Arquivos CSV, JSON e caminhos",
@@ -399,7 +399,7 @@
     },
     "E130": {
       "origin": "legacy",
-      "study_date": "2027-01-13",
+      "study_date": "2027-04-06",
       "order": 2,
       "slug": "curriculo-linkedin-e-narrativa",
       "title": "Curriculo, LinkedIn e narrativa",
@@ -407,7 +407,7 @@
     },
     "E131": {
       "origin": "legacy",
-      "study_date": "2027-01-14",
+      "study_date": "2027-04-08",
       "order": 1,
       "slug": "simulado-de-python-e-sql",
       "title": "Simulado de Python e SQL",
@@ -415,7 +415,7 @@
     },
     "E132": {
       "origin": "legacy",
-      "study_date": "2027-01-15",
+      "study_date": "2027-04-12",
       "order": 1,
       "slug": "simulado-de-estatistica",
       "title": "Simulado de Estatística, ML e comportamento",
@@ -423,7 +423,7 @@
     },
     "E133": {
       "origin": "legacy",
-      "study_date": "2027-01-18",
+      "study_date": "2027-04-13",
       "order": 1,
       "slug": "pre-projeto-e-banca-zero-churn-e-efeito",
       "title": "Pré-projeto e banca zero — churn e efeito incremental",
@@ -431,7 +431,7 @@
     },
     "E134": {
       "origin": "legacy",
-      "study_date": "2027-01-19",
+      "study_date": "2027-04-15",
       "order": 1,
       "slug": "tcc-dados-schema-leakage-e-protocolo",
       "title": "TCC — dados, schema, leakage e protocolo experimental",
@@ -439,7 +439,7 @@
     },
     "E135": {
       "origin": "legacy",
-      "study_date": "2027-01-20",
+      "study_date": "2027-04-19",
       "order": 1,
       "slug": "tcc-benchmark-preditivo-e-ranking-de-risco",
       "title": "TCC — benchmark preditivo e ranking de risco",
@@ -447,7 +447,7 @@
     },
     "E136": {
       "origin": "legacy",
-      "study_date": "2027-01-21",
+      "study_date": "2027-04-20",
       "order": 1,
       "slug": "tcc-efeito-incremental-e-politica",
       "title": "TCC — efeito incremental e política de retenção",
@@ -455,7 +455,7 @@
     },
     "E137": {
       "origin": "legacy",
-      "study_date": "2027-01-22",
+      "study_date": "2027-04-22",
       "order": 1,
       "slug": "tcc-testes-observabilidade-e-ciclo-de-vida",
       "title": "TCC — testes, observabilidade e ciclo de vida",
@@ -463,7 +463,7 @@
     },
     "E138": {
       "origin": "legacy",
-      "study_date": "2027-01-25",
+      "study_date": "2027-04-26",
       "order": 1,
       "slug": "tcc-release-banca-e-comunicacao",
       "title": "TCC — release, banca e comunicação profissional",
@@ -471,7 +471,7 @@
     },
     "E14": {
       "origin": "legacy",
-      "study_date": "2026-09-02",
+      "study_date": "2026-09-10",
       "order": 2,
       "slug": "excecoes-e-validacao",
       "title": "Excecoes e validacao",
@@ -479,7 +479,7 @@
     },
     "E15": {
       "origin": "legacy",
-      "study_date": "2026-09-03",
+      "study_date": "2026-09-14",
       "order": 1,
       "slug": "modulos-pacotes-e-ambientes",
       "title": "Modulos, pacotes e ambientes",
@@ -487,7 +487,7 @@
     },
     "E16": {
       "origin": "legacy",
-      "study_date": "2026-09-04",
+      "study_date": "2026-09-15",
       "order": 1,
       "slug": "mini-projeto-de-consolidacao",
       "title": "Mini-projeto de consolidacao",
@@ -495,7 +495,7 @@
     },
     "E17": {
       "origin": "legacy",
-      "study_date": "2026-09-08",
+      "study_date": "2026-09-17",
       "order": 1,
       "slug": "numpy-essencial",
       "title": "NumPy essencial",
@@ -503,7 +503,7 @@
     },
     "E18": {
       "origin": "legacy",
-      "study_date": "2026-09-08",
+      "study_date": "2026-09-17",
       "order": 2,
       "slug": "pandas-series-e-dataframe",
       "title": "pandas - Series e DataFrame",
@@ -511,7 +511,7 @@
     },
     "E19": {
       "origin": "legacy",
-      "study_date": "2026-09-09",
+      "study_date": "2026-09-21",
       "order": 1,
       "slug": "limpeza-de-dados",
       "title": "Limpeza de dados",
@@ -519,7 +519,7 @@
     },
     "E20": {
       "origin": "legacy",
-      "study_date": "2026-09-09",
+      "study_date": "2026-09-21",
       "order": 2,
       "slug": "agrupamento-merge-e-reshape",
       "title": "Agrupamento, merge e reshape",
@@ -527,7 +527,7 @@
     },
     "E21": {
       "origin": "legacy",
-      "study_date": "2026-09-10",
+      "study_date": "2026-09-22",
       "order": 1,
       "slug": "eda-pratica",
       "title": "EDA pratica",
@@ -535,7 +535,7 @@
     },
     "E22": {
       "origin": "legacy",
-      "study_date": "2026-09-10",
+      "study_date": "2026-09-22",
       "order": 2,
       "slug": "fundamentos-de-visualizacao",
       "title": "Fundamentos de visualizacao",
@@ -543,7 +543,7 @@
     },
     "E23": {
       "origin": "legacy",
-      "study_date": "2026-09-11",
+      "study_date": "2026-09-24",
       "order": 1,
       "slug": "visualizacao-com-pandas",
       "title": "Visualizacao com pandas e Matplotlib",
@@ -551,7 +551,7 @@
     },
     "E24": {
       "origin": "legacy",
-      "study_date": "2026-09-11",
+      "study_date": "2026-09-24",
       "order": 2,
       "slug": "storytelling-e-recomendacao",
       "title": "Storytelling e recomendacao",
@@ -559,7 +559,7 @@
     },
     "E25": {
       "origin": "legacy",
-      "study_date": "2026-09-14",
+      "study_date": "2026-09-28",
       "order": 1,
       "slug": "dashboard-introdutorio",
       "title": "Dashboard introdutorio",
@@ -567,7 +567,7 @@
     },
     "E26": {
       "origin": "legacy",
-      "study_date": "2026-09-15",
+      "study_date": "2026-09-29",
       "order": 1,
       "slug": "entrega-executiva",
       "title": "Entrega executiva",
@@ -575,7 +575,7 @@
     },
     "E27": {
       "origin": "legacy",
-      "study_date": "2026-09-17",
+      "study_date": "2026-10-05",
       "order": 1,
       "slug": "banco-relacional-e-select",
       "title": "Banco relacional e SELECT",
@@ -583,7 +583,7 @@
     },
     "E28": {
       "origin": "legacy",
-      "study_date": "2026-09-17",
+      "study_date": "2026-10-05",
       "order": 2,
       "slug": "filtros-e-funcoes",
       "title": "Filtros e funcoes",
@@ -591,7 +591,7 @@
     },
     "E29": {
       "origin": "legacy",
-      "study_date": "2026-09-18",
+      "study_date": "2026-10-06",
       "order": 1,
       "slug": "agregacoes",
       "title": "Agregacoes",
@@ -599,7 +599,7 @@
     },
     "E30": {
       "origin": "legacy",
-      "study_date": "2026-09-18",
+      "study_date": "2026-10-06",
       "order": 2,
       "slug": "joins",
       "title": "JOINs",
@@ -607,7 +607,7 @@
     },
     "E31": {
       "origin": "legacy",
-      "study_date": "2026-09-22",
+      "study_date": "2026-10-12",
       "order": 1,
       "slug": "mini-case-sql",
       "title": "Mini-case SQL",
@@ -615,7 +615,7 @@
     },
     "E32": {
       "origin": "legacy",
-      "study_date": "2026-09-23",
+      "study_date": "2026-10-13",
       "order": 1,
       "slug": "subqueries-e-ctes",
       "title": "Subqueries e CTEs",
@@ -623,7 +623,7 @@
     },
     "E33": {
       "origin": "legacy",
-      "study_date": "2026-09-23",
+      "study_date": "2026-10-13",
       "order": 2,
       "slug": "funcoes-de-janela",
       "title": "Funcoes de janela",
@@ -631,7 +631,7 @@
     },
     "E34": {
       "origin": "legacy",
-      "study_date": "2026-09-24",
+      "study_date": "2026-10-15",
       "order": 1,
       "slug": "datas-e-analise-temporal",
       "title": "Datas e analise temporal",
@@ -639,7 +639,7 @@
     },
     "E35": {
       "origin": "legacy",
-      "study_date": "2026-09-24",
+      "study_date": "2026-10-15",
       "order": 2,
       "slug": "cohorts-e-retencao",
       "title": "Cohorts e retencao",
@@ -647,7 +647,7 @@
     },
     "E36": {
       "origin": "legacy",
-      "study_date": "2026-09-25",
+      "study_date": "2026-10-19",
       "order": 1,
       "slug": "simulado-sql",
       "title": "Simulado SQL",
@@ -655,7 +655,7 @@
     },
     "E37": {
       "origin": "legacy",
-      "study_date": "2026-09-28",
+      "study_date": "2026-10-20",
       "order": 1,
       "slug": "medidas-e-distribuicoes",
       "title": "Medidas e distribuicoes",
@@ -663,7 +663,7 @@
     },
     "E38": {
       "origin": "legacy",
-      "study_date": "2026-09-28",
+      "study_date": "2026-10-20",
       "order": 2,
       "slug": "probabilidade-basica",
       "title": "Probabilidade basica",
@@ -671,7 +671,7 @@
     },
     "E39": {
       "origin": "legacy",
-      "study_date": "2026-09-29",
+      "study_date": "2026-10-22",
       "order": 1,
       "slug": "distribuicoes-importantes",
       "title": "Distribuicoes importantes",
@@ -679,7 +679,7 @@
     },
     "E40": {
       "origin": "legacy",
-      "study_date": "2026-09-29",
+      "study_date": "2026-10-22",
       "order": 2,
       "slug": "amostragem-e-lei-dos-grandes-numeros",
       "title": "Amostragem e Lei dos Grandes Numeros",
@@ -687,7 +687,7 @@
     },
     "E41": {
       "origin": "legacy",
-      "study_date": "2026-09-30",
+      "study_date": "2026-10-26",
       "order": 1,
       "slug": "case-estatistico",
       "title": "Case estatistico",
@@ -695,7 +695,7 @@
     },
     "E42": {
       "origin": "legacy",
-      "study_date": "2026-10-01",
+      "study_date": "2026-10-27",
       "order": 1,
       "slug": "intervalos-de-confianca",
       "title": "Intervalos de confianca",
@@ -703,7 +703,7 @@
     },
     "E43": {
       "origin": "legacy",
-      "study_date": "2026-10-01",
+      "study_date": "2026-10-27",
       "order": 2,
       "slug": "testes-de-hipotese",
       "title": "Testes de hipotese",
@@ -711,7 +711,7 @@
     },
     "E44": {
       "origin": "legacy",
-      "study_date": "2026-10-02",
+      "study_date": "2026-10-29",
       "order": 1,
       "slug": "teste-a-b",
       "title": "Teste A-B",
@@ -719,7 +719,7 @@
     },
     "E45": {
       "origin": "legacy",
-      "study_date": "2026-10-05",
+      "study_date": "2026-11-02",
       "order": 1,
       "slug": "correlacao-causalidade-e-vieses",
       "title": "Correlacao, causalidade e vieses",
@@ -727,7 +727,7 @@
     },
     "E46": {
       "origin": "legacy",
-      "study_date": "2026-10-08",
+      "study_date": "2026-11-09",
       "order": 1,
       "slug": "entrega-de-experimento",
       "title": "Entrega de experimento",
@@ -735,7 +735,7 @@
     },
     "E47": {
       "origin": "legacy",
-      "study_date": "2026-10-09",
+      "study_date": "2026-11-10",
       "order": 1,
       "slug": "definicao-do-problema",
       "title": "Definicao do problema",
@@ -743,7 +743,7 @@
     },
     "E48": {
       "origin": "legacy",
-      "study_date": "2026-10-09",
+      "study_date": "2026-11-10",
       "order": 2,
       "slug": "separacao-e-vazamento",
       "title": "Separacao e vazamento",
@@ -751,7 +751,7 @@
     },
     "E49": {
       "origin": "legacy",
-      "study_date": "2026-10-13",
+      "study_date": "2026-11-12",
       "order": 1,
       "slug": "pre-processamento-com-pipeline",
       "title": "Pre-processamento com Pipeline",
@@ -759,7 +759,7 @@
     },
     "E50": {
       "origin": "legacy",
-      "study_date": "2026-10-13",
+      "study_date": "2026-11-12",
       "order": 2,
       "slug": "metricas-de-classificacao",
       "title": "Metricas de classificacao",
@@ -767,7 +767,7 @@
     },
     "E51": {
       "origin": "legacy",
-      "study_date": "2026-10-14",
+      "study_date": "2026-11-16",
       "order": 1,
       "slug": "baseline-completo",
       "title": "Baseline completo",
@@ -775,7 +775,7 @@
     },
     "E52": {
       "origin": "legacy",
-      "study_date": "2026-10-15",
+      "study_date": "2026-11-17",
       "order": 1,
       "slug": "regressao-linear",
       "title": "Regressao linear",
@@ -783,7 +783,7 @@
     },
     "E53": {
       "origin": "legacy",
-      "study_date": "2026-10-15",
+      "study_date": "2026-11-17",
       "order": 2,
       "slug": "metricas-de-regressao",
       "title": "Metricas de regressao",
@@ -791,7 +791,7 @@
     },
     "E54": {
       "origin": "legacy",
-      "study_date": "2026-10-16",
+      "study_date": "2026-11-19",
       "order": 1,
       "slug": "regularizacao",
       "title": "Regularizacao",
@@ -799,7 +799,7 @@
     },
     "E55": {
       "origin": "legacy",
-      "study_date": "2026-10-16",
+      "study_date": "2026-11-19",
       "order": 2,
       "slug": "feature-engineering-para-regressao",
       "title": "Feature engineering para regressao",
@@ -807,7 +807,7 @@
     },
     "E56": {
       "origin": "legacy",
-      "study_date": "2026-10-19",
+      "study_date": "2026-11-23",
       "order": 1,
       "slug": "mini-projeto-de-regressao",
       "title": "Mini-projeto de regressao",
@@ -815,7 +815,7 @@
     },
     "E57": {
       "origin": "legacy",
-      "study_date": "2026-10-20",
+      "study_date": "2026-11-24",
       "order": 1,
       "slug": "regressao-logistica",
       "title": "Regressao logistica",
@@ -823,7 +823,7 @@
     },
     "E58": {
       "origin": "legacy",
-      "study_date": "2026-10-20",
+      "study_date": "2026-11-24",
       "order": 2,
       "slug": "limiar-e-custo",
       "title": "Limiar e custo",
@@ -831,7 +831,7 @@
     },
     "E59": {
       "origin": "legacy",
-      "study_date": "2026-10-21",
+      "study_date": "2026-11-26",
       "order": 1,
       "slug": "calibracao-e-probabilidades",
       "title": "Calibracao e probabilidades",
@@ -839,7 +839,7 @@
     },
     "E60": {
       "origin": "legacy",
-      "study_date": "2026-10-21",
+      "study_date": "2026-11-26",
       "order": 2,
       "slug": "classes-desbalanceadas",
       "title": "Classes desbalanceadas",
@@ -847,7 +847,7 @@
     },
     "E61": {
       "origin": "legacy",
-      "study_date": "2026-10-22",
+      "study_date": "2026-11-30",
       "order": 1,
       "slug": "case-de-decisao",
       "title": "Case de decisao",
@@ -855,7 +855,7 @@
     },
     "E62": {
       "origin": "legacy",
-      "study_date": "2026-10-23",
+      "study_date": "2026-12-01",
       "order": 1,
       "slug": "arvore-de-decisao",
       "title": "Arvore de decisao",
@@ -863,7 +863,7 @@
     },
     "E63": {
       "origin": "legacy",
-      "study_date": "2026-10-23",
+      "study_date": "2026-12-01",
       "order": 2,
       "slug": "random-forest",
       "title": "Random Forest",
@@ -871,7 +871,7 @@
     },
     "E64": {
       "origin": "legacy",
-      "study_date": "2026-10-26",
+      "study_date": "2026-12-03",
       "order": 1,
       "slug": "gradient-boosting",
       "title": "Gradient Boosting",
@@ -879,7 +879,7 @@
     },
     "E65": {
       "origin": "legacy",
-      "study_date": "2026-10-27",
+      "study_date": "2026-12-07",
       "order": 1,
       "slug": "selecao-de-modelo",
       "title": "Selecao de modelo",
@@ -887,7 +887,7 @@
     },
     "E66": {
       "origin": "legacy",
-      "study_date": "2026-10-28",
+      "study_date": "2026-12-08",
       "order": 1,
       "slug": "benchmark-publicado",
       "title": "Benchmark publicado",
@@ -895,7 +895,7 @@
     },
     "E67": {
       "origin": "legacy",
-      "study_date": "2026-10-29",
+      "study_date": "2026-12-10",
       "order": 1,
       "slug": "feature-engineering",
       "title": "Feature engineering",
@@ -903,7 +903,7 @@
     },
     "E68": {
       "origin": "legacy",
-      "study_date": "2026-10-29",
+      "study_date": "2026-12-10",
       "order": 2,
       "slug": "validacao-cruzada-e-tuning",
       "title": "Validacao cruzada e tuning",
@@ -911,7 +911,7 @@
     },
     "E69": {
       "origin": "legacy",
-      "study_date": "2026-10-30",
+      "study_date": "2026-12-14",
       "order": 1,
       "slug": "selecao-de-variaveis",
       "title": "Selecao de variaveis",
@@ -919,7 +919,7 @@
     },
     "E70": {
       "origin": "legacy",
-      "study_date": "2026-10-30",
+      "study_date": "2026-12-14",
       "order": 2,
       "slug": "explicabilidade",
       "title": "Explicabilidade",
@@ -927,7 +927,7 @@
     },
     "E71": {
       "origin": "legacy",
-      "study_date": "2026-11-03",
+      "study_date": "2026-12-15",
       "order": 1,
       "slug": "auditoria-do-pipeline",
       "title": "Auditoria do pipeline",
@@ -935,7 +935,7 @@
     },
     "E72": {
       "origin": "legacy",
-      "study_date": "2026-11-04",
+      "study_date": "2026-12-17",
       "order": 1,
       "slug": "definicao-do-case",
       "title": "Definicao do case",
@@ -943,7 +943,7 @@
     },
     "E73": {
       "origin": "legacy",
-      "study_date": "2026-11-04",
+      "study_date": "2026-12-17",
       "order": 2,
       "slug": "engenharia-e-qualidade-dos-dados",
       "title": "Engenharia e qualidade dos dados",
@@ -951,7 +951,7 @@
     },
     "E74": {
       "origin": "legacy",
-      "study_date": "2026-11-05",
+      "study_date": "2026-12-21",
       "order": 1,
       "slug": "eda-orientada-a-churn",
       "title": "EDA orientada a churn",
@@ -959,7 +959,7 @@
     },
     "E75": {
       "origin": "legacy",
-      "study_date": "2026-11-05",
+      "study_date": "2026-12-21",
       "order": 2,
       "slug": "sql-do-projeto",
       "title": "SQL do projeto",
@@ -967,7 +967,7 @@
     },
     "E76": {
       "origin": "legacy",
-      "study_date": "2026-11-06",
+      "study_date": "2026-12-22",
       "order": 1,
       "slug": "preparacao-para-modelagem",
       "title": "Preparacao para modelagem",
@@ -975,7 +975,7 @@
     },
     "E77": {
       "origin": "legacy",
-      "study_date": "2026-11-06",
+      "study_date": "2026-12-22",
       "order": 2,
       "slug": "baselines-e-modelos",
       "title": "Baselines e modelos",
@@ -983,7 +983,7 @@
     },
     "E78": {
       "origin": "legacy",
-      "study_date": "2026-11-09",
+      "study_date": "2026-12-24",
       "order": 1,
       "slug": "k-means-e-pca",
       "title": "K-Means e PCA",
@@ -991,7 +991,7 @@
     },
     "E79": {
       "origin": "legacy",
-      "study_date": "2026-11-09",
+      "study_date": "2026-12-24",
       "order": 2,
       "slug": "dbscan-e-avaliacao-de-clusters",
       "title": "DBSCAN e avaliacao de clusters",
@@ -999,7 +999,7 @@
     },
     "E80": {
       "origin": "legacy",
-      "study_date": "2026-11-10",
+      "study_date": "2026-12-28",
       "order": 1,
       "slug": "limiar-e-estrategia",
       "title": "Limiar e estrategia de retencao",
@@ -1007,7 +1007,7 @@
     },
     "E81": {
       "origin": "legacy",
-      "study_date": "2026-11-10",
+      "study_date": "2026-12-28",
       "order": 2,
       "slug": "explicabilidade-e-segmentos",
       "title": "Explicabilidade e segmentos",
@@ -1015,7 +1015,7 @@
     },
     "E82": {
       "origin": "legacy",
-      "study_date": "2026-11-11",
+      "study_date": "2026-12-29",
       "order": 1,
       "slug": "relatorio-e-dashboard",
       "title": "Relatorio e dashboard",
@@ -1023,7 +1023,7 @@
     },
     "E83": {
       "origin": "legacy",
-      "study_date": "2026-11-12",
+      "study_date": "2026-12-31",
       "order": 1,
       "slug": "publicacao-e-apresentacao",
       "title": "Publicacao e apresentacao",
@@ -1031,7 +1031,7 @@
     },
     "E84": {
       "origin": "legacy",
-      "study_date": "2026-11-19",
+      "study_date": "2027-01-12",
       "order": 1,
       "slug": "fundamentos-temporais",
       "title": "Fundamentos temporais",
@@ -1039,7 +1039,7 @@
     },
     "E85": {
       "origin": "legacy",
-      "study_date": "2026-11-19",
+      "study_date": "2027-01-12",
       "order": 2,
       "slug": "baselines-temporais",
       "title": "Baselines temporais",
@@ -1047,7 +1047,7 @@
     },
     "E86": {
       "origin": "legacy",
-      "study_date": "2026-11-23",
+      "study_date": "2027-01-14",
       "order": 1,
       "slug": "modelos-tradicionais",
       "title": "Modelos tradicionais",
@@ -1055,7 +1055,7 @@
     },
     "E87": {
       "origin": "legacy",
-      "study_date": "2026-11-24",
+      "study_date": "2027-01-18",
       "order": 1,
       "slug": "previsao-e-decisao",
       "title": "Previsao e decisao",
@@ -1063,7 +1063,7 @@
     },
     "E88": {
       "origin": "legacy",
-      "study_date": "2026-11-25",
+      "study_date": "2027-01-19",
       "order": 1,
       "slug": "projeto-de-forecasting",
       "title": "Projeto de forecasting",
@@ -1071,7 +1071,7 @@
     },
     "E89": {
       "origin": "legacy",
-      "study_date": "2026-11-26",
+      "study_date": "2027-01-21",
       "order": 1,
       "slug": "problema-e-governanca",
       "title": "Problema e governanca",
@@ -1079,7 +1079,7 @@
     },
     "E90": {
       "origin": "legacy",
-      "study_date": "2026-11-26",
+      "study_date": "2027-01-21",
       "order": 2,
       "slug": "dados-e-cohorts",
       "title": "Dados e cohorts",
@@ -1087,7 +1087,7 @@
     },
     "E91": {
       "origin": "legacy",
-      "study_date": "2026-11-27",
+      "study_date": "2027-01-25",
       "order": 1,
       "slug": "modelagem-de-risco",
       "title": "Modelagem de risco",
@@ -1095,7 +1095,7 @@
     },
     "E92": {
       "origin": "legacy",
-      "study_date": "2026-11-27",
+      "study_date": "2027-01-25",
       "order": 2,
       "slug": "politica-e-custo",
       "title": "Politica e custo",
@@ -1103,7 +1103,7 @@
     },
     "E93": {
       "origin": "legacy",
-      "study_date": "2026-11-30",
+      "study_date": "2027-01-26",
       "order": 1,
       "slug": "entrega-do-projeto",
       "title": "Entrega do projeto",
@@ -1111,7 +1111,7 @@
     },
     "E94": {
       "origin": "legacy",
-      "study_date": "2026-12-01",
+      "study_date": "2027-01-28",
       "order": 1,
       "slug": "etl-elt-e-arquitetura-basica",
       "title": "ETL-ELT e arquitetura basica",
@@ -1119,7 +1119,7 @@
     },
     "E95": {
       "origin": "legacy",
-      "study_date": "2026-12-01",
+      "study_date": "2027-01-28",
       "order": 2,
       "slug": "pipeline-em-python",
       "title": "Pipeline em Python",
@@ -1127,7 +1127,7 @@
     },
     "E96": {
       "origin": "legacy",
-      "study_date": "2026-12-02",
+      "study_date": "2027-02-01",
       "order": 1,
       "slug": "orquestracao-conceitual",
       "title": "Orquestracao conceitual",
@@ -1135,7 +1135,7 @@
     },
     "E97": {
       "origin": "legacy",
-      "study_date": "2026-12-03",
+      "study_date": "2027-02-02",
       "order": 1,
       "slug": "databricks-e-spark-introdutorio",
       "title": "Databricks e Spark introdutorio",
@@ -1143,7 +1143,7 @@
     },
     "E98": {
       "origin": "legacy",
-      "study_date": "2026-12-04",
+      "study_date": "2027-02-04",
       "order": 1,
       "slug": "entrega-do-pipeline",
       "title": "Entrega do pipeline",
@@ -1151,7 +1151,7 @@
     },
     "E99": {
       "origin": "legacy",
-      "study_date": "2026-12-07",
+      "study_date": "2027-02-08",
       "order": 1,
       "slug": "git-profissional-basico",
       "title": "Git profissional basico",
@@ -1159,203 +1159,203 @@
     },
     "N01": {
       "origin": "market",
-      "study_date": "2026-09-03",
+      "study_date": "2026-09-14",
       "order": 2,
       "slug": "python-profissional-oop-dataclasses-tipos",
       "title": "Python profissional: OOP, dataclasses, tipos e módulos"
     },
     "N02": {
       "origin": "market",
-      "study_date": "2026-09-21",
+      "study_date": "2026-10-08",
       "order": 1,
       "slug": "modelagem-dimensional-fatos-dimensoes",
       "title": "Modelagem dimensional: fatos, dimensões, grão e SCD"
     },
     "N03": {
       "origin": "market",
-      "study_date": "2026-09-21",
+      "study_date": "2026-10-08",
       "order": 2,
       "slug": "performance-sql-explain-indices-particoes",
       "title": "Performance SQL: EXPLAIN, índices, partições e custo"
     },
     "N04": {
       "origin": "market",
-      "study_date": "2026-09-14",
+      "study_date": "2026-09-28",
       "order": 2,
       "slug": "power-bi-avancado-modelo-estrela-dax",
       "title": "Power BI avançado: modelo estrela, DAX e contexto de filtro"
     },
     "N05": {
       "origin": "market",
-      "study_date": "2026-09-16",
+      "study_date": "2026-10-01",
       "order": 1,
       "slug": "product-analytics-i-tracking-plan-eventos",
       "title": "Product Analytics I: tracking plan, eventos e árvore de métricas"
     },
     "N06": {
       "origin": "market",
-      "study_date": "2026-09-16",
+      "study_date": "2026-10-01",
       "order": 2,
       "slug": "product-analytics-ii-funil-ativacao",
       "title": "Product Analytics II: funil, ativação, retenção, cohorts e LTV"
     },
     "N07": {
       "origin": "market",
-      "study_date": "2026-10-02",
+      "study_date": "2026-10-29",
       "order": 2,
       "slug": "experimentacao-avancada-testes-multiplos",
       "title": "Experimentação avançada: testes múltiplos, CUPED e desenho sequencial"
     },
     "N08": {
       "origin": "market",
-      "study_date": "2026-10-05",
+      "study_date": "2026-11-02",
       "order": 2,
       "slug": "causalidade-i-contrafactual-dag",
       "title": "Causalidade I: contrafactual, DAG, identificação e backdoor"
     },
     "N09": {
       "origin": "market",
-      "study_date": "2026-10-06",
+      "study_date": "2026-11-03",
       "order": 1,
       "slug": "causalidade-ii-propensity-score-matching",
       "title": "Causalidade II: propensity score, matching, IPW e balanceamento"
     },
     "N10": {
       "origin": "market",
-      "study_date": "2026-10-06",
+      "study_date": "2026-11-03",
       "order": 2,
       "slug": "causalidade-iii-diferencas-em-diferencas",
       "title": "Causalidade III: diferenças em diferenças e estudo de evento"
     },
     "N11": {
       "origin": "market",
-      "study_date": "2026-10-07",
+      "study_date": "2026-11-05",
       "order": 1,
       "slug": "causalidade-iv-controle-sintetico",
       "title": "Causalidade IV: controle sintético e placebos"
     },
     "N12": {
       "origin": "market",
-      "study_date": "2026-12-22",
+      "study_date": "2027-03-04",
       "order": 1,
       "slug": "nlp-classico-normalizacao-tf-idf",
       "title": "NLP clássico: normalização, TF-IDF e classificação de texto"
     },
     "N13": {
       "origin": "market",
-      "study_date": "2026-12-22",
+      "study_date": "2027-03-04",
       "order": 2,
       "slug": "nlp-aplicado-ner-dados-multilingues",
       "title": "NLP aplicado: NER, dados multilíngues e análise de erros"
     },
     "N14": {
       "origin": "market",
-      "study_date": "2026-12-23",
+      "study_date": "2027-03-08",
       "order": 1,
       "slug": "entity-matching-i-normalizacao",
       "title": "Entity matching I: normalização e baselines exato, fuzzy e TF-IDF"
     },
     "N15": {
       "origin": "market",
-      "study_date": "2026-12-23",
+      "study_date": "2027-03-08",
       "order": 2,
       "slug": "entity-matching-ii-blocking-deduplicacao",
       "title": "Entity matching II: blocking, deduplicação e geração de candidatos"
     },
     "N16": {
       "origin": "market",
-      "study_date": "2026-12-28",
+      "study_date": "2027-03-11",
       "order": 2,
       "slug": "entity-matching-iii-embeddings-hard",
       "title": "Entity matching III: embeddings, hard negatives e multilinguismo"
     },
     "N17": {
       "origin": "market",
-      "study_date": "2026-12-29",
+      "study_date": "2027-03-15",
       "order": 2,
       "slug": "ranking-de-candidatos-e-introducao",
       "title": "Ranking de candidatos e introdução a sistemas de recomendação"
     },
     "N18": {
       "origin": "market",
-      "study_date": "2026-12-30",
+      "study_date": "2027-03-16",
       "order": 1,
       "slug": "entrega-real-entity-matching-lab",
       "title": "Entrega real: Entity Matching Lab"
     },
     "N19": {
       "origin": "market",
-      "study_date": "2026-11-13",
+      "study_date": "2027-01-04",
       "order": 1,
       "slug": "pytorch-i-tensores-dataset-dataloader",
       "title": "PyTorch I: tensores, Dataset, DataLoader, autograd e training loop"
     },
     "N20": {
       "origin": "market",
-      "study_date": "2026-11-16",
+      "study_date": "2027-01-05",
       "order": 1,
       "slug": "pytorch-ii-mlp-regularizacao",
       "title": "PyTorch II: MLP, regularização, desbalanceamento e tracking"
     },
     "N21": {
       "origin": "market",
-      "study_date": "2026-11-17",
+      "study_date": "2027-01-07",
       "order": 1,
       "slug": "visao-computacional-i-classificacao",
       "title": "Visão computacional I: classificação e transfer learning"
     },
     "N22": {
       "origin": "market",
-      "study_date": "2026-11-18",
+      "study_date": "2027-01-11",
       "order": 1,
       "slug": "visao-computacional-ii-deteccao",
       "title": "Visão computacional II: detecção, segmentação, IoU, mAP e Dice"
     },
     "N23": {
       "origin": "market",
-      "study_date": "2026-12-15",
+      "study_date": "2027-02-22",
       "order": 2,
       "slug": "gcp-pratico-iam-service-accounts-e-cloud",
       "title": "GCP prático: IAM, service accounts e Cloud Storage"
     },
     "N24": {
       "origin": "market",
-      "study_date": "2026-12-16",
+      "study_date": "2027-02-23",
       "order": 2,
       "slug": "bigquery-warehouse-particoes-custo",
       "title": "BigQuery: warehouse, partições, custo e consultas reais"
     },
     "N25": {
       "origin": "market",
-      "study_date": "2026-12-02",
+      "study_date": "2027-02-01",
       "order": 2,
       "slug": "airflow-real-dag-retries-backfill",
       "title": "Airflow real: DAG, retries, backfill e observabilidade"
     },
     "N26": {
       "origin": "market",
-      "study_date": "2026-09-02",
+      "study_date": "2026-09-10",
       "order": 3,
       "slug": "consumo-seguro-e-confiavel-de-apis-rest",
       "title": "Consumo seguro e confiável de APIs REST com Python"
     },
     "N27": {
       "origin": "market",
-      "study_date": "2026-09-14",
+      "study_date": "2026-09-28",
       "order": 3,
       "slug": "excel-analitico-e-power-query",
       "title": "Excel analítico e Power Query"
     },
     "N28": {
       "origin": "market",
-      "study_date": "2026-12-16",
+      "study_date": "2027-02-23",
       "order": 3,
       "slug": "dbt-e-analytics-engineering",
       "title": "dbt e Analytics Engineering"
     },
     "N29": {
       "origin": "market",
-      "study_date": "2027-01-14",
+      "study_date": "2027-04-08",
       "order": 2,
       "slug": "case-tecnico-cronometrado-com-excel-sql",
       "title": "Case técnico cronometrado com Excel, SQL, Python e Power BI"
